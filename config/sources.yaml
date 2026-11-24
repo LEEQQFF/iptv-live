@@ -6,8 +6,8 @@
 # ============================================================
 
 settings:
-  # 每个频道最多保留的接口数（按官方域名优先 + 测活延迟排序）
-  max_urls_per_channel: 5
+  # 每个频道最多保留的接口数（官方直采置顶 + 多源交叉验证排序）
+  max_urls_per_channel: 3
   # 台标模板（{id} 替换为 tvg-id）
   logo_template: "https://tb.zbds.top/logo/{id}.png"
   # 是否保留无法归入 央视/卫视/地方 的频道（如港澳台、海外中文台）
@@ -60,6 +60,9 @@ settings:
     - sjtv.cn
     - snrtv.com
     - cnwest.com
+    - ysp.cctv.cn
+    - cctvplus.com
+    - cgtn.com
 
   probe:
     enabled: true
@@ -142,14 +145,32 @@ sources:
     urls:
       - "https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u"
 
-  # ---- 官方固定公开流补充位 ----
-  # 说明：央视/卫视官网直播页（tv.cctv.com、yangshipin.cn 等）的流地址
-  # 普遍带动态鉴权 token，无法长期稳定直抓；上方社区项目本身持续跟踪
-  # 这些官方流。此处可手动追加已验证长期稳定的官方固定 HLS 地址，
-  # 格式：name: 频道名 / url: 直链。示例（吉林台官方公开流）：
+  # ---- 央视频官方直采（CCTV 全频道 + 全部卫视 + CGTN，每次运行实时生成） ----
+  - name: yangshipin-official
+    type: ysp
+
+  # ---- 官方固定公开流补充位（已验证长期稳定） ----
+  # 说明：央视/卫视官网直播页流地址普遍带动态鉴权，无法长期稳定直抓；
+  # 上方 ysp/snrtv 动态源每次运行实时解析官方流。此处收录已验证的固定官方流。
   - name: official-fixed
     type: fixed
     entries:
+      - name: "CCTV+1"
+        url: "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8"
+      - name: "CCTV+2"
+        url: "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8"
+      - name: "CCTV+3"
+        url: "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL3.smil/playlist.m3u8"
+      - name: "CGTN法语"
+        url: "https://news.cgtn.com/resource/live/french/cgtn-f.m3u8"
+      - name: "CGTN阿语"
+        url: "https://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8"
+      - name: "CGTN俄语"
+        url: "https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8"
+      - name: "浙江卫视"
+        url: "https://ali-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8"
+      - name: "浙江钱江都市"
+        url: "https://ali-m-l.cztv.com/channels/lantian/channel02/1080p.m3u8"
       - name: "吉林卫视"
         url: "https://stream2.jlntv.cn/jlws/sd/live.m3u8"
       - name: "白城新闻综合"
