@@ -128,6 +128,11 @@ def classify(raw: str):
     if m and m.group(1) in EN_WS:
         canon = EN_WS[m.group(1)]
         return canon, canon, "卫视频道", canon
+    # CCTV+ 系列（央视国际付费频道）
+    m = re.match(r"^CCTV\+(\d)$", s)
+    if m:
+        key = f"CCTV+{m.group(1)}"
+        return key, key, "央视频道", key
     # CCTV
     m = re.search(r"CCTV[-_]?(\d{1,2})(\+|PLUS)?", s, re.I)
     if m:
@@ -245,9 +250,9 @@ def probe_one(url, timeout):
                 break
         r.close()
         ct = r.headers.get("Content-Type", "").lower()
+        # 严格判定：必须是真实 HLS 清单或 TS 流，拒绝 HTML 错误页等假阳性
         ok = (b"#EXTM3U" in chunk or b"#EXT-X-" in chunk
-              or "mpegurl" in ct or "octet-stream" in ct
-              or chunk[:3] == b"\x47\x40\x11" or len(chunk) >= 4096)
+              or "mpegurl" in ct or chunk[:1] == b"\x47")
         return url, ok, round(time.time() - t0, 2)
     except Exception:
         return url, False, None
@@ -355,6 +360,20 @@ def main():
                 source_health[src["name"]] = f"failed: {type(ex).__name__}"
                 print(f"[源] {src['name']}: 解析失败 {type(ex).__name__}", flush=True)
             continue
+        if src.get("type") == "ysp":
+            try:
+                from ysp import fetch_yangshipin
+                entries = fetch_yangshipin()
+                for e in entries:
+                    all_items.append({"raw_name": e["name"], "url": e["url"],
+                                      "tvg_id": "", "logo": "", "source": src["name"],
+                                      "whitelist": True})
+                source_health[src["name"]] = f"ok ({len(entries)}条, 央视频官方)"
+                print(f"[源] {src['name']}: {len(entries)} 条（央视频官方）", flush=True)
+            except Exception as ex:
+                source_health[src["name"]] = f"failed: {type(ex).__name__}"
+                print(f"[源] {src['name']}: 失败 {type(ex).__name__}", flush=True)
+            continue
         text, used = fetch_source(src)
         if text:
             items = parse_m3u(text, src["name"])
@@ -370,7 +389,7 @@ def main():
     exclude = st.get("exclude_keywords", [])
     official = tuple(st.get("official_domains", []))
     channels = {}   # key -> dict
-    seen = set()
+    idx = {}        # (key, url_key) -> url条目（用于多源交叉计数）
     dropped = 0
     for it in all_items:
         if any(k in it["raw_name"] for k in exclude):
@@ -386,26 +405,36 @@ def main():
         key, disp, group, tid = c
         uk = url_key(it["url"])
         dk = (key, uk)
-        if dk in seen:
+        if dk in idx:
+            u = idx[dk]
+            u["sources"].add(it["source"])
+            if it.get("whitelist"):
+                u["whitelist"] = True
             continue
-        seen.add(dk)
         host = urlparse(it["url"]).netloc.lower()
         is_official = any(host == d or host.endswith("." + d) for d in official)
+        is_ip = bool(re.match(r"^\d+\.\d+\.\d+\.\d+", host))
         ch = channels.setdefault(key, {"display": disp, "group": group,
                                        "tvg_id": tid, "logo": it["logo"], "urls": []})
-        ch["urls"].append({"url": it["url"], "official": is_official,
-                           "source": it["source"], "alive": None, "lat": None,
-                           "whitelist": it.get("whitelist", False)})
+        u = {"url": it["url"], "official": is_official, "ip": is_ip,
+             "sources": {it["source"]}, "alive": None, "lat": None,
+             "whitelist": it.get("whitelist", False)}
+        idx[dk] = u
+        ch["urls"].append(u)
     print(f"[分类] 频道 {len(channels)} 个，未归类剔除 {dropped} 条", flush=True)
 
     # 3. 测活（每频道限量送测）
     pcfg = st.get("probe", {})
     probe_enabled = pcfg.get("enabled", True) and not args.no_probe
+    def u_rank(u):
+        # 白名单(官方直采) > 官方域名 > 多源交叉验证数 > 非纯IP节点 > 延迟
+        return (not u.get("whitelist"), not u["official"], -len(u["sources"]),
+                u.get("ip", False), u["lat"] or 999)
     if probe_enabled:
         max_pc = pcfg.get("max_per_channel", 8)
         to_probe = []
         for ch in channels.values():
-            ch["urls"].sort(key=lambda x: (not x["official"], x["source"]))
+            ch["urls"].sort(key=u_rank)
             for u in ch["urls"][:max_pc]:
                 to_probe.append(u["url"])
         to_probe = list(dict.fromkeys(to_probe))
@@ -447,10 +476,10 @@ def main():
             alive_urls = [u for u in urls if u["alive"] or u.get("whitelist")]
             if not alive_urls:
                 continue
-            alive_urls.sort(key=lambda u: (not u.get("whitelist"), not u["official"], u["lat"] or 999))
+            alive_urls.sort(key=u_rank)
             urls = alive_urls
         else:
-            urls.sort(key=lambda u: (not u["official"], u["source"]))
+            urls.sort(key=u_rank)
         urls = urls[:max_urls]
         if not urls:
             continue
