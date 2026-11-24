@@ -1,0 +1,125 @@
+# ============================================================
+# IPTV 直播源聚合配置
+# 每个 source 的 urls 按顺序尝试，任一成功即停（镜像回退）。
+# GitHub Actions 运行环境可直连 raw.githubusercontent.com；
+# 本地/国内环境优先走自有域名镜像。
+# ============================================================
+
+settings:
+  # 每个频道最多保留的接口数（按官方域名优先 + 测活延迟排序）
+  max_urls_per_channel: 5
+  # 台标模板（{id} 替换为 tvg-id）
+  logo_template: "https://tb.zbds.top/logo/{id}.png"
+  # 是否保留无法归入 央视/卫视/地方 的频道（如港澳台、海外中文台）
+  include_other: false
+  # 频道名黑名单关键词（命中即剔除）
+  exclude_keywords: ["购物", "广告", "测试", "导视", "博彩", "占位", "支持作者"]
+  # 官方/电视台自营 CDN 域名（命中则排序优先）
+  official_domains:
+    - cctv.com
+    - cntv.cn
+    - yangshipin.cn
+    - cztv.com
+    - jlntv.cn
+    - juyun.tv
+    - brtvcloud.com
+    - wasu.cn
+    - miguvideo.com
+    - cmvideo.cn
+    - hoolo.tv
+    - tvhuan.com
+    - kankanlive.com
+    - jstv.com
+    - zrtg.com
+    - sdtv.com.cn
+    - hnntv.cn
+    - hbtv.com.cn
+    - gdtv.cn
+    - scgc.tv
+    - cqtv.cn
+    - xjtvs.com.cn
+    - nmtv.cn
+    - lntv.com.cn
+    - jilintv.cn
+    - hljtv.com
+    - ahtv.cn
+    - fjtvs.com
+    - jxtv.com.cn
+    - sxtvs.com
+    - gstv.com.cn
+    - qhbtv.com
+    - nxtv.com.cn
+    - xjtvs.com
+    - tibet.cn
+    - yntv.cn
+    - gzstv.com
+    - gxntv.com.cn
+    - hainantv.com
+    - hebtv.com
+    - sxrtv.com
+    - sjtv.cn
+
+  probe:
+    enabled: true
+    timeout: 8          # 单接口测活超时（秒）
+    workers: 32         # 并发数
+    max_per_channel: 8  # 每频道最多送测接口数（控制总耗时）
+    # 存活率低于该值时，判定运行环境网络受限，跳过过滤只排序
+    min_alive_ratio: 0.05
+
+  epg:
+    keep_days: 3        # 节目单保留天数（今天起向后）
+    urls:
+      - "http://epg.51zmt.top:8000/e.xml"
+      - "https://live.fanmingming.com/e.xml"
+      - "https://raw.githubusercontent.com/fanmingming/live/main/e.xml"
+      - "https://ghgo.xyz/raw.githubusercontent.com/fanmingming/live/main/e.xml"
+
+sources:
+  # ---- 社区长期维护聚合项目（本身持续跟踪官方公开流） ----
+  - name: vbskycn-ipv4
+    urls:
+      - "https://live.zbds.top/tv/iptv4.m3u"
+      - "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u"
+
+  - name: vbskycn-ipv6
+    urls:
+      - "https://live.zbds.top/tv/iptv6.m3u"
+      - "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv6.m3u"
+
+  - name: fanmingming-ipv6
+    urls:
+      - "https://live.fanmingming.com/tv/m3u/ipv6.m3u"
+      - "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u"
+
+  - name: fanmingming-ipv4
+    urls:
+      - "https://live.fanmingming.com/tv/m3u/ipv4.m3u"
+      - "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv4.m3u"
+
+  - name: iptv-org-cn
+    urls:
+      - "https://iptv-org.github.io/iptv/countries/cn.m3u"
+
+  - name: yuanzl77
+    urls:
+      - "https://raw.githubusercontent.com/yuanzl77/IPTV/main/live.m3u"
+      - "http://175.178.251.183:6689/live.m3u"
+
+  - name: guovin-iptv-api
+    urls:
+      - "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      - "https://ghgo.xyz/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+
+  # ---- 官方固定公开流补充位 ----
+  # 说明：央视/卫视官网直播页（tv.cctv.com、yangshipin.cn 等）的流地址
+  # 普遍带动态鉴权 token，无法长期稳定直抓；上方社区项目本身持续跟踪
+  # 这些官方流。此处可手动追加已验证长期稳定的官方固定 HLS 地址，
+  # 格式：name: 频道名 / url: 直链。示例（吉林台官方公开流）：
+  - name: official-fixed
+    type: fixed
+    entries:
+      - name: "吉林卫视"
+        url: "https://stream2.jlntv.cn/jlws/sd/live.m3u8"
+      - name: "白城新闻综合"
+        url: "https://stream2.jlntv.cn/baicheng1/sd/live.m3u8"
