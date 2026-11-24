@@ -46,7 +46,18 @@ WEISHI = {
     "云南卫视": "云南", "西藏卫视": "西藏", "陕西卫视": "陕西", "甘肃卫视": "甘肃",
     "青海卫视": "青海", "宁夏卫视": "宁夏", "新疆卫视": "新疆", "兵团卫视": "新疆",
     "深圳卫视": "广东", "厦门卫视": "福建", "康巴卫视": "四川", "延边卫视": "吉林",
-    "三沙卫视": "海南", "大湾区卫视": "广东", "安多卫视": "青海",
+    "三沙卫视": "海南", "大湾区卫视": "广东", "安多卫视": "青海", "农林卫视": "陕西",
+}
+
+# 陕西省级频道旧称/别名 -> 现行规范名（2025 年频道调整）
+SX_ALIAS = {
+    "陕西一套": "陕西新闻资讯", "陕西新闻": "陕西新闻资讯", "陕西新闻咨询": "陕西新闻资讯",
+    "陕西二套": "陕西都市青春", "陕西都市": "陕西都市青春",
+    "陕西三套": "陕西银龄", "陕西生活": "陕西银龄",
+    "陕西五套": "陕西秦腔", "陕西公共": "陕西秦腔",
+    "陕西七套": "陕西体育休闲", "陕西体育": "陕西体育休闲",
+    "陕西八套": "陕西西部电影", "陕西影视": "陕西西部电影",
+    "陕西农林": "农林卫视",
 }
 WEISHI_ALIAS = {
     "上海卫视": "东方卫视", "福建卫视": "东南卫视", "旅游卫视": "海南卫视",
@@ -111,6 +122,7 @@ def classify(raw: str):
     s = clean_name(raw)
     if not s or re.fullmatch(r"[\d\-: .]+", s):
         return None
+    s = SX_ALIAS.get(s, s)
     # 英文命名卫视（iptv-org）
     m = re.match(r"^([A-Za-z]+)SatelliteTV", s)
     if m and m.group(1) in EN_WS:
@@ -329,6 +341,20 @@ def main():
                                   "tvg_id": "", "logo": "", "source": src["name"]})
             source_health[src["name"]] = "fixed"
             continue
+        if src.get("type") == "snrtv":
+            try:
+                from snrtv import fetch_snrtv
+                entries = fetch_snrtv()
+                for e in entries:
+                    all_items.append({"raw_name": e["name"], "url": e["url"],
+                                      "tvg_id": "", "logo": "", "source": src["name"],
+                                      "whitelist": True})
+                source_health[src["name"]] = f"ok ({len(entries)}条, 官方动态解析)"
+                print(f"[源] {src['name']}: {len(entries)} 条（陕西官方）", flush=True)
+            except Exception as ex:
+                source_health[src["name"]] = f"failed: {type(ex).__name__}"
+                print(f"[源] {src['name']}: 解析失败 {type(ex).__name__}", flush=True)
+            continue
         text, used = fetch_source(src)
         if text:
             items = parse_m3u(text, src["name"])
@@ -368,7 +394,8 @@ def main():
         ch = channels.setdefault(key, {"display": disp, "group": group,
                                        "tvg_id": tid, "logo": it["logo"], "urls": []})
         ch["urls"].append({"url": it["url"], "official": is_official,
-                           "source": it["source"], "alive": None, "lat": None})
+                           "source": it["source"], "alive": None, "lat": None,
+                           "whitelist": it.get("whitelist", False)})
     print(f"[分类] 频道 {len(channels)} 个，未归类剔除 {dropped} 条", flush=True)
 
     # 3. 测活（每频道限量送测）
@@ -402,7 +429,13 @@ def main():
     group_order = {"央视频道": 0, "卫视频道": 1}
     def gsort(g):
         return (group_order.get(g, 2), g)
-    ordered = sorted(channels.values(), key=lambda c: (gsort(c["group"]), c["display"]))
+    def ch_sort(c):
+        # 央视频道按 CCTV1→CCTV17 数字顺序（CCTV5+ 紧随 CCTV5），其余按名称
+        m = re.match(r"CCTV-(\d+)(\+)?", c["display"])
+        if c["group"] == "央视频道" and m:
+            return (gsort(c["group"]), 0, int(m.group(1)), bool(m.group(2)), "")
+        return (gsort(c["group"]), 1, 0, False, c["display"])
+    ordered = sorted(channels.values(), key=ch_sort)
 
     m3u_lines = ['#EXTM3U x-tvg-url="e.xml" url-tvg="e.xml"']
     txt_lines = []
@@ -411,10 +444,10 @@ def main():
     for ch in ordered:
         urls = ch["urls"]
         if probe_enabled:
-            alive_urls = [u for u in urls if u["alive"]]
+            alive_urls = [u for u in urls if u["alive"] or u.get("whitelist")]
             if not alive_urls:
                 continue
-            alive_urls.sort(key=lambda u: (not u["official"], u["lat"] or 999))
+            alive_urls.sort(key=lambda u: (not u.get("whitelist"), not u["official"], u["lat"] or 999))
             urls = alive_urls
         else:
             urls.sort(key=lambda u: (not u["official"], u["source"]))
