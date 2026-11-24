@@ -2,8 +2,8 @@ name: 更新直播源与EPG
 
 on:
   schedule:
-    # 每 4 小时自动更新一次（UTC），即北京时间 0/4/8/12/16/20 点
-    - cron: "0 */4 * * *"
+    # 每小时自动更新一次（央视频官方流带时效 vkey，需高频刷新）
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 permissions:
