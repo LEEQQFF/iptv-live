@@ -168,10 +168,34 @@ def stream_sort_key(stream: dict):
 
 def main():
     raw = json.loads((ROOT / "channels.raw.json").read_text(encoding="utf-8"))
-    groups = {g["name"]: g for g in raw["groups"]}
-    for g in groups.values():
+    # SparkTV assets use province-level groups; map them into the three primary categories.
+    groups = {}
+    for g in raw["groups"]:
+        gname = g["name"]
+        if gname in ("央视", "卫视", "港澳台", "其他"):
+            target = gname
+        else:
+            target = "地方"
+        bucket = groups.setdefault(target, {"name": target, "channels": []})
         for ch in g["channels"]:
             ch["_origin"] = "channels.raw.json"
+            ch["_rawGroup"] = gname
+            if target == "地方" and not ch.get("province") and gname in PROVINCES:
+                ch["province"] = gname
+                ch["city"] = gname
+            bucket["channels"].append(ch)
+    # Merge same-name channels that appeared in multiple raw groups.
+    for g in groups.values():
+        merged_channels = []
+        by_name = {}
+        for ch in g["channels"]:
+            k = norm(ch["name"])
+            if k in by_name:
+                by_name[k]["streams"].extend(ch["streams"])
+            else:
+                by_name[k] = ch
+                merged_channels.append(ch)
+        g["channels"] = merged_channels
 
     # Alias index for matching subscription names to the offline library.
     alias = {}
@@ -313,7 +337,7 @@ def main():
     merged = {
         "schema": 3,
         "updated": "2026-11-25",
-        "source": "channels.raw.json + SparkTV 默认订阅地址清单（11 个公开 M3U/M3U8）",
+        "source": "SparkTV assets/channels.json (2026-11-17, 473频道/1402线路) + SparkTV 默认订阅地址清单（11 个公开 M3U/M3U8）",
         "groups": ordered,
         "stats": {
             "subscription_rows": len(rows),

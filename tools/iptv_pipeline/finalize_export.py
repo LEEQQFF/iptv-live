@@ -58,7 +58,7 @@ def main():
     final = {
         "schema": 3,
         "updated": TODAY,
-        "source": "channels.raw.json + SparkTV 默认订阅地址清单（11 个公开 M3U/M3U8）",
+        "source": "SparkTV assets/channels.json (2026-11-17) + SparkTV 默认订阅地址清单（11 个公开 M3U/M3U8）",
         "grouping": ["央视", "卫视", "地方", "港澳台", "其他"],
         "ordering": "官方源 > 检活存活 > 响应延迟升序",
         "liveness": {
@@ -232,7 +232,7 @@ def main():
 | `tools/` | 复现脚本：parse_merge.py / check_liveness.py / finalize_export.py |
 
 ## 口径
-1. 聚合：`channels.raw.json` + 11 个公开 M3U/M3U8 订阅地址（{merged['stats']['subscription_rows']} 行，跳过 {merged['stats'].get('subscription_skipped_rows',0)} 行非直播/VOD）。
+1. 聚合：SparkTV `assets/channels.json`（2026-11-17，473 频道 / 1402 线路，省级分组映射为地方）+ 11 个公开 M3U/M3U8 订阅地址（{merged['stats']['subscription_rows']} 行，跳过 {merged['stats'].get('subscription_skipped_rows',0)} 行非直播/VOD）。
 2. 去重：同一频道内按完整 URL 去重；全局唯一 URL {final['stats']['unique_urls']} 条。
 3. 归类：央视 / 卫视 / 地方（主），港澳台 / 其他（附）。
 4. 严格检活：逐条真实 HTTP GET，仅 2xx/3xx 且返回 M3U/TS 媒体字节判为存活。

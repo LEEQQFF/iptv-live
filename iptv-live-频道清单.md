@@ -1,12 +1,12 @@
 # iptv-live 直播源清单
 
-- 数据时间：2026-11-25 2026-11-25T22:58:18+08:00
-- 频道 1713 个 / 线路 4369 条 / 唯一 URL 3956 条
-- 严格检活：存活 1267 / 失效 3102
+- 数据时间：2026-11-25 2026-11-25T23:08:23+08:00
+- 频道 1690 个 / 线路 4371 条 / 唯一 URL 3950 条
+- 严格检活：存活 1333 / 失效 3038
 - 排序：官方源 > 检活存活 > 响应延迟升序（⭐=官方源，✅=检活存活，❌=失效）
 - 清单为纯文本，可直接修改；同内容的 Excel/CSV 见 iptv-live-汇总.xlsx 与 editable/。
 
-## 央视（79 频道）
+## 央视（59 频道）
 
 ### CCTV+ 1
 
@@ -23,15 +23,15 @@
 - ✅ [未知 / 90ms / best-fan 央视卫视地方(每日存活校验)] http://124.228.160.3:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
 - ✅ [1080P / 115ms / best-fan 央视卫视地方(每日存活校验)] http://120.40.39.246:352/newlive/live/hls/11/live.m3u8
 - ✅ [1080P / 353ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.199.74:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=0&authid=0
-- ✅ [标清 / 1191ms / iptvorg_cn2.m3u] https://cdn4.skygo.mn/live/disk1/CCTV-10/HLSv3-FTA/CCTV-10.m3u8
+- ✅ [720P / 1191ms / iptvorg_cn2.m3u] https://cdn4.skygo.mn/live/disk1/CCTV-10/HLSv3-FTA/CCTV-10.m3u8
 - ✅ [720P / 4027ms / best-fan 央视卫视地方(每日存活校验)] http://38.75.136.137:98/gslb/dsdqbv/cctv10hd.m3u8?auth=test20251009
 - ❌ [720P / 9999ms / bf_all_status.m3u8] http://74.91.26.218:82/live/cctv10hd.m3u8
 - ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/140be709dc05f28da750161d3f0288f90aad398427dd9e4ee9a9a9642a5cf8fc.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=CCTV10
-- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/cctv10hd.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://175.8.28.207:9999/tsfile/live/0010_1.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=cctv10
 - ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/11/index.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://175.8.28.207:9999/tsfile/live/0010_1.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/cctv10hd.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=cctv10
 - ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221225743/index.m3u8
 - ❌ [1080P / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.198.220:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=0&authid=0
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://204.12.221.218:8181/3m1080p/cctv10.m3u8
@@ -51,13 +51,13 @@
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] https://xykt-fix.github.io/play/a02b/index.m3u8
 - ❌ [720P / 9999ms / bf_all_status.m3u8] http://74.91.26.218:82/live/cctv11hd.m3u8
 - ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/5617304ea25f76d83957d5012276580a73df55d2617a82014ce8938123aac348.m3u8
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/4f22b12d8bb7580f105a3fa7de769af1954a31d64e8515a79fbc637060d17533.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=CCTV11
-- ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=CCTV11
-- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/cctv11hd.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://175.8.28.207:9999/tsfile/live/0011_1.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=cctv11
 - ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/12/index.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=CCTV11
+- ❌ [未知 / 9999ms / suxuang.m3u] http://175.8.28.207:9999/tsfile/live/0011_1.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/cctv11hd.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=cctv11
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/4f22b12d8bb7580f105a3fa7de769af1954a31d64e8515a79fbc637060d17533.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221226101/index.m3u8
 - ❌ [720P / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://38.75.136.137:98/gslb/dsdqbv/cctv11hd.m3u8?auth=test20251009
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://198.204.228.26/live/cctv11hd.m3u8
@@ -74,26 +74,26 @@
 - ✅ [1080P / 90ms / bf_all_status.m3u8] http://222.169.85.8:9901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
 - ✅ [1080P / 102ms / best-fan 央视卫视地方(每日存活校验)] http://120.40.39.246:352/newlive/live/hls/13/live.m3u8
 - ✅ [未知 / 288ms / vbskycn iptv4] http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
+- ✅ [未知 / 1693ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/cctv12hd.m3u8?auth=testpub
 - ✅ [720P / 2082ms / bf_all_status.m3u8] http://74.91.26.218:82/live/cctv12hd.m3u8
 - ❌ [标清 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/73e76f84f85f78d63807bfb8e51dff03850f7d1cafd1c6521d6eb45272bc4ead.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=CCTV12
-- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/cctv12hd.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://175.8.28.207:9999/tsfile/live/0012_1.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=cctv12
 - ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/13/index.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://175.8.28.207:9999/tsfile/live/0012_1.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/cctv12hd.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=cctv12
 - ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221226103/index.m3u8
 - ❌ [1080P / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.198.220:9901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=0&authid=0
 - ❌ [720P / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://38.75.136.137:98/gslb/dsdqbv/cctv12hd.m3u8?auth=test20251009
 - ❌ [720P / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://107.150.60.122/live/cctv12hd.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/cctv12hd.m3u8?auth=testpub
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://204.12.221.218:8181/3m1080p/cctv12.m3u8
 
 ### CCTV-13 新闻
 
-- ⭐ [1080P / 151ms / 央视网官方] http://ldncctvwbcdtxy.liveplay.myqcloud.com/ldncctvwbcd/cdrmldcctv13_1/index.m3u8
 - ✅ [1080P / 21ms / best-fan 央视卫视地方(每日存活校验)] http://123.160.235.204:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
 - ✅ [1080P / 24ms / vbskycn.m3u] http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8
 - ✅ [未知 / 31ms / best-fan 央视卫视地方(每日存活校验)] http://119.39.9.8:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=0&authid=0
+- ✅ [720P / 32ms / 实测可播] http://113.57.140.161:10081/newlive/live/hls/13/live.m3u8
 - ✅ [未知 / 56ms / best-fan 央视卫视地方(每日存活校验)] http://153.0.171.163:9901/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&authid=0
 - ✅ [1080P / 58ms / best-fan 央视卫视地方(每日存活校验)] http://221.7.175.154:8445/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
 - ✅ [1080P / 76ms / best-fan 央视卫视地方(每日存活校验)] http://120.40.39.246:352/newlive/live/hls/14/live.m3u8
@@ -102,11 +102,11 @@
 - ✅ [1080P / 262ms / bf_all_status.m3u8] https://event.pull.hebtv.com/jishi/cp1.m3u8
 - ✅ [1080P / 332ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.199.74:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=0&authid=0
 - ✅ [1080P / 364ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.198.117:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=0&authid=0
-- ❌ [标清 / 9999ms / bf_all_status.m3u8] http://125.125.236.31:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
 - ❌ [1080P / 9999ms / bf_all_status.m3u8] http://74.91.26.218:82/live/cctv13hd.m3u8
-- ❌ [720P / 9999ms / bf_all_status.m3u8] http://38.75.136.137:98/gslb/dsdqbv/cctv13hd.m3u8?auth=test20251009
 - ❌ [1080P / 9999ms / iptvorg_cn.m3u] http://go.bkpcp.top/mg/cctv13
+- ❌ [720P / 9999ms / bf_all_status.m3u8] http://38.75.136.137:98/gslb/dsdqbv/cctv13hd.m3u8?auth=test20251009
 - ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/195285b7d2b47320784c2a5362d7abdcb8f5c90640b5652b0d333fd5b6bb46b5.ctv
+- ❌ [标清 / 9999ms / bf_all_status.m3u8] http://125.125.236.31:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
 - ❌ [未知 / 9999ms / suxuang ipv4] http://148.135.93.213/live.php?id=CCTV13
 - ❌ [未知 / 9999ms / suxuang ipv4] http://iptv.huuc.edu.cn/hls/cctv13hd.m3u8
 - ❌ [未知 / 9999ms / suxuang ipv4] http://175.8.28.207:9999/tsfile/live/0013_1.m3u8
@@ -132,10 +132,10 @@
 - ❌ [1080P / 9999ms / bf_all_status.m3u8] http://74.91.26.218:82/live/cctv14hd.m3u8
 - ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/16b39a17c3bc3f5982d0796055c25699d7ffc0948274e5f69da181d74d680bc8.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=CCTV14
-- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/cctv14hd.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://175.8.28.207:9999/tsfile/live/0014_1.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=cctv14
 - ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/15/index.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://175.8.28.207:9999/tsfile/live/0014_1.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/cctv14hd.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=cctv14
 - ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221225738/index.m3u8
 - ❌ [720P / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://198.204.228.26/live/cctv14hd.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://204.12.221.218:8181/3m1080p/cctv14.m3u8
@@ -152,15 +152,15 @@
 - ✅ [1080P / 318ms / best-fan 央视卫视地方(每日存活校验)] http://49.70.189.149:60001/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
 - ✅ [1080P / 392ms / best-fan 央视卫视地方(每日存活校验)] http://120.40.39.246:352/newlive/live/hls/16/live.m3u8
 - ✅ [未知 / 565ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.199.175:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=0&authid=0
-- ❌ [未知 / 9999ms / freetv.m3u8] http://74.91.26.218:82/live/cctv15hd.m3u8
 - ❌ [1080P / 9999ms / iptvorg_cn.m3u] https://xykt-fix.github.io/play/a02e/index.m3u8
 - ❌ [标清 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/6ff2cf39d46a80fd47f3cb82df6ce67c5069f3f6418e8afddb5862d865ba82a0.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=CCTV15
-- ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=CCTV15
-- ❌ [未知 / 9999ms / suxuang.m3u] http://p.ytelc.com/169l/0/cctv.php?id=cctv15
-- ❌ [未知 / 9999ms / suxuang.m3u] http://175.8.28.207:9999/tsfile/live/0001_1.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=cctv15
 - ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/16/index.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=CCTV15
+- ❌ [未知 / 9999ms / suxuang.m3u] http://175.8.28.207:9999/tsfile/live/0001_1.m3u8
+- ❌ [未知 / 9999ms / freetv.m3u8] http://74.91.26.218:82/live/cctv15hd.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://p.ytelc.com/169l/0/cctv.php?id=cctv15
+- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=cctv15
 - ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221226147/index.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://204.12.221.218:8181/3m1080p/cctv15.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqbv/cctv15hd.m3u8?auth=test20251009
@@ -177,11 +177,11 @@
 - ✅ [未知 / 92ms / vbskycn.m3u] http://gmxw.7766.org:808/hls/169/index.m3u8
 - ✅ [未知 / 2461ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testpub
 - ❌ [720P / 9999ms / bf_all_status.m3u8] http://207.56.13.146:81/cdnlive/cctv16.m3u8
-- ❌ [未知 / 9999ms / freetv.m3u8] http://74.91.26.218:82/live/cctv16hd.m3u8
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/c51293ed5353c05ee288e7463ff3574ed2f5d916a9355fc683ef4d3ac497a748.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=CCTV16
+- ❌ [未知 / 9999ms / freetv.m3u8] http://74.91.26.218:82/live/cctv16hd.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://p.ytelc.com/169l/0/cctv.php?id=cctv16
 - ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=cctv16
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/c51293ed5353c05ee288e7463ff3574ed2f5d916a9355fc683ef4d3ac497a748.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221226120/index.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqbv/cctv16hd.m3u8?auth=test20251009
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://hls-gateway.vpstv.net/streams/709089.m3u8
@@ -194,22 +194,24 @@
 - ✅ [1080P / 111ms / best-fan 央视卫视地方(每日存活校验)] http://218.104.239.114:9901/tsfile/live/0019_2.m3u8?key=txiptv&playlive=1&authid=0
 - ✅ [未知 / 233ms / best-fan 央视卫视地方(每日存活校验)] http://59.39.89.130:60901/tsfile/live/0017_1.m3u8?key=txiptv&playlive=1&authid=0
 - ✅ [1080P / 272ms / best-fan 央视卫视地方(每日存活校验)] http://218.13.170.98:9901/tsfile/live/0016_1.m3u8?key=txiptv&playlive=1&authid=0
-- ❌ [标清 / 9999ms / vbskycn.m3u] https://live.264788.xyz/channel/cctv17?streamid=f9c36f1e95b5b35eac89cc89583e7c0a&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 - ❌ [1080P / 9999ms / bf_all_status.m3u8] http://74.91.26.218:82/live/cctv17hd.m3u8
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/ff5f57e632f4ebfefe65c48a983de191de24aeab317a8de8d87b4201d5b7ddcd.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=CCTV17
 - ❌ [未知 / 9999ms / suxuang.m3u] http://74.48.192.96:82/live.php?id=CCTV17
 - ❌ [未知 / 9999ms / suxuang.m3u] http://p.ytelc.com/169l/0/cctv.php?id=cctv17
 - ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=cctv17
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/ff5f57e632f4ebfefe65c48a983de191de24aeab317a8de8d87b4201d5b7ddcd.m3u8
 - ❌ [未知 / 9999ms / suxuang ipv4] http://p.ytelc.com/169l/0/cctv.php?id=cctv4k
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://live.264788.xyz/channel/cctv17?streamid=348c8c0c04a6d2b900e5a3bcb4af8ce1&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://live.264788.xyz/channel/cctv17?streamid=f9c36f1e95b5b35eac89cc89583e7c0a&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv17hd
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqbv/cctv17hd.m3u8?auth=test20251009
 
 ### CCTV-1 综合
 
-- ⭐ [1080P / 106ms / 央视网官方] http://ldncctvwbcdtxy.liveplay.myqcloud.com/ldncctvwbcd/cdrmldcctv1_1/index.m3u8
 - ✅ [1080P / 42ms / best-fan 央视卫视地方(每日存活校验)] http://123.160.235.204:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+- ✅ [1080P / 53ms / 实测可播] http://113.57.140.161:10081/newlive/live/hls/1/live.m3u8
+- ✅ [720P / 58ms / 实测可播] http://113.57.140.161:10081/newlive/live/hls/3/live.m3u8
+- ✅ [720P / 68ms / 实测可播] http://113.57.140.161:10081/newlive/live/hls/2/live.m3u8
 - ✅ [标清 / 97ms / bf_all_status.m3u8] http://120.198.95.220:9901/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&down=1
 - ✅ [1080P / 184ms / best-fan 央视卫视地方(每日存活校验)] http://218.13.139.26:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 - ✅ [未知 / 222ms / iptv-org cn(github.io)] https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
@@ -218,7 +220,8 @@
 - ✅ [1080P / 501ms / bf_all_status.m3u8] http://219.147.245.238:25480/newlive/live/hls/1/live.m3u8
 - ✅ [标清 / 1096ms / bf_all_status.m3u8] http://222.169.85.8:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 - ✅ [1080P / 1150ms / best-fan 央视卫视地方(每日存活校验)] http://222.240.44.42:12810/newlive/live/hls/1/live.m3u8
-- ✅ [720P / 3568ms / best-fan 央视卫视地方(每日存活校验)] http://74.91.26.218:82/live/cctv1hd.m3u8
+- ✅ [1080P / 3568ms / 实测可播] http://74.91.26.218:82/live/cctv1hd.m3u8
+- ❌ [1080P / 9999ms / 实测可播] http://124.228.160.112:9901/tsfile/live/0017_1.m3u8?key=txiptv&playlive=1&authid=0
 - ❌ [1080P / 9999ms / bf_all_status.m3u8] http://183.10.180.46:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 - ❌ [1080P / 9999ms / bf_all_status.m3u8] http://204.12.221.218:8181/3m1080p/cctv1.m3u8
 - ❌ [720P / 9999ms / bf_all_status.m3u8] http://173.208.212.130:8181/720p/cctv1.m3u8
@@ -253,16 +256,16 @@
 - ✅ [未知 / 281ms / iptv-org cn(github.io)] https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
 - ✅ [1080P / 344ms / best-fan 央视卫视地方(每日存活校验)] https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_6488563992_8982723413/merged_1707497046297_88536_25144_41936.m3u8
 - ❌ [720P / 9999ms / bf_all_status.m3u8] http://173.208.212.130:8181/720p/cctv2.m3u8
-- ❌ [720P / 9999ms / bf_all_status.m3u8] http://198.204.228.26/live/cctv2hd.m3u8
-- ❌ [720P / 9999ms / bf_all_status.m3u8] http://bztv.tvbus.cc:8081/cdnlive/cctv2.m3u8
 - ❌ [720P / 9999ms / bf_all_status.m3u8] http://173.208.234.146/live/cctv2.m3u8
+- ❌ [720P / 9999ms / bf_all_status.m3u8] http://198.204.228.26/live/cctv2hd.m3u8
 - ❌ [720P / 9999ms / bf_all_status.m3u8] http://74.91.26.218:82/live/cctv2hd.m3u8
-- ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/fe7c5e4b8ed873b12ee2971b238b3ce0257d24e3a0f25bf53fbaae718d461c99.ctv
+- ❌ [720P / 9999ms / bf_all_status.m3u8] http://bztv.tvbus.cc:8081/cdnlive/cctv2.m3u8
 - ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/e3d7b639439d72fa90a6db6d640840d0bbca469c88f04cc6b4fa4cf50f9a8c01.m3u8
+- ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/fe7c5e4b8ed873b12ee2971b238b3ce0257d24e3a0f25bf53fbaae718d461c99.ctv
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=CCTV2
 - ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=CCTV2
-- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/cctv2hd.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://175.8.28.207:9999/tsfile/live/0002_1.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/cctv2hd.m3u8
 - ❌ [未知 / 9999ms / suxuang ipv4] http://t.061899.xyz/tl/tl.php?id=cctv2
 - ❌ [未知 / 9999ms / suxuang ipv4] http://112.27.235.94:8000/hls/2/index.m3u8
 - ❌ [未知 / 9999ms / suxuang ipv4] https://zby.130519.xyz/PLTV/11/224/3221226122/index.m3u8
@@ -279,16 +282,16 @@
 - ✅ [标清 / 104ms / bf_all_status.m3u8] http://120.198.95.220:9901/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&down=1
 - ✅ [1080P / 514ms / bf_all_status.m3u8] http://219.147.245.238:25480/newlive/live/hls/3/live.m3u8
 - ❌ [1080P / 9999ms / bf_all_status.m3u8] http://107.150.60.122/live/cctv3hd.m3u8
-- ❌ [720P / 9999ms / bf_all_status.m3u8] http://74.91.26.218:82/live/cctv3hd.m3u8
 - ❌ [720P / 9999ms / bf_all_status.m3u8] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv3hd
+- ❌ [720P / 9999ms / bf_all_status.m3u8] http://74.91.26.218:82/live/cctv3hd.m3u8
 - ❌ [标清 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221225766/index.m3u8
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/b67ae4b56b7ac6df47e9c81f23cd65455c6c0a5e71de8b1b36345ecc5b3ccedc.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=CCTV3
+- ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/3/index.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://175.8.28.207:9999/tsfile/live/0003_1.m3u8
 - ❌ [未知 / 9999ms / ssili126_itv.m3u] http://36.40.236.27:9999/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
 - ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/cctv3hd.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://175.8.28.207:9999/tsfile/live/0003_1.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=cctv3
-- ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/3/index.m3u8
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/b67ae4b56b7ac6df47e9c81f23cd65455c6c0a5e71de8b1b36345ecc5b3ccedc.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://112.30.73.119:229/tsfile/live/0003_2.m3u8?key=txiptv&playlive=0&authid=0
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://69.30.245.50/live/cctv3.m3u8
 
@@ -303,19 +306,18 @@
 - ✅ [1080P / 90ms / best-fan 央视卫视地方(每日存活校验)] http://120.40.39.246:352/newlive/live/hls/4/live.m3u8
 - ✅ [未知 / 100ms / best-fan 央视卫视地方(每日存活校验)] http://36.136.38.87:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
 - ✅ [1080P / 214ms / bf_all_status.m3u8] http://120.198.95.220:9901/tsfile/live/1018_1.m3u8?key=txiptv&playlive=1&down=1
-- ✅ [未知 / 3643ms / freetv.m3u8] https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
 - ✅ [未知 / 5292ms / iptv-org cn] https://r.eu.cdn-redge.media/livehls/oeu/mt/live/cctv_4/live.livx/playlist.m3u8
-- ❌ [未知 / 9999ms / freetv.m3u8] http://74.91.26.218:82/live/cctv4hd.m3u8
+- ❌ [1080P / 9999ms / freetv.m3u8] https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
 - ❌ [1080P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/16e36a73148449b551127354e2d7f090caf9682c09c17540077857b500868f15.m3u8
 - ❌ [标清 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/5ea26961bbc8690cbd372a194e8801249644123feab6354e1f2cdd2b8a0026ca.m3u8
-- ❌ [未知 / 9999ms / freetv.m3u8] https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/4b5049486980e00f0c63294eb1233eee0822f3454561d728eaa07ed64bb138fc.m3u8
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/8a07250a04529fe52772a7995691f04a3153bf67960964ad6a63dd6cc7878659.ctv
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/42076cf31ff4aa94aac8fe8c9c0637340d1774f8c14ad89a4c2020335dff968c.ctv
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=CCTV4
 - ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=CCTV4
-- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/cctv4hd.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://175.8.28.207:9999/tsfile/live/0004_1.m3u8
+- ❌ [未知 / 9999ms / freetv.m3u8] http://74.91.26.218:82/live/cctv4hd.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/cctv4hd.m3u8
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/42076cf31ff4aa94aac8fe8c9c0637340d1774f8c14ad89a4c2020335dff968c.ctv
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/4b5049486980e00f0c63294eb1233eee0822f3454561d728eaa07ed64bb138fc.m3u8
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/8a07250a04529fe52772a7995691f04a3153bf67960964ad6a63dd6cc7878659.ctv
 - ❌ [4K / 9999ms / suxuang ipv4] http://vip1.xinketongxun.fun:8082/tsfile/live/1026_1.m3u8
 - ❌ [未知 / 9999ms / suxuang ipv4] http://t.061899.xyz/tl/tl.php?id=cctv4
 - ❌ [未知 / 9999ms / suxuang ipv4] http://t.061899.xyz/tl/tl.php?id=cctv4m
@@ -341,19 +343,20 @@
 - ✅ [1080P / 107ms / best-fan 央视卫视地方(每日存活校验)] http://119.125.131.84:9901/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&down=1
 - ✅ [1080P / 228ms / bf_all_status.m3u8] http://120.198.95.220:9901/tsfile/live/1019_1.m3u8?key=txiptv&playlive=1&down=1
 - ✅ [1080P / 1113ms / bf_all_status.m3u8] http://222.169.85.8:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
+- ✅ [未知 / 1952ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009
 - ✅ [未知 / 2575ms / bestK iptv] https://iptv.catvod.com/live.php?id=CCTV5%2B&line=2
 - ✅ [未知 / 2727ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/cctv5p.m3u8?auth=testpub
 - ❌ [720P / 9999ms / bf_all_status.m3u8] http://207.56.13.146:81/cdnlive/cctv5.m3u8
+- ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=CCTV5
+- ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/5/index.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://175.8.28.207:9999/tsfile/live/0005_1.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/cctv5hd.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=cctv5
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/16440bc61b707e10c83ee551bb18e527575eea8bf5658a448db5d07184043120.m3u8
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/307cd85c74b975219efe568ba329232587e9296f1ed29772d494179210b4ce08.m3u8
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/618f01e2a2d2129d32c0da5884d928c1dfccd2e165255772f4aa47efe4317417.m3u8
 - ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/7b5f682c4f1dffb0ffadc5dbd32e9f4743ce8ff8510db64d9a5bbe25f3a5f907.m3u8
 - ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/8ca3e123a0d74e87f21a305af77f712600ac07ae33200d2c5c017f8d01751f36.m3u8
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/618f01e2a2d2129d32c0da5884d928c1dfccd2e165255772f4aa47efe4317417.m3u8
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/307cd85c74b975219efe568ba329232587e9296f1ed29772d494179210b4ce08.m3u8
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/16440bc61b707e10c83ee551bb18e527575eea8bf5658a448db5d07184043120.m3u8
-- ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=CCTV5
-- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/cctv5hd.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://175.8.28.207:9999/tsfile/live/0005_1.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=cctv5
-- ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/5/index.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221225734/index.m3u8
 - ❌ [未知 / 9999ms / suxuang ipv4] http://148.135.93.213/live.php?id=CCTV5p
 - ❌ [未知 / 9999ms / suxuang ipv4] http://t.061899.xyz/tl/tl.php?id=cctv5p
@@ -363,7 +366,6 @@
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/cctv5hd.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://112.30.73.119:9901/tsfile/live/0005_2.m3u8?key=txiptv&playlive=0&authid=0
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://173.208.212.130:8181/720p/cctv5.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://www.freetv.top/migu/641886683.m3u8?migutoken=3e5c01f93922de8d1c940fe15bb47349b27e8f7a2e624dde1a83dff3b2a80f58b7624151a3a4d00488edee34f202818557340903382fae02bb754084eb942bd50e59061df36fab62fb5b908903
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/index.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://migu.188766.xyz/?migutoken=3803480da7c3ee6e07115f4bb5827c0d&id=CCTV5&type=yy
@@ -379,9 +381,9 @@
 - ✅ [1080P / 104ms / bf_all_status.m3u8] http://120.198.95.220:9901/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&down=1
 - ❌ [标清 / 9999ms / iptvorg_cn.m3u] https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=CCTV5p
+- ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/6/index.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=CCTV5p
 - ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=cctv5p
-- ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/6/index.m3u8
 
 ### CCTV-6 电影
 
@@ -390,19 +392,19 @@
 - ✅ [未知 / 680ms / suxuang ipv4] http://8.138.7.223/tv/1905.php?id=LIVE3YPYZ30E7V1R0
 - ✅ [720P / 1408ms / best-fan 央视卫视地方(每日存活校验)] http://104.152.209.49:8181/720p/cctv6.m3u8
 - ✅ [720P / 1519ms / bf_all_status.m3u8] http://173.208.212.130:8181/720p/cctv6.m3u8
-- ❌ [1080P / 9999ms / bf_all_status.m3u8] http://183.10.180.46:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
+- ✅ [720P / 3990ms / best-fan 央视卫视地方(每日存活校验)] http://38.75.136.137:98/gslb/dsdqbv/cctv6hd.m3u8?auth=test20251009
 - ❌ [1080P / 9999ms / bf_all_status.m3u8] http://173.208.212.130:8181/1080p/cctv6.m3u8
-- ❌ [720P / 9999ms / bf_all_status.m3u8] http://198.204.228.26/live/cctv6hd.m3u8
-- ❌ [1080P / 9999ms / bf_all_status.m3u8] http://69.30.245.50/live/cctv6.m3u8
+- ❌ [1080P / 9999ms / bf_all_status.m3u8] http://183.10.180.46:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://198.204.240.250:82/live/cctv6.m3u8
+- ❌ [1080P / 9999ms / bf_all_status.m3u8] http://69.30.245.50/live/cctv6.m3u8
+- ❌ [720P / 9999ms / bf_all_status.m3u8] http://198.204.228.26/live/cctv6hd.m3u8
 - ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/2502d0ff3c7adfc9fb12b0d353d71822369d7c35b54c5c52c232e04be21068c9.ctv
 - ❌ [标清 / 9999ms / iptvorg_cn.m3u] https://live.eac-news.com/CCTV/streams/cctv6.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=CCTV6
-- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/cctv6hd.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://175.8.28.207:9999/tsfile/live/0006_1.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=cctv6
 - ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/7/index.m3u8
-- ❌ [720P / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://38.75.136.137:98/gslb/dsdqbv/cctv6hd.m3u8?auth=test20251009
+- ❌ [未知 / 9999ms / suxuang.m3u] http://175.8.28.207:9999/tsfile/live/0006_1.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/cctv6hd.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=cctv6
 - ❌ [未知 / 9999ms / suxuang ipv4] https://zby.130519.xyz/PLTV/11/224/3221225741/index.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://74.91.26.218:82/live/cctv6hd.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv6hd
@@ -418,17 +420,17 @@
 - ✅ [1080P / 98ms / best-fan 央视卫视地方(每日存活校验)] http://120.40.39.246:352/newlive/live/hls/8/live.m3u8
 - ✅ [未知 / 257ms / best-fan 央视卫视地方(每日存活校验)] http://59.39.89.130:60901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
 - ✅ [1080P / 336ms / best-fan 央视卫视地方(每日存活校验)] http://119.125.131.84:9901/tsfile/live/1022_1.m3u8?key=txiptv&playlive=1&down=1
+- ✅ [720P / 967ms / bf_all_status.m3u8] http://74.91.26.218:82/live/cctv7hd.m3u8
 - ❌ [1080P / 9999ms / bf_all_status.m3u8] http://183.10.180.46:9901/tsfile/live/1072_1.m3u8?key=txiptv&playlive=1&authid=0
-- ❌ [720P / 9999ms / bf_all_status.m3u8] http://74.91.26.218:82/live/cctv7hd.m3u8
 - ❌ [720P / 9999ms / bf_all_status.m3u8] http://207.56.13.146:81/cdnlive/cctv7.m3u8
 - ❌ [720P / 9999ms / bf_all_status.m3u8] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv7hd
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/79834e11f92f2d6a40ee7474e2f8f01a88c85e5d84b33a7f0ab13d67b0604a88.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=CCTV7
-- ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=CCTV7
-- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/cctv7hd.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://175.8.28.207:9999/tsfile/live/0007_1.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=cctv7
 - ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/8/index.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=CCTV7
+- ❌ [未知 / 9999ms / suxuang.m3u] http://175.8.28.207:9999/tsfile/live/0007_1.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/cctv7hd.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=cctv7
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/79834e11f92f2d6a40ee7474e2f8f01a88c85e5d84b33a7f0ab13d67b0604a88.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221225701/index.m3u8
 - ❌ [720P / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://38.75.136.137:98/gslb/dsdqbv/cctv7hd.m3u8?auth=test20251009
 - ❌ [720P / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://192.151.150.154/live/cctv7hd.m3u8
@@ -443,17 +445,17 @@
 - ✅ [标清 / 124ms / bf_all_status.m3u8] http://120.198.95.220:9901/tsfile/live/1023_1.m3u8?key=txiptv&playlive=1&down=1
 - ✅ [未知 / 156ms / vbskycn iptv4] http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
 - ❌ [1080P / 9999ms / bf_all_status.m3u8] http://183.10.180.46:9901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
-- ❌ [720P / 9999ms / bf_all_status.m3u8] http://74.91.26.218:82/live/cctv8hd.m3u8
-- ❌ [720P / 9999ms / bf_all_status.m3u8] http://207.56.13.146:81/cdnlive/cctv8.m3u8
 - ❌ [720P / 9999ms / bf_all_status.m3u8] http://173.208.212.130:8181/720p/cctv8.m3u8
+- ❌ [720P / 9999ms / bf_all_status.m3u8] http://207.56.13.146:81/cdnlive/cctv8.m3u8
+- ❌ [720P / 9999ms / bf_all_status.m3u8] http://74.91.26.218:82/live/cctv8hd.m3u8
 - ❌ [720P / 9999ms / bf_all_status.m3u8] http://bztv.tvbus.cc:8081/cdnlive/cctv8.m3u8
 - ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/2e306ebe387de83590a676b156f6db16f86d4c598cb04b945d3a9deb2a2f5f68.m3u8
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/1eb381a73c00d5871988424b1c0b04628dea8d29baffa50c32510e76b4d82f2f.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=CCTV8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/cctv8hd.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://175.8.28.207:9999/tsfile/live/0008_1.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=cctv8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/9/index.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://175.8.28.207:9999/tsfile/live/0008_1.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/cctv8hd.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=cctv8
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/1eb381a73c00d5871988424b1c0b04628dea8d29baffa50c32510e76b4d82f2f.m3u8
 - ❌ [未知 / 9999ms / suxuang ipv4] https://zby.130519.xyz/PLTV/11/224/3221225736/index.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://69.30.245.50/live/cctv8.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv8k
@@ -471,18 +473,18 @@
 - ✅ [未知 / 204ms / bf_all_status.m3u8] https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=2ccbc2416fe61e151dd2ef9c6364fb58
 - ✅ [1080P / 380ms / best-fan 央视卫视地方(每日存活校验)] http://119.125.131.84:9901/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&down=1
 - ✅ [未知 / 400ms / best-fan 央视卫视地方(每日存活校验)] https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=ce32845c9e729d647e73f4c3dd944c3c
-- ✅ [标清 / 637ms / bf_all_status.m3u8] https://xykt-fix.github.io/Y77.m3u8
+- ✅ [1080P / 637ms / bf_all_status.m3u8] https://xykt-fix.github.io/Y77.m3u8
 - ✅ [1080P / 1147ms / best-fan 央视卫视地方(每日存活校验)] http://120.40.39.246:352/newlive/live/hls/10/live.m3u8
 - ✅ [未知 / 1404ms / bestK iptv] https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=d36275c9189f29010cf90345a0b78c5a
 - ✅ [未知 / 1830ms / freetv.m3u8] http://74.91.26.218:82/live/cctv9hd.m3u8
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/4b5d87011597e1f459dab35420693215c38149154fb2431509f06162853d1478.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=CCTV9
-- ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=CCTV9
-- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/cctv9hd.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://175.8.28.207:9999/tsfile/live/0009_1.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=cctv9
 - ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/10/index.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=CCTV9
+- ❌ [未知 / 9999ms / suxuang.m3u] http://175.8.28.207:9999/tsfile/live/0009_1.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/cctv9hd.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://p.ytelc.com/169l/0/cctv.php?id=cctv9
+- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=cctv9
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/4b5d87011597e1f459dab35420693215c38149154fb2431509f06162853d1478.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv9hd
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/cctv9hd.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://192.151.150.154/live/cctv9hd.m3u8
@@ -491,12 +493,12 @@
 ### CETV1
 
 - ✅ [未知 / 36ms / Guovin iptv-api result(存活校验)] http://120.76.248.139/live/bfgd/4200000135.m3u8
+- ✅ [未知 / 1656ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/cetv1hd.m3u8?auth=testpub
 - ✅ [未知 / 1666ms / bestK iptv] https://iptv.catvod.com/live.php?id=CETV1&line=1
 - ❌ [未知 / 9999ms / suxuang ipv4] http://www.lizhinas.top:1009/rtp/239.252.220.198:5140
 - ❌ [未知 / 9999ms / iptv-org cn] http://117.161.133.51:81/gitv_live/G_CETV-1/G_CETV-1.m3u8?p=GITV
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://198.204.228.26/live/cetv1hd.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cetv1hd
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/cetv1hd.m3u8?auth=testpub
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://zby.130519.xyz/PLTV/11/224/3221225775/index.m3u8
 
 ### CETV2
@@ -539,17 +541,17 @@
 
 ### CGTN 中国国际电视台
 
-- ✅ [未知 / 63ms / freetv.m3u8] https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
-- ✅ [未知 / 99ms / freetv.m3u8] https://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8
-- ✅ [未知 / 142ms / freetv.m3u8] https://news.cgtn.com/resource/live/document/cgtn-doc.m3u8
-- ✅ [未知 / 157ms / freetv.m3u8] https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
-- ✅ [未知 / 168ms / freetv.m3u8] https://news.cgtn.com/resource/live/french/cgtn-f.m3u8
+- ✅ [720P / 63ms / freetv.m3u8] https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
+- ✅ [720P / 99ms / freetv.m3u8] https://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8
+- ✅ [720P / 142ms / freetv.m3u8] https://news.cgtn.com/resource/live/document/cgtn-doc.m3u8
+- ✅ [720P / 157ms / freetv.m3u8] https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
+- ✅ [720P / 168ms / freetv.m3u8] https://news.cgtn.com/resource/live/french/cgtn-f.m3u8
 - ✅ [1080P / 189ms / iptvorg_cn2.m3u] https://english-livebkali.cgtn.com/live/encgtn.m3u8
+- ✅ [未知 / 232ms / kimentanm.m3u] https://english-livebkali.cgtn.com/live/encgtn_0.m3u8
 - ✅ [1080P / 746ms / iptvorg_cn2.m3u] https://fastlive.cctvplus.com/out/v1/2b3d8a0c805d437f9dc85b764c2ac599/index.m3u8
 - ✅ [1080P / 774ms / iptvorg_cn2.m3u] https://hlspackager.akamaized.net/live/DB/CGTN_ENGLISH/HLS/CGTN_ENGLISH.m3u8
 - ✅ [720P / 900ms / iptvorg_cn2.m3u] https://0472.org/hls/cgtn.m3u8
 - ✅ [1080P / 1751ms / iptvorg_cn2.m3u] https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
-- ❌ [未知 / 9999ms / kimentanm.m3u] https://english-livebkali.cgtn.com/live/encgtn_0.m3u8
 - ❌ [720P / 9999ms / iptvorg_cn2.m3u] https://dai.google.com/linear/hls/event/r4sa-f6GSN2XIvzKv5jVng/master.m3u8
 - ❌ [标清 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/800af3de6d2cab9fc463ec417c6ab737591154a8eafa27fb43713a33bc7f6dd5.ctv
 - ❌ [未知 / 9999ms / freetv.m3u8] https://arabic-livews.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTefTAS9zc9mpU08y3np9TH220802cd/playlist.m3u8
@@ -562,7 +564,7 @@
 
 ### CGTN 法语频道
 
-- ✅ [未知 / 45ms / suxuang.m3u] http://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd.m3u8
+- ✅ [未知 / 45ms / suxuang ipv4] http://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd.m3u8
 - ✅ [1080P / 140ms / iptv-org cn] https://francais-liveali.cgtn.com/hls/LSvev95OuFZtKLc6CeKEFYXj220802LSTeV6PO0Ut9r71Uq3k5goCA220802cd/playlist.m3u8
 - ✅ [1080P / 548ms / iptvorg_cn2.m3u] http://145.239.5.177/214/index.m3u8
 - ✅ [未知 / 716ms / kimentanm.m3u] https://0472.org/hls/cgtnf.m3u8
@@ -575,8 +577,8 @@
 - ✅ [1080P / 786ms / iptvorg_cn2.m3u] https://hlspackager.akamaized.net/live/DB/CGTN_DOCUMENTARY/HLS/CGTN_DOCUMENTARY.m3u8
 - ✅ [未知 / 927ms / suxuang.m3u] https://0472.org/hls/cgtnd.m3u8
 - ✅ [1080P / 956ms / iptvorg_cn2.m3u] https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/a0bc795a7d25e5237450354c1e9ec3378ca6dce20ba75db733884a58380a8a57.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=cgtnjl
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/a0bc795a7d25e5237450354c1e9ec3378ca6dce20ba75db733884a58380a8a57.m3u8
 
 ### CGTN英语
 
@@ -600,7 +602,6 @@
 
 ### CGTN 阿拉伯语频道
 
-- ✅ [未知 / 45ms / suxuang.m3u] http://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd.m3u8
 - ✅ [1080P / 187ms / iptv-org cn] https://arabic-liveali.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTefTAS9zc9mpU08y3np9TH220802cd/playlist.m3u8
 - ✅ [未知 / 1189ms / kimentanm.m3u] https://0472.org/hls/cgtna.m3u8
 
@@ -664,11 +665,6 @@
 
 - ❌ [未知 / 9999ms / suxuang ipv4] http://nas.hssvm.com:8888/udp/225.1.1.210:5002
 
-### 发现之旅
-
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://125.210.152.18:9090/live/FXZL_750.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=fxzl
-
 ### 四海钓鱼
 
 - ✅ [未知 / 46ms / suxuang ipv4] http://120.76.248.139/live/bfgd/4200000229.m3u8
@@ -677,7 +673,11 @@
 ### 央视
 
 - ⭐ [4K / 9999ms / bestK iptv] https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4k_mbd.m3u8?auth_key=1771441200-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-8e1bb13200401b1d801525d747e5ee29&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
+- ✅ [1080P / 959ms / iptv-org cn(github.io)] http://38.75.136.137:98/gslb/dsdqpub/dyjc.m3u8?auth=testpub
+- ✅ [1080P / 1476ms / iptv-org cn(github.io)] http://38.75.136.137:98/gslb/dsdqpub/wsjk.m3u8?auth=testpub
+- ✅ [1080P / 1597ms / iptv-org cn(github.io)] http://38.75.136.137:98/gslb/dsdqpub/fyyy.m3u8?auth=testpub
 - ✅ [1080P / 1641ms / iptv-org cn(github.io)] http://38.75.136.137:98/gslb/dsdqpub/ysjp.m3u8?auth=testpub
+- ✅ [1080P / 2739ms / iptv-org cn(github.io)] http://38.75.136.137:98/gslb/dsdqpub/fyzq.m3u8?auth=testpub
 - ✅ [1080P / 2758ms / iptv-org cn(github.io)] http://38.75.136.137:98/gslb/dsdqpub/gfjs.m3u8?auth=testpub
 - ✅ [1080P / 3005ms / iptv-org cn(github.io)] http://38.75.136.137:98/gslb/dsdqpub/ystq.m3u8?auth=testpub
 - ✅ [1080P / 5807ms / iptv-org cn(github.io)] http://38.75.136.137:98/gslb/dsdqpub/hjjc.m3u8?auth=testpub
@@ -688,91 +688,8 @@
 - ❌ [1080P / 9999ms / iptv-org cn] http://192.151.150.154/live/cctv8k.m3u8
 - ❌ [1080P / 9999ms / iptv-org cn] http://198.204.240.250:82/live/cctv8k.m3u8
 - ❌ [1080P / 9999ms / iptv-org cn(github.io)] http://38.75.136.137:98/gslb/dsdqpub/gefwq.m3u8?auth=testpub
-- ❌ [1080P / 9999ms / iptv-org cn(github.io)] http://38.75.136.137:98/gslb/dsdqpub/wsjk.m3u8?auth=testpub
-- ❌ [1080P / 9999ms / iptv-org cn(github.io)] http://38.75.136.137:98/gslb/dsdqpub/fyzq.m3u8?auth=testpub
-- ❌ [1080P / 9999ms / iptv-org cn(github.io)] http://38.75.136.137:98/gslb/dsdqpub/fyyy.m3u8?auth=testpub
 - ❌ [1080P / 9999ms / iptv-org cn(github.io)] http://38.75.136.137:98/gslb/dsdqpub/fyjc.m3u8?auth=testpub
-- ❌ [1080P / 9999ms / iptv-org cn(github.io)] http://38.75.136.137:98/gslb/dsdqpub/dyjc.m3u8?auth=testpub
 - ❌ [1080P / 9999ms / iptv-org cn(github.io)] http://38.75.136.137:98/gslb/dsdqpub/sjdl.m3u8?auth=testpub
-
-### 央视世界地理
-
-- ❌ [1080P / 9999ms / bf_all_status.m3u8] http://183.10.180.46:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
-- ❌ [1080P / 9999ms / iptvorg_cn.m3u] http://38.75.136.137:98/gslb/dsdqpub/sjdl.m3u8?auth=testpub
-- ❌ [未知 / 9999ms / suxuang.m3u] http://www.lizhinas.top:1009/rtp/239.252.219.93:5140
-
-### 央视中学生
-
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=zxs
-
-### 央视兵器科技
-
-- ❌ [标清 / 9999ms / vbskycn.m3u] https://live.264788.xyz/channel/bingqikeji?streamid=6fc55a0966bdad1e1cdf39a4d37dd776&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-- ❌ [未知 / 9999ms / suxuang.m3u] http://www.lizhinas.top:1009/rtp/239.252.219.98:5140
-
-### 央视卫生健康
-
-- ❌ [1080P / 9999ms / iptvorg_cn.m3u] http://38.75.136.137:98/gslb/dsdqpub/wsjk.m3u8?auth=testpub
-- ❌ [未知 / 9999ms / suxuang.m3u] http://nas.hssvm.com:8888/udp/225.1.1.210:5002
-
-### 央视台球
-
-- ✅ [未知 / 3005ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/ystq.m3u8?auth=testpub
-- ❌ [未知 / 9999ms / suxuang.m3u] http://www.lizhinas.top:1009/rtp/239.252.219.80:5140
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/ystq.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=ystq
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://207.56.13.146:81/cdnlive/ystq.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://hls-gateway.vpstv.net/streams/708855.m3u8
-
-### 央视女性时尚
-
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.245.169/PLTV/4/224/3221227026/index.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://www.lizhinas.top:1009/rtp/239.252.219.94:5140
-
-### 央视怀旧剧场
-
-- ✅ [1080P / 5807ms / iptvorg_cn.m3u] http://38.75.136.137:98/gslb/dsdqpub/hjjc.m3u8?auth=testpub
-- ❌ [标清 / 9999ms / vbskycn.m3u] https://live.264788.xyz/channel/huaijiujuchang?streamid=7e5d1abdddde08f588234f3f640f75ff&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-- ❌ [未知 / 9999ms / suxuang.m3u] http://www.lizhinas.top:1009/rtp/239.252.219.90:5140
-
-### 央视文化精品
-
-- ✅ [1080P / 1641ms / iptvorg_cn.m3u] http://38.75.136.137:98/gslb/dsdqpub/ysjp.m3u8?auth=testpub
-- ❌ [标清 / 9999ms / vbskycn.m3u] https://live.264788.xyz/channel/yangshiwenhuajingpin?streamid=bc185d1ef1e528922e83efd845006277&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-- ❌ [未知 / 9999ms / suxuang.m3u] http://www.lizhinas.top:1009/rtp/239.252.219.81:5140
-
-### 央视第一剧场
-
-- ❌ [标清 / 9999ms / vbskycn.m3u] https://live.264788.xyz/channel/diyijuchang?streamid=d81e188b59ece96b7e8f1ce34aea3ef8&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-- ❌ [1080P / 9999ms / bf_all_status.m3u8] http://183.10.180.46:9901/tsfile/live/1082_1.m3u8?key=txiptv&playlive=1&authid=0
-- ❌ [1080P / 9999ms / iptvorg_cn.m3u] http://38.75.136.137:98/gslb/dsdqpub/dyjc.m3u8?auth=testpub
-- ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/62caf261ff5c23c742e464f4875e53eaff8f262cdd1ea1b612a6537163a32a7a.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://www.lizhinas.top:1009/rtp/239.252.219.86:5140
-
-### 央视风云剧场
-
-- ❌ [1080P / 9999ms / iptvorg_cn.m3u] http://38.75.136.137:98/gslb/dsdqpub/fyjc.m3u8?auth=testpub
-- ❌ [标清 / 9999ms / vbskycn.m3u] https://live.264788.xyz/channel/fengyunjuchang?streamid=31e7b5b7032d25dd215a4069cdee1a48&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-- ❌ [1080P / 9999ms / bf_all_status.m3u8] http://183.10.180.46:9901/tsfile/live/1032_1.m3u8?key=txiptv&playlive=1&authid=0
-- ❌ [未知 / 9999ms / suxuang.m3u] http://www.lizhinas.top:1009/rtp/239.252.219.89:5140
-
-### 央视风云足球
-
-- ❌ [1080P / 9999ms / bf_all_status.m3u8] http://183.10.180.46:9901/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
-- ❌ [1080P / 9999ms / iptvorg_cn.m3u] http://38.75.136.137:98/gslb/dsdqpub/fyzq.m3u8?auth=testpub
-- ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/8b470dae1ad61813921b33f439c56ffad5e5a2cc3410542d4cb98c6d75a0a5ce.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://www.lizhinas.top:1009/rtp/239.252.219.96:5140
-
-### 央视风云音乐
-
-- ❌ [标清 / 9999ms / vbskycn.m3u] https://live.264788.xyz/channel/fengyunyinyue?streamid=be37d16b874e7ba11dd383d7ecd75752&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-- ❌ [1080P / 9999ms / iptvorg_cn.m3u] http://38.75.136.137:98/gslb/dsdqpub/fyyy.m3u8?auth=testpub
-- ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/64d201fab67e598b7c445e9db10de23a0797a6863a044f363b929abca829f1b3.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://www.lizhinas.top:1009/rtp/239.252.219.87:5140
-
-### 央视高尔夫网球
-
-- ❌ [1080P / 9999ms / iptvorg_cn.m3u] http://38.75.136.137:98/gslb/dsdqpub/gefwq.m3u8?auth=testpub
 
 ### 女性时尚
 
@@ -807,51 +724,14 @@
 
 - ✅ [未知 / 318ms / suxuang ipv4] https://gcwbndali.v.myalicdn.com/gcwbnd/ipanda1000_2/index.m3u8
 
-### 睛彩广场
-
-- ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221226139/index.m3u8
-
-### 睛彩广场舞
-
-- ✅ [未知 / 121ms / yang1989_gather.m3u] http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011523&livemode=1&stbId=YanG-1989
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://13937899.xyz:35455/itv/3000000020000011523.m3u8?cdn=FifastbLive
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://zjzcf.synology.me:35455/itv/3000000020000011523.m3u8?cdn=FifastbLive
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226472/index.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://[2409:8087:1a15:10d1::37]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226472/index.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://[2409:8087:1e01:20::3]/PLTV/11/224/3221226139/index.m3u8
-
-### 睛彩竞技
-
-- ✅ [未知 / 122ms / yang1989_gather.m3u] http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011528&livemode=1&stbId=YanG-1989
-- ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221226116/index.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://vip.lqcc.xyz:35455/itv/3000000020000011528.m3u8?cdn=FifastbLive
-- ❌ [未知 / 9999ms / suxuang.m3u] http://vip.lqcc.xyz:35455/itv/3000000020000011530.m3u8?cdn=FifastbLive
-
-### 睛彩篮球
-
-- ✅ [未知 / 109ms / yang1989_gather.m3u] http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011529&livemode=1&stbId=YanG-1989
-- ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221226118/index.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://vip.lqcc.xyz:35455/itv/3000000020000011529.m3u8?cdn=FifastbLive
-- ❌ [未知 / 9999ms / suxuang.m3u] http://vip.lqcc.xyz:35455/itv/3000000020000011531.m3u8?cdn=FifastbLive
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://[2409:8087:1a01:df::4055]:80/TVOD/88888888/224/3221225901/main.m3u8
-
-### 睛彩青少
-
-- ❌ [未知 / 9999ms / yang1989_gather.m3u] http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011525&livemode=1&stbId=YanG-1989
-
 ### 第一剧场
 
+- ✅ [未知 / 959ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/dyjc.m3u8?auth=testpub
 - ❌ [未知 / 9999ms / suxuang ipv4] http://www.lizhinas.top:1009/rtp/239.252.219.86:5140
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://live.264788.xyz/channel/diyijuchang?streamid=e9b0fb1ca135a4aeae12944494883794&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://live.264788.xyz/channel/diyijuchang?streamid=d81e188b59ece96b7e8f1ce34aea3ef8&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/dyjc.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=dyjc
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/dyjc.m3u8?auth=testpub
-
-### 老故事频道
-
-- ❌ [未知 / 9999ms / ssili126_itv.m3u] http://59.32.97.20:9901/tsfile/live/1025_1.m3u8?key=txiptv&playlive=1&authid=0
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=lgs
 
 ### 金鹰纪实
 
@@ -873,19 +753,19 @@
 
 ### 风云足球
 
+- ✅ [未知 / 2739ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/fyzq.m3u8?auth=testpub
 - ❌ [未知 / 9999ms / suxuang ipv4] http://www.lizhinas.top:1009/rtp/239.252.219.96:5140
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=fyzq
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://207.56.13.146:81/cdnlive/fyzq.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/fyzq.m3u8?auth=testpub
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://hls-gateway.vpstv.net/streams/708859.m3u8
 
 ### 风云音乐
 
+- ✅ [未知 / 1597ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/fyyy.m3u8?auth=testpub
 - ❌ [未知 / 9999ms / suxuang ipv4] http://www.lizhinas.top:1009/rtp/239.252.219.87:5140
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://live.264788.xyz/channel/fengyunyinyue?streamid=be37d16b874e7ba11dd383d7ecd75752&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://live.264788.xyz/channel/fengyunyinyue?streamid=1b41fb9153cba3ee19bd5d1b323da27e&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=fyyy
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/fyyy.m3u8?auth=testpub
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://207.56.13.146:81/cdnlive/fyyy.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://hls-gateway.vpstv.net/streams/708858.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://iptv.666230.xyz/iptv/jsyd.php/G_FENGYUNYY-CQ
@@ -906,25 +786,15 @@
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://hls-gateway.vpstv.net/streams/708839.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/mei-li-zu-qiu-1.m3u8
 
-## 卫视（66 频道）
+## 卫视（46 频道）
 
 ### Bingtuan Satellite TV (540p) [Not 24/7]
 
 - ❌ [未知 / 9999ms / iptv-org cn(github.io)] http://112.25.48.68/live/program/live/btws/1300000/mnf.m3u8
 
-### 三沙卫视
-
-- ❌ [标清 / 9999ms / bf_all_status.m3u8] http://38.75.136.137:98/gslb/dsdqpub/ssws.m3u8?auth=testpub
-- ❌ [标清 / 9999ms / bf_all_status.m3u8] http://107.150.60.122/live/ssws.m3u8
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/fd1abacd02d10bf9e60b98fdc292704eefa30cff9e4eb0816eec3156e687c991.ctv
-- ❌ [未知 / 9999ms / suxuang.m3u] http://nn.7x9d.cn/地方台8563/海南.php?id=ssws
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=ssws
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://198.204.228.26/live/ssws.m3u8
-- ❌ [未知 / 9999ms / bestK iptv] https://srs.ssws.tv/video/sstv-10/index.m3u8
-
 ### 上海卫视
 
-- ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/28/index.m3u8
+- ❌ [未知 / 9999ms / suxuang ipv4] http://112.27.235.94:8000/hls/28/index.m3u8
 
 ### 东南卫视
 
@@ -934,17 +804,17 @@
 - ✅ [未知 / 49ms / best-fan 央视卫视地方(每日存活校验)] http://124.228.160.3:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=1&authid=0
 - ✅ [1080P / 227ms / best-fan 央视卫视地方(每日存活校验)] http://60.187.246.34:85/tsfile/live/0137_1.m3u8?key=txiptv&playlive=1&authid=0
 - ✅ [未知 / 242ms / best-fan 央视卫视地方(每日存活校验)] http://36.136.38.87:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=1&authid=0
-- ✅ [1080P / 1032ms / bf_all_status.m3u8] http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
+- ✅ [1080P / 1032ms / best-fan 央视卫视地方(每日存活校验)] http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
 - ✅ [1080P / 1409ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.199.74:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=0&authid=0
 - ❌ [1080P / 9999ms / bf_all_status.m3u8] http://125.125.236.31:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=1&authid=0
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/3ad6599415990b0f15bec3d681fb934f53a2f82aac7584375237a83573efe5c7.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=东南卫视
+- ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/38/index.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=东南卫视
+- ❌ [未知 / 9999ms / suxuang.m3u] http://8.138.7.223/tv/fjtv1.php?id=dnws
 - ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/dnhd.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=dnws
-- ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=东南卫视
-- ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/38/index.m3u8
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/3ad6599415990b0f15bec3d681fb934f53a2f82aac7584375237a83573efe5c7.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221225745/index.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://8.138.7.223/tv/fjtv1.php?id=dnws
 - ❌ [1080P / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.198.220:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=0&authid=0
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=dnwshd
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/dnwshd.m3u8
@@ -962,15 +832,15 @@
 - ✅ [1080P / 49ms / bf_all_status.m3u8] http://112.123.243.37:50085/tsfile/live/0124_1.m3u8?key=txiptv&playlive=0&authid=0
 - ✅ [1080P / 121ms / best-fan 央视卫视地方(每日存活校验)] http://221.7.175.154:8445/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
 - ✅ [1080P / 1127ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.199.74:9901/tsfile/live/0018_1.m3u8?key=txiptv&playlive=0&authid=0
+- ✅ [未知 / 1646ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/dfwshd.m3u8?auth=testpub
 - ❌ [4K / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=东方卫视4K
 - ❌ [1080P / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/dfhd.m3u8
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/936a731d0f0738a903c2968c7e4d48c09cc4bf042ad218afe2d91decd1032359.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=东方卫视
 - ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=dfws
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/936a731d0f0738a903c2968c7e4d48c09cc4bf042ad218afe2d91decd1032359.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221225725/index.m3u8
 - ❌ [1080P / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.198.220:9901/tsfile/live/0018_1.m3u8?key=txiptv&playlive=0&authid=0
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqbv/dfwshd.m3u8?auth=test20251009
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/dfwshd.m3u8?auth=testpub
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=dfwshd
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/dfwshd.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://txmov2.a.kwimgs.com/bs3/video-hls/5219953535631090825_hlsb.m3u8
@@ -987,47 +857,24 @@
 - ✅ [未知 / 221ms / best-fan 央视卫视地方(每日存活校验)] http://119.39.9.8:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0
 - ✅ [未知 / 291ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.198.117:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0
 - ✅ [未知 / 1085ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.199.74:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0
-- ❌ [标清 / 9999ms / bf_all_status.m3u8] http://125.125.236.31:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=1&authid=0
 - ❌ [1080P / 9999ms / iptvorg_cn.m3u] https://hwapi.yunshicloud.com/8xughf/e0bx15.m3u8
-- ❌ [标清 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/368e59cc43274d4c5380dfd940d1f40ee03a4b9cb5b1648b01c42b47f2516d8b.m3u8
+- ❌ [标清 / 9999ms / bf_all_status.m3u8] http://125.125.236.31:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=1&authid=0
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://183.207.248.71/cntv/live1/yunnanstv/yunnanstv
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225664/index.m3u8
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://183.207.248.71/gitv/live1/G_YUNNAN/G_YUNNAN
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.245.157/ott.js.chinamobile.com/PLTV/3/224/3221225591/index.m3u8
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.245.159/ott.js.chinamobile.com/PLTV/3/224/3221225838/index.m3u8
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.245.173/PLTV/4/224/3221225838/index.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=ynws
-- ❌ [未知 / 9999ms / suxuang.m3u] http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovL3d3dy5kc2suY2MvcGhwL3N4Z2QucGhwP2lkPXlud3M=
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225664/index.m3u8
+- ❌ [标清 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/368e59cc43274d4c5380dfd940d1f40ee03a4b9cb5b1648b01c42b47f2516d8b.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/40/index.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovL3d3dy5kc2suY2MvcGhwL3N4Z2QucGhwP2lkPXlud3M=
+- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=ynws
 - ❌ [未知 / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.198.220:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0
 - ❌ [未知 / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.195.84:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0
 - ❌ [未知 / 9999ms / suxuang ipv4] https://zby.130519.xyz/PLTV/11/224/3221226109/index.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=ynwshd
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://192.151.150.154/live/ynwshd.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/ynwshd.m3u8
-
-### 人间卫视
-
-- ✅ [未知 / 522ms / suxuang.m3u] http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
-- ❌ [标清 / 9999ms / vbskycn.m3u] https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/chunklist_w511254805.m3u8
-
-### 优漫卡通卫视
-
-- ❌ [标清 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/3bda49a9b87833e1b55cceeda99a537ac38c2c0295598cf17c575a02e8459b0c.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://183.207.249.15/PLTV/4/224/3221225933/index.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.243.171/PLTV/3/224/3221226982/index.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=ymkt
-
-### 兵团卫视
-
-- ✅ [标清 / 40ms / bf_all_status.m3u8] http://112.123.243.37:50085/tsfile/live/0112_1.m3u8?key=txiptv&playlive=0&authid=0
-- ✅ [1080P / 75ms / best-fan 央视卫视地方(每日存活校验)] http://222.71.55.147:9901/tsfile/live/0115_1.m3u8?key=txiptv&playlive=0&authid=0
-- ✅ [1080P / 106ms / best-fan 央视卫视地方(每日存活校验)] http://221.7.175.154:8445/tsfile/live/0115_1.m3u8?key=txiptv&playlive=1&authid=0
-- ✅ [未知 / 592ms / best-fan 央视卫视地方(每日存活校验)] http://218.13.170.98:9901/tsfile/live/0115_1.m3u8
-- ❌ [标清 / 9999ms / bf_all_status.m3u8] http://183.10.180.46:9901/tsfile/live/0115_1.m3u8?key=txiptv&playlive=1&authid=0
-- ❌ [标清 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/7e0d9638f60dca70ddc3a2437eb10e874587f11f9d3efd833e71acfbdf2de2d6.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://112.25.48.68/live/program/live/btws/1300000/mnf.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://liveout.btzx.com.cn/62ds9e/yil08g.m3u8
 
 ### 内蒙古卫视
 
@@ -1037,16 +884,16 @@
 - ✅ [未知 / 77ms / best-fan 央视卫视地方(每日存活校验)] http://118.193.115.2:9901/tsfile/live/0109_1.m3u8?key=txiptv&playlive=1&authid=0
 - ✅ [未知 / 144ms / vbskycn.m3u] http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
 - ✅ [未知 / 270ms / best-fan 央视卫视地方(每日存活校验)] http://218.13.170.98:9901/tsfile/live/0109_1.m3u8?key=txiptv&playlive=1&authid=0
-- ❌ [标清 / 9999ms / bf_all_status.m3u8] http://183.10.180.46:9901/tsfile/live/0109_1.m3u8?key=txiptv&playlive=1&authid=0
 - ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/1e5dc1f802d7775ea9cde7b7b874b914365797c6718c5e95448aa26648e136e6.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221225836/index.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225667/index.m3u8
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://117.169.120.140:8080/live/neimenggustv/.m3u8
+- ❌ [标清 / 9999ms / bf_all_status.m3u8] http://183.10.180.46:9901/tsfile/live/0109_1.m3u8?key=txiptv&playlive=1&authid=0
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://183.207.248.71/gitv/live1/G_NEIMENGGU/G_NEIMENGGU
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221225836/index.m3u8
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.245.173/PLTV/4/224/3221225836/index.m3u8
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225667/index.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=内蒙古卫视
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=nmws
 - ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/49/index.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=nmws
 - ❌ [未知 / 9999ms / suxuang.m3u] https://livestream-bt.nmtv.cn/nmtv/2315general.m3u8?txSecret=4971666599ef9411629213c9a300bf66&txTime=771EF880
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://live.264788.xyz/channel/neimengguweishi?streamid=81a015dbecf3031d7d847b7a9b059f67&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://live.264788.xyz/channel/neimengguweishi?streamid=3e7340acf8869ac1c7dad1bb836dcd35&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
@@ -1056,12 +903,6 @@
 ### 内蒙古蒙语卫视
 
 - ❌ [未知 / 9999ms / suxuang ipv4] https://livestream-bt.nmtv.cn/nmtv/2315general.m3u8?txSecret=4971666599ef9411629213c9a300bf66&txTime=771EF880
-
-### 农林卫视
-
-- ✅ [未知 / 37ms / suxuang.m3u] http://120.76.248.139/live/bfgd/4200000122.m3u8
-- ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/3560edca61a3e10ce94bf15bb670a1e422c82696550d5c16de4c7ebab0de304f.ctv
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://live.chinacert.cftest5.cn/cnmg/live/956904896
 
 ### 凤凰卫视台
 
@@ -1078,45 +919,21 @@
 - ✅ [未知 / 76ms / Guovin iptv-api result(存活校验)] http://120.76.248.139/live/bfgd/4200000083.m3u8
 - ✅ [未知 / 90ms / best-fan 央视卫视地方(每日存活校验)] http://36.136.38.87:9901/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0
 - ✅ [未知 / 955ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqbv/bjwshd.m3u8?auth=test20251009
-- ❌ [1080P / 9999ms / bf_all_status.m3u8] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=bjwshd
-- ❌ [4K / 9999ms / suxuang.m3u] http://8.138.7.223/tv/btime.php?id=bjws4k
 - ❌ [4K / 9999ms / suxuang.m3u] http://106.53.99.30/tv/api.php?id=bjws4k
+- ❌ [4K / 9999ms / suxuang.m3u] http://8.138.7.223/tv/btime.php?id=bjws4k
+- ❌ [4K / 9999ms / suxuang.m3u] http://[2409:8087:1:20:20::26]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226550/1.m3u8?GuardEncType=2&accountinfo=~~V2.0~e2qS8h6u-xp3gd50vNr1sw~_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNPPFD3HVWEytEVyliOxehfe%2CEND
+- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://14.152.88.77/liveplay-kk.rtxapp.com/live/program/live/bjwshd/4000000/mnf.m3u8
+- ❌ [1080P / 9999ms / bf_all_status.m3u8] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=bjwshd
 - ❌ [1080P / 9999ms / iptvorg_cn.m3u] http://go.bkpcp.top/mg/bjws
 - ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/217f4f75f9a74bf1809629bcbb3fa197c1ba1b4ba529514de80cde5171e972a0.ctv
 - ❌ [标清 / 9999ms / iptvorg_cn.m3u] http://ivi.bupt.edu.cn/hls/btv1.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=北京卫视
-- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/btv1hd.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/27/index.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/btv1hd.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221225724/index.m3u8
-- ❌ [4K / 9999ms / suxuang.m3u] http://[2409:8087:1:20:20::26]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226550/1.m3u8?GuardEncType=2&accountinfo=~~V2.0~e2qS8h6u-xp3gd50vNr1sw~_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNPPFD3HVWEytEVyliOxehfe%2CEND
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/bjwshd.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://104.152.209.49:8181/720p/bjws.m3u8
 - ❌ [未知 / 9999ms / bestK iptv] https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s1/index.m3u8?time=1771380560&sign=42f09d7297acc4a59b4a67ee6cbe7f61
-
-### 南方卫视
-
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/069c724c7c324d17825fcf8ee532b261de3aef322120d44ac80cdf96a891c8a9.m3u8
-
-### 卡酷少儿
-
-- ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221226019/index.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226677/1.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://[2409:8087:1a15:10d1::33]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225654/index.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://[2409:8087:5e08:25::16]:6610/200000001898/460000089800010081/1.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://migu.188766.xyz/?migutoken=1023983db6b5249e61d4950c1654cd84&id=%E5%8C%97%E4%BA%AC%E5%8D%A1%E9%85%B7%E5%B0%91%E5%84%BF&type=yy
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://migu.188766.xyz/?migutoken=2c51384549aec8a85219fdc0c475e40b&id=%E5%8C%97%E4%BA%AC%E5%8D%A1%E9%85%B7%E5%B0%91%E5%84%BF&type=yy
-
-### 厦门卫视
-
-- ✅ [未知 / 1907ms / Guovin iptv-api result(存活校验)] http://198.204.228.26/live/xmws.m3u8
-- ❌ [标清 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/a927444efa3d55d3d42d4d80fc9dd565caeae93fe0328d6e078367c2120df3d4.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.245.159/ott.js.chinamobile.com/PLTV/3/224/3221226996/index.m3u8
-- ❌ [未知 / 9999ms / iptvorg_cn2.m3u] http://112.25.48.68/live/program/live/xmws/1300000/mnf.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://e2.woc.iiiya.cn:28888/rtp/239.61.2.11:8060
-- ❌ [未知 / 9999ms / suxuang.m3u] http://8.138.7.223/tv/fjtv1.php?id=xmws
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://192.151.150.154/live/xmws.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/xmws.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=xmws
 
 ### 吉林卫视
 
@@ -1126,10 +943,10 @@
 - ✅ [未知 / 219ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.199.175:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
 - ✅ [未知 / 295ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.199.74:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
 - ❌ [1080P / 9999ms / bf_all_status.m3u8] http://183.10.180.46:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=1&authid=0
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/f845c6ed628a3f947bccdcffba4f8384f1d72236bebee05710123de7850c62b7.ctv
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=吉林卫视
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=jlws
 - ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=吉林卫视
+- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=jlws
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/f845c6ed628a3f947bccdcffba4f8384f1d72236bebee05710123de7850c62b7.ctv
 - ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221226149/index.m3u8
 - ❌ [未知 / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.195.84:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
 - ❌ [未知 / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.198.220:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
@@ -1137,54 +954,29 @@
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/jlwshd.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/jlwshd.m3u8?auth=testpub
 
-### 哈哈炫动卫视
-
-- ❌ [标清 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/85aec22da72dbb69d4271fbde70b929f467b7d1b7c3c21639939b3d7865a00ac.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221226161/index.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://111.22.153.159:35455/itv/5000000011000031123.m3u8?cdn=bestzb
-
-### 嘉佳卡通卫视
-
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.245.139/PLTV/4/224/3221227009/index.m3u8
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/bee9044f047d4458c631c35b7af51298a624b14d6f9b74a4ea6985c8e4b36106.ctv
-- ❌ [未知 / 9999ms / iptvorg_cn2.m3u] http://112.25.48.68/live/program/live/jjkt/1300000/mnf.m3u8
-
 ### 四川卫视
 
 - ✅ [未知 / 48ms / best-fan 央视卫视地方(每日存活校验)] http://119.125.131.84:9901/tsfile/live/1060_1.m3u8?key=txiptv&playlive=1&down=1
 - ✅ [1080P / 272ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.199.74:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=0&authid=0
-- ❌ [4K / 9999ms / vbskycn.m3u] https://live.264788.xyz/channel/sichuanweishi4k?streamid=401bf692a1a8b91298f26077d53316d6&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-- ❌ [标清 / 9999ms / bf_all_status.m3u8] http://125.125.236.31:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=0
 - ❌ [4K / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=四川卫视4K
-- ❌ [标清 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/3c264c25b1f8debffea48cd474ef8b830ced737528778624f006949a84930657.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225733/index.m3u8
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://112.25.48.68/live/program/live/scws/1300000/mnf.m3u8
+- ❌ [标清 / 9999ms / bf_all_status.m3u8] http://125.125.236.31:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=0
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://125.210.152.18:9090/live/SCWSHD_H265.m3u8
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://183.207.248.71/gitv/live1/SCWS/SCWS
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221225814/index.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://112.25.48.68/live/program/live/scws/1300000/mnf.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://125.210.152.18:9090/live/SCWSHD_H265.m3u8
+- ❌ [标清 / 9999ms / iptvorg_cn.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225733/index.m3u8
+- ❌ [标清 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/3c264c25b1f8debffea48cd474ef8b830ced737528778624f006949a84930657.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=四川卫视
-- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/schd.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=四川卫视
 - ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/35/index.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=四川卫视
+- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/schd.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221226152/index.m3u8
 - ❌ [1080P / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.198.220:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=0&authid=0
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://live.264788.xyz/channel/sichuanweishi4k?streamid=21be5901ee81559c827dc84e46f26452&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://live.264788.xyz/channel/sichuanweishi4k?streamid=401bf692a1a8b91298f26077d53316d6&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=scwshd
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/scwshd.m3u8?auth=testpub
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/scwshd.m3u8
-
-### 大湾区卫视
-
-- ❌ [标清 / 9999ms / suxuang.m3u] http://ali.hlspull.yximgs.com/live/b027460e580a463cb7e44eebexcvhnddggdfsdg.flv
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/5541653e7ec9b88139ad499c274fd765cae9c0f1a2277deaa6a713cffa1cc7a3.ctv
-- ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=大湾区卫视
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=dwqws
-- ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=大湾区卫视
-- ❌ [未知 / 9999ms / vbskycn.m3u] http://222.128.55.152:9080/live/dwq.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://198.204.228.26/live/nfws.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=nfws
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/nfws.m3u8?auth=testpub
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/nfws.m3u8
 
 ### 天津卫视
 
@@ -1193,9 +985,6 @@
 - ✅ [1080P / 55ms / bf_all_status.m3u8] http://222.169.85.8:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
 - ✅ [1080P / 65ms / bf_all_status.m3u8] http://221.226.51.220:50081/newlive/live/hls/26/live.m3u8
 - ✅ [标清 / 121ms / bf_all_status.m3u8] http://36.136.38.87:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
-- ❌ [标清 / 9999ms / bf_all_status.m3u8] http://153.0.171.163:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
-- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225698/index.m3u8
-- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225739/index.m3u8
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://112.25.48.68/live/program/live/tjwshd/4000000/mnf.m3u8
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://117.169.120.140:8080/live/hdtianjinstv/.m3u8
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://183.207.248.71/cntv/live1/HD-2500k-1080P-tianjinstv/HD-2500k-1080P-tianjinstv
@@ -1203,10 +992,13 @@
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://223.110.245.155/ott.js.chinamobile.com/PLTV/3/224/3221227382/index.m3u8
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://223.110.245.165/ott.js.chinamobile.com/PLTV/3/224/3221227407/index.m3u8
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://223.110.245.170/PLTV/3/224/3221227212/index.m3u8
+- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225739/index.m3u8
+- ❌ [标清 / 9999ms / bf_all_status.m3u8] http://153.0.171.163:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
 - ❌ [未知 / 9999ms / suxuang ipv4] http://iptv.huuc.edu.cn/hls/tjhd.m3u8
 - ❌ [未知 / 9999ms / suxuang ipv4] http://148.135.93.213/live.php?id=天津卫视
 - ❌ [未知 / 9999ms / suxuang ipv4] http://112.27.235.94:8000/hls/42/index.m3u8
 - ❌ [未知 / 9999ms / suxuang ipv4] https://zby.130519.xyz/PLTV/11/224/3221225742/index.m3u8
+- ❌ [1080P / 9999ms / iptv-org cn] http://39.134.115.163:8080/PLTV/88888910/224/3221225698/index.m3u8
 - ❌ [未知 / 9999ms / iptv-org cn] http://183.207.249.12/PLTV/4/224/3221225808/index.m3u8
 - ❌ [未知 / 9999ms / iptv-org cn] http://223.110.245.151/ott.js.chinamobile.com/PLTV/3/224/3221225808/index.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=tjwshd
@@ -1228,28 +1020,20 @@
 - ✅ [1080P / 69ms / best-fan 央视卫视地方(每日存活校验)] http://222.71.55.147:9901/tsfile/live/0112_1.m3u8?key=txiptv&playlive=0&authid=0
 - ✅ [标清 / 117ms / bf_all_status.m3u8] http://222.169.85.8:9901/tsfile/live/0112_1.m3u8?key=txiptv&playlive=1&authid=0
 - ✅ [标清 / 157ms / bf_all_status.m3u8] http://113.25.252.226:9901/tsfile/live/1046_1.m3u8?key=txiptv&playlive=1&authid=0
-- ❌ [标清 / 9999ms / vbskycn.m3u] https://live.264788.xyz/channel/ningxiaweishi?streamid=1b2952717a920173e66d4a348f9dcb5c&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-- ❌ [标清 / 9999ms / bf_all_status.m3u8] http://183.10.180.46:9901/tsfile/live/0112_1.m3u8?key=txiptv&playlive=1&authid=0
 - ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/c3a22585493b5fbb62ab4b873bbf60ce767e779781bf178117fcf0918e2de201.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://183.207.248.71/gitv/live1/G_NINGXIA/G_NINGXIA
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225726/index.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://117.169.120.140:8080/live/ningxiastv/.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://183.207.248.11/PLTV/4/224/3221225842/index.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.245.151/ott.js.chinamobile.com/PLTV/3/224/3221225842/index.m3u8
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://112.25.48.68/live/program/live/nxws/1300000/mnf.m3u8
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://117.169.120.140:8080/live/ningxiastv/.m3u8
+- ❌ [标清 / 9999ms / bf_all_status.m3u8] http://183.10.180.46:9901/tsfile/live/0112_1.m3u8?key=txiptv&playlive=1&authid=0
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://183.207.248.11/PLTV/4/224/3221225842/index.m3u8
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://183.207.248.71/gitv/live1/G_NINGXIA/G_NINGXIA
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.245.151/ott.js.chinamobile.com/PLTV/3/224/3221225842/index.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=nxws
+- ❌ [未知 / 9999ms / vbskycn iptv4] https://live.264788.xyz/channel/ningxiaweishi?streamid=1b2952717a920173e66d4a348f9dcb5c&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+- ❌ [未知 / 9999ms / iptv-org cn] http://39.134.115.163:8080/PLTV/88888910/224/3221225726/index.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://live.264788.xyz/channel/ningxiaweishi?streamid=e1236348f815c36a0429357e5b5c5f10&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://live.264788.xyz/channel/ningxiaweishi?streamid=551474d02bee1c160e1692e22c45ddba&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/nxws.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://198.204.228.26/live/nxws.m3u8
-
-### 安多卫视
-
-- ✅ [未知 / 140ms / vbskycn.m3u] https://liveout.xntv.tv/a65jur/96iln2.m3u8
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/290a71e47606fa713caa0f79a0812e332e24e5ec6d51610020d3031c34fb2857.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://liveout.xntv.tv/a65jur/90p2i1.m3u8?zqing
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/52d0df257c5c3cec42f2ae19268dbbc261256ff391b27bd83553bea941d0c186.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://liveout.xntv.tv/a65jur/90p2i1.m3u8?zqinghd
 
 ### 安徽卫视
 
@@ -1258,10 +1042,10 @@
 - ✅ [未知 / 50ms / best-fan 央视卫视地方(每日存活校验)] http://118.122.144.115:8888/newlive/live/hls/40/live.m3u8
 - ✅ [1080P / 216ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.199.74:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=0&authid=0
 - ✅ [未知 / 1075ms / vbskycn.m3u] http://gmxw.7766.org:808/hls/40/index.m3u8
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/5b4822a5ec2db203657ad69a37c8ee684490003ec64dfd80eb0c8074110f60e2.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=安徽卫视
-- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/ahhd.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/26/index.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/ahhd.m3u8
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/5b4822a5ec2db203657ad69a37c8ee684490003ec64dfd80eb0c8074110f60e2.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221225739/index.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/ahwshd.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=ahwshd
@@ -1276,15 +1060,15 @@
 - ✅ [未知 / 59ms / best-fan 央视卫视地方(每日存活校验)] http://119.125.131.84:9901/tsfile/live/1063_1.m3u8?key=txiptv&playlive=1&down=1
 - ✅ [未知 / 77ms / Guovin iptv-api result(存活校验)] http://120.76.248.139/live/bfgd/4200000099.m3u8
 - ✅ [720P / 91ms / best-fan 央视卫视地方(每日存活校验)] http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8
-- ❌ [1080P / 9999ms / bf_all_status.m3u8] http://107.150.60.122/live/sdwshd.m3u8
 - ❌ [4K / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=山东卫视4K
-- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225697/index.m3u8
-- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225738/index.m3u8
+- ❌ [1080P / 9999ms / bf_all_status.m3u8] http://107.150.60.122/live/sdwshd.m3u8
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://117.169.120.140:8080/live/hdshandongstv/.m3u8
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://183.207.248.71/cntv/live1/HD-2500k-1080P-shandongstv/HD-2500k-1080P-shandongstv
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://223.110.243.171/PLTV/3/224/3221227258/index.m3u8
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://223.110.245.139/PLTV/4/224/3221227448/index.m3u8
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://223.110.254.207:6610/cntv/live1/HD-2500k-1080P-shandongstv/HD-2500k-1080P-shandongstv/1.m3u8
+- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225697/index.m3u8
+- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225738/index.m3u8
 - ❌ [720P / 9999ms / iptvorg_cn.m3u] http://125.210.152.18:9090/live/SDWSHD_H265.m3u8
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://183.207.248.71/gitv/live1/SDWS/SDWS
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.245.149/ott.js.chinamobile.com/PLTV/3/224/3221225804/index.m3u8
@@ -1299,11 +1083,6 @@
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://198.204.228.26/live/sdwshd.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/sdwshd.m3u8?auth=testpub
 
-### 山东教育卫视
-
-- ❌ [标清 / 9999ms / suxuang.m3u] https://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8
-- ❌ [标清 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/sdetv.m3u8
-
 ### 山西卫视
 
 - ✅ [1080P / 21ms / best-fan 央视卫视地方(每日存活校验)] http://123.160.235.204:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -1315,14 +1094,14 @@
 - ✅ [未知 / 261ms / best-fan 央视卫视地方(每日存活校验)] https://stream2.jlntv.cn/baicheng1/sd/live.m3u8
 - ✅ [未知 / 303ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.199.74:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
 - ✅ [未知 / 2766ms / best-fan 央视卫视地方(每日存活校验)] http://218.13.170.98:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
-- ❌ [标清 / 9999ms / bf_all_status.m3u8] http://101.66.198.174:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
 - ❌ [1080P / 9999ms / bf_all_status.m3u8] http://107.150.60.122/live/sxwshd.m3u8
+- ❌ [标清 / 9999ms / bf_all_status.m3u8] http://101.66.198.174:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
 - ❌ [标清 / 9999ms / bf_all_status.m3u8] http://153.0.171.163:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/2f538e8c3c3dc60b99799fb3331f5f05b5a9c3c574544b4178a57a7de78f6884.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=山西卫视
-- ❌ [未知 / 9999ms / ssili126_itv.m3u] http://59.32.97.20:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
-- ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=山西卫视
 - ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/45/index.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=山西卫视
+- ❌ [未知 / 9999ms / ssili126_itv.m3u] http://59.32.97.20:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/2f538e8c3c3dc60b99799fb3331f5f05b5a9c3c574544b4178a57a7de78f6884.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221226113/index.m3u8
 - ❌ [未知 / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.195.84:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
 - ❌ [未知 / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.198.220:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
@@ -1342,21 +1121,21 @@
 - ✅ [1080P / 171ms / bf_all_status.m3u8] http://120.238.94.82:9901/tsfile/live/1009_1.m3u8
 - ✅ [未知 / 205ms / Guovin iptv-api result(存活校验)] http://120.76.248.139/live/bfgd/4200000092.m3u8
 - ✅ [1080P / 240ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.199.74:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=0&authid=0
-- ✅ [未知 / 1374ms / vbskycn.m3u] https://txmov2.a.kwimgs.com/upic/2023/01/26/09/BMjAyMzAxMjYwOTE3NDVfNzM5MzQzNzIyXzk0NjI1OTUwNTA3XzBfMw==_b_B81ddda927d33445d544befd008e60109.mp4
-- ❌ [4K / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/2c001125e9971ba7ea1c832a04dcb6339a08c0202b42f28aa231364e92345378.m3u8
+- ✅ [未知 / 946ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/gdwshd.m3u8?auth=testpub
+- ✅ [未知 / 1374ms / vbskycn iptv4] https://txmov2.a.kwimgs.com/upic/2023/01/26/09/BMjAyMzAxMjYwOTE3NDVfNzM5MzQzNzIyXzk0NjI1OTUwNTA3XzBfMw==_b_B81ddda927d33445d544befd008e60109.mp4
 - ❌ [4K / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=广东卫视4K
+- ❌ [4K / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/2c001125e9971ba7ea1c832a04dcb6339a08c0202b42f28aa231364e92345378.m3u8
 - ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/ef054656d7deb2e72d56609d1cb441d2680cde24e52ff750b1ef59e79a268f7c.m3u8
 - ❌ [标清 / 9999ms / iptvorg_cn.m3u] https://h5cul1yar48um3t.wcetv.com/hls/gdsatellite.m3u8
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/6787e35b48df7529fb25c86cd92936335e75d68881015ff99c3e969f57177987.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=广东卫视
+- ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/30/index.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/gdhd.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=gdws
-- ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/30/index.m3u8
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/6787e35b48df7529fb25c86cd92936335e75d68881015ff99c3e969f57177987.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221225731/index.m3u8
 - ❌ [1080P / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.198.220:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=0&authid=0
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gdwshd
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/gdwshd.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/gdwshd.m3u8?auth=testpub
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://hls-gateway.vpstv.net/streams/476943.m3u8
 
 ### 广西卫视
@@ -1370,37 +1149,18 @@
 - ✅ [未知 / 206ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.199.175:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
 - ✅ [未知 / 288ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.198.117:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
 - ✅ [未知 / 352ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.199.74:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/3899ee96bfc51a8e53baa9d48c86b9b9a52907112fffcb33e94df2c05cc02d3c.m3u8
-- ❌ [未知 / 9999ms / kimentanm.m3u] rtmp://live.gxrb.com.cn/hls/a23
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=gxws
+- ✅ [未知 / 2689ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/gxwshd.m3u8?auth=testpub
 - ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=广西卫视
+- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=gxws
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/3899ee96bfc51a8e53baa9d48c86b9b9a52907112fffcb33e94df2c05cc02d3c.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221226084/index.m3u8
+- ❌ [未知 / 9999ms / kimentanm.m3u] rtmp://live.gxrb.com.cn/hls/a23
 - ❌ [1080P / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://204.12.221.218:8181/3m1080p/gxws.m3u8
 - ❌ [未知 / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.198.220:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
 - ❌ [未知 / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.195.84:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gxwshd
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/gxwshd.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://198.204.228.26/live/gxwshd.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/gxwshd.m3u8?auth=testpub
-
-### 康巴卫视
-
-- ❌ [720P / 9999ms / iptvorg_cn2.m3u] http://scgctvshow.sctv.com/hdlive/kangba/1.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.245.139/PLTV/4/224/3221227008/index.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227027/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EkHMvBpWz4rccMxNvSRekpQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
-
-### 延边卫视
-
-- ✅ [720P / 87ms / vbskycn.m3u] http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8#
-- ✅ [未知 / 88ms / vbskycn.m3u] http://stream5.jlntv.cn/wq/playlist.m3u8
-- ✅ [未知 / 92ms / best-fan 央视卫视地方(每日存活校验)] https://stream2.jlntv.cn/jlyb/sd/live.m3u8
-- ✅ [未知 / 152ms / suxuang.m3u] http://120.76.248.139/live/bfgd/4200000117.m3u8
-- ✅ [1080P / 208ms / bf_all_status.m3u8] https://srs.iyb983.cn:443/video/CYS/index.m3u8
-- ✅ [1080P / 250ms / bf_all_status.m3u8] https://srs.iyb983.cn/video/CYS/index.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.245.139/PLTV/4/224/3221227002/index.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221227002/index.m3u8
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/d2ea3a364fa453b29060ebccb5a06a1941755859c0182ab0f071473c08738fc2.ctv
-- ❌ [未知 / 9999ms / iptv-org cn(github.io)] http://223.110.245.139/PLTV/4/224/3221227008/index.m3u8
 
 ### 数码时代
 
@@ -1418,15 +1178,15 @@
 - ✅ [1080P / 163ms / bf_all_status.m3u8] http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd;http://218.84.12.186:8001/hls/main/playlist.m3u8zxinjd
 - ✅ [未知 / 717ms / best-fan 央视卫视地方(每日存活校验)] http://218.13.170.98:9901/tsfile/live/0110_1.m3u8?key=txiptv&playlive=1&authid=0
 - ✅ [标清 / 1089ms / bf_all_status.m3u8] http://222.169.85.8:9901/tsfile/live/0110_1.m3u8?key=txiptv&playlive=1&authid=0
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225725/index.m3u8
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://183.207.248.71/cntv/live1/xinjiangstv/xinjiangstv
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://183.207.248.71/gitv/live1/G_XINJIANG/G_XINJIANG
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://183.207.249.15/PLTV/3/224/3221225523/index.m3u8
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.243.136/PLTV/3/224/3221225523/index.m3u8
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/ff50600dd45b1b1656f2f7535c04f361a6e8c33606e19dbc9b0316bd173f9408.m3u8
-- ❌ [未知 / 9999ms / iptvorg_cn2.m3u] http://112.25.48.68/live/program/live/xjws/1300000/mnf.m3u8
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225725/index.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=新疆卫视
+- ❌ [未知 / 9999ms / iptvorg_cn2.m3u] http://112.25.48.68/live/program/live/xjws/1300000/mnf.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=xjws
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/ff50600dd45b1b1656f2f7535c04f361a6e8c33606e19dbc9b0316bd173f9408.m3u8
 - ❌ [1080P / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://38.75.136.137:98/gslb/dsdqpub/xjws.m3u8?auth=testpub
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://live.264788.xyz/channel/xinjiangweishi?streamid=4f481f56ae39ce5d24203471de9df635&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=xjws
@@ -1443,15 +1203,6 @@
 
 - ✅ [未知 / 13ms / bestK iptv] http://112.46.105.20:8009/hls/18/index.m3u8
 
-### 星空卫视
-
-- ❌ [未知 / 9999ms / suxuang.m3u] http://iot-mqqt.111yao.cn:8080/live/diyp_xingkong.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/xing-kong-wei-shi-12.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/xing-kong-wei-shi-4.ctv
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/xing-kong-wei-shi-10.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/xing-kong-wei-shi-11.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://wouu.net:9977/rtp/239.93.1.10:2193
-
 ### 江苏卫视
 
 - ✅ [1080P / 38ms / bf_all_status.m3u8] http://112.123.243.37:50085/tsfile/live/0017_1.m3u8?key=txiptv&playlive=0&authid=0
@@ -1460,18 +1211,18 @@
 - ✅ [1080P / 85ms / best-fan 央视卫视地方(每日存活校验)] http://221.7.175.154:8445/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0
 - ✅ [720P / 136ms / best-fan 央视卫视地方(每日存活校验)] https://stream2.jlntv.cn/sytv/sd/live.m3u8
 - ✅ [4K / 1509ms / suxuang.m3u] http://8.138.7.223/tv/jsws4k.php
-- ❌ [1080P / 9999ms / bf_all_status.m3u8] http://38.75.136.137:98/gslb/dsdqbv/jswshd.m3u8?auth=test20251009
-- ❌ [1080P / 9999ms / bf_all_status.m3u8] http://38.75.136.137:98/gslb/dsdqpub/jswshd.m3u8?auth=testpub
 - ❌ [4K / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=江苏卫视4K
-- ❌ [1080P / 9999ms / iptvorg_cn.m3u] http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226200/index.m3u8
-- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://183.207.248.71/cntv/live1/HD-2500k-1080P-jiangsustv/HD-2500k-1080P-jiangsustv
-- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225702/index.m3u8
-- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225743/index.m3u8
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://112.25.48.68/live/program/live/jswshd/4000000/mnf.m3u8
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://117.169.120.140:8080/live/hdjiangsustv/.m3u8
+- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://183.207.248.71/cntv/live1/HD-2500k-1080P-jiangsustv/HD-2500k-1080P-jiangsustv
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://183.207.248.71/cntv/live1/jiangsustv/jiangsustv
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://183.207.249.34/PLTV/4/224/3221227402/index.m3u8
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://223.110.245.157/ott.js.chinamobile.com/PLTV/3/224/3221227439/index.m3u8
+- ❌ [1080P / 9999ms / bf_all_status.m3u8] http://38.75.136.137:98/gslb/dsdqbv/jswshd.m3u8?auth=test20251009
+- ❌ [1080P / 9999ms / bf_all_status.m3u8] http://38.75.136.137:98/gslb/dsdqpub/jswshd.m3u8?auth=testpub
+- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225702/index.m3u8
+- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225743/index.m3u8
+- ❌ [1080P / 9999ms / iptvorg_cn.m3u] http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226200/index.m3u8
 - ❌ [未知 / 9999ms / suxuang ipv4] http://iptv.huuc.edu.cn/hls/jshd.m3u8
 - ❌ [未知 / 9999ms / suxuang ipv4] http://t.061899.xyz/tl/tl.php?id=jsws
 - ❌ [未知 / 9999ms / suxuang ipv4] http://101.35.240.114:88/live.php?id=江苏卫视
@@ -1491,28 +1242,28 @@
 - ✅ [未知 / 67ms / best-fan 央视卫视地方(每日存活校验)] http://119.39.9.8:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=0&authid=0
 - ✅ [标清 / 143ms / bf_all_status.m3u8] http://113.25.252.226:9901/tsfile/live/1035_1.m3u8?key=txiptv&playlive=1&authid=0
 - ✅ [1080P / 264ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.199.175:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=0&authid=0
+- ✅ [未知 / 719ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/jxwshd.m3u8?auth=testpub
 - ✅ [1080P / 849ms / bf_all_status.m3u8] http://112.27.5.218:9901/tsfile/live/faacts/0138_1.m3u8?key=txiptv&playlive=1&authid=0
-- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225705/index.m3u8
-- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225746/index.m3u8
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://112.25.48.68/live/program/live/jxwshd/4000000/mnf.m3u8
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://183.207.248.71/cntv/live1/jiangxistv/jiangxistv
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://183.207.249.11/PLTV/3/224/3221225536/index.m3u8
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://223.110.245.170/PLTV/3/224/3221225536/index.m3u8
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://223.110.254.199:6610/cntv/live1/jiangxistv/jiangxistv/1.m3u8
+- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225746/index.m3u8
 - ❌ [720P / 9999ms / iptvorg_cn2.m3u] http://117.169.120.140:8080/live/jiangxistv/.m3u8
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://125.210.152.18:9090/live/JXWSHD_H265.m3u8
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://183.207.248.71/gitv/live1/JXWS/JXWS
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://183.207.249.15/PLTV/4/224/3221225798/index.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://125.210.152.18:9090/live/JXWSHD_H265.m3u8
 - ❌ [1080P / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.198.220:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=0&authid=0
 - ❌ [未知 / 9999ms / suxuang ipv4] http://iptv.huuc.edu.cn/hls/jxhd.m3u8
 - ❌ [未知 / 9999ms / suxuang ipv4] http://t.061899.xyz/tl/tl.php?id=jxws
 - ❌ [未知 / 9999ms / suxuang ipv4] http://101.35.240.114:88/live.php?id=江西卫视
 - ❌ [未知 / 9999ms / suxuang ipv4] http://112.27.235.94:8000/hls/44/index.m3u8
 - ❌ [未知 / 9999ms / suxuang ipv4] https://zby.130519.xyz/PLTV/11/224/3221225740/index.m3u8
+- ❌ [1080P / 9999ms / iptv-org cn] http://39.134.115.163:8080/PLTV/88888910/224/3221225705/index.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://live.264788.xyz/channel/jiangxiweishi?streamid=555198f31caa33506ac6abb70d788959&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=jxwshd
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/jxwshd.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/jxwshd.m3u8?auth=testpub
 
 ### 河北4K
 
@@ -1529,15 +1280,15 @@
 - ✅ [未知 / 259ms / Guovin iptv-api result(存活校验)] https://event.pull.hebtv.com/live/live101.m3u8
 - ✅ [4K / 303ms / kimentanm.m3u] https://event.pull.hebtv.com:443/live/live101.m3u8
 - ✅ [1080P / 421ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.199.175:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=0&authid=0
-- ❌ [1080P / 9999ms / bf_all_status.m3u8] http://38.75.136.137:98/gslb/dsdqpub/hewshd.m3u8?auth=testpub
 - ❌ [4K / 9999ms / suxuang.m3u] http://106.53.99.30/tv/api.php?id=hebtv4k
+- ❌ [1080P / 9999ms / bf_all_status.m3u8] http://38.75.136.137:98/gslb/dsdqpub/hewshd.m3u8?auth=testpub
 - ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/50a5410e1d04d5d14187b7b663c633977b51e860cf4e7046b19159d791a1a0a1.ctv
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=河北卫视
-- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/hebhd.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=河北卫视
 - ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/39/index.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221226107/index.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=河北卫视
+- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/hebhd.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://tv.pull.hebtv.com/jishi/weishipindao.m3u8?t=2510710360&k=3d44740039027301acf8341d7361ab59
+- ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221226107/index.m3u8
 - ❌ [1080P / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.195.84:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=0&authid=0
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hewshd
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://204.12.221.218:8181/3m1080p/hews.m3u8
@@ -1554,11 +1305,11 @@
 - ✅ [1080P / 262ms / best-fan 央视卫视地方(每日存活校验)] https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=985ebb910dd1e9ad9603ffd7670bd155&wsTime=1791183481
 - ✅ [未知 / 906ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/hawshd.m3u8?auth=testpub
 - ❌ [标清 / 9999ms / bf_all_status.m3u8] http://111.59.139.82:11888/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/7331faf4032e9de329e2c041cd9fa6f95fad0683ef1937a7bbbb76322856b9eb.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=河南卫视
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=hnws
-- ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=河南卫视
 - ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/37/index.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=河南卫视
+- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=hnws
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/7331faf4032e9de329e2c041cd9fa6f95fad0683ef1937a7bbbb76322856b9eb.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221226132/index.m3u8
 - ❌ [1080P / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=6c498915ad08966278d65488871efc64&wsTime=1795464201
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/hawshd.m3u8
@@ -1579,9 +1330,8 @@
 - ✅ [720P / 127ms / bf_all_status.m3u8] http://ali-xwl.cztv.com/live/channel01720Plxw.m3u8
 - ✅ [未知 / 164ms / Guovin iptv-api result(存活校验)] http://ali-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8
 - ✅ [1080P / 293ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.195.24:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=0&authid=0
+- ✅ [未知 / 1613ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/zjwshd.m3u8?auth=testpub
 - ❌ [4K / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=浙江卫视4K
-- ❌ [1080P / 9999ms / iptvorg_cn.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225703/index.m3u8
-- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225744/index.m3u8
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://112.25.48.68/live/program/live/zjwshd/4000000/mnf.m3u8
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://183.207.248.71/cntv/live1/HD-2500k-1080P-zhejiangstv/HD-2500k-1080P-zhejiangstv
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://183.207.248.71/cntv/live1/zhejiangstv/zhejiangstv
@@ -1589,6 +1339,8 @@
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://223.110.243.173/PLTV/3/224/3221227215/index.m3u8
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://223.110.245.143/ott.js.chinamobile.com/PLTV/3/224/3221227483/index.m3u8
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://223.110.245.159/ott.js.chinamobile.com/PLTV/3/224/3221227393/index.m3u8
+- ❌ [1080P / 9999ms / iptvorg_cn.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225703/index.m3u8
+- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225744/index.m3u8
 - ❌ [1080P / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.198.220:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=0&authid=0
 - ❌ [未知 / 9999ms / suxuang ipv4] https://play-qukan.cztv.com/live/1746687519046362.m3u8
 - ❌ [未知 / 9999ms / suxuang ipv4] http://iptv.huuc.edu.cn/hls/zjhd.m3u8
@@ -1599,69 +1351,19 @@
 - ❌ [未知 / 9999ms / iptv-org cn] http://183.207.248.71/gitv/live1/G_ZHEJIANG/G_ZHEJIANG
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=zjwshd
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/zjwshd.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/zjwshd.m3u8?auth=testpub
 - ❌ [未知 / 9999ms / bestK iptv] http://zwebl02.cztv.com/live/channel01720Pnew.m3u8?auth_key=1771387389-7864ae82da3f6f9b9a99094ac8057af9-0-5bd73708daa30dea5fba2e51470b1435
 - ❌ [未知 / 9999ms / bestK iptv] https://play-qukan.cztv.com/live/1758879019692345.m3u8
 
 ### 海南卫视
 
 - ✅ [未知 / 70ms / suxuang.m3u] http://120.76.248.139/live/bfgd/4200000473.m3u8
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/468b29e1bee51764e3cf09ee70bf730e44aaeead942f39c43e9010e9da7b7a4a.ctv
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=海南卫视
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=hinws
 - ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=海南卫视
 - ❌ [未知 / 9999ms / suxuang.m3u] http://nn.7x9d.cn/地方台8563/海南.php?id=hnws
+- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=hinws
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/468b29e1bee51764e3cf09ee70bf730e44aaeead942f39c43e9010e9da7b7a4a.ctv
 - ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221226154/index.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227029/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EEuBMjt2kLMD8fAO7QYER7Q%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
-
-### 海峡卫视
-
-- ✅ [未知 / 152ms / suxuang.m3u] http://8.138.7.223/tv/hxws.m3u8
-- ✅ [未知 / 2194ms / suxuang.m3u] http://r.jdshipin.com/WtYt3
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/ba0cb96ba000eebc5a91bd4ffcaed72334b786255d15f293d5f09f19c344cc0f.ctv
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=hxws
-- ❌ [未知 / 9999ms / vbskycn.m3u] http://38.64.72.148/hls/modn/list/4009/playlist.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.64.72.148:80/hls/modn/list/4009/playlist.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.64.72.148:80/hls/modn/list/4009/chunklist0.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://m.italkbbtv.com/live/6a30f74820a80832dc74e2c7
-
-### 深圳卫视
-
-- ✅ [1080P / 26ms / best-fan 央视卫视地方(每日存活校验)] http://123.160.235.204:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
-- ✅ [未知 / 47ms / best-fan 央视卫视地方(每日存活校验)] http://124.228.160.3:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
-- ✅ [1080P / 51ms / best-fan 央视卫视地方(每日存活校验)] http://119.125.131.84:9901/tsfile/live/1048_1.m3u8?key=txiptv&playlive=1&down=1
-- ✅ [标清 / 53ms / bf_all_status.m3u8] http://36.136.38.87:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
-- ✅ [未知 / 71ms / Guovin iptv-api result(存活校验)] http://120.76.248.139/live/bfgd/4200000100.m3u8
-- ✅ [1080P / 79ms / bf_all_status.m3u8] http://112.123.243.37:50085/tsfile/live/1000_1.m3u8?key=txiptv&playlive=0&authid=0
-- ✅ [1080P / 105ms / bf_all_status.m3u8] http://120.198.95.220:9901/tsfile/live/1048_1.m3u8?key=txiptv&playlive=1&down=1
-- ✅ [1080P / 182ms / bf_all_status.m3u8] http://120.238.94.82:9901/tsfile/live/1065_1.m3u8
-- ❌ [标清 / 9999ms / bf_all_status.m3u8] http://125.125.236.31:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
-- ❌ [1080P / 9999ms / bf_all_status.m3u8] http://183.10.180.46:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
-- ❌ [720P / 9999ms / bf_all_status.m3u8] http://107.150.60.122/live/szwshd.m3u8
-- ❌ [4K / 9999ms / iptvorg_cn.m3u] https://livepull-tcms.sztv.com.cn/live/sz4Kpgm.m3u8
-- ❌ [4K / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=深圳卫视4K
-- ❌ [4K / 9999ms / suxuang.m3u] http://nn.7x9d.cn/深圳最新.php?id=szws4k
-- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://183.207.248.71/cntv/live1/HD-2500k-1080P-shenzhenstv/HD-2500k-1080P-shenzhenstv
-- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226205/index.m3u8
-- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://39.134.39.39/PLTV/88888888/224/3221226199/index.m3u8
-- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225700/index.m3u8
-- ❌ [1080P / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://38.75.136.137:98/gslb/dsdqpub/szwshd.m3u8?auth=testpub
-- ❌ [未知 / 9999ms / suxuang ipv4] http://iptv.huuc.edu.cn/hls/szhd.m3u8
-- ❌ [未知 / 9999ms / suxuang ipv4] http://101.35.240.114:88/live.php?id=深圳卫视
-- ❌ [未知 / 9999ms / suxuang ipv4] http://112.27.235.94:8000/hls/33/index.m3u8
-- ❌ [未知 / 9999ms / suxuang ipv4] https://zby.130519.xyz/PLTV/11/224/3221225728/index.m3u8
-- ❌ [1080P / 9999ms / iptv-org cn] http://39.134.115.163:8080/PLTV/88888910/224/3221225741/index.m3u8
-- ❌ [1080P / 9999ms / iptv-org cn] http://39.135.138.59:18890/PLTV/88888910/224/3221225741/index.m3u8
-- ❌ [1080P / 9999ms / iptv-org cn] http://112.25.48.68/live/program/live/szwshd/4000000/mnf.m3u8
-- ❌ [1080P / 9999ms / iptv-org cn] http://117.169.120.140:8080/live/hdshenzhenstv/.m3u8
-- ❌ [1080P / 9999ms / iptv-org cn] http://183.207.249.37/PLTV/4/224/3221227307/index.m3u8
-- ❌ [1080P / 9999ms / iptv-org cn] http://223.110.243.171/PLTV/3/224/3221227217/index.m3u8
-- ❌ [1080P / 9999ms / iptv-org cn] http://223.110.245.139/PLTV/4/224/3221227307/index.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.64.72.148:80/hls/modn/list/4007/playlist.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=szwshd
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://php.jdshipin.com/TVOD/hnyd.php?id=200000001898/460000089800010068
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://smart.pendy.dpdns.org/Smart.php?id=shenzhen
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://z.b.bkpcp.top/m.php?id=szws
 
 ### 湖北卫视
 
@@ -1670,11 +1372,11 @@
 - ✅ [1080P / 48ms / bf_all_status.m3u8] http://112.123.243.37:50085/tsfile/live/1001_1.m3u8?key=txiptv&playlive=0&authid=0
 - ✅ [1080P / 94ms / best-fan 央视卫视地方(每日存活校验)] http://120.40.39.246:352/newlive/live/hls/36/live.m3u8
 - ✅ [1080P / 220ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.195.24:9901/tsfile/live/0132_1.m3u8?key=txiptv&playlive=0&authid=0
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/37aa38a997eb8e568186fad85670c3a3a6684361c2b038c5cd0d0835216f299b.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=湖北卫视
+- ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/41/index.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/hbhd.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=hubws
-- ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/41/index.m3u8
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/37aa38a997eb8e568186fad85670c3a3a6684361c2b038c5cd0d0835216f299b.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221225729/index.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/hbwshd.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hbwshd
@@ -1687,22 +1389,22 @@
 - ✅ [1080P / 47ms / best-fan 央视卫视地方(每日存活校验)] http://221.7.175.154:8445/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
 - ✅ [未知 / 83ms / vbskycn iptv4] http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 - ✅ [1080P / 219ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.199.175:9901/tsfile/live/0019_1.m3u8?key=txiptv&playlive=0&authid=0
-- ✅ [未知 / 451ms / vbskycn.m3u] https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8
+- ✅ [未知 / 451ms / Guovin iptv-api result(存活校验)] https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8
 - ✅ [4K / 647ms / suxuang.m3u] http://8.138.7.223/tv/api.php?id=hnws4k
 - ✅ [1080P / 822ms / bf_all_status.m3u8] http://74.91.26.218:82/live/hnwshd.m3u8
 - ❌ [4K / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=湖南卫视4K
 - ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/68232f771e5e64ddcaf9a038ebb1aa747c384d46ab1f33fa5be113e6d0c6d298.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=湖南卫视
+- ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/31/index.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/hunanhd.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=hunws
-- ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/31/index.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221225726/index.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/hnwshd.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hnwshd
 
-### 澳亚卫视
+### 湖州公共
 
-- ❌ [未知 / 9999ms / suxuang.m3u] http://cdn9.163189.xyz/live/as/stream.m3u8
+- ❌ [未知 / 9999ms / bestK iptv] https://stream1.freetv.fun/hu-zhou-gong-gong-9.m3u8
 
 ### 甘肃卫视
 
@@ -1713,10 +1415,10 @@
 - ✅ [未知 / 4136ms / vbskycn.m3u] http://218.13.170.98:9901/tsfile/live/0141_1.m3u8
 - ❌ [720P / 9999ms / bf_all_status.m3u8] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gswshd
 - ❌ [标清 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/62fc00b17e85a0f05bc7442ba4c507d0d9ed83d0e4c628543a0c8cc0f3c0e79e.m3u8
-- ❌ [未知 / 9999ms / iptvorg_cn2.m3u] https://hls.gstv.com.cn/49048r/y72q36.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=甘肃卫视
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=gsws
 - ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=甘肃卫视
+- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=gsws
+- ❌ [未知 / 9999ms / iptvorg_cn2.m3u] https://hls.gstv.com.cn/49048r/y72q36.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221226090/index.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/gswshd.m3u8?auth=testpub
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227020/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Err-CLugPnTcUinEM8JeySg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
@@ -1741,13 +1443,13 @@
 - ✅ [1080P / 117ms / best-fan 央视卫视地方(每日存活校验)] http://222.71.55.147:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=0&authid=0
 - ✅ [标清 / 855ms / bf_all_status.m3u8] http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0
 - ✅ [未知 / 1003ms / best-fan 央视卫视地方(每日存活校验)] http://218.13.170.98:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0
-- ❌ [标清 / 9999ms / bf_all_status.m3u8] http://183.10.180.46:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225723/index.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://117.169.120.140:8080/live/xizangstv/.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://183.207.249.16/PLTV/3/224/3221225523/index.m3u8
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/dd47ba03fe77064ea4e0978637231bce94e7554c9f8f6a020195311829752aed.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=西藏卫视
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://117.169.120.140:8080/live/xizangstv/.m3u8
+- ❌ [标清 / 9999ms / bf_all_status.m3u8] http://183.10.180.46:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://183.207.249.16/PLTV/3/224/3221225523/index.m3u8
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225723/index.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=xzws
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/dd47ba03fe77064ea4e0978637231bce94e7554c9f8f6a020195311829752aed.m3u8
 - ❌ [未知 / 9999ms / vbskycn iptv4] https://live.264788.xyz/channel/xizangweishi?streamid=4b4e8ea919f1cfd5e43deed1d1675251&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/xzws.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=xzws
@@ -1757,20 +1459,20 @@
 - ✅ [1080P / 43ms / bf_all_status.m3u8] http://112.123.243.37:50085/tsfile/live/0130_2.m3u8?key=txiptv&playlive=0&authid=0
 - ✅ [1080P / 55ms / best-fan 央视卫视地方(每日存活校验)] http://119.125.131.84:9901/tsfile/live/1052_1.m3u8?key=txiptv&playlive=1&down=1
 - ✅ [未知 / 110ms / best-fan 央视卫视地方(每日存活校验)] http://36.136.38.87:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=1&authid=0
-- ❌ [标清 / 9999ms / vbskycn.m3u] https://live.264788.xyz/channel/guizhouweishi?streamid=091bd59ea031989839c23459bb8cc9d4&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-- ❌ [1080P / 9999ms / bf_all_status.m3u8] http://183.10.180.46:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=1&authid=0
-- ❌ [标清 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/cc54b485fc3912265c9dbb24fe2b6d1ba2b65412d0ff45b904bc4d53ea02bf67.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225728/index.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://183.207.248.71/gitv/live1/G_GUIZHOU/G_GUIZHOU
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.245.149/ott.js.chinamobile.com/PLTV/3/224/3221225787/index.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://125.210.152.18:9090/live/GZWSHD_H265.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=贵州卫视
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=gzws
-- ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=贵州卫视
+- ❌ [1080P / 9999ms / bf_all_status.m3u8] http://183.10.180.46:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=1&authid=0
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://125.210.152.18:9090/live/GZWSHD_H265.m3u8
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.245.149/ott.js.chinamobile.com/PLTV/3/224/3221225787/index.m3u8
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225728/index.m3u8
+- ❌ [标清 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/cc54b485fc3912265c9dbb24fe2b6d1ba2b65412d0ff45b904bc4d53ea02bf67.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/46/index.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=贵州卫视
+- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=gzws
 - ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221226173/index.m3u8
 - ❌ [1080P / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.198.220:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=0&authid=0
 - ❌ [1080P / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.195.84:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=0&authid=0
+- ❌ [未知 / 9999ms / iptv-org cn] http://183.207.248.71/gitv/live1/G_GUIZHOU/G_GUIZHOU
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://live.264788.xyz/channel/guizhouweishi?streamid=091bd59ea031989839c23459bb8cc9d4&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/gzwshd.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://204.12.221.218:8181/3m1080p/gzws.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gzwshd
@@ -1784,13 +1486,12 @@
 - ✅ [1080P / 108ms / best-fan 央视卫视地方(每日存活校验)] http://111.59.24.227:8181/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
 - ✅ [1080P / 161ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.199.175:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=0&authid=0
 - ❌ [1080P / 9999ms / bf_all_status.m3u8] http://107.150.60.122/live/lnwshd.m3u8
-- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://39.134.39.37/PLTV/88888888/224/3221226209/index.m3u8
-- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225735/index.m3u8
-- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://39.135.138.59:18890/PLTV/88888910/224/3221225696/index.m3u8
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://112.25.48.68/live/program/live/lnwshd/4000000/mnf.m3u8
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221227410/index.m3u8
-- ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/b2bebbb6d53b62ec21c3dca43f81123f14218a573e3986c8d65755142700cba7.m3u8
+- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225735/index.m3u8
+- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://39.135.138.59:18890/PLTV/88888910/224/3221225696/index.m3u8
 - ❌ [720P / 9999ms / iptvorg_cn2.m3u] http://125.210.152.18:9090/live/LNWSHD_H265.m3u8
+- ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/b2bebbb6d53b62ec21c3dca43f81123f14218a573e3986c8d65755142700cba7.m3u8
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://183.207.248.71/cntv/live1/liaoningstv/liaoningstv
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://183.207.249.12/PLTV/4/224/3221225802/index.m3u8
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://183.207.249.71/PLTV/3/224/3221225566/index.m3u8
@@ -1801,10 +1502,15 @@
 - ❌ [未知 / 9999ms / suxuang ipv4] http://148.135.93.213/live.php?id=辽宁卫视
 - ❌ [未知 / 9999ms / suxuang ipv4] http://112.27.235.94:8000/hls/47/index.m3u8
 - ❌ [未知 / 9999ms / suxuang ipv4] https://zby.130519.xyz/PLTV/11/224/3221225747/index.m3u8
+- ❌ [1080P / 9999ms / iptv-org cn] http://39.134.39.37/PLTV/88888888/224/3221226209/index.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=lnwshd
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://198.204.228.26/live/lnwshd.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://204.12.221.218:8181/3m1080p/lnws.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/lnwshd.m3u8?auth=testpub
+
+### 辽宁影视
+
+- ✅ [未知 / 173ms / bestK iptv] http://dassby.qqff.top:99/live/辽宁影视剧/index.m3u8
 
 ### 重庆卫视
 
@@ -1815,58 +1521,43 @@
 - ✅ [未知 / 93ms / best-fan 央视卫视地方(每日存活校验)] http://119.125.131.84:9901/tsfile/live/1066_1.m3u8?key=txiptv&playlive=1&down=1
 - ✅ [未知 / 214ms / best-fan 央视卫视地方(每日存活校验)] http://119.39.9.8:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=0&authid=0
 - ✅ [1080P / 1345ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.199.74:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=0&authid=0
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/db87bc979d1c5004a4b6403aa42c8cc09da751ecd2f1cf27806cf13032ea15e4.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=重庆卫视
+- ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/36/index.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=重庆卫视
 - ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/cqhd.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=cqws
-- ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=重庆卫视
-- ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/36/index.m3u8
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/db87bc979d1c5004a4b6403aa42c8cc09da751ecd2f1cf27806cf13032ea15e4.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221226171/index.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cqwshd
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/cqwshd.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226963/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EjTXsJprEx2nE38tdvu5lhA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 
-### 金鹰卡通卫视
-
-- ✅ [标清 / 103ms / bf_all_status.m3u8] http://120.198.95.220:9901/tsfile/live/1033_1.m3u8?key=txiptv&playlive=1&down=1
-- ❌ [标清 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/e1b5b19bd1797b4f2c20771f007cc7c1cfc8da4b2a74a980ec95b7bac2ee50cf.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.241.149:6610/gitv/live1/G_JINYING/G_JINYING/1.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221226303/index.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://112.25.48.68/live/program/live/jykt/1300000/mnf.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221226094/index.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://itv.iptv1688.top:2016/itv.php?id=金鹰卡通
-- ❌ [未知 / 9999ms / suxuang.m3u] http://tvbox6.icu/tv/mgtv.php?id=287
-
-### 金鹰纪实卫视
-
-- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/gedocu.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226667/1.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://tvbox6.icu/tv/mgtv.php?id=316
-
 ### 陕西卫视
 
 - ✅ [标清 / 54ms / bf_all_status.m3u8] http://36.136.38.87:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
+- ✅ [1080P / 81ms / 实测可播] http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221225821/index.m3u8
 - ✅ [未知 / 93ms / best-fan 央视卫视地方(每日存活校验)] http://119.125.131.84:9901/tsfile/live/1068_1.m3u8?key=txiptv&playlive=1&down=1
 - ✅ [标清 / 102ms / bf_all_status.m3u8] http://120.198.95.220:9901/tsfile/live/1068_1.m3u8?key=txiptv&playlive=1&down=1
+- ✅ [1080P / 105ms / 实测可播] http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225821/index.m3u8
 - ✅ [未知 / 214ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.199.175:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
 - ✅ [1080P / 288ms / best-fan 央视卫视地方(每日存活校验)] http://222.71.55.147:85/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
 - ✅ [未知 / 294ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.198.117:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
 - ✅ [未知 / 527ms / best-fan 央视卫视地方(每日存活校验)] http://218.13.170.98:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
 - ✅ [未知 / 1347ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.199.74:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
-- ❌ [标清 / 9999ms / vbskycn.m3u] https://live.264788.xyz/channel/shaanxiweishi?streamid=9dc887dba8ecb4e4143baf4f2373800c&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+- ❌ [1080P / 9999ms / 实测可播] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=snwshd
 - ❌ [标清 / 9999ms / bf_all_status.m3u8] http://183.10.180.46:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
-- ❌ [标清 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/eb1d7157459fe4c37bbfad23252b85ab628f4e3d14d81aea7b4a014d2658ae41.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225729/index.m3u8
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.245.139/PLTV/4/224/3221227022/index.m3u8
-- ❌ [未知 / 9999ms / iptvorg_cn2.m3u] http://112.25.48.68/live/program/live/sxws/1300000/mnf.m3u8
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225729/index.m3u8
+- ❌ [标清 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/eb1d7157459fe4c37bbfad23252b85ab628f4e3d14d81aea7b4a014d2658ae41.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=陕西卫视
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=sxws
+- ❌ [未知 / 9999ms / iptvorg_cn2.m3u] http://112.25.48.68/live/program/live/sxws/1300000/mnf.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/43/index.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=sxws
 - ❌ [未知 / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.198.220:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
 - ❌ [未知 / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.195.84:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://live.264788.xyz/channel/shaanxiweishi?streamid=9dc887dba8ecb4e4143baf4f2373800c&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://192.151.150.154/live/snwshd.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/snwshd.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=snwshd
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226999/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EsGLKaSqf0wDZMbAjeQtfyw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 - ❌ [未知 / 9999ms / bestK iptv] http://stream.snrtv.com/sxbc-star-ijuEX9.m3u8
 
@@ -1875,26 +1566,14 @@
 - ✅ [1080P / 25ms / best-fan 央视卫视地方(每日存活校验)] http://123.160.235.204:9901/tsfile/live/0140_1.m3u8?key=txiptv&playlive=1&authid=0
 - ✅ [未知 / 37ms / Guovin iptv-api result(存活校验)] http://120.76.248.139/live/bfgd/4200000111.m3u8
 - ✅ [未知 / 5626ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/qhws.m3u8
-- ❌ [未知 / 9999ms / vbskycn.m3u] https://hls-qhmh.lanzhousobey.cn/qhmh/mhds.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225727/index.m3u8
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://112.25.48.68/live/program/live/qhws/1300000/mnf.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=青海卫视
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=qhws
 - ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=青海卫视
+- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=qhws
 - ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221226105/index.m3u8
+- ❌ [未知 / 9999ms / iptv-org cn] http://39.134.115.163:8080/PLTV/88888910/224/3221225727/index.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=qhws
-
-### 香港卫视
-
-- ❌ [720P / 9999ms / bf_all_status.m3u8] https://hkstv.tv/api/m3u8-proxy?url=http%3A%2F%2Fwebcast.hkstv.tv%2Flivestream%2Fmutfysrq%2Fplaylist.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://101.35.240.114:88/live.php?id=香港卫视
-- ❌ [未知 / 9999ms / suxuang.m3u] http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://cctvtxyh5c.liveplay.myqcloud.com/cstv/xianggangweishi_2/index.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/5335c88a9a7d8b74173b491f480d4f94e8d3bd596af54478106aa2399e6c7917.ctv
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/c751876ae5ceaa0d82b5cf2badc152342aa92a4b45bf504d12ee45966b2fc644.ctv
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/5335c88a9a7d8b74173b491f480d4f94e8d3bd596af54478106aa2399e6c7917.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/ae7eaf28d8610cdc1651ef6a1f7dbb24b49c5a87627d0d881330afaea37a1616.m3u8
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://hls-qhmh.lanzhousobey.cn/qhmh/mhds.m3u8
 
 ### 黄河卫视
 
@@ -1916,19 +1595,18 @@
 - ✅ [1080P / 102ms / best-fan 央视卫视地方(每日存活校验)] http://120.40.39.246:352/newlive/live/hls/38/live.m3u8
 - ✅ [1080P / 274ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.198.117:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=0&authid=0
 - ✅ [1080P / 616ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.199.175:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=0&authid=0
-- ✅ [标清 / 2188ms / bf_all_status.m3u8] https://epg.pw/stream/c6c1262d0b35e59eac22bf513395f00f8b60cc5eab41f598412cdf8269312f32.m3u8
+- ✅ [1080P / 2188ms / bf_all_status.m3u8] https://epg.pw/stream/c6c1262d0b35e59eac22bf513395f00f8b60cc5eab41f598412cdf8269312f32.m3u8
 - ✅ [未知 / 2722ms / suxuang.m3u] https://idclive.hljtv.com:4430/live/hljws_own.m3u8
+- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://183.207.248.71/cntv/live1/HD-2500k-1080P-heilongjiangstv/HD-2500k-1080P-heilongjiangstv
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://223.110.243.169/PLTV/3/224/3221227252/index.m3u8
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://223.110.245.139/PLTV/4/224/3221227492/index.m3u8
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://223.110.245.170/PLTV/3/224/3221227252/index.m3u8
-- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221227492/index.m3u8
-- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://183.207.248.71/cntv/live1/HD-2500k-1080P-heilongjiangstv/HD-2500k-1080P-heilongjiangstv
 - ❌ [720P / 9999ms / iptvorg_cn2.m3u] http://125.210.152.18:9090/live/HLJWSHD_H265.m3u8
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://183.207.248.71/gitv/live1/G_HEILONGJIANG/G_HEILONGJIANG
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/9d7a745d71fa16ea6b1a0edce79f7b842e59487519e7a76bcef5b0c7a87a3f24.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=黑龙江卫视
-- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/hljhd.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=黑龙江卫视
+- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/hljhd.m3u8
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/9d7a745d71fa16ea6b1a0edce79f7b842e59487519e7a76bcef5b0c7a87a3f24.m3u8
 - ❌ [1080P / 9999ms / best-fan 央视卫视地方(每日存活校验)] http://101.66.195.84:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=0&authid=0
 - ❌ [未知 / 9999ms / suxuang ipv4] http://112.27.235.94:8000/hls/48/index.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/hljwshd.m3u8
@@ -1936,7 +1614,7 @@
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://198.204.228.26/live/hljwshd.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/hljwshd.m3u8?auth=testpub
 
-## 地方（1424 频道）
+## 地方（1426 频道）
 
 ### &Flix HD
 
@@ -2158,10 +1836,6 @@
 
 - ❌ [1080P / 9999ms / iptv-org cn(github.io)] http://117.156.28.119/270000001111/1110000146/index.m3u8
 
-### HomePlus
-
-- ❌ [未知 / 9999ms / iptv-org cn(github.io)] https://homeplushls.wns.live/hls/stream.m3u8
-
 ### IPTV经典电影
 
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://43.138.0.72:35455/yy/1382754187
@@ -2271,8 +1945,8 @@
 
 ### Pet Club TV
 
+- ✅ [1080P / 741ms / bestK iptv] https://petclub-samsungaus.amagi.tv/playlist.m3u8
 - ✅ [未知 / 2859ms / bestK iptv] https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-petclub-samsungnz/playlist.m3u8
-- ❌ [1080P / 9999ms / bestK iptv] https://petclub-samsungaus.amagi.tv/playlist.m3u8
 
 ### Pop
 
@@ -2656,8 +2330,8 @@
 
 ### 七彩戏剧
 
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=qcxj
 - ❌ [未知 / 9999ms / suxuang.m3u] http://111.22.153.159:35455/itv/5000000011000031116.m3u8?cdn=bestzb
+- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=qcxj
 
 ### 七龙珠
 
@@ -2711,42 +2385,52 @@
 
 - ❌ [未知 / 9999ms / suxuang ipv4] http://8.138.7.223/tv/fjtv1.php?id=sm1
 
+### 三沙卫视
+
+- ✅ [标清 / 1150ms / bf_all_status.m3u8] http://38.75.136.137:98/gslb/dsdqpub/ssws.m3u8?auth=testpub
+- ❌ [标清 / 9999ms / bf_all_status.m3u8] http://107.150.60.122/live/ssws.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://nn.7x9d.cn/地方台8563/海南.php?id=ssws
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/fd1abacd02d10bf9e60b98fdc292704eefa30cff9e4eb0816eec3156e687c991.ctv
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=ssws
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://198.204.228.26/live/ssws.m3u8
+- ❌ [未知 / 9999ms / bestK iptv] https://srs.ssws.tv/video/sstv-10/index.m3u8
+
+### 上海电视台
+
+- ❌ [未知 / 9999ms / suxuang.m3u] http://112.27.235.94:8000/hls/28/index.m3u8
+
 ### 上海五星体育
 
 - ⭐ [未知 / 9999ms / suxuang.m3u] http://bp-livetytv.bestv.cn/ch/bestvwxty.m3u8
-- ❌ [720P / 9999ms / iptvorg_cn2.m3u] http://223.110.245.147/ott.js.chinamobile.com/PLTV/3/224/3221226799/index.m3u8
 - ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=五星体育
-- ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221225732/index.m3u8
+- ❌ [720P / 9999ms / iptvorg_cn2.m3u] http://223.110.245.147/ott.js.chinamobile.com/PLTV/3/224/3221226799/index.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://8.138.7.223/tv/shtv.php?id=wxty
+- ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221225732/index.m3u8
 
 ### 上海外语
 
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=shics
 - ❌ [未知 / 9999ms / suxuang.m3u] http://111.22.153.159:35455/itv/2000000002000000001.m3u8?cdn=hnbblive
+- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=shics
 
 ### 上海教育
 
 - ❌ [未知 / 9999ms / suxuang.m3u] http://61.173.144.157:9901/tsfile/live/1007_1.m3u8
 
-### 上海新闻
-
-- ⭐ [未知 / 9999ms / suxuang.m3u] http://bp-livetytv.bestv.cn/ch/bestvxwzh.m3u8
-
 ### 上海新闻综合
 
-- ⭐ [未知 / 9999ms / suxuang ipv4] http://bp-livetytv.bestv.cn/ch/bestvxwzh.m3u8
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/ae1e5ba924f70d20ff760d1eb8f0ab71583a7fe6549edb506193b0c54387d9a0.ctv
+- ⭐ [未知 / 9999ms / suxuang.m3u] http://bp-livetytv.bestv.cn/ch/bestvxwzh.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=shxwzh
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/ae1e5ba924f70d20ff760d1eb8f0ab71583a7fe6549edb506193b0c54387d9a0.ctv
 
 ### 上海第一财经
 
 - ⭐ [未知 / 9999ms / suxuang.m3u] http://bp-livetytv.bestv.cn/ch/bestvdycj.m3u8
 - ✅ [未知 / 541ms / vbskycn.m3u] http://satellitepull.cnr.cn/live/wx32dycjgb/playlist.m3u8
 - ✅ [未知 / 895ms / vbskycn.m3u] https://satellitepull.cnr.cn/live/wx32dycjgb/playlist.m3u8
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/2f27b601604d0daf4f134d21b1f06cd8853f0f6eecdfe11994621aff0564d791.ctv
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=dycj
-- ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221225737/index.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://8.138.7.223/tv/shtv.php?id=dycj
+- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=dycj
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/2f27b601604d0daf4f134d21b1f06cd8853f0f6eecdfe11994621aff0564d791.ctv
+- ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221225737/index.m3u8
 
 ### 上海纪实
 
@@ -2811,10 +2495,10 @@
 
 ### 东方影视
 
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/f6c2f3eebb4455b4fa69faf427f8e2923673d05dd50381baa3524236d8c2d656.ctv
-- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=dfys
-- ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221225744/index.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://111.22.153.159:35455/itv/5000000010000032212.m3u8?cdn=bestzb
+- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=dfys
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/f6c2f3eebb4455b4fa69faf427f8e2923673d05dd50381baa3524236d8c2d656.ctv
+- ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221225744/index.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://live.chinacert.cftest5.cn/cnmg/live/617290047
 
 ### 东方财经
@@ -2896,6 +2580,12 @@
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://tvpull.dxhmt.cn:9081/tv/11281-1.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://tvpull.dxhmt.cn:9081/tv/11281-1.m3u8
 
+### 之江纪录
+
+- ✅ [未知 / 77ms / Guovin iptv-api result(存活校验)] https://ali-m-l.cztv.com/channels/lantian/channel12/720p.m3u8
+- ✅ [未知 / 112ms / Guovin iptv-api result(存活校验)] http://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
+- ✅ [1080P / 171ms / iptvorg_cn2.m3u] https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
+
 ### 乌兰察布新闻综合
 
 - ❌ [未知 / 9999ms / suxuang ipv4] https://livestream-bt.nmtv.cn/nmtv/2354general.m3u8?txSecret=cf5f71d0000862b18f5813607b3dfd5b&txTime=771E8800
@@ -2934,22 +2624,6 @@
 
 - ✅ [未知 / 275ms / vbskycn iptv4] http://stream10.jlntv.cn/jiutaitv/sd/live.m3u8
 
-### 云南Ⅰ文山公共台
-
-- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://tvdrs.wsrtv.com.cn:8100/channellive/ch2.flv
-
-### 云南Ⅰ文山综合台
-
-- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://tvdrs.wsrtv.com.cn:8100/channellive/ch1.flv
-
-### 云南大理崇圣寺三塔中景
-
-- ❌ [未知 / 9999ms / vbskycn.m3u] https://gcalic.v.myalicdn.com/gc/dlst03_1/index.m3u8
-
-### 云南大理崇圣寺三塔远景
-
-- ❌ [未知 / 9999ms / vbskycn.m3u] https://gcalic.v.myalicdn.com/gc/dlst01_1/index.m3u8
-
 ### 云南娱乐
 
 - ❌ [未知 / 9999ms / vbskycn.m3u] https://hwapi.yntv.net/62hdvf/q9vs1b.m3u8
@@ -2960,8 +2634,8 @@
 
 ### 云南都市
 
-- ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/c7f89783268c13760aff864a0e464360ea9335ac3ef8a5ef52a354d7fd305ef2.m3u8
 - ❌ [未知 / 9999ms / vbskycn.m3u] https://hwapi.yntv.net/62hdvf/rjwt14.m3u8
+- ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/c7f89783268c13760aff864a0e464360ea9335ac3ef8a5ef52a354d7fd305ef2.m3u8
 
 ### 云和新闻综合
 
@@ -3064,6 +2738,13 @@
 
 - ❌ [未知 / 9999ms / suxuang ipv4] http://120.76.248.139/live/bfgd/4200000153.m3u8
 
+### 优漫卡通卫视
+
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://183.207.249.15/PLTV/4/224/3221225933/index.m3u8
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.243.171/PLTV/3/224/3221226982/index.m3u8
+- ❌ [标清 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/3bda49a9b87833e1b55cceeda99a537ac38c2c0295598cf17c575a02e8459b0c.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=ymkt
+
 ### 伪装者
 
 - ✅ [未知 / 1080ms / suxuang ipv4] https://live.metshop.top/yy/1354936244
@@ -3120,7 +2801,7 @@
 
 ### 使徒行者
 
-- ❌ [未知 / 9999ms / suxuang ipv4] https://live.metshop.top/huya/23734256
+- ✅ [未知 / 3906ms / suxuang ipv4] https://live.metshop.top/huya/23734256
 
 ### 信大
 
@@ -3216,6 +2897,17 @@
 
 - ✅ [未知 / 217ms / vbskycn iptv4] http://124.88.144.73:1935/live/xwzh/playlist.m3u8?zxinjd
 
+### 兵团卫视
+
+- ✅ [标清 / 40ms / bf_all_status.m3u8] http://112.123.243.37:50085/tsfile/live/0112_1.m3u8?key=txiptv&playlive=0&authid=0
+- ✅ [1080P / 75ms / best-fan 央视卫视地方(每日存活校验)] http://222.71.55.147:9901/tsfile/live/0115_1.m3u8?key=txiptv&playlive=0&authid=0
+- ✅ [1080P / 106ms / best-fan 央视卫视地方(每日存活校验)] http://221.7.175.154:8445/tsfile/live/0115_1.m3u8?key=txiptv&playlive=1&authid=0
+- ✅ [未知 / 592ms / best-fan 央视卫视地方(每日存活校验)] http://218.13.170.98:9901/tsfile/live/0115_1.m3u8
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://112.25.48.68/live/program/live/btws/1300000/mnf.m3u8
+- ❌ [标清 / 9999ms / bf_all_status.m3u8] http://183.10.180.46:9901/tsfile/live/0115_1.m3u8?key=txiptv&playlive=1&authid=0
+- ❌ [标清 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/7e0d9638f60dca70ddc3a2437eb10e874587f11f9d3efd833e71acfbdf2de2d6.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://liveout.btzx.com.cn/62ds9e/yil08g.m3u8
+
 ### 内乡综合
 
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://tvpull.dxhmt.cn:9081/tv/11325-1.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
@@ -3281,6 +2973,13 @@
 ### 农安新闻综合 [Geo-blocked]
 
 - ✅ [未知 / 100ms / iptv-org cn] https://stream2.jlntv.cn/naxw/sd/live.m3u8
+
+### 农林卫视
+
+- ✅ [未知 / 37ms / suxuang.m3u] http://120.76.248.139/live/bfgd/4200000122.m3u8
+- ✅ [1080P / 78ms / 实测可播] http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226229/index.m3u8
+- ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/3560edca61a3e10ce94bf15bb670a1e422c82696550d5c16de4c7ebab0de304f.ctv
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://live.chinacert.cftest5.cn/cnmg/live/956904896
 
 ### 冰冰影剧
 
@@ -3373,9 +3072,9 @@
 ### 动漫秀场
 
 - ❌ [标清 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221225764/index.m3u8
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/73a696031fc8f1fdb15ef76f1739f184c8e5d828d6d98225ce1a8a3ed4371ce5.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://111.22.153.159:35455/itv/5000000011000031113.m3u8?cdn=bestzb
 - ❌ [未知 / 9999ms / suxuang.m3u] http://36.129.204.117:9003//hls/67/index.m3u8
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/73a696031fc8f1fdb15ef76f1739f184c8e5d828d6d98225ce1a8a3ed4371ce5.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://php.jdshipin.com/itv6.php?cid=bestzb&id=5000000011000031113
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/dong-man-xiu-chang-11.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/ipv6-dong-man-xiu-chang-11.m3u8
@@ -3389,10 +3088,8 @@
 
 - ❌ [未知 / 9999ms / suxuang.m3u] https://livestream-bt.nmtv.cn/nmtv/2358general.m3u8?txSecret=98390a77c143a68f0fd64bfe6e181dcb&txTime=771E8800
 
-### 北京电视台
+### 北京超清
 
-- ❌ [未知 / 9999ms / iptvorg_cn2.m3u] http://123.56.24.28:1935/live/fm1039/96K/tzwj_video.m3u8
-- ❌ [未知 / 9999ms / iptvorg_cn2.m3u] http://audiolive.rbc.cn:1935/live/am927/96K/tzwj_video.m3u8
 - ❌ [未知 / 9999ms / suxuang ipv4] http://[2409:8087:1:20:20::26]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226550/1.m3u8?GuardEncType=2&accountinfo=~~V2.0~e2qS8h6u-xp3gd50vNr1sw~_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNPPFD3HVWEytEVyliOxehfe%2CEND
 
 ### 北京BRTV Kaku Childrens Channel
@@ -3450,20 +3147,25 @@
 
 - ✅ [未知 / 40ms / Guovin iptv-api result(存活校验)] http://120.76.248.139/live/bfgd/4200000113.m3u8
 
-### 北京紀實
+### 北京紀實 (1080p)
+
+- ❌ [1080P / 9999ms / iptv-org cn] http://39.134.115.163:8080/PLTV/88888910/224/3221225675/index.m3u8
+- ❌ [1080P / 9999ms / iptv-org cn] http://39.134.115.163:8080/PLTV/88888910/224/3221225676/index.m3u8
+
+### 北京纪实
 
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225675/index.m3u8
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225676/index.m3u8
+- ❌ [未知 / 9999ms / suxuang ipv4] https://gdcucc.v1.mk/gdcucc/brtv8k.m3u8
 
 ### 北京纪实科教
 
 - ✅ [未知 / 40ms / suxuang ipv4] http://120.76.248.139/live/bfgd/4200000113.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://101.35.240.114:88/brtv8k.php
-- ❌ [未知 / 9999ms / suxuang ipv4] https://gdcucc.v1.mk/gdcucc/brtv8k.m3u8
 
-### 北京衛視
+### 北京衛視 (1080p) [Geo-blocked]
 
-- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://14.152.88.77/liveplay-kk.rtxapp.com/live/program/live/bjwshd/4000000/mnf.m3u8
+- ❌ [1080P / 9999ms / iptv-org cn] http://14.152.88.77/liveplay-kk.rtxapp.com/live/program/live/bjwshd/4000000/mnf.m3u8
 
 ### 北京财经
 
@@ -3582,6 +3284,10 @@
 
 - ❌ [未知 / 9999ms / suxuang ipv4] http://8.138.7.223/tv/fjtv1.php?id=np1
 
+### 南方卫视
+
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/069c724c7c324d17825fcf8ee532b261de3aef322120d44ac80cdf96a891c8a9.m3u8
+
 ### 南昌Nanchang News & Generalist Channel
 
 - ❌ [未知 / 9999ms / iptv-org cn] https://play-live-hls.jxtvcn.com.cn/live-city/tv_nanchang.m3u8
@@ -3619,6 +3325,15 @@
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://migu.188766.xyz/?migutoken=1023983db6b5249e61d4950c1654cd84&id=%E5%8C%97%E4%BA%AC%E5%8D%A1%E9%85%B7%E5%B0%91%E5%84%BF&type=yy
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://migu.188766.xyz/?migutoken=2c51384549aec8a85219fdc0c475e40b&id=%E5%8C%97%E4%BA%AC%E5%8D%A1%E9%85%B7%E5%B0%91%E5%84%BF&type=yy
 
+### 卡酷少儿
+
+- ❌ [未知 / 9999ms / suxuang.m3u] http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226677/1.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221226019/index.m3u8
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://[2409:8087:1a15:10d1::33]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225654/index.m3u8
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://[2409:8087:5e08:25::16]:6610/200000001898/460000089800010081/1.m3u8
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://migu.188766.xyz/?migutoken=1023983db6b5249e61d4950c1654cd84&id=%E5%8C%97%E4%BA%AC%E5%8D%A1%E9%85%B7%E5%B0%91%E5%84%BF&type=yy
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://migu.188766.xyz/?migutoken=2c51384549aec8a85219fdc0c475e40b&id=%E5%8C%97%E4%BA%AC%E5%8D%A1%E9%85%B7%E5%B0%91%E5%84%BF&type=yy
+
 ### 卫辉综合
 
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://tvpull.dxhmt.cn:9081/tv/10781-1.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
@@ -3626,9 +3341,17 @@
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://tvpull.dxhmt.cn:9081/tv/10781-1.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://tvpull.dxhmt.cn:9081/tv/10781-1.m3u8?zhend
 
-### 厦门鼓浪屿
+### 厦门卫视
 
-- ❌ [未知 / 9999ms / vbskycn.m3u] https://gcalic.v.myalicdn.com/gc/gly01_1/index.m3u8
+- ✅ [未知 / 1907ms / Guovin iptv-api result(存活校验)] http://198.204.228.26/live/xmws.m3u8
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.245.159/ott.js.chinamobile.com/PLTV/3/224/3221226996/index.m3u8
+- ❌ [标清 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/a927444efa3d55d3d42d4d80fc9dd565caeae93fe0328d6e078367c2120df3d4.m3u8
+- ❌ [未知 / 9999ms / iptvorg_cn2.m3u] http://112.25.48.68/live/program/live/xmws/1300000/mnf.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://8.138.7.223/tv/fjtv1.php?id=xmws
+- ❌ [未知 / 9999ms / suxuang.m3u] http://e2.woc.iiiya.cn:28888/rtp/239.61.2.11:8060
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://192.151.150.154/live/xmws.m3u8
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/xmws.m3u8
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=xmws
 
 ### 双辽
 
@@ -4032,6 +3755,12 @@
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/ha-ha-xuan-dong-29.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/ha-ha-xuan-dong-8.m3u8
 
+### 哈哈炫动卫视
+
+- ❌ [标清 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/85aec22da72dbb69d4271fbde70b929f467b7d1b7c3c21639939b3d7865a00ac.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://111.22.153.159:35455/itv/5000000011000031123.m3u8?cdn=bestzb
+- ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221226161/index.m3u8
+
 ### 哈密三套
 
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://tvpull.hmgbtv.com/hmtv/channelfb0e5c505477aa44/playlist.m3u8
@@ -4097,6 +3826,10 @@
 
 - ✅ [未知 / 1069ms / bestK iptv] https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
 
+### 商洛电视台
+
+- ✅ [标清 / 82ms / 实测可播] http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226378/index.m3u8
+
 ### 喜羊羊与灰太狼
 
 - ✅ [未知 / 1653ms / suxuang ipv4] https://live.metshop.top/huya/23865080
@@ -4106,9 +3839,15 @@
 - ❌ [未知 / 9999ms / iptv-org cn] http://223.110.245.139/PLTV/4/224/3221227009/index.m3u8
 - ❌ [未知 / 9999ms / iptv-org cn] http://112.25.48.68/live/program/live/jjkt/1300000/mnf.m3u8
 
+### 嘉佳卡通卫视
+
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.245.139/PLTV/4/224/3221227009/index.m3u8
+- ❌ [未知 / 9999ms / iptvorg_cn2.m3u] http://112.25.48.68/live/program/live/jjkt/1300000/mnf.m3u8
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/bee9044f047d4458c631c35b7af51298a624b14d6f9b74a4ea6985c8e4b36106.ctv
+
 ### 嘉兴新闻综合
 
-- ✅ [未知 / 124ms / vbskycn.m3u] http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
+- ✅ [未知 / 124ms / Guovin iptv-api result(存活校验)] http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
 - ✅ [未知 / 328ms / vbskycn iptv4] http://tvfile.jyrmt.cn:80/nmip-media/channellive/channel104452/playlist.m3u8
 - ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/896ca707b844180e10fd9501bddd73f95d1493423adb2f0ae0acdff060297426.m3u8
 
@@ -4116,29 +3855,9 @@
 
 - ✅ [未知 / 11ms / vbskycn iptv4] http://play.kankanlive.com/live/1720583434627241.m3u8
 
-### 四川Ⅰ四川影视台
+### 四川 Ⅰ 四川影视台 (720p) [Not 24/7]
 
-- ❌ [720P / 9999ms / iptvorg_cn2.m3u] http://scgctvshow.sctv.com/hdlive/sctv5/index.m3u8
-
-### 四川Ⅰ四川新闻台
-
-- ❌ [720P / 9999ms / iptvorg_cn2.m3u] http://scgctvshow.sctv.com/hdlive/sctv4/index.m3u8
-
-### 四川Ⅰ巴中综合台
-
-- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://30814.hlsplay.aodianyun.com/lms_30814/tv_channel_246.flv
-
-### 四川Ⅰ星空购物台
-
-- ❌ [720P / 9999ms / iptvorg_cn2.m3u] http://scgctvshow.sctv.com/hdlive/sctv6/index.m3u8
-
-### 四川Ⅰ达州公共台
-
-- ❌ [720P / 9999ms / iptvorg_cn2.m3u] http://m3u8.channellive.dzxw.net/cms/videos/nmip-media/channellive/channel36/playlist.m3u8
-
-### 四川Ⅰ达州综合台
-
-- ❌ [720P / 9999ms / iptvorg_cn2.m3u] http://m3u8.channellive.dzxw.net/cms/videos/nmip-media/channellive/channel35/playlist.m3u8
+- ❌ [720P / 9999ms / iptv-org cn] http://scgctvshow.sctv.com/hdlive/sctv5/index.m3u8
 
 ### 四川Sichuan TV Women and Children Channel
 
@@ -4148,26 +3867,15 @@
 
 - ❌ [未知 / 9999ms / suxuang.m3u] http://wouu.net:9977/udp/239.93.0.52:5140
 
-### 四川四姑娘山隆珠措
-
-- ❌ [未知 / 9999ms / vbskycn.m3u] https://gcalic.v.myalicdn.com/gc/sgns02_1/index.m3u8
-
 ### 四川妇女儿童
 
 - ❌ [720P / 9999ms / iptvorg_cn2.m3u] http://scgctvshow.sctv.com/hdlive/sctv7/index.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://wouu.net:9977/udp/239.93.0.219:5140
 
-### 四川少儿
-
-- ❌ [720P / 9999ms / iptvorg_cn.m3u] http://scgctvshow.sctv.com/hdlive/sctv7/index.m3u8
-
-### 四川峨眉山普贤菩萨铜像
-
-- ❌ [未知 / 9999ms / vbskycn.m3u] https://gcalic.v.myalicdn.com/gc/emspxps_1/index.m3u8
-
 ### 四川影视文艺
 
 - ❌ [未知 / 9999ms / suxuang.m3u] http://wouu.net:9977/udp/239.93.0.166:5140
+- ❌ [720P / 9999ms / iptvorg_cn2.m3u] http://scgctvshow.sctv.com/hdlive/sctv5/index.m3u8
 
 ### 四川文化旅游
 
@@ -4175,6 +3883,11 @@
 
 ### 四川新闻
 
+- ❌ [未知 / 9999ms / suxuang ipv4] http://wouu.net:9977/udp/239.93.0.47:5140
+
+### 四川新闻台
+
+- ❌ [720P / 9999ms / iptvorg_cn2.m3u] http://scgctvshow.sctv.com/hdlive/sctv4/index.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://wouu.net:9977/udp/239.93.0.47:5140
 
 ### 四川科教
@@ -4238,6 +3951,19 @@
 
 - ✅ [未知 / 1413ms / suxuang ipv4] https://live.metshop.top/huya/23865161
 
+### 大湾区卫视
+
+- ✅ [未知 / 5002ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/nfws.m3u8?auth=testpub
+- ✅ [未知 / 6821ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=nfws
+- ❌ [标清 / 9999ms / suxuang.m3u] http://ali.hlspull.yximgs.com/live/b027460e580a463cb7e44eebexcvhnddggdfsdg.flv
+- ❌ [未知 / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=大湾区卫视
+- ❌ [未知 / 9999ms / suxuang.m3u] http://148.135.93.213/live.php?id=大湾区卫视
+- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=dwqws
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/5541653e7ec9b88139ad499c274fd765cae9c0f1a2277deaa6a713cffa1cc7a3.ctv
+- ❌ [未知 / 9999ms / suxuang ipv4] http://222.128.55.152:9080/live/dwq.m3u8
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://198.204.228.26/live/nfws.m3u8
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/nfws.m3u8
+
 ### 大爱海外 (720p)
 
 - ❌ [720P / 9999ms / iptv-org cn] https://pulltv3.wanfudaluye.com/live/tv3.m3u8
@@ -4255,10 +3981,6 @@
 
 - ✅ [1080P / 2864ms / bestK iptv] https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV26.m3u8
 
-### 天津电视台
-
-- ❌ [1080P / 9999ms / iptvorg_cn.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225698/index.m3u8
-
 ### 天津Tianjin TV
 
 - ❌ [1080P / 9999ms / iptv-org cn(github.io)] http://39.134.115.163:8080/PLTV/88888910/224/3221225698/index.m3u8
@@ -4267,6 +3989,10 @@
 
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=tjtv5
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/tjtv5.m3u8?auth=testpub
+
+### 天津综合
+
+- ❌ [1080P / 9999ms / iptvorg_cn.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225698/index.m3u8
 
 ### 天祝综合
 
@@ -4312,10 +4038,6 @@
 
 - ❌ [1080P / 9999ms / iptv-org cn] http://live.dxhmt.cn:9081/tv/10883-1.m3u8
 
-### 宁夏频道
-
-- ❌ [标清 / 9999ms / iptvorg_cn.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225726/index.m3u8
-
 ### 宁夏公共
 
 - ❌ [未知 / 9999ms / suxuang.m3u] https://hls.ningxiahuangheyun.com/live/nxgg1M.m3u8
@@ -4333,6 +4055,10 @@
 - ❌ [未知 / 9999ms / suxuang.m3u] https://hls.ningxiahuangheyun.com/live/nxjj1M.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://ls.qingting.fm/live/1841/64k.m3u8
 
+### 宁夏综合
+
+- ❌ [标清 / 9999ms / iptvorg_cn.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225726/index.m3u8
+
 ### 宁德新闻综合
 
 - ❌ [未知 / 9999ms / suxuang ipv4] http://8.138.7.223/tv/fjtv1.php?id=nd1
@@ -4341,6 +4067,14 @@
 
 - ✅ [未知 / 2408ms / suxuang ipv4] https://live.metshop.top/huya/11342428
 
+### 安多卫视
+
+- ✅ [未知 / 140ms / vbskycn.m3u] https://liveout.xntv.tv/a65jur/96iln2.m3u8
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/290a71e47606fa713caa0f79a0812e332e24e5ec6d51610020d3031c34fb2857.m3u8
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://liveout.xntv.tv/a65jur/90p2i1.m3u8?zqing
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/52d0df257c5c3cec42f2ae19268dbbc261256ff391b27bd83553bea941d0c186.m3u8
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://liveout.xntv.tv/a65jur/90p2i1.m3u8?zqinghd
+
 ### 安徽电视台
 
 - ✅ [标清 / 1903ms / iptvorg_cn.m3u] https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8
@@ -4348,18 +4082,6 @@
 ### 安徽Anhui TV
 
 - ✅ [1080P / 1903ms / iptv-org cn] https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8
-
-### 安徽Ⅰ郎溪综合台
-
-- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://117.70.93.210:1935/live/xinwen/playlist.m3u8
-
-### 安徽Ⅰ铜陵公共
-
-- ❌ [720P / 9999ms / iptvorg_cn2.m3u] http://dstpush1.retalltech.com/app/stream2.m3u8
-
-### 安徽Ⅰ铜陵综合
-
-- ❌ [720P / 9999ms / iptvorg_cn2.m3u] http://dstpush1.retalltech.com/app/stream1.m3u8
 
 ### 安徽国际
 
@@ -4511,14 +4233,6 @@
 
 - ✅ [未知 / 1117ms / suxuang ipv4] https://live.metshop.top/huya/11342425
 
-### 山东电视台
-
-- ❌ [1080P / 9999ms / iptvorg_cn.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225697/index.m3u8
-
-### 山东频道
-
-- ❌ [1080P / 9999ms / iptvorg_cn.m3u] http://livealone302.iqilu.com/iqilu/qlpd.m3u8
-
 ### 山东Shandong TV
 
 - ❌ [1080P / 9999ms / iptv-org cn(github.io)] http://39.134.115.163:8080/PLTV/88888910/224/3221225697/index.m3u8
@@ -4571,6 +4285,11 @@
 ### 山东影视
 
 - ❌ [未知 / 9999ms / iptvorg_cn2.m3u] http://livealone302.iqilu.com/iqilu/yspd.m3u8
+
+### 山东教育卫视
+
+- ❌ [标清 / 9999ms / suxuang.m3u] https://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8
+- ❌ [标清 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/sdetv.m3u8
 
 ### 山东新闻
 
@@ -4649,6 +4368,10 @@
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://tvpull.dxhmt.cn:9081/tv/10181-1.m3u8?zhend?
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://tvpull.dxhmt.cn:9081/tv/10181-1.m3u8
 
+### 巴中综合台
+
+- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://30814.hlsplay.aodianyun.com/lms_30814/tv_channel_246.flv
+
 ### 巴彦淖尔新闻综合
 
 - ❌ [未知 / 9999ms / suxuang ipv4] https://livestream-bt.nmtv.cn/nmtv/2348general.m3u8?txSecret=6a4ddce077e41b976fe33619fbef2b30&txTime=771E8800
@@ -4700,21 +4423,13 @@
 
 - ✅ [未知 / 192ms / vbskycn iptv4] https://tntgjhjb.live.sxmty.com/live/hls/3a4585ac11ec4e1bb07b419101b370c3/baf63e2b313440c2a25d7859f9b73b05-1.m3u8?zshanxd
 
-### 广东Ⅰ韶关公共台
-
-- ❌ [720P / 9999ms / iptvorg_cn2.m3u] https://www.sgmsw.cn/videos/tv/201805/1308/9P424TC5M000AFO13CXK6GN6BOA889D2/hls/live.m3u8
-
-### 广东Ⅰ韶关综合台
-
-- ❌ [720P / 9999ms / iptvorg_cn2.m3u] https://www.sgmsw.cn/videos/tv/201805/1308/SB05RIYZOU8JR418AUQOF62CAJQ08D0E/hls/live.m3u8
-
 ### 广东体育
 
 - ✅ [未知 / 1086ms / Guovin iptv-api result(存活校验)] https://epg.pw/stream/7b470f9fc5c305db0c8622117b7b25ca00eb35ba3e93e865cf0ff9df5c736681.m3u8
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/26134455170e804d034a122dbed2dc6dcb18a02380b55dd574ed6d9995a353cc.m3u8
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/1b51eaf416ee4be8045ce160c21c2b956788a652e03c78ea0db462d925c09459.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://r.jdshipin.com/LiYdg
 - ❌ [未知 / 9999ms / suxuang.m3u] http://cdn2.163189.xyz/live/gdty/stream.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://r.jdshipin.com/LiYdg
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/1b51eaf416ee4be8045ce160c21c2b956788a652e03c78ea0db462d925c09459.m3u8
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/26134455170e804d034a122dbed2dc6dcb18a02380b55dd574ed6d9995a353cc.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/gdty.m3u8?auth=testpub
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://php.jdshipin.com/PLTV/iptv.php?id=gdty
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://php.jdshipin.com/TVOD/iptv.php?id=gdty
@@ -4727,8 +4442,8 @@
 
 - ✅ [未知 / 319ms / suxuang.m3u] http://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=140110ae3d6c936a77f94c4f4d85b0d3&txTime=18d57929bd4
 - ✅ [4K / 383ms / suxuang.m3u] https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=550af55c0ea34ce492748481415b6dfa&txTime=1903e7b17de
+- ✅ [未知 / 1036ms / suxuang.m3u] http://r.jdshipin.com/nWaZO
 - ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/6270de04948770700f5901f847ec357c046c90cfa35ab11f3f41d083c59f6527.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://r.jdshipin.com/nWaZO
 
 ### 广东大湾区
 
@@ -4736,13 +4451,13 @@
 
 ### 广东少儿
 
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/fc82149aecf5a2a59096e05be6561cf2c24b99bde2514a862d2ab72c66e00b62.ctv
 - ❌ [未知 / 9999ms / suxuang.m3u] http://119.32.12.17:2901/udp/224.1.100.9:11111
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/fc82149aecf5a2a59096e05be6561cf2c24b99bde2514a862d2ab72c66e00b62.ctv
 
 ### 广东影视
 
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/461dc5e5fc56107dbbd0d1a43dced2b7fd0740586d456f881483e5f81383ec1c.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://119.32.12.17:2901/udp/224.1.100.11:11111
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/461dc5e5fc56107dbbd0d1a43dced2b7fd0740586d456f881483e5f81383ec1c.m3u8
 
 ### 广东新闻
 
@@ -4761,13 +4476,13 @@
 
 ### 广东珠江
 
+- ✅ [未知 / 1244ms / suxuang.m3u] http://iptv.4666888.xyz/iptv2A.php?id=19
 - ✅ [未知 / 3196ms / suxuang.m3u] http://r.jdshipin.com/sE5vO
 - ✅ [未知 / 4179ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/gdzj.m3u8?auth=testpub
-- ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/e7045f18df8fa6b98756f4bc5cbd94d0099dd73e9ff3cf359d15d326ee1a733b.m3u8
 - ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/697b3b96d04443fcd4ba17b16cf9f2ac36746a44175e2f7339f37f0398b6edfb.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://qjrhc.jydjd.top:2911/udp/224.1.100.24:11111
-- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.4666888.xyz/iptv2A.php?id=19
+- ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/e7045f18df8fa6b98756f4bc5cbd94d0099dd73e9ff3cf359d15d326ee1a733b.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://cdn2.163189.xyz/live/gdzj/stream.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://qjrhc.jydjd.top:2911/udp/224.1.100.24:11111
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/gdzja.m3u8?auth=testpub
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://gxyd.484947.xyz/PLTV/77777777/224/3221225717/index.m3u8?servicetype=2
 
@@ -4790,10 +4505,6 @@
 - ✅ [未知 / 2308ms / suxuang ipv4] http://live1.gatv.com.cn:85/live/GGPD_ggpdzm.m3u8?zsicd
 - ✅ [未知 / 2397ms / vbskycn iptv4] http://live1.gatv.com.cn:85/live/GGPD.m3u8
 - ✅ [未知 / 2768ms / Guovin iptv-api result(存活校验)] http://live1.gatv.com.cn:85/live/GGPD_ggpdzm.m3u8
-
-### 广州电视台
-
-- ✅ [标清 / 230ms / iptvorg_cn.m3u] https://tencentplaybusiness.gztv.com/live/zonghes.m3u8
 
 ### 广州Guangzhou TV
 
@@ -4826,16 +4537,16 @@
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/yan-zhou-jing-sai-2.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/yan-zhou-jing-sai-33.ctv
 
-### 广州综合
+### 广州综合频道
 
-- ✅ [未知 / 230ms / Guovin iptv-api result(存活校验)] https://tencentplaybusiness.gztv.com/live/zonghes.m3u8
+- ✅ [标清 / 230ms / iptvorg_cn.m3u] https://tencentplaybusiness.gztv.com/live/zonghes.m3u8
 - ✅ [未知 / 256ms / suxuang.m3u] http://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=c8dbe86d6f86eb1a21999ab479fd5667&txTime=18d3c4690e8
 - ✅ [未知 / 304ms / Guovin iptv-api result(存活校验)] https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=f0147ae6453a80f5989f382368b72aad&txTime=18d00acf487
 - ✅ [未知 / 357ms / vbskycn.m3u] https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=439b0fd2cf766b363c93a59cbcbe1370&txTime=18d00acf488
+- ✅ [未知 / 1033ms / suxuang.m3u] http://r.jdshipin.com/iR6Gq
+- ✅ [未知 / 1588ms / suxuang.m3u] http://r.jdshipin.com/snhya
 - ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/91ae862b8b3ce7a58fb837900e84984ae323afa312699797c3eb21ac4ff060df.m3u8
 - ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/a4bc1a7a542265801d3d8b625c1713f91c9b5610a5ecdcebd9293ceb864cf9b6.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://r.jdshipin.com/iR6Gq
-- ❌ [未知 / 9999ms / suxuang.m3u] http://r.jdshipin.com/snhya
 
 ### 广德生活
 
@@ -4851,7 +4562,7 @@
 
 ### 广西国际
 
-- ✅ [未知 / 270ms / vbskycn.m3u] https://hlscdn.liangtv.cn/live/0234c48e0bc24fe1b41b9999a253e581/1075ee38e04f490690f6a36a16e09c79.m3u8
+- ✅ [1080P / 270ms / vbskycn.m3u] https://hlscdn.liangtv.cn/live/0234c48e0bc24fe1b41b9999a253e581/1075ee38e04f490690f6a36a16e09c79.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://198.204.228.26/live/gxgj.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/gxgj.m3u8?auth=testpub
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://192.151.150.154/live/gxgj.m3u8
@@ -4860,9 +4571,9 @@
 
 ### 广西新闻
 
+- ✅ [未知 / 5726ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/gxxw.m3u8?auth=testpub
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://198.204.228.26/live/gxxw.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gxxw
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/gxxw.m3u8?auth=testpub
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://107.150.60.122/live/gxxw.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://192.151.150.154/live/gxxw.m3u8
 
@@ -4884,6 +4595,12 @@
 - ✅ [未知 / 79ms / Guovin iptv-api result(存活校验)] http://l.cztvcloud.com/channels/lantian/SXqingyuan1/720p.m3u8?zzhed?
 - ✅ [未知 / 81ms / vbskycn iptv4] http://l.cztvcloud.com/channels/lantian/SXqingyuan1/720p.m3u8
 
+### 康巴卫视
+
+- ❌ [720P / 9999ms / iptvorg_cn2.m3u] http://scgctvshow.sctv.com/hdlive/kangba/1.m3u8
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.245.139/PLTV/4/224/3221227008/index.m3u8
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227027/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EkHMvBpWz4rccMxNvSRekpQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+
 ### 康熙微服私访记
 
 - ✅ [未知 / 572ms / suxuang ipv4] https://live.metshop.top/huya/11342418
@@ -4899,6 +4616,19 @@
 ### 延边2
 
 - ✅ [未知 / 88ms / vbskycn iptv4] http://stream5.jlntv.cn/wq/playlist.m3u8
+
+### 延边卫视
+
+- ✅ [720P / 87ms / vbskycn.m3u] http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8#
+- ✅ [未知 / 88ms / vbskycn.m3u] http://stream5.jlntv.cn/wq/playlist.m3u8
+- ✅ [未知 / 92ms / best-fan 央视卫视地方(每日存活校验)] https://stream2.jlntv.cn/jlyb/sd/live.m3u8
+- ✅ [未知 / 152ms / suxuang.m3u] http://120.76.248.139/live/bfgd/4200000117.m3u8
+- ✅ [1080P / 208ms / bf_all_status.m3u8] https://srs.iyb983.cn:443/video/CYS/index.m3u8
+- ✅ [1080P / 250ms / bf_all_status.m3u8] https://srs.iyb983.cn/video/CYS/index.m3u8
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.245.139/PLTV/4/224/3221227002/index.m3u8
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221227002/index.m3u8
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/d2ea3a364fa453b29060ebccb5a06a1941755859c0182ab0f071473c08738fc2.ctv
+- ❌ [未知 / 9999ms / iptv-org cn(github.io)] http://223.110.245.139/PLTV/4/224/3221227008/index.m3u8
 
 ### 延边新闻综合 [Geo-blocked]
 
@@ -4936,7 +4666,11 @@
 
 - ❌ [未知 / 9999ms / iptv-org cn] http://223.110.245.139/PLTV/4/224/3221227031/index.m3u8
 
-### 张家界1
+### 张家界1 (240p) [Not 24/7]
+
+- ❌ [未知 / 9999ms / iptv-org cn] http://stream.zjjrtv.com/zjjtv1/hd/live.m3u8
+
+### 张家界1台
 
 - ❌ [720P / 9999ms / iptvorg_cn2.m3u] http://stream.zjjrtv.com/zjjtv1/hd/live.m3u8
 
@@ -4956,44 +4690,55 @@
 
 - ❌ [未知 / 9999ms / suxuang ipv4] http://111.22.153.159:35455/itv/6000000006000320630.m3u8?cdn=wasusyt
 
-### 徐州1
+### 徐州-1 (1080p)
+
+- ❌ [1080P / 9999ms / iptv-org cn] http://183.207.249.15/PLTV/3/224/3221225945/index.m3u8
+
+### 徐州1台
 
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://183.207.249.15/PLTV/3/224/3221225945/index.m3u8
 
-### 徐州3
+### 徐州-3 (1080p)
+
+- ❌ [1080P / 9999ms / iptv-org cn] http://183.207.249.7/PLTV/3/224/3221225949/index.m3u8
+- ❌ [1080P / 9999ms / iptv-org cn] http://223.110.245.151/ott.js.chinamobile.com/PLTV/3/224/3221225949/index.m3u8
+
+### 徐州3台
 
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://183.207.249.7/PLTV/3/224/3221225949/index.m3u8
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://223.110.245.151/ott.js.chinamobile.com/PLTV/3/224/3221225949/index.m3u8
 
-### 徐州4
+### 徐州-4 (1080p)
+
+- ❌ [1080P / 9999ms / iptv-org cn] http://183.207.249.15/PLTV/3/224/3221225951/index.m3u8
+
+### 徐州4台
 
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://183.207.249.15/PLTV/3/224/3221225951/index.m3u8
 
-### 徐州公共
-
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://iptv.666230.xyz/iptv/jsyd.php/xzgg
-
-### 徐州公共頻道
+### 徐州公共频道
 
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://183.207.248.11/PLTV/3/224/3221225951/index.m3u8
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://iptv.666230.xyz/iptv/jsyd.php/xzgg
 
-### 徐州新聞綜合
+### 徐州新聞綜合 (1080p)
 
-- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://223.110.245.165/ott.js.chinamobile.com/PLTV/3/224/3221225945/index.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://live.chinacert.cftest5.cn/cnmg/live/639731747
+- ❌ [1080P / 9999ms / iptv-org cn] http://223.110.245.165/ott.js.chinamobile.com/PLTV/3/224/3221225945/index.m3u8
 
 ### 徐州新闻综合
 
 - ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/3c2473fa6a0b1cfb37b354e3262d69e720a9706148ca3b1312315cb76cdb228a.ctv
 - ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/92ef28786d0e4ceb3c00ee458a28c5d68e047e9a778d34b503f7ec0fde65f1ca.ctv
+- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://223.110.245.165/ott.js.chinamobile.com/PLTV/3/224/3221225945/index.m3u8
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://live.chinacert.cftest5.cn/cnmg/live/639731747
 
-### 徐州生活
+### 徐州經濟生活 (1080p)
+
+- ❌ [1080P / 9999ms / iptv-org cn] http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221225947/index.m3u8
+
+### 徐州经济生活
 
 - ❌ [1080P / 9999ms / iptvorg_cn.m3u] http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221225947/index.m3u8
-
-### 徐州經濟生活
-
-- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221225947/index.m3u8
 
 ### 徐州贾汪旅游
 
@@ -5045,33 +4790,33 @@
 
 ### 成都公共
 
-- ❌ [未知 / 9999ms / 电视台官网] https://cdn1.cditv.cn/cdtv5/CDTV5.flv/playlist.m3u8
 - ❌ [未知 / 9999ms / 电视台官网] https://cdn1.cditv.cn/cdtv5/CDTV5.flv
+- ❌ [未知 / 9999ms / 电视台官网] https://cdn1.cditv.cn/cdtv5/CDTV5.flv/playlist.m3u8
 
 ### 成都少儿
 
-- ❌ [未知 / 9999ms / 电视台官网] https://cdn1.cditv.cn/cdtv6/CDTV6.flv/playlist.m3u8
 - ❌ [未知 / 9999ms / 电视台官网] https://cdn1.cditv.cn/cdtv6/CDTV6.flv
+- ❌ [未知 / 9999ms / 电视台官网] https://cdn1.cditv.cn/cdtv6/CDTV6.flv/playlist.m3u8
 
 ### 成都影视文艺
 
-- ❌ [未知 / 9999ms / 电视台官网] https://cdn1.cditv.cn/cdtv4/CDTV4.flv/playlist.m3u8
 - ❌ [未知 / 9999ms / 电视台官网] https://cdn1.cditv.cn/cdtv4/CDTV4.flv
+- ❌ [未知 / 9999ms / 电视台官网] https://cdn1.cditv.cn/cdtv4/CDTV4.flv/playlist.m3u8
 
 ### 成都新闻综合
 
-- ❌ [未知 / 9999ms / 电视台官网] https://cdn1.cditv.cn/cdtv1/CDTV1.flv/playlist.m3u8
 - ❌ [未知 / 9999ms / 电视台官网] https://cdn1.cditv.cn/cdtv1/CDTV1.flv
+- ❌ [未知 / 9999ms / 电视台官网] https://cdn1.cditv.cn/cdtv1/CDTV1.flv/playlist.m3u8
 
 ### 成都经济资讯
 
-- ❌ [未知 / 9999ms / 电视台官网] https://cdn1.cditv.cn/cdtv2/CDTV2.flv/playlist.m3u8
 - ❌ [未知 / 9999ms / 电视台官网] https://cdn1.cditv.cn/cdtv2/CDTV2.flv
+- ❌ [未知 / 9999ms / 电视台官网] https://cdn1.cditv.cn/cdtv2/CDTV2.flv/playlist.m3u8
 
 ### 成都都市生活
 
-- ❌ [未知 / 9999ms / 电视台官网] https://cdn1.cditv.cn/cdtv3/CDTV3.flv/playlist.m3u8
 - ❌ [未知 / 9999ms / 电视台官网] https://cdn1.cditv.cn/cdtv3/CDTV3.flv
+- ❌ [未知 / 9999ms / 电视台官网] https://cdn1.cditv.cn/cdtv3/CDTV3.flv/playlist.m3u8
 
 ### 成龙电影
 
@@ -5083,7 +4828,7 @@
 
 ### 我是特种兵之利刃出鞘
 
-- ❌ [未知 / 9999ms / suxuang ipv4] https://live.metshop.top/yy/37999586
+- ✅ [未知 / 2471ms / suxuang ipv4] https://live.metshop.top/yy/37999586
 
 ### 战争电影
 
@@ -5144,6 +4889,10 @@
 
 - ❌ [1080P / 9999ms / iptvorg_cn.m3u] http://117.156.28.119/270000001111/1110000028/index.m3u8
 
+### 文山公共台
+
+- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://tvdrs.wsrtv.com.cn:8100/channellive/ch2.flv
+
 ### 文山州公共
 
 - ✅ [未知 / 2622ms / Guovin iptv-api result(存活校验)] http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel8/playlist.m3u8?zyund
@@ -5156,6 +4905,10 @@
 ### 文山综合 (1080p) [Not 24/7]
 
 - ✅ [1080P / 2641ms / iptv-org cn] http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel7/playlist.m3u8
+
+### 文山综合台
+
+- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://tvdrs.wsrtv.com.cn:8100/channellive/ch1.flv
 
 ### 文成新闻综合
 
@@ -5263,10 +5016,10 @@
 - ✅ [标清 / 136ms / iptvorg_cn2.m3u] http://218.84.35.38:3000/m3u8/live/tctv-2/index.m3u8
 - ✅ [标清 / 201ms / iptvorg_cn.m3u] http://120.70.60.179:9901/tsfile/live/1002_1.m3u8?authid=0&key=txiptv&playlive=1
 - ✅ [标清 / 378ms / iptvorg_cn2.m3u] https://hls.quklive.com/live/play-sh-21.quklive.com/1777511615189085.m3u8?auth_key=2092871636-a39d8614688744d0b170b856b086ba80-0-33900446b83fa0b5befeb6bedbcd51a0
-- ❌ [标清 / 9999ms / iptvorg_cn.m3u] https://klmysjtzb.rcsxzx.com/hls/klmy2.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn.m3u] http://110.153.180.106:55555/out_3/index.m3u8
 - ❌ [标清 / 9999ms / iptvorg_cn.m3u] http://110.153.180.106:55555/out_2/index.m3u8
+- ❌ [标清 / 9999ms / iptvorg_cn.m3u] http://110.153.180.106:55555/out_3/index.m3u8
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://222.80.13.33:4022/udp/238.125.3.175:5140
+- ❌ [标清 / 9999ms / iptvorg_cn.m3u] https://klmysjtzb.rcsxzx.com/hls/klmy2.m3u8
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] https://st-video.xjmty.com/fs/livedit/e55abfa37af26e19/8ce9971c2177b3dd.m3u8
 
 ### 新疆Xinjiang TV 1
@@ -5403,6 +5156,10 @@
 
 - ❌ [未知 / 9999ms / iptv-org cn] http://218.202.220.2:5000/nn_live.ts?id=STARTV
 
+### 星空购物台
+
+- ❌ [720P / 9999ms / iptvorg_cn2.m3u] http://scgctvshow.sctv.com/hdlive/sctv6/index.m3u8
+
 ### 昭化综合
 
 - ❌ [未知 / 9999ms / suxuang ipv4] http://live.zhgbtv.cn:3100/hls/kwqtkbbi/index.m3u8
@@ -5491,6 +5248,10 @@
 
 - ✅ [未知 / 592ms / suxuang ipv4] https://live.metshop.top/huya/21059579
 
+### 柞水电视台
+
+- ✅ [标清 / 84ms / 实测可播] http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221227026/index.m3u8
+
 ### 柳河
 
 - ✅ [未知 / 133ms / vbskycn iptv4] http://stream5.jlntv.cn/lh/sd/live.m3u8?zjild
@@ -5538,10 +5299,10 @@
 
 ### 欢笑剧场
 
+- ✅ [未知 / 2765ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/hxjchd.m3u8?auth=testpub
+- ❌ [未知 / 9999ms / suxuang.m3u] http://111.22.153.159:35455/itv/5000000002000009455.m3u8?cdn=bestzb
 - ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=hxjc
 - ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221225771/index.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://111.22.153.159:35455/itv/5000000002000009455.m3u8?cdn=bestzb
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.75.136.137:98/gslb/dsdqpub/hxjchd.m3u8?auth=testpub
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://goo.bkpcp.top/mg/hxjc
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://z.b.bkpcp.top/m.php?id=hxjc
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000002000009455/1.m3u8
@@ -5661,7 +5422,7 @@
 ### 永昌综合
 
 - ✅ [未知 / 12ms / bestK iptv] http://play.kankanlive.com/live/1720408280309109.m3u8
-- ❌ [未知 / 9999ms / vbskycn iptv4] https://play.kankanlive.com/live/1652755738635915.m3u8
+- ✅ [未知 / 123ms / vbskycn iptv4] https://play.kankanlive.com/live/1652755738635915.m3u8
 
 ### 求索动物
 
@@ -5722,14 +5483,6 @@
 
 - ✅ [未知 / 63ms / iptv-org cn] http://222.179.155.21:1935/ch0.m3u8
 
-### 江苏Ⅰ连云港公共
-
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] https://live.lyg1.com/ggpd/sd/live.m3u8
-
-### 江苏Ⅰ连云港综合
-
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] https://live.lyg1.com/zhpd/sd/live.m3u8
-
 ### 江苏Jiangsu City Channel
 
 - ❌ [未知 / 9999ms / iptv-org cn(github.io)] http://183.207.248.71/gitv/live1/G_JSCS/G_JSCS
@@ -5755,27 +5508,30 @@
 
 - ❌ [未知 / 9999ms / iptv-org cn(github.io)] http://183.207.248.71/gitv/live1/G_JSZY/G_JSZY
 
-### 江苏体育
+### 江苏体育 (576p)
 
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://183.207.248.71/gitv/live1/G_JSTY/G_JSTY
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://183.207.249.12/PLTV/4/224/3221225935/index.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.245.157/ott.js.chinamobile.com/PLTV/3/224/3221225935/index.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/af1087a1c24fff7af556ac8e6c5c623303d52966f67a998cefb52c17811b09a2.ctv
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://live.chinacert.cftest5.cn/cnmg/live/626064707
+- ❌ [未知 / 9999ms / iptv-org cn] http://183.207.248.71/gitv/live1/G_JSTY/G_JSTY
+- ❌ [未知 / 9999ms / iptv-org cn] http://183.207.249.12/PLTV/4/224/3221225935/index.m3u8
+- ❌ [未知 / 9999ms / iptv-org cn] http://223.110.245.157/ott.js.chinamobile.com/PLTV/3/224/3221225935/index.m3u8
 
 ### 江苏体育休闲
 
 - ❌ [标清 / 9999ms / iptvorg_cn.m3u] http://183.207.248.71/gitv/live1/G_JSTY/G_JSTY
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://183.207.249.12/PLTV/4/224/3221225935/index.m3u8
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.245.157/ott.js.chinamobile.com/PLTV/3/224/3221225935/index.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] https://stream1.freetv.fun/af1087a1c24fff7af556ac8e6c5c623303d52966f67a998cefb52c17811b09a2.ctv
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://live.chinacert.cftest5.cn/cnmg/live/626064707
 
-### 江苏公共
+### 江苏公共 (576p)
 
+- ❌ [未知 / 9999ms / iptv-org cn] http://183.207.248.71/gitv/live1/G_JSGG/G_JSGG
+
+### 江苏公共·新闻
+
+- ✅ [标清 / 358ms / iptvorg_cn2.m3u] https://jiangning-tv-playing-t.cm.jstv.com/jiangning-tv/jnxwzh.m3u8
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://183.207.248.71/gitv/live1/G_JSGG/G_JSGG
+- ❌ [未知 / 9999ms / suxuang.m3u] http://20240504.shunyue1809.com:6321/udp/239.49.8.120:8000
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://live.chinacert.cftest5.cn/cnmg/live/626064693
-
-### 江苏南京牛首山
-
-- ❌ [未知 / 9999ms / vbskycn.m3u] https://gcalic.v.myalicdn.com/gc/nss01_1/index.m3u8
 
 ### 江苏城市
 
@@ -5786,15 +5542,15 @@
 
 ### 江苏影视
 
-- ❌ [标清 / 9999ms / iptvorg_cn.m3u] http://223.110.243.134/PLTV/4/224/3221225937/index.m3u8
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://183.207.248.71/gitv/live1/G_JSYS/G_JSYS
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/fe56dce8b0e5dec04d0e5862e9d8e7383d6ae40ef16fb1045329bc0df164befb.ctv
+- ❌ [标清 / 9999ms / iptvorg_cn.m3u] http://223.110.243.134/PLTV/4/224/3221225937/index.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] https://stream1.freetv.fun/a89dd489fa013bc4f36bcc4afe388f1783e2251c276e2566a9359d68a61c6d91.ctv
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/fe56dce8b0e5dec04d0e5862e9d8e7383d6ae40ef16fb1045329bc0df164befb.ctv
 
 ### 江苏教育
 
-- ❌ [标清 / 9999ms / iptvorg_cn.m3u] http://223.110.245.151/ott.js.chinamobile.com/PLTV/3/224/3221225923/index.m3u8
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://183.207.248.71/gitv/live1/G_JSJY/G_JSJY
+- ❌ [标清 / 9999ms / iptvorg_cn.m3u] http://223.110.245.151/ott.js.chinamobile.com/PLTV/3/224/3221225923/index.m3u8
 - ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/5e94f192b45e444b65af0a66bb0a2d1f48dc8aacdc77c29e74ec05c50a390155.ctv
 - ❌ [未知 / 9999ms / suxuang.m3u] https://stream1.freetv.fun/7174b4fd66ddb2a7456b7040105dc27a1e57c166593870bb773cb5f6b4546c54.ctv
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://goo.bkpcp.top/mg/jsjy
@@ -5802,19 +5558,13 @@
 
 ### 江苏新闻
 
-- ✅ [标清 / 358ms / iptvorg_cn2.m3u] https://jiangning-tv-playing-t.cm.jstv.com/jiangning-tv/jnxwzh.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn.m3u] http://183.207.248.71/gitv/live1/G_JSGG/G_JSGG
-- ❌ [未知 / 9999ms / suxuang.m3u] http://20240504.shunyue1809.com:6321/udp/239.49.8.120:8000
+- ❌ [未知 / 9999ms / suxuang ipv4] http://20240504.shunyue1809.com:6321/udp/239.49.8.120:8000
 
 ### 江苏综艺
 
 - ❌ [720P / 9999ms / suxuang.m3u] https://stream1.freetv.fun/f8ef469943662bed2abc6609d9ef1720b9e93a8a0bd6f5789133461e36763f37.m3u8
 - ❌ [标清 / 9999ms / iptvorg_cn.m3u] http://183.207.248.71/gitv/live1/G_JSZY/G_JSZY
 - ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/eaa4007de7408025b0c86902f442105dcd416a80c619c3218de13b0ec78b58d9.ctv
-
-### 江西电视台
-
-- ❌ [1080P / 9999ms / iptvorg_cn.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225705/index.m3u8
 
 ### 江西Jiangxi Children's Channel
 
@@ -5848,13 +5598,10 @@
 
 - ❌ [标清 / 9999ms / iptvorg_cn.m3u] https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv2.m3u8
 
-### 江西少儿
-
-- ❌ [标清 / 9999ms / iptvorg_cn.m3u] https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv6.m3u8
-
 ### 江西少儿家庭
 
 - ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/e96d8291fd582b22cd23c2fb27ef3544c0bea6408d44673f0e8f6afb21e068e9.m3u8
+- ❌ [标清 / 9999ms / iptvorg_cn.m3u] https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv6.m3u8
 
 ### 江西影视
 
@@ -5867,6 +5614,10 @@
 ### 江西生活
 
 - ❌ [标清 / 9999ms / iptvorg_cn.m3u] https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv3.m3u8
+
+### 江西综合
+
+- ❌ [1080P / 9999ms / iptvorg_cn.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225705/index.m3u8
 
 ### 江门综合
 
@@ -6046,9 +5797,9 @@
 
 ### 法治天地
 
+- ❌ [未知 / 9999ms / suxuang.m3u] http://111.22.153.159:35455/itv/2000000002000000014.m3u8?cdn=hnbblive
 - ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=fztd
 - ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221225994/index.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://111.22.153.159:35455/itv/2000000002000000014.m3u8?cdn=hnbblive
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://[2409:8087:5e01:24::16]:6610/000000001000/2000000002000000014/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000014&IASHttpSessionId=OTT19019320240419154124000281
 
 ### 泗洪新闻综合
@@ -6072,7 +5823,7 @@
 - ✅ [未知 / 50ms / Guovin iptv-api result(存活校验)] http://lxfile.lxxcb.cn/nmip-media/channellive/channel103799/playlist.m3u8
 - ✅ [未知 / 51ms / Guovin iptv-api result(存活校验)] http://lxfile.lxxcb.cn/nmip-media/channellive/channel103799/playlist.m3u8?zsicd
 - ✅ [未知 / 162ms / vbskycn iptv4] http://lxfile.lxxcb.cn:80/nmip-media/channellive/channel103799/playlist.m3u8
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://m3u8channel.ganzitv.com/nmip-media/channellive/channel1/playlist.m3u8
+- ✅ [未知 / 475ms / Guovin iptv-api result(存活校验)] https://m3u8channel.ganzitv.com/nmip-media/channellive/channel1/playlist.m3u8
 
 ### 泸州新闻综合
 
@@ -6134,18 +5885,6 @@
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://tvpull.dxhmt.cn:9081/tv/19001-1.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://tvpull.dxhmt.cn:9081/tv/19001-1.m3u8?zhend
 
-### 浙江电视台
-
-- ✅ [1080P / 57ms / iptvorg_cn2.m3u] https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
-
-### 浙江Ⅰ绍兴影视
-
-- ✅ [720P / 87ms / iptvorg_cn2.m3u] http://live.shaoxing.com.cn/video/s10001-sxtv3/index.m3u8
-
-### 浙江Ⅰ绍兴综合
-
-- ✅ [标清 / 118ms / iptvorg_cn2.m3u] http://live.shaoxing.com.cn/video/s10001-sxtv1/index.m3u8
-
 ### 浙江Zhejiang International Channel
 
 - ✅ [未知 / 57ms / iptv-org cn(github.io)] https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
@@ -6158,17 +5897,21 @@
 
 - ✅ [720P / 114ms / vbskycn.m3u] http://ali-m-l.cztv.com/channels/lantian/channel006/720p.m3u8
 
-### 浙江公共
+### 浙江公共 (1080p) [Not 24/7]
 
-- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] https://ct-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
-- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] https://qiniup-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
+- ❌ [1080P / 9999ms / iptv-org cn] https://ct-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
+- ❌ [1080P / 9999ms / iptv-org cn] https://qiniup-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
 
 ### 浙江公共新闻
 
+- ✅ [720P / 108ms / vbskycn.m3u] http://ali-m-l.cztv.com/channels/lantian/channel07/720p.m3u8
 - ✅ [未知 / 121ms / Guovin iptv-api result(存活校验)] http://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
 - ✅ [未知 / 153ms / vbskycn iptv4] http://ali-m-l.cztv.com/channels/lantian/channel07/1080p.m3u8
 - ✅ [1080P / 184ms / vbskycn.m3u] https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
 - ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/d1c3b4513b9de5c1602cce87e243474a66546d88b2f61b0f8e39aad40ff198b7.m3u8
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/e5d695052a7933bcebadd46f6b7a5ac54458f494246b99846db0329b81e30fbd.m3u8
+- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] https://ct-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
+- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] https://qiniup-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
 
 ### 浙江国际
 
@@ -6191,15 +5934,16 @@
 
 ### 浙江教科
 
-- ✅ [1080P / 99ms / iptvorg_cn2.m3u] https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
-- ✅ [1080P / 191ms / vbskycn.m3u] http://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/71782389087ae5e377d8b5db7c95186e975cc2eff385697aa92da46db657fea8.m3u8
+- ✅ [未知 / 99ms / iptv-org cn] https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
+- ✅ [未知 / 191ms / vbskycn iptv4] http://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
 
 ### 浙江教科影视
 
 - ✅ [未知 / 81ms / vbskycn iptv4] http://ali-m-l.cztv.com/channels/lantian/channel04/1080p.m3u8
 - ✅ [1080P / 99ms / vbskycn.m3u] https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
 - ✅ [未知 / 173ms / bestK iptv] http://ali-xwl.cztv.com/live/channel041080Plxw.m3u8
+- ✅ [1080P / 191ms / vbskycn.m3u] http://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/71782389087ae5e377d8b5db7c95186e975cc2eff385697aa92da46db657fea8.m3u8
 
 ### 浙江教育
 
@@ -6214,21 +5958,19 @@
 ### 浙江新闻
 
 - ✅ [未知 / 100ms / vbskycn iptv4] http://ali-m-l.cztv.com/channels/lantian/channel007/720p.m3u8
-- ✅ [720P / 108ms / vbskycn.m3u] http://ali-m-l.cztv.com/channels/lantian/channel07/720p.m3u8
 - ✅ [未知 / 175ms / Guovin iptv-api result(存活校验)] https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8?
-- ✅ [1080P / 184ms / iptvorg_cn2.m3u] https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
-- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/e5d695052a7933bcebadd46f6b7a5ac54458f494246b99846db0329b81e30fbd.m3u8
+- ✅ [未知 / 184ms / suxuang ipv4] https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
 
 ### 浙江民生
 
 - ✅ [未知 / 94ms / Guovin iptv-api result(存活校验)] https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8?
-- ✅ [1080P / 115ms / vbskycn.m3u] http://ali-m-l.cztv.com/channels/lantian/channel06/1080p.m3u8
-- ✅ [1080P / 119ms / iptvorg_cn2.m3u] https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
+- ✅ [未知 / 119ms / iptv-org cn] https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
 - ✅ [未知 / 141ms / vbskycn iptv4] http://ali-m-l.cztv.com/channels/lantian/channel06/720p.m3u8
 
 ### 浙江民生休闲
 
 - ✅ [未知 / 103ms / bestK iptv] http://ali-xwl.cztv.com/live/channel061080Plxw.m3u8
+- ✅ [1080P / 115ms / vbskycn.m3u] http://ali-m-l.cztv.com/channels/lantian/channel06/1080p.m3u8
 - ✅ [1080P / 119ms / vbskycn.m3u] https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
 - ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/368f34b56ab82436c93ce42c6b7e187c31f260857d1e13b5f9982cccccf31330.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/zhe-jiang-min-sheng-10.m3u8
@@ -6249,9 +5991,9 @@
 ### 浙江经济
 
 - ✅ [未知 / 98ms / Guovin iptv-api result(存活校验)] http://ali-m-l.cztv.com/channels/lantian/channel03/720p.m3u8
-- ✅ [1080P / 145ms / vbskycn.m3u] http://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
+- ✅ [未知 / 145ms / Guovin iptv-api result(存活校验)] http://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
 - ✅ [未知 / 161ms / vbskycn iptv4] https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8?
-- ✅ [1080P / 174ms / iptvorg_cn2.m3u] https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
+- ✅ [未知 / 174ms / iptv-org cn] https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
 
 ### 浙江经济生活
 
@@ -6263,11 +6005,8 @@
 ### 浙江经视
 
 - ✅ [未知 / 78ms / Guovin iptv-api result(存活校验)] http://ali-m-l.cztv.com/channels/lantian/channel003/720p.m3u8
+- ✅ [1080P / 145ms / vbskycn.m3u] http://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
 - ✅ [1080P / 174ms / vbskycn.m3u] https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
-
-### 浙江舟山东极岛
-
-- ❌ [未知 / 9999ms / vbskycn.m3u] https://gcalic.v.myalicdn.com/gc/djd01_1/index.m3u8
 
 ### 浙江遂昌
 
@@ -6275,17 +6014,15 @@
 
 ### 浙江钱江
 
-- ✅ [未知 / 71ms / Guovin iptv-api result(存活校验)] https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8?
-- ✅ [720P / 77ms / vbskycn.m3u] http://l.cztvcloud.com/channels/lantian/SXyuyao2/720p.m3u8
+- ✅ [未知 / 77ms / vbskycn iptv4] http://l.cztvcloud.com/channels/lantian/SXyuyao2/720p.m3u8
 - ✅ [未知 / 99ms / vbskycn iptv4] http://ali-m-l.cztv.com/channels/lantian/channel02/1080p.m3u8
-- ✅ [1080P / 109ms / iptvorg_cn2.m3u] https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
-
-### 浙江钱江频道
-
-- ✅ [1080P / 99ms / vbskycn.m3u] http://ali-m-l.cztv.com/channels/lantian/channel02/1080p.m3u8
+- ✅ [未知 / 109ms / iptv-org cn] https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
 
 ### 浙江钱江都市
 
+- ✅ [未知 / 71ms / Guovin iptv-api result(存活校验)] https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8?
+- ✅ [720P / 77ms / vbskycn.m3u] http://l.cztvcloud.com/channels/lantian/SXyuyao2/720p.m3u8
+- ✅ [1080P / 99ms / vbskycn.m3u] http://ali-m-l.cztv.com/channels/lantian/channel02/1080p.m3u8
 - ✅ [1080P / 109ms / vbskycn.m3u] https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
 - ✅ [未知 / 123ms / Guovin iptv-api result(存活校验)] http://ali-xwl.cztv.com/live/channel02720Plxw.m3u8
 - ✅ [未知 / 203ms / Guovin iptv-api result(存活校验)] http://ali-xwl.cztv.com/live/channel021080Plxw.m3u8
@@ -6346,6 +6083,17 @@
 ### 海宁新闻综合
 
 - ✅ [未知 / 533ms / vbskycn iptv4] https://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8
+
+### 海峡卫视
+
+- ✅ [未知 / 152ms / suxuang.m3u] http://8.138.7.223/tv/hxws.m3u8
+- ✅ [未知 / 2194ms / suxuang.m3u] http://r.jdshipin.com/WtYt3
+- ❌ [未知 / 9999ms / vbskycn.m3u] http://38.64.72.148/hls/modn/list/4009/playlist.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=hxws
+- ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/ba0cb96ba000eebc5a91bd4ffcaed72334b786255d15f293d5f09f19c344cc0f.ctv
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.64.72.148:80/hls/modn/list/4009/playlist.m3u8
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.64.72.148:80/hls/modn/list/4009/chunklist0.m3u8
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://m.italkbbtv.com/live/6a30f74820a80832dc74e2c7
 
 ### 海绵宝宝
 
@@ -6409,6 +6157,44 @@
 
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://huaiyin-tv-replay.cm.jstv.com/huaiyin-tv/huaiyinf.m3u8
 
+### 深圳卫视
+
+- ✅ [1080P / 26ms / best-fan 央视卫视地方(每日存活校验)] http://123.160.235.204:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
+- ✅ [未知 / 47ms / best-fan 央视卫视地方(每日存活校验)] http://124.228.160.3:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
+- ✅ [1080P / 51ms / best-fan 央视卫视地方(每日存活校验)] http://119.125.131.84:9901/tsfile/live/1048_1.m3u8?key=txiptv&playlive=1&down=1
+- ✅ [标清 / 53ms / bf_all_status.m3u8] http://36.136.38.87:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
+- ✅ [未知 / 71ms / Guovin iptv-api result(存活校验)] http://120.76.248.139/live/bfgd/4200000100.m3u8
+- ✅ [1080P / 79ms / bf_all_status.m3u8] http://112.123.243.37:50085/tsfile/live/1000_1.m3u8?key=txiptv&playlive=0&authid=0
+- ✅ [1080P / 105ms / bf_all_status.m3u8] http://120.198.95.220:9901/tsfile/live/1048_1.m3u8?key=txiptv&playlive=1&down=1
+- ✅ [1080P / 182ms / bf_all_status.m3u8] http://120.238.94.82:9901/tsfile/live/1065_1.m3u8
+- ✅ [1080P / 1451ms / best-fan 央视卫视地方(每日存活校验)] http://38.75.136.137:98/gslb/dsdqpub/szwshd.m3u8?auth=testpub
+- ❌ [4K / 9999ms / kimentanm.m3u] http://101.35.240.114:88/live.php?id=深圳卫视4K
+- ❌ [4K / 9999ms / suxuang.m3u] http://nn.7x9d.cn/深圳最新.php?id=szws4k
+- ❌ [4K / 9999ms / iptvorg_cn.m3u] https://livepull-tcms.sztv.com.cn/live/sz4Kpgm.m3u8
+- ❌ [1080P / 9999ms / bf_all_status.m3u8] http://183.10.180.46:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
+- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://183.207.248.71/cntv/live1/HD-2500k-1080P-shenzhenstv/HD-2500k-1080P-shenzhenstv
+- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225700/index.m3u8
+- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226205/index.m3u8
+- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://39.134.39.39/PLTV/88888888/224/3221226199/index.m3u8
+- ❌ [720P / 9999ms / bf_all_status.m3u8] http://107.150.60.122/live/szwshd.m3u8
+- ❌ [标清 / 9999ms / bf_all_status.m3u8] http://125.125.236.31:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
+- ❌ [未知 / 9999ms / suxuang ipv4] http://iptv.huuc.edu.cn/hls/szhd.m3u8
+- ❌ [未知 / 9999ms / suxuang ipv4] http://101.35.240.114:88/live.php?id=深圳卫视
+- ❌ [未知 / 9999ms / suxuang ipv4] http://112.27.235.94:8000/hls/33/index.m3u8
+- ❌ [未知 / 9999ms / suxuang ipv4] https://zby.130519.xyz/PLTV/11/224/3221225728/index.m3u8
+- ❌ [1080P / 9999ms / iptv-org cn] http://39.134.115.163:8080/PLTV/88888910/224/3221225741/index.m3u8
+- ❌ [1080P / 9999ms / iptv-org cn] http://39.135.138.59:18890/PLTV/88888910/224/3221225741/index.m3u8
+- ❌ [1080P / 9999ms / iptv-org cn] http://112.25.48.68/live/program/live/szwshd/4000000/mnf.m3u8
+- ❌ [1080P / 9999ms / iptv-org cn] http://117.169.120.140:8080/live/hdshenzhenstv/.m3u8
+- ❌ [1080P / 9999ms / iptv-org cn] http://183.207.249.37/PLTV/4/224/3221227307/index.m3u8
+- ❌ [1080P / 9999ms / iptv-org cn] http://223.110.243.171/PLTV/3/224/3221227217/index.m3u8
+- ❌ [1080P / 9999ms / iptv-org cn] http://223.110.245.139/PLTV/4/224/3221227307/index.m3u8
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://38.64.72.148:80/hls/modn/list/4007/playlist.m3u8
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://63.141.230.178:82/gslb/zbdq5.m3u8?id=szwshd
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://php.jdshipin.com/TVOD/hnyd.php?id=200000001898/460000089800010068
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://smart.pendy.dpdns.org/Smart.php?id=shenzhen
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://z.b.bkpcp.top/m.php?id=szws
+
 ### 清河新闻综合
 
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://jwcdnqx.hebyun.com.cn/live/qinghe/1500k/tzwj_video.m3u8
@@ -6436,9 +6222,9 @@
 
 ### 游戏风云
 
+- ❌ [未知 / 9999ms / suxuang.m3u] http://111.22.153.159:35455/itv/5000000011000031114.m3u8?cdn=bestzb
 - ❌ [未知 / 9999ms / suxuang.m3u] http://t.061899.xyz/tl/tl.php?id=yxfy
 - ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221226117/index.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://111.22.153.159:35455/itv/5000000011000031114.m3u8?cdn=bestzb
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://zby.130519.xyz/PLTV/11/224/3221226140/index.m3u8
 
 ### 湖北公共
@@ -6491,14 +6277,6 @@
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/hu-bei-zong-he-4.ctv
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/hu-bei-zong-he-6.ctv
 
-### 湖南电视台
-
-- ✅ [4K / 83ms / iptvorg_cn.m3u] http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
-
-### 湖南频道
-
-- ❌ [标清 / 9999ms / iptvorg_cn.m3u] http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_348.m3u8
-
 ### 湖南Hunan Economy Channel
 
 - ✅ [未知 / 712ms / iptv-org cn] https://p8.vzan.com/slowlive/415983998730568937/live.m3u8
@@ -6533,10 +6311,6 @@
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/hu-nan-guo-ji-4.ctv
 - ❌ [未知 / 9999ms / bestK iptv] http://phoneqq.qing.mgtv.com/nn_live/nn_x64/dWlwPTEwNi4xNC4zOC41NSZ0ZXJtPTUmcWlkPSZjZG5leF9pZD1xcV9waG9uZV9saXZlJmNocz0mZGVmPTEmcz0yYmI1NWZiYjk4ZDMxOGQ2ZGM4ODE0N2ZmZDhmZmMyNSZ1aWQ9JnV1aWQ9ZmUxMDNmNzEwYThjMzg1YTQwOWUzMTkyYWNmMjJhMzAtNmEwZTI2Mzcmdj0yJmFzPTAmZXM9MTc3MTM5NDQzNQ,,/HNGJMPP360.m3u8
 
-### 湖南女性
-
-- ❌ [标清 / 9999ms / iptvorg_cn.m3u] http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_349.m3u8
-
 ### 湖南娱乐
 
 - ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/d823f63f178d27fa744c94a23baa86fac9d249923cf03843d769b3bae2e70a8a.m3u8
@@ -6545,36 +6319,16 @@
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/hu-nan-yu-le-3.m3u8
 - ❌ [未知 / 9999ms / bestK iptv] http://phoneqq.qing.mgtv.com/nn_live/nn_x64/dWlwPTEwNi4xNC4zOC41NSZ0ZXJtPTUmcWlkPSZyYXV0aF9lbmFibGU9b2ZmJmNkbmV4X2lkPXFxX3Bob25lX2xpdmUmY2hzPSZkZWY9MSZzPTQyZDQ4Y2YzMDgwMDczYzcxM2Q0MTA1ZTUwZmU2NzBhJnVpZD0mdXVpZD05OGYxNDM3NzcwZjlhYjJmYmZmYzg1OGY5Y2U4NzBlZi02YTBlMjYzNyZ2PTImYXM9MCZlcz0xNzcxMzk2Njg3/HNYLMPP360.m3u8
 
-### 湖南张家界天门山西线玻璃栈道
-
-- ❌ [未知 / 9999ms / vbskycn.m3u] https://gcalic.v.myalicdn.com/gc/tms05_1/index.m3u8
-
-### 湖南张家界宝峰湖
-
-- ❌ [未知 / 9999ms / vbskycn.m3u] https://gcalic.v.myalicdn.com/gc/zjjbfh_1/index.m3u8
-
-### 湖南张家界御笔峰
-
-- ❌ [未知 / 9999ms / vbskycn.m3u] https://gcalic.v.myalicdn.com/gc/zjjybf_1/index.m3u8
-
-### 湖南张家界水绕四门
-
-- ❌ [未知 / 9999ms / vbskycn.m3u] https://gcalic.v.myalicdn.com/gc/zjjsrsm_1/index.m3u8
-
 ### 湖南教育
 
 - ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/354283335738ca823e457e68ba3f4cd00437a1ea7d1ab361f38b38fdde7423b6.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://222.241.154.37:9901/tsfile/live/23027_1.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/hu-nan-jiao-yu-6.ctv
 
-### 湖南新闻
-
-- ❌ [标清 / 9999ms / iptvorg_cn.m3u] http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_346.m3u8
-
 ### 湖南爱晚
 
-- ❌ [未知 / 9999ms / suxuang.m3u] http://tvbox6.icu/tv/mgtv.php?id=261
 - ❌ [未知 / 9999ms / suxuang.m3u] http://p2.vzan.com/527645544/149039617847513156/live.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://tvbox6.icu/tv/mgtv.php?id=261
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://php.jdshipin.com:8880/iptv.php?id=hngg
 
 ### 湖南电影
@@ -6583,8 +6337,9 @@
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://php.jdshipin.com:8880/iptv.php
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/hu-nan-dian-ying-2.ctv
 
-### 湖南电视剧
+### 湖南电视剧频道
 
+- ❌ [未知 / 9999ms / suxuang.m3u] http://tvbox6.icu/tv/mgtv.php?id=484
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/hu-nan-dian-shi-ju-2.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/hu-nan-dian-shi-ju-12.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/hu-nan-dian-shi-ju-14.ctv
@@ -6601,10 +6356,6 @@
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/hu-nan-jing-shi-5.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/hu-nan-jing-shi-2.m3u8
 
-### 湖南视剧
-
-- ❌ [未知 / 9999ms / suxuang.m3u] http://tvbox6.icu/tv/mgtv.php?id=484
-
 ### 湖南都市
 
 - ❌ [未知 / 9999ms / suxuang.m3u] http://tvbox6.icu/tv/mgtv.php?id=346
@@ -6615,18 +6366,15 @@
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/hu-nan-du-shi-6.ctv
 - ❌ [未知 / 9999ms / bestK iptv] http://phoneqq.qing.mgtv.com/nn_live/nn_x64/dWlwPTEwNi4xNC4zOC41NSZ0ZXJtPTUmcWlkPSZyYXV0aF9lbmFibGU9b2ZmJmNkbmV4X2lkPXFxX3Bob25lX2xpdmUmY2hzPSZkZWY9MSZzPWRiZWNhNWQ4YTU2NjA3OGZmZjIyMWJjYmJjZDE5NDViJnVpZD0mdXVpZD00MTY3NDAzZjhkZWE3ZmU2OWRiZDI4NjVmZjU0ZTJlOS02YTBlMjYzNyZ2PTImYXM9MCZlcz0xNzcxMzk3NzA5/HNDSMPP360.m3u8
 
-### 湖州公共
+### 湖州公共民生
 
+- ✅ [未知 / 263ms / vbskycn.m3u] http://hzcm-live.media.hugd.com/1e6b554b9ab74513958c0e1ffe664d22/9acaa7634309494cb29a85eb12136607.m3u8?auth_key=2272900830-9a2389b8bf4e49d580d4ad807423d326-0-ea78a5c7a678c436263582d368f5009e
 - ❌ [720P / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/6a35cfa79352d8aefbded0e0224faaa330d4720664c5b3cde45a74d815aa74c5.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/hu-zhou-gong-gong-9.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/hu-zhou-gong-gong-3.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/hu-zhou-gong-gong-1.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://t.freetv.fun/live/hu-zhou-gong-gong-1.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://t.freetv.fun/live/hu-zhou-gong-gong-2.m3u8
-
-### 湖州公共民生
-
-- ✅ [未知 / 263ms / vbskycn.m3u] http://hzcm-live.media.hugd.com/1e6b554b9ab74513958c0e1ffe664d22/9acaa7634309494cb29a85eb12136607.m3u8?auth_key=2272900830-9a2389b8bf4e49d580d4ad807423d326-0-ea78a5c7a678c436263582d368f5009e
 
 ### 湖州文化娱乐
 
@@ -6762,7 +6510,7 @@
 
 ### 精灵宝可梦
 
-- ❌ [未知 / 9999ms / suxuang ipv4] https://live.metshop.top/huya/23749096
+- ✅ [未知 / 2557ms / suxuang ipv4] https://live.metshop.top/huya/23749096
 
 ### 灵宝新闻综合
 
@@ -6899,6 +6647,10 @@
 
 - ✅ [未知 / 1343ms / suxuang ipv4] https://live.metshop.top/yy/1354926650
 
+### 特种兵之火凤凰
+
+- ✅ [未知 / 2061ms / suxuang ipv4] https://live.metshop.top/huya/29982636
+
 ### 狂飙
 
 - ✅ [未知 / 2356ms / suxuang ipv4] https://live.metshop.top/yy/1355142167
@@ -6954,11 +6706,11 @@
 ### 甘孜综合
 
 - ✅ [未知 / 215ms / suxuang ipv4] http://tv.drs.ganzitv.com:8100/channellive/gztv.flv
-- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://m3u8channel.ganzitv.com/nmip-media/channellive/channel1/playlist.m3u8
+- ✅ [未知 / 475ms / Guovin iptv-api result(存活校验)] https://m3u8channel.ganzitv.com/nmip-media/channellive/channel1/playlist.m3u8
 
-### 甘肃公共
+### 甘肃公共 (540p) [Not 24/7]
 
-- ❌ [未知 / 9999ms / iptvorg_cn2.m3u] https://hls.gstv.com.cn/49048r/3t5xyc.m3u8
+- ❌ [未知 / 9999ms / iptv-org cn] https://hls.gstv.com.cn/49048r/3t5xyc.m3u8
 
 ### 甘肃公共应急
 
@@ -6978,7 +6730,7 @@
 
 ### 甘肃经济
 
-- ❌ [未知 / 9999ms / vbskycn.m3u] https://satellitepull.cnr.cn/live/wxgshhzs/playlist.m3u8
+- ✅ [未知 / 871ms / vbskycn.m3u] https://satellitepull.cnr.cn/live/wxgshhzs/playlist.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] https://hls.gstv.com.cn/49048r/10iv1j.m3u8
 
 ### 甘肃都市
@@ -7165,6 +6917,42 @@
 
 - ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/ee730abf7f00cf19da98b49f0f8cfe02c2c6a9ce62eaa9b1e3a5ba0510bc4168.ctv
 
+### 睛彩中原
+
+- ✅ [未知 / 119ms / suxuang.m3u] http://1.94.31.214/php/hntv.php?id=jczy
+
+### 睛彩广场
+
+- ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221226139/index.m3u8
+
+### 睛彩广场舞
+
+- ✅ [未知 / 121ms / yang1989_gather.m3u] http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011523&livemode=1&stbId=YanG-1989
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://13937899.xyz:35455/itv/3000000020000011523.m3u8?cdn=FifastbLive
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://zjzcf.synology.me:35455/itv/3000000020000011523.m3u8?cdn=FifastbLive
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226472/index.m3u8
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://[2409:8087:1a15:10d1::37]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226472/index.m3u8
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://[2409:8087:1e01:20::3]/PLTV/11/224/3221226139/index.m3u8
+
+### 睛彩竞技
+
+- ✅ [未知 / 122ms / yang1989_gather.m3u] http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011528&livemode=1&stbId=YanG-1989
+- ❌ [未知 / 9999ms / suxuang.m3u] http://vip.lqcc.xyz:35455/itv/3000000020000011528.m3u8?cdn=FifastbLive
+- ❌ [未知 / 9999ms / suxuang.m3u] http://vip.lqcc.xyz:35455/itv/3000000020000011530.m3u8?cdn=FifastbLive
+- ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221226116/index.m3u8
+
+### 睛彩篮球
+
+- ✅ [未知 / 109ms / yang1989_gather.m3u] http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011529&livemode=1&stbId=YanG-1989
+- ❌ [未知 / 9999ms / suxuang.m3u] http://vip.lqcc.xyz:35455/itv/3000000020000011529.m3u8?cdn=FifastbLive
+- ❌ [未知 / 9999ms / suxuang.m3u] http://vip.lqcc.xyz:35455/itv/3000000020000011531.m3u8?cdn=FifastbLive
+- ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221226118/index.m3u8
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://[2409:8087:1a01:df::4055]:80/TVOD/88888888/224/3221225901/main.m3u8
+
+### 睛彩青少
+
+- ❌ [未知 / 9999ms / yang1989_gather.m3u] http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011525&livemode=1&stbId=YanG-1989
+
 ### 睢宁三农
 
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://iptv.666230.xyz/iptv/jsyd.php/xzsnsn
@@ -7179,7 +6967,7 @@
 
 ### 知否知否
 
-- ❌ [未知 / 9999ms / suxuang ipv4] https://live.metshop.top/yy/21881901
+- ✅ [未知 / 2958ms / suxuang ipv4] https://live.metshop.top/yy/21881901
 
 ### 石家庄城市服务
 
@@ -7257,17 +7045,13 @@
 
 - ❌ [未知 / 9999ms / iptv-org cn] http://live.jiaodong.net:82/tvfushan/hls/tv_shenghuo.m3u8
 
-### 福州少儿
+### 福州少儿频道
 
 - ✅ [未知 / 366ms / vbskycn.m3u] http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
 
-### 福州电视台少儿频道
+### 福州广播电视台新闻综合频道 (FZTV-1) (1080p)
 
-- ✅ [1080P / 366ms / iptvorg_cn2.m3u] http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
-
-### 福州广播电视台新闻综合频道
-
-- ✅ [1080P / 124ms / iptvorg_cn2.m3u] http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
+- ✅ [1080P / 124ms / iptv-org cn] http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
 
 ### 福州广播电视台都市生活频道
 
@@ -7275,6 +7059,7 @@
 
 ### 福州新闻综合
 
+- ✅ [1080P / 124ms / iptvorg_cn2.m3u] http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://8.138.7.223/tv/fjtv1.php?id=fz1
 
 ### 福州生活
@@ -7291,7 +7076,7 @@
 
 ### 福建公共
 
-- ❌ [标清 / 9999ms / vbskycn.m3u] https://live.264788.xyz/channel/fujianxiangcungonggong?streamid=1cf7fc3a8f6d160c33b43c2f9507a0cc&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://live.264788.xyz/channel/fujianxiangcungonggong?streamid=1cf7fc3a8f6d160c33b43c2f9507a0cc&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 - ❌ [未知 / 9999ms / bestK iptv] https://stream1.freetv.fun/fu-jian-gong-gong-4.ctv
 
 ### 福建少儿
@@ -7314,15 +7099,11 @@
 
 ### 福建旅游
 
-- ❌ [标清 / 9999ms / vbskycn.m3u] https://live.264788.xyz/channel/fujianlvyou?streamid=8f26765ebf367079cef58c6b7752da1e&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 - ❌ [未知 / 9999ms / suxuang.m3u] http://8.138.7.223/tv/fjtv1.php?id=fjly
 - ❌ [未知 / 9999ms / vbskycn iptv4] https://live.264788.xyz/channel/fujianlvyou?streamid=fc58882de71ce4575b66002f2475226b&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://live.264788.xyz/channel/fujianlvyou?streamid=599c11c8b284751261b165f4d5765b36&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://live.264788.xyz/channel/fujianlvyou?streamid=221239fcf3c7edb274f2f0760fe47f96&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-
-### 福建武夷山玉女峰
-
-- ❌ [未知 / 9999ms / vbskycn.m3u] https://gcalic.v.myalicdn.com/gc/wysynf_1/index.m3u8
+- ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://live.264788.xyz/channel/fujianlvyou?streamid=8f26765ebf367079cef58c6b7752da1e&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 
 ### 福建电视剧
 
@@ -7344,8 +7125,8 @@
 
 ### 福建综合
 
+- ✅ [未知 / 732ms / suxuang.m3u] http://8.138.7.223/tv/fjtv1.php?id=fjzh
 - ❌ [标清 / 9999ms / iptvorg_cn.m3u] http://120.39.52.202:5140/%E7%A6%8F%E5%BB%BA%E7%BB%BC%E5%90%88
-- ❌ [未知 / 9999ms / suxuang.m3u] http://8.138.7.223/tv/fjtv1.php?id=fjzh
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/fu-jian-zong-he-6.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/fu-jian-zong-he-5.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/fu-jian-zong-he-4.m3u8
@@ -7430,9 +7211,9 @@
 
 - ❌ [4K / 9999ms / iptv-org cn] http://39.134.115.163:8080/PLTV/88888910/224/3221225786/index.m3u8
 
-### 绍兴公共
+### 绍兴公共频道
 
-- ✅ [未知 / 103ms / vbskycn iptv4] http://live.shaoxing.com.cn/video/s10001-sxtv2/index.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
+- ✅ [未知 / 103ms / vbskycn.m3u] http://live.shaoxing.com.cn/video/s10001-sxtv2/index.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
 - ✅ [未知 / 110ms / vbskycn.m3u] http://live.shaoxing.com.cn/video/s10001-sxtv2/index.m3u8
 - ✅ [未知 / 131ms / bestK iptv] http://live.shaoxing.com.cn/video/s10001-sxtv2/index.m3u8?
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/shao-xing-gong-gong-2.m3u8
@@ -7441,9 +7222,9 @@
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/shao-xing-gong-gong-8.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/shao-xing-gong-gong-1.m3u8
 
-### 绍兴电视台公共
+### 绍兴影视
 
-- ✅ [未知 / 103ms / vbskycn.m3u] http://live.shaoxing.com.cn/video/s10001-sxtv2/index.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
+- ✅ [720P / 87ms / iptvorg_cn2.m3u] http://live.shaoxing.com.cn/video/s10001-sxtv3/index.m3u8
 
 ### 绍兴文化影视
 
@@ -7469,6 +7250,10 @@
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/shao-xing-xin-wen-zong-he-2.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://t.freetv.fun/live/shao-xing-xin-wen-zong-he-2.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://t.freetv.fun/live/shao-xing-xin-wen-zong-he-3-1.m3u8
+
+### 绍兴综合
+
+- ✅ [标清 / 118ms / iptvorg_cn2.m3u] http://live.shaoxing.com.cn/video/s10001-sxtv1/index.m3u8
 
 ### 经典剧集
 
@@ -7551,6 +7336,10 @@
 
 - ✅ [未知 / 1446ms / suxuang ipv4] https://live.metshop.top/huya/11352975
 
+### 花垣综合
+
+- ✅ [ / 239ms / 实测可播] https://liveplay-srs.voc.com.cn/hls/tv/134_180adf.m3u8
+
 ### 苍南新闻综合
 
 - ✅ [未知 / 330ms / vbskycn iptv4] https://l.cztvcloud.com/channels/lantian/SXcangnan1/720p.m3u8
@@ -7560,7 +7349,7 @@
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/cang-nan-xin-wen-zong-he-3.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://t.freetv.fun/live/cang-nan-xin-wen-zong-he-1.m3u8
 
-### 苏州
+### 苏州电视台
 
 - ✅ [4K / 216ms / kimentanm.m3u] https://tylive.kan0512.com/norecord/csztv4k_4k.m3u8
 - ✅ [4K / 407ms / suxuang.m3u] https://live-auth.51kandianshi.com/szgd/csztv4k_hd.m3u8
@@ -7773,9 +7562,14 @@
 
 - ❌ [未知 / 9999ms / iptvorg_cn2.m3u] http://stream2.xiancity.cn/xatv4/playlist.m3u8
 
+### 西安教育
+
+- ✅ [1080P / 79ms / 实测可播] http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226371/index.m3u8
+
 ### 西安新闻
 
 - ✅ [未知 / 8ms / suxuang.m3u] http://112.46.105.20:8009/hls/28/index.m3u8
+- ✅ [1080P / 99ms / 实测可播] http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226366/index.m3u8
 - ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://stream2.xiancity.cn/xatv1/playlist.m3u8
 
 ### 西安白鸽
@@ -7785,6 +7579,7 @@
 ### 西安都市
 
 - ✅ [未知 / 9ms / suxuang.m3u] http://112.46.105.20:8009/hls/29/index.m3u8
+- ✅ [1080P / 80ms / 实测可播] http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226367/index.m3u8
 
 ### 西峰综合
 
@@ -7870,17 +7665,13 @@
 
 - ❌ [未知 / 9999ms / suxuang ipv4] http://www.goodiptv.club/douyu/9661369
 
-### 贵州电视台
-
-- ❌ [标清 / 9999ms / iptvorg_cn.m3u] http://183.207.248.71/gitv/live1/G_GUIZHOU/G_GUIZHOU
-
 ### 贵州Guizhou TV
 
 - ❌ [未知 / 9999ms / iptv-org cn(github.io)] http://183.207.248.71/gitv/live1/G_GUIZHOU/G_GUIZHOU
 
-### 贵州省兴义市万峰林
+### 贵州综合
 
-- ❌ [未知 / 9999ms / vbskycn.m3u] https://gcalic.v.myalicdn.com/gc/xywfl_1/index.m3u8
+- ❌ [标清 / 9999ms / iptvorg_cn.m3u] http://183.207.248.71/gitv/live1/G_GUIZHOU/G_GUIZHOU
 
 ### 贺岁电影
 
@@ -7896,12 +7687,12 @@
 
 ### 赣州新闻
 
-- ❌ [未知 / 9999ms / suxuang.m3u] https://pili-live-hls-sjxgz2024.sobeylive.com/jxgz2024/396_q_live172526329228525.m3u8
-- ❌ [未知 / 9999ms / suxuang ipv4] http://play-live-hls.jxtvcn.com.cn/live/tv_ganzhou.m3u8
+- ❌ [未知 / 9999ms / suxuang ipv4] https://pili-live-hls-sjxgz2024.sobeylive.com/jxgz2024/396_q_live172526329228525.m3u8
 
 ### 赣州新闻综合
 
 - ❌ [未知 / 9999ms / suxuang.m3u] http://play-live-hls.jxtvcn.com.cn/live/tv_ganzhou.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] https://pili-live-hls-sjxgz2024.sobeylive.com/jxgz2024/396_q_live172526329228525.m3u8
 
 ### 赤峰电视台
 
@@ -7957,10 +7748,6 @@
 
 - ❌ [未知 / 9999ms / iptv-org cn] http://zsxj.chinashadt.com:1935/live/xjsh.stream_360p/playlist.m3u8
 
-### 辽宁电视台
-
-- ❌ [1080P / 9999ms / iptvorg_cn.m3u] http://39.134.39.37/PLTV/88888888/224/3221226209/index.m3u8
-
 ### 辽宁Liaoning TV
 
 - ❌ [1080P / 9999ms / iptv-org cn(github.io)] http://39.134.39.37/PLTV/88888888/224/3221226209/index.m3u8
@@ -7981,14 +7768,10 @@
 - ❌ [未知 / 9999ms / suxuang.m3u] http://120.76.248.139/live/bfgd/4200000071.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/liao-zhu-bei-fang-3.m3u8
 
-### 辽宁影视
-
-- ✅ [未知 / 173ms / suxuang.m3u] http://dassby.qqff.top:99/live/辽宁影视剧/index.m3u8
-
 ### 辽宁影视剧
 
 - ✅ [未知 / 74ms / suxuang.m3u] http://120.76.248.139/live/bfgd/4200000070.m3u8
-- ✅ [未知 / 173ms / suxuang ipv4] http://dassby.qqff.top:99/live/辽宁影视剧/index.m3u8
+- ✅ [未知 / 173ms / suxuang.m3u] http://dassby.qqff.top:99/live/辽宁影视剧/index.m3u8
 
 ### 辽宁教育青少
 
@@ -8006,6 +7789,10 @@
 - ✅ [未知 / 96ms / suxuang.m3u] http://dassby.qqff.top:99/live/辽宁经济/index.m3u8
 - ✅ [未知 / 216ms / suxuang.m3u] http://120.76.248.139/live/bfgd/4200000076.m3u8
 
+### 辽宁综合
+
+- ❌ [1080P / 9999ms / iptvorg_cn.m3u] http://39.134.39.37/PLTV/88888888/224/3221226209/index.m3u8
+
 ### 辽宁都市
 
 - ✅ [未知 / 42ms / suxuang.m3u] http://dassby.qqff.top:99/live/辽宁都市/index.m3u8
@@ -8021,6 +7808,14 @@
 
 - ✅ [未知 / 81ms / iptv-org cn] https://stream2.jlntv.cn/liaoyuan1/sd/live.m3u8
 
+### 达州公共台
+
+- ❌ [720P / 9999ms / iptvorg_cn2.m3u] http://m3u8.channellive.dzxw.net/cms/videos/nmip-media/channellive/channel36/playlist.m3u8
+
+### 达州综合台
+
+- ❌ [720P / 9999ms / iptvorg_cn2.m3u] http://m3u8.channellive.dzxw.net/cms/videos/nmip-media/channellive/channel35/playlist.m3u8
+
 ### 运城科技教育
 
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/yun-cheng-ke-ji-jiao-yu-2.m3u8
@@ -8028,6 +7823,7 @@
 
 ### 连云港公共
 
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] https://live.lyg1.com/ggpd/sd/live.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://iptv.666230.xyz/iptv/jsyd.php/jslyggonggongpd
 
 ### 连云港新闻综合
@@ -8035,6 +7831,10 @@
 - ✅ [未知 / 3969ms / bestK iptv] https://iptv.catvod.com/live.php?id=%E8%BF%9E%E4%BA%91%E6%B8%AF%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&line=1
 - ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/c026e00e084889aff791df402170b37bbdf55244f8f595ea61c37416e94b5c1e.ctv
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://live.chinacert.cftest5.cn/cnmg/live/639731715
+
+### 连云港综合
+
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] https://live.lyg1.com/zhpd/sd/live.m3u8
 
 ### 通化电视台
 
@@ -8099,6 +7899,10 @@
 ### 邵氏影院
 
 - ❌ [未知 / 9999ms / suxuang ipv4] http://www.goodiptv.club/douyu/4246519
+
+### 郎溪综合台
+
+- ❌ [1080P / 9999ms / iptvorg_cn2.m3u] http://117.70.93.210:1935/live/xinwen/playlist.m3u8
 
 ### 郏县综合
 
@@ -8187,8 +7991,8 @@
 
 ### 金色学堂
 
-- ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221225748/index.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://111.22.153.159:35455/itv/5000000010000026105.m3u8?cdn=bestzb
+- ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221225748/index.m3u8
 
 ### 金鹰卡通[576][S]
 
@@ -8208,6 +8012,23 @@
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/jin-ying-qia-tong-19.m3u8
 - ❌ [未知 / 9999ms / bestK iptv] http://phoneqq.qing.mgtv.com/nn_live/nn_x64/dWlwPTEwNi4xNC4zOC41NSZ0ZXJtPTUmcWlkPSZyYXV0aF9lbmFibGU9b2ZmJmNkbmV4X2lkPXFxX3Bob25lX2xpdmUmY2hzPSZkZWY9MSZzPTBkNTE4ZmE4YWVjN2MyNGQ0NTI3YjhiZDE1MzE0MTg4JnVpZD0mdXVpZD00ZGVkY2UxM2M0ZTRlODY3ZDI0NzRkY2M3NmQ2NmQ4YS02YTBlMjYzNyZ2PTImYXM9MCZlcz0xNzcxMzk3NzI2/JYKTMPP360.m3u8
 
+### 金鹰卡通卫视
+
+- ✅ [标清 / 103ms / bf_all_status.m3u8] http://120.198.95.220:9901/tsfile/live/1033_1.m3u8?key=txiptv&playlive=1&down=1
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://112.25.48.68/live/program/live/jykt/1300000/mnf.m3u8
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.241.149:6610/gitv/live1/G_JINYING/G_JINYING/1.m3u8
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221226303/index.m3u8
+- ❌ [标清 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/e1b5b19bd1797b4f2c20771f007cc7c1cfc8da4b2a74a980ec95b7bac2ee50cf.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://itv.iptv1688.top:2016/itv.php?id=金鹰卡通
+- ❌ [未知 / 9999ms / suxuang.m3u] http://tvbox6.icu/tv/mgtv.php?id=287
+- ❌ [未知 / 9999ms / suxuang.m3u] https://zby.130519.xyz/PLTV/11/224/3221226094/index.m3u8
+
+### 金鹰纪实卫视
+
+- ❌ [未知 / 9999ms / suxuang.m3u] http://iptv.huuc.edu.cn/hls/gedocu.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226667/1.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://tvbox6.icu/tv/mgtv.php?id=316
+
 ### 鉴证实录
 
 - ✅ [未知 / 820ms / suxuang ipv4] https://live.metshop.top/huya/23903183
@@ -8220,9 +8041,17 @@
 
 - ✅ [未知 / 176ms / vbskycn iptv4] http://183.64.174.171:40123/ch1.m3u8?zzhongqd
 
+### 铜陵公共
+
+- ❌ [720P / 9999ms / iptvorg_cn2.m3u] http://dstpush1.retalltech.com/app/stream2.m3u8
+
 ### 铜陵新闻综合
 
 - ✅ [未知 / 174ms / Guovin iptv-api result(存活校验)] https://ls.qingting.fm/live/21303/64k.m3u8
+
+### 铜陵综合
+
+- ❌ [720P / 9999ms / iptvorg_cn2.m3u] http://dstpush1.retalltech.com/app/stream1.m3u8
 
 ### 镇江二套社会民生
 
@@ -8265,19 +8094,22 @@
 
 ### 长沙政法
 
+- ✅ [4K / 83ms / iptvorg_cn.m3u] http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_348.m3u8
 - ❌ [未知 / 9999ms / suxuang.m3u] http://tvbox6.icu/tv/mgtv.php?id=254
 
 ### 长沙新闻
 
 - ✅ [未知 / 119ms / Guovin iptv-api result(存活校验)] http://ls.qingting.fm/live/4877.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_346.m3u8
-- ❌ [未知 / 9999ms / suxuang.m3u] http://tvbox6.icu/tv/mgtv.php?id=269
+- ❌ [未知 / 9999ms / suxuang ipv4] http://tvbox6.icu/tv/mgtv.php?id=269
+- ❌ [未知 / 9999ms / iptv-org cn] http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_346.m3u8
 - ❌ [未知 / 9999ms / bestK iptv] http://phonehwei.qing.mgtv.com/nn_live/nn_x64/dWlwPTEwNi4xNC4zOC41NSZ0ZXJtPTUmcWlkPSZyYXV0aF9lbmFibGU9b2ZmJmNkbmV4X2lkPWh3X3Bob25lJmNocz0mZGVmPTEmcz1kYzU3OWU3MzNmMTMwNTk0MjRkOWFjMmJhYzlmOWY2NSZ1aWQ9JnV1aWQ9NTQ2MmU5ZDUwYmVmNGZlMDMzN2MzZDgwMmZiMWY2MDAtNmEwZTI2Mzcmdj0yJmFzPTAmZXM9MTc3MTQwODc4Mw,,/CSXWMPP360.m3u8
 
 ### 长沙新闻综合
 
 - ✅ [未知 / 119ms / vbskycn.m3u] http://ls.qingting.fm/live/4877.m3u8
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_346.m3u8
+- ❌ [未知 / 9999ms / suxuang.m3u] http://tvbox6.icu/tv/mgtv.php?id=269
 
 ### 长沙经贸
 
@@ -8317,6 +8149,8 @@
 
 ### 陕西体育休闲
 
+- ✅ [1080P / 95ms / 实测可播] http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226363/index.m3u8
+- ✅ [1080P / 110ms / 实测可播] http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221227111/index.m3u8
 - ✅ [未知 / 2509ms / bestK iptv] https://iptv.catvod.com/live.php?id=%E9%99%95%E8%A5%BF%E4%BD%93%E8%82%B2%E4%BC%91%E9%97%B2%E9%A2%91%E9%81%93&line=1
 - ❌ [未知 / 9999ms / suxuang ipv4] http://112.46.105.20:8009/hls/24/index.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://mgtv.ottiptv.cc/migu/956909356.m3u8?migutoken=2cd1b3120e6a6d3cec136ca61cb23c24512860d4956d391b8c7d8a1fce58c3fa549930217eede8887c05f73eb24ac9692be10bdd06557f58130ff6717e37e1b6ba38adfacf8e74298fe1d4f48c
@@ -8327,7 +8161,7 @@
 
 ### 陕西公共
 
-- ✅ [未知 / 135ms / vbskycn.m3u] http://ls.qingting.fm/live/1222.m3u8
+- ✅ [未知 / 135ms / Guovin iptv-api result(存活校验)] http://ls.qingting.fm/live/1222.m3u8
 
 ### 陕西农林
 
@@ -8339,6 +8173,8 @@
 
 ### 陕西新闻资讯
 
+- ✅ [1080P / 82ms / 实测可播] http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226357/index.m3u8
+- ✅ [1080P / 86ms / 实测可播] http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226357/index.m3u8
 - ✅ [未知 / 2671ms / bestK iptv] https://iptv.catvod.com/live.php?id=%E9%99%95%E8%A5%BF%E6%96%B0%E9%97%BB%E8%B5%84%E8%AE%AF%E9%A2%91%E9%81%93&line=1
 - ❌ [未知 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/d743b7c03edc383f07313e05d02161dae7bde7e8562efafe2128467a4e67d54f.ctv
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://mgtv.ottiptv.cc/migu/956909289.m3u8?migutoken=d4f3f5a8bf93821548ae70c6bd12860956574c27b3b1ef52c88c8e3d72259b1727a6dbf5d6a5de850afac4c7ffe2f2124bb3b558a89906cd32ccc8913f0f22dd74b7a84514b6015bff75903d9c
@@ -8346,21 +8182,24 @@
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://gslbmgsplive.miguvideo.com/migu/kailu/sxxwzx/51/20250804/index.m3u8?msisdn=202510230801447f8d4c3a1a3c4ca1bd0de217472d80f2&mdspid=&spid=600572&netType=0&sid=5910022187&pid=2028597139&timestamp=20251023080144&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=956909289&ParentNodeID=-99&assertID=5910022187&client_ip=106.13.250.83&SecurityKey=20251023080144&promotionId=&mvid=5900006710&mcid=500020&playurlVersion=WX-A1-8.9.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=6ed563603d847927c8983a33d5b70e32&ddCalcu=263eeed2056760b356d0333da834879982c7
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] http://gslbmgsplive.miguvideo.com/migu/kailu/sxxwzx/51/20250804/index.m3u8?msisdn=202510240800591ee112712ed2473aa0d84b8ea3046959&mdspid=&spid=600572&netType=0&sid=5910022187&pid=2028597139&timestamp=20251024080059&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=956909289&ParentNodeID=-99&assertID=5910022187&client_ip=106.13.250.88&SecurityKey=20251024080059&promotionId=&mvid=5900006710&mcid=500020&playurlVersion=WX-A1-8.9.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=5661fd15cfb5726d7c6a1eb652fdb094&ddCalcu=4596e062b16df0fd21556cbfeb15a762c67d
 
-### 陕西洋县国宝朱鹮02
-
-- ❌ [未知 / 9999ms / vbskycn.m3u] https://gcalic.v.myalicdn.com/gc/zh02_1/index.m3u8
-
 ### 陕西秦腔
 
 - ✅ [未知 / 15ms / suxuang.m3u] http://112.46.105.20:8009/hls/22/index.m3u8
+- ✅ [1080P / 78ms / 实测可播] http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226361/index.m3u8
+- ✅ [1080P / 108ms / 实测可播] http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221227125/index.m3u8
+- ✅ [未知 / 135ms / vbskycn.m3u] http://ls.qingting.fm/live/1222.m3u8
 
 ### 陕西西部电影
 
+- ✅ [1080P / 80ms / 实测可播] http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226364/index.m3u8
+- ✅ [1080P / 81ms / 实测可播] http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221227091/index.m3u8
 - ❌ [未知 / 9999ms / suxuang ipv4] http://112.46.105.20:8009/hls/62/index.m3u8
 
 ### 陕西都市青春
 
 - ✅ [未知 / 14ms / suxuang ipv4] http://112.46.105.20:8009/hls/19/index.m3u8
+- ✅ [1080P / 66ms / 实测可播] http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226358/index.m3u8
+- ✅ [1080P / 93ms / 实测可播] http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226358/index.m3u8
 - ✅ [未知 / 2646ms / bestK iptv] https://iptv.catvod.com/live.php?id=%E9%99%95%E8%A5%BF%E9%83%BD%E5%B8%82%E9%9D%92%E6%98%A5%E9%A2%91%E9%81%93&line=1
 - ❌ [标清 / 9999ms / ibert_all.m3u] https://stream1.freetv.fun/1b5c2948073df91c08fdc1b18bf158ca6c9cc35c9b7c77bd7bc0727c2c3bb6c4.ctv
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://mgtv.ottiptv.cc/migu/956909358.m3u8?migutoken=c3931ea9d3d7ede24a9d13084dadcc55f7f21b114c6c584ca7defd6492ba46b7286dbd751d0f853f83e998e4b0349c62cf4bc570ac83667c4f6bd49a9411edc68e80c1d7f24da79a264d15912b
@@ -8371,6 +8210,8 @@
 ### 陕西银龄
 
 - ✅ [未知 / 10ms / suxuang.m3u] http://112.46.105.20:8009/hls/20/index.m3u8
+- ✅ [1080P / 76ms / 实测可播] http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226331/index.m3u8
+- ✅ [1080P / 94ms / 实测可播] http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226359/index.m3u8
 
 ### 隋唐英雄传
 
@@ -8414,14 +8255,6 @@
 - ✅ [标清 / 48ms / iptvorg_cn.m3u] http://video10.qtv.com.cn/drm/qtv6at/manifest.m3u8
 - ❌ [标清 / 9999ms / iptvorg_cn2.m3u] http://119.166.53.110:85/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
 
-### 青岛崂山八水河
-
-- ❌ [未知 / 9999ms / vbskycn.m3u] https://gcalic.v.myalicdn.com/gc/qdls02_1/index.m3u8
-
-### 青岛崂山双福
-
-- ❌ [未知 / 9999ms / vbskycn.m3u] https://gcalic.v.myalicdn.com/gc/qdls03_1/index.m3u8
-
 ### 青岛影视频道
 
 - ✅ [标清 / 50ms / iptvorg_cn.m3u] http://video10.qtv.com.cn/drm/qtv3at/manifest.m3u8
@@ -8444,15 +8277,15 @@
 
 - ✅ [未知 / 70ms / suxuang ipv4] http://qcfile.qcrmt.com/nmip-media/channellive/channel100933/playlist.m3u8
 
-### 青海电视台
-
-- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] https://hls-qhmh.lanzhousobey.cn/qhmh/mhds.m3u8
-- ❌ [标清 / 9999ms / iptvorg_cn.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225727/index.m3u8
-
 ### 青海Qinghai TV
 
 - ❌ [未知 / 9999ms / iptv-org cn] https://hls-qhmh.lanzhousobey.cn/qhmh/mhds.m3u8
 - ❌ [未知 / 9999ms / iptv-org cn(github.io)] http://39.134.115.163:8080/PLTV/88888910/224/3221225727/index.m3u8
+
+### 青海综合
+
+- ❌ [标清 / 9999ms / iptvorg_cn2.m3u] https://hls-qhmh.lanzhousobey.cn/qhmh/mhds.m3u8
+- ❌ [标清 / 9999ms / iptvorg_cn.m3u] http://39.134.115.163:8080/PLTV/88888910/224/3221225727/index.m3u8
 
 ### 青海都市
 
@@ -8531,6 +8364,14 @@
 ### 音乐速递「音乐」
 
 - ❌ [未知 / 9999ms / YanG Gather] https://cdn.ttvb.eu.org/huya/19439762
+
+### 韶关公共台
+
+- ❌ [720P / 9999ms / iptvorg_cn2.m3u] https://www.sgmsw.cn/videos/tv/201805/1308/9P424TC5M000AFO13CXK6GN6BOA889D2/hls/live.m3u8
+
+### 韶关综合台
+
+- ❌ [720P / 9999ms / iptvorg_cn2.m3u] https://www.sgmsw.cn/videos/tv/201805/1308/SB05RIYZOU8JR418AUQOF62CAJQ08D0E/hls/live.m3u8
 
 ### 项城新闻
 
@@ -8628,9 +8469,9 @@
 
 - ✅ [未知 / 913ms / Guovin iptv-api result(存活校验)] https://epg.pw/stream/ffcb6572863f0745a7369fbd9d901f1dfd0ab8fab8bad8bebb4e01c90b303c47.m3u8
 
-### 黑龙江电视台
+### 黑龙江 (1080p)
 
-- ❌ [1080P / 9999ms / iptvorg_cn.m3u] http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221227492/index.m3u8
+- ❌ [1080P / 9999ms / iptv-org cn] http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221227492/index.m3u8
 - ❌ [未知 / 9999ms / iptv-org cn] http://183.207.248.71/gitv/live1/G_HEILONGJIANG/G_HEILONGJIANG
 
 ### 黑龙江Heilongjiang TV
@@ -8683,6 +8524,10 @@
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/hei-long-jiang-xin-wen-fa-zhi-4.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/hei-long-jiang-xin-wen-fa-zhi-7.m3u8
 - ❌ [未知 / 9999ms / Guovin iptv-api result(存活校验)] https://stream1.freetv.fun/hei-long-jiang-xin-wen-fa-zhi-5.m3u8
+
+### 黑龙江综合
+
+- ❌ [1080P / 9999ms / iptvorg_cn.m3u] http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221227492/index.m3u8
 
 ### 黑龙江视
 
