@@ -1,0 +1,7 @@
+﻿频道,分组,省份,城市,序号,检活,HTTP,延迟ms,官方,来源,画质,标识,URL
+宁夏公共,宁夏,宁夏,,1,失效,403,9999,,suxuang.m3u,未知,宁夏公共,https://hls.ningxiahuangheyun.com/live/nxgg1M.m3u8
+宁夏少儿,宁夏,宁夏,,2,失效,403,9999,,suxuang.m3u,未知,宁夏少儿,https://hls.ningxiahuangheyun.com/live/nxse1M.m3u8
+宁夏文旅,宁夏,宁夏,,3,失效,403,9999,,suxuang.m3u,未知,宁夏文旅,https://hls.ningxiahuangheyun.com/live/nxwl1M.m3u8
+宁夏经济,宁夏,宁夏,,4,失效,403,9999,,suxuang.m3u,未知,宁夏经济,https://hls.ningxiahuangheyun.com/live/nxjj1M.m3u8
+宁夏经济,宁夏,宁夏,,5,失效,404,9999,,Guovin iptv-api result(存活校验),未知,宁夏经济,https://ls.qingting.fm/live/1841/64k.m3u8
+宁夏综合,宁夏,宁夏,,6,失效,0,9999,,iptvorg_cn.m3u,标清,Ningxia Satellite Channel (576p),http://39.134.115.163:8080/PLTV/88888910/224/3221225726/index.m3u8

@@ -1,0 +1,23 @@
+﻿频道,分组,省份,城市,序号,检活,HTTP,延迟ms,官方,来源,画质,标识,URL
+万荣综合,山西,山西,,1,存活,200,180,,vbskycn iptv4,未知,万荣综合,http://60.222.246.220:19433/hls1.m3u8
+交城電視台 (576p),山西,山西,,2,失效,0,9999,,iptv-org cn,未知,交城電視台 (576p),http://sxjc.chinashadt.com:2036/live/stream:jctv.stream/playlist.m3u8
+古县综合,山西,山西,,3,存活,200,511,,vbskycn iptv4,未知,古县综合,https://l2fpdktp.live.sxmty.com/live/hls/e4c3b363cc4549788e2d983f403e07db/d99ce1eb686e41b9afc888110bd95aa7.m3u8?zshanxd
+太谷新闻综合,山西,山西,,4,存活,200,482,,vbskycn iptv4,未知,太谷新闻综合,https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&amp;amp;tpid=1516989100&amp;amp;type=0
+太谷新闻综合,山西,山西,,5,存活,200,517,,bestK iptv,未知,太谷新闻综合,https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&amp;tpid=1516989100&amp;type=0
+太谷新闻综合,山西,山西,,6,存活,200,776,,Guovin iptv-api result(存活校验),未知,太谷新闻综合,https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&tpid=1516989100&type=0
+定襄综合,山西,山西,,7,存活,200,292,,vbskycn iptv4,未知,定襄综合,http://lbyzztfe.live.sxmty.com/live/hls/645ff4c60e0a49f0a203abbd73dd8be9/0720e665f10f48e98c9639f4f492fb4a-1.m3u8?zshanxd
+山西影视,山西,山西,,8,失效,403,9999,,suxuang.m3u,未知,山西影视,http://liveflash.sxrtv.com/live/sxfilm.m3u8?sub_m3u8=true&edge_slice=true
+山西文体生活,山西,山西,,9,失效,403,9999,,suxuang.m3u,未知,山西文体生活,http://liveflash.sxrtv.com/live/sxpublic.m3u8?sub_m3u8=true&edge_slice=true
+山西社会与法治,山西,山西,,10,失效,403,9999,,suxuang.m3u,未知,山西社会与法治,http://liveflash.sxrtv.com/live/sxedu.m3u8?sub_m3u8=true&edge_slice=true
+山西经济与科技,山西,山西,,11,失效,403,9999,,suxuang.m3u,未知,山西经济与科技,http://liveflash.sxrtv.com/live/sxfinance.m3u8?sub_m3u8=true&edge_slice=true
+平遥新闻综合,山西,山西,,12,存活,200,192,,vbskycn iptv4,未知,平遥新闻综合,https://tntgjhjb.live.sxmty.com/live/hls/3a4585ac11ec4e1bb07b419101b370c3/baf63e2b313440c2a25d7859f9b73b05-1.m3u8?zshanxd
+怀仁综合,山西,山西,,13,存活,200,200,,vbskycn iptv4,未知,怀仁综合,https://1yp7hc5p.live.sxmty.com/live/hls/bff8529922344209985b6e49baa9555a/efa2543628fc4a7ea93d3d6c975f77dc-1.m3u8
+晋中公共 (1080p) [Not 24/7],山西,山西,,14,失效,0,9999,,iptv-org cn,1080P,晋中公共 (1080p) [Not 24/7],http://jzlive.jztvnews.com:90/live/jzgg.m3u8
+武乡新闻综合,山西,山西,,15,失效,404,9999,,Guovin iptv-api result(存活校验),未知,武乡新闻综合,http://uzoiczhh.live.sxmty.com/live/hls/0d41f1480c4042d49927858f01fde707/53130407737b417b9a6259b57246bae3.m3u8?zshanxd
+武乡新闻综合,山西,山西,,16,失效,0,9999,,bestK iptv,未知,武乡新闻综合,https://stream1.freetv.fun/wu-xiang-xin-wen-zong-he-2.m3u8
+汾西综合,山西,山西,,17,失效,404,9999,,Guovin iptv-api result(存活校验),未知,汾西综合,https://qmmqvzoz.live.sxmty.com/live/hls/f24f8a390c084386a564074c9260100c/be3fdf07606145739ab2c4b80fe0136a.m3u8?zshanxd
+运城科技教育,山西,山西,,18,失效,0,9999,,Guovin iptv-api result(存活校验),未知,运城科技教育,https://stream1.freetv.fun/yun-cheng-ke-ji-jiao-yu-2.m3u8
+运城科技教育,山西,山西,,19,失效,0,9999,,Guovin iptv-api result(存活校验),未知,运城科技教育,https://stream1.freetv.fun/yun-cheng-ke-ji-jiao-yu-1.m3u8
+长子综合,山西,山西,,20,存活,200,161,,vbskycn iptv4,未知,长子综合,https://www.wxhcgbds.com:8081/channelTv/WXTV_1.m3u8?zshanxd
+黎城综合,山西,山西,,21,失效,404,9999,,Guovin iptv-api result(存活校验),未知,黎城综合,http://111.53.96.67:8081/live/1/index.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
+黎城综合,山西,山西,,22,失效,404,9999,,bestK iptv,未知,黎城综合,http://111.53.96.67:8081/live/1/index.m3u8

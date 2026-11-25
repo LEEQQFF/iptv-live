@@ -26,7 +26,7 @@ def official_stream(stream: dict) -> bool:
 
 
 def main():
-    merged = json.loads((CACHE / "merged.json").read_text(encoding="utf-8"))
+    merged = json.loads((CACHE / "regrouped.json").read_text(encoding="utf-8"))
     live = json.loads((CACHE / "liveness.json").read_text(encoding="utf-8"))
     results = live["results"]
 
@@ -59,7 +59,7 @@ def main():
         "schema": 3,
         "updated": TODAY,
         "source": "SparkTV assets/channels.json (2026-11-17) + SparkTV 默认订阅地址清单（11 个公开 M3U/M3U8）",
-        "grouping": ["央视", "卫视", "地方", "港澳台", "其他"],
+        "grouping": merged["grouping"],
         "ordering": "官方源 > 检活存活 > 响应延迟升序",
         "liveness": {
             "checkedAt": live["checkedAt"],
@@ -118,6 +118,7 @@ def main():
         ["拖拽排序", "Excel 中选整行后拖动行号即可调整顺序；重新运行导出脚本会按官方源>存活>延迟重排"],
         ["检活口径", final["liveness"]["method"]],
         ["置顶规则", final["ordering"]],
+        ["分组规则", "央视=CCTV1~17（按序号）；央视系列=CHC/CETV/CGTN及央视付费频道；卫视；34个省级行政区；网络=不属于省级行政区的频道"],
         ["URL 来源", "11 个公开订阅地址，见「订阅地址」sheet"],
         ["免责声明", "公开社区源，可用性随维护者变化；不含账号密码、付费墙或绕过鉴权内容"],
     ], [18, 100])
@@ -150,7 +151,8 @@ def main():
                          "是" if s["official"] else "", s.get("src", ""), s.get("quality", ""), s.get("label", ""), s["url"]])
         return rows
 
-    for gname in ["央视", "卫视", "地方", "港澳台", "其他"]:
+    for g in groups:
+        gname = g["name"]
         rows = stream_rows(gname)
         ws = sheet(gname, stream_headers, rows, stream_widths)
         for r in range(2, ws.max_row + 1):
@@ -176,12 +178,21 @@ def main():
 
     sheet("订阅地址", ["序号", "名称", "地址", "抓取状态"], [[i, n, u, "成功"] for i, n, u in subs], [8, 42, 96, 12])
 
-    wb.save(ROOT / "iptv-live-汇总.xlsx")
+    xlsx_path = ROOT / "iptv-live-汇总.xlsx"
+    try:
+        wb.save(xlsx_path)
+    except PermissionError:
+        xlsx_path = ROOT / "iptv-live-汇总-新版.xlsx"
+        wb.save(xlsx_path)
+    xlsx_name = xlsx_path.name
 
     # Editable CSV views (UTF-8 BOM for Excel double-click).
     edit_dir = ROOT / "editable"
     edit_dir.mkdir(exist_ok=True)
-    for gname in ["央视", "卫视", "地方"]:
+    for old in edit_dir.glob("*.csv"):
+        old.unlink()
+    for g in groups:
+        gname = g["name"]
         with (edit_dir / f"{gname}.csv").open("w", encoding="utf-8-sig", newline="") as f:
             w = csv.writer(f)
             w.writerow(stream_headers)
@@ -195,12 +206,10 @@ def main():
         f"- 频道 {final['stats']['channels']} 个 / 线路 {len(all_streams)} 条 / 唯一 URL {final['stats']['unique_urls']} 条",
         f"- 严格检活：存活 {status['alive']} / 失效 {status['dead']}",
         f"- 排序：{final['ordering']}（⭐=官方源，✅=检活存活，❌=失效）",
-        "- 清单为纯文本，可直接修改；同内容的 Excel/CSV 见 iptv-live-汇总.xlsx 与 editable/。",
+        f"- 清单为纯文本，可直接修改；同内容的 Excel/CSV 见 {xlsx_name} 与 editable/。",
         "",
     ]
     for g in groups:
-        if g["name"] in ("港澳台", "其他"):
-            continue
         lines += [f"## {g['name']}（{len(g['channels'])} 频道）", ""]
         for ch in g["channels"]:
             lines.append(f"### {ch['name']}")
@@ -226,15 +235,15 @@ def main():
 | 文件 | 用途 |
 |---|---|
 | `channels.json` | 权威数据源（含每条线路的检活状态与排序） |
-| `iptv-live-汇总.xlsx` | 多 sheet 可编辑视图：汇总/央视/卫视/地方/港澳台/其他/频道总表/官方源置顶/失效源/订阅地址 |
-| `editable/*.csv` | 央视/卫视/地方 的纯文本表格，可直接改字或拖拽排序 |
+| `{xlsx_name}` | 按分组建 sheet（央视/央视系列/卫视/34省/网络）+ 汇总/频道总表/官方源置顶/失效源/订阅地址 |
+| `editable/*.csv` | 每个分组一个纯文本表格，可直接改字或拖拽排序 |
 | `iptv-live-频道清单.md` | Markdown 文字清单，可直接编辑 |
-| `tools/` | 复现脚本：parse_merge.py / check_liveness.py / finalize_export.py |
+| `tools/` | 复现脚本：parse_merge.py / regroup.py / check_liveness.py / finalize_export.py |
 
 ## 口径
-1. 聚合：SparkTV `assets/channels.json`（2026-11-17，473 频道 / 1402 线路，省级分组映射为地方）+ 11 个公开 M3U/M3U8 订阅地址（{merged['stats']['subscription_rows']} 行，跳过 {merged['stats'].get('subscription_skipped_rows',0)} 行非直播/VOD）。
+1. 聚合：SparkTV `assets/channels.json`（2026-11-17，473 频道 / 1402 线路）+ 11 个公开 M3U/M3U8 订阅地址（{merged['stats']['subscription_rows']} 行，跳过 {merged['stats'].get('subscription_skipped_rows',0)} 行非直播/VOD）。
 2. 去重：同一频道内按完整 URL 去重；全局唯一 URL {final['stats']['unique_urls']} 条。
-3. 归类：央视 / 卫视 / 地方（主），港澳台 / 其他（附）。
+3. 归类：央视按 CCTV1~CCTV17 序号排序；央视系列（CHC/CETV/CGTN/央视付费频道）独立分组；卫视独立分组；其余按全国 34 个省级行政区归类，不属于任何省级行政区的归入「网络」。
 4. 严格检活：逐条真实 HTTP GET，仅 2xx/3xx 且返回 M3U/TS 媒体字节判为存活。
 5. 置顶：官方源（央视网/CNTV/北京卫视 BESTV 域名或原库标记）→ 存活 → 延迟升序。
 

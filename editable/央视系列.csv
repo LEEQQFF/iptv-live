@@ -1,0 +1,264 @@
+﻿频道,分组,省份,城市,序号,检活,HTTP,延迟ms,官方,来源,画质,标识,URL
+CETV01,央视系列,,,1,失效,0,9999,,suxuang ipv4,未知,CETV-01,https://zby.130519.xyz/PLTV/11/224/3221225775/index.m3u8
+CETV04,央视系列,,,2,失效,0,9999,,suxuang ipv4,未知,CETV-04,https://zby.130519.xyz/PLTV/11/224/3221226153/index.m3u8
+CETV1,央视系列,,,3,存活,200,36,,Guovin iptv-api result(存活校验),未知,CETV-1,http://120.76.248.139/live/bfgd/4200000135.m3u8
+CETV1,央视系列,,,4,存活,200,1656,,Guovin iptv-api result(存活校验),未知,CETV-1,http://38.75.136.137:98/gslb/dsdqpub/cetv1hd.m3u8?auth=testpub
+CETV1,央视系列,,,5,存活,200,1666,,bestK iptv,未知,CETV-1,https://iptv.catvod.com/live.php?id=CETV1&line=1
+CETV1,央视系列,,,6,失效,0,9999,,suxuang ipv4,未知,CETV-1 综合教育,http://www.lizhinas.top:1009/rtp/239.252.220.198:5140
+CETV1,央视系列,,,7,失效,0,9999,,iptv-org cn,未知,CETV1 (576p),http://117.161.133.51:81/gitv_live/G_CETV-1/G_CETV-1.m3u8?p=GITV
+CETV1,央视系列,,,8,失效,0,9999,,Guovin iptv-api result(存活校验),未知,CETV-1,http://198.204.228.26/live/cetv1hd.m3u8
+CETV1,央视系列,,,9,失效,0,9999,,Guovin iptv-api result(存活校验),未知,CETV-1,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cetv1hd
+CETV1,央视系列,,,10,失效,0,9999,,Guovin iptv-api result(存活校验),未知,CETV-1,https://zby.130519.xyz/PLTV/11/224/3221225775/index.m3u8
+CETV2,央视系列,,,11,存活,200,3511,,bestK iptv,未知,CETV-2,https://iptv.catvod.com/live.php?id=CETV2
+CETV2,央视系列,,,12,失效,0,9999,,suxuang ipv4,未知,CETV-2 空中课堂,http://www.lizhinas.top:1009/rtp/239.252.219.73:5140
+CETV2,央视系列,,,13,失效,0,9999,,iptv-org cn,未知,CETV2 (576p),http://117.161.133.51:81/gitv_live/G_CETV-2/G_CETV-2.m3u8?p=GITV
+CETV2,央视系列,,,14,失效,660,9999,,Guovin iptv-api result(存活校验),未知,CETV-2,http://gslbmgsplive.miguvideo.com/migu/kailu/cetv2/51/20240709/index.m3u8?msisdn=b637d3083747642f29b310fc5ba99367&mdspid=&spid=699004&netType=0&sid=5910022152&pid=2028597139&timestamp=20260827062127&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=923287211&ParentNodeID=-99&assertID=5910022152&client_ip=47.92.23.141&SecurityKey=20260827062127&promotionId=&mvid=5900006638&mcid=500020&playurlVersion=WX-A1-9.8.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=6d02a32cc3b54abfae11971b15d053b8&ddCalcu=86bdv30a52a0aad3521cbc137b95141aebaf&sv=10004&ct=android
+CETV2,央视系列,,,15,失效,0,9999,,Guovin iptv-api result(存活校验),未知,CETV-2,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226425/index.m3u8
+CETV2,央视系列,,,16,失效,403,9999,,Guovin iptv-api result(存活校验),未知,CETV-2,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226537/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E7AxXs4eTU2oiWrhopr9sHw%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNxsM0Bor098BJglrhfEQTl%2CEND
+CETV2,央视系列,,,17,失效,0,9999,,Guovin iptv-api result(存活校验),未知,CETV-2,http://[2409:8087:1:20:20::2c]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226537/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E7AxXs4eTU2oiWrhopr9sHw%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNxsM0Bor098BJglrhfEQTl%2CEND
+CETV2,央视系列,,,18,失效,0,9999,,Guovin iptv-api result(存活校验),未知,CETV-2,http://[2409:8087:1a0b:df::4013]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226425/index.m3u8
+CETV3,央视系列,,,19,失效,0,9999,,suxuang ipv4,未知,CETV-3 教育服务,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226722/1.m3u8
+CETV3,央视系列,,,20,失效,0,9999,,Guovin iptv-api result(存活校验),未知,CETV-3,http://107.150.60.122/live/cetv3.m3u8
+CETV3,央视系列,,,21,失效,0,9999,,Guovin iptv-api result(存活校验),未知,CETV-3,http://198.204.228.26/live/cetv3.m3u8
+CETV3,央视系列,,,22,失效,0,9999,,Guovin iptv-api result(存活校验),未知,CETV-3,http://ott.mobaibox.com/PLTV/3/224/3221227018/index.m3u8
+CETV3,央视系列,,,23,失效,403,9999,,Guovin iptv-api result(存活校验),未知,CETV-3,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226577/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EhE2Z89HKgsQOlN9opVn1iw%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNN03yUnk4zBVk1bynPPL3hZ%2CEND
+CETV4,央视系列,,,24,失效,0,9999,,suxuang ipv4,未知,CETV-4 职业教育,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226724/1.m3u8
+CETV4,央视系列,,,25,失效,0,9999,,Guovin iptv-api result(存活校验),未知,CETV-4,https://zby.130519.xyz/PLTV/11/224/3221226153/index.m3u8
+CETV4,央视系列,,,26,失效,660,9999,,Guovin iptv-api result(存活校验),未知,CETV-4,http://gslbmgsplive.miguvideo.com/migu/kailu/cetv4/51/20240709/index.m3u8?msisdn=b637d3083747642f29b310fc5ba99367&mdspid=&spid=699004&netType=0&sid=5910022154&pid=2028597139&timestamp=20260827062127&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=923287339&ParentNodeID=-99&assertID=5910022154&client_ip=47.92.23.141&SecurityKey=20260827062127&promotionId=&mvid=5900006640&mcid=500020&playurlVersion=WX-A1-9.8.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=960f499360818845510385e0e5605573&ddCalcu=3976v50a5fb04a6959e306e0588138081455&sv=10004&ct=android
+CETV4,央视系列,,,27,失效,0,9999,,Guovin iptv-api result(存活校验),未知,CETV-4,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225783/index.m3u8
+CETV4,央视系列,,,28,失效,403,9999,,Guovin iptv-api result(存活校验),未知,CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226997/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EAw_OvjRgJVjtlaOa0dcgzg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+CGTN,央视系列,,,29,存活,200,173,,suxuang ipv4,未知,CGTN英语,http://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
+CGTN,央视系列,,,30,存活,200,189,,iptv-org cn,1080P,CGTN (1080p),https://english-livebkali.cgtn.com/live/encgtn.m3u8
+CGTN,央视系列,,,31,存活,200,774,,iptv-org cn,1080P,CGTN (1080p),https://hlspackager.akamaized.net/live/DB/CGTN_ENGLISH/HLS/CGTN_ENGLISH.m3u8
+CGTN,央视系列,,,32,存活,200,900,,suxuang ipv4,未知,CGTN英语,https://0472.org/hls/cgtn.m3u8
+CGTN,央视系列,,,33,存活,200,1751,,iptv-org cn,1080P,CGTN (1080p),https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
+CGTN,央视系列,,,34,失效,0,9999,,suxuang ipv4,未知,CGTN,http://t.061899.xyz/tl/tl.php?id=cgtn
+CGTN,央视系列,,,35,失效,500,9999,,suxuang ipv4,未知,CGTN,http://112.27.235.94:8000/hls/17/index.m3u8
+CGTN,央视系列,,,36,失效,0,9999,,iptv-org cn,720P,CGTN (720p),https://dai.google.com/linear/hls/event/r4sa-f6GSN2XIvzKv5jVng/master.m3u8
+CGTN Global Biz (1080p),央视系列,,,37,存活,200,746,,iptv-org cn,1080P,CGTN Global Biz (1080p),https://fastlive.cctvplus.com/out/v1/2b3d8a0c805d437f9dc85b764c2ac599/index.m3u8
+CGTN Spanish (1080p),央视系列,,,38,存活,200,186,,iptv-org cn,1080P,CGTN Spanish (1080p),https://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8
+CGTN Spanish (1080p),央视系列,,,39,存活,200,659,,iptv-org cn,未知,CGTN Spanish (576p),http://45.186.106.147:8880/play/a06f/index.m3u8
+CGTN Spanish (1080p),央视系列,,,40,失效,403,9999,,iptv-org cn,720P,CGTN Spanish (720p),http://45.165.82.19/test/index.m3u8
+CGTN 中国国际电视台,央视系列,,,41,存活,200,63,,freetv.m3u8,720P,CGTN Pусский,https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
+CGTN 中国国际电视台,央视系列,,,42,存活,200,99,,freetv.m3u8,720P,CGTN Español,https://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8
+CGTN 中国国际电视台,央视系列,,,43,存活,200,142,,freetv.m3u8,720P,CGTN Documentary English Ⓢ,https://news.cgtn.com/resource/live/document/cgtn-doc.m3u8
+CGTN 中国国际电视台,央视系列,,,44,存活,200,157,,freetv.m3u8,720P,CGTN,https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
+CGTN 中国国际电视台,央视系列,,,45,存活,200,168,,freetv.m3u8,720P,CGTN Français,https://news.cgtn.com/resource/live/french/cgtn-f.m3u8
+CGTN 中国国际电视台,央视系列,,,46,存活,200,189,,iptvorg_cn2.m3u,1080P,CGTN (1080p),https://english-livebkali.cgtn.com/live/encgtn.m3u8
+CGTN 中国国际电视台,央视系列,,,47,存活,200,232,,kimentanm.m3u,未知,CGTN英语,https://english-livebkali.cgtn.com/live/encgtn_0.m3u8
+CGTN 中国国际电视台,央视系列,,,48,存活,200,746,,iptvorg_cn2.m3u,1080P,CGTN Global Biz (1080p),https://fastlive.cctvplus.com/out/v1/2b3d8a0c805d437f9dc85b764c2ac599/index.m3u8
+CGTN 中国国际电视台,央视系列,,,49,存活,200,774,,iptvorg_cn2.m3u,1080P,CGTN (1080p),https://hlspackager.akamaized.net/live/DB/CGTN_ENGLISH/HLS/CGTN_ENGLISH.m3u8
+CGTN 中国国际电视台,央视系列,,,50,存活,200,900,,iptvorg_cn2.m3u,720P,CGTN (720p),https://0472.org/hls/cgtn.m3u8
+CGTN 中国国际电视台,央视系列,,,51,存活,200,1751,,iptvorg_cn2.m3u,1080P,CGTN (1080p),https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
+CGTN 中国国际电视台,央视系列,,,52,失效,0,9999,,iptvorg_cn2.m3u,720P,CGTN (720p),https://dai.google.com/linear/hls/event/r4sa-f6GSN2XIvzKv5jVng/master.m3u8
+CGTN 中国国际电视台,央视系列,,,53,失效,0,9999,,ibert_all.m3u,标清,[SD]cgtn русский,https://stream1.freetv.fun/800af3de6d2cab9fc463ec417c6ab737591154a8eafa27fb43713a33bc7f6dd5.ctv
+CGTN 中国国际电视台,央视系列,,,54,失效,0,9999,,freetv.m3u8,未知,CGTN العربية,https://arabic-livews.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTefTAS9zc9mpU08y3np9TH220802cd/playlist.m3u8
+CGTN 俄语频道,央视系列,,,55,存活,200,486,,iptv-org cn,1080P,CGTN Russian (1080p),https://russian-liveali.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8
+CGTN 俄语频道,央视系列,,,56,存活,200,950,,kimentanm.m3u,未知,CGTN俄语,https://0472.org/hls/cgtne.m3u8
+CGTN 俄语频道,央视系列,,,57,失效,404,9999,,suxuang.m3u,未知,CGTN俄语,http://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd.m3u8
+CGTN 法语频道,央视系列,,,58,存活,200,45,,suxuang ipv4,未知,CGTN法语,http://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd.m3u8
+CGTN 法语频道,央视系列,,,59,存活,200,140,,iptv-org cn,1080P,CGTN French (1080p),https://francais-liveali.cgtn.com/hls/LSvev95OuFZtKLc6CeKEFYXj220802LSTeV6PO0Ut9r71Uq3k5goCA220802cd/playlist.m3u8
+CGTN 法语频道,央视系列,,,60,存活,200,548,,iptvorg_cn2.m3u,1080P,CGTN French (1080p),http://145.239.5.177/214/index.m3u8
+CGTN 法语频道,央视系列,,,61,存活,200,716,,kimentanm.m3u,未知,CGTN法语,https://0472.org/hls/cgtnf.m3u8
+CGTN 法语频道,央视系列,,,62,失效,0,9999,,ibert_all.m3u,未知,[VGA]cgtn法语,https://stream1.freetv.fun/b98ced0bede2a7cf3677a4fecf1281072a711ffa2c680af49be2299715bac51d.ctv
+CGTN 纪录频道,央视系列,,,63,存活,200,199,,kimentanm.m3u,未知,CGTN纪录,https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8
+CGTN 纪录频道,央视系列,,,64,存活,200,244,,suxuang.m3u,未知,CGTN记录,https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
+CGTN 纪录频道,央视系列,,,65,存活,200,786,,iptvorg_cn2.m3u,1080P,CGTN Documentary (1080p),https://hlspackager.akamaized.net/live/DB/CGTN_DOCUMENTARY/HLS/CGTN_DOCUMENTARY.m3u8
+CGTN 纪录频道,央视系列,,,66,存活,200,927,,suxuang.m3u,未知,CGTN纪录,https://0472.org/hls/cgtnd.m3u8
+CGTN 纪录频道,央视系列,,,67,存活,200,956,,iptvorg_cn2.m3u,1080P,CGTN Documentary (1080p),https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
+CGTN 纪录频道,央视系列,,,68,失效,0,9999,,suxuang.m3u,未知,CGTN纪录,http://t.061899.xyz/tl/tl.php?id=cgtnjl
+CGTN 纪录频道,央视系列,,,69,失效,0,9999,,ibert_all.m3u,未知,[BD]cgtn documentary,https://stream1.freetv.fun/a0bc795a7d25e5237450354c1e9ec3378ca6dce20ba75db733884a58380a8a57.m3u8
+CGTN英语,央视系列,,,70,存活,200,173,,bestK iptv,未知,CGTN英语,http://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
+CGTN 西班牙语频道,央视系列,,,71,存活,200,45,,suxuang.m3u,未知,CGTN西语,http://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd.m3u8
+CGTN 西班牙语频道,央视系列,,,72,存活,200,659,,iptvorg_cn2.m3u,标清,CGTN Spanish (576p),http://45.186.106.147:8880/play/a06f/index.m3u8
+CGTN 西班牙语频道,央视系列,,,73,存活,200,712,,kimentanm.m3u,未知,CGTN西语,https://0472.org/hls/cgtnx.m3u8
+CGTN 西班牙语频道,央视系列,,,74,失效,403,9999,,iptvorg_cn2.m3u,720P,CGTN Spanish (720p),http://45.165.82.19/test/index.m3u8
+CGTN西语,央视系列,,,75,存活,200,45,,suxuang ipv4,未知,CGTN西语,http://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd.m3u8
+CGTN西语,央视系列,,,76,存活,200,712,,vbskycn iptv4,未知,CGTN西语,https://0472.org/hls/cgtnx.m3u8
+CGTN记录,央视系列,,,77,存活,200,244,,bestK iptv,未知,CGTN记录,https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
+CGTN 阿拉伯语频道,央视系列,,,78,存活,200,187,,iptv-org cn,1080P,CGTN Arabic (1080p),https://arabic-liveali.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTefTAS9zc9mpU08y3np9TH220802cd/playlist.m3u8
+CGTN 阿拉伯语频道,央视系列,,,79,存活,200,1189,,kimentanm.m3u,未知,CGTN阿语,https://0472.org/hls/cgtna.m3u8
+CGTN阿语,央视系列,,,80,存活,200,45,,suxuang ipv4,未知,CGTN阿语,http://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd.m3u8
+CGTN阿语,央视系列,,,81,存活,200,1189,,vbskycn iptv4,未知,CGTN阿语,https://0472.org/hls/cgtna.m3u8
+CHC动作电影,央视系列,,,82,存活,200,63,,iptv-org cn(github.io),1080P,CHC Action (1080p),http://39.134.19.68/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226465/index.m3u8
+CHC动作电影,央视系列,,,83,存活,200,1677,,Guovin iptv-api result(存活校验),未知,CHC动作电影,http://38.75.136.137:98/gslb/dsdqpub/chcdz.m3u8?auth=testpub
+CHC动作电影,央视系列,,,84,存活,200,4860,,Guovin iptv-api result(存活校验),未知,CHC动作电影,http://198.204.228.26/live/chcdz.m3u8
+CHC动作电影,央视系列,,,85,失效,404,9999,,kimentanm.m3u,未知,CHC动作电影,http://101.35.240.114:88/live.php?id=CHC动作电影
+CHC动作电影,央视系列,,,86,失效,0,9999,,suxuang.m3u,未知,CHC动作电影HD,http://122.228.73.138:2380/hw1live.rxip.sc96655.com.huan.tv/live/wqCHCdzdyH265_4000.m3u8
+CHC动作电影,央视系列,,,87,失效,0,9999,,suxuang.m3u,未知,CHC动作电影,http://58.19.38.162:9901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
+CHC动作电影,央视系列,,,88,失效,0,9999,,suxuang.m3u,未知,CHC动作电影,http://t.061899.xyz/tl/tl.php?id=chcdzdy
+CHC动作电影,央视系列,,,89,失效,0,9999,,ibert_all.m3u,未知,[BD]chc动作电影,https://stream1.freetv.fun/5865a3c8e41008b38a0bbfe282e3101af2c89bdca03f49018a473513c32c9093.m3u8
+CHC动作电影,央视系列,,,90,失效,0,9999,,Guovin iptv-api result(存活校验),未知,CHC动作电影,http://107.150.60.122/live/chcdz.m3u8
+CHC动作电影,央视系列,,,91,失效,0,9999,,Guovin iptv-api result(存活校验),未知,CHC动作电影,http://z.b.bkpcp.top/m.php?id=dzdy
+CHC家庭影院,央视系列,,,92,存活,200,1623,,Guovin iptv-api result(存活校验),未知,CHC家庭影院,http://38.75.136.137:98/gslb/dsdqpub/chcjt.m3u8?auth=testpub
+CHC家庭影院,央视系列,,,93,存活,200,6731,,Guovin iptv-api result(存活校验),未知,CHC家庭影院,http://107.150.60.122/live/chcjt.m3u8
+CHC家庭影院,央视系列,,,94,失效,404,9999,,kimentanm.m3u,未知,CHC家庭影院,http://101.35.240.114:88/live.php?id=CHC家庭影院
+CHC家庭影院,央视系列,,,95,失效,0,9999,,suxuang.m3u,未知,CHC家庭影院HD,http://122.228.73.138:2380/hw1live.rxip.sc96655.com.huan.tv/live/jbtygqCHCjtyyH265_4000.m3u8
+CHC家庭影院,央视系列,,,96,失效,0,9999,,suxuang.m3u,未知,CHC家庭影院,http://148.135.93.213/live.php?id=CHC家庭影院
+CHC家庭影院,央视系列,,,97,失效,0,9999,,suxuang.m3u,未知,CHC家庭影院,http://58.19.38.162:9901/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
+CHC家庭影院,央视系列,,,98,失效,0,9999,,suxuang.m3u,未知,CHC家庭影院,http://t.061899.xyz/tl/tl.php?id=chcjtdy
+CHC家庭影院,央视系列,,,99,失效,0,9999,,ibert_all.m3u,未知,[BD]chc家庭影院,https://stream1.freetv.fun/16f1eb82e9c0595d7a29810b7259a0d02481e4c8c41bd426fa9843a4f4c97ea5.m3u8
+CHC家庭影院,央视系列,,,100,失效,404,9999,,iptv-org cn(github.io),1080P,CHC Home Theater (1080p),http://39.134.19.153/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226462/index.m3u8
+CHC家庭影院,央视系列,,,101,失效,404,9999,,iptv-org cn(github.io),未知,HomePlus,https://homeplushls.wns.live/hls/stream.m3u8
+CHC家庭影院,央视系列,,,102,失效,0,9999,,Guovin iptv-api result(存活校验),未知,CHC家庭影院,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=chcjt
+CHC家庭影院,央视系列,,,103,失效,0,9999,,Guovin iptv-api result(存活校验),未知,CHC家庭影院,http://192.151.150.154/live/chcjt.m3u8
+CHC家庭影院,央视系列,,,104,失效,0,9999,,Guovin iptv-api result(存活校验),未知,CHC家庭影院,http://198.204.228.26/live/chcjt.m3u8
+CHC影迷电影,央视系列,,,105,失效,0,9999,,suxuang ipv4,未知,CHC影迷电影,http://58.19.38.162:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
+CHC影迷电影,央视系列,,,106,失效,0,9999,,suxuang ipv4,未知,CHC影迷电影HD,http://122.228.73.138:2380/hw1live.rxip.sc96655.com.huan.tv/live/lnwsCHC-HDH265_4000.m3u8
+CHC影迷电影,央视系列,,,107,失效,0,9999,,suxuang ipv4,未知,CHC影迷电影,http://148.135.93.213/live.php?id=CHC影迷电影
+CHC高清电影,央视系列,,,108,存活,200,63,,iptvorg_cn.m3u,1080P,CHC Action (1080p),http://39.134.19.68/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226465/index.m3u8
+CHC高清电影,央视系列,,,109,存活,200,126,,vbskycn.m3u,未知,CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=0&authid=0
+CHC高清电影,央视系列,,,110,失效,404,9999,,iptvorg_cn.m3u,1080P,CHC Home Theater (1080p),http://39.134.19.153/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226462/index.m3u8
+CHC高清电影,央视系列,,,111,失效,0,9999,,ibert_all.m3u,720P,[HD]chc影迷电影,https://stream1.freetv.fun/5874e272f5ee0537a896af935df0fe8b792e4eadef2b829879b5070d883af5e6.ctv
+CHC高清电影,央视系列,,,112,失效,404,9999,,kimentanm.m3u,未知,CHC影迷电影,http://101.35.240.114:88/live.php?id=CHC影迷电影
+CHC高清电影,央视系列,,,113,失效,0,9999,,suxuang.m3u,未知,CHC影迷电影HD,http://122.228.73.138:2380/hw1live.rxip.sc96655.com.huan.tv/live/lnwsCHC-HDH265_4000.m3u8
+CHC高清电影,央视系列,,,114,失效,0,9999,,suxuang.m3u,未知,CHC影迷电影,http://148.135.93.213/live.php?id=CHC影迷电影
+CHC高清电影,央视系列,,,115,失效,0,9999,,freetv.m3u8,未知,CHCH,http://152.89.62.111:8080/nXyAiP3DNp/QgOuvocpGv/222841
+CHC高清电影,央视系列,,,116,失效,0,9999,,suxuang.m3u,未知,CHC影迷电影,http://58.19.38.162:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
+CN卡通,央视系列,,,117,失效,403,9999,,Guovin iptv-api result(存活校验),未知,CN卡通,https://hls-gateway.vpstv.net/streams/476247.m3u8
+CN卡通,央视系列,,,118,失效,0,9999,,Guovin iptv-api result(存活校验),未知,CN卡通,https://stream1.freetv.fun/cnqia-tong-3.ctv
+世界地理,央视系列,,,119,失效,0,9999,,suxuang ipv4,未知,CCTV-世界地理,http://www.lizhinas.top:1009/rtp/239.252.219.93:5140
+世界地理,央视系列,,,120,失效,0,9999,,Guovin iptv-api result(存活校验),未知,世界地理,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=sjdl
+世界地理,央视系列,,,121,失效,0,9999,,Guovin iptv-api result(存活校验),未知,世界地理,http://38.75.136.137:98/gslb/dsdqpub/sjdl.m3u8?auth=testpub
+中国教育1台,央视系列,,,122,失效,0,9999,,iptvorg_cn.m3u,标清,CETV-1 (576p),http://117.161.133.51:81/gitv_live/G_CETV-1/G_CETV-1.m3u8?p=GITV
+中国教育1台,央视系列,,,123,失效,0,9999,,suxuang.m3u,未知,CETV-3 教育服务,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226722/1.m3u8
+中国教育1台,央视系列,,,124,失效,0,9999,,suxuang.m3u,未知,CETV-4 职业教育,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226724/1.m3u8
+中国教育1台,央视系列,,,125,失效,0,9999,,suxuang.m3u,未知,CETV-2 空中课堂,http://www.lizhinas.top:1009/rtp/239.252.219.73:5140
+中国教育1台,央视系列,,,126,失效,0,9999,,suxuang.m3u,未知,CETV-1 综合教育,http://www.lizhinas.top:1009/rtp/239.252.220.198:5140
+中国教育1台,央视系列,,,127,失效,0,9999,,ibert_all.m3u,未知,[BD]cetv-4,https://stream1.freetv.fun/195cc518c045d454485ef28d583cb568b0eac36f890e6acb4b8e750d3a3b3439.m3u8
+中国教育1台,央视系列,,,128,失效,0,9999,,ibert_all.m3u,未知,[BD]cetv1,https://stream1.freetv.fun/f3ae1dadd66863a3d8d2d948a4ab7ee00b38a1bc8bcfac8b6b51cd210d5fcf2e.m3u8
+中国教育1台,央视系列,,,129,失效,0,9999,,suxuang.m3u,未知,CETV-01,https://zby.130519.xyz/PLTV/11/224/3221225775/index.m3u8
+中国教育1台,央视系列,,,130,失效,0,9999,,suxuang.m3u,未知,CETV-04,https://zby.130519.xyz/PLTV/11/224/3221226153/index.m3u8
+中国教育2台,央视系列,,,131,失效,0,9999,,iptvorg_cn.m3u,标清,CETV-2 (576p),http://117.161.133.51:81/gitv_live/G_CETV-2/G_CETV-2.m3u8?p=GITV
+中国气象频道,央视系列,,,132,失效,0,9999,,iptvorg_cn.m3u,标清,China Weather Channel (576p) [Not 24/7],http://hls.weathertv.cn/tslslive/qCFIfHB/hls/live_sd.m3u8
+中国气象频道,央视系列,,,133,失效,0,9999,,ibert_all.m3u,标清,[SD]weathernation,https://stream1.freetv.fun/d812d2dd4113cbb4935aab9717552b49a7bd2d7220db78ed94e1ed8a9b56e58d.m3u8
+中国气象频道,央视系列,,,134,失效,400,9999,,freetv.m3u8,未知,WeatherNation,http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d2cb7ac552e3773bc48982e/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2d1028-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=dcca8395-396e-4be0-9049-564f29c5ac9b
+优漫卡通,央视系列,,,135,失效,0,9999,,suxuang ipv4,未知,优漫卡通,http://t.061899.xyz/tl/tl.php?id=ymkt
+优漫卡通,央视系列,,,136,失效,0,9999,,iptv-org cn,未知,优漫卡通 (576p),http://183.207.249.15/PLTV/4/224/3221225933/index.m3u8
+优漫卡通,央视系列,,,137,失效,0,9999,,iptv-org cn,未知,优漫卡通 (576p),http://223.110.243.171/PLTV/3/224/3221226982/index.m3u8
+优漫卡通,央视系列,,,138,失效,0,9999,,Guovin iptv-api result(存活校验),未知,优漫卡通,https://stream1.freetv.fun/you-man-qia-tong-11.m3u8
+优漫卡通,央视系列,,,139,失效,0,9999,,Guovin iptv-api result(存活校验),未知,优漫卡通,https://www.freetv.top/migu/626064703.m3u8?migutoken=7f7c4b909389a0cd5172701768041a0f3887534c4534a68bf1dc85550389e9ab156655484be16e89604513fde9da2f036ebae28d31515b0be32eb12462f5de9d9cab8f00c44671241d5c6e1356
+优漫卡通,央视系列,,,140,失效,0,9999,,Guovin iptv-api result(存活校验),未知,优漫卡通,https://www.freetv.top/migu/626064703.m3u8?migutoken=deac6c5275081b54ad412a195e499b7c0cb8f04446b6c80aaa9d3eb1063d620261c68202d59aea05060007b58a62d5d208f16379d861d6f1627c10c9dd894f0bf7e3ca97b04696255e193e871c
+优漫卡通卫视,央视系列,江苏,,141,失效,0,9999,,iptvorg_cn2.m3u,标清,优漫卡通 (576p),http://183.207.249.15/PLTV/4/224/3221225933/index.m3u8
+优漫卡通卫视,央视系列,江苏,,142,失效,0,9999,,iptvorg_cn2.m3u,标清,优漫卡通 (576p),http://223.110.243.171/PLTV/3/224/3221226982/index.m3u8
+优漫卡通卫视,央视系列,江苏,,143,失效,0,9999,,ibert_all.m3u,标清,[SD]优漫卡通,https://stream1.freetv.fun/3bda49a9b87833e1b55cceeda99a537ac38c2c0295598cf17c575a02e8459b0c.m3u8
+优漫卡通卫视,央视系列,江苏,,144,失效,0,9999,,suxuang.m3u,未知,优漫卡通,http://t.061899.xyz/tl/tl.php?id=ymkt
+兵器科技,央视系列,,,145,存活,200,2758,,Guovin iptv-api result(存活校验),未知,兵器科技,http://38.75.136.137:98/gslb/dsdqpub/gfjs.m3u8?auth=testpub
+兵器科技,央视系列,,,146,失效,0,9999,,suxuang ipv4,未知,CCTV-兵器科技,http://www.lizhinas.top:1009/rtp/239.252.219.98:5140
+兵器科技,央视系列,,,147,失效,0,9999,,Guovin iptv-api result(存活校验),未知,兵器科技,https://live.264788.xyz/channel/bingqikeji?streamid=530cb4e58bbc48b7fc26f5e0a2e47966&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+兵器科技,央视系列,,,148,失效,0,9999,,Guovin iptv-api result(存活校验),未知,兵器科技,https://live.264788.xyz/channel/bingqikeji?streamid=6fc55a0966bdad1e1cdf39a4d37dd776&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+兵器科技,央视系列,,,149,失效,0,9999,,Guovin iptv-api result(存活校验),未知,兵器科技,http://207.56.13.146:81/cdnlive/gfjs.m3u8
+兵器科技,央视系列,,,150,失效,0,9999,,Guovin iptv-api result(存活校验),未知,兵器科技,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gfjs
+劲爆体育,央视系列,,,151,失效,0,9999,,suxuang ipv4,未知,劲爆体育,http://t.061899.xyz/tl/tl.php?id=jbty
+劲爆体育,央视系列,,,152,失效,0,9999,,suxuang ipv4,未知,劲爆体育,http://111.22.153.159:35455/itv/5000000002000029972.m3u8?cdn=bestzb
+卫生健康,央视系列,,,153,失效,0,9999,,suxuang ipv4,未知,CCTV-卫生健康,http://nas.hssvm.com:8888/udp/225.1.1.210:5002
+发现之旅,央视系列,,,154,失效,0,9999,,iptvorg_cn2.m3u,标清,发现之旅 (576p),http://125.210.152.18:9090/live/FXZL_750.m3u8
+发现之旅,央视系列,,,155,失效,0,9999,,suxuang.m3u,未知,CCTV发现之旅,http://t.061899.xyz/tl/tl.php?id=fxzl
+四海钓鱼,央视系列,,,156,存活,200,46,,suxuang ipv4,未知,四海钓鱼,http://120.76.248.139/live/bfgd/4200000229.m3u8
+四海钓鱼,央视系列,,,157,失效,0,9999,,suxuang ipv4,未知,四海钓鱼,http://t.061899.xyz/tl/tl.php?id=shdy
+央视,央视系列,,,158,失效,403,9999,是,bestK iptv,4K,CCTV-4K 高清,https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4k_mbd.m3u8?auth_key=1771441200-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-8e1bb13200401b1d801525d747e5ee29&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
+央视,央视系列,,,159,存活,200,959,,iptv-org cn(github.io),1080P,CCTV-The First Theater (1080p),http://38.75.136.137:98/gslb/dsdqpub/dyjc.m3u8?auth=testpub
+央视,央视系列,,,160,存活,200,1476,,iptv-org cn(github.io),1080P,CCTV-Health (1080p),http://38.75.136.137:98/gslb/dsdqpub/wsjk.m3u8?auth=testpub
+央视,央视系列,,,161,存活,200,1597,,iptv-org cn(github.io),1080P,CCTV-Storm Music (1080p),http://38.75.136.137:98/gslb/dsdqpub/fyyy.m3u8?auth=testpub
+央视,央视系列,,,162,存活,200,1641,,iptv-org cn(github.io),1080P,CCTV-Culture of Quality SD (1080p),http://38.75.136.137:98/gslb/dsdqpub/ysjp.m3u8?auth=testpub
+央视,央视系列,,,163,存活,200,2739,,iptv-org cn(github.io),1080P,CCTV-Storm Football (1080p),http://38.75.136.137:98/gslb/dsdqpub/fyzq.m3u8?auth=testpub
+央视,央视系列,,,164,存活,200,2758,,iptv-org cn(github.io),1080P,CCTV-Weapon & Technology (1080p),http://38.75.136.137:98/gslb/dsdqpub/gfjs.m3u8?auth=testpub
+央视,央视系列,,,165,存活,200,3005,,iptv-org cn(github.io),1080P,CCTV-Billiards (1080p),http://38.75.136.137:98/gslb/dsdqpub/ystq.m3u8?auth=testpub
+央视,央视系列,,,166,存活,200,5807,,iptv-org cn(github.io),1080P,CCTV-Nostalgia Theater (1080p),http://38.75.136.137:98/gslb/dsdqpub/hjjc.m3u8?auth=testpub
+央视,央视系列,,,167,失效,0,9999,,suxuang ipv4,未知,CCTV老故事,http://t.061899.xyz/tl/tl.php?id=lgs
+央视,央视系列,,,168,失效,0,9999,,suxuang ipv4,未知,CCTV中学生,http://t.061899.xyz/tl/tl.php?id=zxs
+央视,央视系列,,,169,失效,0,9999,,vbskycn iptv4,未知,CCTV怀旧剧场,https://live.264788.xyz/channel/huaijiujuchang?streamid=7e5d1abdddde08f588234f3f640f75ff&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+央视,央视系列,,,170,失效,0,9999,,iptv-org cn,4K,CCTV-4K (1080p),http://198.204.240.250:82/live/cctv4k.m3u8
+央视,央视系列,,,171,失效,0,9999,,iptv-org cn,1080P,CCTV-8K (1080p),http://192.151.150.154/live/cctv8k.m3u8
+央视,央视系列,,,172,失效,0,9999,,iptv-org cn,1080P,CCTV-8K (1080p),http://198.204.240.250:82/live/cctv8k.m3u8
+央视,央视系列,,,173,失效,0,9999,,iptv-org cn(github.io),1080P,CCTV-Golf & Tennis (1080p),http://38.75.136.137:98/gslb/dsdqpub/gefwq.m3u8?auth=testpub
+央视,央视系列,,,174,失效,0,9999,,iptv-org cn(github.io),1080P,CCTV-Storm Theater (1080p),http://38.75.136.137:98/gslb/dsdqpub/fyjc.m3u8?auth=testpub
+央视,央视系列,,,175,失效,0,9999,,iptv-org cn(github.io),1080P,CCTV-World Geography SD (1080p),http://38.75.136.137:98/gslb/dsdqpub/sjdl.m3u8?auth=testpub
+央视世界地理,央视系列,,,176,失效,0,9999,,bf_all_status.m3u8,1080P,世界地理,http://183.10.180.46:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
+央视世界地理,央视系列,,,177,失效,0,9999,,iptvorg_cn.m3u,1080P,CCTV-World Geography SD (1080p),http://38.75.136.137:98/gslb/dsdqpub/sjdl.m3u8?auth=testpub
+央视世界地理,央视系列,,,178,失效,0,9999,,suxuang.m3u,未知,CCTV-世界地理,http://www.lizhinas.top:1009/rtp/239.252.219.93:5140
+央视中学生,央视系列,,,179,失效,0,9999,,suxuang.m3u,未知,CCTV中学生,http://t.061899.xyz/tl/tl.php?id=zxs
+央视兵器科技,央视系列,,,180,失效,0,9999,,suxuang.m3u,未知,CCTV-兵器科技,http://www.lizhinas.top:1009/rtp/239.252.219.98:5140
+央视卫生健康,央视系列,,,181,存活,200,1476,,iptvorg_cn.m3u,1080P,CCTV-Health (1080p),http://38.75.136.137:98/gslb/dsdqpub/wsjk.m3u8?auth=testpub
+央视卫生健康,央视系列,,,182,失效,0,9999,,suxuang.m3u,未知,CCTV-卫生健康,http://nas.hssvm.com:8888/udp/225.1.1.210:5002
+央视台球,央视系列,,,183,存活,200,3005,,Guovin iptv-api result(存活校验),未知,央视台球,http://38.75.136.137:98/gslb/dsdqpub/ystq.m3u8?auth=testpub
+央视台球,央视系列,,,184,失效,0,9999,,suxuang.m3u,未知,CCTV-央视台球,http://www.lizhinas.top:1009/rtp/239.252.219.80:5140
+央视台球,央视系列,,,185,失效,0,9999,,Guovin iptv-api result(存活校验),未知,央视台球,http://107.150.60.122/live/ystq.m3u8
+央视台球,央视系列,,,186,失效,0,9999,,Guovin iptv-api result(存活校验),未知,央视台球,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=ystq
+央视台球,央视系列,,,187,失效,0,9999,,Guovin iptv-api result(存活校验),未知,央视台球,http://207.56.13.146:81/cdnlive/ystq.m3u8
+央视台球,央视系列,,,188,失效,403,9999,,Guovin iptv-api result(存活校验),未知,央视台球,https://hls-gateway.vpstv.net/streams/708855.m3u8
+央视女性时尚,央视系列,,,189,失效,0,9999,,iptvorg_cn2.m3u,标清,女性时尚 (576p),http://223.110.245.169/PLTV/4/224/3221227026/index.m3u8
+央视女性时尚,央视系列,,,190,失效,0,9999,,suxuang.m3u,未知,CCTV-女性时尚,http://www.lizhinas.top:1009/rtp/239.252.219.94:5140
+央视怀旧剧场,央视系列,,,191,存活,200,5807,,iptvorg_cn.m3u,1080P,CCTV-Nostalgia Theater (1080p),http://38.75.136.137:98/gslb/dsdqpub/hjjc.m3u8?auth=testpub
+央视怀旧剧场,央视系列,,,192,失效,0,9999,,suxuang.m3u,未知,CCTV-怀旧剧场,http://www.lizhinas.top:1009/rtp/239.252.219.90:5140
+央视文化精品,央视系列,,,193,存活,200,1641,,iptvorg_cn.m3u,1080P,CCTV-Culture of Quality SD (1080p),http://38.75.136.137:98/gslb/dsdqpub/ysjp.m3u8?auth=testpub
+央视文化精品,央视系列,,,194,失效,0,9999,,suxuang.m3u,未知,CCTV-文化精品,http://www.lizhinas.top:1009/rtp/239.252.219.81:5140
+央视第一剧场,央视系列,,,195,存活,200,959,,iptvorg_cn.m3u,1080P,CCTV-The First Theater (1080p),http://38.75.136.137:98/gslb/dsdqpub/dyjc.m3u8?auth=testpub
+央视第一剧场,央视系列,,,196,失效,0,9999,,bf_all_status.m3u8,1080P,第一剧场,http://183.10.180.46:9901/tsfile/live/1082_1.m3u8?key=txiptv&playlive=1&authid=0
+央视第一剧场,央视系列,,,197,失效,0,9999,,ibert_all.m3u,720P,[HD]cctv-第一剧场,https://stream1.freetv.fun/62caf261ff5c23c742e464f4875e53eaff8f262cdd1ea1b612a6537163a32a7a.m3u8
+央视第一剧场,央视系列,,,198,失效,0,9999,,suxuang.m3u,未知,CCTV-第一剧场,http://www.lizhinas.top:1009/rtp/239.252.219.86:5140
+央视风云剧场,央视系列,,,199,失效,0,9999,,bf_all_status.m3u8,1080P,风云剧场,http://183.10.180.46:9901/tsfile/live/1032_1.m3u8?key=txiptv&playlive=1&authid=0
+央视风云剧场,央视系列,,,200,失效,0,9999,,iptvorg_cn.m3u,1080P,CCTV-Storm Theater (1080p),http://38.75.136.137:98/gslb/dsdqpub/fyjc.m3u8?auth=testpub
+央视风云剧场,央视系列,,,201,失效,0,9999,,suxuang.m3u,未知,CCTV-风云剧场,http://www.lizhinas.top:1009/rtp/239.252.219.89:5140
+央视风云足球,央视系列,,,202,存活,200,2739,,iptvorg_cn.m3u,1080P,CCTV-Storm Football (1080p),http://38.75.136.137:98/gslb/dsdqpub/fyzq.m3u8?auth=testpub
+央视风云足球,央视系列,,,203,失效,0,9999,,bf_all_status.m3u8,1080P,风云足球,http://183.10.180.46:9901/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
+央视风云足球,央视系列,,,204,失效,0,9999,,ibert_all.m3u,720P,[HD]cctv-风云足球,https://stream1.freetv.fun/8b470dae1ad61813921b33f439c56ffad5e5a2cc3410542d4cb98c6d75a0a5ce.m3u8
+央视风云足球,央视系列,,,205,失效,0,9999,,suxuang.m3u,未知,CCTV-风云足球,http://www.lizhinas.top:1009/rtp/239.252.219.96:5140
+央视风云音乐,央视系列,,,206,存活,200,1597,,iptvorg_cn.m3u,1080P,CCTV-Storm Music (1080p),http://38.75.136.137:98/gslb/dsdqpub/fyyy.m3u8?auth=testpub
+央视风云音乐,央视系列,,,207,失效,0,9999,,ibert_all.m3u,720P,[HD]cctv-风云音乐,https://stream1.freetv.fun/64d201fab67e598b7c445e9db10de23a0797a6863a044f363b929abca829f1b3.m3u8
+央视风云音乐,央视系列,,,208,失效,0,9999,,suxuang.m3u,未知,CCTV-风云音乐,http://www.lizhinas.top:1009/rtp/239.252.219.87:5140
+央视高尔夫网球,央视系列,,,209,失效,0,9999,,iptvorg_cn.m3u,1080P,CCTV-Golf & Tennis (1080p),http://38.75.136.137:98/gslb/dsdqpub/gefwq.m3u8?auth=testpub
+女性时尚,央视系列,,,210,失效,0,9999,,suxuang ipv4,未知,CCTV-女性时尚,http://www.lizhinas.top:1009/rtp/239.252.219.94:5140
+女性时尚,央视系列,,,211,失效,0,9999,,iptv-org cn,未知,女性时尚 (576p),http://223.110.245.169/PLTV/4/224/3221227026/index.m3u8
+女性时尚,央视系列,,,212,失效,0,9999,,Guovin iptv-api result(存活校验),未知,女性时尚,http://38.75.136.137:98/gslb/dsdqpub/nxss.m3u8?auth=testpub
+女性时尚,央视系列,,,213,失效,0,9999,,Guovin iptv-api result(存活校验),未知,女性时尚,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=nxss
+女性时尚,央视系列,,,214,失效,0,9999,,Guovin iptv-api result(存活校验),未知,女性时尚,http://207.56.13.146:81/cdnlive/nxss.m3u8
+怀旧剧场,央视系列,,,215,存活,200,5807,,Guovin iptv-api result(存活校验),未知,怀旧剧场,http://38.75.136.137:98/gslb/dsdqpub/hjjc.m3u8?auth=testpub
+怀旧剧场,央视系列,,,216,失效,0,9999,,suxuang ipv4,未知,CCTV-怀旧剧场,http://www.lizhinas.top:1009/rtp/239.252.219.90:5140
+怀旧剧场,央视系列,,,217,失效,0,9999,,Guovin iptv-api result(存活校验),未知,怀旧剧场,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hjjc
+怀旧剧场,央视系列,,,218,失效,0,9999,,Guovin iptv-api result(存活校验),未知,怀旧剧场,https://live.264788.xyz/channel/huaijiujuchang?streamid=7e5d1abdddde08f588234f3f640f75ff&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+怀旧剧场,央视系列,,,219,失效,403,9999,,Guovin iptv-api result(存活校验),未知,怀旧剧场,https://hls-gateway.vpstv.net/streams/708853.m3u8
+电视指南,央视系列,,,220,失效,0,9999,,suxuang.m3u,未知,CCTV-电视指南,http://www.lizhinas.top:1009/rtp/239.252.219.97:5140
+电视指南,央视系列,,,221,失效,0,9999,,Guovin iptv-api result(存活校验),未知,电视指南,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=dszn
+电视指南,央视系列,,,222,失效,0,9999,,bestK iptv,未知,电视指南,http://38.75.136.137:98/gslb/dsdqpub/dszn.m3u8?auth=testpub
+第一剧场,央视系列,,,223,存活,200,959,,Guovin iptv-api result(存活校验),未知,第一剧场,http://38.75.136.137:98/gslb/dsdqpub/dyjc.m3u8?auth=testpub
+第一剧场,央视系列,,,224,失效,0,9999,,suxuang ipv4,未知,CCTV-第一剧场,http://www.lizhinas.top:1009/rtp/239.252.219.86:5140
+第一剧场,央视系列,,,225,失效,0,9999,,Guovin iptv-api result(存活校验),未知,第一剧场,https://live.264788.xyz/channel/diyijuchang?streamid=e9b0fb1ca135a4aeae12944494883794&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+第一剧场,央视系列,,,226,失效,0,9999,,Guovin iptv-api result(存活校验),未知,第一剧场,https://live.264788.xyz/channel/diyijuchang?streamid=d81e188b59ece96b7e8f1ce34aea3ef8&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+第一剧场,央视系列,,,227,失效,0,9999,,Guovin iptv-api result(存活校验),未知,第一剧场,http://107.150.60.122/live/dyjc.m3u8
+第一剧场,央视系列,,,228,失效,0,9999,,Guovin iptv-api result(存活校验),未知,第一剧场,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=dyjc
+老故事频道,央视系列,,,229,失效,0,9999,,ssili126_itv.m3u,未知,老故事,http://59.32.97.20:9901/tsfile/live/1025_1.m3u8?key=txiptv&playlive=1&authid=0
+老故事频道,央视系列,,,230,失效,0,9999,,suxuang.m3u,未知,CCTV老故事,http://t.061899.xyz/tl/tl.php?id=lgs
+重温经典频道,央视系列,,,231,存活,200,268,,suxuang.m3u,未知,重温经典,http://8.138.7.223/tv/cwjd.php
+重温经典频道,央视系列,,,232,失效,404,9999,,kimentanm.m3u,未知,重温经典,http://101.35.240.114:88/live.php?id=重温经典
+重温经典频道,央视系列,,,233,失效,500,9999,,suxuang.m3u,未知,重温经典,http://112.27.235.94:8000/hls/50/index.m3u8
+重温经典频道,央视系列,,,234,失效,502,9999,,suxuang.m3u,未知,重温经典,https://other.ottiptv.cc/cwjd.m3u8
+风云剧场,央视系列,,,235,失效,0,9999,,suxuang ipv4,未知,CCTV-风云剧场,http://www.lizhinas.top:1009/rtp/239.252.219.89:5140
+风云剧场,央视系列,,,236,失效,0,9999,,vbskycn iptv4,未知,风云剧场,https://live.264788.xyz/channel/fengyunjuchang?streamid=31e7b5b7032d25dd215a4069cdee1a48&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+风云剧场,央视系列,,,237,失效,0,9999,,Guovin iptv-api result(存活校验),未知,风云剧场,http://173.208.212.130:8181/720p/fyjc.m3u8
+风云剧场,央视系列,,,238,失效,0,9999,,Guovin iptv-api result(存活校验),未知,风云剧场,http://38.75.136.137:98/gslb/dsdqpub/fyjc.m3u8?auth=testpub
+风云剧场,央视系列,,,239,失效,0,9999,,Guovin iptv-api result(存活校验),未知,风云剧场,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=fyjc
+风云剧场,央视系列,,,240,失效,403,9999,,Guovin iptv-api result(存活校验),未知,风云剧场,https://hls-gateway.vpstv.net/streams/708861.m3u8
+风云足球,央视系列,,,241,存活,200,2739,,Guovin iptv-api result(存活校验),未知,风云足球,http://38.75.136.137:98/gslb/dsdqpub/fyzq.m3u8?auth=testpub
+风云足球,央视系列,,,242,失效,0,9999,,suxuang ipv4,未知,CCTV-风云足球,http://www.lizhinas.top:1009/rtp/239.252.219.96:5140
+风云足球,央视系列,,,243,失效,0,9999,,Guovin iptv-api result(存活校验),未知,风云足球,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=fyzq
+风云足球,央视系列,,,244,失效,0,9999,,Guovin iptv-api result(存活校验),未知,风云足球,http://207.56.13.146:81/cdnlive/fyzq.m3u8
+风云足球,央视系列,,,245,失效,403,9999,,Guovin iptv-api result(存活校验),未知,风云足球,https://hls-gateway.vpstv.net/streams/708859.m3u8
+风云音乐,央视系列,,,246,存活,200,1597,,Guovin iptv-api result(存活校验),未知,风云音乐,http://38.75.136.137:98/gslb/dsdqpub/fyyy.m3u8?auth=testpub
+风云音乐,央视系列,,,247,失效,0,9999,,suxuang ipv4,未知,CCTV-风云音乐,http://www.lizhinas.top:1009/rtp/239.252.219.87:5140
+风云音乐,央视系列,,,248,失效,0,9999,,Guovin iptv-api result(存活校验),未知,风云音乐,https://live.264788.xyz/channel/fengyunyinyue?streamid=be37d16b874e7ba11dd383d7ecd75752&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+风云音乐,央视系列,,,249,失效,0,9999,,Guovin iptv-api result(存活校验),未知,风云音乐,https://live.264788.xyz/channel/fengyunyinyue?streamid=1b41fb9153cba3ee19bd5d1b323da27e&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+风云音乐,央视系列,,,250,失效,0,9999,,Guovin iptv-api result(存活校验),未知,风云音乐,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=fyyy
+风云音乐,央视系列,,,251,失效,0,9999,,Guovin iptv-api result(存活校验),未知,风云音乐,http://207.56.13.146:81/cdnlive/fyyy.m3u8
+风云音乐,央视系列,,,252,失效,403,9999,,Guovin iptv-api result(存活校验),未知,风云音乐,https://hls-gateway.vpstv.net/streams/708858.m3u8
+风云音乐,央视系列,,,253,失效,0,9999,,Guovin iptv-api result(存活校验),未知,风云音乐,http://iptv.666230.xyz/iptv/jsyd.php/G_FENGYUNYY-CQ
+风云音乐,央视系列,,,254,失效,0,9999,,Guovin iptv-api result(存活校验),未知,风云音乐,http://www.qfly9236.cn:8888/rtp/239.253.92.111:8060
+高尔夫网球,央视系列,,,255,失效,0,9999,,suxuang ipv4,未知,CCTV-央视高网,http://www.lizhinas.top:1009/rtp/239.252.219.95:5140
+高尔夫网球,央视系列,,,256,失效,0,9999,,Guovin iptv-api result(存活校验),未知,高尔夫网球,http://207.56.13.146:81/cdnlive/gefwq.m3u8
+高尔夫网球,央视系列,,,257,失效,200,9999,,Guovin iptv-api result(存活校验),未知,高尔夫网球,http://104.152.209.49:8181/720p/gefwq.m3u8
+高尔夫网球,央视系列,,,258,失效,0,9999,,Guovin iptv-api result(存活校验),未知,高尔夫网球,http://38.75.136.137:98/gslb/dsdqpub/gefwq.m3u8?auth=testpub
+高尔夫网球,央视系列,,,259,失效,403,9999,,Guovin iptv-api result(存活校验),未知,高尔夫网球,https://hls-gateway.vpstv.net/streams/708857.m3u8
+魅力足球,央视系列,,,260,失效,0,9999,,suxuang ipv4,未知,魅力足球,http://t.061899.xyz/tl/tl.php?id=mlzq
+魅力足球,央视系列,,,261,失效,0,9999,,suxuang ipv4,未知,魅力足球,http://111.22.153.159:35455/itv/5000000011000031207.m3u8?cdn=bestzb
+魅力足球,央视系列,,,262,失效,403,9999,,Guovin iptv-api result(存活校验),未知,魅力足球,https://hls-gateway.vpstv.net/streams/708839.m3u8
+魅力足球,央视系列,,,263,失效,0,9999,,Guovin iptv-api result(存活校验),未知,魅力足球,https://stream1.freetv.fun/mei-li-zu-qiu-1.m3u8

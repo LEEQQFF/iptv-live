@@ -1,0 +1,11 @@
+﻿频道,分组,省份,城市,序号,检活,HTTP,延迟ms,官方,来源,画质,标识,URL
+「斗鱼」和平精英,天津,天津,,1,失效,0,9999,,YanG Gather,未知,「斗鱼」和平精英,https://cdn.ttvb.eu.org/douyu/999
+「虎牙」和平精英,天津,天津,,2,失效,0,9999,,YanG Gather,未知,「虎牙」和平精英,https://cdn.ttvb.eu.org/huya/660006
+天津Tianjin TV,天津,天津,,3,失效,0,9999,,iptv-org cn(github.io),1080P,Tianjin TV (1080p),http://39.134.115.163:8080/PLTV/88888910/224/3221225698/index.m3u8
+天津体育,天津,天津,,4,失效,0,9999,,Guovin iptv-api result(存活校验),未知,天津体育,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=tjtv5
+天津体育,天津,天津,,5,失效,0,9999,,Guovin iptv-api result(存活校验),未知,天津体育,http://38.75.136.137:98/gslb/dsdqpub/tjtv5.m3u8?auth=testpub
+天津综合,天津,天津,天津,6,失效,0,9999,,iptvorg_cn.m3u,1080P,Tianjin TV (1080p),http://39.134.115.163:8080/PLTV/88888910/224/3221225698/index.m3u8
+武清综合,天津,天津,,7,失效,403,9999,,Guovin iptv-api result(存活校验),未知,武清综合,https://tvpull.smartwq.cn/wqlive/convergencemedia/playlist.m3u8?ztianjd
+津南一套,天津,天津,,8,存活,200,569,,vbskycn iptv4,未知,津南一套,http://play.jinnantv.top/live/JNTV1.m3u8?ztianjd
+滨海新闻 (1080p),天津,天津,,9,失效,0,9999,,iptv-org cn,1080P,滨海新闻 (1080p),http://60.30.52.41/live/bhtv1/playlist.m3u8
+滨海新闻综合,天津,天津,,10,失效,0,9999,,Guovin iptv-api result(存活校验),未知,滨海新闻综合,http://traffic.jbh.tjbh.com/live/bhtv10/playlist.m3u8

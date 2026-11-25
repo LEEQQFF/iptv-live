@@ -1,0 +1,35 @@
+﻿频道,分组,省份,城市,序号,检活,HTTP,延迟ms,官方,来源,画质,标识,URL
+伊犁哈萨克,新疆,新疆,,1,失效,0,9999,,Guovin iptv-api result(存活校验),未知,伊犁哈萨克,http://110.153.180.106:55555/out_3/index.m3u8?zxinjd
+伊犁经济法制,新疆,新疆,,2,失效,0,9999,,Guovin iptv-api result(存活校验),未知,伊犁经济法制,http://110.153.180.106:55555/out_4/index.m3u8
+伊犁维吾尔,新疆,新疆,,3,失效,0,9999,,Guovin iptv-api result(存活校验),未知,伊犁维吾尔,http://110.153.180.106:55555/out_2/index.m3u8
+兵团八师石河子新闻综合,新疆,新疆,,4,存活,200,217,,vbskycn iptv4,未知,兵团八师石河子新闻综合,http://124.88.144.73:1935/live/xwzh/playlist.m3u8?zxinjd
+兵团卫视,新疆,新疆,,5,存活,200,40,,bf_all_status.m3u8,标清,兵团卫视,http://112.123.243.37:50085/tsfile/live/0112_1.m3u8?key=txiptv&playlive=0&authid=0
+兵团卫视,新疆,新疆,,6,存活,200,75,,best-fan 央视卫视地方(每日存活校验),1080P,兵团卫视,http://222.71.55.147:9901/tsfile/live/0115_1.m3u8?key=txiptv&playlive=0&authid=0
+兵团卫视,新疆,新疆,,7,存活,200,106,,best-fan 央视卫视地方(每日存活校验),1080P,兵团卫视,http://221.7.175.154:8445/tsfile/live/0115_1.m3u8?key=txiptv&playlive=1&authid=0
+兵团卫视,新疆,新疆,,8,存活,200,592,,best-fan 央视卫视地方(每日存活校验),未知,兵团卫视,http://218.13.170.98:9901/tsfile/live/0115_1.m3u8
+兵团卫视,新疆,新疆,,9,失效,0,9999,,iptvorg_cn2.m3u,标清,兵团卫视 (540p) [Not 24/7],http://112.25.48.68/live/program/live/btws/1300000/mnf.m3u8
+兵团卫视,新疆,新疆,,10,失效,0,9999,,bf_all_status.m3u8,标清,兵团卫视,http://183.10.180.46:9901/tsfile/live/0115_1.m3u8?key=txiptv&playlive=1&authid=0
+兵团卫视,新疆,新疆,,11,失效,0,9999,,ibert_all.m3u,标清,[SD]兵团卫视,https://stream1.freetv.fun/7e0d9638f60dca70ddc3a2437eb10e874587f11f9d3efd833e71acfbdf2de2d6.m3u8
+兵团卫视,新疆,新疆,,12,失效,403,9999,,suxuang.m3u,未知,兵团卫视,http://liveout.btzx.com.cn/62ds9e/yil08g.m3u8
+哈密三套,新疆,新疆,,13,失效,0,9999,,Guovin iptv-api result(存活校验),未知,哈密三套,https://tvpull.hmgbtv.com/hmtv/channelfb0e5c505477aa44/playlist.m3u8
+哈密二套,新疆,新疆,,14,失效,0,9999,,Guovin iptv-api result(存活校验),未知,哈密二套,https://tvpull.hmgbtv.com/hmtv/channel108259412c6a6711/playlist.m3u8
+奎屯哈萨克语,新疆,新疆,,15,存活,200,263,,vbskycn iptv4,未知,奎屯哈萨克语,http://218.84.12.186:8002/hls/main/playlist.m3u8?zxinjd
+新疆电视台,新疆,新疆,,16,存活,200,118,,iptvorg_cn2.m3u,标清,Xinjiang TV 3,http://120.70.60.179:9901/tsfile/live/1006_1.m3u8?authid=0&key=txiptv&playlive=1
+新疆电视台,新疆,新疆,,17,存活,200,136,,iptvorg_cn2.m3u,标清,Xinjiang TV 3,http://218.84.35.38:3000/m3u8/live/tctv-2/index.m3u8
+新疆电视台,新疆,新疆,,18,存活,200,201,,iptvorg_cn.m3u,标清,Xinjiang TV 8,http://120.70.60.179:9901/tsfile/live/1002_1.m3u8?authid=0&key=txiptv&playlive=1
+新疆电视台,新疆,新疆,,19,存活,200,378,,iptvorg_cn2.m3u,标清,Xinjiang TV 2,https://hls.quklive.com/live/play-sh-21.quklive.com/1777511615189085.m3u8?auth_key=2092871636-a39d8614688744d0b170b856b086ba80-0-33900446b83fa0b5befeb6bedbcd51a0
+新疆电视台,新疆,新疆,,20,失效,0,9999,,iptvorg_cn.m3u,标清,Xinjiang TV 3,http://110.153.180.106:55555/out_2/index.m3u8
+新疆电视台,新疆,新疆,,21,失效,0,9999,,iptvorg_cn.m3u,标清,Xinjiang TV 2,http://110.153.180.106:55555/out_3/index.m3u8
+新疆电视台,新疆,新疆,,22,失效,0,9999,,iptvorg_cn2.m3u,标清,Xinjiang TV 2,http://222.80.13.33:4022/udp/238.125.3.175:5140
+新疆电视台,新疆,新疆,,23,失效,0,9999,,iptvorg_cn.m3u,标清,Xinjiang TV 1,https://klmysjtzb.rcsxzx.com/hls/klmy2.m3u8
+新疆电视台,新疆,新疆,,24,失效,403,9999,,iptvorg_cn2.m3u,标清,Xinjiang TV 3,https://st-video.xjmty.com/fs/livedit/e55abfa37af26e19/8ce9971c2177b3dd.m3u8
+新疆Xinjiang TV 1,新疆,新疆,,25,失效,0,9999,,iptv-org cn,未知,Xinjiang TV 1,https://klmysjtzb.rcsxzx.com/hls/klmy2.m3u8
+新疆Xinjiang TV 2,新疆,新疆,,26,存活,200,175,,iptv-org cn,未知,Xinjiang TV 2,https://infolive.hongshannet.cn/RedHillEye/1781077833267957853648adb1cc9957853648adb1cc9.m3u8?auth_key=1812613833-0-0-4dabcc60fbe41e40712b37dbf24dc877
+新疆Xinjiang TV 2,新疆,新疆,,27,存活,200,378,,iptv-org cn,未知,Xinjiang TV 2,https://hls.quklive.com/live/play-sh-21.quklive.com/1777511615189085.m3u8?auth_key=2092871636-a39d8614688744d0b170b856b086ba80-0-33900446b83fa0b5befeb6bedbcd51a0
+新疆Xinjiang TV 2,新疆,新疆,,28,失效,0,9999,,iptv-org cn,未知,Xinjiang TV 2,http://110.153.180.106:55555/out_3/index.m3u8
+新疆Xinjiang TV 2,新疆,新疆,,29,失效,0,9999,,iptv-org cn,未知,Xinjiang TV 2,http://222.80.13.33:4022/udp/238.125.3.175:5140
+新疆Xinjiang TV 3,新疆,新疆,,30,存活,200,118,,iptv-org cn,未知,Xinjiang TV 3,http://120.70.60.179:9901/tsfile/live/1006_1.m3u8?authid=0&key=txiptv&playlive=1
+新疆Xinjiang TV 3,新疆,新疆,,31,存活,200,136,,iptv-org cn,未知,Xinjiang TV 3,http://218.84.35.38:3000/m3u8/live/tctv-2/index.m3u8
+新疆Xinjiang TV 3,新疆,新疆,,32,失效,0,9999,,iptv-org cn,未知,Xinjiang TV 3,http://110.153.180.106:55555/out_2/index.m3u8
+新疆Xinjiang TV 3,新疆,新疆,,33,失效,403,9999,,iptv-org cn,未知,Xinjiang TV 3,https://st-video.xjmty.com/fs/livedit/e55abfa37af26e19/8ce9971c2177b3dd.m3u8
+新疆Xinjiang TV 8,新疆,新疆,,34,存活,200,201,,iptv-org cn,未知,Xinjiang TV 8,http://120.70.60.179:9901/tsfile/live/1002_1.m3u8?authid=0&key=txiptv&playlive=1

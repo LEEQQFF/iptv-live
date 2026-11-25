@@ -12,15 +12,15 @@
 | 文件 | 用途 |
 |---|---|
 | `channels.json` | 权威数据源（含每条线路的检活状态与排序） |
-| `iptv-live-汇总.xlsx` | 多 sheet 可编辑视图：汇总/央视/卫视/地方/港澳台/其他/频道总表/官方源置顶/失效源/订阅地址 |
-| `editable/*.csv` | 央视/卫视/地方 的纯文本表格，可直接改字或拖拽排序 |
+| `iptv-live-汇总-新版.xlsx` | 按分组建 sheet（央视/央视系列/卫视/34省/网络）+ 汇总/频道总表/官方源置顶/失效源/订阅地址 |
+| `editable/*.csv` | 每个分组一个纯文本表格，可直接改字或拖拽排序 |
 | `iptv-live-频道清单.md` | Markdown 文字清单，可直接编辑 |
-| `tools/` | 复现脚本：parse_merge.py / check_liveness.py / finalize_export.py |
+| `tools/` | 复现脚本：parse_merge.py / regroup.py / check_liveness.py / finalize_export.py |
 
 ## 口径
-1. 聚合：SparkTV `assets/channels.json`（2026-11-17，473 频道 / 1402 线路，省级分组映射为地方）+ 11 个公开 M3U/M3U8 订阅地址（5058 行，跳过 108 行非直播/VOD）。
+1. 聚合：SparkTV `assets/channels.json`（2026-11-17，473 频道 / 1402 线路）+ 11 个公开 M3U/M3U8 订阅地址（5058 行，跳过 108 行非直播/VOD）。
 2. 去重：同一频道内按完整 URL 去重；全局唯一 URL 3950 条。
-3. 归类：央视 / 卫视 / 地方（主），港澳台 / 其他（附）。
+3. 归类：央视按 CCTV1~CCTV17 序号排序；央视系列（CHC/CETV/CGTN/央视付费频道）独立分组；卫视独立分组；其余按全国 34 个省级行政区归类，不属于任何省级行政区的归入「网络」。
 4. 严格检活：逐条真实 HTTP GET，仅 2xx/3xx 且返回 M3U/TS 媒体字节判为存活。
 5. 置顶：官方源（央视网/CNTV/北京卫视 BESTV 域名或原库标记）→ 存活 → 延迟升序。
 

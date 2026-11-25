@@ -1,0 +1,89 @@
+﻿频道,分组,省份,城市,序号,检活,HTTP,延迟ms,官方,来源,画质,标识,URL
+任丘文娱,河北,河北,,1,失效,404,9999,,Guovin iptv-api result(存活校验),未知,任丘文娱,https://jwcdnqx.hebyun.com.cn/live/rqtv2/1500k/tzwj_video.m3u8
+任丘文娱,河北,河北,,2,失效,404,9999,,Guovin iptv-api result(存活校验),未知,任丘文娱,https://jwcdnqx.hebyun.com.cn/zb/rqtv2/1500k/tzwj_video.m3u8
+任丘综合,河北,河北,,3,存活,200,236,,vbskycn iptv4,未知,任丘综合,https://jwcdnqx.hebyun.com.cn/live/rqtv1/1500k/tzwj_video.m3u8
+任丘综合,河北,河北,,4,失效,404,9999,,Guovin iptv-api result(存活校验),未知,任丘综合,https://jwcdnqx.hebyun.com.cn/zb/rqtv1/1500k/tzwj_video.m3u8
+兴隆综合,河北,河北,,5,存活,200,94,,vbskycn iptv4,未知,兴隆综合,https://jwcdnqx.hebyun.com.cn/live/xlzh/1500k/tzwj_video.m3u8
+兴隆综合,河北,河北,,6,失效,404,9999,,Guovin iptv-api result(存活校验),未知,兴隆综合,https://jwcdnqx.hebyun.com.cn/zb/xlzh/1500k/tzwj_video.m3u8
+农安新闻综合 [Geo-blocked],河北,河北,,7,存活,200,100,,iptv-org cn,未知,农安新闻综合 [Geo-blocked],https://stream2.jlntv.cn/naxw/sd/live.m3u8
+平泉影视,河北,河北,,8,失效,404,9999,,Guovin iptv-api result(存活校验),未知,平泉影视,https://jwcdnqx.hebyun.com.cn/zb/pqys/1500k/tzwj_video.m3u8
+平泉综合,河北,河北,,9,存活,200,227,,vbskycn iptv4,未知,平泉综合,https://jwcdnqx.hebyun.com.cn/live/pqzh/1500k/tzwj_video.m3u8
+新安新闻综合,河北,河北,,10,失效,404,9999,,Guovin iptv-api result(存活校验),未知,新安新闻综合,http://tvpull.dxhmt.cn:9081/tv/10323-1.m3u8
+新安新闻综合,河北,河北,,11,失效,404,9999,,Guovin iptv-api result(存活校验),未知,新安新闻综合,http://tvpull.dxhmt.cn:9081/tv/10323-1.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
+新安新闻综合,河北,河北,,12,失效,404,9999,,Guovin iptv-api result(存活校验),未知,新安新闻综合,http://tvpull.dxhmt.cn:9081/tv/10323-1.m3u8?zhend
+昌黎综合,河北,河北,,13,存活,200,215,,suxuang ipv4,未知,昌黎综合,https://jwcdnqx.hebyun.com.cn/live/clzhpd/1500k/tzwj_video.m3u8
+昌黎综合,河北,河北,,14,失效,404,9999,,Guovin iptv-api result(存活校验),未知,昌黎综合,https://jwcdnqx.hebyun.com.cn/zb/clzhpd/1500k/tzwj_video.m3u8
+景县电视一套 (576p) [Not 24/7],河北,河北,,15,失效,0,9999,,iptv-org cn,未知,景县电视一套 (576p) [Not 24/7],http://hbjx.chinashadt.com:1935/live/jx1.stream/playlist.m3u8
+景县电视一套 (576p) [Not 24/7],河北,河北,,16,失效,0,9999,,iptv-org cn,未知,景县电视一套 (360p) [Not 24/7],http://hbjx.chinashadt.com:1935/live/stream:jx1.stream_360p/playlist.m3u8
+河北电视台,河北,河北,,17,存活,200,259,,iptvorg_cn.m3u,4K,Hebei TV (2160p),https://event.pull.hebtv.com/live/live101.m3u8
+河北电视台,河北,河北,,18,存活,200,303,,suxuang ipv4,4K,河北4K,https://event.pull.hebtv.com:443/live/live101.m3u8
+河北电视台,河北,河北,,19,存活,200,2672,,iptvorg_cn2.m3u,标清,Hebei TV,https://restream.pdtvhd.com/memfs/1db8c005-9365-4b32-94a4-3736987b5646.m3u8
+河北Hebei TV,河北,河北,,20,存活,200,259,,iptv-org cn,未知,Hebei TV (2160p),https://event.pull.hebtv.com/live/live101.m3u8
+河北Hebei TV,河北,河北,,21,存活,200,2672,,iptv-org cn,未知,Hebei TV (540p),https://restream.pdtvhd.com/memfs/1db8c005-9365-4b32-94a4-3736987b5646.m3u8
+河北公共,河北,河北,,22,存活,200,714,,suxuang.m3u,未知,河北公共,http://1.94.31.214/php/hebei.php?id=hbgg
+河北农民,河北,河北,,23,存活,200,121,,Guovin iptv-api result(存活校验),未知,河北农民,http://ls.qingting.fm/live/1650.m3u8
+河北农民,河北,河北,,24,存活,200,173,,vbskycn.m3u,4K,河北农民,https://ls.qingting.fm/live/1650/64k.m3u8
+河北农民,河北,河北,,25,存活,200,196,,vbskycn iptv4,未知,河北农民,https://jwcdnqx.hebyun.com.cn/live/clzhpd/1500k/tzwj_video.m3u8?zhebd
+河北农民,河北,河北,,26,存活,200,716,,suxuang.m3u,未知,河北农民,http://1.94.31.214/php/hebei.php?id=nmpd
+河北农民,河北,河北,,27,失效,0,9999,,Guovin iptv-api result(存活校验),未知,河北农民,https://t.freetv.fun/live/he-bei-nong-min-1.m3u8
+河北农民,河北,河北,,28,失效,0,9999,,Guovin iptv-api result(存活校验),未知,河北农民,https://t.freetv.fun/live/he-bei-nong-min.m3u8
+河北少儿,河北,河北,,29,存活,200,583,,suxuang.m3u,未知,河北少儿,http://1.94.31.214/php/hebei.php?id=sekj
+河北少儿,河北,河北,,30,失效,403,9999,,suxuang.m3u,未知,河北少儿,http://tv.pull.hebtv.com/jishi/shaoerkejiao.m3u8?t=2510710360&k=4ff4446adf3cce3de40dd013255b38b2
+河北少儿,河北,河北,,31,失效,0,9999,,bestK iptv,未知,河北少儿科教,https://stream1.freetv.fun/he-bei-shao-er-ke-jiao-7.ctv
+河北影视,河北,河北,,32,存活,200,660,,suxuang.m3u,未知,河北影视,http://1.94.31.214/php/hebei.php?id=hbys
+河北杂技,河北,河北,,33,失效,0,9999,,suxuang.m3u,720P,河北杂技,http://vip.lqcc.xyz:15511/rtp/239.254.201.139:7203
+河北睛彩,河北,河北,,34,失效,0,9999,,suxuang.m3u,未知,河北睛彩,http://vip.lqcc.xyz:15511/rtp/239.254.200.27:6000
+河北经济,河北,河北,,35,存活,200,658,,suxuang.m3u,未知,河北经济,http://1.94.31.214/php/hebei.php?id=jjsh
+河北都市,河北,河北,,36,存活,200,736,,suxuang.m3u,未知,河北都市,http://1.94.31.214/php/hebei.php?id=hbds
+河北都市,河北,河北,,37,存活,200,1006,,vbskycn.m3u,未知,河北都市,https://radio.pull.hebtv.com/live/hebnczx.m3u8
+河北都市,河北,河北,,38,失效,0,9999,,Guovin iptv-api result(存活校验),未知,河北都市,https://stream1.freetv.fun/he-bei-du-shi-13.ctv
+清河新闻综合,河北,河北,,39,失效,404,9999,,Guovin iptv-api result(存活校验),未知,清河新闻综合,https://jwcdnqx.hebyun.com.cn/live/qinghe/1500k/tzwj_video.m3u8
+清河新闻综合,河北,河北,,40,失效,404,9999,,Guovin iptv-api result(存活校验),未知,清河新闻综合,https://jwcdnqx.hebyun.com.cn/zb/qinghe/1500k/tzwj_video.m3u8
+清河经济综艺,河北,河北,,41,存活,200,104,,Guovin iptv-api result(存活校验),未知,清河经济综艺,https://jwcdnqx.hebyun.com.cn/live/qinghe1/1500k/tzwj_video.m3u8
+清河经济综艺,河北,河北,,42,失效,404,9999,,Guovin iptv-api result(存活校验),未知,清河经济综艺,https://jwcdnqx.hebyun.com.cn/zb/qinghe1/1500k/tzwj_video.m3u8
+滦平新闻,河北,河北,,43,存活,200,422,,vbskycn iptv4,未知,滦平新闻,http://jwplay.hebyun.com.cn/live/LPTV001/1500k/tzwj_video.m3u8
+石家庄城市服务,河北,河北,石家庄,44,失效,404,9999,,suxuang.m3u,未知,石家庄城市服务,http://nn.7x9d.cn/石家庄.php?id=5
+石家庄娱乐,河北,河北,,45,失效,0,9999,,Guovin iptv-api result(存活校验),未知,石家庄娱乐,https://stream1.freetv.fun/shi-jia-zhuang-yu-le-7.ctv
+石家庄娱乐,河北,河北,,46,失效,0,9999,,Guovin iptv-api result(存活校验),未知,石家庄娱乐,https://stream1.freetv.fun/shi-jia-zhuang-yu-le-9.ctv
+石家庄娱乐,河北,河北,,47,失效,0,9999,,Guovin iptv-api result(存活校验),未知,石家庄娱乐,https://stream1.freetv.fun/shi-jia-zhuang-yu-le-6.ctv
+石家庄娱乐,河北,河北,,48,失效,0,9999,,Guovin iptv-api result(存活校验),未知,石家庄娱乐,https://stream1.freetv.fun/shi-jia-zhuang-yu-le-4.ctv
+石家庄娱乐,河北,河北,,49,失效,0,9999,,Guovin iptv-api result(存活校验),未知,石家庄娱乐,https://stream1.freetv.fun/shi-jia-zhuang-yu-le-1.ctv
+石家庄文化娱乐,河北,河北,石家庄,50,失效,404,9999,,suxuang.m3u,未知,石家庄文化娱乐,http://nn.7x9d.cn/石家庄.php?id=6
+石家庄新闻综合,河北,河北,石家庄,51,失效,404,9999,,suxuang.m3u,未知,石家庄新闻综合,http://nn.7x9d.cn/石家庄.php?id=4
+石家庄新闻综合,河北,河北,石家庄,52,失效,0,9999,,Guovin iptv-api result(存活校验),未知,石家庄新闻综合,https://stream1.freetv.fun/shi-jia-zhuang-xin-wen-zong-he-5.ctv
+石家庄新闻综合,河北,河北,石家庄,53,失效,0,9999,,Guovin iptv-api result(存活校验),未知,石家庄新闻综合,https://stream1.freetv.fun/shi-jia-zhuang-xin-wen-zong-he-6.ctv
+石家庄新闻综合,河北,河北,石家庄,54,失效,0,9999,,Guovin iptv-api result(存活校验),未知,石家庄新闻综合,https://stream1.freetv.fun/shi-jia-zhuang-xin-wen-zong-he-7.ctv
+石家庄新闻综合,河北,河北,石家庄,55,失效,0,9999,,Guovin iptv-api result(存活校验),未知,石家庄新闻综合,https://stream1.freetv.fun/shi-jia-zhuang-xin-wen-zong-he-8.ctv
+石家庄新闻综合,河北,河北,石家庄,56,失效,0,9999,,Guovin iptv-api result(存活校验),未知,石家庄新闻综合,https://stream1.freetv.fun/shi-jia-zhuang-xin-wen-zong-he-2.ctv
+石家庄生活,河北,河北,,57,失效,0,9999,,Guovin iptv-api result(存活校验),未知,石家庄生活,https://stream1.freetv.fun/shi-jia-zhuang-sheng-huo-2.ctv
+石家庄生活,河北,河北,,58,失效,0,9999,,Guovin iptv-api result(存活校验),未知,石家庄生活,https://stream1.freetv.fun/shi-jia-zhuang-sheng-huo-5.ctv
+石家庄生活,河北,河北,,59,失效,0,9999,,Guovin iptv-api result(存活校验),未知,石家庄生活,https://stream1.freetv.fun/shi-jia-zhuang-sheng-huo-7.ctv
+石家庄生活,河北,河北,,60,失效,0,9999,,Guovin iptv-api result(存活校验),未知,石家庄生活,https://stream1.freetv.fun/shi-jia-zhuang-sheng-huo-1.ctv
+石家庄都市,河北,河北,,61,失效,0,9999,,Guovin iptv-api result(存活校验),未知,石家庄都市,https://stream1.freetv.fun/shi-jia-zhuang-du-shi-5.ctv
+石家庄都市,河北,河北,,62,失效,0,9999,,Guovin iptv-api result(存活校验),未知,石家庄都市,https://stream1.freetv.fun/shi-jia-zhuang-du-shi-4.ctv
+石家庄都市,河北,河北,,63,失效,0,9999,,Guovin iptv-api result(存活校验),未知,石家庄都市,https://stream1.freetv.fun/shi-jia-zhuang-du-shi-6.ctv
+石家庄都市,河北,河北,,64,失效,0,9999,,Guovin iptv-api result(存活校验),未知,石家庄都市,https://stream1.freetv.fun/shi-jia-zhuang-du-shi-1.ctv
+蓬安新闻综合 (720p) [Not 24/7],河北,河北,,65,失效,0,9999,,iptv-org cn,720P,蓬安新闻综合 (720p) [Not 24/7],http://palive.patv123.com:8091/live/xwpd_800K.m3u8
+蓬安新闻综合 (720p) [Not 24/7],河北,河北,,66,失效,0,9999,,bestK iptv,未知,蓬安新闻综合,https://stream1.freetv.fun/peng-an-xin-wen-zong-he-2.m3u8
+衡水公共,河北,河北,,67,存活,200,123,,Guovin iptv-api result(存活校验),未知,衡水公共,http://ls.qingting.fm/live/2810.m3u8
+辛集新聞頻道 (480p) [Not 24/7],河北,河北,,68,失效,0,9999,,iptv-org cn,未知,辛集新聞頻道 (480p) [Not 24/7],http://zsxj.chinashadt.com:1935/live/xjxw.stream_360p/playlist.m3u8
+辛集生活頻道 (480p) [Not 24/7],河北,河北,,69,失效,0,9999,,iptv-org cn,未知,辛集生活頻道 (480p) [Not 24/7],http://zsxj.chinashadt.com:1935/live/xjsh.stream_360p/playlist.m3u8
+邢台生活,河北,河北,,70,存活,200,73,,suxuang ipv4,未知,邢台生活,https://jwcdnqx.hebyun.com.cn/live/xtcsshpd/1500k/tzwj_video.m3u8
+邢台综合,河北,河北,,71,存活,200,195,,suxuang ipv4,未知,邢台综合,http://jwplay.hebyun.com.cn/live/xtsrmtzs/1500k/tzwj_video.m3u8
+邢台综合,河北,河北,,72,存活,200,273,,vbskycn iptv4,未知,邢台综合,https://jwplay.hebyun.com.cn:443/live/xtsrmtzs/1500k/tzwj_video.m3u8
+邢台综合,河北,河北,,73,失效,404,9999,,Guovin iptv-api result(存活校验),未知,邢台综合,https://jwplay.hebyun.com.cn/live/xttv/1500k/tzwj_video.m3u8
+邢台综合,河北,河北,,74,失效,404,9999,,Guovin iptv-api result(存活校验),未知,邢台综合,https://jwplay.hebyun.com.cn/live/xttv/1500k/tzwj_video.m3u8?zhebd
+邢台综合,河北,河北,,75,失效,0,9999,,Guovin iptv-api result(存活校验),未知,邢台综合,https://stream1.freetv.fun/xing-tai-zong-he-2.m3u8
+邯郸公共频道,河北,河北,邯郸,76,存活,200,86,,suxuang.m3u,未知,邯郸公共频道,https://jwcdnqx.hebyun.com.cn/live/hdgg/1500k/tzwj_video.m3u8
+邯郸公共频道,河北,河北,邯郸,77,失效,404,9999,,Guovin iptv-api result(存活校验),未知,邯郸公共,https://jwliveqxzb.hebyun.com.cn/hdgg/hdgg.m3u8
+邯郸新闻,河北,河北,邯郸,78,存活,200,62,,vbskycn.m3u,未知,邯郸新闻,https://jwcdnqx.hebyun.com.cn/live/hdxwzh/1500k/tzwj_video.m3u8
+邯郸新闻,河北,河北,邯郸,79,失效,404,9999,,Guovin iptv-api result(存活校验),未知,邯郸新闻,https://jwliveqxzb.hebyun.com.cn/hdxwzh/hdxwzh.m3u8
+邯郸科技教育,河北,河北,邯郸,80,存活,200,268,,suxuang.m3u,未知,邯郸科技教育,https://jwcdnqx.hebyun.com.cn/live/hdkj/1500k/tzwj_video.m3u8
+邯郸科教,河北,河北,,81,存活,200,268,,Guovin iptv-api result(存活校验),未知,邯郸科教,https://jwcdnqx.hebyun.com.cn/live/hdkj/1500k/tzwj_video.m3u8
+邯郸科教,河北,河北,,82,失效,404,9999,,Guovin iptv-api result(存活校验),未知,邯郸科教,https://jwliveqxzb.hebyun.com.cn/hdkj/hdkj.m3u8
+霸州公共頻道 (576p) [Not 24/7],河北,河北,,83,失效,0,9999,,iptv-org cn,未知,霸州公共頻道 (576p) [Not 24/7],http://hbbz.chinashadt.com:2036/live/stream:bzgg.stream/playlist.m3u8
+霸州少兒頻道 (576p) [Not 24/7],河北,河北,,84,失效,0,9999,,iptv-org cn,未知,霸州少兒頻道 (576p) [Not 24/7],http://hbbz.chinashadt.com:2036/live/stream:bzse.stream/playlist.m3u8
+鹿泉一套,河北,河北,,85,失效,404,9999,,suxuang ipv4,未知,鹿泉一套,https://jwcdnqx.hebyun.com.cn/live/luquanyi/1500k/tzwj_video.m3u8
+鹿泉一套,河北,河北,,86,失效,0,9999,,iptv-org cn,未知,鹿泉一套 (576p) [Not 24/7],http://hblq.chinashadt.com:2036/live/stream:luquan1.stream/playlist.m3u8
+鹿泉二套,河北,河北,,87,失效,404,9999,,suxuang ipv4,未知,鹿泉二套,https://jwcdnqx.hebyun.com.cn/live/luquaner/1500k/tzwj_video.m3u8
+鹿泉二套,河北,河北,,88,失效,0,9999,,iptv-org cn,未知,鹿泉二套 (576p) [Not 24/7],http://hblq.chinashadt.com:2036/live/stream:luquan2.stream/playlist.m3u8

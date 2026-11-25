@@ -1,0 +1,19 @@
+﻿频道,分组,省份,城市,序号,检活,HTTP,延迟ms,官方,来源,画质,标识,URL
+Chuxiong News Channel [Not 24/7],云南,云南,,1,存活,200,143,,iptv-org cn,未知,Chuxiong News Channel [Not 24/7],http://hwapi.yntv.net/ew265l/848y54.m3u8
+Dali TV,云南,云南,,2,存活,200,8486,,bestK iptv,未知,Dali TV,http://www.dalitv.com.tw:4568/live/dali/index.m3u8
+云南娱乐,云南,云南,,3,失效,0,9999,,vbskycn.m3u,未知,云南娱乐,https://hwapi.yntv.net/62hdvf/q9vs1b.m3u8
+云南影视,云南,云南,,4,失效,0,9999,,ibert_all.m3u,720P,[HD]云南影视,rtmp://hwzbout.yntv.net/62hdvf/utrat7
+云南都市,云南,云南,,5,失效,0,9999,,vbskycn.m3u,未知,云南都市,https://hwapi.yntv.net/62hdvf/rjwt14.m3u8
+云南都市,云南,云南,,6,失效,0,9999,,ibert_all.m3u,720P,[HD]云南都市,https://stream1.freetv.fun/c7f89783268c13760aff864a0e464360ea9335ac3ef8a5ef52a354d7fd305ef2.m3u8
+文山公共台,云南,云南,文山,7,失效,0,9999,,iptvorg_cn2.m3u,1080P,云南 Ⅰ 文山公共台 (1080p),http://tvdrs.wsrtv.com.cn:8100/channellive/ch2.flv
+文山州公共,云南,云南,,8,存活,200,2622,,Guovin iptv-api result(存活校验),未知,文山州公共,http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel8/playlist.m3u8?zyund
+文山州公共,云南,云南,,9,存活,200,2630,,Guovin iptv-api result(存活校验),未知,文山州公共,http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel8/playlist.m3u8
+文山州新闻综合,云南,云南,,10,存活,200,2615,,Guovin iptv-api result(存活校验),未知,文山州新闻综合,http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel7/playlist.m3u8?zyund
+文山综合 (1080p) [Not 24/7],云南,云南,,11,存活,200,2641,,iptv-org cn,1080P,文山综合 (1080p) [Not 24/7],http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel7/playlist.m3u8
+文山综合台,云南,云南,文山,12,失效,0,9999,,iptvorg_cn2.m3u,1080P,云南 Ⅰ 文山综合台 (1080p) [Not 24/7],http://tvdrs.wsrtv.com.cn:8100/channellive/ch1.flv
+易门综合,云南,云南,,13,失效,0,9999,,Guovin iptv-api result(存活校验),未知,易门综合,https://zb-live.ynurl.com/yimen/3b75a2f9-7941-46b7-992d-a9796fbca5fe.m3u8
+楚雄新闻,云南,云南,楚雄,14,存活,200,143,,iptvorg_cn.m3u,标清,Chuxiong News Channel [Not 24/7],http://hwapi.yntv.net/ew265l/848y54.m3u8
+通海电视台,云南,云南,,15,失效,0,9999,,Guovin iptv-api result(存活校验),未知,通海电视台,https://zb-live.ynurl.com/tonghai/3bfe3a9e-48e6-4c1e-8770-1df66447cc6c.m3u8
+陇川综合,云南,云南,,16,失效,0,9999,,Guovin iptv-api result(存活校验),未知,陇川综合,https://zb-live.ynurl.com/longchuan/58f88df3-605e-4c57-865c-8e8f85241ca1.m3u8
+鬼吹灯之云南虫谷,云南,云南,,17,存活,200,1375,,suxuang ipv4,未知,鬼吹灯之云南虫谷,https://live.metshop.top/huya/11352898
+鬼吹灯之精绝古城,云南,云南,,18,存活,200,1885,,suxuang ipv4,未知,鬼吹灯之精绝古城,https://live.metshop.top/huya/11352871

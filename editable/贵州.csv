@@ -1,0 +1,7 @@
+﻿频道,分组,省份,城市,序号,检活,HTTP,延迟ms,官方,来源,画质,标识,URL
+Anshun Comprehensive News Channel,贵州,贵州,,1,存活,200,155,,iptv-org cn,未知,Anshun Comprehensive News Channel,https://hplayer1.juyun.tv/camera/154379194.m3u8
+安顺新闻,贵州,贵州,,2,存活,200,32,,bestK iptv,未知,安顺新闻,http://hplayer1.juyun.tv/camera/154379194.m3u8
+安顺新闻,贵州,贵州,,3,存活,200,155,,Guovin iptv-api result(存活校验),未知,安顺新闻,https://hplayer1.juyun.tv/camera/154379194.m3u8
+安顺新闻综合,贵州,贵州,安顺,4,存活,200,155,,iptvorg_cn.m3u,标清,Anshun Comprehensive News Channel,https://hplayer1.juyun.tv/camera/154379194.m3u8
+贵州Guizhou TV,贵州,贵州,,5,失效,0,9999,,iptv-org cn(github.io),未知,Guizhou TV (576p),http://183.207.248.71/gitv/live1/G_GUIZHOU/G_GUIZHOU
+贵州综合,贵州,贵州,,6,失效,0,9999,,iptvorg_cn.m3u,标清,Guizhou TV (576p),http://183.207.248.71/gitv/live1/G_GUIZHOU/G_GUIZHOU

@@ -1,0 +1,40 @@
+﻿频道,分组,省份,城市,序号,检活,HTTP,延迟ms,官方,来源,画质,标识,URL
+Dunhuang TV (1080p),甘肃,甘肃,,1,失效,0,9999,,iptv-org cn(github.io),1080P,Dunhuang TV (1080p),http://117.156.28.119/270000001111/1110000028/index.m3u8
+Hezheng TV,甘肃,甘肃,,2,失效,0,9999,,iptv-org cn(github.io),未知,Hezheng TV,http://117.156.28.119/270000001111/1110000149/index.m3u8
+Jiuquan TV News Comprehensive Channel (576p),甘肃,甘肃,,3,失效,0,9999,,iptv-org cn(github.io),未知,Jiuquan TV News Comprehensive Channel (576p),http://117.156.28.119/270000001111/1110000001/index.m3u8
+兰州Lanzhou Comprehensive News Channel,甘肃,甘肃,,4,存活,200,202,,iptv-org cn,未知,Lanzhou Comprehensive News Channel,https://liveplus.lzr.com.cn/xwzh/HD/live.m3u8
+兰州Lanzhou Culture & Tourism Channel,甘肃,甘肃,,5,存活,200,265,,iptv-org cn,未知,Lanzhou Culture & Tourism Channel,https://liveplus.lzr.com.cn/wlpd/HD/live.m3u8
+兰州文化旅游,甘肃,甘肃,兰州,6,存活,200,265,,iptvorg_cn.m3u,720P,Lanzhou Culture & Tourism Channel,https://liveplus.lzr.com.cn/wlpd/HD/live.m3u8
+兰州新闻综合,甘肃,甘肃,兰州,7,存活,200,202,,iptvorg_cn.m3u,720P,Lanzhou Comprehensive News Channel,https://liveplus.lzr.com.cn/xwzh/HD/live.m3u8
+华亭电视台 (1080p),甘肃,甘肃,,8,失效,0,9999,,iptv-org cn,1080P,华亭电视台 (1080p),http://117.156.28.119/270000001111/1110000148/index.m3u8
+和政电视台,甘肃,甘肃,临夏,9,失效,0,9999,,iptvorg_cn.m3u,标清,Hezheng TV,http://117.156.28.119/270000001111/1110000149/index.m3u8
+嘉峪关综合,甘肃,甘肃,,10,存活,200,11,,vbskycn iptv4,未知,嘉峪关综合,http://play.kankanlive.com/live/1720583434627241.m3u8
+天祝综合,甘肃,甘肃,,11,存活,200,424,,vbskycn iptv4,未知,天祝综合,https://play.kankanlive.com/live/1656487214793905.m3u8
+岷县电视台 (1080p),甘肃,甘肃,,12,失效,0,9999,,iptv-org cn,1080P,岷县电视台 (1080p),http://117.156.28.119/270000001111/1110000130/index.m3u8
+张掖新闻综合,甘肃,甘肃,,13,存活,200,328,,vbskycn iptv4,未知,张掖新闻综合,https://play.kankanlive.com/live/1720583434627241.m3u8
+敦煌电视台,甘肃,甘肃,酒泉,14,失效,0,9999,,iptvorg_cn.m3u,1080P,Dunhuang TV (1080p),http://117.156.28.119/270000001111/1110000028/index.m3u8
+永昌综合,甘肃,甘肃,,15,存活,200,12,,bestK iptv,未知,永昌综合,http://play.kankanlive.com/live/1720408280309109.m3u8
+永昌综合,甘肃,甘肃,,16,存活,200,123,,vbskycn iptv4,未知,永昌综合,https://play.kankanlive.com/live/1652755738635915.m3u8
+渭源新闻,甘肃,甘肃,,17,存活,200,12,,Guovin iptv-api result(存活校验),未知,渭源新闻,http://play.kankanlive.com/live/1720408280309109.m3u8
+灵台新闻综合 (1080p),甘肃,甘肃,,18,失效,0,9999,,iptv-org cn,1080P,灵台新闻综合 (1080p),http://117.156.28.119/270000001111/1110000145/index.m3u8
+甘肃公共 (540p) [Not 24/7],甘肃,甘肃,,19,失效,403,9999,,iptv-org cn,未知,甘肃公共 (540p) [Not 24/7],https://hls.gstv.com.cn/49048r/3t5xyc.m3u8
+甘肃公共应急,甘肃,甘肃,,20,失效,403,9999,,suxuang.m3u,未知,甘肃公共应急,https://hls.gstv.com.cn/49048r/3t5xyc.m3u8
+甘肃少儿,甘肃,甘肃,,21,失效,403,9999,,suxuang.m3u,未知,甘肃少儿,https://hls.gstv.com.cn/49048r/922k96.m3u8
+甘肃文化影视,甘肃,甘肃,,22,失效,403,9999,,suxuang.m3u,未知,甘肃文化影视,https://hls.gstv.com.cn/49048r/w1l6d5.m3u8
+甘肃移动 (540p) [Not 24/7],甘肃,甘肃,,23,失效,403,9999,,iptv-org cn,未知,甘肃移动 (540p) [Not 24/7],https://hls.gstv.com.cn/49048r/y72q36.m3u8
+甘肃经济,甘肃,甘肃,,24,存活,200,871,,vbskycn.m3u,未知,甘肃经济,https://satellitepull.cnr.cn/live/wxgshhzs/playlist.m3u8
+甘肃经济,甘肃,甘肃,,25,失效,403,9999,,suxuang.m3u,未知,甘肃经济,https://hls.gstv.com.cn/49048r/10iv1j.m3u8
+甘肃都市,甘肃,甘肃,,26,存活,200,713,,vbskycn.m3u,标清,甘肃都市,https://satellitepull.cnr.cn/live/wxgsdstb/playlist.m3u8
+甘肃都市,甘肃,甘肃,,27,失效,403,9999,,suxuang.m3u,未知,甘肃都市,https://hls.gstv.com.cn/49048r/l54391.m3u8
+白银综合,甘肃,甘肃,,28,存活,200,13,,vbskycn iptv4,未知,白银综合,http://play.kankanlive.com/live/1720408089419110.m3u8
+白银综合,甘肃,甘肃,,29,存活,200,333,,bestK iptv,未知,白银综合,https://play.kankanlive.com/live/1720408089419110.m3u8
+秦安综合,甘肃,甘肃,,30,存活,200,91,,bestK iptv,未知,秦安综合,https://play.kankanlive.com/live/1680577080200944.m3u8
+秦安综合,甘肃,甘肃,,31,存活,200,305,,Guovin iptv-api result(存活校验),未知,秦安综合,https://play.kankanlive.com/live/1659926941626981.m3u8
+肃州电视台 (1080p),甘肃,甘肃,,32,失效,0,9999,,iptv-org cn,1080P,肃州电视台 (1080p),http://117.156.28.119/270000001111/1110000123/index.m3u8
+西峰综合,甘肃,甘肃,,33,存活,200,374,,vbskycn iptv4,未知,西峰综合,https://play.kankanlive.com/live/1683944827526991.m3u8
+酒泉新闻综合,甘肃,甘肃,酒泉,34,失效,0,9999,,iptvorg_cn.m3u,标清,Jiuquan TV News Comprehensive Channel (5,http://117.156.28.119/270000001111/1110000001/index.m3u8
+酒泉综合,甘肃,甘肃,,35,失效,0,9999,,Guovin iptv-api result(存活校验),未知,酒泉综合,https://3ee63cd9178a070a2db29f77915c49d4.livehwc3.cn/play.kankanlive.com/live/1702033926169975.m3u8
+金昌公共頻道 (240p) [Geo-blocked],甘肃,甘肃,,36,失效,0,9999,,iptv-org cn,未知,金昌公共頻道 (240p) [Geo-blocked],http://stream4.liveyun.hoge.cn/ch01/sd/live.m3u8
+金昌綜合頻道 (720p) [Geo-blocked],甘肃,甘肃,,37,失效,0,9999,,iptv-org cn,720P,金昌綜合頻道 (720p) [Geo-blocked],http://stream4.liveyun.hoge.cn/ch02/sd/live.m3u8
+静宁综合 (1080p),甘肃,甘肃,,38,失效,0,9999,,iptv-org cn,1080P,静宁综合 (1080p),http://117.156.28.119/270000001111/1110000147/index.m3u8
+高台电视台 (1080p),甘肃,甘肃,,39,失效,0,9999,,iptv-org cn,1080P,高台电视台 (1080p),http://117.156.28.119/270000001111/1110000146/index.m3u8
