@@ -388,6 +388,7 @@ def main():
     # 2. 归一化 + 分类 + 去重
     exclude = st.get("exclude_keywords", [])
     official = tuple(st.get("official_domains", []))
+    prevalidated = set(st.get("prevalidated_sources", []))
     channels = {}   # key -> dict
     idx = {}        # (key, url_key) -> url条目（用于多源交叉计数）
     dropped = 0
@@ -410,6 +411,8 @@ def main():
             u["sources"].add(it["source"])
             if it.get("whitelist"):
                 u["whitelist"] = True
+            if it["source"] in prevalidated:
+                u["prevalidated"] = True
             continue
         host = urlparse(it["url"]).netloc.lower()
         is_official = any(host == d or host.endswith("." + d) for d in official)
@@ -418,7 +421,8 @@ def main():
                                        "tvg_id": tid, "logo": it["logo"], "urls": []})
         u = {"url": it["url"], "official": is_official, "ip": is_ip,
              "sources": {it["source"]}, "alive": None, "lat": None,
-             "whitelist": it.get("whitelist", False)}
+             "whitelist": it.get("whitelist", False),
+             "prevalidated": it["source"] in prevalidated}
         idx[dk] = u
         ch["urls"].append(u)
     print(f"[分类] 频道 {len(channels)} 个，未归类剔除 {dropped} 条", flush=True)
@@ -473,7 +477,9 @@ def main():
     for ch in ordered:
         urls = ch["urls"]
         if probe_enabled:
-            alive_urls = [u for u in urls if u["alive"] or u.get("whitelist")]
+            major = ch["group"] in ("央视频道", "卫视频道")
+            alive_urls = [u for u in urls if u["alive"] or u.get("whitelist")
+                          or (major and u.get("prevalidated"))]
             if not alive_urls:
                 continue
             alive_urls.sort(key=u_rank)
