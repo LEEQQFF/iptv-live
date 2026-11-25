@@ -205,11 +205,14 @@ def fetch_yangshipin(max_urls=2, workers=8):
 
     def one(ch):
         slug, name, sid, pid, defn = ch
-        try:
-            urls = bk_playurls(sid, pid, defn)
-            return [(name, u) for u in urls[:max_urls]]
-        except Exception:
-            return []
+        # 清晰度降级重试：部分频道 fhd 接口失败时转 shd/hd
+        for d in (defn, 'shd', 'hd'):
+            try:
+                urls = bk_playurls(sid, pid, d)
+                return [(name, u) for u in urls[:max_urls]]
+            except Exception:
+                continue
+        return []
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as ex:
         for res in ex.map(one, CHANNELS):
