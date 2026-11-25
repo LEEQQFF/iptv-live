@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-26T01:44:37+08:00",
-  "channels": 175,
-  "urls": 346,
+  "updated_at": "2026-11-26T02:39:34+08:00",
+  "channels": 178,
+  "urls": 353,
   "probe": "filtered",
   "epg": "ok",
   "sources": {
@@ -12,7 +12,7 @@
     "iptv-org-cn": "ok (156条, https://iptv-org.github.io/iptv/countries/cn.m3u)",
     "yuanzl77": "failed",
     "guovin-iptv-api": "ok (1619条, https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u)",
-    "snrtv-official": "failed: ConnectTimeout",
+    "snrtv-official": "ok (10条, 官方动态解析)",
     "yuechan-live": "ok (96条, https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u)",
     "suxuang-ipv4": "ok (1226条, https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u)",
     "suxuang-ipv6": "ok (862条, https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u)",
