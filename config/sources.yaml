@@ -14,6 +14,8 @@ settings:
   include_other: false
   # 频道名黑名单关键词（命中即剔除）
   exclude_keywords: ["购物", "广告", "测试", "导视", "博彩", "占位", "支持作者"]
+  # 已在国内完成测速验效的上游项目：其央视/卫视接口即使境外测活失败也保留为备用线路
+  prevalidated_sources: ["guovin-iptv-api"]
   # 官方/电视台自营 CDN 域名（命中则排序优先）
   official_domains:
     - cctv.com
