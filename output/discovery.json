@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T04:28:24+08:00",
+ "updated": "2026-11-27T05:26:37+08:00",
  "mode": "light",
  "repos": [
   "vbskycn/iptv",
@@ -7,9 +7,9 @@
   "iptv-org/iptv",
   "yuanzl77/IPTV"
  ],
- "candidates": 688,
+ "candidates": 679,
  "validated": 24,
- "valid": 9,
+ "valid": 0,
  "repaired": [],
  "fail_samples": [
   {
@@ -84,6 +84,51 @@
   },
   {
    "url": "http://gslbserv.itv.cmvideo.cn/1000000001000001737/1.m3u8?channel-id=ystenlive&Contentid=1000000001000001737&livemode=1&stbId=3",
+   "reason": "http 403",
+   "from_repo": "fanmingming/live"
+  },
+  {
+   "url": "http://gslbserv.itv.cmvideo.cn/1000000001000001828/1.m3u8?channel-id=ystenlive&Contentid=1000000001000001828&livemode=1&stbId=3",
+   "reason": "http 403",
+   "from_repo": "fanmingming/live"
+  },
+  {
+   "url": "http://gslbserv.itv.cmvideo.cn/1000000001000001910/1.m3u8?channel-id=ystenlive&Contentid=1000000001000001910&livemode=1&stbId=3",
+   "reason": "http 403",
+   "from_repo": "fanmingming/live"
+  },
+  {
+   "url": "http://gslbserv.itv.cmvideo.cn/1000000001000001925/1.m3u8?channel-id=ystenlive&Contentid=1000000001000001925&livemode=1&stbId=3",
+   "reason": "http 403",
+   "from_repo": "fanmingming/live"
+  },
+  {
+   "url": "http://gslbserv.itv.cmvideo.cn/1000000001000003775/1.m3u8?channel-id=ystenlive&Contentid=1000000001000003775&livemode=1&stbId=3",
+   "reason": "http 403",
+   "from_repo": "fanmingming/live"
+  },
+  {
+   "url": "http://gslbserv.itv.cmvideo.cn/1000000001000006197/1.m3u8?channel-id=ystenlive&Contentid=1000000001000006197&livemode=1&stbId=3",
+   "reason": "http 403",
+   "from_repo": "fanmingming/live"
+  },
+  {
+   "url": "http://gslbserv.itv.cmvideo.cn/1000000001000008170/1.m3u8?channel-id=ystenlive&Contentid=1000000001000008170&livemode=1&stbId=3",
+   "reason": "http 403",
+   "from_repo": "fanmingming/live"
+  },
+  {
+   "url": "http://gslbserv.itv.cmvideo.cn/1000000001000009601/1.m3u8?channel-id=ystenlive&Contentid=1000000001000009601&livemode=1&stbId=3",
+   "reason": "http 403",
+   "from_repo": "fanmingming/live"
+  },
+  {
+   "url": "http://gslbserv.itv.cmvideo.cn/1000000001000014176/1.m3u8?channel-id=ystenlive&Contentid=1000000001000014176&livemode=1&stbId=3",
+   "reason": "http 403",
+   "from_repo": "fanmingming/live"
+  },
+  {
+   "url": "http://gslbserv.itv.cmvideo.cn/1000000001000014260/1.m3u8?channel-id=ystenlive&Contentid=1000000001000014260&livemode=1&stbId=3",
    "reason": "http 403",
    "from_repo": "fanmingming/live"
   }
