@@ -1,11 +1,15 @@
 #EXTM3U
-#EXT-X-TARGETDURATION:11
-#EXT-X-ALLOW-CACHE:NO
-#EXT-X-VERSION:3
-#EXT-X-MEDIA-SEQUENCE:1500756
-#EXTINF:10.656,
-xwzh/gb28181_xwzh_1500756.ts?type=hls
-#EXTINF:10.64,
-xwzh/gb28181_xwzh_1500757.ts?type=hls
-#EXTINF:10.656,
-xwzh/gb28181_xwzh_1500758.ts?type=hls
+##EXT-X-VERSION:3
+#EXT-X-ALLOW-CACHE:YES
+#EXT-X-TARGETDURATION:6
+#EXT-X-MEDIA-SEQUENCE:46103687
+#EXTINF:5, no desc
+live_1014_1_46103683.ts?key=txiptv&key2=46103683
+#EXTINF:5, no desc
+live_1014_1_46103684.ts?key=txiptv&key2=46103684
+#EXTINF:5, no desc
+live_1014_1_46103685.ts?key=txiptv&key2=46103685
+#EXTINF:5, no desc
+live_1014_1_46103686.ts?key=txiptv&key2=46103686
+#EXTINF:5, no desc
+live_1014_1_46103687.ts?key=txiptv&key2=46103687
