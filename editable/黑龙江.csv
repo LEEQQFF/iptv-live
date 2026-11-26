@@ -1,10 +1,9 @@
 ﻿分组,频道名称-维护,频道名称-源名,线路数,存活,失效,官方,最佳线路,ID,UID
 黑龙江,七台河新闻综合,七台河新闻综合,1,1,0,0,http://live.qthnews.org.cn:1935/live/live1/800k/tzwj_video.m3u8,七台河新闻综合,55620052f2
-黑龙江,七台河民生社教,七台河民生社教,1,0,1,0,,七台河民生社教,926d76f221
-黑龙江,双鸭山综合,双鸭山综合,1,0,1,0,,双鸭山综合,ababb1a5e5
+黑龙江,七台河民生社教,七台河民生社教,2,0,2,0,,七台河民生社教,a3fa5f8efc
 黑龙江,哈尔滨娱乐,哈尔滨娱乐,3,1,2,0,http://stream.hrbtv.net/ylpd/sd/live.m3u8?zheild,哈尔滨娱乐,ee8d5656f2
 黑龙江,哈尔滨影视,哈尔滨影视,2,1,1,0,http://stream.hrbtv.net/yspd/sd/live.m3u8?zheild,哈尔滨影视,2a1b69f24c
-黑龙江,哈尔滨新闻综合,哈尔滨新闻综合,3,1,2,0,http://stream.hrbtv.net/xwzh/sd/live.m3u8?zheild,哈尔滨新闻综合,070932a310
+黑龙江,哈尔滨新闻综合,哈尔滨新闻综合,3,1,2,0,http://stream.hrbtv.net/xwzh/sd/live.m3u8?zheild,哈尔滨新闻综合,35bdf906c2
 黑龙江,哈尔滨生活,哈尔滨生活,1,1,0,0,http://stream.hrbtv.net/shpd/sd/live.m3u8?zheild,哈尔滨生活,2f3ad8dd81
 黑龙江,哈尔滨电影,Harbin Movie Channel,1,1,0,0,https://stream.hrbtv.net/yspd/playlist.m3u8,哈尔滨电影,3316d32349
 黑龙江,哈尔滨综合新闻,Harbin Comprehensive News Channel,1,1,0,0,https://stream.hrbtv.net/xwzh/playlist.m3u8?_upt=ef41dd531755913594,哈尔滨综合新闻,f14911f33f
@@ -12,14 +11,14 @@
 黑龙江,大庆新闻综合,大庆新闻综合,1,0,1,0,,大庆新闻综合,3379a98af4
 黑龙江,甘南县综合,甘南县综合,1,1,0,0,https://stream.hrbtv.net/zxpd/sd/live.m3u8,甘南县综合,35fbcbd618
 黑龙江,鹤岗新闻综合,鹤岗新闻综合,3,0,3,0,,鹤岗新闻综合,e24f5c4041
-黑龙江,黑龙江,黑龙江,1,0,1,0,,黑龙江,6e6e583350
+黑龙江,黑龙江,黑龙江 (576p),1,0,1,0,,黑龙江,6e6e583350
 黑龙江,黑龙江农业科教,黑龙江农业科教,1,0,1,0,,黑龙江农业科教,e22e3df52a
-黑龙江,黑龙江卫,黑龙江卫,1,0,1,0,,黑龙江卫,d75f192e84
-黑龙江,黑龙江少儿,黑龙江少儿,5,1,4,0,https://ls.qingting.fm/live/4972/64k.m3u8,黑龙江少儿,1c69201705
+黑龙江,黑龙江卫,黑龙江卫 (1080p),1,0,1,0,,黑龙江卫,d75f192e84
+黑龙江,黑龙江少儿,黑龙江少儿,5,1,4,0,https://ls.qingting.fm/live/4972/64k.m3u8,黑龙江少儿,ff40437ab9
 黑龙江,黑龙江影视,黑龙江影视,4,0,4,0,,黑龙江影视,3dd52b35fa
 黑龙江,黑龙江文体,黑龙江文体,6,1,5,0,https://idclive.hljtv.com:4430/live/hljwy_hd.m3u8,黑龙江文体,838a819619
-黑龙江,黑龙江新闻,黑龙江新闻,3,1,2,0,https://ls.qingting.fm/live/4974/64k.m3u8,黑龙江新闻,4e0f3a1a20
-黑龙江,黑龙江新闻法治,黑龙江新闻法治,5,0,5,0,,黑龙江新闻法治,cae391f5ad
+黑龙江,黑龙江新闻,黑龙江新闻,4,1,3,0,https://ls.qingting.fm/live/4974/64k.m3u8,黑龙江新闻,27f03e348e
+黑龙江,黑龙江新闻法治,黑龙江新闻法治,4,0,4,0,,黑龙江新闻法治,0ac6fb317b
 黑龙江,黑龙江视,黑龙江视,1,0,1,0,,黑龙江视,1a691b7610
 黑龙江,黑龙江都市,黑龙江都市,6,1,5,0,https://idclive.hljtv.com:4430/live/dushi_hd.m3u8,黑龙江都市,64dc6183d5
 黑龙江,齐齐哈尔新闻综合,齐齐哈尔新闻综合,3,0,3,0,,齐齐哈尔新闻综合,c382cab1eb

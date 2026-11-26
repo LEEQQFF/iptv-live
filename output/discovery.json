@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T02:11:04+08:00",
+ "updated": "2026-11-27T03:26:45+08:00",
  "mode": "light",
  "repos": [
   "vbskycn/iptv",
@@ -7,9 +7,9 @@
   "iptv-org/iptv",
   "yuanzl77/IPTV"
  ],
- "candidates": 708,
+ "candidates": 695,
  "validated": 24,
- "valid": 13,
+ "valid": 12,
  "repaired": [],
  "fail_samples": [
   {
@@ -66,6 +66,11 @@
    "url": "http://51.210.199.58/hls/stream.m3u8",
    "reason": "ConnectTimeout",
    "from_repo": "iptv-org/iptv"
+  },
+  {
+   "url": "http://channel.wcrmt.cn:80/nmip-media/channellive/channel105268/playlist.m3u8",
+   "reason": "ConnectionError",
+   "from_repo": "vbskycn/iptv"
   }
  ],
  "active_sources": 30,
@@ -612,6 +617,94 @@
    "direct": false,
    "name": "",
    "last_ok": "2026-11-27T02:11:04+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://ali-vl.cztv.com/channels/lantian/channel004/360p.m3u8",
+   "enabled": false,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T03:26:45+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://ali-vl.cztv.com/channels/lantian/channel006/360p.m3u8",
+   "enabled": false,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.txt",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T03:26:45+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://ali-vl.cztv.com/channels/lantian/channel007/360p.m3u8",
+   "enabled": false,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.txt",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T03:26:45+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://ali-vl.cztv.com/channels/lantian/channel008/360p.m3u8",
+   "enabled": false,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.txt",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T03:26:45+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://ali-vl.cztv.com/channels/lantian/channel009/360p.m3u8",
+   "enabled": false,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T03:26:45+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://ali-vl.cztv.com/channels/lantian/channel010/360p.m3u8",
+   "enabled": false,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.txt",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T03:26:45+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8",
+   "enabled": false,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.txt",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T03:26:45+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://ali-xwl.cztv.com/live/channel021080Plxw.m3u8",
+   "enabled": false,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.txt",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T03:26:45+08:00",
    "fail_count": 0
   }
  ]
