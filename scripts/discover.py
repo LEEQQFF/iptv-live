@@ -290,6 +290,8 @@ def main() -> None:
                 "items": v.get("items", 0),
                 "from_repo": c.get("from_repo", ""),
                 "from_file": c.get("from_file", ""),
+                "direct": bool(c.get("direct")),
+                "name": c.get("name", ""),
                 "last_ok": now_cn(),
                 "fail_count": 0,
             }

@@ -164,7 +164,12 @@ def load_dynamic_sources(cfg: dict) -> list[dict]:
                 if k in seen:
                     continue
                 seen.add(k)
-                extra.append({"name": f"auto-{len(extra) + 1:02d}", "urls": [u]})
+                label = str(e.get("name") or "").strip()[:60]
+                if e.get("direct") and label:
+                    extra.append({"name": f"auto-{len(extra) + 1:02d}", "type": "manual",
+                                  "entries": [{"name": label, "url": u}]})
+                else:
+                    extra.append({"name": f"auto-{len(extra) + 1:02d}", "urls": [u]})
         except Exception as e:
             print(f"[动态源] 自动发现配置读取失败：{type(e).__name__}", flush=True)
 
