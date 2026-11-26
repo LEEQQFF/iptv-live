@@ -206,6 +206,7 @@ def validate(url: str) -> dict:
         r = requests.get(url, headers={"User-Agent": UA}, timeout=16)
         if r.status_code != 200 or not r.text:
             return {"ok": False, "reason": f"http {r.status_code}"}
+        text = r.text[:1_500_000]
         items = legacy.parse_m3u(text, "probe")
         urls = [i["url"] for i in items if i.get("url", "").startswith("http")]
         if urls:
