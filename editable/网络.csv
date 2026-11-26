@@ -126,7 +126,7 @@
 网络,IHOT爱都市,2,0,2,0,,ihot爱都市
 网络,IHOT爱青春,2,0,2,0,,ihot爱青春
 网络,iNews新闻台,1,0,1,0,,inews新闻台
-网络,ION,5,1,4,0,http://hwapi.yntv.net/ew265l/848y54.m3u8,ion
+网络,ION,6,1,5,0,http://hwapi.yntv.net/ew265l/848y54.m3u8,ion
 网络,ION Plus,1,0,1,0,,ionplus
 网络,IPTV4K,1,0,1,0,,iptv4k
 网络,J2,3,0,3,0,,j2
@@ -722,9 +722,9 @@
 网络,生态环境,1,0,1,0,,生态环境
 网络,生活,1,0,1,0,,生活
 网络,生活时尚,7,0,7,0,,生活时尚
-网络,电影,115,2,81,0,https://epg.pw/stream/ffcb6572863f0745a7369fbd9d901f1dfd0ab8fab8bad8bebb4e01c90b303c47.m3u8,电影
+网络,电影,116,3,81,0,http://live-play.zxstv.com.cn/zhongxuesheng/zhongxuesheng.m3u8,电影
 网络,电影世界,1,0,1,0,,电影世界
-网络,电影中学,2,1,1,0,http://live-play.zxstv.com.cn/zhongxuesheng/zhongxuesheng.m3u8,电影中学
+网络,电影中学,1,0,1,0,,电影中学
 网络,番薯台,1,0,1,0,,番薯台
 网络,百事通体育1,1,0,1,0,,百事通体育1
 网络,百事通体育2,1,0,1,0,,百事通体育2
