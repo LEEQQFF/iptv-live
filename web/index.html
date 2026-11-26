@@ -27,16 +27,19 @@ main{padding:16px 22px}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px;margin-bottom:12px}
 .card h3{margin:0 0 8px;font-size:14px}
 .toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
-input,select{background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:6px;padding:7px 10px}
-input{flex:1;min-width:180px}
+input,select,textarea{background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:6px;padding:7px 10px}
+input{flex:1;min-width:150px}
+textarea{width:100%;min-height:86px;resize:vertical;font:12px/1.5 ui-monospace,Menlo,Consolas,monospace}
 button{background:var(--accent);color:#fff;border:none;border-radius:6px;padding:8px 13px;cursor:pointer}
 button.ghost{background:var(--panel2);color:var(--text);border:1px solid var(--line)}
+button.mini{padding:2px 7px;font-size:10px;background:var(--panel2);color:#79c0ff;border:1px solid var(--line)}
 table{border-collapse:collapse;width:100%;font-size:12px}
 th,td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
 th{position:sticky;top:0;background:var(--panel);color:var(--muted);font-size:11px;z-index:2}
 tr[draggable=true]{cursor:grab}tr.drag-over{outline:2px dashed var(--accent)}
-.ch{font-weight:600}.src{color:var(--muted);font-size:11px;word-break:break-all;max-width:240px}
-.url{color:#79c0ff;font-size:11px;word-break:break-all;max-width:340px}
+.ch{font-weight:600}.src{color:var(--muted);font-size:11px;word-break:break-all;max-width:220px}
+.url{color:#79c0ff;font-size:11px;word-break:break-all;max-width:300px}
+.rowinput{width:150px;min-width:120px;padding:4px 7px;font-size:12px}
 .pill{display:inline-block;border-radius:10px;padding:1px 7px;font-size:10px;white-space:nowrap}
 .alive{background:#3fb95022;color:var(--ok)}.dead{background:#f8514922;color:var(--bad)}
 .official{background:#d2992233;color:#e3b341}.unknown{background:#8b949e22;color:var(--muted)}
@@ -47,14 +50,18 @@ tr[draggable=true]{cursor:grab}tr.drag-over{outline:2px dashed var(--accent)}
 .addr code{background:#0d1117;border:1px solid var(--line);border-radius:5px;padding:5px 8px;word-break:break-all;flex:1;font-size:11px;color:#a5d6ff;min-width:0}
 .badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:10px;background:var(--chip);color:#79c0ff;white-space:nowrap}
 .note{color:var(--warn);font-size:11px}
-.toast{position:fixed;bottom:20px;right:20px;background:var(--accent);color:#fff;padding:10px 16px;border-radius:8px;display:none;z-index:50;max-width:340px}
-.layout{display:grid;grid-template-columns:210px 1fr;gap:16px}
+.oknote{color:var(--ok);font-size:11px}
+.toast{position:fixed;bottom:20px;right:20px;background:var(--accent);color:#fff;padding:10px 16px;border-radius:8px;display:none;z-index:50;max-width:380px}
+.layout{display:grid;grid-template-columns:230px 1fr;gap:16px}
 aside{border-right:1px solid var(--line);padding-right:12px;max-height:calc(100vh - 240px);overflow:auto;position:sticky;top:200px}
 aside h3{font-size:12px;color:var(--muted);margin:6px 0}
-.glist{list-style:none;margin:0;padding:0}.glist li{padding:6px 9px;border-radius:6px;cursor:pointer;display:flex;justify-content:space-between}
+.glist{list-style:none;margin:0;padding:0}.glist li{padding:6px 9px;border-radius:6px;cursor:pointer;display:flex;gap:6px;justify-content:space-between;align-items:center}
 .glist li:hover{background:var(--panel2)}.glist li.active{background:var(--chip)}.gcount{color:var(--muted);font-size:11px}
+.gname{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .openbtn{background:var(--panel2);color:#79c0ff;border:1px solid var(--line);padding:5px 9px;border-radius:5px;font-size:11px}
-@media(max-width:900px){.layout{grid-template-columns:1fr}aside{position:static;max-height:180px}}
+details{margin-top:10px}summary{cursor:pointer;color:var(--muted);font-size:12px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:900px){.layout,.split{grid-template-columns:1fr}aside{position:static;max-height:180px}}
 </style>
 </head>
 <body>
@@ -74,16 +81,42 @@ aside h3{font-size:12px;color:var(--muted);margin:6px 0}
 <main>
   <div class="view active" id="v-addr">
     <div class="card">
-      <h3>公网 M3U 订阅地址（点击右侧按钮复制，粘贴到播放器 / SparkTV）</h3>
+      <h3>公网 M3U 订阅地址（已压缩为极简短链，点右侧按钮复制）</h3>
       <div id="addrList"></div>
-      <div class="note" id="addrNote">主订阅仅含严格检活存活线路（每频道≤5条、规范化短名称）；全量版含失效线路供排查。CDN 通道在国内外均可用，推荐优先使用；raw 通道在部分网络下 TLS 可能失败。</div>
+      <div class="note" id="addrNote">极简短链无扩展名，兼容 SparkTV / VLC / PotPlayer；若播放器强制要求 .m3u，请使用“规范订阅”。主订阅仅含严格检活存活线路（每频道≤5条、规范短名称）。</div>
+      <details>
+        <summary>展开较长备用地址（CDN / raw / 管理台）</summary>
+        <div id="backupAddr" style="margin-top:10px"></div>
+      </details>
     </div>
   </div>
 
   <div class="view" id="v-subs">
     <div class="card">
-      <h3>订阅地址清单（config/sources.yaml 全部源）</h3>
-      <div class="sub">含原有 16 个源 + SparkTV 默认订阅地址清单 11 个地址 + channels.json 内置库，共 <span id="subCount"></span> 个。</div>
+      <h3>① 自动添加 / 监测修正</h3>
+      <div class="sub">自动解析订阅地址的 GitHub 上层仓库（README + 仓库树），发现更多可用 m3u/m3u8/txt 并校验；失效源自动在上层仓库寻找替代路径。</div>
+      <div class="toolbar" style="margin-top:10px">
+        <button id="autoBtn">自动检索全网订阅地址并修正</button>
+        <span class="note" id="discoveryText">加载中…</span>
+      </div>
+    </div>
+    <div class="card">
+      <h3>② 手动添加订阅地址 / 直播源</h3>
+      <div class="split">
+        <div>
+          <select id="manualType">
+            <option value="subscription">订阅地址（每行一个 m3u/m3u8/txt 地址）</option>
+            <option value="stream">单个直播源（支持 #EXTINF / “名称,URL” / 纯 URL）</option>
+          </select>
+          <input id="manualName" placeholder="源名称（可留空自动生成）" style="margin-top:8px">
+          <button id="manualBtn" style="margin-top:8px">添加并加入全链条</button>
+          <div class="note" style="margin-top:8px">提交后机器人自动执行：聚合 → 名称正确性/准确性/规范性检查修正 → 去重 → 归类 → 严格检活 → 官方源置顶 → 更新 GitHub 与公网订阅。</div>
+        </div>
+        <textarea id="manualText" placeholder="https://example.com/list.m3u&#10;https://example.com/channel.m3u8&#10;&#10;#EXTINF:-1,央视综合&#10;https://example.com/cctv1.m3u8"></textarea>
+      </div>
+    </div>
+    <div class="card">
+      <h3>订阅地址清单（共 <span id="subCount"></span> 个源）</h3>
       <table><thead><tr><th>源名称</th><th>地址</th><th>状态</th><th>条目数</th></tr></thead><tbody id="subBody"></tbody></table>
     </div>
   </div>
@@ -96,12 +129,15 @@ aside h3{font-size:12px;color:var(--muted);margin:6px 0}
       </aside>
       <div>
         <div class="toolbar">
-          <input id="q" placeholder="搜索频道 / 来源 / URL">
+          <input id="q" placeholder="搜索维护名 / 源名 / 来源 / URL">
           <select id="statusFilter"><option value="all">全部状态</option><option value="alive">仅存活</option><option value="dead">仅失效</option></select>
-          <button class="ghost" id="exportBtn">导出归类 JSON</button>
-          <span class="note">拖动频道行到左侧分组可调整归类</span>
+          <input id="newGroup" placeholder="新分组名称" style="max-width:160px">
+          <button class="ghost" id="addGroupBtn">新增分组</button>
+          <label class="note"><input type="checkbox" id="urlToggle" style="flex:none"> 显示 URL</label>
+          <button class="ghost" id="exportBtn">导出修改 JSON</button>
         </div>
-        <table id="tbl"><thead><tr><th>频道</th><th>来源</th><th>状态</th><th>延迟</th><th>URL</th></tr></thead><tbody></tbody></table>
+        <div class="note" style="margin-bottom:10px">修改维护名后按回车即提交；拖动频道行到左侧分组完成归类调整。提交后机器人自动重新归类并发布到公网订阅。需要查看/复制 URL 时勾选“显示 URL”。</div>
+        <table id="tbl"><thead><tr><th>频道名称-维护</th><th>频道名称-源名</th><th>分组</th><th>来源</th><th>状态</th><th>延迟</th><th id="urlTh" style="display:none">URL</th></tr></thead><tbody></tbody></table>
       </div>
     </div>
   </div>
@@ -135,15 +171,15 @@ aside h3{font-size:12px;color:var(--muted);margin:6px 0}
 <div class="toast" id="toast"></div>
 
 <!-- data.js 以 JS 全局变量提供数据，兼容 file:// 与所有浏览器（不受 fetch/CORS 限制）；
-     若通过 http(s) 访问再用 fetch 拉取最新版本覆盖，从而实现实时刷新。 -->
+     http(s) 下再 fetch data.json 覆盖，实现近实时刷新。 -->
 <script src="data.js"></script>
 <script>
-let DATA=(window.__IPTV_DATA__&&window.__IPTV_DATA__.groups)?window.__IPTV_DATA__:{groups:[],subscriptions:[],addresses:{},meta:{}},CUR='',q='',sf='all',SRCFILTER='';
+let DATA=(window.__IPTV_DATA__&&window.__IPTV_DATA__.groups)?window.__IPTV_DATA__:{groups:[],subscriptions:[],addresses:{},meta:{},discovery:{}},CUR='',q='',sf='all',SRCFILTER='',SHOWURL=false;
+const REPO='https://github.com/LEEQQFF/iptv-live';
 
-function toast(m){const t=document.getElementById('toast');t.textContent=m;t.style.display='block';clearTimeout(t._t);t._t=setTimeout(()=>t.style.display='none',2200)}
+function toast(m){const t=document.getElementById('toast');t.textContent=m;t.style.display='block';clearTimeout(t._t);t._t=setTimeout(()=>t.style.display='none',2600)}
 
-/* 一键复制：优先 navigator.clipboard（需安全上下文），失败则回退 execCommand；
-   最后兜底选中文本提示手动复制。任何浏览器/协议下都不会“无反应”。 */
+/* 一键复制：优先 clipboard API，非安全上下文回退 execCommand，任何浏览器都可用 */
 function copyText(text){
   if(!text){toast('内容为空，无法复制');return Promise.resolve(false)}
   if(navigator.clipboard&&navigator.clipboard.writeText&&window.isSecureContext){
@@ -165,24 +201,22 @@ function legacyCopy(text){
 function copy(id){
   const el=document.getElementById(id);
   const v=el?(el.dataset.url||el.textContent.trim()):'';
-  copyText(v).then(ok=>toast(ok?'已复制到剪贴板':'复制失败，请手动选中地址复制'));
+  copyText(v).then(ok=>toast(ok?'已复制到剪贴板':'复制失败，请手动选中复制'));
 }
-function copyVal(text){copyText(text).then(ok=>toast(ok?'已复制到剪贴板':'复制失败，请手动选中地址复制'))}
+function copyVal(text){copyText(text).then(ok=>toast(ok?'已复制到剪贴板':'复制失败，请手动选中复制'))}
+function copyCell(btn){copyText(btn.dataset.url||btn.parentElement.textContent.trim()).then(ok=>toast(ok?'URL 已复制':'复制失败，请手动复制'))}
 
 function flatten(){const o=[];DATA.groups.forEach(g=>g.channels.forEach((c,i)=>o.push({g:g.name,c,i})));return o}
+function channelKey(c){return c.uid||c.id||c.name}
 
-/* 实时刷新：http(s) 下用 fetch 拉取最新 data.json 覆盖内嵌数据；
-   file:// 下 fetch 会被 CORS 拦截，静默忽略即可（已有 data.js 数据）。 */
 function refreshData(){
   if(!/^https?:$/.test(location.protocol))return;
   fetch('data.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).then(d=>{
-    if(d&&d.groups&&d.groups.length){DATA=d;window.__IPTV_DATA__=d;renderAll();toast('已获取最新数据')}
+    if(d&&d.groups&&d.groups.length){DATA=d;window.__IPTV_DATA__=d;renderAll()}
   }).catch(()=>{});
 }
 function init(){
-  renderAll();
-  refreshData();
-  setInterval(refreshData,5*60*1000); // 每 5 分钟自动刷新一次（ Pages / http 场景）
+  renderAll();refreshData();setInterval(refreshData,60*1000);
   document.querySelectorAll('button.tab').forEach(b=>b.onclick=()=>{
     document.querySelectorAll('button.tab').forEach(x=>x.classList.remove('active'));
     document.querySelectorAll('.view').forEach(x=>x.classList.remove('active'));
@@ -191,45 +225,121 @@ function init(){
   document.getElementById('q').oninput=e=>{q=e.target.value.toLowerCase();renderList()};
   document.getElementById('statusFilter').onchange=e=>{sf=e.target.value;renderList()};
   document.getElementById('exportBtn').onclick=exportJSON;
+  document.getElementById('urlToggle').onchange=e=>{SHOWURL=e.target.checked;document.getElementById('urlTh').style.display=SHOWURL?'':'none';renderList()};
+  document.getElementById('addGroupBtn').onclick=addGroup;
+  document.getElementById('manualBtn').onclick=manualAdd;
+  document.getElementById('autoBtn').onclick=autoDiscover;
+  document.getElementById('newGroup').onkeydown=e=>{if(e.key==='Enter')addGroup()};
+}
+
+/* 网页是静态站点，不能匿名写仓库；修改生成带标记的 GitHub Issue，
+   Action 读取后写回 config/manual_overrides.json，重跑流水线并发布公网订阅。 */
+function submitIssue(ops,title){
+  if(!ops||!ops.length){toast('没有可提交的修改');return}
+  if(!confirm(title+'\n\n将打开 GitHub 提交页；点击 Submit 后机器人自动写入仓库并刷新公网订阅。是否继续？'))return;
+  const body='<!-- iptv-live:apply -->\n```json\n'+JSON.stringify({ops},null,1)+'\n```\n';
+  const url=REPO+'/issues/new?'+new URLSearchParams({title,labels:'web-edit',body});
+  window.open(url,'_blank','noopener');
+  toast('已打开 GitHub 提交页，请点击 Submit new issue');
+}
+function renameChannel(input){
+  const name=input.value.trim();if(!name)return;
+  const ops=[{op:'rename_channel',key:input.dataset.key,name}];
+  submitIssue(ops,'维护频道名称：'+name);
+}
+function addGroup(){
+  const el=document.getElementById('newGroup');const name=el.value.trim();
+  if(!name){toast('请输入分组名称');return}
+  if(DATA.groups.some(g=>g.name===name)){toast('分组已存在');return}
+  DATA.groups.push({name,channels:[]});el.value='';renderGroups();renderAll();
+  submitIssue([{op:'add_group',name}],'新增分组：'+name);
+}
+function renameGroup(name){
+  const to=prompt('将分组「'+name+'」重命名为：',name);
+  if(!to||to.trim()===name)return;
+  const n=to.trim();
+  const g=DATA.groups.find(x=>x.name===name);if(g)g.name=n;
+  if(CUR===name)CUR=n;
+  renderAll();submitIssue([{op:'rename_group',from:name,to:n}],'重命名分组：'+name+' → '+n);
+}
+function sourceName(u){try{return 'web-'+new URL(u).hostname.slice(0,18)}catch(e){return 'web-source'}}
+function parseManual(text,mode,name){
+  const lines=text.split(/\r?\n/).map(s=>s.trim()).filter(Boolean);const ops=[];
+  if(mode==='subscription'){
+    lines.filter(u=>/^https?:\/\//.test(u)).forEach(u=>ops.push({op:'add_source',name:name||sourceName(u),url:u}));
+  }else{
+    let pending='';const entries=[];
+    lines.forEach(line=>{
+      if(line.startsWith('#EXTINF')){pending=line.split(',').pop().trim();return}
+      if(/^https?:\/\//.test(line)){entries.push({name:pending||name||'手动直播源',url:line});pending='';return}
+      const m=line.match(/^([^,]{1,60}),\s*(https?:\/\/\S+)$/);
+      if(m)entries.push({name:m[1].trim(),url:m[2].trim()});
+    });
+    if(entries.length)ops.push({op:'add_source',name:name||'web-手动直播源',url:entries[0].url,entries:entries.slice(0,200)});
+  }
+  return ops;
+}
+function manualAdd(){
+  const text=document.getElementById('manualText').value.trim();
+  if(!text){toast('请粘贴订阅地址或直播源');return}
+  const mode=document.getElementById('manualType').value;
+  const name=document.getElementById('manualName').value.trim();
+  const ops=parseManual(text,mode,name);
+  if(!ops.length){toast('未识别到有效的 http(s) 地址');return}
+  submitIssue(ops,'手动添加 '+(mode==='subscription'?'订阅地址':'直播源')+'（'+ops.length+'项）');
+}
+function autoDiscover(){
+  submitIssue([{op:'discover',scope:'all'}],'自动检索全网订阅地址并修正上游直播源');
 }
 
 function renderMeta(){
-  const s=DATA.meta||{};
+  const s=DATA.meta||{};const d=DATA.discovery||{};
   document.getElementById('meta').textContent=`更新 ${DATA.updated||''} ・ 源 ${s.source_count||0} ・ 频道 ${s.channels||0} ・ 线路 ${s.streams||0} ・ 存活 ${s.alive_streams||0} ・ 官方 ${s.official_streams||0}`;
-  const items=[['订阅源',s.source_count||0],['频道',s.channels||0],['线路',s.streams||0],['存活',s.alive_streams||0],['失效',(s.streams||0)-(s.alive_streams||0)],['官方源',s.official_streams||0],['分组',DATA.groups.length]];
+  const items=[['订阅源',s.source_count||0],['动态源',s.dynamic_sources||0],['频道',s.channels||0],['线路',s.streams||0],['存活',s.alive_streams||0],['官方源',s.official_streams||0],['分组',DATA.groups.length],['自动发现',d.active_sources||0]];
   document.getElementById('stats').innerHTML=items.map(x=>`<div class="stat"><b>${x[1]}</b><span>${x[0]}</span></div>`).join('');
 }
 
+function addrRow(r,i){
+  return `<div class="addr"><span class="badge">${r[0]}</span><code id="a-${i}" data-url="${escAttr(r[2])}">${escapeHtml(r[2])}</code>`+
+    `<span class="badge">${r[2].length} 字符</span>`+
+    `<button class="ghost" onclick="copy('a-${i}')">复制</button>`+
+    `<a class="openbtn" href="${escAttr(r[2])}" target="_blank" rel="noopener">打开</a></div>`;
+}
 function renderAddr(){
   const a=DATA.addresses||{};
-  const rows=[
-    ['CDN·主订阅(推荐)','primary',a.primary],
-    ['Pages·主订阅','pages',a.pages],
-    ['CDN·全量备用','all',a.all],
-    ['官方 EPG','epg',a.epg],
-    ['raw·主订阅(备用)','raw',a.raw],
-    ['管理台网址','web',a.web],
-  ].filter(r=>r[2]);
-  document.getElementById('addrList').innerHTML=rows.map((r,i)=>
-    `<div class="addr"><span class="badge">${r[0]}</span><code id="a-${r[1]}" data-url="${escAttr(r[2])}">${escapeHtml(r[2])}</code>`+
-    `<button class="ghost" onclick="copy('a-${r[1]}')">复制</button>`+
-    `<a class="openbtn" href="${escAttr(r[2])}" target="_blank" rel="noopener">打开</a></div>`).join('');
+  const short=[['极简短链（推荐）',a.ultra],['规范订阅（.m3u）',a.primary],['全量订阅',a.all],['官方 EPG',a.epg]].filter(r=>r[1]);
+  const backup=[['管理台',a.web],['CDN 备用',a.cdn],['raw 备用',a.raw]].filter(r=>r[1]);
+  document.getElementById('addrList').innerHTML=short.map((r,i)=>addrRow(r,'s'+i)).join('');
+  document.getElementById('backupAddr').innerHTML=backup.map((r,i)=>addrRow(r,'b'+i)).join('');
 }
 
+function renderDiscovery(){
+  const d=DATA.discovery||{};
+  const el=document.getElementById('discoveryText');
+  if(!d.updated){el.textContent='尚无巡检记录，下一次滚动维护自动执行';return}
+  el.innerHTML=`上次巡检 ${escapeHtml(d.updated)} ・模式 ${escapeHtml(d.mode||'light')} ・候选 ${d.candidates||0} ・有效 ${d.valid||0} ・启用 ${d.active_sources||0} ・修正 ${(d.repaired||[]).length}`;
+}
 function renderSubs(){
   const list=DATA.subscriptions||[];
   document.getElementById('subCount').textContent=list.length;
   document.getElementById('subBody').innerHTML=list.map(s=>{
     const cls=(s.status||'').startsWith('ok')?'alive':'dead';
-    return `<tr><td>${escapeHtml(s.name)}</td><td class="url">${escapeHtml(s.url||'内置/动态源')}</td><td><span class="pill ${cls}">${escapeHtml(s.status||'-')}</span></td><td>${s.items||0}</td></tr>`;
+    const url=s.url||'内置/动态源';
+    return `<tr><td>${escapeHtml(s.name)}</td><td class="url">${escapeHtml(url)}</td><td><span class="pill ${cls}">${escapeHtml(s.status||'-')}</span></td><td>${s.items||0}</td></tr>`;
   }).join('');
+  renderDiscovery();
 }
 
 function renderGroups(){
-  document.getElementById('groupDesc').textContent=`${DATA.groups.length} 个分组：央视（CCTV1-17）、央视系列、卫视、34 省级行政区（港澳台单列）、网络。`;
+  document.getElementById('groupDesc').textContent=`${DATA.groups.length} 个分组：央视（CCTV1-17）、央视系列、卫视、34 省级行政区（港澳台单列）、网络；支持新增和重命名。`;
   const ul=document.getElementById('groups');
-  ul.innerHTML=DATA.groups.map(g=>`<li data-g="${escAttr(g.name)}" class="${g.name===CUR?'active':''}" ondrop="dropChannel(event,'${escJs(g.name)}')" ondragover="event.preventDefault()"><span>${escapeHtml(g.name)}</span><span class="gcount">${g.channels.length}</span></li>`).join('');
-  ul.querySelectorAll('li').forEach(li=>li.onclick=()=>{CUR=CUR===li.dataset.g?'':li.dataset.g;renderGroups();renderList()});
+  ul.innerHTML=DATA.groups.map(g=>`<li data-g="${escAttr(g.name)}" class="${g.name===CUR?'active':''}" ondrop="dropChannel(event,'${escJs(g.name)}')" ondragover="event.preventDefault()">`+
+    `<span class="gname" title="${escAttr(g.name)}">${escapeHtml(g.name)}</span><span class="gcount">${g.channels.length}</span>`+
+    `<button class="mini" data-g="${escAttr(g.name)}" onclick="renameGroup(this.dataset.g)">改</button></li>`).join('');
+  ul.querySelectorAll('li').forEach(li=>li.onclick=e=>{
+    if(e.target.closest('button'))return;
+    CUR=CUR===li.dataset.g?'':li.dataset.g;renderGroups();renderList()
+  });
 }
 
 function visibleStreams(c){
@@ -238,10 +348,9 @@ function visibleStreams(c){
     if(sf==='dead'&&s.status==='dead')return false;
     if(SRCFILTER&&!(s.sources||[]).includes(SRCFILTER)&&s.src!==SRCFILTER)return false;
     if(!q)return true;
-    return (c.name+c.id+(s.sources||[]).join('')+s.url).toLowerCase().includes(q);
+    return (c.name+(c.name_source||'')+c.id+(s.sources||[]).join('')+s.url).toLowerCase().includes(q);
   });
 }
-
 function renderList(){
   const rows=[];
   DATA.groups.forEach(g=>{
@@ -251,25 +360,37 @@ function renderList(){
         const pill=s.official?'<span class="pill official">官方</span>':
           `<span class="pill ${s.status}">${s.status==='alive'?'存活':s.status==='dead'?'失效':'未检'}</span>`;
         const src=(s.sources||[]).join(' / ')||s.src||'-';
-        rows.push(`<tr draggable="true" data-g="${escAttr(g.name)}" data-i="${ci}"><td class="ch">${escapeHtml(c.name)}</td><td class="src">${escapeHtml(src)}</td><td>${pill}</td><td>${typeof s.ms==='number'&&s.ms<9000?s.ms+'ms':'-'}</td><td class="url">${escapeHtml(s.url)}</td></tr>`);
+        const key=escAttr(channelKey(c));
+        rows.push(`<tr draggable="true" data-g="${escAttr(g.name)}" data-i="${ci}">`+
+          `<td><input class="rowinput" value="${escAttr(c.name)}" data-key="${key}" onchange="renameChannel(this)" onkeydown="if(event.key==='Enter')this.blur()" title="手动维护频道名，回车提交"></td>`+
+          `<td class="src" title="${escAttr(c.name_source||'')}">${escapeHtml(c.name_source||c.name)}</td>`+
+          `<td>${escapeHtml(g.name)}</td><td class="src">${escapeHtml(src)}</td><td>${pill}</td>`+
+          `<td>${typeof s.ms==='number'&&s.ms<9000?s.ms+'ms':'-'}</td>`+
+          (SHOWURL?`<td class="url"><button class="mini" data-url="${escAttr(s.url)}" onclick="copyCell(this)">复制</button> ${escapeHtml(s.url)}</td>`:'')+
+          `</tr>`);
       });
     });
   });
   const tb=document.querySelector('#tbl tbody');tb.innerHTML=rows.join('');
-  tb.querySelectorAll('tr[draggable]').forEach(tr=>tr.ondragstart=e=>e.dataTransfer.setData('text/plain',tr.dataset.g+'|'+tr.dataset.i));
+  tb.querySelectorAll('tr[draggable]').forEach(tr=>tr.ondragstart=e=>{
+    const g=DATA.groups.find(x=>x.name===tr.dataset.g);
+    const ch=g&&g.channels[parseInt(tr.dataset.i,10)];
+    e.dataTransfer.setData('text/plain',tr.dataset.g+'|'+tr.dataset.i+'|'+(ch?channelKey(ch):''));
+  });
 }
-
 function dropChannel(e,target){
   e.preventDefault();
   const raw=e.dataTransfer.getData('text/plain');if(!raw)return;
-  const [from,iStr]=raw.split('|');const ci=parseInt(iStr,10);
+  const [from,iStr,key]=raw.split('|');const ci=parseInt(iStr,10);
   if(from===target||Number.isNaN(ci))return;
   const src=DATA.groups.find(g=>g.name===from);
   if(!src||!src.channels[ci])return;
   const [ch]=src.channels.splice(ci,1);
   let dst=DATA.groups.find(g=>g.name===target);
   if(!dst){dst={name:target,channels:[]};DATA.groups.push(dst)}
-  dst.channels.push(ch);CUR=target;renderGroups();renderAll();toast(`已将「${ch.name}」归类到 ${target}`);
+  dst.channels.push(ch);CUR=target;renderGroups();renderAll();
+  toast(`已将「${ch.name}」归类到 ${target}`);
+  submitIssue([{op:'move_channel',key:key||channelKey(ch),group:target}],'调整归类：'+ch.name+' → '+target);
 }
 
 function renderRel(){
@@ -295,7 +416,6 @@ function renderGroup(){
     return `<div class="card"><b>${escapeHtml(g.name)}</b><div class="sub">${g.channels.length} 频道 / ${t} 线路 / 存活 ${a}</div><div class="bar"><i class="ok" style="width:${t?a/t*100:0}%"></i></div></div>`;
   }).join('');
 }
-
 function renderHealth(){
   let alive=0,dead=0,other=0,official=0;
   flatten().forEach(({c})=>c.streams.forEach(s=>{
@@ -320,15 +440,12 @@ function renderHealth(){
 }
 
 function renderAll(){renderMeta();renderAddr();renderSubs();renderGroups();renderList();renderRel();renderGroup();renderHealth()}
-
 function exportJSON(){
-  const out={schema:4,updated:new Date().toISOString(),grouping:DATA.groups.map(g=>g.name),groups:DATA.groups};
+  const out={schema:5,updated:new Date().toISOString(),grouping:DATA.groups.map(g=>g.name),groups:DATA.groups};
   const b=new Blob([JSON.stringify(out,null,1)],{type:'application/json'});
   const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='channels-edited.json';a.click();
-  URL.revokeObjectURL(a.href);toast('已导出，请上传到仓库 channels.json 生效');
+  URL.revokeObjectURL(a.href);toast('已导出本地 JSON（正式生效请使用页面内的修改提交）');
 }
-
-/* HTML/JS 转义，避免频道名或 URL 中的引号、尖括号破坏 DOM 或注入 */
 function escapeHtml(s){return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function escAttr(s){return escapeHtml(s)}
 function escJs(s){return String(s==null?'':s).replace(/['"\\]/g,c=>'\\'+c).replace(/</g,'\\u003c')}

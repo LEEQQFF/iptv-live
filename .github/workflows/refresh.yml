@@ -35,6 +35,11 @@ jobs:
       - name: 安装依赖
         run: pip install -r requirements.txt
 
+      - name: 订阅地址监测 / 上层仓库发现与修正（轻量）
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/discover.py --light
+
       - name: 滚动刷新（抓取→聚合→去重→归类→严格检活→官方置顶→导出）
         run: python scripts/pipeline.py
 
@@ -42,12 +47,15 @@ jobs:
         run: |
           mkdir -p output/web
           cp web/index.html web/data.json web/data.js output/web/
+          cp iptv-live.m3u output/l.m3u
+          cp iptv-live.m3u output/l
+          cp iptv-live-all.m3u output/a.m3u
 
       - name: 提交全链条产物
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add channels.json iptv-live.m3u iptv-live-all.m3u web output/web output/status.json editable tools/cache
+          git add channels.json iptv-live.m3u iptv-live-all.m3u web output/web output/status.json output/discovery.json output/l.m3u output/l output/a.m3u editable tools/cache config/auto_sources.json config/manual_overrides.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "本次无变化"
           else
@@ -65,6 +73,10 @@ jobs:
           cp web/index.html web/data.json web/data.js _site/web/
           cp iptv-live.m3u _site/manual-live.m3u
           cp iptv-live-all.m3u _site/manual-live-all.m3u
+          cp iptv-live.m3u _site/l.m3u
+          cp iptv-live.m3u _site/l
+          cp iptv-live-all.m3u _site/a.m3u
+          cp output/e.xml _site/e.xml
 
       - name: 配置 Pages
         uses: actions/configure-pages@v5

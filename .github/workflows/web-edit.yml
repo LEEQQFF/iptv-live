@@ -1,0 +1,99 @@
+name: 网页修改自动写回与发布
+
+on:
+  issues:
+    types: [opened]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: iptv-live
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    if: github.event_name == 'workflow_dispatch' || (github.event.sender.type != 'Bot' && contains(github.event.issue.labels.*.name, 'web-edit'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 安装 Python 与依赖
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+
+      - name: 合并网页提交的修改
+        id: apply
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          python scripts/apply_web_edits.py
+          echo "discover=$(python -c 'import json;print(str(json.load(open("output/web-edit-result.json")).get("discover",False)).lower())')" >> "$GITHUB_OUTPUT"
+
+      - name: 全量发现订阅地址并修正上游仓库
+        if: steps.apply.outputs.discover == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/discover.py --full
+
+      - name: 重跑全链条并发布产物
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/pipeline.py
+          mkdir -p output/web
+          cp web/index.html web/data.json web/data.js output/web/
+          cp iptv-live.m3u output/l.m3u
+          cp iptv-live.m3u output/l
+          cp iptv-live-all.m3u output/a.m3u
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add config/manual_overrides.json config/auto_sources.json channels.json iptv-live.m3u iptv-live-all.m3u web output editable tools/cache 2>/dev/null || true
+          git pull --rebase origin main || true
+          git commit -m "网页管理台修改写回 $(date -u +%Y-%m-%dT%H:%MZ)" || true
+          git push || true
+
+      - name: 组装 Pages 站点
+        run: |
+          rm -rf _site && mkdir -p _site
+          cp -r output/. _site/
+          cp web/index.html web/data.json web/data.js _site/
+          mkdir -p _site/web
+          cp web/index.html web/data.json web/data.js _site/web/
+          cp iptv-live.m3u _site/manual-live.m3u
+          cp iptv-live-all.m3u _site/manual-live-all.m3u
+          cp iptv-live.m3u _site/l.m3u
+          cp iptv-live.m3u _site/l
+          cp iptv-live-all.m3u _site/a.m3u
+          cp output/e.xml _site/e.xml
+
+      - name: 配置 Pages
+        uses: actions/configure-pages@v5
+
+      - name: 上传 Pages 产物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Issue 回执并关闭
+        if: always() && github.event_name == 'issues'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python scripts/issue_reply.py

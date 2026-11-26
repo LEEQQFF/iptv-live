@@ -18,6 +18,7 @@
 from __future__ import annotations
 
 import concurrent.futures
+import hashlib
 import json
 import os
 import re
@@ -86,9 +87,9 @@ def fetch_one(src: dict) -> tuple[list[dict], str]:
             return items, f"ok ({len(items)}条, 内置库)"
         except Exception as e:
             return [], f"failed: {type(e).__name__}"
-    if typ == "fixed":
+    if typ == "fixed" or typ == "manual":
         return [{"raw_name": e["name"], "url": e["url"], "tvg_id": "", "logo": "",
-                 "source": name, "whitelist": True} for e in src.get("entries", [])], "fixed"
+                 "source": name, "whitelist": typ == "manual"} for e in src.get("entries", [])], "fixed"
     if typ == "snrtv":
         try:
             from snrtv import fetch_snrtv
@@ -137,6 +138,60 @@ def fetch_all(cfg: dict) -> tuple[list[dict], dict]:
             all_items.extend(items)
             print(f"[源] {name}: {h}", flush=True)
     return all_items, health
+
+
+# ---------------------------------------------------------------- 动态源（自动发现 + 网页手添）
+def load_dynamic_sources(cfg: dict) -> list[dict]:
+    """把自动发现源与网页手动添加源并入本次流水线输入。"""
+    base = cfg["sources"]
+    seen = set()
+    for s in base:
+        for u in (s.get("urls") or []):
+            seen.add(legacy.url_key(u))
+        for e in (s.get("entries") or []):
+            seen.add(legacy.url_key(e.get("url", "")))
+
+    extra: list[dict] = []
+    auto_path = ROOT / "config" / "auto_sources.json"
+    if auto_path.exists():
+        try:
+            auto = json.loads(auto_path.read_text(encoding="utf-8"))
+            for e in auto.get("entries", []):
+                u = str(e.get("url") or "").strip()
+                if not e.get("enabled") or not u.startswith("http"):
+                    continue
+                k = legacy.url_key(u)
+                if k in seen:
+                    continue
+                seen.add(k)
+                extra.append({"name": f"auto-{len(extra) + 1:02d}", "urls": [u]})
+        except Exception as e:
+            print(f"[动态源] 自动发现配置读取失败：{type(e).__name__}", flush=True)
+
+    ov_path = ROOT / "config" / "manual_overrides.json"
+    if ov_path.exists():
+        try:
+            ov = json.loads(ov_path.read_text(encoding="utf-8"))
+            removed = set(ov.get("source_removals") or [])
+            for s in ov.get("source_adds", []):
+                name = str(s.get("name") or "web-source").strip()
+                if name in removed:
+                    continue
+                entries = [e for e in (s.get("entries") or [])
+                           if str(e.get("url") or "").startswith("http")]
+                if entries:
+                    for e in entries:
+                        seen.add(legacy.url_key(e["url"]))
+                    extra.append({"name": name, "type": "manual", "entries": entries})
+                else:
+                    u = str(s.get("url") or "").strip()
+                    if not u.startswith("http") or legacy.url_key(u) in seen:
+                        continue
+                    seen.add(legacy.url_key(u))
+                    extra.append({"name": name, "urls": [u]})
+        except Exception as e:
+            print(f"[动态源] 手动添加配置读取失败：{type(e).__name__}", flush=True)
+    return extra
 
 
 # ---------------------------------------------------------------- 归类
@@ -245,7 +300,9 @@ def aggregate(items: list[dict], cfg: dict, name_map: dict, city_map: dict) -> d
         if not ch:
             ch = {
                 "id": tid or rg.norm(canon),
+                "uid": hashlib.md5(f"{grp}|{canon}|{url}".encode("utf-8")).hexdigest()[:10],
                 "name": canon,
+                "name_source": str(it.get("raw_name") or raw),
                 "logo": it.get("logo", ""),
                 "province": it.get("province", "") or (grp if grp in rg.PROVINCE_ORDER else ""),
                 "city": it.get("city", ""),
@@ -276,6 +333,71 @@ def aggregate(items: list[dict], cfg: dict, name_map: dict, city_map: dict) -> d
         result.append({"name": gname, "channels": chans})
 
     return {"groups": result, "grouping": ordered_names, "stats": dict(stats)}
+
+
+# ---------------------------------------------------------------- 网页人工维护
+def apply_manual_overrides(groups: list[dict], name_map: dict, city_map: dict) -> tuple[list[dict], dict]:
+    """应用网页提交的改名/归类/分组重命名，并按新名称重新归类。
+
+    人工名称写入 channel.name（维护名），上游原始名保留在 channel.name_source。
+    """
+    path = ROOT / "config" / "manual_overrides.json"
+    if not path.exists():
+        return groups, {"renamed": 0, "moved": 0}
+    try:
+        ov = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return groups, {"renamed": 0, "moved": 0}
+
+    alias = {str(k): str(v) for k, v in (ov.get("group_aliases") or {}).items() if k and v}
+    names = {str(k): str(v).strip()[:60] for k, v in (ov.get("channel_names") or {}).items()
+             if k and str(v).strip()}
+    gmap = {str(k): str(v).strip()[:40] for k, v in (ov.get("channel_groups") or {}).items()
+            if k and str(v).strip()}
+
+    pairs: list[list] = []
+    for g in groups:
+        gname = alias.get(g["name"], g["name"])
+        for ch in g.get("channels", []):
+            g["name"] = gname
+            pairs.append([gname, ch])
+
+    renamed = moved = 0
+    for pair in pairs:
+        gname, ch = pair
+        keys = [ch.get("uid", ""), ch.get("id", ""), ch.get("name", ""), ch.get("name_source", "")]
+        new_name = next((names[k] for k in keys if k in names), None)
+        if new_name:
+            if new_name != ch.get("name"):
+                renamed += 1
+            ch["name"] = new_name
+            ch["name_maintained"] = True
+        target = next((gmap[k] for k in keys if k in gmap), None)
+        if target:
+            target = alias.get(target, target)
+        elif new_name:
+            target, _, _ = classify_channel(new_name,
+                                            {"raw_name": new_name}, name_map, city_map)
+        if target and target != gname:
+            pair[0] = target
+            moved += 1
+
+    order = list(dict.fromkeys([g["name"] for g in groups] +
+                               [str(x) for x in (ov.get("groups") or [])] +
+                               [p[0] for p in pairs]))
+    buckets: dict[str, list] = defaultdict(list)
+    for gname, ch in pairs:
+        buckets[gname].append(ch)
+    result = []
+    for gname in order:
+        if gname in buckets:
+            chans = buckets[gname]
+            if gname == "央视":
+                chans.sort(key=lambda c: (rg.cctv_key(c["name"]), rg.norm(c["name"])))
+            else:
+                chans.sort(key=lambda c: rg.norm(c["name"]))
+            result.append({"name": gname, "channels": chans})
+    return result, {"renamed": renamed, "moved": moved}
 
 
 # ---------------------------------------------------------------- 检活
@@ -426,9 +548,21 @@ def export_web_data(groups: list[dict], cfg: dict, health: dict, sources: list[d
         urls = s.get("urls") or ([s["path"]] if s.get("type") == "builtin" else [])
         src_urls[s["name"]] = urls[0] if urls else ""
 
+    disc_path = ROOT / "output" / "discovery.json"
+    discovery = {}
+    if disc_path.exists():
+        try:
+            d = json.loads(disc_path.read_text(encoding="utf-8"))
+            discovery = {k: d.get(k, []) if isinstance(d.get(k, []), list) else d.get(k, 0)
+                         for k in ("updated", "mode", "repos", "candidates", "valid",
+                                   "repaired", "active_sources")}
+        except Exception:
+            pass
+
     data = {
         "updated": now_cn(),
         "meta": meta,
+        "discovery": discovery,
         "subscriptions": [
             {"name": n, "url": src_urls.get(n, ""),
              "status": health.get(n, {}).get("status", ""),
@@ -436,12 +570,15 @@ def export_web_data(groups: list[dict], cfg: dict, health: dict, sources: list[d
             for n in sorted(health)
         ],
         "addresses": {
-            "primary": "https://fastly.jsdelivr.net/gh/LEEQQFF/iptv-live@main/iptv-live.m3u",
-            "all": "https://fastly.jsdelivr.net/gh/LEEQQFF/iptv-live@main/iptv-live-all.m3u",
-            "pages": "https://leeqqff.github.io/iptv-live/manual-live.m3u",
+            # 所有公网地址尽量短：Pages 根路径 + 单字符文件名；较长 CDN/raw 仅作备用。
+            "primary": "https://leeqqff.github.io/iptv-live/l.m3u",
+            "ultra": "https://leeqqff.github.io/iptv-live/l",
+            "pages": "https://leeqqff.github.io/iptv-live/l.m3u",
+            "all": "https://leeqqff.github.io/iptv-live/a.m3u",
             "epg": "https://leeqqff.github.io/iptv-live/e.xml",
+            "web": "https://leeqqff.github.io/iptv-live/",
             "raw": "https://raw.githubusercontent.com/LEEQQFF/iptv-live/main/iptv-live.m3u",
-            "web": "https://leeqqff.github.io/iptv-live/web/",
+            "cdn": "https://fastly.jsdelivr.net/gh/LEEQQFF/iptv-live@main/iptv-live.m3u",
         },
         "groups": [],
     }
@@ -460,7 +597,9 @@ def export_web_data(groups: list[dict], cfg: dict, health: dict, sources: list[d
             streams.sort(key=lambda s: (0 if (s["official"] or s["whitelist"]) else 1,
                                         0 if s["status"] == "alive" else 2,
                                         s["ms"] if isinstance(s["ms"], int) else 9999))
-            chans.append({"id": c.get("id", ""), "name": c.get("name", ""),
+            chans.append({"id": c.get("id", ""), "uid": c.get("uid", ""),
+                          "name": c.get("name", ""),
+                          "name_source": c.get("name_source", c.get("name", "")),
                           "logo": c.get("logo", ""), "streams": streams})
         data["groups"].append({"name": g["name"], "channels": chans})
     (ROOT / "web").mkdir(exist_ok=True)
@@ -476,21 +615,32 @@ def export_editable(groups: list[dict]) -> None:
     import csv
     ed = ROOT / "editable"
     ed.mkdir(exist_ok=True)
-    headers = ["分组", "频道", "线路数", "存活", "失效", "官方", "最佳线路", "ID"]
+    headers = ["分组", "频道名称-维护", "频道名称-源名", "线路数", "存活", "失效", "官方", "最佳线路", "ID", "UID"]
     for g in groups:
         with (ed / f"{g['name']}.csv").open("w", encoding="utf-8-sig", newline="") as f:
             w = csv.writer(f)
             w.writerow(headers)
             for c in g["channels"]:
-                w.writerow([g["name"], c["name"], len(c["streams"]), c.get("alive", 0),
-                            c.get("dead", 0), c.get("official", 0), c.get("best", ""), c.get("id", "")])
+                w.writerow([g["name"], c["name"], c.get("name_source", ""), len(c["streams"]),
+                            c.get("alive", 0), c.get("dead", 0), c.get("official", 0),
+                            c.get("best", ""), c.get("id", ""), c.get("uid", "")])
 
 
 def main():
     started = time.time()
     cfg = yaml.safe_load((ROOT / "config" / "sources.yaml").read_text(encoding="utf-8"))
+    # 网页手动添加的源、自动发现并校验通过的源，统一并入本次全链条
+    extra = load_dynamic_sources(cfg)
+    ov_path = ROOT / "config" / "manual_overrides.json"
+    removed = set()
+    if ov_path.exists():
+        try:
+            removed = set(json.loads(ov_path.read_text(encoding="utf-8")).get("source_removals") or [])
+        except Exception:
+            pass
+    cfg["sources"] = [s for s in cfg["sources"] if s.get("name") not in removed] + extra
     sources = cfg["sources"]
-    print(f"[配置] 源 {len(sources)} 个", flush=True)
+    print(f"[配置] 源 {len(sources)} 个（动态新增 {len(extra)}）", flush=True)
 
     items, health = fetch_all(cfg)
     print(f"[抓取] 原始条目 {len(items)}", flush=True)
@@ -499,6 +649,8 @@ def main():
     name_map, city_map = rg.build_name_maps(raw)
     agg = aggregate(items, cfg, name_map, city_map)
     groups = agg["groups"]
+    groups, manual = apply_manual_overrides(groups, name_map, city_map)
+    print(f"[人工维护] 改名 {manual['renamed']} / 调组 {manual['moved']}", flush=True)
     print(f"[聚合] 频道 {sum(len(g['channels']) for g in groups)} / 线路 "
           f"{sum(len(c['streams']) for g in groups for c in g['channels'])}", flush=True)
 
@@ -510,8 +662,8 @@ def main():
         "schema": 4,
         "updated": now_cn(),
         "source": "config/sources.yaml 全部源（含 SparkTV 11 地址 + channels.json 内置库）",
-        "grouping": agg["grouping"],
-        "ordering": "官方/白名单 > 存活 > 延迟升序；央视 CCTV1-17，省级按行政区，非行政区归网络",
+        "grouping": [g["name"] for g in groups],
+        "ordering": "官方/白名单 > 存活 > 延迟升序；央视 CCTV1-17，省级按行政区，非行政区归网络；网页人工维护优先",
         "liveness": {
             "checkedAt": now_cn(),
             "method": "逐条真实 HTTP GET，仅 2xx/3xx 且返回 M3U/TS 媒体字节判为存活",
@@ -524,6 +676,9 @@ def main():
             "official_streams": sum(1 for g in groups for c in g["channels"] for s in c["streams"] if s["official"]),
             "alive_streams": status.get("alive", 0),
             "source_count": len(sources),
+            "dynamic_sources": len(extra),
+            "manual_renamed": manual.get("renamed", 0),
+            "manual_moved": manual.get("moved", 0),
             "province_groups": len([g for g in groups if g["name"] in rg.PROVINCE_ORDER]),
         },
         "sources": [{"name": n, **v} for n, v in health.items()],

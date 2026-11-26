@@ -1,2 +1,2 @@
-﻿分组,频道,线路数,存活,失效,官方,最佳线路,ID
-西藏,阿里郎,4,4,0,0,http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8,阿里郎
+﻿分组,频道名称-维护,频道名称-源名,线路数,存活,失效,官方,最佳线路,ID,UID
+西藏,阿里郎,Arirang,1,1,0,0,https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8,阿里郎,84fc52d4e5
