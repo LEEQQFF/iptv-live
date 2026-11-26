@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T00:06:29+08:00",
+ "updated": "2026-11-27T00:09:00+08:00",
  "mode": "light",
  "repos": [
   "vbskycn/iptv",
@@ -9,27 +9,12 @@
  ],
  "candidates": 729,
  "validated": 24,
- "valid": 0,
+ "valid": 14,
  "repaired": [],
  "fail_samples": [
   {
-   "url": "http://112.46.105.20:8009/hls/19/index.m3u8",
-   "reason": "NameError",
-   "from_repo": "vbskycn/iptv"
-  },
-  {
-   "url": "http://112.46.105.20:8009/hls/22/index.m3u8",
-   "reason": "NameError",
-   "from_repo": "vbskycn/iptv"
-  },
-  {
-   "url": "http://112.46.105.20:8009/hls/28/index.m3u8",
-   "reason": "NameError",
-   "from_repo": "vbskycn/iptv"
-  },
-  {
    "url": "http://116.90.120.151:8000/play/a0ax/index.m3u8",
-   "reason": "ConnectTimeout",
+   "reason": "ConnectionError",
    "from_repo": "iptv-org/iptv"
   },
   {
@@ -38,28 +23,8 @@
    "from_repo": "vbskycn/iptv"
   },
   {
-   "url": "http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0",
-   "reason": "NameError",
-   "from_repo": "vbskycn/iptv"
-  },
-  {
    "url": "http://124.88.144.73:1935/live/xwzh/playlist.m3u8?zxinjd",
    "reason": "ConnectTimeout",
-   "from_repo": "vbskycn/iptv"
-  },
-  {
-   "url": "http://139.203.180.9:90/live/zhxw.m3u8",
-   "reason": "NameError",
-   "from_repo": "vbskycn/iptv"
-  },
-  {
-   "url": "http://149.100.11.252:8000/play/a056/index.m3u8",
-   "reason": "NameError",
-   "from_repo": "iptv-org/iptv"
-  },
-  {
-   "url": "http://175.155.106.72:89/live1/live1.m3u8?zsicd",
-   "reason": "NameError",
    "from_repo": "vbskycn/iptv"
   },
   {
@@ -88,44 +53,9 @@
    "from_repo": "iptv-org/iptv"
   },
   {
-   "url": "http://182.150.115.21:8030/pcgacg/pcgacg_0.m3u8",
-   "reason": "NameError",
-   "from_repo": "vbskycn/iptv"
-  },
-  {
-   "url": "http://183.64.174.171:40123/ch1.m3u8?zzhongqd",
-   "reason": "NameError",
-   "from_repo": "vbskycn/iptv"
-  },
-  {
    "url": "http://185.9.2.18/chid_139/index.m3u8",
    "reason": "http 404",
    "from_repo": "iptv-org/iptv"
-  },
-  {
-   "url": "http://185.9.2.18/chid_146/index.m3u8",
-   "reason": "NameError",
-   "from_repo": "iptv-org/iptv"
-  },
-  {
-   "url": "http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd;http://218.84.12.186:8001/hls/main/playlist.m3u8zxinjd",
-   "reason": "NameError",
-   "from_repo": "vbskycn/iptv"
-  },
-  {
-   "url": "http://218.84.12.186:8002/hls/main/playlist.m3u8?zxinjd",
-   "reason": "NameError",
-   "from_repo": "vbskycn/iptv"
-  },
-  {
-   "url": "http://218.84.127.245:1026/hls/main1/playlist.m3u8?zxinjd,",
-   "reason": "NameError",
-   "from_repo": "vbskycn/iptv"
-  },
-  {
-   "url": "http://221.7.175.154:8445/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&authid=0",
-   "reason": "NameError",
-   "from_repo": "vbskycn/iptv"
   },
   {
    "url": "http://222.169.85.8:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0",
@@ -133,6 +63,133 @@
    "from_repo": "vbskycn/iptv"
   }
  ],
- "active_sources": 0,
- "entries": []
+ "active_sources": 14,
+ "entries": [
+  {
+   "url": "http://112.46.105.20:8009/hls/19/index.m3u8",
+   "enabled": true,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "last_ok": "2026-11-27T00:09:00+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://112.46.105.20:8009/hls/22/index.m3u8",
+   "enabled": true,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "last_ok": "2026-11-27T00:09:00+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://112.46.105.20:8009/hls/28/index.m3u8",
+   "enabled": true,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "last_ok": "2026-11-27T00:09:00+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "enabled": true,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "last_ok": "2026-11-27T00:09:00+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://139.203.180.9:90/live/zhxw.m3u8",
+   "enabled": true,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "last_ok": "2026-11-27T00:09:00+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://149.100.11.252:8000/play/a056/index.m3u8",
+   "enabled": true,
+   "items": 1,
+   "from_repo": "iptv-org/iptv",
+   "from_file": "streams/ae.m3u",
+   "last_ok": "2026-11-27T00:09:00+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://175.155.106.72:89/live1/live1.m3u8?zsicd",
+   "enabled": true,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "last_ok": "2026-11-27T00:09:00+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://182.150.115.21:8030/pcgacg/pcgacg_0.m3u8",
+   "enabled": true,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "last_ok": "2026-11-27T00:09:00+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://183.64.174.171:40123/ch1.m3u8?zzhongqd",
+   "enabled": true,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "last_ok": "2026-11-27T00:09:00+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://185.9.2.18/chid_146/index.m3u8",
+   "enabled": true,
+   "items": 1,
+   "from_repo": "iptv-org/iptv",
+   "from_file": "streams/ae.m3u",
+   "last_ok": "2026-11-27T00:09:00+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd;http://218.84.12.186:8001/hls/main/playlist.m3u8zxinjd",
+   "enabled": true,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "last_ok": "2026-11-27T00:09:00+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://218.84.12.186:8002/hls/main/playlist.m3u8?zxinjd",
+   "enabled": true,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "last_ok": "2026-11-27T00:09:00+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://218.84.127.245:1026/hls/main1/playlist.m3u8?zxinjd,",
+   "enabled": true,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "last_ok": "2026-11-27T00:09:00+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://221.7.175.154:8445/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "enabled": true,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "last_ok": "2026-11-27T00:09:00+08:00",
+   "fail_count": 0
+  }
+ ]
 }
