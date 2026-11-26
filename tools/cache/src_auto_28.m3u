@@ -1,10 +1,10 @@
 #EXTM3U
 #EXT-X-VERSION:3
-#EXT-X-MEDIA-SEQUENCE:50246
+#EXT-X-MEDIA-SEQUENCE:51048
 #EXT-X-TARGETDURATION:2
 #EXTINF:2.000,
-WLSH_24_50246.ts?vhost=hls.nntv.cn&edge_slice=true
+WLSH_24_51048.ts?vhost=hls.nntv.cn&edge_slice=true
 #EXTINF:2.000,
-WLSH_24_50247.ts?vhost=hls.nntv.cn&edge_slice=true
+WLSH_24_51049.ts?vhost=hls.nntv.cn&edge_slice=true
 #EXTINF:2.000,
-WLSH_24_50248.ts?vhost=hls.nntv.cn&edge_slice=true
+WLSH_24_51050.ts?vhost=hls.nntv.cn&edge_slice=true
