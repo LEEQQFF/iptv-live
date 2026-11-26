@@ -1,0 +1,16 @@
+{
+ "updated": "2026-11-26T23:55:04+08:00",
+ "mode": "light",
+ "repos": [
+  "vbskycn/iptv",
+  "fanmingming/live",
+  "iptv-org/iptv",
+  "yuanzl77/IPTV"
+ ],
+ "candidates": 729,
+ "validated": 24,
+ "valid": 0,
+ "repaired": [],
+ "active_sources": 0,
+ "entries": []
+}
