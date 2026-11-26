@@ -9,10 +9,10 @@ on:
 permissions:
   contents: write
 
-# 与 refresh.yml 共用并发组，两者串行执行，避免同时推送/Pages 冲突
+# 独立并发组，避免与 10 分钟 refresh 相互排队阻塞
 concurrency:
-  group: iptv-live
-  cancel-in-progress: false
+  group: iptv-epg
+  cancel-in-progress: true
 
 jobs:
   update:

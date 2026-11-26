@@ -44,15 +44,16 @@ tr[draggable=true]{cursor:grab}tr.drag-over{outline:2px dashed var(--accent)}
 .bar i{display:block;height:100%;background:var(--accent)}.bar i.ok{background:var(--ok)}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:10px}
 .addr{display:flex;gap:8px;align-items:center;flex-wrap:wrap;background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:11px;margin-bottom:8px}
-.addr code{background:#0d1117;border:1px solid var(--line);border-radius:5px;padding:5px 8px;word-break:break-all;flex:1;font-size:11px;color:#a5d6ff}
-.badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:10px;background:var(--chip);color:#79c0ff}
+.addr code{background:#0d1117;border:1px solid var(--line);border-radius:5px;padding:5px 8px;word-break:break-all;flex:1;font-size:11px;color:#a5d6ff;min-width:0}
+.badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:10px;background:var(--chip);color:#79c0ff;white-space:nowrap}
 .note{color:var(--warn);font-size:11px}
-.toast{position:fixed;bottom:20px;right:20px;background:var(--accent);color:#fff;padding:10px 16px;border-radius:8px;display:none;z-index:50}
+.toast{position:fixed;bottom:20px;right:20px;background:var(--accent);color:#fff;padding:10px 16px;border-radius:8px;display:none;z-index:50;max-width:340px}
 .layout{display:grid;grid-template-columns:210px 1fr;gap:16px}
 aside{border-right:1px solid var(--line);padding-right:12px;max-height:calc(100vh - 240px);overflow:auto;position:sticky;top:200px}
 aside h3{font-size:12px;color:var(--muted);margin:6px 0}
 .glist{list-style:none;margin:0;padding:0}.glist li{padding:6px 9px;border-radius:6px;cursor:pointer;display:flex;justify-content:space-between}
 .glist li:hover{background:var(--panel2)}.glist li.active{background:var(--chip)}.gcount{color:var(--muted);font-size:11px}
+.openbtn{background:var(--panel2);color:#79c0ff;border:1px solid var(--line);padding:5px 9px;border-radius:5px;font-size:11px}
 @media(max-width:900px){.layout{grid-template-columns:1fr}aside{position:static;max-height:180px}}
 </style>
 </head>
@@ -73,12 +74,9 @@ aside h3{font-size:12px;color:var(--muted);margin:6px 0}
 <main>
   <div class="view active" id="v-addr">
     <div class="card">
-      <h3>公网 M3U 订阅地址（直接复制到播放器 / SparkTV 设置页）</h3>
-      <div class="addr"><span class="badge">主订阅·推荐</span><code id="a-primary"></code><button class="ghost" onclick="copy('a-primary')">复制</button></div>
-      <div class="addr"><span class="badge">主订阅·Pages</span><code id="a-pages"></code><button class="ghost" onclick="copy('a-pages')">复制</button></div>
-      <div class="addr"><span class="badge">全量备用</span><code id="a-all"></code><button class="ghost" onclick="copy('a-all')">复制</button></div>
-      <div class="addr"><span class="badge">EPG</span><code id="a-epg"></code><button class="ghost" onclick="copy('a-epg')">复制</button></div>
-      <div class="note">主订阅仅含严格检活存活线路（每频道≤5条）；全量版含失效线路供排查。国内网络若 raw 地址不可达，用 Pages 地址或加公共加速前缀。</div>
+      <h3>公网 M3U 订阅地址（点击右侧按钮复制，粘贴到播放器 / SparkTV）</h3>
+      <div id="addrList"></div>
+      <div class="note" id="addrNote">主订阅仅含严格检活存活线路（每频道≤5条、规范化短名称）；全量版含失效线路供排查。CDN 通道在国内外均可用，推荐优先使用；raw 通道在部分网络下 TLS 可能失败。</div>
     </div>
   </div>
 
@@ -123,7 +121,7 @@ aside h3{font-size:12px;color:var(--muted);margin:6px 0}
   <div class="view" id="v-group">
     <div class="card">
       <h3>各直播源归类频道及分组关系</h3>
-      <div class="sub">38 个分组：央视（CCTV1-17）、央视系列、卫视、34 省级行政区（港澳台单列）、网络。</div>
+      <div class="sub"><span id="groupDesc"></span></div>
       <div class="grid" id="groupGrid"></div>
     </div>
   </div>
@@ -135,16 +133,56 @@ aside h3{font-size:12px;color:var(--muted);margin:6px 0}
   </div>
 </main>
 <div class="toast" id="toast"></div>
-<script>
-let DATA={groups:[],subscriptions:[],addresses:{},meta:{}},CUR='',q='',sf='all',SRCFILTER='';
 
-function toast(m){const t=document.getElementById('toast');t.textContent=m;t.style.display='block';setTimeout(()=>t.style.display='none',1800)}
-function copy(id){const v=document.getElementById(id).textContent;navigator.clipboard.writeText(v).then(()=>toast('已复制'))}
+<!-- data.js 以 JS 全局变量提供数据，兼容 file:// 与所有浏览器（不受 fetch/CORS 限制）；
+     若通过 http(s) 访问再用 fetch 拉取最新版本覆盖，从而实现实时刷新。 -->
+<script src="data.js"></script>
+<script>
+let DATA=(window.__IPTV_DATA__&&window.__IPTV_DATA__.groups)?window.__IPTV_DATA__:{groups:[],subscriptions:[],addresses:{},meta:{}},CUR='',q='',sf='all',SRCFILTER='';
+
+function toast(m){const t=document.getElementById('toast');t.textContent=m;t.style.display='block';clearTimeout(t._t);t._t=setTimeout(()=>t.style.display='none',2200)}
+
+/* 一键复制：优先 navigator.clipboard（需安全上下文），失败则回退 execCommand；
+   最后兜底选中文本提示手动复制。任何浏览器/协议下都不会“无反应”。 */
+function copyText(text){
+  if(!text){toast('内容为空，无法复制');return Promise.resolve(false)}
+  if(navigator.clipboard&&navigator.clipboard.writeText&&window.isSecureContext){
+    return navigator.clipboard.writeText(text).then(()=>true).catch(()=>legacyCopy(text));
+  }
+  return Promise.resolve(legacyCopy(text));
+}
+function legacyCopy(text){
+  try{
+    const ta=document.createElement('textarea');
+    ta.value=text;ta.setAttribute('readonly','');
+    ta.style.position='fixed';ta.style.top='0';ta.style.left='-9999px';ta.style.opacity='0';
+    document.body.appendChild(ta);ta.select();ta.setSelectionRange(0,ta.value.length);
+    let ok=false;try{ok=document.execCommand('copy')}catch(e){ok=false}
+    document.body.removeChild(ta);
+    return ok;
+  }catch(e){return false}
+}
+function copy(id){
+  const el=document.getElementById(id);
+  const v=el?(el.dataset.url||el.textContent.trim()):'';
+  copyText(v).then(ok=>toast(ok?'已复制到剪贴板':'复制失败，请手动选中地址复制'));
+}
+function copyVal(text){copyText(text).then(ok=>toast(ok?'已复制到剪贴板':'复制失败，请手动选中地址复制'))}
+
 function flatten(){const o=[];DATA.groups.forEach(g=>g.channels.forEach((c,i)=>o.push({g:g.name,c,i})));return o}
 
+/* 实时刷新：http(s) 下用 fetch 拉取最新 data.json 覆盖内嵌数据；
+   file:// 下 fetch 会被 CORS 拦截，静默忽略即可（已有 data.js 数据）。 */
+function refreshData(){
+  if(!/^https?:$/.test(location.protocol))return;
+  fetch('data.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).then(d=>{
+    if(d&&d.groups&&d.groups.length){DATA=d;window.__IPTV_DATA__=d;renderAll();toast('已获取最新数据')}
+  }).catch(()=>{});
+}
 function init(){
-  fetch('data.json?t='+Date.now()).then(r=>r.json()).then(d=>{DATA=d;renderAll()})
-    .catch(e=>document.getElementById('meta').textContent='数据加载失败：'+e);
+  renderAll();
+  refreshData();
+  setInterval(refreshData,5*60*1000); // 每 5 分钟自动刷新一次（ Pages / http 场景）
   document.querySelectorAll('button.tab').forEach(b=>b.onclick=()=>{
     document.querySelectorAll('button.tab').forEach(x=>x.classList.remove('active'));
     document.querySelectorAll('.view').forEach(x=>x.classList.remove('active'));
@@ -164,10 +202,18 @@ function renderMeta(){
 
 function renderAddr(){
   const a=DATA.addresses||{};
-  document.getElementById('a-primary').textContent=a.primary||'';
-  document.getElementById('a-pages').textContent=a.pages||'';
-  document.getElementById('a-all').textContent=a.all||'';
-  document.getElementById('a-epg').textContent=a.epg||'';
+  const rows=[
+    ['CDN·主订阅(推荐)','primary',a.primary],
+    ['Pages·主订阅','pages',a.pages],
+    ['CDN·全量备用','all',a.all],
+    ['官方 EPG','epg',a.epg],
+    ['raw·主订阅(备用)','raw',a.raw],
+    ['管理台网址','web',a.web],
+  ].filter(r=>r[2]);
+  document.getElementById('addrList').innerHTML=rows.map((r,i)=>
+    `<div class="addr"><span class="badge">${r[0]}</span><code id="a-${r[1]}" data-url="${escAttr(r[2])}">${escapeHtml(r[2])}</code>`+
+    `<button class="ghost" onclick="copy('a-${r[1]}')">复制</button>`+
+    `<a class="openbtn" href="${escAttr(r[2])}" target="_blank" rel="noopener">打开</a></div>`).join('');
 }
 
 function renderSubs(){
@@ -175,17 +221,18 @@ function renderSubs(){
   document.getElementById('subCount').textContent=list.length;
   document.getElementById('subBody').innerHTML=list.map(s=>{
     const cls=(s.status||'').startsWith('ok')?'alive':'dead';
-    return `<tr><td>${s.name}</td><td class="url">${s.url||'内置/动态源'}</td><td><span class="pill ${cls}">${s.status||'-'}</span></td><td>${s.items||0}</td></tr>`;
+    return `<tr><td>${escapeHtml(s.name)}</td><td class="url">${escapeHtml(s.url||'内置/动态源')}</td><td><span class="pill ${cls}">${escapeHtml(s.status||'-')}</span></td><td>${s.items||0}</td></tr>`;
   }).join('');
 }
 
 function renderGroups(){
+  document.getElementById('groupDesc').textContent=`${DATA.groups.length} 个分组：央视（CCTV1-17）、央视系列、卫视、34 省级行政区（港澳台单列）、网络。`;
   const ul=document.getElementById('groups');
-  ul.innerHTML=DATA.groups.map(g=>`<li data-g="${g.name}" class="${g.name===CUR?'active':''}" ondrop="dropChannel(event,'${g.name}')" ondragover="event.preventDefault()"><span>${g.name}</span><span class="gcount">${g.channels.length}</span></li>`).join('');
+  ul.innerHTML=DATA.groups.map(g=>`<li data-g="${escAttr(g.name)}" class="${g.name===CUR?'active':''}" ondrop="dropChannel(event,'${escJs(g.name)}')" ondragover="event.preventDefault()"><span>${escapeHtml(g.name)}</span><span class="gcount">${g.channels.length}</span></li>`).join('');
   ul.querySelectorAll('li').forEach(li=>li.onclick=()=>{CUR=CUR===li.dataset.g?'':li.dataset.g;renderGroups();renderList()});
 }
 
-function visibleStreams(g,c){
+function visibleStreams(c){
   return c.streams.map((s,i)=>({...s,_i:i})).filter(s=>{
     if(sf==='alive'&&s.status!=='alive')return false;
     if(sf==='dead'&&s.status==='dead')return false;
@@ -200,11 +247,11 @@ function renderList(){
   DATA.groups.forEach(g=>{
     if(CUR&&g.name!==CUR)return;
     g.channels.forEach((c,ci)=>{
-      visibleStreams(g,c).forEach(s=>{
+      visibleStreams(c).forEach(s=>{
         const pill=s.official?'<span class="pill official">官方</span>':
           `<span class="pill ${s.status}">${s.status==='alive'?'存活':s.status==='dead'?'失效':'未检'}</span>`;
         const src=(s.sources||[]).join(' / ')||s.src||'-';
-        rows.push(`<tr draggable="true" data-g="${g.name}" data-i="${ci}"><td class="ch">${c.name}</td><td class="src">${src}</td><td>${pill}</td><td>${typeof s.ms==='number'&&s.ms<9000?s.ms+'ms':'-'}</td><td class="url">${s.url}</td></tr>`);
+        rows.push(`<tr draggable="true" data-g="${escAttr(g.name)}" data-i="${ci}"><td class="ch">${escapeHtml(c.name)}</td><td class="src">${escapeHtml(src)}</td><td>${pill}</td><td>${typeof s.ms==='number'&&s.ms<9000?s.ms+'ms':'-'}</td><td class="url">${escapeHtml(s.url)}</td></tr>`);
       });
     });
   });
@@ -234,9 +281,9 @@ function renderRel(){
   }));
   const total=Object.values(cnt).reduce((a,b)=>a+b,0)||1;
   document.getElementById('relGrid').innerHTML=Object.entries(cnt).sort((a,b)=>b[1]-a[1]).slice(0,30).map(([k,v])=>
-    `<div class="card" style="cursor:pointer" onclick="filterSrc('${k}')"><b>${k}</b><div class="sub">${v} 条线路（${(v/total*100).toFixed(1)}%）</div><div class="bar"><i style="width:${v/total*100}%"></i></div></div>`).join('');
+    `<div class="card" style="cursor:pointer" onclick="filterSrc('${escJs(k)}')"><b>${escapeHtml(k)}</b><div class="sub">${v} 条线路（${(v/total*100).toFixed(1)}%）</div><div class="bar"><i style="width:${v/total*100}%"></i></div></div>`).join('');
   document.getElementById('crossBody').innerHTML=cross.slice(0,60).map(x=>
-    `<tr><td>${x.name}</td><td>${x.n}</td><td class="src">${x.src}</td></tr>`).join('')||'<tr><td colspan="3">无</td></tr>';
+    `<tr><td>${escapeHtml(x.name)}</td><td>${x.n}</td><td class="src">${escapeHtml(x.src)}</td></tr>`).join('')||'<tr><td colspan="3">无</td></tr>';
 }
 function filterSrc(s){SRCFILTER=SRCFILTER===s?'':s;CUR='';renderAll();
   document.querySelector('[data-v="list"]').click();toast('已按来源筛选：'+(SRCFILTER||'全部'))}
@@ -245,7 +292,7 @@ function renderGroup(){
   document.getElementById('groupGrid').innerHTML=DATA.groups.map(g=>{
     const a=g.channels.reduce((x,c)=>x+c.streams.filter(s=>s.status==='alive').length,0);
     const t=g.channels.reduce((x,c)=>x+c.streams.length,0);
-    return `<div class="card"><b>${g.name}</b><div class="sub">${g.channels.length} 频道 / ${t} 线路 / 存活 ${a}</div><div class="bar"><i class="ok" style="width:${t?a/t*100:0}%"></i></div></div>`;
+    return `<div class="card"><b>${escapeHtml(g.name)}</b><div class="sub">${g.channels.length} 频道 / ${t} 线路 / 存活 ${a}</div><div class="bar"><i class="ok" style="width:${t?a/t*100:0}%"></i></div></div>`;
   }).join('');
 }
 
@@ -261,14 +308,14 @@ function renderHealth(){
     const t=g.channels.reduce((x,c)=>x+c.streams.length,0);
     const a=g.channels.reduce((x,c)=>x+c.streams.filter(s=>s.status==='alive').length,0);
     const r=t?a/t*100:0;
-    return `<tr><td>${g.name}</td><td>${r.toFixed(0)}%<div class="bar"><i class="ok" style="width:${r}%"></i></div></td><td>${g.channels.length}</td></tr>`;
+    return `<tr><td>${escapeHtml(g.name)}</td><td>${r.toFixed(0)}%<div class="bar"><i class="ok" style="width:${r}%"></i></div></td><td>${g.channels.length}</td></tr>`;
   }).join('');
   const bysrc={};
   flatten().forEach(({c})=>c.streams.forEach(s=>(s.sources||(s.src?[s.src]:[])).forEach(x=>{
     const b=bysrc[x]||(bysrc[x]={a:0,t:0});b.t++;if(s.status==='alive')b.a++;
   })));
   document.getElementById('healthSrc').innerHTML=Object.entries(bysrc).sort((x,y)=>y[1].t-x[1].t).slice(0,30).map(([k,v])=>{
-    const r=v.t?v.a/v.t*100:0;return `<tr><td>${k}</td><td>${r.toFixed(0)}%<div class="bar"><i class="ok" style="width:${r}%"></i></div></td><td>${v.t}</td></tr>`;
+    const r=v.t?v.a/v.t*100:0;return `<tr><td>${escapeHtml(k)}</td><td>${r.toFixed(0)}%<div class="bar"><i class="ok" style="width:${r}%"></i></div></td><td>${v.t}</td></tr>`;
   }).join('');
 }
 
@@ -280,6 +327,11 @@ function exportJSON(){
   const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='channels-edited.json';a.click();
   URL.revokeObjectURL(a.href);toast('已导出，请上传到仓库 channels.json 生效');
 }
+
+/* HTML/JS 转义，避免频道名或 URL 中的引号、尖括号破坏 DOM 或注入 */
+function escapeHtml(s){return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function escAttr(s){return escapeHtml(s)}
+function escJs(s){return String(s==null?'':s).replace(/['"\\]/g,c=>'\\'+c).replace(/</g,'\\u003c')}
 init();
 </script>
 </body>

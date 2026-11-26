@@ -41,7 +41,7 @@ jobs:
       - name: 同步网页数据到 Pages 目录
         run: |
           mkdir -p output/web
-          cp web/index.html web/data.json output/web/
+          cp web/index.html web/data.json web/data.js output/web/
 
       - name: 提交全链条产物
         run: |
@@ -60,9 +60,9 @@ jobs:
         run: |
           rm -rf _site && mkdir -p _site
           cp -r output/. _site/
-          cp web/index.html web/data.json _site/
+          cp web/index.html web/data.json web/data.js _site/
           mkdir -p _site/web
-          cp web/index.html web/data.json _site/web/
+          cp web/index.html web/data.json web/data.js _site/web/
           cp iptv-live.m3u _site/manual-live.m3u
           cp iptv-live-all.m3u _site/manual-live-all.m3u
 

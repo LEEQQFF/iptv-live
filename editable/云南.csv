@@ -1,8 +1,6 @@
 ﻿分组,频道,线路数,存活,失效,官方,最佳线路,ID
-云南,ChuxiongNewsChannel[Not24/7],1,1,0,0,http://hwapi.yntv.net/ew265l/848y54.m3u8,chuxiongnewschannel
-云南,YunnanSatelliteTV(1080p),1,0,1,0,,yunnansatellitetv
-云南,云南Ⅰ文山公共台(1080p),1,0,1,0,,云南i文山公共台
-云南,云南Ⅰ文山综合台(1080p)[Not24/7],1,0,1,0,,云南i文山综合台
+云南,云南I文山公共台,1,0,1,0,,云南i文山公共台
+云南,云南I文山综合台,1,0,1,0,,云南i文山综合台
 云南,云南娱乐,1,0,1,0,,云南娱乐
 云南,云南都市,2,0,2,0,,云南都市
 云南,文山州公共,1,1,0,0,http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel8/playlist.m3u8,文山州公共

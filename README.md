@@ -94,33 +94,37 @@ python scripts/main.py --no-probe
 
 | 用途 | 订阅地址 |
 | --- | --- |
-| **主订阅（推荐）**：仅存活线路，每频道最多 5 条 | `https://raw.githubusercontent.com/LEEQQFF/iptv-live/main/iptv-live.m3u` |
-| 主订阅（Pages） | `https://leeqqff.github.io/iptv-live/manual-live.m3u` |
-| 全量备用（含失效） | `https://raw.githubusercontent.com/LEEQQFF/iptv-live/main/iptv-live-all.m3u` |
+| **主订阅（推荐·CDN 通道）**：仅存活线路，每频道最多 5 条、规范短名称 | `https://fastly.jsdelivr.net/gh/LEEQQFF/iptv-live@main/iptv-live.m3u` |
+| 主订阅（Pages 通道） | `https://leeqqff.github.io/iptv-live/manual-live.m3u` |
+| 主订阅（raw 备用） | `https://raw.githubusercontent.com/LEEQQFF/iptv-live/main/iptv-live.m3u` |
+| 全量备用（含失效，CDN） | `https://fastly.jsdelivr.net/gh/LEEQQFF/iptv-live@main/iptv-live-all.m3u` |
 | EPG 节目单 | `https://leeqqff.github.io/iptv-live/e.xml`（备用 `https://raw.githubusercontent.com/LEEQQFF/iptv-live/main/output/e.xml`） |
 | **图形化管理台** | `https://leeqqff.github.io/iptv-live/web/` |
+
+> CDN（jsdelivr）通道在国内外均可达，优先使用；raw 通道在部分网络下 TLS 握手失败。CDN 有约 10 分钟缓存，若刚更新未生效可在地址后加 `?t=时间戳`。频道名称已统一规范化（英文/拼音翻译为中文、繁简统一、画质/地区/时长噪声清理）。
 
 ### 统一全链条（scripts/pipeline.py）
 
 所有源统一在 `config/sources.yaml` 登记，共 **28 个**：原有 16 个源 + `SparkTV-默认订阅地址清单.md` 的 11 个地址 + `channels.json` 内置频道库。`scripts/pipeline.py` 一次跑完全链条：
 
 1. **抓取**：并发拉取全部源，M3U/TXT/官方动态(ysp/snrtv)/固定流/内置库；失败源回退本地缓存，订阅不中断。
-2. **聚合**：统一条目格式，每条线路记录来源源名称。
-3. **去重**：按 URL（忽略动态 token）全局去重，同一线路多源贡献合并来源列表。
-4. **归类**：央视（CCTV1-17 序号）、央视系列（CHC/CGTN/CETV 等）、卫视、34 个省级行政区、网络（非行政区）。
-5. **严格检活**：真实 HTTP GET，仅 2xx/3xx 且返回 M3U/TS 媒体字节判存活；3 小时内存活线路不重复测，只补测新增/到期。
-6. **官方源置顶**：官方域名/白名单 → 存活 → 延迟升序。
+2. **名称规范化**（`scripts/names.py`）：把上游千差万别的名称翻译/修正为国内规范频道名——英文/拼音（AnhuiTV、BingtuanSatelliteTV、Tonghua TV）译为中文，繁简统一，画质/地区/时长/来源噪声（`(1080p)`、`[Not24/7]`、`[Geo-blocked]`、`[1080][S]`）清理，CCTV/CHC/CGTN/CETV 系列规范名收敛；无效名称直接剔除。同一频道跨源 converge 到同一规范名。
+3. **聚合**：统一条目格式，每条线路记录来源源名称。
+4. **去重**：按 URL（忽略动态 token）全局去重，同一线路多源贡献合并来源列表。
+5. **归类**：央视（CCTV1-17 序号）、央视系列（CHC/CGTN/CETV 等）、卫视、34 个省级行政区、网络（非行政区）。
+6. **严格检活**：真实 HTTP GET，仅 2xx/3xx 且返回 M3U/TS 媒体字节判存活；3 小时内存活线路不重复测，只补测新增/到期。
+7. **官方源置顶**：官方域名/白名单 → 存活 → 延迟升序。M3U 的 `tvg-name` 用规范短名、超长 `tvg-logo` 省略，避免名称过长导致部分播放器解析失败。
 
 ### 自动维护（24 小时，每 10 分钟滚动）
 
 - `.github/workflows/refresh.yml`：每 10 分钟执行 `scripts/pipeline.py`，刷新 `channels.json`、M3U 订阅、CSV 与管理台 `web/data.json`，并部署 Pages。
-- `.github/workflows/update.yml`：每小时更新官方动态流与 EPG；与 refresh 共用并发组串行执行，避免冲突。
+- `.github/workflows/update.yml`：每小时更新官方动态流与 EPG；使用独立并发组 `iptv-epg`，不再与 refresh 相互排队阻塞。
 - 可在 Actions 页手动触发 `10分钟滚动维护直播源与管理台` 立即刷新。
 
 ### 图形化管理台
 
-打开 `https://leeqqff.github.io/iptv-live/web/`，六个视图：
-1. **公网订阅地址**：4 个可一键复制的订阅/EPG 地址。
+打开 `https://leeqqff.github.io/iptv-live/web/`（也可直接用浏览器打开仓库内 `web/index.html`），六个视图：
+1. **公网订阅地址**：CDN/Pages/raw/EPG 共 6 个地址，均带「复制」「打开」按钮；复制在 HTTPS、HTTP、file:// 下均可用（自动回退 `execCommand`）。
 2. **订阅地址清单**：28 个源的地址、状态、条目数。
 3. **直播源清单**：按频道/来源/状态/延迟查看每条线路，支持搜索、状态筛选。
 4. **来源关系**：各订阅源贡献的线路占比与多源交叉验证线路。
@@ -128,6 +132,8 @@ python scripts/main.py --no-probe
 6. **检活结果**：总体、按分组、按来源的存活率。
 
 拖拽频道行到左侧分组即可调整归类；点击「导出归类 JSON」下载后上传覆盖 `channels.json`，下一次刷新即按新归类生成订阅。
+
+数据通过 `web/data.js`（全局变量）内嵌加载，因此即使用其他浏览器以 `file://` 直接打开网页也能显示数据；通过 http(s)（Pages）访问时另会用 `fetch` 每 5 分钟拉取最新 `data.json` 实现实时刷新。
 
 ### 为什么此前的地址订阅不到本次更新
 

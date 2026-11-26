@@ -37,6 +37,7 @@ sys.path.insert(0, str(ROOT / "tools" / "iptv_pipeline"))
 
 import main as legacy  # 复用抓取/解析/归类/检活函数
 import regroup as rg   # 复用省级/央视系列归类规则
+import names as nm     # 频道/直播源名称规范化（翻译、纠错、规范名）
 
 CACHE = ROOT / "tools" / "cache"
 CACHE.mkdir(parents=True, exist_ok=True)
@@ -141,40 +142,41 @@ def fetch_all(cfg: dict) -> tuple[list[dict], dict]:
 # ---------------------------------------------------------------- 归类
 def classify_channel(name: str, item: dict, name_map: dict, city_map: dict) -> tuple[str, str, str]:
     """返回 (分组名, 规范频道名, tvg_id)。
+
+    先经 names.canonical 把上游 raw 名翻译/修正为国内规范频道名，再归类。
     优先级：央视主频道 -> 央视系列 -> 卫视 -> 省级行政区 -> 网络。
     """
     raw = str(name or "")
-    n = rg.norm(raw)
-    s = rg.simplify(raw)
+    # 名称规范化：翻译英文/拼音、繁简统一、清理画质/地区/时长噪声
+    canon = nm.canonical(raw, item)
+    if not canon:  # 噪声/无效名称，交由 aggregate 跳过
+        return "", "", ""
+    s = rg.simplify(canon)
 
     # 央视主频道 CCTV1-17 / CCTV+1..3，按序号
     m = re.search(r"CCTV\s*[-·]?\s*(\d{1,2})", s, re.I)
-    if m:
+    if m and 1 <= int(m.group(1)) <= 17:
         num = int(m.group(1))
-        if 1 <= num <= 17:
-            plus = "+" in s[m.end():m.end()+2]
-            disp = f"CCTV-{num}{'+' if plus else ''}"
-            return "央视", disp, f"cctv{num}{'+' if plus else ''}"
+        plus = "+" in canon
+        disp = f"CCTV-{num}{'+' if plus else ''}"
+        return "央视", disp, f"cctv{num}{'+' if plus else ''}"
     # 央视系列（CHC/CGTN/CETV/央视付费频道等）
-    if rg.CCTV_SERIES_RE.search(s) or item.get("builtin_official"):
-        canon = re.sub(r"\s+", "", raw)[:28] or "央视系列"
+    if rg.CCTV_SERIES_RE.search(s):
         return "央视系列", canon, rg.norm(canon)
 
-    # 省级行政区（含港澳台）
-    prov = rg.infer_province(raw, item, name_map, city_map)
+    # 省级行政区（含港澳台）；用规范名推断，翻译后的省级频道也能正确归位
+    prov = rg.infer_province(canon, item, name_map, city_map)
     if prov:
-        # 卫视：xx卫视 归入卫视组
-        if "卫视" in raw or "衛視" in raw:
-            return "卫视", re.sub(r"\s+", "", raw)[:28], rg.norm(raw)
-        return prov, re.sub(r"\s+", "", raw)[:28], rg.norm(raw)
+        if "卫视" in canon or "衛視" in canon:
+            return "卫视", canon, rg.norm(canon)
+        return prov, canon, rg.norm(canon)
 
-    # 英文/拼音卫视
+    # 英文/拼音卫视兜底（规范名已是中文，通常不会走到这里）
     ws = legacy.WEISHI_ALIAS.get(s, s)
     if ws in legacy.WEISHI:
         return "卫视", ws, ws
 
     # 其余 -> 网络
-    canon = re.sub(r"\s+", "", raw)[:40] or "未命名"
     return "网络", canon, rg.norm(canon)
 
 
@@ -384,9 +386,17 @@ def export_m3u(groups: list[dict], sources: list[dict]) -> dict:
                 if not ss:
                     continue
                 chans += 1
-                name, tid = esc(c["name"]), esc(c["id"])
-                tname = esc(c["name"].split()[0]) if c["name"] else ""
-                logo = f' tvg-logo="{esc(c["logo"])}"' if c.get("logo") else ""
+                # 规范显示名：CCTV-N 综合 -> CCTV-N（订阅端名称尽量短且规范）
+                disp = c["name"]
+                m = re.match(r"(CCTV-\d{1,2}\+?)\s+\S", disp)
+                if m:
+                    disp = m.group(1)
+                name, tid = esc(disp), esc(c["id"])
+                tname = esc(disp)
+                # tvg-logo 仅保留短地址，超长 URL（如 imgur 直链）直接省略，
+                # 避免 EXTINF 行过长导致部分播放器解析失败
+                logo_url = str(c.get("logo") or "").strip()
+                logo = f' tvg-logo="{esc(logo_url)}"' if logo_url and len(logo_url) <= 120 else ""
                 for s in ss:
                     u = s["url"].strip()
                     if not u:
@@ -426,10 +436,12 @@ def export_web_data(groups: list[dict], cfg: dict, health: dict, sources: list[d
             for n in sorted(health)
         ],
         "addresses": {
-            "primary": "https://raw.githubusercontent.com/LEEQQFF/iptv-live/main/iptv-live.m3u",
-            "all": "https://raw.githubusercontent.com/LEEQQFF/iptv-live/main/iptv-live-all.m3u",
+            "primary": "https://fastly.jsdelivr.net/gh/LEEQQFF/iptv-live@main/iptv-live.m3u",
+            "all": "https://fastly.jsdelivr.net/gh/LEEQQFF/iptv-live@main/iptv-live-all.m3u",
             "pages": "https://leeqqff.github.io/iptv-live/manual-live.m3u",
             "epg": "https://leeqqff.github.io/iptv-live/e.xml",
+            "raw": "https://raw.githubusercontent.com/LEEQQFF/iptv-live/main/iptv-live.m3u",
+            "web": "https://leeqqff.github.io/iptv-live/web/",
         },
         "groups": [],
     }
@@ -452,7 +464,12 @@ def export_web_data(groups: list[dict], cfg: dict, health: dict, sources: list[d
                           "logo": c.get("logo", ""), "streams": streams})
         data["groups"].append({"name": g["name"], "channels": chans})
     (ROOT / "web").mkdir(exist_ok=True)
-    (ROOT / "web" / "data.json").write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+    payload = json.dumps(data, ensure_ascii=False)
+    (ROOT / "web" / "data.json").write_text(payload, encoding="utf-8")
+    # data.js：以全局变量提供同样的数据，script 标签加载，兼容 file:// 与所有浏览器
+    # （fetch 在 file:// 下被 CORS 拦截，导致其他浏览器打开网页无数据）
+    (ROOT / "web" / "data.js").write_text(
+        "window.__IPTV_DATA__=" + payload + ";\n", encoding="utf-8")
 
 
 def export_editable(groups: list[dict]) -> None:

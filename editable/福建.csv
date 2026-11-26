@@ -1,10 +1,8 @@
 ﻿分组,频道,线路数,存活,失效,官方,最佳线路,ID
-福建,FujianComprehensiveChannel,1,0,1,0,,fujiancomprehensivechannel
 福建,三明新闻综合,2,2,0,0,http://ls.qingting.fm/live/4885.m3u8,三明新闻综合
 福建,云霄综合,2,2,0,0,https://live.zzyxxw.com:2443/live/xwzh.m3u8,云霄综合
 福建,晋江电视台,1,1,0,0,http://stream.jinjiang.tv/1/sd/live.m3u8?zfud,晋江
-福建,漳州新闻综合(720p)[Not24/7],1,0,1,0,,漳州新闻综合
-福建,漳州新闻综合,3,0,3,0,,漳州新闻综合
+福建,漳州新闻综合,4,0,4,0,,漳州新闻综合
 福建,福州少儿,1,1,0,0,http://live.zohi.tv/video/s10001-fztv-4/index.m3u8,福州少儿
 福建,福州生活,1,1,0,0,http://live.zohi.tv:80/video/s10001-fztv-3/index.m3u8,福州生活
 福建,福建公共,2,0,2,0,,福建公共
@@ -15,4 +13,4 @@
 福建,福建经济,1,1,0,0,http://satellitepull.cnr.cn/live/wx32fjdnjjgb/playlist.m3u8,福建经济
 福建,福建经视,5,0,5,0,,福建经视
 福建,福建综合,6,0,6,0,,福建综合
-福建,长乐综合[Geo-blocked],1,0,1,0,,长乐综合
+福建,长乐综合,1,0,1,0,,长乐综合
