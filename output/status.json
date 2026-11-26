@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-26T11:49:20+08:00",
-  "channels": 178,
-  "urls": 352,
+  "updated_at": "2026-11-26T12:57:17+08:00",
+  "channels": 175,
+  "urls": 348,
   "probe": "filtered",
   "epg": "ok",
   "sources": {
-    "vbskycn-ipv4": "ok (340条, https://live.zbds.top/tv/iptv4.m3u)",
+    "vbskycn-ipv4": "ok (339条, https://live.zbds.top/tv/iptv4.m3u)",
     "vbskycn-ipv6": "ok (1条, https://live.zbds.top/tv/iptv6.m3u)",
     "fanmingming-ipv6": "ok (82条, https://live.fanmingming.com/tv/m3u/ipv6.m3u)",
     "fanmingming-ipv4": "failed",
