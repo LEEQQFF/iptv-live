@@ -2,10 +2,10 @@
 #EXT-X-TARGETDURATION:11
 #EXT-X-ALLOW-CACHE:NO
 #EXT-X-VERSION:3
-#EXT-X-MEDIA-SEQUENCE:1499978
+#EXT-X-MEDIA-SEQUENCE:1500302
 #EXTINF:10.656,
-xwzh/gb28181_xwzh_1499978.ts?type=hls
+xwzh/gb28181_xwzh_1500302.ts?type=hls
 #EXTINF:10.64,
-xwzh/gb28181_xwzh_1499979.ts?type=hls
+xwzh/gb28181_xwzh_1500303.ts?type=hls
 #EXTINF:10.656,
-xwzh/gb28181_xwzh_1499980.ts?type=hls
+xwzh/gb28181_xwzh_1500304.ts?type=hls

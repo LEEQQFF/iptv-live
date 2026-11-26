@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated": "2026-11-27T01:17:04+08:00",
+ "updated": "2026-11-27T02:11:04+08:00",
  "repos": [
   "vbskycn/iptv",
   "fanmingming/live",
@@ -407,6 +407,149 @@
    "direct": false,
    "name": "",
    "last_ok": "2026-11-27T01:17:04+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://ali-m-l.cztv.com/channels/lantian/channel02/1080p.m3u8",
+   "enabled": false,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T02:11:04+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://ali-m-l.cztv.com/channels/lantian/channel03/1080p.m3u8",
+   "enabled": false,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T02:11:04+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://ali-m-l.cztv.com/channels/lantian/channel03/720p.m3u8",
+   "enabled": false,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T02:11:04+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://ali-m-l.cztv.com/channels/lantian/channel04/1080p.m3u8",
+   "enabled": false,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.txt",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T02:11:04+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://ali-m-l.cztv.com/channels/lantian/channel04/720p.m3u8",
+   "enabled": false,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T02:11:04+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://ali-m-l.cztv.com/channels/lantian/channel06/1080p.m3u8",
+   "enabled": false,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.txt",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T02:11:04+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://ali-m-l.cztv.com/channels/lantian/channel06/720p.m3u8",
+   "enabled": false,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T02:11:04+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://ali-m-l.cztv.com/channels/lantian/channel07/1080p.m3u8",
+   "enabled": false,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.txt",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T02:11:04+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://ali-m-l.cztv.com/channels/lantian/channel07/720p.m3u8",
+   "enabled": false,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.txt",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T02:11:04+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://ali-m-l.cztv.com/channels/lantian/channel12/720p.m3u8?zzhed",
+   "enabled": false,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T02:11:04+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8",
+   "enabled": false,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T02:11:04+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://ali-vl.cztv.com/channels/lantian/channel001/360p.m3u8",
+   "enabled": false,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.txt",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T02:11:04+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://ali-vl.cztv.com/channels/lantian/channel003/360p.m3u8",
+   "enabled": false,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.txt",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T02:11:04+08:00",
    "fail_count": 0
   }
  ]
