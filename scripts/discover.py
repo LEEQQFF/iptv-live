@@ -206,14 +206,16 @@ def validate(url: str) -> dict:
         r = requests.get(url, headers={"User-Agent": UA}, timeout=16)
         if r.status_code != 200 or not r.text:
             return {"ok": False, "reason": f"http {r.status_code}"}
-        text = r.text[:1_500_000]
         items = legacy.parse_m3u(text, "probe")
         urls = [i["url"] for i in items if i.get("url", "").startswith("http")]
-        if len(urls) < 3:
-            urls = [ln.strip() for ln in text.splitlines()
-                    if ln.strip().startswith("http") and len(ln.strip()) > 20]
-        return {"ok": len(urls) >= 3, "items": len(urls),
-                "reason": "ok" if len(urls) >= 3 else "too_few"}
+        if urls:
+            return {"ok": True, "items": len(urls), "reason": "playlist"}
+        # HLS 主清单 / 单条直播源也作为可用源收录（后续仍会经过严格检活）
+        if "#EXTM3U" in text[:2000] or "#EXT-X-" in text[:2000]:
+            return {"ok": True, "items": 1, "reason": "hls-direct"}
+        ok, _ = legacy.probe_one(url, 12)
+        return {"ok": bool(ok), "items": 1 if ok else 0,
+                "reason": "media-direct" if ok else "no_stream"}
     except Exception as e:
         return {"ok": False, "reason": type(e).__name__}
 
@@ -275,7 +277,7 @@ def main() -> None:
                 results[c["url"]] = {"ok": False, "reason": "probe_error"}
 
     entries = {legacy.url_key(e["url"]): e for e in state.get("entries", [])}
-    added, repaired = [], []
+    added, repaired, fail_samples = [], [], []
     for c in ordered:
         v = results.get(c["url"], {"ok": False, "reason": "timeout"})
         k = legacy.url_key(c["url"])
@@ -300,6 +302,9 @@ def main() -> None:
                 old["enabled"] = False
             old["last_fail"] = now_cn()
             old["last_reason"] = v.get("reason", "")
+        else:
+            fail_samples.append({"url": c["url"][:300], "reason": v.get("reason", ""),
+                                 "from_repo": c.get("from_repo", "")})
 
     # 启用数量上限：按可解析条目数排序，避免低质量源拖慢 10 分钟滚动
     enabled = [e for e in entries.values() if e.get("enabled")]
@@ -324,6 +329,7 @@ def main() -> None:
         "validated": len(results),
         "valid": len(added),
         "repaired": repaired[:20],
+        "fail_samples": fail_samples[:30],
         "active_sources": sum(1 for e in state["entries"] if e.get("enabled")),
         "entries": state["entries"][:60],
     }

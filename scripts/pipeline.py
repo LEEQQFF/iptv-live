@@ -554,8 +554,8 @@ def export_web_data(groups: list[dict], cfg: dict, health: dict, sources: list[d
         try:
             d = json.loads(disc_path.read_text(encoding="utf-8"))
             discovery = {k: d.get(k, []) if isinstance(d.get(k, []), list) else d.get(k, 0)
-                         for k in ("updated", "mode", "repos", "candidates", "valid",
-                                   "repaired", "active_sources")}
+                         for k in ("updated", "mode", "repos", "candidates", "validated",
+                                   "valid", "repaired", "fail_samples", "active_sources")}
         except Exception:
             pass
 
