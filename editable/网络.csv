@@ -93,8 +93,8 @@
 网络,Euronews,Euronews HD,1,0,1,0,,euronews,6b2be7a938
 网络,FIFA+,FIFA+,2,0,2,0,,fifa,96f0c967e6
 网络,FOX,Fox LiveNow,5,1,4,0,http://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8,fox,d9362375fd
-网络,france24,france24 FHD,3,2,1,0,http://static.france24.com:80/live/F24_FR_HI_HLS/live_tv.m3u8,france24,8dc0b9bf55
 网络,France 24,France 24,1,0,1,0,,france24,ae527085cb
+网络,france24,france24 FHD,3,2,1,0,http://static.france24.com:80/live/F24_FR_HI_HLS/live_tv.m3u8,france24,8dc0b9bf55
 网络,GB News,GB News,1,0,1,0,,gbnews,b73aa5d1fa
 网络,GOOD TV,GOOD TV,2,0,2,0,,goodtv,fc7c118601
 网络,HBO SIG,HBO SIG,1,0,1,0,,hbosig,e9cf3d800f
@@ -102,8 +102,8 @@
 网络,IHOT爱世界,IHOT爱世界,2,0,2,0,,ihot爱世界,05650df264
 网络,IHOT爱体育,IHOT爱体育,3,0,3,0,,ihot爱体育,55f207f899
 网络,IHOT爱军武,IHOT爱军武,2,0,2,0,,ihot爱军武,0450a5673b
-网络,IHOT爱动漫,IHOT爱动漫,2,0,2,0,,ihot爱动漫,1356ed27d0
 网络,iHOT爱动漫,iHOT爱动漫,1,0,1,0,,ihot爱动漫,6d0eff31c1
+网络,IHOT爱动漫,IHOT爱动漫,2,0,2,0,,ihot爱动漫,1356ed27d0
 网络,IHOT爱历史,IHOT爱历史,2,0,2,0,,ihot爱历史,776542e2bc
 网络,IHOT爱奇谈,IHOT爱奇谈,2,0,2,0,,ihot爱奇谈,ecaf26453a
 网络,IHOT爱娱乐,IHOT爱娱乐,1,0,1,0,,ihot爱娱乐,804e6c66f9
@@ -127,7 +127,7 @@
 网络,IHOT爱都市,IHOT爱都市,2,0,2,0,,ihot爱都市,c9f7c9c3ab
 网络,IHOT爱青春,IHOT爱青春,2,0,2,0,,ihot爱青春,550ffb3a14
 网络,iNews新闻台,iNews新闻台,1,0,1,0,,inews新闻台,90c856208f
-网络,ION,Chuxiong News Channel [Not 24/7],5,1,4,0,http://hwapi.yntv.net/ew265l/848y54.m3u8,ion,d630d5cc06
+网络,ION,Dubai One,5,1,4,0,http://hwapi.yntv.net/ew265l/848y54.m3u8,ion,1742568b4e
 网络,ION Plus,ION Plus,1,0,1,0,,ionplus,6a2c5b836f
 网络,IPTV4K,IPTV4K,1,0,1,0,,iptv4k,5e523393f5
 网络,J2,J2,3,0,3,0,,j2,4bd9fcd659
@@ -275,7 +275,7 @@
 网络,中国,直播中国,1,0,1,0,,中国,185e1a6bb9
 网络,中国交通,中国交通,1,0,1,0,,中国交通,dd1f847137
 网络,中国功夫,中国功夫,2,0,2,0,,中国功夫,9d6e59d6fd
-网络,中国天气,中国天气,1,0,1,0,,中国天气,ee1517e6a1
+网络,中国天气,中国天气,2,0,2,0,,中国天气,d96365fa68
 网络,中国旅游,China Travel (1080p),1,1,0,1,https://fastlive.cctvplus.com/out/v1/ca6f9297b7314a63959435028af287fc/index.m3u8,中国旅游,8f38e39c39
 网络,中国蓝新闻,中国蓝新闻,1,1,0,1,http://ali-m-l.cztv.com/channels/lantian/channel009/1080p.m3u8,中国蓝新闻,ace5cbd690
 网络,乌龙闯情关,乌龙闯情关,2,0,2,0,,乌龙闯情关,4101661c4d
@@ -283,14 +283,14 @@
 网络,乐高频道,The Lego Channel,1,0,1,0,,乐高,d7ca1a8043
 网络,云县电视台,云县电视台,1,0,1,0,,云县,f2e85610ee
 网络,互扇巴掌大赛「其他」,互扇巴掌大赛「其他」,1,0,1,0,,互扇巴掌大赛「其他」,67fc6ba51d
-网络,亚洲新闻台,ChannelNewsAsia FHD,2,1,1,0,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8,亚洲新闻台,0eda4d48fd
+网络,亚洲新闻台,亞洲新聞台,2,1,1,0,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8,亚洲新闻台,299e8f1592
 网络,亚美卫视,亚美卫视,1,0,1,0,,亚美卫视,9b89017515
 网络,亮剑,亮剑,2,0,2,0,,亮剑,d21b16f749
 网络,人在囧途,人在囧途,1,1,0,0,https://vip.ffzy-play.com/20221018/1953_2d6ba500/index.m3u8,人在囧途,14b502c908
 网络,人在囧途之泰囧,人在囧途之泰囧,1,1,0,0,https://vip.ffzy-play.com/20221018/1951_47e1adc8/index.m3u8,人在囧途之泰囧,23307d1f85
 网络,人在囧途之港囧,人在囧途之港囧,1,1,0,0,https://vip.ffzy-play7.com/20230112/11082_fde1a94d/index.m3u8,人在囧途之港囧,0c56779865
 网络,人文纪录,Documentary Humanities Channel (1080p),1,0,1,0,,人文纪录,4b2fc9466c
-网络,今日俄罗斯,BRTV Kaku Childrens Channel,13,2,11,0,https://rt-srb.rttv.com/dvr/rtbalkan/playlist_4500Kb.m3u8,今日俄罗斯,37db48d59f
+网络,今日俄罗斯,RT DE,13,2,11,0,https://rt-srb.rttv.com/dvr/rtbalkan/playlist_4500Kb.m3u8,今日俄罗斯,57e4df29f3
 网络,今日俄罗斯新闻,RT News,1,0,1,0,,今日俄罗斯新闻,063a514f2b
 网络,今日俄罗斯法语,RT Français,1,1,0,0,https://rt-fra.rttv.com/dvr/rtfrance/playlist_4500Kb.m3u8,今日俄罗斯法语,031f570dbc
 网络,今日俄罗斯纪录,RT Documentary,2,2,0,0,https://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8,今日俄罗斯纪录,c833cc7ba7
@@ -481,7 +481,7 @@
 网络,唯心电视,唯心电视,1,1,0,0,https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8,唯心电视,8b1b96d2a4
 网络,喜剧现场,NextUp Live Comedy,1,0,1,0,,喜剧现场,83b5fab475
 网络,喜羊羊与灰太狼,喜羊羊与灰太狼,2,0,2,0,,喜羊羊与灰太狼,12b92df20e
-网络,嘉佳卡通,嘉佳卡通 SD,5,0,5,0,,嘉佳卡通,e5fe71809a
+网络,嘉佳卡通,嘉佳卡通,5,0,5,0,,嘉佳卡通,b9e0720c8f
 网络,国家地理,National Geographic,1,0,1,0,,国家地理,513aa596f8
 网络,土耳其广播电视公司世界频道,TRT World,1,0,1,0,,土耳其广播电视公司世界,0b541b1bb5
 网络,埋堆堆01,埋堆堆01,1,0,1,0,,埋堆堆01,2ea0eb8e46
@@ -589,7 +589,7 @@
 网络,弈坛春秋,弈坛春秋 (576p),1,0,1,0,,弈坛春秋,2aa7763cf2
 网络,彭博,Bloomberg Originals,3,2,1,0,https://liveprodeuwest.akamaized.net/eu1/Channel-EUTVqvs-AWS-ireland-1/Source-EUTVqvs-700-1_live.m3u8,彭博,4593ca3da3
 网络,彭博亚洲,Bloomberg Asia,1,1,0,0,https://epg.pw/stream/d2edf469b9079064a283f4b0811cbf6f2597ebbb3d08dcf77036a4b5a791b7cf.m3u8,彭博亚洲,831a019d68
-网络,德国之声,DW FHD,3,1,2,0,https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8,德国之声,9a1314ca13
+网络,德国之声,DW,3,1,2,0,https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8,德国之声,9b65dc5b70
 网络,快乐垂钓,快乐垂钓,5,0,5,0,,快乐垂钓,c66bb9df61
 网络,怡伴健康,怡伴健康,1,0,1,0,,怡伴健康,8657e4a5f9
 网络,惊悚悬疑,惊悚悬疑,1,0,1,0,,惊悚悬疑,89e2ba3f58
@@ -758,7 +758,7 @@
 网络,纪实人文,纪实人文,2,0,2,0,,纪实人文,647fedecd7
 网络,纪实科教,纪实科教,1,0,1,0,,纪实科教,b1646cf4b8
 网络,纪实科教8K,纪实科教8K,1,0,1,0,,纪实科教8k,22d4688326
-网络,纯享4K,纯享4K,3,0,3,0,,纯享4k,ef90f44593
+网络,纯享4K,纯享4K,3,0,3,0,,纯享4k,f871cea9a1
 网络,经典剧集,经典剧集,1,0,1,0,,经典剧集,7101248ad3
 网络,继续教育,继续教育 (576p),1,0,1,0,,继续教育,bf12e06798
 网络,维护内容:维护Gather「删除IPV6,维护内容:维护Gather「删除IPV6,1,0,1,0,,维护内容:维护gather「删除ipv6,b126f1b259
@@ -768,8 +768,7 @@
 网络,美剧「解说」,美剧「解说」,1,0,1,0,,美剧「解说」,6f0457e6b5
 网络,美国之音,VoA TV China (1080p),2,1,1,0,https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8,美国之音,4ef374a160
 网络,美好生活,美好生活,1,1,0,0,https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8,美好生活,2f7777e437
-网络,耀才财经,耀才财经,2,0,2,0,,耀才财经,35c95770a0
-网络,耀才财经台,耀才財經台,1,0,1,0,,耀才财经台,21fb670768
+网络,耀才财经,耀才财经,3,0,3,0,,耀才财经,35c95770a0
 网络,耿马电视台,耿马电视台,1,0,1,0,,耿马,cea1cc072c
 网络,航海王,航海王,1,0,1,0,,航海王,e04d6d5e27
 网络,航海王「动漫」,航海王「动漫」,1,0,1,0,,航海王「动漫」,6ea55b171f
@@ -844,5 +843,5 @@
 网络,魅力潇湘,魅力潇湘,1,0,1,0,,魅力潇湘,f4c3e2810d
 网络,鹿鼎记,鹿鼎记,3,0,3,0,,鹿鼎记,16fdda9cd6
 网络,黄河卫视,黄河卫视,1,0,1,1,,黄河卫视,a38fbed543
-网络,黑莓动画,黑莓动画,3,0,3,0,,黑莓动画,c113bbf47c
+网络,黑莓动画,黑莓动画,3,0,3,0,,黑莓动画,b51ce71490
 网络,黑龙卫视,黑龙卫视 (1080p),4,0,4,0,,黑龙卫视,5336919540

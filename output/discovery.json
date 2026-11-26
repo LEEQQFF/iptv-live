@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T00:09:00+08:00",
+ "updated": "2026-11-27T00:12:01+08:00",
  "mode": "light",
  "repos": [
   "vbskycn/iptv",
@@ -7,14 +7,14 @@
   "iptv-org/iptv",
   "yuanzl77/IPTV"
  ],
- "candidates": 729,
+ "candidates": 715,
  "validated": 24,
- "valid": 14,
+ "valid": 12,
  "repaired": [],
  "fail_samples": [
   {
    "url": "http://116.90.120.151:8000/play/a0ax/index.m3u8",
-   "reason": "ConnectionError",
+   "reason": "ConnectTimeout",
    "from_repo": "iptv-org/iptv"
   },
   {
@@ -58,12 +58,22 @@
    "from_repo": "iptv-org/iptv"
   },
   {
-   "url": "http://222.169.85.8:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "url": "http://223.78.65.165:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0",
    "reason": "ReadTimeout",
    "from_repo": "vbskycn/iptv"
+  },
+  {
+   "url": "http://3gvod.zjgonline.com.cn:1935/live/_definst_/shehuishenghuo_app/chunklist.m3u8",
+   "reason": "ConnectTimeout",
+   "from_repo": "vbskycn/iptv"
+  },
+  {
+   "url": "http://51.210.199.58/hls/stream.m3u8",
+   "reason": "ConnectTimeout",
+   "from_repo": "iptv-org/iptv"
   }
  ],
- "active_sources": 14,
+ "active_sources": 26,
  "entries": [
   {
    "url": "http://112.46.105.20:8009/hls/19/index.m3u8",
@@ -189,6 +199,138 @@
    "from_repo": "vbskycn/iptv",
    "from_file": "tv/iptv4.m3u",
    "last_ok": "2026-11-27T00:09:00+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://222.169.85.8:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "enabled": true,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T00:12:01+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://222.179.155.21:1935/ch1.m3u8?zzhongqd",
+   "enabled": true,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T00:12:01+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://222.179.42.129:8181/hls1.m3u8",
+   "enabled": true,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T00:12:01+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://59.175.226.142:280/gb28181/xwzh.m3u8?zhubd",
+   "enabled": true,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T00:12:01+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u",
+   "enabled": true,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.txt",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T00:12:01+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://61.221.215.25:8800/hls/49/index.m3u8",
+   "enabled": true,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T00:12:01+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://615bbf179ba53515dccad7b1da5d1ad9.livehwc3.cn/hls.nntv.cn/nnlive/WLSH_24.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=2598844eaee8a4265e706fc14b3fc11d",
+   "enabled": true,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T00:12:01+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://85.237.89.159:3342/ar-s/Nickelodeon/index.m3u8",
+   "enabled": true,
+   "items": 1,
+   "from_repo": "iptv-org/iptv",
+   "from_file": "streams/ae.m3u",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T00:12:01+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://85.237.89.159:3342/ar-s/STAR-World-HD/index.m3u8",
+   "enabled": true,
+   "items": 1,
+   "from_repo": "iptv-org/iptv",
+   "from_file": "streams/ae.m3u",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T00:12:01+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8",
+   "enabled": true,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.txt",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T00:12:01+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://ali-m-l.cztv.com/channels/lantian/channel003/720p.m3u8",
+   "enabled": true,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T00:12:01+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8",
+   "enabled": true,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T00:12:01+08:00",
    "fail_count": 0
   }
  ]
