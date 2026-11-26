@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-26T13:52:17+08:00",
-  "channels": 175,
-  "urls": 348,
+  "updated_at": "2026-11-26T14:53:47+08:00",
+  "channels": 178,
+  "urls": 356,
   "probe": "filtered",
   "epg": "ok",
   "sources": {
@@ -12,14 +12,14 @@
     "iptv-org-cn": "ok (156条, https://iptv-org.github.io/iptv/countries/cn.m3u)",
     "yuanzl77": "failed",
     "guovin-iptv-api": "ok (1619条, https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u)",
-    "snrtv-official": "failed: ConnectTimeout",
+    "snrtv-official": "ok (10条, 官方动态解析)",
     "yuechan-live": "ok (96条, https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u)",
     "suxuang-ipv4": "ok (1226条, https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u)",
     "suxuang-ipv6": "ok (862条, https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u)",
     "imdazui-1300": "ok (1298条, https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/master/m3u/1300%E4%B8%AA%E7%9B%B4%E6%92%AD%E6%BA%90%E5%85%A8%E9%83%A8%E6%9C%89%E6%95%88%E3%80%90%E5%85%A8%E9%83%A84k%E8%80%81%E7%94%B5%E8%84%91%E5%88%AB%E7%94%A8%E3%80%91.m3u8)",
     "hujingguang-chinaiptv": "ok (0条, https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/grouped.m3u8)",
     "yang1989-gather": "ok (123条, https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u)",
-    "yangshipin-official": "ok (105条, 央视频官方)",
+    "yangshipin-official": "ok (104条, 央视频官方)",
     "official-fixed": "fixed"
   }
 }
