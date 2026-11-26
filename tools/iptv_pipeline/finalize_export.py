@@ -12,7 +12,7 @@ from openpyxl import Workbook
 from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 CACHE = ROOT / "tools" / "cache"
 TODAY = "2026-11-25"
 OFFICIAL_HOSTS = ("cctv.com", "cntv.cn", "bestv.cn")

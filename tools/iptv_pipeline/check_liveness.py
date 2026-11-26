@@ -12,7 +12,7 @@ from pathlib import Path
 
 import requests
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 CACHE = ROOT / "tools" / "cache"
 MERGED = CACHE / "merged.json"
 RESULT = CACHE / "liveness.json"

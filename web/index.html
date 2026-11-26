@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>iptv-live 直播源管理台</title>
+<style>
+  :root{
+    --bg:#0e1117; --panel:#171b24; --panel2:#1e2430; --line:#2a3140;
+    --text:#e6e9ef; --muted:#9aa3b2; --accent:#4f8cff; --ok:#3fb950;
+    --bad:#f85149; --warn:#d29922; --chip:#26304a;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+  header{padding:18px 24px;border-bottom:1px solid var(--line);background:var(--panel);position:sticky;top:0;z-index:20}
+  h1{margin:0 0 6px;font-size:20px}
+  .sub{color:var(--muted);font-size:12px}
+  .stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+  .stat{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:8px 12px}
+  .stat b{font-size:18px;display:block}
+  .stat span{color:var(--muted);font-size:11px}
+  nav{display:flex;gap:6px;flex-wrap:wrap;padding:12px 24px;border-bottom:1px solid var(--line)}
+  button.tab{background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:6px;padding:7px 14px;cursor:pointer}
+  button.tab.active{background:var(--accent);border-color:var(--accent);color:#fff}
+  main{display:grid;grid-template-columns:220px 1fr;min-height:calc(100vh - 200px)}
+  aside{border-right:1px solid var(--line);padding:12px;background:var(--panel);overflow:auto;max-height:calc(100vh - 200px)}
+  aside h3{font-size:12px;color:var(--muted);margin:8px 4px}
+  .glist{list-style:none;margin:0;padding:0}
+  .glist li{padding:7px 10px;border-radius:6px;cursor:pointer;display:flex;justify-content:space-between}
+  .glist li:hover{background:var(--panel2)}
+  .glist li.active{background:var(--chip)}
+  .gcount{color:var(--muted);font-size:11px}
+  section{padding:16px 24px;overflow:auto}
+  .toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
+  input,select{background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:6px;padding:7px 10px}
+  input{flex:1;min-width:180px}
+  button{background:var(--accent);color:#fff;border:none;border-radius:6px;padding:8px 14px;cursor:pointer}
+  button.ghost{background:var(--panel2);color:var(--text);border:1px solid var(--line)}
+  table{border-collapse:collapse;width:100%;font-size:13px}
+  th,td{border-bottom:1px solid var(--line);padding:7px 9px;text-align:left;vertical-align:top}
+  th{position:sticky;top:0;background:var(--panel);color:var(--muted);font-size:11px;z-index:2}
+  tr[draggable=true]{cursor:grab}
+  tr.drag-over{outline:2px dashed var(--accent)}
+  .ch{font-weight:600}
+  .src{color:var(--muted);font-size:11px;word-break:break-all;max-width:280px}
+  .url{color:#8ab4f8;font-size:11px;word-break:break-all;max-width:360px}
+  .pill{display:inline-block;border-radius:10px;padding:1px 8px;font-size:11px}
+  .alive{background:rgba(63,185,80,.16);color:var(--ok)}
+  .dead{background:rgba(248,81,73,.16);color:var(--bad)}
+  .official{background:rgba(210,153,34,.2);color:#f0c674}
+  .view{display:none}
+  .view.active{display:block}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px;margin-bottom:12px}
+  .bar{height:9px;background:var(--line);border-radius:5px;overflow:hidden;margin-top:5px}
+  .bar i{display:block;height:100%;background:var(--accent)}
+  .bar i.ok{background:var(--ok)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px}
+  .note{color:var(--warn);font-size:12px}
+  .toast{position:fixed;bottom:20px;right:20px;background:var(--accent);color:#fff;padding:10px 16px;border-radius:8px;display:none;z-index:50}
+  @media(max-width:800px){main{grid-template-columns:1fr}aside{max-height:200px}}
+</style>
+</head>
+<body>
+<header>
+  <h1>iptv-live 直播源管理台</h1>
+  <div class="sub" id="meta">加载中…</div>
+  <div class="stats" id="stats"></div>
+</header>
+<nav>
+  <button class="tab active" data-v="list">直播源清单</button>
+  <button class="tab" data-v="source">来源关系</button>
+  <button class="tab" data-v="group">归类关系</button>
+  <button class="tab" data-v="health">检活结果</button>
+</nav>
+<main>
+  <aside>
+    <h3>分组（点击查看）</h3>
+    <ul class="glist" id="groups"></ul>
+  </aside>
+  <section>
+    <div class="toolbar" id="toolbar">
+      <input id="q" placeholder="搜索频道名 / 来源 / URL">
+      <select id="statusFilter">
+        <option value="all">全部状态</option><option value="alive">仅存活</option><option value="dead">仅失效</option>
+      </select>
+      <button class="ghost" id="exportBtn">导出归类 JSON</button>
+      <span class="note" id="dragHint">提示：拖动频道行到左侧分组可调整归类</span>
+    </div>
+
+    <div class="view active" id="v-list"><table id="tbl"><thead><tr>
+      <th>频道</th><th>来源</th><th>状态</th><th>延迟</th><th>URL</th>
+    </tr></thead><tbody></tbody></table></div>
+
+    <div class="view" id="v-source"><div class="grid" id="sourceGrid"></div></div>
+    <div class="view" id="v-group"><div class="grid" id="groupGrid"></div></div>
+    <div class="view" id="v-health"><div id="healthBox"></div></div>
+  </section>
+</main>
+<div class="toast" id="toast"></div>
+<script>
+let DATA={groups:[]}, CUR='', q='', sf='all';
+
+function toast(m){const t=document.getElementById('toast');t.textContent=m;t.style.display='block';setTimeout(()=>t.style.display='none',1800)}
+function flatten(){const out=[];DATA.groups.forEach(g=>g.channels.forEach(c=>({g:g.name,c})));return out}
+
+function init(){
+  fetch('data.json?t='+Date.now()).then(r=>r.json()).then(d=>{DATA=d;renderMeta();renderGroups();renderAll()})
+    .catch(e=>{document.getElementById('meta').textContent='数据加载失败：'+e});
+
+  document.querySelectorAll('button.tab').forEach(b=>b.onclick=()=>{
+    document.querySelectorAll('button.tab').forEach(x=>x.classList.remove('active'));
+    document.querySelectorAll('.view').forEach(x=>x.classList.remove('active'));
+    b.classList.add('active');document.getElementById('v-'+b.dataset.v).classList.add('active');
+    document.getElementById('toolbar').style.display = b.dataset.v==='list'?'flex':'none';
+  });
+  document.getElementById('q').oninput=e=>{q=e.target.value.toLowerCase();renderList()};
+  document.getElementById('statusFilter').onchange=e=>{sf=e.target.value;renderList()};
+  document.getElementById('exportBtn').onclick=exportJSON;
+}
+
+function renderMeta(){
+  const s=DATA.meta||{};
+  document.getElementById('meta').textContent=`数据更新 ${DATA.updated||''} ・ 频道 ${s.channels||0} ・ 线路 ${s.streams||0} ・ 存活 ${s.alive_streams||0}`;
+  const items=[['频道',s.channels||0],['线路',s.streams||0],['存活',s.alive_streams||0],
+    ['失效',(s.streams||0)-(s.alive_streams||0)],['分组',DATA.groups.length],['官方源',s.official_streams||0]];
+  document.getElementById('stats').innerHTML=items.map(x=>`<div class="stat"><b>${x[1]}</b><span>${x[0]}</span></div>`).join('');
+}
+
+function renderGroups(){
+  const ul=document.getElementById('groups');
+  ul.innerHTML=DATA.groups.map(g=>`<li data-g="${g.name}" class="${g.name===CUR?'active':''}" ondrop="dropChannel(event,'${g.name}')" ondragover="event.preventDefault()">
+    <span>${g.name}</span><span class="gcount">${g.channels.length}</span></li>`).join('');
+  ul.querySelectorAll('li').forEach(li=>li.onclick=()=>{CUR=li.dataset.g;renderGroups();renderList()});
+}
+
+function visibleStreams(g,c){
+  return c.streams.map((s,i)=>({...s,_g:g,_c:c,_i:i})).filter(s=>{
+    if(sf==='alive'&&s.status!=='alive')return false;
+    if(sf==='dead'&&s.status==='dead')return false;
+    const t=(q||'');if(!t)return true;
+    return (c.name+c.id+s.src+s.url).toLowerCase().includes(t);
+  });
+}
+
+function renderList(){
+  const rows=[];
+  DATA.groups.forEach(g=>{
+    if(CUR&&g.name!==CUR)return;
+    g.channels.forEach((c,ci)=>{
+      visibleStreams(g,c).forEach(s=>{
+        const badge=s.official?'<span class="pill official">官方</span>':
+          `<span class="pill ${s.status==='alive'?'alive':'dead'}">${s.status==='alive'?'存活':'失效'}</span>`;
+        rows.push(`<tr draggable="true" data-g="${g.name}" data-i="${ci}">
+          <td class="ch">${c.name}</td><td class="src">${s.src||'-'}</td><td>${badge}</td>
+          <td>${typeof s.ms==='number'?s.ms+'ms':'-'}</td><td class="url">${s.url}</td></tr>`);
+      });
+    });
+  });
+  const tb=document.querySelector('#tbl tbody');tb.innerHTML=rows.join('');
+  tb.querySelectorAll('tr[draggable]').forEach(tr=>{
+    tr.ondragstart=e=>{e.dataTransfer.setData('text/plain',tr.dataset.g+'|'+tr.dataset.i)};
+  });
+}
+
+function dropChannel(e,target){
+  e.preventDefault();
+  const raw=e.dataTransfer.getData('text/plain');if(!raw)return;
+  const [from,idxStr]=raw.split('|');const ci=parseInt(idxStr,10);
+  if(from===target||Number.isNaN(ci))return;
+  const src=DATA.groups.find(g=>g.name===from);
+  if(!src||!src.channels[ci])return;
+  const [ch]=src.channels.splice(ci,1);
+  let dst=DATA.groups.find(g=>g.name===target);
+  if(!dst){dst={name:target,channels:[]};DATA.groups.push(dst)}
+  dst.channels.push(ch);
+  CUR=target;renderGroups();renderAll();toast(`已将「${ch.name}」归类到 ${target}`);
+}
+
+function renderSource(){
+  const map={};
+  flatten().forEach(({c})=>c.streams.forEach(s=>{const k=s.src||'未标注';map[k]=(map[k]||0)+1}));
+  const total=Object.values(map).reduce((a,b)=>a+b,0)||1;
+  const sorted=Object.entries(map).sort((a,b)=>b[1]-a[1]);
+  document.getElementById('sourceGrid').innerHTML=sorted.map(([k,v])=>
+    `<div class="card"><b>${k}</b><div class="sub">${v} 条线路（${(v/total*100).toFixed(1)}%）</div><div class="bar"><i style="width:${v/total*100}%"></i></div></div>`).join('');
+}
+
+function renderGroup(){
+  document.getElementById('groupGrid').innerHTML=DATA.groups.map(g=>{
+    const alive=g.channels.reduce((a,c)=>a+c.streams.filter(s=>s.status==='alive').length,0);
+    const total=g.channels.reduce((a,c)=>a+c.streams.length,0);
+    return `<div class="card"><b>${g.name}</b><div class="sub">${g.channels.length} 频道 / ${total} 线路 / 存活 ${alive}</div>
+      <div class="bar"><i class="ok" style="width:${total?alive/total*100:0}%"></i></div></div>`;
+  }).join('');
+}
+
+function renderHealth(){
+  const all=flatten();let alive=0,dead=0,unknown=0,official=0;
+  all.forEach(({c})=>c.streams.forEach(s=>{
+    if(s.status==='alive')alive++;else if(s.status==='dead')dead++;else unknown++;
+    if(s.official)official++;
+  }));
+  const rate=alive+dead?alive/(alive+dead)*100:0;
+  document.getElementById('healthBox').innerHTML=`
+    <div class="card"><h3>总体检活</h3>
+      <div class="sub">存活 ${alive} / 失效 ${dead} / 未检 ${unknown}，存活率 ${rate.toFixed(1)}%</div>
+      <div class="bar"><i class="ok" style="width:${rate}%"></i></div></div>
+    <div class="card"><h3>按分组存活率</h3><table><thead><tr><th>分组</th><th>存活率</th><th>频道</th></tr></thead><tbody>
+      ${DATA.groups.map(g=>{const t=g.channels.reduce((a,c)=>a+c.streams.length,0);
+        const a=g.channels.reduce((x,c)=>x+c.streams.filter(s=>s.status==='alive').length,0);
+        const r=t?a/t*100:0;return `<tr><td>${g.name}</td><td>${r.toFixed(0)}%<div class="bar"><i class="ok" style="width:${r}%"></i></div></td><td>${g.channels.length}</td></tr>`}).join('')}
+    </tbody></table></div>`;
+}
+
+function renderAll(){renderList();renderSource();renderGroup();renderHealth()}
+
+function exportJSON(){
+  const out={schema:4,updated:new Date().toISOString(),grouping:DATA.groups.map(g=>g.name),groups:DATA.groups};
+  const blob=new Blob([JSON.stringify(out,null,1)],{type:'application/json'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='channels-edited.json';a.click();
+  URL.revokeObjectURL(a.href);toast('已导出 channels-edited.json，请上传到仓库 channels.json 以生效');
+}
+
+init();
+</script>
+</body>
+</html>

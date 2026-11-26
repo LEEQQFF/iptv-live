@@ -1,0 +1,72 @@
+name: 10分钟滚动维护直播源与管理台
+
+on:
+  schedule:
+    # 每 10 分钟滚动更新（GitHub Actions 定时任务在高峰可能延迟数分钟）
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# 与 update.yml 共用并发组，避免两个 workflow 同时改 output / 推送
+concurrency:
+  group: iptv-live
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      - name: 滚动刷新（聚合→去重→归类→增量检活→置顶→导出）
+        run: python scripts/auto_refresh.py
+
+      - name: 提交人工维护产物
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add channels.json iptv-live.m3u iptv-live-all.m3u web tools/cache
+          if git diff --cached --quiet; then
+            echo "本次无变化"
+          else
+            git pull --rebase origin main || true
+            git commit -m "10分钟滚动更新直播源 $(date -u +%Y-%m-%dT%H:%MZ)" || true
+            git push || true
+          fi
+
+      - name: 组装 Pages 站点
+        run: |
+          rm -rf _site && mkdir -p _site
+          cp -r output/. _site/ 2>/dev/null || true
+          cp web/index.html web/data.json _site/
+          cp iptv-live.m3u _site/manual-live.m3u
+          cp iptv-live-all.m3u _site/manual-live-all.m3u
+
+      - name: 配置 Pages
+        uses: actions/configure-pages@v5
+
+      - name: 上传 Pages 产物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

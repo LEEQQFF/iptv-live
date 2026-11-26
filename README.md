@@ -94,10 +94,28 @@ python scripts/main.py --no-probe
 
 | 用途 | 订阅地址 |
 | --- | --- |
-| **主订阅（推荐）**：仅存活线路，726 频道 / 1146 条线路，每频道最多 5 条 | `https://raw.githubusercontent.com/LEEQQFF/iptv-live/main/iptv-live.m3u` |
-| 主订阅（Pages 备用，下次 Actions 部署后生效） | `https://leeqqff.github.io/iptv-live/manual-live.m3u` |
-| 全量备用：含失效线路，1690 频道 / 4371 条线路，供排查 | `https://raw.githubusercontent.com/LEEQQFF/iptv-live/main/iptv-live-all.m3u` |
+| **主订阅（推荐）**：仅存活线路，每频道最多 5 条 | `https://raw.githubusercontent.com/LEEQQFF/iptv-live/main/iptv-live.m3u` |
+| 主订阅（Pages） | `https://leeqqff.github.io/iptv-live/manual-live.m3u` |
+| 全量备用（含失效） | `https://raw.githubusercontent.com/LEEQQFF/iptv-live/main/iptv-live-all.m3u` |
 | EPG 节目单 | `https://leeqqff.github.io/iptv-live/e.xml`（备用 `https://raw.githubusercontent.com/LEEQQFF/iptv-live/main/output/e.xml`） |
+| **图形化管理台** | `https://leeqqff.github.io/iptv-live/web/` |
+
+### 自动维护（24 小时，每 10 分钟滚动）
+
+- `.github/workflows/refresh.yml`：每 10 分钟执行 `scripts/auto_refresh.py`，依次完成订阅抓取 → 聚合去重 → 央视/卫视/省级/网络归类 → 增量严格检活 → 官方源置顶，自动刷新 `channels.json`、M3U 订阅与管理台数据，并部署 Pages。
+- 增量策略：缓存线路 3 小时内不重复全量测活，只补测新增/到期 URL；订阅抓取失败时沿用上次缓存，保证订阅不中断。
+- `.github/workflows/update.yml`：每小时更新官方动态流与 EPG；与 refresh 共用并发组串行执行。
+- 可在 Actions 页手动触发 `10分钟滚动维护直播源与管理台` 立即刷新。
+
+### 图形化管理台
+
+打开 `https://leeqqff.github.io/iptv-live/web/`，四个视图：
+1. **直播源清单**：按频道/来源/状态/延迟查看每条线路，支持搜索与状态筛选。
+2. **来源关系**：按上游订阅源统计线路占比。
+3. **归类关系**：38 个分组的频道与线路分布。
+4. **检活结果**：总体存活率与分组存活率。
+
+拖拽频道行到左侧分组即可调整归类；点击「导出归类 JSON」下载 `channels-edited.json`，上传到仓库覆盖 `channels.json` 后，下一次自动刷新即按新归类生成订阅（人工归类会保留）。
 
 **为什么此前的地址订阅不到本次更新**：
 1. `SparkTV-默认订阅地址清单.md` 里的 11 个地址是**上游来源**（best-fan、iptv-org、Guovin 等），不是本仓库产出的订阅结果；

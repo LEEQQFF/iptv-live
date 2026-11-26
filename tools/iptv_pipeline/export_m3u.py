@@ -12,7 +12,7 @@ import json
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 DATA = ROOT / "channels.json"
 EPG_URL = "https://leeqqff.github.io/iptv-live/e.xml"
 MAX_PER_CHANNEL = 5

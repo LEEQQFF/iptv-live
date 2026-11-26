@@ -7,7 +7,7 @@ import re
 import unicodedata
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 CACHE = ROOT / "tools" / "cache"
 
 GROUP_ORDER = ["央视", "卫视", "地方", "港澳台", "其他"]

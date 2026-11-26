@@ -58,7 +58,8 @@
   "subscription_rows": 5058,
   "subscription_skipped_rows": 108,
   "subscription_unmatched_rows": 1499,
-  "province_groups": 34
+  "province_groups": 34,
+  "alive_streams": 1333
  },
  "groups": [
   {

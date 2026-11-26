@@ -8,20 +8,17 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
+# 与 refresh.yml 共用并发组，两者串行执行，避免同时推送/Pages 冲突
 concurrency:
-  group: iptv-update
+  group: iptv-live
   cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 45
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    # 不再使用 github-pages environment；Pages 由 refresh.yml 统一部署
     steps:
       - name: 检出仓库
         uses: actions/checkout@v4
@@ -41,22 +38,14 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add output
+          git add output/live.m3u output/live.txt output/e.xml output/status.json
           if git diff --cached --quiet; then
             echo "本次无变化"
           else
-            git commit -m "自动更新直播源 $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push
+            git pull --rebase origin main || true
+            git commit -m "自动更新直播源 $(date -u +%Y-%m-%dT%H:%MZ)" || true
+            git push || true
           fi
 
-      - name: 配置 Pages
-        uses: actions/configure-pages@v5
+      # Pages 部署统一由 refresh.yml 负责（每 10 分钟），此处不再争抢 environment
 
-      - name: 上传 Pages 产物
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: output
-
-      - name: 部署到 GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
