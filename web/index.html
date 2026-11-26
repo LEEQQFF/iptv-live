@@ -60,6 +60,12 @@ aside h3{font-size:12px;color:var(--muted);margin:6px 0}
 .gname{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .openbtn{background:var(--panel2);color:#79c0ff;border:1px solid var(--line);padding:5px 9px;border-radius:5px;font-size:11px}
 details{margin-top:10px}summary{cursor:pointer;color:var(--muted);font-size:12px}
+.ghost[disabled]{opacity:.45;cursor:not-allowed}
+.writebar{padding:8px 22px;background:var(--panel2);border-bottom:1px solid var(--line);display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.writebar input{max-width:420px}
+.pending{background:#d2992215;border:1px solid #d2992255;border-radius:8px;padding:9px 12px;margin-bottom:12px;display:none}
+.pending.show{display:block}
+.pending code{color:#e3b341;font-size:11px;word-break:break-all}
 .split{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 @media(max-width:900px){.layout,.split{grid-template-columns:1fr}aside{position:static;max-height:180px}}
 </style>
@@ -78,6 +84,14 @@ details{margin-top:10px}summary{cursor:pointer;color:var(--muted);font-size:12px
   <button class="tab" data-v="group">归类与分组</button>
   <button class="tab" data-v="health">检活结果</button>
 </nav>
+<div class="writebar">
+  <span class="badge">GitHub 自动写回</span>
+  <input type="password" id="ghToken" placeholder="GitHub Token（public_repo 权限），配置后修改自动写回仓库并刷新公网订阅" autocomplete="off">
+  <button class="ghost" id="saveTokenBtn">保存并验证</button>
+  <button class="ghost" id="clearTokenBtn">清除</button>
+  <button class="ghost" id="refreshBtn">立即刷新数据</button>
+  <span class="note" id="tokenStatus">未配置：修改需手动在 GitHub 提交；配置后全自动写回</span>
+</div>
 <main>
   <div class="view active" id="v-addr">
     <div class="card">
@@ -136,8 +150,16 @@ details{margin-top:10px}summary{cursor:pointer;color:var(--muted);font-size:12px
           <label class="note"><input type="checkbox" id="urlToggle" style="flex:none"> 显示 URL</label>
           <button class="ghost" id="exportBtn">导出修改 JSON</button>
         </div>
-        <div class="note" style="margin-bottom:10px">修改维护名后按回车即提交；拖动频道行到左侧分组完成归类调整。提交后机器人自动重新归类并发布到公网订阅。需要查看/复制 URL 时勾选“显示 URL”。</div>
+        <div class="note" style="margin-bottom:10px">修改维护名后按回车、拖拽频道到左侧分组，都会先加入“待提交修改”；点击「提交到 GitHub 并自动发布」后写回仓库并刷新公网订阅。URL 默认隐藏，勾选“显示 URL”可查阅复制。</div>
+        <div class="pending" id="pendingBox">
+          <b>待提交修改（<span id="pendingCount">0</span> 项）</b>
+          <div id="pendingList" style="margin:6px 0"></div>
+          <button id="submitBtn">提交到 GitHub 并自动发布</button>
+          <button class="ghost" id="discardBtn">撤销全部</button>
+          <span class="note" id="submitNote"></span>
+        </div>
         <table id="tbl"><thead><tr><th>频道名称-维护</th><th>频道名称-源名</th><th>分组</th><th>来源</th><th>状态</th><th>延迟</th><th id="urlTh" style="display:none">URL</th></tr></thead><tbody></tbody></table>
+        <div class="toolbar" id="pager" style="margin-top:12px"></div>
       </div>
     </div>
   </div>
@@ -174,8 +196,9 @@ details{margin-top:10px}summary{cursor:pointer;color:var(--muted);font-size:12px
      http(s) 下再 fetch data.json 覆盖，实现近实时刷新。 -->
 <script src="data.js"></script>
 <script>
-let DATA=(window.__IPTV_DATA__&&window.__IPTV_DATA__.groups)?window.__IPTV_DATA__:{groups:[],subscriptions:[],addresses:{},meta:{},discovery:{}},CUR='',q='',sf='all',SRCFILTER='',SHOWURL=false;
-const REPO='https://github.com/LEEQQFF/iptv-live';
+let DATA=(window.__IPTV_DATA__&&window.__IPTV_DATA__.groups)?window.__IPTV_DATA__:{groups:[],subscriptions:[],addresses:{},meta:{},discovery:{}};
+let CURVIEW='addr',CUR='',q='',sf='all',SRCFILTER='',SHOWURL=false,PAGE=0,PAGESIZE=60,EXPANDED=new Set(),PENDING=[],DATAUPDATED=DATA.updated||'',DIRTY=false;
+const REPO='https://github.com/LEEQQFF/iptv-live',TOKEN_KEY='iptv_live_gh_token';
 
 function toast(m){const t=document.getElementById('toast');t.textContent=m;t.style.display='block';clearTimeout(t._t);t._t=setTimeout(()=>t.style.display='none',2600)}
 
@@ -209,50 +232,134 @@ function copyCell(btn){copyText(btn.dataset.url||btn.parentElement.textContent.t
 function flatten(){const o=[];DATA.groups.forEach(g=>g.channels.forEach((c,i)=>o.push({g:g.name,c,i})));return o}
 function channelKey(c){return c.uid||c.id||c.name}
 
+/* 静默检查数据版本：更新时不打断用户正在进行的编辑，仅提示手动刷新 */
+function fetchData(){return fetch('data.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null)}
 function refreshData(){
   if(!/^https?:$/.test(location.protocol))return;
-  fetch('data.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).then(d=>{
-    if(d&&d.groups&&d.groups.length){DATA=d;window.__IPTV_DATA__=d;renderAll()}
+  fetchData().then(d=>{
+    if(!d||!d.groups||!d.groups.length)return;
+    if(DATAUPDATED&&d.updated===DATAUPDATED)return;
+    DATAUPDATED=d.updated;
+    if(PENDING.length||DIRTY){toast('数据已更新，提交修改或点“立即刷新数据”后查看');return}
+    DATA=d;window.__IPTV_DATA__=d;renderMeta();
   }).catch(()=>{});
 }
+function forceRefresh(){
+  if(!/^https?:$/.test(location.protocol)){toast('本地文件模式无法自动刷新，请重新打开文件');return}
+  fetchData().then(d=>{
+    if(!d||!d.groups||!d.groups.length){toast('刷新失败，继续使用当前数据');return}
+    DATA=d;window.__IPTV_DATA__=d;DATAUPDATED=d.updated;renderAll();toast('数据已刷新');
+  }).catch(()=>toast('刷新失败，请稍后重试'));
+}
+function showView(v){
+  CURVIEW=v;
+  document.querySelectorAll('.view').forEach(x=>x.classList.toggle('active',x.id==='v-'+v));
+  document.querySelectorAll('button.tab').forEach(x=>x.classList.toggle('active',x.dataset.v===v));
+  renderView(v);
+}
+function renderView(v){
+  if(v==='addr')renderAddr();
+  else if(v==='subs'){renderSubs();renderDiscovery()}
+  else if(v==='list'){renderGroups();renderList();renderPager()}
+  else if(v==='rel')renderRel();
+  else if(v==='group')renderGroup();
+  else if(v==='health')renderHealth();
+}
 function init(){
-  renderAll();refreshData();setInterval(refreshData,60*1000);
-  document.querySelectorAll('button.tab').forEach(b=>b.onclick=()=>{
-    document.querySelectorAll('button.tab').forEach(x=>x.classList.remove('active'));
-    document.querySelectorAll('.view').forEach(x=>x.classList.remove('active'));
-    b.classList.add('active');document.getElementById('v-'+b.dataset.v).classList.add('active');
-  });
-  document.getElementById('q').oninput=e=>{q=e.target.value.toLowerCase();renderList()};
-  document.getElementById('statusFilter').onchange=e=>{sf=e.target.value;renderList()};
+  renderMeta();renderView(CURVIEW);renderPending();initToken();
+  refreshData();setInterval(refreshData,10*60*1000);
+  document.querySelectorAll('button.tab').forEach(b=>b.onclick=()=>showView(b.dataset.v));
+  document.getElementById('q').oninput=e=>{q=e.target.value.toLowerCase();PAGE=0;renderList();renderPager()};
+  document.getElementById('statusFilter').onchange=e=>{sf=e.target.value;PAGE=0;renderList();renderPager()};
   document.getElementById('exportBtn').onclick=exportJSON;
   document.getElementById('urlToggle').onchange=e=>{SHOWURL=e.target.checked;document.getElementById('urlTh').style.display=SHOWURL?'':'none';renderList()};
   document.getElementById('addGroupBtn').onclick=addGroup;
   document.getElementById('manualBtn').onclick=manualAdd;
   document.getElementById('autoBtn').onclick=autoDiscover;
   document.getElementById('newGroup').onkeydown=e=>{if(e.key==='Enter')addGroup()};
+  document.getElementById('refreshBtn').onclick=forceRefresh;
+  document.getElementById('submitBtn').onclick=submitPending;
+  document.getElementById('discardBtn').onclick=discardPending;
+  document.getElementById('saveTokenBtn').onclick=saveToken;
+  document.getElementById('clearTokenBtn').onclick=clearToken;
+  document.getElementById('ghToken').onkeydown=e=>{if(e.key==='Enter')saveToken()};
 }
 
-/* 网页是静态站点，不能匿名写仓库；修改生成带标记的 GitHub Issue，
-   Action 读取后写回 config/manual_overrides.json，重跑流水线并发布公网订阅。 */
-function submitIssue(ops,title){
-  if(!ops||!ops.length){toast('没有可提交的修改');return}
-  if(!confirm(title+'\n\n将打开 GitHub 提交页；点击 Submit 后机器人自动写入仓库并刷新公网订阅。是否继续？'))return;
+/* 修改先进入本地待提交队列；配置 GitHub Token 后由 API 自动写回仓库并触发发布。
+   未配置 Token 时降级为打开预填 Issue 页，由用户登录 GitHub 手动确认。 */
+function queueOps(ops){
+  ops.forEach(o=>PENDING.push(o));DIRTY=true;renderPending();
+  toast('已加入待提交队列（共 '+PENDING.length+' 项），点「提交到 GitHub 并自动发布」生效');
+}
+function renderPending(){
+  const box=document.getElementById('pendingBox'),list=document.getElementById('pendingList');
+  document.getElementById('pendingCount').textContent=PENDING.length;
+  box.classList.toggle('show',PENDING.length>0);
+  list.innerHTML=PENDING.slice(-8).map((o,i)=>'<code>'+escapeHtml(JSON.stringify(o))+'</code>').join('<br>')+
+    (PENDING.length>8?'<div class="note">…另有 '+(PENDING.length-8)+' 项</div>':'');
+}
+function discardPending(){PENDING=[];DIRTY=false;renderPending();toast('已撤销待提交修改')}
+function token(){try{return localStorage.getItem(TOKEN_KEY)||''}catch(e){return ''}}
+function initToken(){
+  const t=token(),el=document.getElementById('ghToken'),st=document.getElementById('tokenStatus');
+  if(t){el.value=t;st.textContent='已配置 Token，正在验证…';checkToken(t)}
+}
+function checkToken(t){
+  const st=document.getElementById('tokenStatus');
+  if(!/^https?:$/.test(location.protocol)){st.textContent='本地文件模式无法验证 Token（Pages 打开可用）';return}
+  fetch('https://api.github.com/user',{headers:{Authorization:'Bearer '+t,Accept:'application/vnd.github+json'}})
+    .then(r=>r.ok?r.json():null).then(u=>{
+      st.textContent=u?('已连接 GitHub：'+u.login+'，修改可自动写回'):'Token 无效或权限不足，请重新配置';
+    }).catch(()=>{st.textContent='无法连接 GitHub，请检查网络'});
+}
+function saveToken(){
+  const t=document.getElementById('ghToken').value.trim();
+  if(!t){toast('请输入 GitHub Token');return}
+  try{localStorage.setItem(TOKEN_KEY,t)}catch(e){toast('浏览器禁止本地存储，Token 仅本次有效')}
+  document.getElementById('tokenStatus').textContent='正在验证 Token…';checkToken(t);toast('Token 已保存');
+}
+function clearToken(){
+  try{localStorage.removeItem(TOKEN_KEY)}catch(e){}
+  document.getElementById('ghToken').value='';
+  document.getElementById('tokenStatus').textContent='未配置：修改需手动在 GitHub 提交；配置后全自动写回';
+  toast('Token 已清除');
+}
+async function submitPending(){
+  if(!PENDING.length){toast('没有待提交的修改');return}
+  const ops=PENDING.map(o=>{const x={...o};delete x._title;return x});
+  const title='直播源管理台修改（'+ops.length+'项）';
   const body='<!-- iptv-live:apply -->\n```json\n'+JSON.stringify({ops},null,1)+'\n```\n';
-  const url=REPO+'/issues/new?'+new URLSearchParams({title,labels:'web-edit',body});
-  window.open(url,'_blank','noopener');
-  toast('已打开 GitHub 提交页，请点击 Submit new issue');
+  const t=token();
+  if(!t){
+    const url=REPO+'/issues/new?'+new URLSearchParams({title,labels:'web-edit',body});
+    if(confirm('尚未配置 GitHub Token，将打开 GitHub 提交页。请登录并点击 Submit new issue 后机器人自动写回。是否继续？'))window.open(url,'_blank','noopener');
+    return;
+  }
+  const note=document.getElementById('submitNote');note.textContent='正在提交…';
+  try{
+    const r=await fetch('https://api.github.com/repos/LEEQQFF/iptv-live/issues',{
+      method:'POST',
+      headers:{Authorization:'Bearer '+t,Accept:'application/vnd.github+json','Content-Type':'application/json'},
+      body:JSON.stringify({title,labels:['web-edit'],body})
+    });
+    if(!r.ok){throw new Error('HTTP '+r.status+' '+(await r.text()).slice(0,120))}
+    const j=await r.json();
+    PENDING=[];DIRTY=false;renderPending();note.textContent='Issue #'+j.number+' 已提交';
+    toast('已提交 GitHub Issue #'+j.number+'，机器人正在写回并刷新公网订阅（约 2 分钟）');
+  }catch(e){
+    note.textContent='提交失败：'+e.message;toast('提交失败：'+e.message);
+  }
 }
 function renameChannel(input){
   const name=input.value.trim();if(!name)return;
-  const ops=[{op:'rename_channel',key:input.dataset.key,name}];
-  submitIssue(ops,'维护频道名称：'+name);
+  queueOps([{op:'rename_channel',key:input.dataset.key,name}]);
 }
 function addGroup(){
   const el=document.getElementById('newGroup');const name=el.value.trim();
   if(!name){toast('请输入分组名称');return}
   if(DATA.groups.some(g=>g.name===name)){toast('分组已存在');return}
-  DATA.groups.push({name,channels:[]});el.value='';renderGroups();renderAll();
-  submitIssue([{op:'add_group',name}],'新增分组：'+name);
+  DATA.groups.push({name,channels:[]});el.value='';renderGroups();renderView(CURVIEW);
+  queueOps([{op:'add_group',name}]);
 }
 function renameGroup(name){
   const to=prompt('将分组「'+name+'」重命名为：',name);
@@ -260,7 +367,7 @@ function renameGroup(name){
   const n=to.trim();
   const g=DATA.groups.find(x=>x.name===name);if(g)g.name=n;
   if(CUR===name)CUR=n;
-  renderAll();submitIssue([{op:'rename_group',from:name,to:n}],'重命名分组：'+name+' → '+n);
+  renderView(CURVIEW);queueOps([{op:'rename_group',from:name,to:n}]);
 }
 function sourceName(u){try{return 'web-'+new URL(u).hostname.slice(0,18)}catch(e){return 'web-source'}}
 function parseManual(text,mode,name){
@@ -286,10 +393,10 @@ function manualAdd(){
   const name=document.getElementById('manualName').value.trim();
   const ops=parseManual(text,mode,name);
   if(!ops.length){toast('未识别到有效的 http(s) 地址');return}
-  submitIssue(ops,'手动添加 '+(mode==='subscription'?'订阅地址':'直播源')+'（'+ops.length+'项）');
+  queueOps(ops);
 }
 function autoDiscover(){
-  submitIssue([{op:'discover',scope:'all'}],'自动检索全网订阅地址并修正上游直播源');
+  queueOps([{op:'discover',scope:'all'}]);
 }
 
 function renderMeta(){
@@ -300,10 +407,11 @@ function renderMeta(){
 }
 
 function addrRow(r,i){
-  return `<div class="addr"><span class="badge">${r[0]}</span><code id="a-${i}" data-url="${escAttr(r[2])}">${escapeHtml(r[2])}</code>`+
-    `<span class="badge">${r[2].length} 字符</span>`+
+  const url=r[1]||'';
+  return `<div class="addr"><span class="badge">${escapeHtml(r[0])}</span><code id="a-${i}" data-url="${escAttr(url)}">${escapeHtml(url)}</code>`+
+    `<span class="badge">${url.length} 字符</span>`+
     `<button class="ghost" onclick="copy('a-${i}')">复制</button>`+
-    `<a class="openbtn" href="${escAttr(r[2])}" target="_blank" rel="noopener">打开</a></div>`;
+    `<a class="openbtn" href="${escAttr(url)}" target="_blank" rel="noopener">打开</a></div>`;
 }
 function renderAddr(){
   const a=DATA.addresses||{};
@@ -352,32 +460,55 @@ function visibleStreams(c){
     return (c.name+(c.name_source||'')+c.id+(s.sources||[]).join('')+s.url).toLowerCase().includes(q);
   });
 }
-function renderList(){
-  const rows=[];
+function collectChannels(){
+  const out=[];
   DATA.groups.forEach(g=>{
     if(CUR&&g.name!==CUR)return;
-    g.channels.forEach((c,ci)=>{
-      visibleStreams(c).forEach(s=>{
-        const pill=s.official?'<span class="pill official">官方</span>':
-          `<span class="pill ${s.status}">${s.status==='alive'?'存活':s.status==='dead'?'失效':'未检'}</span>`;
-        const src=(s.sources||[]).join(' / ')||s.src||'-';
-        const key=escAttr(channelKey(c));
-        rows.push(`<tr draggable="true" data-g="${escAttr(g.name)}" data-i="${ci}">`+
-          `<td><input class="rowinput" value="${escAttr(c.name)}" data-key="${key}" onchange="renameChannel(this)" onkeydown="if(event.key==='Enter')this.blur()" title="手动维护频道名，回车提交"></td>`+
-          `<td class="src" title="${escAttr(c.name_source||'')}">${escapeHtml(c.name_source||c.name)}</td>`+
-          `<td>${escapeHtml(g.name)}</td><td class="src">${escapeHtml(src)}</td><td>${pill}</td>`+
-          `<td>${typeof s.ms==='number'&&s.ms<9000?s.ms+'ms':'-'}</td>`+
-          (SHOWURL?`<td class="url"><button class="mini" data-url="${escAttr(s.url)}" onclick="copyCell(this)">复制</button> ${escapeHtml(s.url)}</td>`:'')+
-          `</tr>`);
-      });
+    g.channels.forEach((c,ci)=>{const vs=visibleStreams(c);if(vs.length)out.push({g,c,ci,vs})});
+  });
+  return out;
+}
+function renderList(){
+  const all=collectChannels(),pages=Math.max(1,Math.ceil(all.length/PAGESIZE));
+  if(PAGE>=pages)PAGE=pages-1;if(PAGE<0)PAGE=0;
+  const rows=[];
+  all.slice(PAGE*PAGESIZE,(PAGE+1)*PAGESIZE).forEach(({g,c,ci,vs})=>{
+    const key=channelKey(c),expanded=EXPANDED.has(key),shown=expanded?vs:vs.slice(0,1);
+    shown.forEach(s=>{
+      const pill=s.official?'<span class="pill official">官方</span>':
+        `<span class="pill ${s.status}">${s.status==='alive'?'存活':s.status==='dead'?'失效':'未检'}</span>`;
+      const src=(s.sources||[]).join(' / ')||s.src||'-';
+      const exp=vs.length>1?`<button class="mini" onclick="toggleExpand('${escJs(key)}')" title="展开/收起该频道全部线路">${expanded?'−':'+'+vs.length}</button>`:'';
+      rows.push(`<tr draggable="true" data-g="${escAttr(g.name)}" data-i="${ci}">`+
+        `<td><input class="rowinput" value="${escAttr(c.name)}" data-key="${escAttr(key)}" onchange="renameChannel(this)" onkeydown="if(event.key==='Enter')this.blur()" title="手动维护频道名，回车后加入待提交">${exp}</td>`+
+        `<td class="src" title="${escAttr(c.name_source||'')}">${escapeHtml(c.name_source||c.name)}</td>`+
+        `<td>${escapeHtml(g.name)}</td><td class="src">${escapeHtml(src)}</td><td>${pill}</td>`+
+        `<td>${typeof s.ms==='number'&&s.ms<9000?s.ms+'ms':'-'}</td>`+
+        (SHOWURL?`<td class="url"><button class="mini" data-url="${escAttr(s.url)}" onclick="copyCell(this)">复制</button> ${escapeHtml(s.url)}</td>`:'')+
+        `</tr>`);
     });
   });
-  const tb=document.querySelector('#tbl tbody');tb.innerHTML=rows.join('');
+  const tb=document.querySelector('#tbl tbody');tb.innerHTML=rows.join('')||
+    '<tr><td colspan="7" style="color:var(--muted)">没有匹配的频道</td></tr>';
   tb.querySelectorAll('tr[draggable]').forEach(tr=>tr.ondragstart=e=>{
     const g=DATA.groups.find(x=>x.name===tr.dataset.g);
     const ch=g&&g.channels[parseInt(tr.dataset.i,10)];
     e.dataTransfer.setData('text/plain',tr.dataset.g+'|'+tr.dataset.i+'|'+(ch?channelKey(ch):''));
   });
+}
+function toggleExpand(key){
+  if(EXPANDED.has(key))EXPANDED.delete(key);else EXPANDED.add(key);
+  renderList();
+}
+function gotoPage(n){PAGE=n;renderList();renderPager()}
+function renderPager(){
+  const all=collectChannels(),pages=Math.max(1,Math.ceil(all.length/PAGESIZE));
+  document.getElementById('pager').innerHTML=
+    `<button class="ghost" onclick="gotoPage(0)" ${PAGE<=0?'disabled':''}>首页</button>`+
+    `<button class="ghost" onclick="gotoPage(${PAGE-1})" ${PAGE<=0?'disabled':''}>上一页</button>`+
+    `<span class="note">第 ${PAGE+1} / ${pages} 页，共 ${all.length} 个频道（每频道默认 1 条最佳线路）</span>`+
+    `<button class="ghost" onclick="gotoPage(${PAGE+1})" ${PAGE>=pages-1?'disabled':''}>下一页</button>`+
+    `<button class="ghost" onclick="gotoPage(${pages-1})" ${PAGE>=pages-1?'disabled':''}>末页</button>`;
 }
 function dropChannel(e,target){
   e.preventDefault();
@@ -389,9 +520,9 @@ function dropChannel(e,target){
   const [ch]=src.channels.splice(ci,1);
   let dst=DATA.groups.find(g=>g.name===target);
   if(!dst){dst={name:target,channels:[]};DATA.groups.push(dst)}
-  dst.channels.push(ch);CUR=target;renderGroups();renderAll();
-  toast(`已将「${ch.name}」归类到 ${target}`);
-  submitIssue([{op:'move_channel',key:key||channelKey(ch),group:target}],'调整归类：'+ch.name+' → '+target);
+  dst.channels.push(ch);CUR=target;renderView('list');
+  toast(`已将「${ch.name}」归类到 ${target}，请点「提交到 GitHub 并自动发布」`);
+  queueOps([{op:'move_channel',key:key||channelKey(ch),group:target}]);
 }
 
 function renderRel(){
@@ -407,8 +538,8 @@ function renderRel(){
   document.getElementById('crossBody').innerHTML=cross.slice(0,60).map(x=>
     `<tr><td>${escapeHtml(x.name)}</td><td>${x.n}</td><td class="src">${escapeHtml(x.src)}</td></tr>`).join('')||'<tr><td colspan="3">无</td></tr>';
 }
-function filterSrc(s){SRCFILTER=SRCFILTER===s?'':s;CUR='';renderAll();
-  document.querySelector('[data-v="list"]').click();toast('已按来源筛选：'+(SRCFILTER||'全部'))}
+function filterSrc(s){SRCFILTER=SRCFILTER===s?'':s;CUR='';PAGE=0;renderView('list');
+  showView('list');toast('已按来源筛选：'+(SRCFILTER||'全部'))}
 
 function renderGroup(){
   document.getElementById('groupGrid').innerHTML=DATA.groups.map(g=>{
@@ -440,7 +571,7 @@ function renderHealth(){
   }).join('');
 }
 
-function renderAll(){renderMeta();renderAddr();renderSubs();renderGroups();renderList();renderRel();renderGroup();renderHealth()}
+function renderAll(){renderMeta();renderView(CURVIEW);renderPending()}
 function exportJSON(){
   const out={schema:5,updated:new Date().toISOString(),grouping:DATA.groups.map(g=>g.name),groups:DATA.groups};
   const b=new Blob([JSON.stringify(out,null,1)],{type:'application/json'});

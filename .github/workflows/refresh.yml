@@ -59,9 +59,9 @@ jobs:
           if git diff --cached --quiet; then
             echo "本次无变化"
           else
-            git pull --rebase origin main || true
-            git commit -m "10分钟滚动更新直播源 $(date -u +%Y-%m-%dT%H:%MZ)" || true
-            git push || true
+            git commit -m "10分钟滚动更新直播源 $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
 
       - name: 组装 Pages 站点
