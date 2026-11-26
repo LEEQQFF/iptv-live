@@ -1,14 +1,5 @@
-﻿频道,分组,省份,城市,序号,检活,HTTP,延迟ms,官方,来源,画质,标识,URL
-澳亚卫视,澳门,澳门,,1,失效,523,9999,,suxuang.m3u,未知,澳亚卫视,http://cdn9.163189.xyz/live/as/stream.m3u8
-澳视卫星,澳门,澳门,,2,失效,0,9999,,suxuang ipv4,未知,澳视卫星,http://r.jdshipin.com/QFhCq
-澳视卫星,澳门,澳门,,3,失效,0,9999,,suxuang ipv4,未知,澳视卫星,http://php.jdshipin.com:8880/TVOD/iptv.php?id=as
-澳视卫星,澳门,澳门,,4,失效,0,9999,,suxuang ipv4,未知,澳视卫星,https://cdn6.163189.xyz/163189/as
-澳视澳门,澳门,澳门,,5,失效,0,9999,,suxuang.m3u,未知,澳视澳门,http://php.jdshipin.com:8880/TVOD/iptv.php?id=asam
-澳视澳门,澳门,澳门,,6,失效,0,9999,,suxuang.m3u,未知,澳视澳门,http://r.jdshipin.com/n2YZI
-澳视澳门,澳门,澳门,,7,失效,0,9999,,suxuang.m3u,未知,澳视澳门,https://cdn6.163189.xyz/163189/asam
-澳门体育,澳门,澳门,,8,失效,200,9999,,suxuang.m3u,未知,澳门体育,http://cdn6.163189.xyz/163189/amty
-澳门卫视,澳门,澳门,,9,失效,0,9999,,suxuang.m3u,未知,澳门卫视,http://php.jdshipin.com:8880/TVOD/iptv.php?id=as
-澳门卫视,澳门,澳门,,10,失效,0,9999,,suxuang.m3u,未知,澳视卫星,http://r.jdshipin.com/QFhCq
-澳门卫视,澳门,澳门,,11,失效,0,9999,,suxuang.m3u,未知,澳视卫星,https://cdn6.163189.xyz/163189/as
-澳门综艺,澳门,澳门,,12,失效,200,9999,,suxuang.m3u,未知,澳门综艺,http://cdn6.163189.xyz/163189/amzy
-莲花卫视,澳门,澳门,,13,失效,403,9999,,suxuang.m3u,未知,莲花卫视,http://live-hls.macaulotustv.com/lotustv/macaulotustv.m3u8
+﻿分组,频道,线路数,存活,失效,官方,最佳线路,ID
+澳门,澳视卫星,2,0,2,0,,澳视卫星
+澳门,澳视澳门,2,0,2,0,,澳视澳门
+澳门,澳门体育,1,0,1,0,,澳门体育
+澳门,澳门综艺,1,0,1,0,,澳门综艺

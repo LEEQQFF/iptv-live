@@ -1,25 +1,129 @@
 {
-  "updated_at": "2026-11-26T20:57:32+08:00",
-  "channels": 177,
-  "urls": 353,
-  "probe": "filtered",
-  "epg": "ok",
-  "sources": {
-    "vbskycn-ipv4": "ok (319条, https://live.zbds.top/tv/iptv4.m3u)",
-    "vbskycn-ipv6": "ok (1条, https://live.zbds.top/tv/iptv6.m3u)",
-    "fanmingming-ipv6": "ok (82条, https://live.fanmingming.com/tv/m3u/ipv6.m3u)",
-    "fanmingming-ipv4": "failed",
-    "iptv-org-cn": "ok (156条, https://iptv-org.github.io/iptv/countries/cn.m3u)",
-    "yuanzl77": "failed",
-    "guovin-iptv-api": "ok (1619条, https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u)",
-    "snrtv-official": "ok (10条, 官方动态解析)",
-    "yuechan-live": "ok (96条, https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u)",
-    "suxuang-ipv4": "ok (1226条, https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u)",
-    "suxuang-ipv6": "ok (862条, https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u)",
-    "imdazui-1300": "ok (1298条, https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/master/m3u/1300%E4%B8%AA%E7%9B%B4%E6%92%AD%E6%BA%90%E5%85%A8%E9%83%A8%E6%9C%89%E6%95%88%E3%80%90%E5%85%A8%E9%83%A84k%E8%80%81%E7%94%B5%E8%84%91%E5%88%AB%E7%94%A8%E3%80%91.m3u8)",
-    "hujingguang-chinaiptv": "ok (0条, https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/grouped.m3u8)",
-    "yang1989-gather": "ok (123条, https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u)",
-    "yangshipin-official": "ok (106条, 央视频官方)",
-    "official-fixed": "fixed"
-  }
+  "updated_at": "2026-11-26T21:53:48+08:00",
+  "pipeline": "scripts/pipeline.py",
+  "source_count": 28,
+  "stats": {
+    "channels": 1804,
+    "streams": 3602,
+    "unique_urls": 3602,
+    "official_streams": 424,
+    "alive_streams": 939,
+    "source_count": 28,
+    "province_groups": 34
+  },
+  "source_health": {
+    "snrtv-official": {
+      "status": "ok (10条, 官方动态)",
+      "items": 10
+    },
+    "suxuang-ipv6": {
+      "status": "failed",
+      "items": 0
+    },
+    "imdazui-1300": {
+      "status": "failed",
+      "items": 0
+    },
+    "iptv-org-cn": {
+      "status": "ok (156条, https://iptv-org.github.io/iptv/countries/cn.m3u)",
+      "items": 156
+    },
+    "hujingguang-chinaiptv": {
+      "status": "failed",
+      "items": 0
+    },
+    "yuechan-live": {
+      "status": "failed",
+      "items": 0
+    },
+    "official-fixed": {
+      "status": "fixed",
+      "items": 10
+    },
+    "suxuang-ipv4": {
+      "status": "failed",
+      "items": 0
+    },
+    "sparktv-bestfan-province": {
+      "status": "ok (169条, 缓存)",
+      "items": 169
+    },
+    "yang1989-gather": {
+      "status": "failed",
+      "items": 0
+    },
+    "sparktv-yang1989-gather": {
+      "status": "ok (123条, 缓存)",
+      "items": 123
+    },
+    "vbskycn-ipv4": {
+      "status": "ok (319条, https://live.zbds.top/tv/iptv4.m3u)",
+      "items": 319
+    },
+    "sparktv-suxuang-ipv4": {
+      "status": "ok (1226条, 缓存)",
+      "items": 1226
+    },
+    "sparktv-vbskycn-ipv4": {
+      "status": "ok (313条, 缓存)",
+      "items": 313
+    },
+    "sparktv-iptvorg-cn": {
+      "status": "ok (523条, 缓存)",
+      "items": 523
+    },
+    "sparktv-bestfan-cctv": {
+      "status": "ok (120条, 缓存)",
+      "items": 120
+    },
+    "sparktv-ssili126": {
+      "status": "ok (3条, 缓存)",
+      "items": 3
+    },
+    "sparktv-guovin-api": {
+      "status": "ok (1619条, 缓存)",
+      "items": 1619
+    },
+    "sparktv-bestk": {
+      "status": "ok (540条, 缓存)",
+      "items": 540
+    },
+    "builtin-channels-json": {
+      "status": "ok (3453条, 内置库)",
+      "items": 3453
+    },
+    "vbskycn-ipv6": {
+      "status": "ok (1条, https://live.zbds.top/tv/iptv6.m3u)",
+      "items": 1
+    },
+    "sparktv-iptvorg-page": {
+      "status": "ok (156条, https://iptv-org.github.io/iptv/countries/cn.m3u)",
+      "items": 156
+    },
+    "yangshipin-official": {
+      "status": "ok (111条, 官方动态)",
+      "items": 111
+    },
+    "yuanzl77": {
+      "status": "failed",
+      "items": 0
+    },
+    "sparktv-bestfan-all": {
+      "status": "ok (296条, 缓存)",
+      "items": 296
+    },
+    "fanmingming-ipv4": {
+      "status": "failed",
+      "items": 0
+    },
+    "fanmingming-ipv6": {
+      "status": "failed",
+      "items": 0
+    },
+    "guovin-iptv-api": {
+      "status": "failed",
+      "items": 0
+    }
+  },
+  "elapsed_sec": 120.7
 }

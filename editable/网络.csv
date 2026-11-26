@@ -1,753 +1,586 @@
-﻿频道,分组,省份,城市,序号,检活,HTTP,延迟ms,官方,来源,画质,标识,URL
-&Flix HD,网络,,,1,失效,0,9999,,suxuang ipv4,未知,&Flix HD,http://89.187.177.137:8081/&FLIX/index.m3u8
-1905电影网,网络,,,2,存活,200,607,,suxuang ipv4,未知,1905电影网（国内）,http://8.138.7.223/tv/1905.php?id=LIVEOYY31H24H48NE
-1905电影网,网络,,,3,存活,200,658,,suxuang ipv4,未知,1905电影网,http://8.138.7.223/tv/1905.php?id=LIVE8J4LTCXPI7QJ5
-ABC News Live,网络,,,4,存活,200,1996,,suxuang ipv4,未知,ABC News Live,https://d4ybyqrhce41r.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-xumo-linear-nbcu-hlsv3/master.m3u8?ads.channelId=99991626
-ABN China (720p),网络,,,5,存活,200,2394,,iptv-org cn(github.io),720P,ABN China (720p),https://mediaserver.abnvideos.com/streams/abnchina.m3u8
-AlJazeera,网络,,,6,失效,0,9999,,suxuang ipv4,未知,Al Jazeera,http://live-hls-web-aje.getaj.net/AJE/01.m3u8
-AMC电影,网络,,,7,失效,0,9999,,suxuang ipv4,未知,AMC电影台,http://122.117.71.103:8559/http/61.222.53.250:8092/upload/115/AMC_TS-1111_1.m3u8
-Ando TV (1080p),网络,,,8,存活,200,28,,iptv-org cn,1080P,Ando TV (1080p),http://play.kankanlive.com/live/1711956137852982.m3u8
-Angel TV Chinese (720p),网络,,,9,存活,200,926,,iptv-org cn(github.io),720P,Angel TV Chinese (720p),https://janya-digimix.akamaized.net/vglive-sk-999451/chinese/ngrp:angelchinese_all/playlist.m3u8
-Arirang,网络,,,10,存活,200,1062,,suxuang ipv4,未知,Arirang,https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8
-Astro欢喜台,网络,,,11,失效,0,9999,,suxuang ipv4,未知,Astro欢喜台,http://php.jdshipin.com/smt.php?id=Huahee
-Beautiful Life TV,网络,,,12,存活,200,399,,bestK iptv,未知,Beautiful Life TV,https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
-Bloomberg Asia,网络,,,13,存活,200,1098,,suxuang ipv4,未知,Bloomberg Asia,https://epg.pw/stream/d2edf469b9079064a283f4b0811cbf6f2597ebbb3d08dcf77036a4b5a791b7cf.m3u8
-Bloomberg Originals,网络,,,14,失效,0,9999,,suxuang ipv4,未知,Bloomberg Originals,https://i.mjh.nz/SamsungTVPlus/GBBC900012J9.m3u8
-Bread TV (720p),网络,,,15,存活,200,573,,iptv-org cn(github.io),720P,Bread TV (720p),https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
-Bread TV面包台 (720p),网络,,,16,存活,200,573,,iptv-org cn,720P,Bread TV面包台 (720p),https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
-CAT电影,网络,,,17,失效,0,9999,,suxuang ipv4,未知,CAT电影,http://litv.zapi.us.kg/?id=4gtv-4gtv076
-CBC News,网络,,,18,存活,200,1197,,suxuang ipv4,未知,CBC News,https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991276
-CBN News,网络,,,19,失效,400,9999,,suxuang ipv4,未知,CBN News,https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/734546207001/playlist.m3u8
-CGNTV Chinese (1080p),网络,,,20,存活,200,379,,bestK iptv,1080P,CGNTV Chinese (1080p),https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8
-CH5,网络,,,21,失效,0,9999,,suxuang ipv4,未知,CH5,https://cdn6.163189.xyz/163189/ch5
-CH8,网络,,,22,失效,0,9999,,suxuang ipv4,未知,CH8,https://cdn6.163189.xyz/163189/ch8
-China Travel (1080p),网络,,,23,存活,200,808,,iptv-org cn,1080P,China Travel (1080p),https://fastlive.cctvplus.com/out/v1/ca6f9297b7314a63959435028af287fc/index.m3u8
-China Weather Channel (576p) [Not 24/7],网络,,,24,失效,0,9999,,iptv-org cn(github.io),未知,China Weather Channel (576p) [Not 24/7],http://hls.weathertv.cn/tslslive/qCFIfHB/hls/live_sd.m3u8
-CHU,网络,,,25,失效,0,9999,,suxuang ipv4,未知,CHU,https://cdn6.163189.xyz/163189/chu
-Clarity 4K,网络,,,26,失效,0,9999,,suxuang ipv4,4K,Clarity 4K,https://i.mjh.nz/SamsungTVPlus/USBA3800005NI.m3u8
-CNA,网络,,,27,存活,200,1426,,suxuang ipv4,未知,CNA,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
-CND Film Middle School Channel,网络,,,28,存活,200,112,,iptv-org cn,未知,CND Film Middle School Channel,http://live-play.zxstv.com.cn/zhongxuesheng/zhongxuesheng.m3u8
-CND Film Middle School Channel,网络,,,29,失效,403,9999,,iptv-org cn,未知,CND Film Middle School Channel,http://live2.rxip.sc96655.com/live/zxs_4000.m3u8?A=&E=&K=&P=&S=&U=
-Discovering China (1080p),网络,,,30,存活,200,2610,,iptv-org cn,1080P,Discovering China (1080p),https://fastlive.cctvplus.com/out/v1/8442c3bfd4c64a3984389328f6087879/index.m3u8
-Disney International,网络,,,31,失效,0,9999,,suxuang ipv4,未知,Disney International,http://sansat.net:88/HhPRf2nAlsVeRU9/AnzgPldGC8OHsyY/96284
-Documentary Humanities Channel (1080p),网络,,,32,失效,0,9999,,iptv-org cn(github.io),1080P,Documentary Humanities Channel (1080p),http://39.135.138.59:18890/PLTV/88888910/224/3221225655/index.m3u8
-Dragon TV International,网络,,,33,失效,404,9999,,iptv-org cn,未知,Dragon TV International,https://restream.pdtvhd.com/memfs/0b1b95c9-3543-4af9-9fdb-cf45f1602f17.m3u8
-Dubai One,网络,,,34,失效,0,9999,,suxuang ipv4,未知,Dubai One,http://dminnvll.cdn.mangomolo.com/dubaione/smil:dubaione.stream.smil/chunklist_b1800000.m3u8
-ELEVEN体育1,网络,,,35,失效,0,9999,,suxuang ipv4,未知,ELEVEN体育1,https://stream1.freetv.fun/eltaai-er-da-ti-yu--1--wj-1.ctv
-ELEVEN体育2,网络,,,36,失效,0,9999,,suxuang ipv4,未知,ELEVEN体育2,https://stream1.freetv.fun/eltaai-er-da-ti-yu--2--wj-1.ctv
-ELEVEN体育3,网络,,,37,失效,0,9999,,suxuang ipv4,未知,ELEVEN体育3,https://stream1.freetv.fun/eltaai-er-da-ti-yu--3--wj-1.ctv
-ET Mall 60,网络,,,38,存活,200,1024,,bestK iptv,未知,ET Mall 60,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV18.m3u8
-Fengshang Shopping Channel (1080p),网络,,,39,失效,0,9999,,iptv-org cn(github.io),1080P,Fengshang Shopping Channel (1080p),http://183.207.248.71/cntv/live1/fengshanggw/fengshanggw
-Genius Go Go Go,网络,,,40,存活,200,2864,,bestK iptv,未知,Genius Go Go Go,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV26.m3u8
-Golden Eagle Cartoon,网络,,,41,失效,0,9999,,iptv-org cn,未知,Golden Eagle Cartoon,http://1.24.190.98:10080/hls/51/index.m3u8
-Golden Eagle Cartoon,网络,,,42,失效,0,9999,,iptv-org cn(github.io),未知,Golden Eagle Cartoon (576p),http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221226303/index.m3u8
-Good,网络,,,43,失效,0,9999,,bestK iptv,未知,Good,https://live.streamingfast.net/osmflivech1.m3u8
-Good 2,网络,,,44,失效,0,9999,,bestK iptv,未知,Good 2,https://live.streamingfast.net/osmflivech2.m3u8
-GOOD TV CH1 綜合台 (720p) [Not 24/7],网络,,,45,失效,0,9999,,bestK iptv,720P,GOOD TV CH1 綜合台 (720p) [Not 24/7],https://live.streamingfast.net/osmflivech1.m3u8
-GOOD TV CH2 真理台 (720p),网络,,,46,失效,0,9999,,bestK iptv,720P,GOOD TV CH2 真理台 (720p),https://live.streamingfast.net/osmflivech2.m3u8
-High Channel TV (1080p),网络,,,47,失效,0,9999,,iptv-org cn(github.io),1080P,High Channel TV (1080p),http://117.156.28.119/270000001111/1110000146/index.m3u8
-iNews新闻台,网络,,,48,失效,0,9999,,suxuang ipv4,未知,iNews新闻台,http://api.kkitv.itv888.vip:8080/streams/o0ey7z1y0y/index.m3u8
-IPTV经典电影,网络,,,49,失效,0,9999,,Guovin iptv-api result(存活校验),未知,IPTV经典电影,http://43.138.0.72:35455/yy/1382754187
-J2,网络,,,50,失效,0,9999,,suxuang.m3u,未知,J2,http://api.kkitv.itv888.vip:8080/streams/48uxa7dlbga/index.m3u8
-J2,网络,,,51,失效,403,9999,,Guovin iptv-api result(存活校验),未知,J2,https://hls-gateway.vpstv.net/streams/476932.m3u8
-JJ斗地主,网络,,,52,失效,0,9999,,Guovin iptv-api result(存活校验),未知,JJ斗地主,https://live.iill.top/douyin/685317364746
-JP1,网络,,,53,存活,200,2258,,bestK iptv,未知,JP1,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV15.m3u8
-Kangba TV,网络,,,54,存活,200,38,,iptv-org cn,未知,Kangba TV,http://110.185.237.164:8888/hls/30/index.m3u8
-KBS world,网络,,,55,失效,400,9999,,suxuang ipv4,未知,KBS world,https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/master.m3u8
-KPop,网络,,,56,存活,200,1469,,bestK iptv,未知,KPop,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV16.m3u8
-Love Nature,网络,,,57,失效,0,9999,,suxuang ipv4,未知,Love Nature,https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
-Momo 1,网络,,,58,存活,200,1477,,bestK iptv,未知,Momo 1,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV04.m3u8
-Momo 2,网络,,,59,存活,200,1442,,bestK iptv,未知,Momo 2,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV05.m3u8
-MovieSphere,网络,,,60,失效,0,9999,,suxuang ipv4,未知,MovieSphere,https://i.mjh.nz/SamsungTVPlus/USBD17000117B.m3u8
-NBC,网络,,,61,失效,404,9999,,suxuang ipv4,未知,NBC News Now,https://jmp2.uk/sam-GBBB1500004LG.m3u8
-Nei Monggol TV,网络,,,62,存活,200,144,,iptv-org cn,1080P,Nei Monggol TV (1080i) [Not 24/7],http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
-Nei Monggol TV,网络,,,63,存活,200,1947,,iptv-org cn(github.io),未知,Nei Monggol TV (960p),https://cdn4.skygo.mn/live/disk1/NeigMGL/HLSv3-FTA/NeigMGL.m3u8
-Nei Monggol TV,网络,,,64,失效,0,9999,,iptv-org cn,未知,Nei Monggol TV,http://1.24.190.98:10080/hls/39/index.m3u8
-Nei Monggol TV,网络,,,65,失效,0,9999,,iptv-org cn,未知,Nei Monggol TV,http://110.19.156.172:9901/tsfile/live/1003_1.m3u8
-Nei Monggol TV 2 Mongolian Culture Channel,网络,,,66,存活,200,195,,iptv-org cn,1080P,Nei Monggol TV 2 Mongolian Culture Channel (1080i) [Not 24/7],http://play1-qk.nmtv.cn/live/1769652109096027.m3u8
-Nei Monggol TV 2 Mongolian Culture Channel,网络,,,67,失效,0,9999,,iptv-org cn,未知,Nei Monggol TV 2 Mongolian Culture Channel,http://1.24.190.98:10080/hls/40/index.m3u8
-Newsmax,网络,,,68,存活,200,1106,,suxuang ipv4,未知,Newsmax,http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
-NewTV动作电影,网络,,,69,存活,200,1974,,Guovin iptv-api result(存活校验),未知,NewTV动作电影,https://iptv.catvod.com/live.php?id=NewTV%E5%8A%A8%E4%BD%9C%E7%94%B5%E5%BD%B1
-NewTV动作电影,网络,,,70,失效,0,9999,,Guovin iptv-api result(存活校验),未知,NewTV动作电影,http://php.jdshipin.com/TVOD/hnyd.php?id=200000001898/460000089800010003
-NewTV动作电影,网络,,,71,失效,0,9999,,Guovin iptv-api result(存活校验),未知,NewTV动作电影,http://ott.mobaibox.com/PLTV/3/224/3221227606/index.m3u8
-NewTV惊悚悬疑,网络,,,72,存活,200,2520,,bestK iptv,未知,NewTV惊悚悬疑,https://iptv.catvod.com/live.php?id=NewTV%E6%83%8A%E6%82%9A%E6%82%AC%E7%96%91
-NewTV惊悚悬疑,网络,,,73,失效,0,9999,,Guovin iptv-api result(存活校验),未知,NewTV惊悚悬疑,http://[2409:8087:5e00:24::2d]:6610/000000001000/1/1000000004000024282/index.m3u8?channel-id=ystenlive&Contentid=1000000004000024282&livemode=1&stbId=YanG-1989
-NewTV惊悚悬疑,网络,,,74,失效,0,9999,,Guovin iptv-api result(存活校验),未知,NewTV惊悚悬疑,http://php.jdshipin.com/TVOD/hnyd.php?id=200000001898/460000089800010077
-NewTV惊悚悬疑,网络,,,75,失效,0,9999,,Guovin iptv-api result(存活校验),未知,NewTV惊悚悬疑,http://[2409:8087:1a0b:df::4002]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225665/index.m3u8
-NewTV惊悚悬疑,网络,,,76,失效,0,9999,,Guovin iptv-api result(存活校验),未知,NewTV惊悚悬疑,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225665/index.m3u8
-NewTV惊悚悬疑,网络,,,77,失效,0,9999,,Guovin iptv-api result(存活校验),未知,NewTV惊悚悬疑,http://[2409:8087:2001:20:2800:0:df6e:eb18]/wh7f454c46tw2482771376_951312812/ott.mobaibox.com/PLTV/3/224/3221227536/index.m3u8
-NextUp Live Comedy,网络,,,78,失效,0,9999,,suxuang ipv4,未知,NextUp Live Comedy,https://i.mjh.nz/SamsungTVPlus/GBBD1100012JB.m3u8
-NTD TV Asia-Pacific,网络,,,79,失效,0,9999,,bestK iptv,未知,NTD TV Asia-Pacific,https://live.ntdtv.com/aplive200/playlist.m3u8
-NU,网络,,,80,存活,200,1122,,bestK iptv,未知,NU,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV10.m3u8
-NU2,网络,,,81,存活,200,2247,,bestK iptv,未知,NU2,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV14.m3u8
-Pet Club TV,网络,,,82,存活,200,741,,bestK iptv,1080P,Pet Club TV (1080p),https://petclub-samsungaus.amagi.tv/playlist.m3u8
-Pet Club TV,网络,,,83,存活,200,2859,,bestK iptv,未知,Pet Club TV,https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-petclub-samsungnz/playlist.m3u8
-Pop,网络,,,84,失效,0,9999,,suxuang ipv4,未知,Pop,http://streamsy.online:2999/coachj88/N93DPKS9pJ/226
-RT Arabic,网络,,,85,存活,200,1619,,suxuang ipv4,未知,RT Arabic（阿语）,https://rt-arb.rttv.com/dvr/rtarab/playlist_4500Kb.m3u8
-RT Balkan （塞尔维亚语）,网络,,,86,存活,200,2573,,bestK iptv,未知,RT Balkan （塞尔维亚语）,https://rt-srb.rttv.com/dvr/rtbalkan/playlist_4500Kb.m3u8
-RT DE,网络,,,87,存活,200,2291,,suxuang ipv4,未知,RT DE（德语）,https://rt-ger.rttv.com/dvr/rtdeutsch/playlist_4500Kb.m3u8
-RT DE,网络,,,88,存活,200,2573,,suxuang ipv4,未知,RT Balkan （塞尔维亚语）,https://rt-srb.rttv.com/dvr/rtbalkan/playlist_4500Kb.m3u8
-RT Documentary,网络,,,89,存活,200,1349,,suxuang ipv4,未知,RT Documentary（英语纪录）,https://rt-rtd.rttv.com/dvr/rtdoc/playlist_4500Kb.m3u8
-RT Doc-Русский,网络,,,90,存活,200,1453,,suxuang ipv4,未知,RT Doc-Русский（俄语纪录）,https://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8
-RT Español,网络,,,91,存活,200,2109,,suxuang ipv4,未知,RT Español（西语）,https://rt-esp.rttv.com/dvr/rtesp/playlist_4500Kb.m3u8
-RT Français,网络,,,92,存活,200,2946,,suxuang ipv4,未知,RT Français（法语）,https://rt-fra.rttv.com/dvr/rtfrance/playlist_4500Kb.m3u8
-RT News,网络,,,93,存活,200,2883,,suxuang ipv4,未知,RT News（英语国际）,https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8
-SKY,网络,,,94,失效,0,9999,,suxuang ipv4,未知,SKY,http://streamsy.online:2999/coachj88/N93DPKS9pJ/330
-Sky News,网络,,,95,失效,0,9999,,suxuang ipv4,未知,Sky News,https://i.mjh.nz/SamsungTVPlus/USBB52000022Q.m3u8
-Stadium,网络,,,96,失效,0,9999,,suxuang ipv4,未知,Stadium,https://i.mjh.nz/SamsungTVPlus/USAJ3504705A.m3u8
-Supreme Master TV,网络,,,97,失效,0,9999,,bestK iptv,未知,Supreme Master TV,https://lbs-us1.suprememastertv.com/720p.m3u8
-Tastemade,网络,,,98,失效,0,9999,,suxuang ipv4,未知,Tastemade,https://i.mjh.nz/SamsungTVPlus/CABD1200002T9.m3u8
-TBS,网络,,,99,失效,0,9999,,suxuang ipv4,未知,TBS,http://143.244.60.30/TBS/index.m3u8
-The Lego Channel,网络,,,100,失效,0,9999,,suxuang ipv4,未知,The Lego Channel,https://i.mjh.nz/SamsungTVPlus/GBBC4300005AL.m3u8
-Trace Sports,网络,,,101,存活,200,892,,suxuang ipv4,未知,Trace Sports,https://lightning-tracesport-samsungau.amagi.tv/playlist1080p.m3u8
-TRT World,网络,,,102,失效,0,9999,,suxuang ipv4,未知,TRT World,https://tv-trtworld.live.trt.com.tr/master_1080.m3u8
-VoA TV China (1080p),网络,,,103,存活,200,315,,iptv-org cn(github.io),1080P,VoA TV China (1080p),https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8
-VOA美国之音 (1080p),网络,,,104,存活,200,315,,iptv-org cn,1080P,VOA美国之音 (1080p),https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8
-Wild Earth,网络,,,105,存活,200,1197,,suxuang ipv4,未知,Wild Earth,https://wildearth-plex.amagi.tv/masterR1080p.m3u8
-Wild Planet,网络,,,106,失效,0,9999,,suxuang ipv4,未知,Wild Planet,https://i.mjh.nz/SamsungTVPlus/GBBB5000002PL.m3u8
-WionNews,网络,,,107,存活,200,367,,suxuang ipv4,未知,WionNews,https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
-You Man Cartoon Channel (576p),网络,,,108,失效,0,9999,,iptv-org cn(github.io),未知,You Man Cartoon Channel (576p),http://183.207.249.15/PLTV/4/224/3221225933/index.m3u8
-「B站」CS 2,网络,,,109,失效,0,9999,,YanG Gather,未知,「B站」CS 2,https://cdn.ttvb.eu.org/bilibili/21622811
-「B站」JJ斗地主,网络,,,110,失效,0,9999,,YanG Gather,未知,「B站」JJ斗地主,https://cdn.ttvb.eu.org/bilibili/22021983
-「B站」QQ飞车•手游,网络,,,111,失效,0,9999,,YanG Gather,未知,「B站」QQ飞车•手游,https://cdn.ttvb.eu.org/bilibili/21743919
-「B站」使命召唤•手游,网络,,,112,失效,0,9999,,YanG Gather,未知,「B站」使命召唤•手游,https://cdn.ttvb.eu.org/bilibili/22741849
-「B站」无畏契约,网络,,,113,失效,0,9999,,YanG Gather,未知,「B站」无畏契约,https://cdn.ttvb.eu.org/bilibili/22908869
-「B站」热门赛事,网络,,,114,失效,0,9999,,YanG Gather,未知,「B站」热门赛事,http://dns.yiandrive.com:15907/bilibili/10
-「B站」王者荣耀 𝟙,网络,,,115,失效,0,9999,,YanG Gather,未知,「B站」王者荣耀 𝟙,https://cdn.ttvb.eu.org/bilibili/55
-「B站」王者荣耀 𝟚,网络,,,116,失效,0,9999,,YanG Gather,未知,「B站」王者荣耀 𝟚,https://cdn.ttvb.eu.org/bilibili/21654762
-「B站」第五人格,网络,,,117,失效,0,9999,,YanG Gather,未知,「B站」第五人格,https://cdn.ttvb.eu.org/bilibili/5555
-「B站」绝地求生,网络,,,118,失效,0,9999,,YanG Gather,未知,「B站」绝地求生,https://cdn.ttvb.eu.org/bilibili/98
-「B站」英雄联盟,网络,,,119,失效,0,9999,,YanG Gather,未知,「B站」英雄联盟,https://cdn.ttvb.eu.org/bilibili/6
-「B站」英雄联盟•手游,网络,,,120,失效,0,9999,,YanG Gather,未知,「B站」英雄联盟•手游,https://cdn.ttvb.eu.org/bilibili/23138275
-「斗鱼」DOTA2,网络,,,121,失效,0,9999,,YanG Gather,未知,「斗鱼」DOTA2,https://cdn.ttvb.eu.org/douyu/3811559
-「斗鱼」JJ斗地主,网络,,,122,失效,0,9999,,YanG Gather,未知,「斗鱼」JJ斗地主,https://cdn.ttvb.eu.org/douyu/488743
-「斗鱼」QQ飞车•手游,网络,,,123,失效,0,9999,,YanG Gather,未知,「斗鱼」QQ飞车•手游,https://cdn.ttvb.eu.org/douyu/5040227
-「斗鱼」云顶之弈,网络,,,124,失效,0,9999,,YanG Gather,未知,「斗鱼」云顶之弈,https://cdn.ttvb.eu.org/douyu/522423
-「斗鱼」使命召唤•手游,网络,,,125,失效,0,9999,,YanG Gather,未知,「斗鱼」使命召唤•手游,https://cdn.ttvb.eu.org/douyu/9223245
-「斗鱼」原神,网络,,,126,失效,0,9999,,YanG Gather,未知,「斗鱼」原神,https://cdn.ttvb.eu.org/douyu/10853239
-「斗鱼」我的世界,网络,,,127,失效,0,9999,,YanG Gather,未知,「斗鱼」我的世界,https://cdn.ttvb.eu.org/douyu/738878
-「斗鱼」无畏契约,网络,,,128,失效,0,9999,,YanG Gather,未知,「斗鱼」无畏契约,https://cdn.ttvb.eu.org/douyu/4585645
-「斗鱼」梦幻西游·手游,网络,,,129,失效,0,9999,,YanG Gather,未知,「斗鱼」梦幻西游·手游,https://cdn.ttvb.eu.org/huya/9163712
-「斗鱼」永劫无间,网络,,,130,失效,0,9999,,YanG Gather,未知,「斗鱼」永劫无间,https://cdn.ttvb.eu.org/huya/9662891
-「斗鱼」火影忍者,网络,,,131,失效,0,9999,,YanG Gather,未知,「斗鱼」火影忍者,https://cdn.ttvb.eu.org/douyu/1997723
-「斗鱼」王者荣耀 𝟙,网络,,,132,失效,0,9999,,YanG Gather,未知,「斗鱼」王者荣耀 𝟙,https://cdn.ttvb.eu.org/douyu/1863767
-「斗鱼」王者荣耀 𝟚,网络,,,133,失效,0,9999,,YanG Gather,未知,「斗鱼」王者荣耀 𝟚,https://cdn.ttvb.eu.org/douyu/1984839
-「斗鱼」穿越火线 𝟙,网络,,,134,失效,0,9999,,YanG Gather,未知,「斗鱼」穿越火线 𝟙,https://cdn.ttvb.eu.org/douyu/605964
-「斗鱼」穿越火线 𝟚,网络,,,135,失效,0,9999,,YanG Gather,未知,「斗鱼」穿越火线 𝟚,https://cdn.ttvb.eu.org/douyu/5388537
-「斗鱼」第五人格,网络,,,136,失效,0,9999,,YanG Gather,未知,「斗鱼」第五人格,https://cdn.ttvb.eu.org/douyu/3226194
-「斗鱼」绝地求生,网络,,,137,失效,0,9999,,YanG Gather,未知,「斗鱼」绝地求生,https://cdn.ttvb.eu.org/douyu/100
-「斗鱼」英雄联盟 𝟙,网络,,,138,失效,0,9999,,YanG Gather,未知,「斗鱼」英雄联盟 𝟙,https://cdn.ttvb.eu.org/douyu/288016
-「斗鱼」英雄联盟 𝟚,网络,,,139,失效,0,9999,,YanG Gather,未知,「斗鱼」英雄联盟 𝟚,https://cdn.ttvb.eu.org/douyu/424559
-「斗鱼」街霸,网络,,,140,失效,0,9999,,YanG Gather,未知,「斗鱼」街霸,https://cdn.ttvb.eu.org/huya/11437
-「斗鱼」跑跑卡丁车,网络,,,141,失效,0,9999,,YanG Gather,未知,「斗鱼」跑跑卡丁车,https://cdn.ttvb.eu.org/douyu/7722576
-「斗鱼」跑跑卡丁车•手游,网络,,,142,失效,0,9999,,YanG Gather,未知,「斗鱼」跑跑卡丁车•手游,https://cdn.ttvb.eu.org/douyu/6672862
-「斗鱼」金铲铲之战,网络,,,143,失效,0,9999,,YanG Gather,未知,「斗鱼」金铲铲之战,https://cdn.ttvb.eu.org/douyu/9715241
-「虎牙」CS 2,网络,,,144,失效,0,9999,,YanG Gather,未知,「虎牙」CS 2,https://cdn.ttvb.eu.org/huya/483917
-「虎牙」DOTA2,网络,,,145,失效,0,9999,,YanG Gather,未知,「虎牙」DOTA2,https://cdn.ttvb.eu.org/huya/660118
-「虎牙」使命召唤•手游,网络,,,146,失效,0,9999,,YanG Gather,未知,「虎牙」使命召唤•手游,https://cdn.ttvb.eu.org/huya/11718629
-「虎牙」无畏契约,网络,,,147,失效,0,9999,,YanG Gather,未知,「虎牙」无畏契约,https://cdn.ttvb.eu.org/huya/660679
-「虎牙」永劫无间,网络,,,148,失效,0,9999,,YanG Gather,未知,「虎牙」永劫无间,https://cdn.ttvb.eu.org/huya/660115
-「虎牙」王者荣耀 𝟙,网络,,,149,失效,0,9999,,YanG Gather,未知,「虎牙」王者荣耀 𝟙,https://cdn.ttvb.eu.org/huya/660002
-「虎牙」王者荣耀 𝟚,网络,,,150,失效,0,9999,,YanG Gather,未知,「虎牙」王者荣耀 𝟚,https://cdn.ttvb.eu.org/huya/660164
-「虎牙」穿越火线,网络,,,151,失效,0,9999,,YanG Gather,未知,「虎牙」穿越火线,https://cdn.ttvb.eu.org/huya/660101
-「虎牙」穿越火线•手游,网络,,,152,失效,0,9999,,YanG Gather,未知,「虎牙」穿越火线•手游,https://cdn.ttvb.eu.org/huya/660102
-「虎牙」第五人格,网络,,,153,失效,0,9999,,YanG Gather,未知,「虎牙」第五人格,https://cdn.ttvb.eu.org/huya/idvesports
-「虎牙」绝地求生 𝟙,网络,,,154,失效,0,9999,,YanG Gather,未知,「虎牙」绝地求生 𝟙,https://cdn.ttvb.eu.org/huya/660004
-「虎牙」绝地求生 𝟚,网络,,,155,失效,0,9999,,YanG Gather,未知,「虎牙」绝地求生 𝟚,https://cdn.ttvb.eu.org/huya/660005
-「虎牙」英雄联盟 𝟙,网络,,,156,失效,0,9999,,YanG Gather,未知,「虎牙」英雄联盟 𝟙,https://cdn.ttvb.eu.org/huya/660000
-「虎牙」英雄联盟 𝟚,网络,,,157,失效,0,9999,,YanG Gather,未知,「虎牙」英雄联盟 𝟚,https://cdn.ttvb.eu.org/huya/660001
-「虎牙」逆战,网络,,,158,失效,0,9999,,YanG Gather,未知,「虎牙」逆战,https://cdn.ttvb.eu.org/huya/nsl2021
-「虎牙」金铲铲之战,网络,,,159,失效,0,9999,,YanG Gather,未知,「虎牙」金铲铲之战,https://cdn.ttvb.eu.org/huya/660579
-七龙珠,网络,,,160,存活,200,673,,suxuang ipv4,未知,七龙珠,https://live.metshop.top/huya/11601966
-七龙珠,网络,,,161,失效,0,9999,,Guovin iptv-api result(存活校验),未知,七龙珠,https://live.ottiptv.cc/huya/11601966
-七龙珠,网络,,,162,失效,0,9999,,Guovin iptv-api result(存活校验),未知,七龙珠,http://cdn.jdshipin.com:8880/huya.php?id=11601966
-七龙珠「动漫」,网络,,,163,失效,0,9999,,YanG Gather,未知,七龙珠「动漫」,https://cdn.ttvb.eu.org/huya/11601966
-七龙珠「解说」,网络,,,164,失效,0,9999,,YanG Gather,未知,七龙珠「解说」,https://cdn.ttvb.eu.org/huya/25650806
-三国演义,网络,,,165,存活,200,1179,,suxuang ipv4,未知,三国演义,https://live.metshop.top/huya/11602081
-三国演义,网络,,,166,失效,0,9999,,Guovin iptv-api result(存活校验),未知,三国演义,https://live.iill.top/huya/11602081
-三国演义,网络,,,167,失效,0,9999,,Guovin iptv-api result(存活校验),未知,三国演义,http://cdn.jdshipin.com:8880/huya.php?id=11602081
-三国演义,网络,,,168,失效,0,9999,,Guovin iptv-api result(存活校验),未知,三国演义,https://live.ottiptv.cc/huya/11602081
-与凤行,网络,,,169,存活,200,2476,,suxuang ipv4,未知,与凤行,https://live.metshop.top/huya/26355866
-东北热剧,网络,,,170,失效,0,9999,,suxuang ipv4,未知,NewTV 东北热剧,http://39.134.65.175/PLTV/88888888/224/3221225679/1.m3u8
-中华功夫,网络,,,171,失效,404,9999,,suxuang ipv4,未知,中华功夫,http://www.cdnstv.com:6398/hls/1120/index.m3u
-中华小当家,网络,,,172,存活,200,1124,,suxuang ipv4,未知,中华小当家,https://live.metshop.top/huya/11342413
-中华小当家,网络,,,173,失效,0,9999,,Guovin iptv-api result(存活校验),未知,中华小当家,https://live.iill.top/huya/11342413
-中华小当家,网络,,,174,失效,0,9999,,Guovin iptv-api result(存活校验),未知,中华小当家,http://cdn.jdshipin.com:8880/huya.php?id=11342413
-中华小当家,网络,,,175,失效,0,9999,,Guovin iptv-api result(存活校验),未知,中华小当家,https://live.ottiptv.cc/huya/11342413
-中华小当家「动漫」,网络,,,176,失效,0,9999,,YanG Gather,未知,中华小当家「动漫」,https://cdn.ttvb.eu.org/huya/11342413
-中华特产,网络,,,177,存活,200,202,,suxuang ipv4,未知,中华特产,http://120.76.248.139/live/bfgd/4200000158.m3u8
-直播中国,网络,,,178,失效,403,9999,,suxuang ipv4,未知,直播中国,https://gcalic.v.myalicdn.com/gc/wgw05_1/index.m3u8?contentid=2820180516001
-中国交通,网络,,,179,失效,0,9999,,suxuang ipv4,未知,中国交通,http://drive.mxmy.net:8888/udp/239.3.1.188:8001
-中国功夫,网络,,,180,失效,0,9999,,suxuang ipv4,未知,NewTV 中国功夫,http://[2409:8087:5e00:24::2d]:6610/000000001000/1/2000000003000000009/index.m3u8?channel-id=hnbblive&Contentid=2000000003000000009&livemode=1&stbId=YanG-1989
-中国天气,网络,,,181,失效,0,9999,,suxuang ipv4,未知,中国天气,http://hls.weathertv.cn/tslslive/qCFIfHB/hls/live_sd.m3u8
-中国蓝新闻,网络,,,182,存活,200,99,,vbskycn iptv4,未知,中国蓝新闻,http://ali-m-l.cztv.com/channels/lantian/channel009/1080p.m3u8
-乌龙闯情关,网络,,,183,存活,200,707,,suxuang ipv4,未知,乌龙闯情关,https://live.metshop.top/huya/26355767
-乐家购物,网络,,,184,失效,404,9999,,suxuang ipv4,未知,乐家购物,http://112.46.105.20:8009/hls/23/index.m3u8
-乐游,网络,,,185,失效,0,9999,,suxuang ipv4,未知,乐游,http://t.061899.xyz/tl/tl.php?id=ly
-乐游,网络,,,186,失效,0,9999,,suxuang ipv4,未知,乐游频道,https://zby.130519.xyz/PLTV/11/224/3221226157/index.m3u8
-乐游,网络,,,187,失效,200,9999,,suxuang ipv4,未知,乐游频道,http://8.138.7.223/tv/shtv.php?id=ly
-互扇巴掌大赛「其他」,网络,,,188,失效,0,9999,,YanG Gather,未知,互扇巴掌大赛「其他」,https://cdn.ttvb.eu.org/huya/20072873
-亚洲武侠,网络,,,189,失效,0,9999,,suxuang ipv4,未知,亚洲武侠,http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
-亮剑,网络,,,190,存活,200,2291,,suxuang ipv4,未知,亮剑,https://live.metshop.top/huya/30080238
-人在囧途,网络,,,191,存活,200,811,,suxuang ipv4,未知,人在囧途,https://vip.ffzy-play.com/20221018/1953_2d6ba500/index.m3u8
-人在囧途之泰囧,网络,,,192,存活,200,1343,,suxuang ipv4,未知,人在囧途之泰囧,https://vip.ffzy-play.com/20221018/1951_47e1adc8/index.m3u8
-人在囧途之港囧,网络,,,193,存活,200,1136,,suxuang ipv4,未知,人在囧途之港囧,https://vip.ffzy-play7.com/20230112/11082_fde1a94d/index.m3u8
-仙剑奇侠传,网络,,,194,存活,200,895,,suxuang ipv4,未知,仙剑奇侠传,https://live.metshop.top/yy/1382749903
-仙剑奇侠传,网络,,,195,失效,0,9999,,Guovin iptv-api result(存活校验),未知,仙剑奇侠传,https://live.ottiptv.cc/yy/1382749903
-优优宝贝,网络,,,196,失效,200,9999,,suxuang ipv4,未知,优优宝贝,http://120.76.248.139/live/bfgd/4200000153.m3u8
-伪装者,网络,,,197,存活,200,1080,,suxuang ipv4,未知,伪装者,https://live.metshop.top/yy/1354936244
-使徒行者,网络,,,198,存活,200,3906,,suxuang ipv4,未知,使徒行者,https://live.metshop.top/huya/23734256
-信大,网络,,,199,存活,200,1146,,bestK iptv,未知,信大,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV07.m3u8
-倚天屠龙记,网络,,,200,存活,200,725,,suxuang ipv4,未知,倚天屠龙记,https://live.metshop.top/huya/23734246
-倚天屠龙记,网络,,,201,存活,200,1659,,suxuang ipv4,未知,倚天屠龙记,https://live.metshop.top/huya/11342403
-倩女幽魂人间道,网络,,,202,存活,200,78,,suxuang ipv4,未知,倩女幽魂人间道,http://jsmov2.a.yximgs.com/bs3/video-hls/5250634317044855747_hlsb.m3u8
-倩女幽魂妖魔道,网络,,,203,存活,200,68,,suxuang ipv4,未知,倩女幽魂妖魔道,http://jsmov2.a.yximgs.com/bs3/video-hls/5232901391302199073_hlsb.m3u8
-倩女幽魂道道道,网络,,,204,存活,200,59,,suxuang ipv4,未知,倩女幽魂道道道,http://jsmov2.a.yximgs.com/bs3/video-hls/5216294367991385255_hlsb.m3u8
-免费订阅：请勿贩卖...,网络,,,205,失效,0,9999,,bestK iptv,未知,免费订阅：请勿贩卖...,https://epg-1.iill.top/v/302.mp4
-八度空间,网络,,,206,失效,0,9999,,suxuang ipv4,未知,八度空间,https://cdn6.163189.xyz/163189/8tv
-公告说明：IPV6 暂无,网络,,,207,失效,0,9999,,bestK iptv,未知,公告说明：IPV6 暂无,https://epg-1.iill.top/v/301.mp4
-军事评论,网络,,,208,失效,0,9999,,suxuang ipv4,未知,NewTV 军事评论,http://[2409:8087:5e00:24::2d]:6610/000000001000/1/2000000003000000022/index.m3u8?channel-id=hnbblive&Contentid=2000000003000000022&livemode=1&stbId=YanG-1989
-军旅剧场,网络,,,209,失效,0,9999,,suxuang ipv4,未知,NewTV 军旅剧场,http://[2409:8087:5e00:24::2d]:6610/000000001000/1/2000000003000000014/index.m3u8?channel-id=hnbblive&Contentid=2000000003000000014&livemode=1&stbId=YanG-1989
-农业致富,网络,,,210,失效,0,9999,,suxuang ipv4,未知,NewTV 农业致富,http://[2409:8087:5e00:24::2d]:6610/000000001000/1/6193684637634073625/index.m3u8?channel-id=ystenlive&Contentid=6193684637634073625&livemode=1&stbId=YanG-1989
-冰冰影剧,网络,,,211,失效,0,9999,,suxuang ipv4,未知,冰冰影剧,http://www.goodiptv.club/douyu/74374
-刀刀影院,网络,,,212,失效,0,9999,,suxuang ipv4,未知,刀刀影院,http://www.goodiptv.club/douyu/747764
-刑事侦缉档案,网络,,,213,存活,200,2682,,suxuang ipv4,未知,刑事侦缉档案,https://live.metshop.top/huya/29465856
-刘德华电影,网络,,,214,存活,200,1708,,suxuang ipv4,未知,刘德华电影,https://live.metshop.top/huya/11342424
-创世纪,网络,,,215,存活,200,968,,suxuang ipv4,未知,创世纪,https://live.metshop.top/huya/29465852
-功夫电影,网络,,,216,存活,200,603,,suxuang ipv4,未知,功夫电影,https://live.metshop.top/huya/11352941
-动作电影,网络,,,217,存活,200,63,,iptv-org cn,1080P,动作电影 (1080p),http://39.134.19.68/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226465/index.m3u8
-动作电影,网络,,,218,失效,0,9999,,suxuang ipv4,未知,NewTV 动作电影,http://39.134.182.166/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236183/index.m3u8
-动漫•1「解说」,网络,,,219,失效,0,9999,,YanG Gather,未知,动漫•1「解说」,https://cdn.ttvb.eu.org/huya/19757963
-动画王国 (1080p),网络,,,220,失效,0,9999,,iptv-org cn,1080P,动画王国 (1080p),http://183.207.248.71/cntv/live1/donghuawg/donghuawg
-千禧经典,网络,,,221,失效,523,9999,,suxuang ipv4,未知,千禧经典,http://cdn9.163189.xyz/smt3.1.1.php?id=Tvbclassic
-千禧经典台,网络,,,222,失效,0,9999,,suxuang ipv4,未知,千禧经典台,http://php.jdshipin.com:8880/smt.php?id=Tvbclassic
-华语影视,网络,,,223,失效,0,9999,,suxuang ipv4,未知,华语影视,http://www.goodiptv.club/douyu/3928
-南国都市,网络,,,224,存活,200,319,,suxuang ipv4,未知,南国都市,http://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=140110ae3d6c936a77f94c4f4d85b0d3&txTime=18d57929bd4
-南国都市,网络,,,225,存活,200,383,,suxuang ipv4,未知,南国都市,https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=550af55c0ea34ce492748481415b6dfa&txTime=1903e7b17de
-南国都市4K,网络,,,226,存活,200,383,,suxuang ipv4,4K,南国都市4K,https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=550af55c0ea34ce492748481415b6dfa&txTime=1903e7b17de
-卡酷动画,网络,,,227,失效,0,9999,,Guovin iptv-api result(存活校验),未知,卡酷动画,https://zby.130519.xyz/PLTV/11/224/3221226019/index.m3u8
-卡酷动画,网络,,,228,失效,0,9999,,Guovin iptv-api result(存活校验),未知,卡酷动画,http://[2409:8087:1a15:10d1::33]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225654/index.m3u8
-卡酷动画,网络,,,229,失效,0,9999,,Guovin iptv-api result(存活校验),未知,卡酷动画,http://[2409:8087:5e08:25::16]:6610/200000001898/460000089800010081/1.m3u8
-卡酷动画,网络,,,230,失效,0,9999,,Guovin iptv-api result(存活校验),未知,卡酷动画,https://migu.188766.xyz/?migutoken=1023983db6b5249e61d4950c1654cd84&id=%E5%8C%97%E4%BA%AC%E5%8D%A1%E9%85%B7%E5%B0%91%E5%84%BF&type=yy
-卡酷动画,网络,,,231,失效,0,9999,,Guovin iptv-api result(存活校验),未知,卡酷动画,https://migu.188766.xyz/?migutoken=2c51384549aec8a85219fdc0c475e40b&id=%E5%8C%97%E4%BA%AC%E5%8D%A1%E9%85%B7%E5%B0%91%E5%84%BF&type=yy
-古天乐电影,网络,,,232,存活,200,1890,,suxuang ipv4,未知,古天乐电影,https://live.metshop.top/huya/29982675
-古装剧场,网络,,,233,失效,0,9999,,suxuang ipv4,未知,NewTV 古装剧场,http://[2409:8087:5e00:24::2d]:6610/000000001000/1/2000000003000000024/index.m3u8?channel-id=hnbblive&Contentid=2000000003000000024&livemode=1&stbId=YanG-1989
-古装武侠,网络,,,234,失效,0,9999,,suxuang ipv4,未知,古装武侠,http://www.goodiptv.club/douyu/2793084
-名侦探柯南,网络,,,235,存活,200,1919,,suxuang ipv4,未知,名侦探柯南,https://live.metshop.top/huya/30080236
-周星驰电影,网络,,,236,存活,200,576,,suxuang ipv4,未知,周星驰电影,https://live.metshop.top/huya/11342412
-咪咕体育,网络,,,237,存活,200,132,,YanG Gather,未知,咪咕直播 𝟛「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000001000007218&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,238,存活,200,147,,YanG Gather,未知,咪咕直播 𝟟「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000001000010129&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,239,存活,200,161,,YanG Gather,未知,咪咕直播 𝟙𝟡「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000009788&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,240,存活,200,163,,YanG Gather,未知,咪咕直播 𝟛𝟙「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000027691&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,241,存活,200,164,,YanG Gather,未知,咪咕直播 𝟞「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000001000008379&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,242,存活,200,165,,YanG Gather,未知,咪咕直播 𝟠「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000001000010948&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,243,存活,200,167,,YanG Gather,未知,咪咕直播 𝟚𝟘「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000010833&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,244,存活,200,169,,YanG Gather,未知,咪咕直播 𝟡「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000001000028638&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,245,存活,200,171,,YanG Gather,未知,咪咕直播 𝟙𝟘「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000001000031494&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,246,存活,200,174,,YanG Gather,未知,咪咕直播 𝟙𝟛「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000002809&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,247,存活,200,178,,YanG Gather,未知,咪咕直播 𝟙𝟙「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000000097&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,248,存活,200,184,,YanG Gather,未知,咪咕直播 𝟚𝟝「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000015470&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,249,存活,200,185,,YanG Gather,未知,咪咕直播 𝟙𝟞「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000005837&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,250,存活,200,187,,YanG Gather,未知,咪咕直播 𝟚𝟙「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000011297&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,251,存活,200,193,,YanG Gather,未知,咪咕直播 𝟝「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000001000008176&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,252,存活,200,194,,YanG Gather,未知,咪咕直播 𝟜𝕂-𝟙「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000005180&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,253,存活,200,195,,YanG Gather,未知,咪咕直播 𝟚𝟞「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000015560&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,254,存活,200,197,,YanG Gather,未知,咪咕直播 𝟜𝕂-𝟚「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000015686&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,255,存活,200,197,,YanG Gather,未知,咪咕直播 𝟚𝟛「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000012558&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,256,存活,200,198,,YanG Gather,未知,咪咕直播 𝟙𝟚「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000002019&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,257,存活,200,199,,YanG Gather,未知,咪咕直播 𝟙𝟝「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000004193&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,258,存活,200,207,,YanG Gather,未知,咪咕直播 𝟙𝟜「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000003915&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,259,存活,200,207,,YanG Gather,未知,咪咕直播 𝟚𝟚「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000011518&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,260,存活,200,219,,YanG Gather,未知,咪咕直播 𝟙𝟠「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000006658&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,261,存活,200,224,,YanG Gather,未知,咪咕直播 𝟚𝟡「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000023434&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,262,存活,200,231,,YanG Gather,未知,咪咕直播 𝟛𝟘「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000025380&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,263,存活,200,236,,YanG Gather,未知,咪咕直播 𝟚「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000001000005969&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,264,存活,200,237,,YanG Gather,未知,咪咕直播 𝟚𝟟「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000019839&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,265,存活,200,241,,YanG Gather,未知,咪咕直播 𝟙𝟟「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000006077&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,266,存活,200,248,,YanG Gather,未知,咪咕直播 𝟚𝟜「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000012616&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,267,存活,200,261,,YanG Gather,未知,咪咕直播 𝟚𝟠「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000021904&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,268,存活,200,371,,YanG Gather,未知,咪咕直播 𝟜「移动」,http://gslbserv.itv.cmvideo.cn//index.m3u8?channel-id=FifastbLive&Contentid=3000000001000008001&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,269,存活,200,379,,YanG Gather,未知,咪咕直播 𝟙「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000001000005308&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,270,失效,404,9999,,YanG Gather,未知,咪咕直播 𝟛𝟚「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011518&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,271,失效,404,9999,,YanG Gather,未知,咪咕直播 𝟛𝟛「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011519&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,272,失效,404,9999,,YanG Gather,未知,咪咕直播 𝟛𝟜「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011520&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,273,失效,404,9999,,YanG Gather,未知,咪咕直播 𝟛𝟝「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011521&livemode=1&stbId=YanG-1989
-咪咕体育,网络,,,274,失效,404,9999,,YanG Gather,未知,咪咕直播 𝟛𝟞「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011522&livemode=1&stbId=YanG-1989
-咪咕视频4K,网络,,,275,失效,0,9999,,suxuang ipv4,4K,咪咕视频4K,http://r.jdshipin.com/ln4xk
-咪咕视频4K-2,网络,,,276,失效,0,9999,,suxuang ipv4,4K,咪咕视频4K-2,http://r.jdshipin.com/Lqdwf
-咪咕赛事4k-1,网络,,,277,失效,0,9999,,suxuang ipv4,未知,咪咕赛事4k-1,http://vip.lqcc.xyz:35455/itv/3000000010000005180.m3u8?cdn=FifastbLive
-咪咕赛事4k-2,网络,,,278,失效,0,9999,,suxuang ipv4,未知,咪咕赛事4k-2,http://vip.lqcc.xyz:35455/itv/3000000010000015686.m3u8?cdn=FifastbLive
-咪咕赛事播01,网络,,,279,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播01,http://vip.lqcc.xyz:35455/itv/3000000001000005308.m3u8?cdn=FifastbLive
-咪咕赛事播02,网络,,,280,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播02,http://vip.lqcc.xyz:35455/itv/3000000001000005969.m3u8?cdn=FifastbLive
-咪咕赛事播03,网络,,,281,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播03,http://vip.lqcc.xyz:35455/itv/3000000001000007218.m3u8?cdn=FifastbLive
-咪咕赛事播04,网络,,,282,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播04,http://vip.lqcc.xyz:35455/itv/3000000001000008001.m3u8?cdn=FifastbLive
-咪咕赛事播05,网络,,,283,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播05,http://vip.lqcc.xyz:35455/itv/3000000001000008176.m3u8?cdn=FifastbLive
-咪咕赛事播06,网络,,,284,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播06,http://vip.lqcc.xyz:35455/itv/3000000001000008379.m3u8?cdn=FifastbLive
-咪咕赛事播07,网络,,,285,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播07,http://vip.lqcc.xyz:35455/itv/3000000001000010129.m3u8?cdn=FifastbLive
-咪咕赛事播08,网络,,,286,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播08,http://vip.lqcc.xyz:35455/itv/3000000001000010948.m3u8?cdn=FifastbLive
-咪咕赛事播09,网络,,,287,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播09,http://vip.lqcc.xyz:35455/itv/3000000001000026778.m3u8?cdn=FifastbLive
-咪咕赛事播10,网络,,,288,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播10,http://vip.lqcc.xyz:35455/itv/3000000001000028638.m3u8?cdn=FifastbLive
-咪咕赛事播11,网络,,,289,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播11,http://vip.lqcc.xyz:35455/itv/3000000001000031494.m3u8?cdn=FifastbLive
-咪咕赛事播12,网络,,,290,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播12,http://vip.lqcc.xyz:35455/itv/3000000010000000097.m3u8?cdn=FifastbLive
-咪咕赛事播13,网络,,,291,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播13,http://vip.lqcc.xyz:35455/itv/3000000010000002019.m3u8?cdn=FifastbLive
-咪咕赛事播14,网络,,,292,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播14,http://vip.lqcc.xyz:35455/itv/3000000010000002032.m3u8?cdn=FifastbLive
-咪咕赛事播15,网络,,,293,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播15,http://vip.lqcc.xyz:35455/itv/3000000010000002809.m3u8?cdn=FifastbLive
-咪咕赛事播16,网络,,,294,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播16,http://vip.lqcc.xyz:35455/itv/3000000010000003915.m3u8?cdn=FifastbLive
-咪咕赛事播17,网络,,,295,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播17,http://vip.lqcc.xyz:35455/itv/3000000010000004193.m3u8?cdn=FifastbLive
-咪咕赛事播18,网络,,,296,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播18,http://vip.lqcc.xyz:35455/itv/3000000010000004464.m3u8?cdn=FifastbLive
-咪咕赛事播19,网络,,,297,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播19,http://vip.lqcc.xyz:35455/itv/3000000010000005837.m3u8?cdn=FifastbLive
-咪咕赛事播20,网络,,,298,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播20,http://vip.lqcc.xyz:35455/itv/3000000010000006077.m3u8?cdn=FifastbLive
-咪咕赛事播21,网络,,,299,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播21,http://vip.lqcc.xyz:35455/itv/3000000010000006658.m3u8?cdn=FifastbLive
-咪咕赛事播22,网络,,,300,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播22,http://vip.lqcc.xyz:35455/itv/3000000010000006944.m3u8?cdn=FifastbLive
-咪咕赛事播23,网络,,,301,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播23,http://vip.lqcc.xyz:35455/itv/3000000010000007692.m3u8?cdn=FifastbLive
-咪咕赛事播24,网络,,,302,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播24,http://vip.lqcc.xyz:35455/itv/3000000010000009788.m3u8?cdn=FifastbLive
-咪咕赛事播25,网络,,,303,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播25,http://vip.lqcc.xyz:35455/itv/3000000010000010833.m3u8?cdn=FifastbLive
-咪咕赛事播26,网络,,,304,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播26,http://vip.lqcc.xyz:35455/itv/3000000010000011112.m3u8?cdn=FifastbLive
-咪咕赛事播27,网络,,,305,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播27,http://vip.lqcc.xyz:35455/itv/3000000010000011297.m3u8?cdn=FifastbLive
-咪咕赛事播28,网络,,,306,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播28,http://vip.lqcc.xyz:35455/itv/3000000010000011518.m3u8?cdn=FifastbLive
-咪咕赛事播29,网络,,,307,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播29,http://vip.lqcc.xyz:35455/itv/3000000010000011763.m3u8?cdn=FifastbLive
-咪咕赛事播30,网络,,,308,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播30,http://vip.lqcc.xyz:35455/itv/3000000010000011873.m3u8?cdn=FifastbLive
-咪咕赛事播31,网络,,,309,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播31,http://vip.lqcc.xyz:35455/itv/3000000010000012398.m3u8?cdn=FifastbLive
-咪咕赛事播32,网络,,,310,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播32,http://vip.lqcc.xyz:35455/itv/3000000010000012450.m3u8?cdn=FifastbLive
-咪咕赛事播33,网络,,,311,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播33,http://vip.lqcc.xyz:35455/itv/3000000010000012558.m3u8?cdn=FifastbLive
-咪咕赛事播34,网络,,,312,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播34,http://vip.lqcc.xyz:35455/itv/3000000010000012616.m3u8?cdn=FifastbLive
-咪咕赛事播35,网络,,,313,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播35,http://vip.lqcc.xyz:35455/itv/3000000010000015470.m3u8?cdn=FifastbLive
-咪咕赛事播36,网络,,,314,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播36,http://vip.lqcc.xyz:35455/itv/3000000010000015560.m3u8?cdn=FifastbLive
-咪咕赛事播37,网络,,,315,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播37,http://vip.lqcc.xyz:35455/itv/3000000010000017389.m3u8?cdn=FifastbLive
-咪咕赛事播38,网络,,,316,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播38,http://vip.lqcc.xyz:35455/itv/3000000010000017678.m3u8?cdn=FifastbLive
-咪咕赛事播39,网络,,,317,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播39,http://vip.lqcc.xyz:35455/itv/3000000010000017997.m3u8?cdn=FifastbLive
-咪咕赛事播40,网络,,,318,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播40,http://vip.lqcc.xyz:35455/itv/3000000010000019380.m3u8?cdn=FifastbLive
-咪咕赛事播41,网络,,,319,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播41,http://vip.lqcc.xyz:35455/itv/3000000010000019839.m3u8?cdn=FifastbLive
-咪咕赛事播42,网络,,,320,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播42,http://vip.lqcc.xyz:35455/itv/3000000010000020168.m3u8?cdn=FifastbLive
-咪咕赛事播43,网络,,,321,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播43,http://vip.lqcc.xyz:35455/itv/3000000010000021904.m3u8?cdn=FifastbLive
-咪咕赛事播44,网络,,,322,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播44,http://vip.lqcc.xyz:35455/itv/3000000010000023434.m3u8?cdn=FifastbLive
-咪咕赛事播45,网络,,,323,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播45,http://vip.lqcc.xyz:35455/itv/3000000010000024205.m3u8?cdn=FifastbLive
-咪咕赛事播46,网络,,,324,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播46,http://vip.lqcc.xyz:35455/itv/3000000010000024691.m3u8?cdn=FifastbLive
-咪咕赛事播47,网络,,,325,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播47,http://vip.lqcc.xyz:35455/itv/3000000010000025380.m3u8?cdn=FifastbLive
-咪咕赛事播48,网络,,,326,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播48,http://vip.lqcc.xyz:35455/itv/3000000010000025943.m3u8?cdn=FifastbLive
-咪咕赛事播49,网络,,,327,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播49,http://vip.lqcc.xyz:35455/itv/3000000010000027318.m3u8?cdn=FifastbLive
-咪咕赛事播50,网络,,,328,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播50,http://vip.lqcc.xyz:35455/itv/3000000010000027638.m3u8?cdn=FifastbLive
-咪咕赛事播51,网络,,,329,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播51,http://vip.lqcc.xyz:35455/itv/3000000010000027691.m3u8?cdn=FifastbLive
-咪咕赛事播52,网络,,,330,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播52,http://vip.lqcc.xyz:35455/itv/3000000010000031669.m3u8?cdn=FifastbLive
-咪咕赛事播53,网络,,,331,失效,0,9999,,suxuang ipv4,未知,咪咕赛事播53,http://vip.lqcc.xyz:35455/itv/3000000010000032106.m3u8?cdn=FifastbLive
-哆啦A梦,网络,,,332,存活,200,680,,suxuang ipv4,未知,哆啦A梦,https://live.metshop.top/huya/11601963
-哆啦A梦「动漫」,网络,,,333,失效,0,9999,,YanG Gather,未知,哆啦A梦「动漫」,https://cdn.ttvb.eu.org/huya/11601963
-哈哈炫动,网络,,,334,失效,0,9999,,suxuang ipv4,未知,哈哈炫动,https://zby.130519.xyz/PLTV/11/224/3221226161/index.m3u8
-哈哈炫动,网络,,,335,失效,0,9999,,suxuang ipv4,未知,哈哈炫动,http://111.22.153.159:35455/itv/5000000011000031123.m3u8?cdn=bestzb
-哈哈炫动,网络,,,336,失效,0,9999,,Guovin iptv-api result(存活校验),未知,哈哈炫动,http://php.jdshipin.com/TVOD/hnyd.php?id=200000001898/460000089800010117
-哈哈炫动,网络,,,337,失效,400,9999,,Guovin iptv-api result(存活校验),未知,哈哈炫动,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226931/1.m3u8
-哈哈炫动,网络,,,338,失效,0,9999,,Guovin iptv-api result(存活校验),未知,哈哈炫动,https://stream1.freetv.fun/ha-ha-xuan-dong-29.m3u8
-哈哈炫动,网络,,,339,失效,0,9999,,Guovin iptv-api result(存活校验),未知,哈哈炫动,https://stream1.freetv.fun/ha-ha-xuan-dong-8.m3u8
-哒啵电竞,网络,,,340,失效,0,9999,,suxuang ipv4,未知,哒啵电竞,http://111.22.153.159:35455/itv/1000000006000032327.m3u8?cdn=ystenlive
-唐诡之西行,网络,,,341,存活,200,711,,suxuang ipv4,未知,唐诡之西行,https://live.metshop.top/huya/26355763
-唯心電視 (480p),网络,,,342,存活,200,1069,,bestK iptv,未知,唯心電視 (480p),https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
-喜羊羊与灰太狼,网络,,,343,存活,200,1653,,suxuang ipv4,未知,喜羊羊与灰太狼,https://live.metshop.top/huya/23865080
-嘉佳卡通 (576p),网络,,,344,失效,0,9999,,iptv-org cn,未知,嘉佳卡通 (576p),http://223.110.245.139/PLTV/4/224/3221227009/index.m3u8
-嘉佳卡通 (576p),网络,,,345,失效,0,9999,,iptv-org cn,未知,嘉佳卡通 (广东) (540p) [Not 24/7],http://112.25.48.68/live/program/live/jjkt/1300000/mnf.m3u8
-士兵突击,网络,,,346,存活,200,1921,,suxuang ipv4,未知,士兵突击,https://live.metshop.top/huya/11342430
-大唐双龙传,网络,,,347,存活,200,1206,,suxuang ipv4,未知,大唐双龙传,https://live.metshop.top/huya/29465850
-大时代,网络,,,348,存活,200,1413,,suxuang ipv4,未知,大时代,https://live.metshop.top/huya/23865161
-大秦赋,网络,,,349,存活,200,1857,,suxuang ipv4,未知,大秦赋,https://live.metshop.top/huya/23903130
-大立电视台,网络,,,350,存活,200,8486,,suxuang ipv4,未知,大立电视台,http://www.dalitv.com.tw:4568/live/dali/index.m3u8
-天才衝衝衝 (1080p),网络,,,351,存活,200,2864,,bestK iptv,1080P,天才衝衝衝 (1080p),https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV26.m3u8
-天映频道,网络,,,352,失效,0,9999,,suxuang ipv4,未知,天映频道,http://php.jdshipin.com:8880/smt.php?id=Celestial
-天映经典,网络,,,353,失效,0,9999,,suxuang ipv4,未知,天映经典,http://php.jdshipin.com:8880/smt.php?id=Celestial2
-天映经典,网络,,,354,失效,200,9999,,Guovin iptv-api result(存活校验),未知,天映经典,http://mag.trexlive.me:80/play/live.php?extension=ts&mac=00:1A:79:7E:2F:ED&stream=1919463
-天映经典,网络,,,355,失效,200,9999,,Guovin iptv-api result(存活校验),未知,天映经典,http://o11.163189.xyz/stream/live/ccm/
-天映经典,网络,,,356,失效,0,9999,,Guovin iptv-api result(存活校验),未知,天映经典,https://php.jdshipin.com:2096/smt.php?id=Celestial2
-天映经典,网络,,,357,失效,404,9999,,Guovin iptv-api result(存活校验),未知,天映经典,http://smt.1678520.xyz/smt3.2.3.php?id=Celestial2
-天龙八部,网络,,,358,存活,200,1066,,suxuang ipv4,未知,天龙八部,https://live.metshop.top/huya/20985816
-天龙八部,网络,,,359,存活,200,2963,,suxuang ipv4,未知,天龙八部,https://live.metshop.top/yy/1351814644
-天龙八部,网络,,,360,失效,0,9999,,Guovin iptv-api result(存活校验),未知,天龙八部,http://jiaojirentv.top/2020/yy.php?id=1382881708
-天龙八部,网络,,,361,失效,0,9999,,Guovin iptv-api result(存活校验),未知,天龙八部,http://cdn.jdshipin.com:8880/huya.php?id=20985816
-天龙八部,网络,,,362,失效,0,9999,,Guovin iptv-api result(存活校验),未知,天龙八部,https://live.ottiptv.cc/huya/20985816
-天龙八部,网络,,,363,失效,0,9999,,Guovin iptv-api result(存活校验),未知,天龙八部,https://live.ottiptv.cc/yy/1351814644
-如懿传,网络,,,364,存活,200,677,,suxuang ipv4,未知,如懿传,https://live.metshop.top/huya/29465868
-妙手仁心,网络,,,365,存活,200,1019,,suxuang ipv4,未知,妙手仁心,https://live.metshop.top/huya/29465853
-娱乐新闻,网络,,,366,失效,403,9999,,suxuang ipv4,未知,TVB娱乐新闻,http://ali.hlspull.yximgs.com/live/6425965d63a08c85ca806bfcc8c75cf4.flv
-宇宙科幻合集,网络,,,367,存活,200,2408,,suxuang ipv4,未知,宇宙科幻合集,https://live.metshop.top/huya/11342428
-完美游戏 (1080p) [Not 24/7],网络,,,368,失效,0,9999,,iptv-org cn,1080P,完美游戏 (1080p) [Not 24/7],http://183.207.248.71/cntv/live1/wmyx/wmyx
-家庭剧场,网络,,,369,失效,0,9999,,suxuang ipv4,未知,NewTV 家庭剧场,http://[2409:8087:5e00:24::2d]:6610/000000001000/1/1000000004000008284/index.m3u8?channel-id=ystenlive&Contentid=1000000004000008284&livemode=1&stbId=YanG-1989
-家庭影院 (1080p),网络,,,370,失效,404,9999,,iptv-org cn,1080P,家庭影院 (1080p),http://39.134.19.153/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226462/index.m3u8
-家庭理财 (576p),网络,,,371,失效,0,9999,,iptv-org cn,未知,家庭理财 (576p),http://223.110.245.139/PLTV/4/224/3221227011/index.m3u8
-家有购物 (720p) [Not 24/7],网络,,,372,失效,0,9999,,iptv-org cn,720P,家有购物 (720p) [Not 24/7],http://183.207.248.71/cntv/live1/SD-1500k-576P-jiayougw/SD-1500k-576P-jiayougw
-寒战,网络,,,373,存活,200,827,,suxuang ipv4,未知,寒战,https://vip.ffzy-play6.com/20221019/157_bf0740ee/index.m3u8
-寻秦记,网络,,,374,存活,200,861,,suxuang ipv4,未知,寻秦记,https://live.metshop.top/huya/30080146
-封神榜,网络,,,375,存活,200,604,,suxuang ipv4,未知,封神榜,https://live.metshop.top/huya/29465849
-封神榜,网络,,,376,失效,0,9999,,Guovin iptv-api result(存活校验),未知,封神榜,http://cdn.jdshipin.com:8880/huya.php?id=29465849
-封神榜,网络,,,377,失效,0,9999,,Guovin iptv-api result(存活校验),未知,封神榜,https://live.ottiptv.cc/huya/29465849
-射雕英雄传,网络,,,378,存活,200,836,,suxuang ipv4,未知,射雕英雄传,https://live.metshop.top/huya/23824164
-射雕英雄传,网络,,,379,失效,0,9999,,Guovin iptv-api result(存活校验),未知,射雕英雄传,http://cdn.jdshipin.com:8880/huya.php?id=23824164
-射雕英雄传,网络,,,380,失效,0,9999,,Guovin iptv-api result(存活校验),未知,射雕英雄传,https://live.ottiptv.cc/huya/23824164
-少年包青天第一部,网络,,,381,存活,200,954,,suxuang ipv4,未知,少年包青天第一部,https://live.metshop.top/yy/1356043677
-少年包青天第一部,网络,,,382,存活,200,1026,,suxuang ipv4,未知,少年包青天第一部,https://live.metshop.top/huya/11352958
-少年包青天第三部,网络,,,383,存活,200,1100,,suxuang ipv4,未知,少年包青天第三部,https://live.metshop.top/yy/1382736814
-少年包青天第二部,网络,,,384,存活,200,1117,,suxuang ipv4,未知,少年包青天第二部,https://live.metshop.top/huya/11342425
-峨眉电影,网络,,,385,失效,0,9999,,suxuang ipv4,未知,峨眉电影,http://wouu.net:9977/udp/239.93.1.54:5140
-庆余年,网络,,,386,存活,200,869,,suxuang ipv4,未知,庆余年,https://live.metshop.top/huya/11352960
-康熙微服私访记,网络,,,387,存活,200,572,,suxuang ipv4,未知,康熙微服私访记,https://live.metshop.top/huya/11342418
-康熙王朝,网络,,,388,存活,200,2618,,suxuang ipv4,未知,康熙王朝,https://live.metshop.top/huya/11352940
-延禧攻略,网络,,,389,存活,200,1660,,suxuang ipv4,未知,延禧攻略,https://live.metshop.top/huya/26355864
-弈坛春秋 (576p),网络,,,390,失效,0,9999,,iptv-org cn,未知,弈坛春秋 (576p),http://223.110.245.139/PLTV/4/224/3221227031/index.m3u8
-强森电影,网络,,,391,存活,200,1032,,suxuang ipv4,未知,强森电影,https://live.metshop.top/huya/21059581
-快乐垂钓,网络,,,392,失效,0,9999,,suxuang ipv4,未知,快乐垂钓,http://drive.mxmy.net:8888/udp/239.3.1.164:8001
-快乐垂钓,网络,,,393,失效,0,9999,,Guovin iptv-api result(存活校验),未知,快乐垂钓,https://migu.188766.xyz/?migutoken=103d22404add9b90cd72174eb1a0108b&id=%E5%BF%AB%E4%B9%90%E5%9E%82%E9%92%93&type=yy
-快乐垂钓,网络,,,394,失效,403,9999,,Guovin iptv-api result(存活校验),未知,快乐垂钓,https://hls-gateway.vpstv.net/streams/708835.m3u8
-快乐垂钓,网络,,,395,失效,0,9999,,Guovin iptv-api result(存活校验),未知,快乐垂钓,https://migu.188766.xyz/?migutoken=c6b17aba558cf29b13242b5ae063e5ed&id=%E5%BF%AB%E4%B9%90%E5%9E%82%E9%92%93&type=yy
-快乐垂钓,网络,,,396,失效,0,9999,,Guovin iptv-api result(存活校验),未知,快乐垂钓,https://migu.188766.xyz/?migutoken=f4d62cd1f8775b1b837f4232f1051f36&id=%E5%BF%AB%E4%B9%90%E5%9E%82%E9%92%93&type=yy
-快乐垂钓,网络,,,397,失效,0,9999,,Guovin iptv-api result(存活校验),未知,快乐垂钓,https://migu.188766.xyz/?migutoken=396182b2a9b61dca2daded3fc6f62311&id=%E5%BF%AB%E4%B9%90%E5%9E%82%E9%92%93&type=yy
-怡伴健康,网络,,,398,失效,0,9999,,suxuang ipv4,未知,NewTV 怡伴健康,http://[2409:8087:5e00:24::2d]:6610/000000001000/1/1000000005000266011/index.m3u8?channel-id=ystenlive&Contentid=1000000005000266011&livemode=1&stbId=YanG-1989
-怪兽电影,网络,,,399,存活,200,1476,,suxuang ipv4,未知,怪兽电影,https://live.metshop.top/huya/21059577
-恐怖电影「解说」,网络,,,400,失效,0,9999,,YanG Gather,未知,恐怖电影「解说」,https://cdn.ttvb.eu.org/huya/23419131
-惊悚悬疑,网络,,,401,失效,0,9999,,suxuang ipv4,未知,NewTV 惊悚悬疑,http://[2409:8087:5e00:24::2d]:6610/000000001000/1/1000000004000024282/index.m3u8?channel-id=ystenlive&Contentid=1000000004000024282&livemode=1&stbId=YanG-1989
-成龙电影,网络,,,402,存活,200,2427,,suxuang ipv4,未知,成龙电影,https://live.metshop.top/huya/11342386
-我不是药神,网络,,,403,存活,200,695,,suxuang ipv4,未知,我不是药神,https://vip.ffzy-play1.com/20221018/478_c3afed66/index.m3u8
-我是特种兵之利刃出鞘,网络,,,404,存活,200,2471,,suxuang ipv4,未知,我是特种兵之利刃出鞘,https://live.metshop.top/yy/37999586
-战争电影,网络,,,405,存活,200,1686,,suxuang ipv4,未知,战争电影,https://live.metshop.top/huya/21059574
-扫黄先锋,网络,,,406,存活,200,756,,suxuang ipv4,未知,扫黄先锋,https://live.metshop.top/huya/29465855
-拆弹专家1,网络,,,407,存活,200,896,,suxuang ipv4,未知,拆弹专家1,https://vip.ffzy-online.com/20221015/719_80ff87c2/index.m3u8
-拆弹专家2,网络,,,408,存活,200,2418,,suxuang ipv4,未知,拆弹专家2,https://vip.ffzy-online.com/20221015/722_e32c42bc/index.m3u8
-挨饿德•1「其他」,网络,,,409,失效,0,9999,,YanG Gather,未知,挨饿德•1「其他」,https://cdn.ttvb.eu.org/huya/20985858
-挨饿德•2「其他」,网络,,,410,失效,0,9999,,YanG Gather,未知,挨饿德•2「其他」,https://cdn.ttvb.eu.org/huya/17693860
-搜狐剧场,网络,,,411,失效,0,9999,,suxuang ipv4,未知,搜狐剧场,https://hdl-vip-ws.qf.56.com/live/lc_11730.flv
-收藏天下,网络,,,412,失效,404,9999,,suxuang ipv4,未知,收藏天下,http://www.cdnstv.com:6398/hls/1118/index.m3u8
-文化精品,网络,,,413,存活,200,1641,,Guovin iptv-api result(存活校验),未知,文化精品,http://38.75.136.137:98/gslb/dsdqpub/ysjp.m3u8?auth=testpub
-文化精品,网络,,,414,失效,0,9999,,suxuang ipv4,未知,CCTV-文化精品,http://www.lizhinas.top:1009/rtp/239.252.219.81:5140
-文化精品,网络,,,415,失效,0,9999,,Guovin iptv-api result(存活校验),未知,文化精品,https://live.264788.xyz/channel/yangshiwenhuajingpin?streamid=bc185d1ef1e528922e83efd845006277&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-文化精品,网络,,,416,失效,0,9999,,Guovin iptv-api result(存活校验),未知,文化精品,http://107.150.60.122/live/ysjp.m3u8
-文化精品,网络,,,417,失效,403,9999,,Guovin iptv-api result(存活校验),未知,文化精品,https://hls-gateway.vpstv.net/streams/708832.m3u8
-文物宝库,网络,,,418,存活,302,124,,suxuang ipv4,未知,文物宝库,http://1.94.31.214/php/hntv.php?id=wwbk
-文物宝库,网络,,,419,失效,0,9999,,suxuang ipv4,未知,文物宝库,http://www.lizhinas.top:1009/rtp/239.252.220.158:5140
-斗鱼港剧,网络,,,420,失效,0,9999,,suxuang ipv4,未知,斗鱼港剧,http://www.goodiptv.club/douyu/5061550
-新三国,网络,,,421,存活,200,1396,,suxuang ipv4,未知,新三国,https://live.metshop.top/huya/11352944
-新三国,网络,,,422,存活,200,2232,,suxuang ipv4,未知,新三国（斗鱼）,https://live.metshop.top/douyu/5908256
-新动漫,网络,,,423,失效,0,9999,,Guovin iptv-api result(存活校验),未知,新动漫,https://migu.188766.xyz/?migutoken=953cca31b8499ca7dd1dd66c04b00377&id=%E6%96%B0%E5%8A%A8%E6%BC%AB&type=yy
-新动漫,网络,,,424,失效,0,9999,,Guovin iptv-api result(存活校验),未知,新动漫,https://tv.iill.top/migu/xdm&token=2276b9830bd9e6d7f4858f72fe6095ad7d4eeb9d25164399bb076f31d3ce364b
-新动漫,网络,,,425,失效,0,9999,,Guovin iptv-api result(存活校验),未知,新动漫,https://migu.188766.xyz/?migutoken=fa7fab5af3b2b0fca5c12c94accfd524&id=%E6%96%B0%E5%8A%A8%E6%BC%AB&type=yy
-新动漫,网络,,,426,失效,0,9999,,Guovin iptv-api result(存活校验),未知,新动漫,https://migu.188766.xyz/?migutoken=b6723923245d1a7b8f0a16fa0e1850e7&id=%E6%96%B0%E5%8A%A8%E6%BC%AB&type=yy
-新动漫,网络,,,427,失效,0,9999,,Guovin iptv-api result(存活校验),未知,新动漫,https://tv.iill.top/migu/xdm&token=886bce813f2cd4e37742d034db073fb39288ecfa7b0e43b20307dd9a2b2d0bdc
-新水浒传,网络,,,428,存活,200,1869,,suxuang ipv4,未知,新水浒传,https://live.metshop.top/huya/11342384
-新白娘子传奇,网络,,,429,存活,200,960,,suxuang ipv4,未知,新白娘子传奇,https://live.metshop.top/yy/1354490667
-新白娘子传奇,网络,,,430,失效,0,9999,,Guovin iptv-api result(存活校验),未知,新白娘子传奇,https://live.ottiptv.cc/yy/1354490667
-新纪实,网络,,,431,存活,200,109,是,bestK iptv,未知,新纪实,http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
-新视觉,网络,,,432,存活,200,47,,suxuang ipv4,未知,新视觉HD,http://120.76.248.139/live/bfgd/4200000249.m3u8
-新视觉HD,网络,,,433,存活,200,47,,bestK iptv,未知,新视觉HD,http://120.76.248.139/live/bfgd/4200000249.m3u8
-新闻综合,网络,,,434,存活,200,336,,vbskycn iptv4,未知,新闻综合,https://m3u8channel.yunxya.com/nmip-media/channellive/channel100028/playlist.m3u8
-新闻综合,网络,,,435,失效,0,9999,,suxuang ipv4,未知,新闻综合,https://zby.130519.xyz/PLTV/11/224/3221226136/index.m3u8
-无心法师,网络,,,436,存活,200,1534,,suxuang ipv4,未知,无心法师,https://live.metshop.top/huya/30080233
-日本新闻,网络,,,437,失效,0,9999,,suxuang ipv4,未知,日本全天新闻,https://n24-cdn-live.ntv.co.jp/ch01/index_high.m3u8
-明星大片,网络,,,438,失效,0,9999,,suxuang ipv4,未知,NewTV 明星大片,http://[2409:8087:5e00:24::2d]:6610/000000001000/1/1000000004000019008/index.m3u8?channel-id=ystenlive&Contentid=1000000004000019008&livemode=1&stbId=YanG-1989
-星光影视,网络,,,439,失效,403,9999,,suxuang ipv4,未知,星光影视,http://ali.hlspull.yximgs.com/live/zxcvbnm9852.flv
-智慧教育 (576p),网络,,,440,失效,0,9999,,iptv-org cn,未知,智慧教育 (576p),http://111.63.117.13:6060/030000001000/G_CETV-4/G_CETV-4.m3u8
-末日电影合集,网络,,,441,存活,200,920,,suxuang ipv4,未知,末日电影合集,https://live.metshop.top/yy/1354889019
-李连杰电影,网络,,,442,存活,200,1919,,suxuang ipv4,未知,李连杰电影,https://live.metshop.top/huya/11342390
-林正英电影,网络,,,443,存活,200,598,,suxuang ipv4,未知,林正英电影,https://live.metshop.top/huya/11342421
-枪战电影,网络,,,444,存活,200,592,,suxuang ipv4,未知,枪战电影,https://live.metshop.top/huya/21059579
-柳舟计,网络,,,445,存活,200,1228,,suxuang ipv4,未知,柳舟计,https://live.metshop.top/huya/23860039
-梦中的那片海,网络,,,446,存活,200,1162,,suxuang ipv4,未知,梦中的那片海,https://live.metshop.top/huya/26355765
-梨园频道,网络,,,447,存活,200,366,,vbskycn iptv4,未知,梨园,https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=41543190cdf375f1c73207222bb96542&wsTime=1769313549
-梨园频道,网络,,,448,失效,0,9999,,suxuang ipv4,未知,梨园频道,http://www.lizhinas.top:1009/rtp/239.252.220.179:5140
-楚汉骄雄,网络,,,449,存活,200,1315,,suxuang ipv4,未知,楚汉骄雄,https://live.metshop.top/huya/29465854
-橙记港剧,网络,,,450,失效,0,9999,,suxuang ipv4,未知,橙记港剧,http://www.goodiptv.club/douyu/4549169
-欢乐剧场,网络,,,451,失效,0,9999,,suxuang ipv4,未知,NewTV 欢乐剧场,http://39.134.65.175/PLTV/88888888/224/3221225682/1.m3u8
-欢乐颂,网络,,,452,存活,200,847,,suxuang ipv4,未知,欢乐颂,https://live.metshop.top/yy/1382735624
-止戈电影「解说」,网络,,,453,失效,0,9999,,YanG Gather,未知,止戈电影「解说」,https://cdn.ttvb.eu.org/huya/19863777
-武侠电影,网络,,,454,存活,200,1408,,suxuang ipv4,未知,武侠电影,https://live.metshop.top/huya/11342427
-武搏世界,网络,,,455,失效,0,9999,,suxuang ipv4,未知,NewTV 武搏世界,http://[2409:8087:5e00:24::2d]:6610/000000001000/1/2000000003000000007/index.m3u8?channel-id=hnbblive&Contentid=2000000003000000007&livemode=1&stbId=YanG-1989
-武术世界,网络,,,456,存活,302,89,,suxuang ipv4,未知,武术世界,http://1.94.31.214/php/hntv.php?id=wspd
-武术世界,网络,,,457,失效,0,9999,,suxuang ipv4,未知,武术世界,http://www.lizhinas.top:1009/rtp/239.252.220.180:5140
-水浒传,网络,,,458,失效,0,9999,,Guovin iptv-api result(存活校验),未知,水浒传,http://173.208.234.146/live/vlshz.m3u8
-水浒传,网络,,,459,失效,0,9999,,Guovin iptv-api result(存活校验),未知,水浒传,http://live.ottiptv.cc/huya/26355860
-水浒传,网络,,,460,失效,0,9999,,Guovin iptv-api result(存活校验),未知,水浒传,https://live.ottiptv.cc/yy/1353873252
-永夜星河,网络,,,461,存活,200,587,,suxuang ipv4,未知,永夜星河,https://live.metshop.top/huya/23734169
-求索动物,网络,,,462,失效,0,9999,,suxuang ipv4,未知,求索动物,http://111.22.153.159:35455/itv/2000000004000000009.m3u8?cdn=hnbblive
-求索生活,网络,,,463,失效,0,9999,,suxuang ipv4,未知,求索生活,http://111.22.153.159:35455/itv/2000000004000000008.m3u8?cdn=hnbblive
-求索科学,网络,,,464,失效,0,9999,,suxuang ipv4,未知,求索科学,http://111.22.153.159:35455/itv/2000000004000000011.m3u8?cdn=hnbblive
-求索纪录,网络,,,465,失效,0,9999,,suxuang ipv4,未知,求索纪录,http://111.22.153.159:35455/itv/2000000004000000010.m3u8?cdn=hnbblive
-求索纪录,网络,,,466,失效,200,9999,,suxuang ipv4,未知,求索纪录4K,http://tvbox6.icu/tv/gdmzyd.php?id=104
-沈腾电影,网络,,,467,存活,200,862,,suxuang ipv4,未知,沈腾电影,https://live.metshop.top/huya/11601968
-治愈•放松「音乐」,网络,,,468,失效,0,9999,,YanG Gather,未知,治愈•放松「音乐」,https://cdn.ttvb.eu.org/huya/21241811
-法政先锋,网络,,,469,存活,200,1548,,suxuang ipv4,未知,法政先锋,https://live.metshop.top/huya/23863804
-洗冤录,网络,,,470,存活,200,1652,,suxuang ipv4,未知,洗冤录,https://live.metshop.top/huya/29465851
-活佛济公3,网络,,,471,存活,200,1037,,suxuang ipv4,未知,活佛济公3,https://live.metshop.top/huya/23903123
-流水迢迢,网络,,,472,存活,200,599,,suxuang ipv4,未知,流水迢迢,https://live.metshop.top/huya/23865036
-海外剧场,网络,,,473,失效,0,9999,,suxuang ipv4,未知,NewTV 海外剧场,http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225671/index.m3u8
-海绵宝宝,网络,,,474,存活,200,1150,,suxuang ipv4,未知,海绵宝宝,https://live.metshop.top/douyu/3949681
-淘剧场,网络,,,475,失效,0,9999,,Guovin iptv-api result(存活校验),未知,淘剧场,http://[2409:8087:1:20:20::26]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226553/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EQaJ92NID2SpQlY6_VJVogg%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNOuQYJeiYEeFWTkFfE86Vq-%2CEND
-淘剧场,网络,,,476,失效,200,9999,,Guovin iptv-api result(存活校验),未知,淘剧场,http://zjzcf.synology.me:35455/bptv/10000100000000050000000003887497.m3u8
-淘剧场,网络,,,477,失效,0,9999,,Guovin iptv-api result(存活校验),未知,淘剧场,http://iptv.666230.xyz/iptv/bjyd.php/6553
-淘娱乐,网络,,,478,失效,0,9999,,Guovin iptv-api result(存活校验),未知,淘娱乐,http://[2409:8087:1:20:20::2c]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226551/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Ex0efg9fpenP8E8lWJUb5Lg%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNg3bzRax0E9tLmO9xgXVx8%2CEND
-淘娱乐,网络,,,479,失效,200,9999,,Guovin iptv-api result(存活校验),未知,淘娱乐,http://zjzcf.synology.me:35455/bptv/10000100000000050000000003887499.m3u8
-淘娱乐,网络,,,480,失效,0,9999,,Guovin iptv-api result(存活校验),未知,淘娱乐,http://iptv.666230.xyz/iptv/bjyd.php/6551
-淘电影,网络,,,481,失效,0,9999,,Guovin iptv-api result(存活校验),未知,淘电影,http://[2409:8087:1:20:20::26]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226552/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EXOsrWMA-UCdUl1hQSR9EKw%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNg3bzRax0E9tLmO9xgXVx8%2CEND
-淘电影,网络,,,482,失效,0,9999,,Guovin iptv-api result(存活校验),未知,淘电影,https://stream1.freetv.fun/tao-dian-ying-8.ctv
-淘电影,网络,,,483,失效,0,9999,,Guovin iptv-api result(存活校验),未知,淘电影,https://stream1.freetv.fun/tao-dian-ying-7.ctv
-淘电影,网络,,,484,失效,0,9999,,Guovin iptv-api result(存活校验),未知,淘电影,https://stream1.freetv.fun/tao-dian-ying-3.ctv
-淘电影,网络,,,485,失效,0,9999,,Guovin iptv-api result(存活校验),未知,淘电影,https://stream1.freetv.fun/tao-dian-ying-6.ctv
-漫威「解说」,网络,,,486,失效,0,9999,,YanG Gather,未知,漫威「解说」,https://cdn.ttvb.eu.org/huya/17089779
-漫威电影,网络,,,487,失效,0,9999,,suxuang ipv4,未知,漫威电影,http://1.94.31.214:35455/douyu/6140589
-漫画解说,网络,,,488,失效,0,9999,,Guovin iptv-api result(存活校验),未知,漫画解说,https://www.goodiptv.club/douyu/5907076
-漫画解说,网络,,,489,失效,502,9999,,Guovin iptv-api result(存活校验),未知,漫画解说,https://yylunbo.ottiptv.cc/yy/1382735568
-潮妈辣婆,网络,,,490,失效,0,9999,,suxuang ipv4,未知,NewTV 潮妈辣婆,http://[2409:8087:5e00:24::2d]:6610/000000001000/1/2000000003000000018/index.m3u8?channel-id=hnbblive&Contentid=2000000003000000018&livemode=1&stbId=YanG-1989
-灌篮高手,网络,,,491,存活,200,1267,,suxuang ipv4,未知,灌篮高手,https://live.metshop.top/yy/1382735626
-火影忍者,网络,,,492,失效,0,9999,,Guovin iptv-api result(存活校验),未知,火影忍者,http://cdn.jdshipin.com:8880/huya.php?id=29465866
-炫动卡通 (576p),网络,,,493,失效,0,9999,,iptv-org cn,未知,炫动卡通 (576p),http://223.110.245.139/PLTV/4/224/3221226388/index.m3u8
-炫动卡通 (576p),网络,,,494,失效,0,9999,,Guovin iptv-api result(存活校验),未知,炫动卡通,https://zby.130519.xyz/PLTV/11/224/3221226161/index.m3u8
-炫动卡通 (576p),网络,,,495,失效,0,9999,,Guovin iptv-api result(存活校验),未知,炫动卡通,http://php.jdshipin.com/TVOD/hnyd.php?id=200000001898/460000089800010117
-炫动卡通 (576p),网络,,,496,失效,400,9999,,Guovin iptv-api result(存活校验),未知,炫动卡通,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226931/1.m3u8
-炫动卡通 (576p),网络,,,497,失效,0,9999,,Guovin iptv-api result(存活校验),未知,炫动卡通,https://stream1.freetv.fun/ha-ha-xuan-dong-29.m3u8
-炫动卡通 (576p),网络,,,498,失效,0,9999,,Guovin iptv-api result(存活校验),未知,炫动卡通,https://stream1.freetv.fun/ha-ha-xuan-dong-8.m3u8
-炫舞未来,网络,,,499,失效,0,9999,,suxuang ipv4,未知,NewTV 炫舞未来,http://[2409:8087:5e00:24::2d]:6610/000000001000/1/1000000001000000515/index.m3u8?channel-id=ystenlive&Contentid=1000000001000000515&livemode=1&stbId=YanG-1989
-热门港剧,网络,,,500,失效,0,9999,,suxuang ipv4,未知,热门港剧,http://www.goodiptv.club/douyu/5522351
-熊猫直播,网络,,,501,存活,200,318,,suxuang ipv4,未知,熊猫直播,https://gcwbndali.v.myalicdn.com/gcwbnd/ipanda1000_2/index.m3u8
-爱上4K,网络,,,502,失效,0,9999,,suxuang ipv4,4K,爱上4K,http://wouu.net:9977/udp/239.93.0.97:5140
-爱体育,网络,,,503,失效,0,9999,,suxuang ipv4,未知,iHOT 爱体育,http://111.22.153.159:35455/itv/2000000004000000060.m3u8?cdn=hnbblive
-爱体育,网络,,,504,失效,0,9999,,Guovin iptv-api result(存活校验),未知,爱体育,http://php.jdshipin.com:8880/itv6s.php?cid=wasusyt&id=6000000006000290630
-爱体育,网络,,,505,失效,0,9999,,Guovin iptv-api result(存活校验),未知,爱体育,http://[2409:8087:5e08:24::11]:6610/000000001000/2000000004000000060/index.m3u8
-爱体育,网络,,,506,失效,0,9999,,Guovin iptv-api result(存活校验),未知,爱体育,http://[2409:8087:5e08:24::17]:6610/000000001000/2000000004000000060/index.m3u8
-爱体育,网络,,,507,失效,0,9999,,Guovin iptv-api result(存活校验),未知,爱体育,http://[2409:8087:5e08:24::12]:6610/000000001000/2000000004000000000/index.m3u8
-爱体育,网络,,,508,失效,0,9999,,Guovin iptv-api result(存活校验),未知,爱体育,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230103/index.m3u8
-爱动漫,网络,,,509,失效,0,9999,,suxuang ipv4,未知,iHOT 爱动漫,http://111.22.153.159:35455/itv/2000000004000000059.m3u8?cdn=hnbblive
-爱动漫,网络,,,510,失效,0,9999,,Guovin iptv-api result(存活校验),未知,爱动漫,http://php.jdshipin.com:8880/itv6s.php?cid=wasusyt&id=6000000006000280630
-爱动漫,网络,,,511,失效,0,9999,,Guovin iptv-api result(存活校验),未知,爱动漫,http://[2409:8087:5e08:24::17]:6610/000000001000/2000000004000000059/index.m3u8
-爱动漫,网络,,,512,失效,0,9999,,Guovin iptv-api result(存活校验),未知,爱动漫,http://[2409:8087:5e08:24::11]:6610/000000001000/2000000004000000059/index.m3u8
-爱动漫,网络,,,513,失效,0,9999,,Guovin iptv-api result(存活校验),未知,爱动漫,http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221235628/1/index.m3u8?fmt=ts2hls
-爱历史,网络,,,514,失效,0,9999,,suxuang ipv4,未知,iHOY 爱历史,http://111.22.153.159:35455/itv/2000000004000000046.m3u8?cdn=hnbblive
-爱喜剧,网络,,,515,失效,0,9999,,suxuang ipv4,未知,iHOT 爱喜剧,http://111.22.153.159:35455/itv/2000000004000000032.m3u8?cdn=hnbblive
-爱奇艺,网络,,,516,失效,0,9999,,suxuang ipv4,未知,爱奇艺,http://php.jdshipin.com/smt.php?id=Qiyi
-爱奇谈,网络,,,517,失效,0,9999,,suxuang ipv4,未知,iHOT 爱奇谈,http://111.22.153.159:35455/itv/2000000004000000058.m3u8?cdn=hnbblive
-爱幼教,网络,,,518,失效,0,9999,,suxuang ipv4,未知,iHOT 爱幼教,http://111.22.153.159:35455/itv/2000000004000000049.m3u8?cdn=hnbblive
-爱悬疑,网络,,,519,失效,0,9999,,suxuang ipv4,未知,iHOT 爱悬疑,http://111.22.153.159:35455/itv/2000000004000000036.m3u8?cdn=hnbblive
-爱情公寓,网络,,,520,存活,200,822,,suxuang ipv4,未知,爱情公寓,https://live.metshop.top/huya/11336726
-爱情公寓,网络,,,521,存活,200,1619,,suxuang ipv4,未知,爱情公寓（斗鱼）,https://live.metshop.top/douyu/4105989
-爱情喜剧,网络,,,522,失效,0,9999,,suxuang ipv4,未知,NewTV 爱情喜剧,http://111.22.153.159:35455/itv/2000000003000000010.m3u8?cdn=hnbblive
-爱旅行,网络,,,523,失效,0,9999,,suxuang ipv4,未知,iHOT 爱旅行,http://111.22.153.159:35455/itv/2000000004000000056.m3u8?cdn=hnbblive
-爱浪漫,网络,,,524,失效,0,9999,,suxuang ipv4,未知,iHOT 爱浪漫,http://111.22.153.159:35455/itv/2000000004000000035.m3u8?cdn=hnbblive
-爱玩具,网络,,,525,失效,0,9999,,suxuang ipv4,未知,iHOT 爱玩具,http://111.22.153.159:35455/itv/2000000004000000053.m3u8?cdn=hnbblive
-爱电竞,网络,,,526,失效,0,9999,,Guovin iptv-api result(存活校验),未知,爱电竞,http://php.jdshipin.com:8880/itv6s.php?cid=wasusyt&id=6000000006000230630
-爱科学,网络,,,527,失效,0,9999,,suxuang ipv4,未知,iHOT 爱科学,http://111.22.153.159:35455/itv/2000000004000000047.m3u8?cdn=hnbblive
-爱科幻,网络,,,528,失效,0,9999,,suxuang ipv4,未知,iHOT 爱科幻,http://111.22.153.159:35455/itv/2000000004000000033.m3u8?cdn=hnbblive
-爱谍战,网络,,,529,失效,0,9999,,suxuang ipv4,未知,iHOT 爱谍战,http://111.22.153.159:35455/itv/2000000004000000038.m3u8?cdn=hnbblive
-爱赛车,网络,,,530,失效,0,9999,,suxuang ipv4,未知,iHOT 爱赛车,http://111.22.153.159:35455/itv/2000000004000000055.m3u8?cdn=hnbblive
-爱院线,网络,,,531,失效,0,9999,,suxuang ipv4,未知,iHOT 爱院线,http://111.22.153.159:35455/itv/2000000004000000034.m3u8?cdn=hnbblive
-父母爱情,网络,,,532,存活,200,1343,,suxuang ipv4,未知,父母爱情,https://live.metshop.top/yy/1354926650
-狂飙,网络,,,533,存活,200,2356,,suxuang ipv4,未知,狂飙,https://live.metshop.top/yy/1355142167
-狄仁杰电影,网络,,,534,存活,200,1555,,suxuang ipv4,未知,狄仁杰电影,https://live.metshop.top/huya/30080229
-猫和老鼠,网络,,,535,存活,200,2164,,suxuang ipv4,未知,猫和老鼠,https://live.metshop.top/huya/11352879
-猫和老鼠,网络,,,536,失效,0,9999,,Guovin iptv-api result(存活校验),未知,猫和老鼠,https://live.iill.top/huya/11352879
-猫和老鼠,网络,,,537,失效,200,9999,,Guovin iptv-api result(存活校验),未知,猫和老鼠,http://live.iill.top/huya.php?id=11352879
-猫和老鼠,网络,,,538,失效,0,9999,,Guovin iptv-api result(存活校验),未知,猫和老鼠,http://cdn.jdshipin.com:8880/huya.php?id=11352879
-猫和老鼠,网络,,,539,失效,0,9999,,Guovin iptv-api result(存活校验),未知,猫和老鼠,https://live.ottiptv.cc/huya/11352879
-猫和老鼠「动漫」,网络,,,540,失效,0,9999,,YanG Gather,未知,猫和老鼠「动漫」,https://cdn.ttvb.eu.org/huya/11352879
-玄幻电影,网络,,,541,存活,200,1661,,suxuang ipv4,未知,玄幻电影,https://live.metshop.top/huya/11342414
-王晶电影,网络,,,542,存活,200,595,,suxuang ipv4,未知,王晶电影,https://live.metshop.top/huya/11602058
-玫瑰的故事,网络,,,543,存活,200,859,,suxuang ipv4,未知,玫瑰的故事,https://live.metshop.top/huya/23865142
-环球旅游,网络,,,544,存活,200,77,,suxuang ipv4,未知,环球旅游,http://120.76.248.139/live/bfgd/4200000147.m3u8
-环球电视,网络,,,545,存活,200,146,,suxuang ipv4,未知,环球电视,http://utv1.hqtvzb.com:9999/hls/world.m3u8
-珠江卫视,网络,,,546,存活,200,1244,,suxuang ipv4,未知,珠江卫视,http://iptv.4666888.xyz/iptv2A.php?id=19
-甄子丹电影,网络,,,547,存活,200,789,,suxuang ipv4,未知,甄子丹电影,https://live.metshop.top/huya/11352935
-生态环境,网络,,,548,失效,200,9999,,suxuang ipv4,未知,生态环境,http://120.76.248.139/live/bfgd/4200000149.m3u8
-生活 (576p),网络,,,549,失效,0,9999,,iptv-org cn,未知,生活 (576p),http://223.110.245.153/ott.js.chinamobile.com/PLTV/3/224/3221227311/index.m3u8
-生活时尚,网络,,,550,失效,0,9999,,suxuang ipv4,未知,生活时尚,https://zby.130519.xyz/PLTV/11/224/3221225768/index.m3u8
-生活时尚,网络,,,551,失效,0,9999,,suxuang ipv4,未知,生活时尚,http://111.22.153.159:35455/itv/5000000002000019634.m3u8?cdn=bestzb
-生活时尚,网络,,,552,失效,0,9999,,Guovin iptv-api result(存活校验),未知,生活时尚,https://stream1.freetv.fun/sheng-huo-shi-shang-13.m3u8
-生活时尚,网络,,,553,失效,0,9999,,Guovin iptv-api result(存活校验),未知,生活时尚,https://stream1.freetv.fun/sheng-huo-shi-shang-17.ctv
-生活时尚,网络,,,554,失效,0,9999,,Guovin iptv-api result(存活校验),未知,生活时尚,https://stream1.freetv.fun/sheng-huo-shi-shang-9.ctv
-生活时尚,网络,,,555,失效,0,9999,,Guovin iptv-api result(存活校验),未知,生活时尚,https://stream1.freetv.fun/sheng-huo-shi-shang-29.m3u8
-电影•1「解说」,网络,,,556,失效,0,9999,,YanG Gather,未知,电影•1「解说」,https://cdn.ttvb.eu.org/huya/20289754
-电影•2「解说」,网络,,,557,失效,0,9999,,YanG Gather,未知,电影•2「解说」,https://cdn.ttvb.eu.org/huya/24983280
-电影•3「解说」,网络,,,558,失效,0,9999,,YanG Gather,未知,电影•3「解说」,https://cdn.ttvb.eu.org/huya/24396428
-电影丧尸片,网络,,,559,存活,200,2732,,vbskycn iptv4,未知,电影丧尸片,http://live.metshop.top/huya/21059578?cdn=alicdn
-电影八点档,网络,,,560,存活,200,2002,,vbskycn iptv4,未知,电影八点档,http://live.metshop.top/huya/880261?cdn=alicdn
-电影刘德华,网络,,,561,存活,200,3410,,vbskycn iptv4,未知,电影刘德华,http://live.metshop.top/huya/11342424?cdn=alicdn
-电影功夫片,网络,,,562,存活,200,1558,,vbskycn iptv4,未知,电影功夫片,http://live.metshop.top/huya/11352941?cdn=alicdn
-电影动作电影,网络,,,563,存活,200,2378,,vbskycn iptv4,未知,电影动作电影,http://live.metshop.top/huya/11602077?cdn=alicdn
-电影周星星,网络,,,564,存活,200,2568,,vbskycn iptv4,未知,电影周星星,http://live.metshop.top/huya/11336587?cdn=alicdn
-电影喜剧专场,网络,,,565,存活,200,2908,,vbskycn iptv4,未知,电影喜剧专场,http://live.metshop.top/huya/11602044?cdn=alicdn
-电影嫣然影厅,网络,,,566,存活,200,1792,,vbskycn iptv4,未知,电影嫣然影厅,http://live.metshop.top/huya/11601977?cdn=alicdn
-电影战争片,网络,,,567,存活,200,2564,,vbskycn iptv4,未知,电影战争片,http://live.metshop.top/huya/21059574?cdn=alicdn
-电影搞笑喜剧,网络,,,568,存活,200,1512,,vbskycn iptv4,未知,电影搞笑喜剧,http://live.metshop.top/huya/11342423?cdn=alicdn
-电影梁家辉,网络,,,569,存活,200,4247,,vbskycn iptv4,未知,电影梁家辉,http://live.metshop.top/huya/11342429?cdn=alicdn
-电影犯罪片,网络,,,570,存活,200,3933,,vbskycn iptv4,未知,电影犯罪片,http://live.metshop.top/huya/11352974?cdn=alicdn
-电影蜘蛛侠,网络,,,571,存活,200,856,,vbskycn iptv4,未知,电影蜘蛛侠,http://live.metshop.top/huya/21059599?cdn=alicdn
-电影谍战,网络,,,572,存活,200,2876,,vbskycn iptv4,未知,电影谍战,http://live.metshop.top/huya/21059585?cdn=alicdn
-电影谍战片,网络,,,573,存活,200,3013,,vbskycn iptv4,未知,电影谍战片,http://live.metshop.top/huya/21059587?cdn=alicdn
-电影贺岁,网络,,,574,存活,200,1556,,vbskycn iptv4,未知,电影贺岁,http://live.metshop.top/huya/11601971?cdn=alicdn
-电影高分动作,网络,,,575,存活,200,3929,,vbskycn iptv4,未知,电影高分动作,http://live.metshop.top/huya/11352884?cdn=alicdn
-番薯台,网络,,,576,失效,404,9999,,suxuang ipv4,未知,番薯台,http://61.216.67.119:1935/TWHG/E1/chunklist_w705811302.m3u8
-百事通体育1 (1080p) [Not 24/7],网络,,,577,失效,0,9999,,iptv-org cn,1080P,百事通体育1 (1080p) [Not 24/7],http://112.25.48.68/live/program/live/hdnba1/4000000/mnf.m3u8
-百事通体育2 (1080p) [Not 24/7],网络,,,578,失效,0,9999,,iptv-org cn,1080P,百事通体育2 (1080p) [Not 24/7],http://112.25.48.68/live/program/live/hdnba2/4000000/mnf.m3u8
-百事通体育3 (1080p) [Not 24/7],网络,,,579,失效,0,9999,,iptv-org cn,1080P,百事通体育3 (1080p) [Not 24/7],http://112.25.48.68/live/program/live/hdnba3/4000000/mnf.m3u8
-百事通体育5 (1080p),网络,,,580,失效,0,9999,,iptv-org cn,1080P,百事通体育5 (1080p),http://112.25.48.68/live/program/live/hdnba5/4000000/mnf.m3u8
-百事通体育7 (1080p) [Not 24/7],网络,,,581,失效,0,9999,,iptv-org cn,1080P,百事通体育7 (1080p) [Not 24/7],http://112.25.48.68/live/program/live/hdnba7/4000000/mnf.m3u8
-睛彩广场,网络,,,582,失效,0,9999,,suxuang.m3u,未知,睛彩广场,https://zby.130519.xyz/PLTV/11/224/3221226139/index.m3u8
-睛彩广场舞,网络,,,583,存活,200,121,,yang1989_gather.m3u,未知,睛彩广场舞「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011523&livemode=1&stbId=YanG-1989
-睛彩广场舞,网络,,,584,失效,0,9999,,Guovin iptv-api result(存活校验),未知,睛彩广场舞,http://13937899.xyz:35455/itv/3000000020000011523.m3u8?cdn=FifastbLive
-睛彩广场舞,网络,,,585,失效,200,9999,,Guovin iptv-api result(存活校验),未知,睛彩广场舞,http://zjzcf.synology.me:35455/itv/3000000020000011523.m3u8?cdn=FifastbLive
-睛彩广场舞,网络,,,586,失效,0,9999,,Guovin iptv-api result(存活校验),未知,睛彩广场舞,http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226472/index.m3u8
-睛彩广场舞,网络,,,587,失效,0,9999,,Guovin iptv-api result(存活校验),未知,睛彩广场舞,http://[2409:8087:1a15:10d1::37]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226472/index.m3u8
-睛彩广场舞,网络,,,588,失效,0,9999,,Guovin iptv-api result(存活校验),未知,睛彩广场舞,http://[2409:8087:1e01:20::3]/PLTV/11/224/3221226139/index.m3u8
-睛彩竞技,网络,,,589,存活,200,122,,yang1989_gather.m3u,未知,睛彩竞技「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011528&livemode=1&stbId=YanG-1989
-睛彩竞技,网络,,,590,失效,0,9999,,suxuang.m3u,未知,赛事睛彩竞技,http://vip.lqcc.xyz:35455/itv/3000000020000011528.m3u8?cdn=FifastbLive
-睛彩竞技,网络,,,591,失效,0,9999,,suxuang.m3u,未知,赛事睛彩竞技,http://vip.lqcc.xyz:35455/itv/3000000020000011530.m3u8?cdn=FifastbLive
-睛彩竞技,网络,,,592,失效,0,9999,,suxuang.m3u,未知,睛彩竞技,https://zby.130519.xyz/PLTV/11/224/3221226116/index.m3u8
-睛彩篮球,网络,,,593,存活,200,109,,yang1989_gather.m3u,未知,睛彩篮球「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011529&livemode=1&stbId=YanG-1989
-睛彩篮球,网络,,,594,失效,0,9999,,suxuang.m3u,未知,赛事睛彩篮球,http://vip.lqcc.xyz:35455/itv/3000000020000011529.m3u8?cdn=FifastbLive
-睛彩篮球,网络,,,595,失效,0,9999,,suxuang.m3u,未知,赛事睛彩篮球,http://vip.lqcc.xyz:35455/itv/3000000020000011531.m3u8?cdn=FifastbLive
-睛彩篮球,网络,,,596,失效,0,9999,,suxuang.m3u,未知,睛彩篮球,https://zby.130519.xyz/PLTV/11/224/3221226118/index.m3u8
-睛彩篮球,网络,,,597,失效,0,9999,,Guovin iptv-api result(存活校验),未知,睛彩篮球,http://[2409:8087:1a01:df::4055]:80/TVOD/88888888/224/3221225901/main.m3u8
-睛彩青少,网络,,,598,失效,404,9999,,yang1989_gather.m3u,未知,睛彩青少「移动」,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011525&livemode=1&stbId=YanG-1989
-知否知否,网络,,,599,存活,200,2958,,suxuang ipv4,未知,知否知否,https://live.metshop.top/yy/21881901
-神探狄仁杰第一部,网络,,,600,存活,200,1446,,suxuang ipv4,未知,神探狄仁杰第一部,https://live.metshop.top/yy/1354930934
-神探狄仁杰第三部,网络,,,601,存活,200,772,,suxuang ipv4,未知,神探狄仁杰第三部,https://live.metshop.top/douyu/6027991
-神探狄仁杰第二部,网络,,,602,存活,200,1664,,suxuang ipv4,未知,神探狄仁杰第二部,https://live.metshop.top/douyu/12655359
-神雕侠侣,网络,,,603,存活,200,2563,,suxuang ipv4,未知,神雕侠侣,http://live.metshop.top/yy/1351762426
-神雕侠侣,网络,,,604,存活,200,3090,,suxuang ipv4,未知,神雕侠侣,https://live.metshop.top/huya/11352964
-积石山电视台 (1080p),网络,,,605,失效,0,9999,,iptv-org cn,1080P,积石山电视台 (1080p),http://117.156.28.119/270000001111/1110000152/index.m3u8
-移动戏曲,网络,,,606,存活,302,101,,suxuang ipv4,未知,移动戏曲,http://1.94.31.214/php/hntv.php?id=ydxj
-笑傲江湖,网络,,,607,存活,200,859,,suxuang ipv4,未知,笑傲江湖,https://live.metshop.top/huya/23865142
-笑傲江湖,网络,,,608,存活,200,2334,,suxuang ipv4,未知,笑傲江湖,https://live.metshop.top/huya/26355790
-笑傲江湖,网络,,,609,失效,0,9999,,Guovin iptv-api result(存活校验),未知,笑傲江湖,https://live.iill.top/huya/23865142
-笑傲江湖,网络,,,610,失效,0,9999,,Guovin iptv-api result(存活校验),未知,笑傲江湖,http://cdn.jdshipin.com:8880/huya.php?id=26355790
-笑傲江湖,网络,,,611,失效,0,9999,,Guovin iptv-api result(存活校验),未知,笑傲江湖,http://cdn.jdshipin.com:8880/huya.php?id=23865142
-笑看风云,网络,,,612,存活,200,577,,suxuang ipv4,未知,笑看风云,https://live.metshop.top/huya/29465858
-第一财经,网络,,,613,存活,200,541,,Guovin iptv-api result(存活校验),未知,第一财经,http://satellitepull.cnr.cn/live/wx32dycjgb/playlist.m3u8
-第一财经,网络,,,614,失效,0,9999,,suxuang ipv4,未知,第一财经,https://zby.130519.xyz/PLTV/11/224/3221225737/index.m3u8
-第一财经,网络,,,615,失效,403,9999,,suxuang ipv4,未知,第一财经,http://8.138.7.223/tv/shtv.php?id=dycj
-篮球资讯 (576p),网络,,,616,失效,0,9999,,iptv-org cn,未知,篮球资讯 (576p),http://223.110.245.139/PLTV/4/224/3221227023/index.m3u8
-精品体育,网络,,,617,存活,200,848,,Guovin iptv-api result(存活校验),未知,精品体育,https://epg.pw/stream/94ed0232b61ce8d89883160a4cdfbfc8f3225cae70ef8e17d93eec249a3c8ad6.m3u8
-精品体育,网络,,,618,存活,200,1110,,Guovin iptv-api result(存活校验),未知,精品体育,https://epg.pw/stream/f7556eccd4ae06b0c2991fdc7a4f8388496559f728cc82459a8e50346040e226.m3u8
-精品体育,网络,,,619,存活,200,2153,,Guovin iptv-api result(存活校验),未知,精品体育,https://epg.pw/stream/866a097a0907c9832440f8df38272dd555abf05200dfbafcc137e214c9b30ca7.m3u8
-精品体育,网络,,,620,失效,0,9999,,suxuang ipv4,未知,NewTV 精品体育,http://39.134.182.166/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236300/index.m3u8
-精品大剧,网络,,,621,失效,0,9999,,suxuang ipv4,未知,NewTV 精品大剧,http://[2409:8087:5e00:24::2d]:6610/000000001000/1/1000000004000013968/index.m3u8?channel-id=ystenlive&Contentid=1000000004000013968&livemode=1&stbId=YanG-1989
-精品电影 (1080p),网络,,,622,失效,0,9999,,iptv-org cn,1080P,精品电影 (1080p),http://183.207.248.71/cntv/live1/jdianying/jdianying
-精品电影 (1080p),网络,,,623,失效,404,9999,,iptv-org cn,1080P,高清电影 (1080p),http://39.134.19.76/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226463/index.m3u8
-精品萌宠,网络,,,624,失效,0,9999,,suxuang ipv4,未知,NewTV 精品萌宠,http://[2409:8087:5e00:24::2d]:6610/000000001000/1/1000000006000032328/index.m3u8?channel-id=ystenlive&Contentid=1000000006000032328&livemode=1&stbId=YanG-1989
-精品记录,网络,,,625,失效,0,9999,,suxuang ipv4,未知,NewTV 精品记录,http://[2409:8087:5e00:24::2d]:6610/000000001000/1/1000000004000013730/index.m3u8?channel-id=ystenlive&Contentid=1000000004000013730&livemode=1&stbId=YanG-1989
-精彩影视,网络,,,626,失效,0,9999,,suxuang ipv4,未知,精彩影视,http://111.22.153.159:35455/itv/6000000006000320630.m3u8?cdn=wasusyt
-纪实人文 (1080p),网络,,,627,失效,0,9999,,iptv-org cn,1080P,纪实人文 (1080p),http://39.135.138.59:18890/PLTV/88888910/224/3221225655/index.m3u8
-纪实人文 (1080p),网络,,,628,失效,0,9999,,Guovin iptv-api result(存活校验),未知,纪实人文,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225738/index.m3u8
-纪实人文 (1080p),网络,,,629,失效,0,9999,,Guovin iptv-api result(存活校验),未知,纪实人文,https://stream1.freetv.fun/ipv6-ji-shi-ren-wen-12.m3u8
-纪实人文 (1080p),网络,,,630,失效,200,9999,,bestK iptv,未知,纪实人文,http://8.138.7.223/tv/shtv.php?id=xjs
-纪实科教,网络,,,631,存活,200,40,,suxuang ipv4,未知,纪实科教,http://120.76.248.139/live/bfgd/4200000113.m3u8
-纯享4K (2160p),网络,,,632,失效,0,9999,,iptv-org cn,4K,纯享4K (2160p),http://39.134.115.163:8080/PLTV/88888910/224/3221225786/index.m3u8
-经典剧集,网络,,,633,失效,0,9999,,suxuang ipv4,未知,经典剧集,http://www.goodiptv.club/douyu/6863367
-经典电影,网络,,,634,失效,404,9999,,Guovin iptv-api result(存活校验),未知,经典电影,https://txmov2.a.kwimgs.com/bs3/video-hls/5211790793651941963_hlsb.m3u8
-经典电影,网络,,,635,失效,0,9999,,Guovin iptv-api result(存活校验),未知,经典电影,https://goodiptv.club/douyu/6091425
-继续教育 (576p),网络,,,636,失效,0,9999,,iptv-org cn,未知,继续教育 (576p),http://111.63.117.13:6060/030000001000/G_CETV-2/G_CETV-2.m3u8
-维护内容：维护 Gather「删除 •IPV6 源」,网络,,,637,失效,0,9999,,bestK iptv,未知,维护内容：维护 Gather「删除 •IPV6 源」,https://epg-1.iill.top/v/302.mp4
-维护时间：2025-1-15#佛系维护...,网络,,,638,失效,0,9999,,bestK iptv,未知,维护时间：2025-1-15#佛系维护...,https://epg-1.iill.top/v/301.mp4
-罪犯电影,网络,,,639,存活,200,2673,,suxuang ipv4,未知,罪犯电影,https://live.metshop.top/huya/11352962
-置业 (576p),网络,,,640,失效,0,9999,,iptv-org cn,未知,置业 (576p),http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221227037/index.m3u8
-美剧「解说」,网络,,,641,失效,0,9999,,YanG Gather,未知,美剧「解说」,https://cdn.ttvb.eu.org/huya/20488841
-耀才财经,网络,,,642,失效,0,9999,,suxuang ipv4,未知,耀才财经,https://v3.mediacast.hk/webcast/bshdlive-pc/chunklist_w99771165.m3u8
-耀才财经,网络,,,643,失效,0,9999,,iptv-org cn,未知,耀才财经 (288p),http://202.69.67.66:443/webcast/bshdlive-mobile/playlist.m3u8
-航海王「动漫」,网络,,,644,失效,0,9999,,YanG Gather,未知,航海王「动漫」,https://cdn.ttvb.eu.org/huya/16913382
-芈月传,网络,,,645,存活,200,1446,,suxuang ipv4,未知,芈月传,https://live.metshop.top/huya/11352975
-茶频道,网络,,,646,失效,0,9999,,suxuang ipv4,未知,茶友频道,http://drive.mxmy.net:8888/udp/239.3.1.165:8001
-茶啊二中「动画」,网络,,,647,失效,0,9999,,YanG Gather,未知,茶啊二中「动画」,https://cdn.ttvb.eu.org/huya/11213191
-荒野求生「其他」,网络,,,648,失效,0,9999,,YanG Gather,未知,荒野求生「其他」,https://cdn.ttvb.eu.org/huya/593667
-莒縣圖文頻道 (720p),网络,,,649,失效,0,9999,,iptv-org cn,720P,莒縣圖文頻道 (720p),http://61.162.225.122:8181/live/test3.m3u8
-莒縣電視一套 (576p),网络,,,650,失效,0,9999,,iptv-org cn,未知,莒縣電視一套 (576p),http://61.162.225.122:8181/live/test1.m3u8
-莒縣電視二套 (576p) [Not 24/7],网络,,,651,失效,0,9999,,iptv-org cn,未知,莒縣電視二套 (576p) [Not 24/7],http://61.162.225.122:8181/live/test2.m3u8
-萌宠TV,网络,,,652,失效,0,9999,,suxuang ipv4,未知,萌宠TV,http://[2409:8087:1:20:20::26]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226555/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E_PpxWPtvSZRFtu_Ged-vQ%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNO0istnBuoA2R9ODSCqyIyS%2CEND
-萍鄉公共頻道 (1080p) [Not 24/7],网络,,,653,失效,0,9999,,iptv-org cn,1080P,萍鄉公共頻道 (1080p) [Not 24/7],http://www.pxitv.com:8099/hls-live/livepkgr/_definst_/pxitvevent/pxtv3stream.m3u8
-萍鄉教育頻道 (480p),网络,,,654,失效,0,9999,,iptv-org cn,未知,萍鄉教育頻道 (480p),http://www.pxitv.com:8099/hls-live/livepkgr/_definst_/pxitvevent/pxtv2stream.m3u8
-萍鄉新聞綜合 (576p) [Not 24/7],网络,,,655,失效,0,9999,,iptv-org cn,未知,萍鄉新聞綜合 (576p) [Not 24/7],http://www.pxitv.com:8099/hls-live/livepkgr/_definst_/pxitvevent/pxtv1stream.m3u8
-萬州三峽移民 (576p),网络,,,656,存活,200,89,,iptv-org cn,未知,萬州三峽移民 (576p),http://123.146.162.24:8017/c2F0hmi/1000/live.m3u8
-萬州三峽移民 (576p),网络,,,657,失效,400,9999,,iptv-org cn,未知,萬州三峽移民 (576p),http://wanzhoulive.cbg.cn:8017/c2F0hmi/1000/live.m3u8
-萬州影視文藝 (576p),网络,,,658,失效,400,9999,,iptv-org cn,未知,萬州影視文藝 (576p),http://wanzhoulive.cbg.cn:8017/d4ceB1a/1000/live.m3u8
-萬州影視文藝 (576p),网络,,,659,失效,404,9999,,iptv-org cn,未知,萬州影視文藝 (576p) [Not 24/7],http://123.146.162.24:8017/d4ceB1a/1000/live.m3u8
-萬州科教頻道 (576p),网络,,,660,失效,404,9999,,iptv-org cn,未知,萬州科教頻道 (576p),http://123.146.162.24:8017/Cz7WPb8/800/live.m3u8
-萬州科教頻道 (576p),网络,,,661,失效,400,9999,,iptv-org cn,未知,萬州科教頻道 (576p),http://wanzhoulive.cbg.cn:8017/Cz7WPb8/800/live.m3u8
-萬州綜合頻道 (576p),网络,,,662,失效,404,9999,,iptv-org cn,未知,萬州綜合頻道 (576p),http://123.146.162.24:8017/iTXwrGs/800/live.m3u8
-萬州綜合頻道 (576p),网络,,,663,失效,400,9999,,iptv-org cn,未知,萬州綜合頻道 (576p),http://wanzhoulive.cbg.cn:8017/iTXwrGs/800/live.m3u8
-蕭山生活頻道 (720p) [Not 24/7],网络,,,664,存活,200,177,,iptv-org cn,720P,蕭山生活頻道 (720p) [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
-蜡笔小新,网络,,,665,失效,404,9999,,suxuang ipv4,未知,蜡笔小新,https://live.metshop.top/bilibili/30837590
-蜡笔小新,网络,,,666,失效,0,9999,,Guovin iptv-api result(存活校验),未知,蜡笔小新,https://live.ottiptv.cc/bilibili/30837590
-西游记,网络,,,667,存活,200,842,,suxuang ipv4,未知,西游记,https://live.metshop.top/huya/26355861
-西游记,网络,,,668,失效,0,9999,,Guovin iptv-api result(存活校验),未知,西游记,http://173.208.234.146/live/vlxyj.m3u8
-西游记,网络,,,669,失效,0,9999,,Guovin iptv-api result(存活校验),未知,西游记,https://live.ottiptv.cc/huya/26355861
-西游记,网络,,,670,失效,0,9999,,Guovin iptv-api result(存活校验),未知,西游记,http://live.ottiptv.cc/huya/20985836
-西游记2,网络,,,671,存活,200,847,,suxuang ipv4,未知,西游记2,https://live.metshop.top/huya/29465859
-西游记后传,网络,,,672,存活,200,1047,,suxuang ipv4,未知,西游记后传,https://live.metshop.top/yy/1353392400
-西游记续集,网络,,,673,存活,200,1197,,suxuang ipv4,未知,西游记续集,https://live.metshop.top/douyu/3113309
-让子弹飞,网络,,,674,存活,200,3429,,suxuang ipv4,未知,让子弹飞,https://vip.ffzy-play7.com/20230116/11563_b9f44814/index.m3u8
-谈判专家,网络,,,675,存活,200,1528,,suxuang ipv4,未知,谈判专家,https://live.metshop.top/yy/1382735560
-谍战电影,网络,,,676,存活,200,943,,suxuang ipv4,未知,谍战电影,https://live.metshop.top/huya/21059585
-豆瓣电影,网络,,,677,失效,0,9999,,suxuang ipv4,未知,中国电影频道,https://live.tvfix.org/live/cmc/index.m3u8
-象视界,网络,,,678,存活,302,97,,suxuang ipv4,未知,象视界,http://1.94.31.214/php/hntv.php?id=xsj
-贝爷求生,网络,,,679,失效,0,9999,,suxuang ipv4,未知,贝爷求生,http://www.goodiptv.club/douyu/9661369
-贺岁电影,网络,,,680,存活,200,1068,,suxuang ipv4,未知,贺岁电影,https://live.metshop.top/huya/11601986
-超级体育,网络,,,681,失效,0,9999,,suxuang ipv4,未知,NewTV 超级体育,http://111.22.153.159:35455/itv/1000000001000009601.m3u8?cdn=ystenlive
-超级体育,网络,,,682,失效,0,9999,,Guovin iptv-api result(存活校验),未知,超级体育,http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225715/index.m3u8
-超级电影,网络,,,683,失效,0,9999,,suxuang ipv4,未知,NewTV 超级电影,http://111.22.153.159:35455/itv/1000000003000012426.m3u8?cdn=ystenlive
-超级综艺,网络,,,684,失效,0,9999,,suxuang ipv4,未知,NewTV 超级综艺,http://[2409:8087:5e00:24::2d]:6610/000000001000/1/1000000004000023658/index.m3u8?channel-id=ystenlive&Contentid=1000000004000023658&livemode=1&stbId=YanG-1989
-足球频道,网络,,,685,存活,200,2125,,Guovin iptv-api result(存活校验),未知,足球频道,https://epg.pw/stream/c7df950876e6a1ceb8be74ee86f9f702cebbbae29f1d15124ef8f86fd43161cf.m3u8
-足球频道,网络,,,686,失效,403,9999,,Guovin iptv-api result(存活校验),未知,足球频道,http://live-cmvideo.cmread.com:80/migu/lunbo/eufootball/57/20230310/01.m3u8?msisdn=&mtv_session=&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=da834f97e3c8832f6fd8f2be9ba16464
-跳舞「其他」,网络,,,687,失效,0,9999,,YanG Gather,未知,跳舞「其他」,https://cdn.ttvb.eu.org/huya/24634408
-车迷频道,网络,,,688,失效,200,9999,,suxuang ipv4,未知,车迷频道,http://120.76.248.139/live/bfgd/4200000146.m3u8
-邵氏影院,网络,,,689,失效,0,9999,,suxuang ipv4,未知,邵氏影院,http://www.goodiptv.club/douyu/4246519
-郏县综合,网络,,,690,失效,404,9999,,Guovin iptv-api result(存活校验),未知,郏县综合,http://tvpull.dxhmt.cn:9081/tv/10425-1.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
-郏县综合,网络,,,691,失效,404,9999,,Guovin iptv-api result(存活校验),未知,郏县综合,http://tvpull.dxhmt.cn:9081/tv/10425-1.m3u8?zhend
-郏县综合,网络,,,692,失效,404,9999,,Guovin iptv-api result(存活校验),未知,郏县综合,http://tvpull.dxhmt.cn:9081/tv/10425-1.m3u8
-野蛮亲家,网络,,,693,存活,200,900,,suxuang ipv4,未知,野蛮亲家,https://live.metshop.top/huya/23863796
-野行者「其他」,网络,,,694,失效,0,9999,,YanG Gather,未知,野行者「其他」,https://cdn.ttvb.eu.org/huya/20072663
-金庸武侠,网络,,,695,存活,200,3150,,suxuang ipv4,未知,金庸武侠,https://live.metshop.top/huya/11342435
-金枝欲孽,网络,,,696,存活,200,1375,,suxuang ipv4,未知,金枝欲孽,https://live.metshop.top/huya/29465847
-金牌综艺,网络,,,697,失效,0,9999,,suxuang ipv4,未知,NewTV 金牌综艺,http://[2409:8087:5e00:24::2d]:6610/000000001000/1/1000000004000026167/index.m3u8?channel-id=ystenlive&Contentid=1000000004000026167&livemode=1&stbId=YanG-1989
-金鹰卡通[576][S],网络,,,698,存活,200,100,,best-fan 央视卫视地方(每日存活校验),未知,金鹰卡通,http://124.228.160.3:9901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0
-金鹰卡通[576][S],网络,,,699,存活,200,195,,best-fan 央视卫视地方(每日存活校验),未知,金鹰卡通,http://101.66.199.74:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=0&authid=0
-金鹰卡通[576][S],网络,,,700,存活,200,1715,,best-fan 央视卫视地方(每日存活校验),未知,金鹰卡通,http://101.66.199.175:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=0&authid=0
-金鹰卡通[576][S],网络,,,701,失效,0,9999,,best-fan 央视卫视地方(每日存活校验),未知,金鹰卡通,http://101.66.198.220:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=0&authid=0
-金鹰卡通[576][S],网络,,,702,失效,0,9999,,suxuang ipv4,未知,金鹰卡通,https://zby.130519.xyz/PLTV/11/224/3221226094/index.m3u8
-金鹰卡通[576][S],网络,,,703,失效,0,9999,,suxuang ipv4,未知,金鹰卡通,http://itv.iptv1688.top:2016/itv.php?id=金鹰卡通
-金鹰卡通[576][S],网络,,,704,失效,200,9999,,suxuang ipv4,未知,金鹰卡通,http://tvbox6.icu/tv/mgtv.php?id=287
-金鹰卡通[576][S],网络,,,705,失效,0,9999,,iptv-org cn,未知,金鹰卡通 (576p),http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221226303/index.m3u8
-金鹰卡通[576][S],网络,,,706,失效,0,9999,,iptv-org cn,未知,金鹰卡通 (576p) [Geo-blocked],http://223.110.241.149:6610/gitv/live1/G_JINYING/G_JINYING/1.m3u8
-金鹰卡通[576][S],网络,,,707,失效,0,9999,,iptv-org cn,未知,金鹰卡通 (湖南) (540p) [Not 24/7],http://112.25.48.68/live/program/live/jykt/1300000/mnf.m3u8
-金鹰卡通[576][S],网络,,,708,失效,0,9999,,Guovin iptv-api result(存活校验),未知,金鹰卡通,https://stream1.freetv.fun/jin-ying-qia-tong-22.m3u8
-金鹰卡通[576][S],网络,,,709,失效,0,9999,,Guovin iptv-api result(存活校验),未知,金鹰卡通,https://stream1.freetv.fun/jin-ying-qia-tong-34.m3u8
-金鹰卡通[576][S],网络,,,710,失效,0,9999,,Guovin iptv-api result(存活校验),未知,金鹰卡通,https://stream1.freetv.fun/jin-ying-qia-tong-13.m3u8
-金鹰卡通[576][S],网络,,,711,失效,0,9999,,Guovin iptv-api result(存活校验),未知,金鹰卡通,https://stream1.freetv.fun/jin-ying-qia-tong-19.m3u8
-金鹰卡通[576][S],网络,,,712,失效,403,9999,,bestK iptv,未知,金鹰卡通,http://phoneqq.qing.mgtv.com/nn_live/nn_x64/dWlwPTEwNi4xNC4zOC41NSZ0ZXJtPTUmcWlkPSZyYXV0aF9lbmFibGU9b2ZmJmNkbmV4X2lkPXFxX3Bob25lX2xpdmUmY2hzPSZkZWY9MSZzPTBkNTE4ZmE4YWVjN2MyNGQ0NTI3YjhiZDE1MzE0MTg4JnVpZD0mdXVpZD00ZGVkY2UxM2M0ZTRlODY3ZDI0NzRkY2M3NmQ2NmQ4YS02YTBlMjYzNyZ2PTImYXM9MCZlcz0xNzcxMzk3NzI2/JYKTMPP360.m3u8
-金鹰纪实,网络,,,713,失效,0,9999,,suxuang ipv4,未知,金鹰纪实,http://iptv.huuc.edu.cn/hls/gedocu.m3u8
-金鹰纪实,网络,,,714,失效,0,9999,,suxuang ipv4,未知,金鹰纪实,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226667/1.m3u8
-金鹰纪实,网络,,,715,失效,200,9999,,suxuang ipv4,未知,金鹰纪实,http://tvbox6.icu/tv/mgtv.php?id=316
-金鹰纪实,网络,,,716,失效,403,9999,,Guovin iptv-api result(存活校验),未知,金鹰纪实,https://hls-gateway.vpstv.net/streams/708834.m3u8
-金鹰纪实,网络,,,717,失效,0,9999,,Guovin iptv-api result(存活校验),未知,金鹰纪实,https://stream1.freetv.fun/jin-ying-ji-shi-35.m3u8
-金鹰纪实,网络,,,718,失效,0,9999,,Guovin iptv-api result(存活校验),未知,金鹰纪实,https://stream1.freetv.fun/jin-ying-ji-shi-22.ctv
-鉴证实录,网络,,,719,存活,200,820,,suxuang ipv4,未知,鉴证实录,https://live.metshop.top/huya/23903183
-铁齿铜牙纪晓岚,网络,,,720,存活,200,1028,,suxuang ipv4,未知,铁齿铜牙纪晓岚,https://live.metshop.top/huya/11342396
-长影频道,网络,,,721,存活,200,137,,suxuang ipv4,未知,长影频道,http://tpc.x3322.net:9901/tsfile/live/1010_1.m3u8
-长白朝语,网络,,,722,存活,200,20,,vbskycn iptv4,未知,长白朝语,http://hplayer1.juyun.tv:80/camera/11344136.m3u8
-闯关东,网络,,,723,失效,0,9999,,Guovin iptv-api result(存活校验),未知,闯关东,http://173.208.234.146/live/lbchuangguandong.m3u8
-阅读•学习「音乐」,网络,,,724,失效,0,9999,,YanG Gather,未知,阅读•学习「音乐」,https://cdn.ttvb.eu.org/huya/21241813
-陀枪师姐,网络,,,725,存活,200,842,,suxuang ipv4,未知,陀枪师姐,https://live.metshop.top/huya/29465857
-陈情令,网络,,,726,存活,200,825,,suxuang ipv4,未知,陈情令,https://live.metshop.top/huya/29465862
-隋唐英雄传,网络,,,727,存活,200,1084,,suxuang ipv4,未知,隋唐英雄传,https://live.metshop.top/yy/1352475619
-隨州綜合 (720p) [Not 24/7],网络,,,728,失效,403,9999,,iptv-org cn,720P,隨州綜合 (720p) [Not 24/7],http://34766.hlsplay.aodianyun.com/guangdianyun_34766/tv_channel_304.m3u8
-隨州農村 (720p) [Not 24/7],网络,,,729,失效,403,9999,,iptv-org cn,720P,隨州農村 (720p) [Not 24/7],http://34766.hlsplay.aodianyun.com/guangdianyun_34766/tv_channel_305.m3u8
-雪豹,网络,,,730,存活,200,628,,suxuang ipv4,未知,雪豹,https://live.metshop.top/huya/29580970
-韩国EBS少儿,网络,,,731,存活,200,245,,suxuang ipv4,未知,韩国EBS少儿,http://ebsonairios.ebs.co.kr/ebsutablet500k/tablet500k/playlist.m3u8
-韩国电影1,网络,,,732,存活,200,2229,,suxuang ipv4,未知,韩国电影1,https://stream.ads.ottera.tv/playlist.m3u8?network_id=595
-韩国电影2,网络,,,733,存活,200,2221,,suxuang ipv4,未知,韩国电影2,https://stream.ads.ottera.tv/playlist.m3u8?network_id=743
-音乐广播,网络,,,734,失效,0,9999,,Guovin iptv-api result(存活校验),未知,音乐广播,https://tv.iill.top/fm/552&token=7c908a370d95d78e90a9d2ba4007e5185038b0ceac7435ba90e72c77cc035ff6
-音乐广播,网络,,,735,失效,0,9999,,Guovin iptv-api result(存活校验),未知,音乐广播,https://tv.iill.top/fm/552&token=074c3dfc2f95090e006ab15f0d86b1aaef70b389a934b096ad5e6674b5724d0d
-音乐广播,网络,,,736,失效,0,9999,,Guovin iptv-api result(存活校验),未知,音乐广播,https://tv.iill.top/fm/552&token=9214268143febfaf9cbc3e9b7f092a03c3274273c99133a780217564b2ab7896
-音乐广播,网络,,,737,失效,0,9999,,Guovin iptv-api result(存活校验),未知,音乐广播,https://tv.iill.top/fm/552&token=0ba82b0a75c65ff5f1a8198b9de48d0532f0cf804be54dac2eacd7d0dbd56b0a
-音乐广播,网络,,,738,失效,0,9999,,Guovin iptv-api result(存活校验),未知,音乐广播,https://tv.iill.top/fm/552&token=bde1753ec6759720c20ecedff6ec428eed4e2dd71d1433181fa7f50b8724a5bf
-音乐欣赏,网络,,,739,失效,0,9999,,vbskycn iptv4,未知,音乐欣赏,http://61.221.215.25:8800/hls/49/index.m3u8
-音乐现场,网络,,,740,存活,200,916,,Guovin iptv-api result(存活校验),未知,音乐现场,https://satellitepull.cnr.cn/live/wx32nmgyygb/playlist.m3u8
-音乐石榴「音乐」,网络,,,741,失效,0,9999,,YanG Gather,未知,音乐石榴「音乐」,https://cdn.ttvb.eu.org/huya/17091681
-音乐速递「音乐」,网络,,,742,失效,0,9999,,YanG Gather,未知,音乐速递「音乐」,https://cdn.ttvb.eu.org/huya/19439762
-风尚购物 (1080p),网络,,,743,失效,0,9999,,iptv-org cn,1080P,风尚购物 (1080p),http://183.207.248.71/cntv/live1/fengshanggw/fengshanggw
-餘姚姚江文化 (576p) [Not 24/7],网络,,,744,存活,200,180,,iptv-org cn,未知,餘姚姚江文化 (576p) [Not 24/7],https://l.cztvcloud.com/channels/lantian/SXyuyao2/720p.m3u8
-鬼吹灯之龙岭迷窟,网络,,,745,存活,200,1302,,suxuang ipv4,未知,鬼吹灯之龙岭迷窟,https://live.metshop.top/huya/29465863
-魅力潇湘,网络,,,746,失效,0,9999,,suxuang ipv4,未知,NewTV 魅力潇湘,http://[2409:8087:5e00:24::2d]:6610/000000001000/1/1000000001000006197/index.m3u8?channel-id=ystenlive&Contentid=1000000001000006197&livemode=1&stbId=YanG-1989
-鹿鼎记,网络,,,747,存活,200,961,,suxuang ipv4,未知,鹿鼎记,https://live.metshop.top/huya/23650774
-鹿鼎记,网络,,,748,失效,0,9999,,Guovin iptv-api result(存活校验),未知,鹿鼎记,https://live.ottiptv.cc/yy/28265277
-黄渤电影,网络,,,749,存活,200,1523,,suxuang ipv4,未知,黄渤电影,https://live.metshop.top/huya/11352876
-黑莓电影,网络,,,750,存活,200,913,,Guovin iptv-api result(存活校验),未知,黑莓电影,https://epg.pw/stream/ffcb6572863f0745a7369fbd9d901f1dfd0ab8fab8bad8bebb4e01c90b303c47.m3u8
-龙祥电影,网络,,,751,失效,406,9999,,Guovin iptv-api result(存活校验),未知,龙祥电影,http://31.43.191.125:8080/vip6821768502490/6c17bae55394/34825
-龙祥电影,网络,,,752,失效,0,9999,,bestK iptv,未知,龙祥电影,https://smt.858.qzz.io/Smart.php?id=lungxiangtime_twn
+﻿分组,频道,线路数,存活,失效,官方,最佳线路,ID
+网络,&FlixHD,1,0,1,0,,&flixhd
+网络,1983年春晚,1,0,1,0,,1983年春晚
+网络,1984年春晚,1,0,1,0,,1984年春晚
+网络,1985年春晚,1,0,1,0,,1985年春晚
+网络,1986年春晚,1,0,1,0,,1986年春晚
+网络,1987年春晚,1,0,1,0,,1987年春晚
+网络,1988年春晚,1,1,0,0,https://txmov2.a.kwimgs.com/bs3/video-hls/5216575810935394655_hlsb.m3u8,1988年春晚
+网络,1989年春晚,1,1,0,0,https://txmov2.a.kwimgs.com/bs3/video-hls/5194620763762726260_hlsb.m3u8,1989年春晚
+网络,1992年春晚,1,0,1,0,,1992年春晚
+网络,1993年春晚,1,0,1,0,,1993年春晚
+网络,1994年春晚,1,0,1,0,,1994年春晚
+网络,1995年春晚,1,0,1,0,,1995年春晚
+网络,1996年春晚,1,0,1,0,,1996年春晚
+网络,1997年春晚,1,0,1,0,,1997年春晚
+网络,1998年春晚,1,0,1,0,,1998年春晚
+网络,1999年春晚,1,0,1,0,,1999年春晚
+网络,2000年春晚,1,0,1,0,,2000年春晚
+网络,2001年春晚,1,0,1,0,,2001年春晚
+网络,2002年春晚,1,0,1,0,,2002年春晚
+网络,2003年春晚,1,0,1,0,,2003年春晚
+网络,2004年春晚,1,0,1,0,,2004年春晚
+网络,2005年春晚,1,0,1,0,,2005年春晚
+网络,2006年春晚,1,0,1,0,,2006年春晚
+网络,2007年春晚,1,0,1,0,,2007年春晚
+网络,2008年春晚,1,0,1,0,,2008年春晚
+网络,2009年春晚,1,0,1,0,,2009年春晚
+网络,2010年春晚,1,0,1,0,,2010年春晚
+网络,2011年春晚,1,0,1,0,,2011年春晚
+网络,2012年春晚,1,0,1,0,,2012年春晚
+网络,2013年春晚,1,0,1,0,,2013年春晚
+网络,2014年春晚,1,0,1,0,,2014年春晚
+网络,2015年春晚,1,0,1,0,,2015年春晚
+网络,2016年春晚,1,0,1,0,,2016年春晚
+网络,2017年春晚,1,0,1,0,,2017年春晚
+网络,2018年春晚,1,0,1,0,,2018年春晚
+网络,2020年春晚,1,0,1,0,,2020年春晚
+网络,2021年春晚,1,0,1,0,,2021年春晚
+网络,2022年春晚,1,0,1,0,,2022年春晚
+网络,2023年春晚,1,0,1,0,,2023年春晚
+网络,2024年春晚,1,1,0,0,https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_6488563992_8982723413/merged_1707497046297_88536_25144_41936.m3u8,2024年春晚
+网络,2025年春晚,2,0,2,0,,2025年春晚
+网络,2026-11-2620:10:38,1,0,1,0,,2026112620:10:38
+网络,ABCNewsLive,1,1,0,0,https://d4ybyqrhce41r.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-xumo-linear-nbcu-hlsv3/master.m3u8?ads.channelId=99991626,abcnewslive
+网络,ABNChina(720p),1,0,1,0,,abnchina
+网络,AlJazeera,1,0,1,0,,aljazeera
+网络,AMC电影,1,0,1,0,,amc电影
+网络,AndoTV(1080p),1,1,0,1,http://play.kankanlive.com/live/1711956137852982.m3u8,andotv
+网络,AngelTVChinese(720p),1,1,0,0,https://janya-digimix.akamaized.net/vglive-sk-999451/chinese/ngrp:angelchinese_all/playlist.m3u8,angeltvchinese
+网络,Arirang,1,1,0,0,https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8,arirang
+网络,AstroAEC,1,0,1,0,,astroaec
+网络,AXSTVNow,1,0,1,0,,axstvnow
+网络,BBC,1,0,1,0,,bbc
+网络,BeautifulLifeTV,1,1,0,0,https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8,beautifullifetv
+网络,BingtuanSatelliteTV(540p)[Not24/7],1,0,1,0,,bingtuansatellitetv
+网络,BloombergAsia,1,1,0,0,https://epg.pw/stream/d2edf469b9079064a283f4b0811cbf6f2597ebbb3d08dcf77036a4b5a791b7cf.m3u8,bloombergasia
+网络,BloombergOriginals,1,0,1,0,,bloombergoriginals
+网络,BreadTV(720p),1,0,1,0,,breadtv
+网络,CBCNews,1,1,0,0,https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991276,cbcnews
+网络,CBNNews,1,0,1,0,,cbnnews
+网络,CGNTVChinese(1080p),1,1,0,0,https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8,cgntvchinese
+网络,CH5,1,0,1,0,,ch5
+网络,CH8,1,0,1,0,,ch8
+网络,ChinaTravel(1080p),1,1,0,1,https://fastlive.cctvplus.com/out/v1/ca6f9297b7314a63959435028af287fc/index.m3u8,chinatravel
+网络,ChinaWeatherChannel(576p)[Not24/7],1,0,1,0,,chinaweatherchannel
+网络,CHU,1,0,1,0,,chu
+网络,Clarity4K,1,0,1,0,,clarity4k
+网络,CNA,1,1,0,0,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8,cna
+网络,CNDFilmDiscoveryChannel(576p),1,0,1,0,,cndfilmdiscoverychannel
+网络,CNDFilmMiddleSchoolChannel,2,1,1,0,http://live-play.zxstv.com.cn/zhongxuesheng/zhongxuesheng.m3u8,cndfilmmiddleschoolchannel
+网络,CNN,1,0,1,0,,cnn
+网络,DiscoveringChina(1080p),1,1,0,1,https://fastlive.cctvplus.com/out/v1/8442c3bfd4c64a3984389328f6087879/index.m3u8,discoveringchina
+网络,DisneyInternational,1,0,1,0,,disneyinternational
+网络,DocumentaryHumanitiesChannel(1080p),1,0,1,0,,documentaryhumanitieschannel
+网络,DragonTVInternational,1,0,1,0,,dragontvinternational
+网络,DubaiOne,1,0,1,0,,dubaione
+网络,DW,1,0,1,0,,dw
+网络,ELEVEN体育1,1,0,1,0,,eleven体育1
+网络,ELEVEN体育2,1,0,1,0,,eleven体育2
+网络,ELEVEN体育3,1,0,1,0,,eleven体育3
+网络,ETMall60,1,0,1,0,,etmall60
+网络,FashionTV,1,0,1,0,,fashiontv
+网络,FengshangShoppingChannel(1080p),1,0,1,0,,fengshangshoppingchannel
+网络,FIFA+,1,0,1,0,,fifa
+网络,FightNetwork,1,0,1,0,,fightnetwork
+网络,FoxLiveNow,1,0,1,0,,foxlivenow
+网络,GBNews,1,0,1,0,,gbnews
+网络,GeniusGoGoGo,1,0,1,0,,geniusgogogo
+网络,GoldenEagleCartoon(576p),1,0,1,0,,goldeneaglecartoon
+网络,GoldenEagleCartoon,1,0,1,0,,goldeneaglecartoon
+网络,GOODTVCH1綜合台(720p)[Not24/7],1,0,1,0,,goodtvch1綜合台
+网络,GOODTVCH2真理台(720p),1,0,1,0,,goodtvch2真理台
+网络,HighChannelTV(1080p),1,0,1,0,,highchanneltv
+网络,HomePlus,1,0,1,0,,homeplus
+网络,iNews新闻台,1,0,1,0,,inews新闻台
+网络,ION,1,0,1,0,,ion
+网络,IONPlus,1,0,1,0,,ionplus
+网络,IPTV经典电影,1,0,1,0,,iptv经典电影
+网络,J2,2,0,2,0,,j2
+网络,JJ斗地主,1,0,1,0,,jj斗地主
+网络,JP1,1,0,1,0,,jp1
+网络,KangbaTV,1,1,0,0,http://110.185.237.164:8888/hls/30/index.m3u8,kangbatv
+网络,KBSworld,1,0,1,0,,kbsworld
+网络,KPop,1,0,1,0,,kpop
+网络,LoveNature,1,0,1,0,,lovenature
+网络,Momo1,1,0,1,0,,momo1
+网络,Momo2,1,0,1,0,,momo2
+网络,MovieSphere,1,0,1,0,,moviesphere
+网络,NBC,1,0,1,0,,nbc
+网络,NeiMonggolTV(960p),1,1,0,0,https://cdn4.skygo.mn/live/disk1/NeigMGL/HLSv3-FTA/NeigMGL.m3u8,neimonggoltv
+网络,NeiMonggolTV,2,0,2,0,,neimonggoltv
+网络,NeiMonggolTV2MongolianCultureChannel,1,0,1,0,,neimonggoltv2mongolianculturechannel
+网络,NeiMonggolTV2MongolianCultureChannel(108,1,1,0,1,http://play1-qk.nmtv.cn/live/1769652109096027.m3u8,neimonggoltv2mongolianculturechannel108
+网络,Newsmax,1,1,0,0,http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8,newsmax
+网络,NewTV动作电影,2,0,2,0,,newtv动作电影
+网络,NewTV惊悚悬疑,3,0,3,0,,newtv惊悚悬疑
+网络,NextUpLiveComedy,1,0,1,0,,nextuplivecomedy
+网络,NTDTVAsia-Pacific,1,0,1,0,,ntdtvasiapacific
+网络,NU,1,0,1,0,,nu
+网络,NU2,1,0,1,0,,nu2
+网络,PetClubTV,1,1,0,0,https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-petclub-samsungnz/playlist.m3u8,petclubtv
+网络,PetClubTV(1080p),1,1,0,0,https://petclub-samsungaus.amagi.tv/playlist.m3u8,petclubtv
+网络,Pop,1,0,1,0,,pop
+网络,RTArabic,1,1,0,0,https://rt-arb.rttv.com/dvr/rtarab/playlist_4500Kb.m3u8,rtarabic
+网络,RTDE,2,2,0,0,https://rt-srb.rttv.com/dvr/rtbalkan/playlist_4500Kb.m3u8,rtde
+网络,RTDocumentary,1,1,0,0,https://rt-rtd.rttv.com/dvr/rtdoc/playlist_4500Kb.m3u8,rtdocumentary
+网络,RTDoc-Русский,1,1,0,0,https://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8,rtdocрусский
+网络,RTEspañol,1,1,0,0,https://rt-esp.rttv.com/dvr/rtesp/playlist_4500Kb.m3u8,rtespañol
+网络,RTFrançais,1,1,0,0,https://rt-fra.rttv.com/dvr/rtfrance/playlist_4500Kb.m3u8,rtfrançais
+网络,RTNews,1,0,1,0,,rtnews
+网络,SKY,1,0,1,0,,sky
+网络,SkyNews,1,0,1,0,,skynews
+网络,Stadium,1,0,1,0,,stadium
+网络,SupremeMasterTV,1,0,1,0,,suprememastertv
+网络,Tastemade,1,0,1,0,,tastemade
+网络,TBS,1,0,1,0,,tbs
+网络,TheLegoChannel,1,0,1,0,,thelegochannel
+网络,TraceSports,1,1,0,0,https://lightning-tracesport-samsungau.amagi.tv/playlist1080p.m3u8,tracesports
+网络,TRTWorld,1,0,1,0,,trtworld
+网络,VoATVChina(1080p),1,1,0,0,https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8,voatvchina
+网络,WildEarth,1,1,0,0,https://wildearth-plex.amagi.tv/masterR1080p.m3u8,wildearth
+网络,WildPlanet,1,0,1,0,,wildplanet
+网络,WionNews,1,1,0,0,https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8,wionnews
+网络,YouManCartoonChannel(576p),1,0,1,0,,youmancartoonchannel
+网络,「B站」CS2,1,0,1,0,,「b站」cs2
+网络,「B站」JJ斗地主,1,0,1,0,,「b站」jj斗地主
+网络,「B站」QQ飞车•手游,1,0,1,0,,「b站」qq飞车•手游
+网络,「B站」使命召唤•手游,1,0,1,0,,「b站」使命召唤•手游
+网络,「B站」无畏契约,1,0,1,0,,「b站」无畏契约
+网络,「B站」热门赛事,1,0,1,0,,「b站」热门赛事
+网络,「B站」王者荣耀𝟙,1,0,1,0,,「b站」王者荣耀1
+网络,「B站」王者荣耀𝟚,1,0,1,0,,「b站」王者荣耀2
+网络,「B站」第五人格,1,0,1,0,,「b站」第五人格
+网络,「B站」绝地求生,1,0,1,0,,「b站」绝地求生
+网络,「B站」英雄联盟,1,0,1,0,,「b站」英雄联盟
+网络,「B站」英雄联盟•手游,1,0,1,0,,「b站」英雄联盟•手游
+网络,「斗鱼」DOTA2,1,0,1,0,,「斗鱼」dota2
+网络,「斗鱼」FIFA,1,0,1,0,,「斗鱼」fifa
+网络,「斗鱼」JJ斗地主,1,0,1,0,,「斗鱼」jj斗地主
+网络,「斗鱼」QQ飞车•手游,1,0,1,0,,「斗鱼」qq飞车•手游
+网络,「斗鱼」云顶之弈,1,0,1,0,,「斗鱼」云顶之弈
+网络,「斗鱼」使命召唤•手游,1,0,1,0,,「斗鱼」使命召唤•手游
+网络,「斗鱼」原神,1,0,1,0,,「斗鱼」原神
+网络,「斗鱼」我的世界,1,0,1,0,,「斗鱼」我的世界
+网络,「斗鱼」无畏契约,1,0,1,0,,「斗鱼」无畏契约
+网络,「斗鱼」梦幻西游·手游,1,0,1,0,,「斗鱼」梦幻西游手游
+网络,「斗鱼」永劫无间,1,0,1,0,,「斗鱼」永劫无间
+网络,「斗鱼」火影忍者,1,0,1,0,,「斗鱼」火影忍者
+网络,「斗鱼」王者荣耀𝟙,1,0,1,0,,「斗鱼」王者荣耀1
+网络,「斗鱼」王者荣耀𝟚,1,0,1,0,,「斗鱼」王者荣耀2
+网络,「斗鱼」穿越火线𝟙,1,0,1,0,,「斗鱼」穿越火线1
+网络,「斗鱼」穿越火线𝟚,1,0,1,0,,「斗鱼」穿越火线2
+网络,「斗鱼」第五人格,1,0,1,0,,「斗鱼」第五人格
+网络,「斗鱼」绝地求生,1,0,1,0,,「斗鱼」绝地求生
+网络,「斗鱼」英雄联盟𝟙,1,0,1,0,,「斗鱼」英雄联盟1
+网络,「斗鱼」英雄联盟𝟚,1,0,1,0,,「斗鱼」英雄联盟2
+网络,「斗鱼」街霸,1,0,1,0,,「斗鱼」街霸
+网络,「斗鱼」跑跑卡丁车,1,0,1,0,,「斗鱼」跑跑卡丁车
+网络,「斗鱼」跑跑卡丁车•手游,1,0,1,0,,「斗鱼」跑跑卡丁车•手游
+网络,「斗鱼」金铲铲之战,1,0,1,0,,「斗鱼」金铲铲之战
+网络,「虎牙」CS2,1,0,1,0,,「虎牙」cs2
+网络,「虎牙」DOTA2,1,0,1,0,,「虎牙」dota2
+网络,「虎牙」使命召唤•手游,1,0,1,0,,「虎牙」使命召唤•手游
+网络,「虎牙」无畏契约,1,0,1,0,,「虎牙」无畏契约
+网络,「虎牙」永劫无间,1,0,1,0,,「虎牙」永劫无间
+网络,「虎牙」王者荣耀𝟙,1,0,1,0,,「虎牙」王者荣耀1
+网络,「虎牙」王者荣耀𝟚,1,0,1,0,,「虎牙」王者荣耀2
+网络,「虎牙」穿越火线,1,0,1,0,,「虎牙」穿越火线
+网络,「虎牙」穿越火线•手游,1,0,1,0,,「虎牙」穿越火线•手游
+网络,「虎牙」第五人格,1,0,1,0,,「虎牙」第五人格
+网络,「虎牙」绝地求生𝟙,1,0,1,0,,「虎牙」绝地求生1
+网络,「虎牙」绝地求生𝟚,1,0,1,0,,「虎牙」绝地求生2
+网络,「虎牙」英雄联盟𝟙,1,0,1,0,,「虎牙」英雄联盟1
+网络,「虎牙」英雄联盟𝟚,1,0,1,0,,「虎牙」英雄联盟2
+网络,「虎牙」逆战,1,0,1,0,,「虎牙」逆战
+网络,「虎牙」金铲铲之战,1,0,1,0,,「虎牙」金铲铲之战
+网络,七龙珠,3,0,3,0,,七龙珠
+网络,七龙珠「动漫」,1,0,1,0,,七龙珠「动漫」
+网络,七龙珠「解说」,1,0,1,0,,七龙珠「解说」
+网络,三国演义,3,0,3,0,,三国演义
+网络,与凤行,1,0,1,0,,与凤行
+网络,东北热剧,1,0,1,0,,东北热剧
+网络,东南卫视[1080][S],5,4,1,0,http://123.160.235.204:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=1&authid=0,东南卫视
+网络,东南卫视[576][S],3,3,0,0,http://36.136.38.87:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=1&authid=0,东南卫视
+网络,中华功夫,1,0,1,0,,中华功夫
+网络,中华小当家,3,0,3,0,,中华小当家
+网络,中华小当家「动漫」,1,0,1,0,,中华小当家「动漫」
+网络,中华特产,1,1,0,0,http://120.76.248.139/live/bfgd/4200000158.m3u8,中华特产
+网络,直播中国,1,0,1,0,,中国
+网络,中国交通,1,0,1,0,,中国交通
+网络,中国功夫,1,0,1,0,,中国功夫
+网络,中国蓝新闻,1,1,0,1,http://ali-m-l.cztv.com/channels/lantian/channel009/1080p.m3u8,中国蓝新闻
+网络,乌龙闯情关,1,0,1,0,,乌龙闯情关
+网络,乐游频道,1,0,1,0,,乐游
+网络,乐游,1,0,1,0,,乐游
+网络,互扇巴掌大赛「其他」,1,0,1,0,,互扇巴掌大赛「其他」
+网络,亮剑,1,0,1,0,,亮剑
+网络,人在囧途,1,1,0,0,https://vip.ffzy-play.com/20221018/1953_2d6ba500/index.m3u8,人在囧途
+网络,人在囧途之泰囧,1,1,0,0,https://vip.ffzy-play.com/20221018/1951_47e1adc8/index.m3u8,人在囧途之泰囧
+网络,人在囧途之港囧,1,1,0,0,https://vip.ffzy-play7.com/20230112/11082_fde1a94d/index.m3u8,人在囧途之港囧
+网络,仙剑奇侠传,2,0,2,0,,仙剑奇侠传
+网络,优优宝贝,1,0,1,0,,优优宝贝
+网络,伪装者,1,0,1,0,,伪装者
+网络,使徒行者,1,0,1,0,,使徒行者
+网络,信大,1,0,1,0,,信大
+网络,倚天屠龙记,2,0,2,0,,倚天屠龙记
+网络,倩女幽魂人间道,1,1,0,0,http://jsmov2.a.yximgs.com/bs3/video-hls/5250634317044855747_hlsb.m3u8,倩女幽魂人间道
+网络,倩女幽魂妖魔道,1,1,0,0,http://jsmov2.a.yximgs.com/bs3/video-hls/5232901391302199073_hlsb.m3u8,倩女幽魂妖魔道
+网络,倩女幽魂道道道,1,1,0,0,http://jsmov2.a.yximgs.com/bs3/video-hls/5216294367991385255_hlsb.m3u8,倩女幽魂道道道
+网络,免费订阅：请勿贩卖...,1,0,1,0,,免费订阅:请勿贩卖
+网络,八度空间,1,0,1,0,,八度空间
+网络,公告说明：IPV6暂无,1,0,1,0,,公告说明:ipv6暂无
+网络,军事评论,1,0,1,0,,军事评论
+网络,军旅剧场,1,0,1,0,,军旅剧场
+网络,农业致富,1,0,1,0,,农业致富
+网络,冰冰影剧,1,0,1,0,,冰冰影剧
+网络,刀刀影院,1,0,1,0,,刀刀影院
+网络,刑事侦缉档案,1,0,1,0,,刑事侦缉档案
+网络,刘德华电影,1,0,1,0,,刘德华电影
+网络,创世纪,1,0,1,0,,创世纪
+网络,功夫电影,1,0,1,0,,功夫电影
+网络,动作电影,1,0,1,0,,动作电影
+网络,动漫•1「解说」,1,0,1,0,,动漫•1「解说」
+网络,动画王国(1080p),1,0,1,0,,动画王国
+网络,千禧经典,1,0,1,0,,千禧经典
+网络,华语影视,1,0,1,0,,华语影视
+网络,南国都市,2,2,0,0,http://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=140110ae3d6c936a77f94c4f4d85b0d3&txTime=18d57929bd4,南国都市
+网络,古天乐电影,1,0,1,0,,古天乐电影
+网络,古装剧场,1,0,1,0,,古装剧场
+网络,古装武侠,1,0,1,0,,古装武侠
+网络,名侦探柯南,1,0,1,0,,名侦探柯南
+网络,周星驰电影,1,0,1,0,,周星驰电影
+网络,咪咕体育,1,1,0,1,http://gslbserv.itv.cmvideo.cn//index.m3u8?channel-id=FifastbLive&Contentid=3000000001000008001&livemode=1&stbId=YanG-1989,咪咕体育
+网络,咪咕视频4K,1,0,1,0,,咪咕视频4k
+网络,咪咕视频4K-2,1,0,1,0,,咪咕视频4k2
+网络,咪咕赛事4k-1,1,0,1,0,,咪咕赛事4k1
+网络,咪咕赛事4k-2,1,0,1,0,,咪咕赛事4k2
+网络,咪咕赛事播01,1,0,1,0,,咪咕赛事播01
+网络,咪咕赛事播02,1,0,1,0,,咪咕赛事播02
+网络,咪咕赛事播03,1,0,1,0,,咪咕赛事播03
+网络,咪咕赛事播04,1,0,1,0,,咪咕赛事播04
+网络,咪咕赛事播05,1,0,1,0,,咪咕赛事播05
+网络,咪咕赛事播06,1,0,1,0,,咪咕赛事播06
+网络,咪咕赛事播07,1,0,1,0,,咪咕赛事播07
+网络,咪咕赛事播08,1,0,1,0,,咪咕赛事播08
+网络,咪咕赛事播09,1,0,1,0,,咪咕赛事播09
+网络,咪咕赛事播10,1,0,1,0,,咪咕赛事播10
+网络,咪咕赛事播11,1,0,1,0,,咪咕赛事播11
+网络,咪咕赛事播12,1,0,1,0,,咪咕赛事播12
+网络,咪咕赛事播13,1,0,1,0,,咪咕赛事播13
+网络,咪咕赛事播14,1,0,1,0,,咪咕赛事播14
+网络,咪咕赛事播15,1,0,1,0,,咪咕赛事播15
+网络,咪咕赛事播16,1,0,1,0,,咪咕赛事播16
+网络,咪咕赛事播17,1,0,1,0,,咪咕赛事播17
+网络,咪咕赛事播18,1,0,1,0,,咪咕赛事播18
+网络,咪咕赛事播19,1,0,1,0,,咪咕赛事播19
+网络,咪咕赛事播20,1,0,1,0,,咪咕赛事播20
+网络,咪咕赛事播21,1,0,1,0,,咪咕赛事播21
+网络,咪咕赛事播22,1,0,1,0,,咪咕赛事播22
+网络,咪咕赛事播23,1,0,1,0,,咪咕赛事播23
+网络,咪咕赛事播24,1,0,1,0,,咪咕赛事播24
+网络,咪咕赛事播25,1,0,1,0,,咪咕赛事播25
+网络,咪咕赛事播26,1,0,1,0,,咪咕赛事播26
+网络,咪咕赛事播27,1,0,1,0,,咪咕赛事播27
+网络,咪咕赛事播28,1,0,1,0,,咪咕赛事播28
+网络,咪咕赛事播29,1,0,1,0,,咪咕赛事播29
+网络,咪咕赛事播30,1,0,1,0,,咪咕赛事播30
+网络,咪咕赛事播31,1,0,1,0,,咪咕赛事播31
+网络,咪咕赛事播32,1,0,1,0,,咪咕赛事播32
+网络,咪咕赛事播33,1,0,1,0,,咪咕赛事播33
+网络,咪咕赛事播34,1,0,1,0,,咪咕赛事播34
+网络,咪咕赛事播35,1,0,1,0,,咪咕赛事播35
+网络,咪咕赛事播36,1,0,1,0,,咪咕赛事播36
+网络,咪咕赛事播37,1,0,1,0,,咪咕赛事播37
+网络,咪咕赛事播38,1,0,1,0,,咪咕赛事播38
+网络,咪咕赛事播39,1,0,1,0,,咪咕赛事播39
+网络,咪咕赛事播40,1,0,1,0,,咪咕赛事播40
+网络,咪咕赛事播41,1,0,1,0,,咪咕赛事播41
+网络,咪咕赛事播42,1,0,1,0,,咪咕赛事播42
+网络,咪咕赛事播43,1,0,1,0,,咪咕赛事播43
+网络,咪咕赛事播44,1,0,1,0,,咪咕赛事播44
+网络,咪咕赛事播45,1,0,1,0,,咪咕赛事播45
+网络,咪咕赛事播46,1,0,1,0,,咪咕赛事播46
+网络,咪咕赛事播47,1,0,1,0,,咪咕赛事播47
+网络,咪咕赛事播48,1,0,1,0,,咪咕赛事播48
+网络,咪咕赛事播49,1,0,1,0,,咪咕赛事播49
+网络,咪咕赛事播50,1,0,1,0,,咪咕赛事播50
+网络,咪咕赛事播51,1,0,1,0,,咪咕赛事播51
+网络,咪咕赛事播52,1,0,1,0,,咪咕赛事播52
+网络,咪咕赛事播53,1,0,1,0,,咪咕赛事播53
+网络,哆啦A梦,1,0,1,0,,哆啦a梦
+网络,哆啦A梦「动漫」,1,0,1,0,,哆啦a梦「动漫」
+网络,哈哈炫动,5,0,5,0,,哈哈炫动
+网络,哒啵电竞,1,0,1,0,,哒啵电竞
+网络,唐诡之西行,1,0,1,0,,唐诡之西行
+网络,唯心電視(480p),1,1,0,0,https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8,唯心電視
+网络,喜羊羊与灰太狼,1,0,1,0,,喜羊羊与灰太狼
+网络,嘉佳卡通(576p),1,0,1,0,,嘉佳卡通
+网络,士兵突击,1,0,1,0,,士兵突击
+网络,大唐双龙传,1,0,1,0,,大唐双龙传
+网络,大时代,1,0,1,0,,大时代
+网络,大秦赋,1,0,1,0,,大秦赋
+网络,大立电视台,1,1,0,0,http://www.dalitv.com.tw:4568/live/dali/index.m3u8,大立
+网络,天映经典,3,0,3,0,,天映经典
+网络,天龙八部,5,0,5,0,,天龙八部
+网络,如懿传,1,0,1,0,,如懿传
+网络,妙手仁心,1,0,1,0,,妙手仁心
+网络,娱乐新闻,1,0,1,0,,娱乐新闻
+网络,宇宙科幻合集,1,0,1,0,,宇宙科幻合集
+网络,完美游戏(1080p)[Not24/7],1,0,1,0,,完美游戏
+网络,家庭剧场,1,0,1,0,,家庭剧场
+网络,家庭理财(576p),1,0,1,0,,家庭理财
+网络,寒战,1,1,0,0,https://vip.ffzy-play6.com/20221019/157_bf0740ee/index.m3u8,寒战
+网络,寻秦记,1,0,1,0,,寻秦记
+网络,封神榜,2,0,2,0,,封神榜
+网络,射雕英雄传,2,0,2,0,,射雕英雄传
+网络,少年包青天第一部,2,0,2,0,,少年包青天第一部
+网络,少年包青天第三部,1,0,1,0,,少年包青天第三部
+网络,少年包青天第二部,1,0,1,0,,少年包青天第二部
+网络,峨眉电影,1,0,1,0,,峨眉电影
+网络,庆余年,1,0,1,0,,庆余年
+网络,康熙微服私访记,1,0,1,0,,康熙微服私访记
+网络,康熙王朝,1,0,1,0,,康熙王朝
+网络,延禧攻略,1,0,1,0,,延禧攻略
+网络,弈坛春秋(576p),1,0,1,0,,弈坛春秋
+网络,强森电影,1,0,1,0,,强森电影
+网络,快乐垂钓,2,0,2,0,,快乐垂钓
+网络,怡伴健康,1,0,1,0,,怡伴健康
+网络,怪兽电影,1,0,1,0,,怪兽电影
+网络,恐怖电影「解说」,1,0,1,0,,恐怖电影「解说」
+网络,惊悚悬疑,1,0,1,0,,惊悚悬疑
+网络,成龙电影,1,0,1,0,,成龙电影
+网络,我不是药神,1,1,0,0,https://vip.ffzy-play1.com/20221018/478_c3afed66/index.m3u8,我不是药神
+网络,我是特种兵之利刃出鞘,1,0,1,0,,我是特种兵之利刃出鞘
+网络,战争电影,1,0,1,0,,战争电影
+网络,扫黄先锋,1,0,1,0,,扫黄先锋
+网络,拆弹专家1,1,0,1,0,,拆弹专家1
+网络,拆弹专家2,1,1,0,0,https://vip.ffzy-online.com/20221015/722_e32c42bc/index.m3u8,拆弹专家2
+网络,挨饿德•1「其他」,1,0,1,0,,挨饿德•1「其他」
+网络,挨饿德•2「其他」,1,0,1,0,,挨饿德•2「其他」
+网络,搜狐剧场,1,0,1,0,,搜狐剧场
+网络,收藏天下,1,0,1,0,,收藏天下
+网络,文化精品,3,0,3,0,,文化精品
+网络,文物宝库,1,0,1,0,,文物宝库
+网络,斗鱼港剧,1,0,1,0,,斗鱼港剧
+网络,新三国,1,0,1,0,,新三国
+网络,新三国（斗鱼）,1,0,1,0,,新三国
+网络,新动漫,2,0,2,0,,新动漫
+网络,新水浒传,1,0,1,0,,新水浒传
+网络,新白娘子传奇,2,0,2,0,,新白娘子传奇
+网络,新视觉,1,1,0,0,http://120.76.248.139/live/bfgd/4200000249.m3u8,新视觉
+网络,新闻综合,2,1,1,0,https://m3u8channel.yunxya.com/nmip-media/channellive/channel100028/playlist.m3u8,新闻综合
+网络,无心法师,1,0,1,0,,无心法师
+网络,日本新闻,1,0,1,0,,日本新闻
+网络,明星大片,1,0,1,0,,明星大片
+网络,星光影视,1,0,1,0,,星光影视
+网络,智慧教育(576p),1,0,1,0,,智慧教育
+网络,末日电影合集,1,0,1,0,,末日电影合集
+网络,李连杰电影,1,0,1,0,,李连杰电影
+网络,林正英电影,1,0,1,0,,林正英电影
+网络,枪战电影,1,0,1,0,,枪战电影
+网络,柳舟计,1,0,1,0,,柳舟计
+网络,梦中的那片海,1,0,1,0,,梦中的那片海
+网络,梨园频道,1,0,1,0,,梨园
+网络,楚汉骄雄,1,0,1,0,,楚汉骄雄
+网络,橙记港剧,1,0,1,0,,橙记港剧
+网络,欢乐剧场,1,0,1,0,,欢乐剧场
+网络,欢乐颂,1,0,1,0,,欢乐颂
+网络,止戈电影「解说」,1,0,1,0,,止戈电影「解说」
+网络,武侠电影,1,0,1,0,,武侠电影
+网络,武搏世界,1,0,1,0,,武搏世界
+网络,武术世界,1,0,1,0,,武术世界
+网络,水浒传,3,0,3,0,,水浒传
+网络,永夜星河,1,0,1,0,,永夜星河
+网络,求索动物,1,0,1,0,,求索动物
+网络,求索生活,1,0,1,0,,求索生活
+网络,求索科学,1,0,1,0,,求索科学
+网络,求索纪录,2,0,2,0,,求索纪录
+网络,沈腾电影,1,0,1,0,,沈腾电影
+网络,治愈•放松「音乐」,1,0,1,0,,治愈•放松「音乐」
+网络,法政先锋,1,0,1,0,,法政先锋
+网络,洗冤录,1,0,1,0,,洗冤录
+网络,活佛济公3,1,0,1,0,,活佛济公3
+网络,流水迢迢,1,0,1,0,,流水迢迢
+网络,海外剧场,1,0,1,0,,海外剧场
+网络,海绵宝宝,1,0,1,0,,海绵宝宝
+网络,淘剧场,2,0,2,0,,淘剧场
+网络,淘娱乐,2,0,2,0,,淘娱乐
+网络,淘电影,4,0,4,0,,淘电影
+网络,漫威「解说」,1,0,1,0,,漫威「解说」
+网络,漫威电影,1,0,1,0,,漫威电影
+网络,漫画解说,2,0,2,0,,漫画解说
+网络,潮妈辣婆,1,0,1,0,,潮妈辣婆
+网络,灌篮高手,1,0,1,0,,灌篮高手
+网络,炫动卡通(576p),1,0,1,0,,炫动卡通
+网络,炫舞未来,1,0,1,0,,炫舞未来
+网络,热门港剧,1,0,1,0,,热门港剧
+网络,熊猫直播,1,1,0,0,https://gcwbndali.v.myalicdn.com/gcwbnd/ipanda1000_2/index.m3u8,熊猫
+网络,爱上4K,1,0,1,0,,爱上4k
+网络,爱体育,6,0,6,0,,爱体育
+网络,爱动漫,4,0,4,0,,爱动漫
+网络,爱历史,1,0,1,0,,爱历史
+网络,爱喜剧,1,0,1,0,,爱喜剧
+网络,爱奇谈,1,0,1,0,,爱奇谈
+网络,爱幼教,1,0,1,0,,爱幼教
+网络,爱悬疑,1,0,1,0,,爱悬疑
+网络,爱情公寓,1,0,1,0,,爱情公寓
+网络,爱情公寓（斗鱼）,1,0,1,0,,爱情公寓
+网络,爱情喜剧,1,0,1,0,,爱情喜剧
+网络,爱旅行,1,0,1,0,,爱旅行
+网络,爱浪漫,1,0,1,0,,爱浪漫
+网络,爱玩具,1,0,1,0,,爱玩具
+网络,爱科学,1,0,1,0,,爱科学
+网络,爱科幻,1,0,1,0,,爱科幻
+网络,爱谍战,1,0,1,0,,爱谍战
+网络,爱赛车,1,0,1,0,,爱赛车
+网络,爱院线,1,0,1,0,,爱院线
+网络,父母爱情,1,0,1,0,,父母爱情
+网络,狂飙,1,0,1,0,,狂飙
+网络,狄仁杰电影,1,0,1,0,,狄仁杰电影
+网络,猫和老鼠,4,0,4,0,,猫和老鼠
+网络,猫和老鼠「动漫」,1,0,1,0,,猫和老鼠「动漫」
+网络,玄幻电影,1,0,1,0,,玄幻电影
+网络,王晶电影,1,0,1,0,,王晶电影
+网络,玫瑰的故事,1,0,1,0,,玫瑰的故事
+网络,环球旅游,1,1,0,0,http://120.76.248.139/live/bfgd/4200000147.m3u8,环球旅游
+网络,环球电视,1,1,0,0,http://utv1.hqtvzb.com:9999/hls/world.m3u8,环球电视
+网络,珠江卫视,1,0,1,0,,珠江卫视
+网络,甄子丹电影,1,0,1,0,,甄子丹电影
+网络,生态环境,1,0,1,0,,生态环境
+网络,生活(576p),1,0,1,0,,生活
+网络,生活时尚,6,0,6,0,,生活时尚
+网络,高清电影(1080p),1,0,1,0,,电影
+网络,电影•1「解说」,1,0,1,0,,电影•1「解说」
+网络,电影•2「解说」,1,0,1,0,,电影•2「解说」
+网络,电影•3「解说」,1,0,1,0,,电影•3「解说」
+网络,电影丧尸片,1,0,1,0,,电影丧尸片
+网络,电影八点档,1,0,1,0,,电影八点档
+网络,电影刘德华,1,0,1,0,,电影刘德华
+网络,电影功夫片,1,0,1,0,,电影功夫片
+网络,电影动作电影,1,0,1,0,,电影动作电影
+网络,电影周星星,1,0,1,0,,电影周星星
+网络,电影喜剧专场,1,0,1,0,,电影喜剧专场
+网络,电影嫣然影厅,1,0,1,0,,电影嫣然影厅
+网络,电影战争片,1,0,1,0,,电影战争片
+网络,电影搞笑喜剧,1,0,1,0,,电影搞笑喜剧
+网络,电影梁家辉,1,0,1,0,,电影梁家辉
+网络,电影犯罪片,1,0,1,0,,电影犯罪片
+网络,电影蜘蛛侠,1,0,1,0,,电影蜘蛛侠
+网络,电影谍战,1,0,1,0,,电影谍战
+网络,电影谍战片,1,0,1,0,,电影谍战片
+网络,电影贺岁,1,0,1,0,,电影贺岁
+网络,电影高分动作,1,0,1,0,,电影高分动作
+网络,番薯台,1,0,1,0,,番薯台
+网络,百事通体育1(1080p)[Not24/7],1,0,1,0,,百事通体育1
+网络,百事通体育2(1080p)[Not24/7],1,0,1,0,,百事通体育2
+网络,百事通体育3(1080p)[Not24/7],1,0,1,0,,百事通体育3
+网络,百事通体育5(1080p),1,0,1,0,,百事通体育5
+网络,百事通体育7(1080p)[Not24/7],1,0,1,0,,百事通体育7
+网络,睛彩广场,1,0,1,0,,睛彩广场
+网络,睛彩广场舞,6,1,5,1,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011523&livemode=1&stbId=YanG-1989,睛彩广场舞
+网络,睛彩竞技,1,0,1,0,,睛彩竞技
+网络,睛彩篮球,2,0,2,0,,睛彩篮球
+网络,知否知否,1,0,1,0,,知否知否
+网络,神探狄仁杰第一部,1,0,1,0,,神探狄仁杰第一部
+网络,神探狄仁杰第三部,1,0,1,0,,神探狄仁杰第三部
+网络,神探狄仁杰第二部,1,0,1,0,,神探狄仁杰第二部
+网络,神雕侠侣,2,0,2,0,,神雕侠侣
+网络,积石山电视台(1080p),1,0,1,0,,积石山
+网络,笑傲江湖,2,0,2,0,,笑傲江湖
+网络,笑看风云,1,0,1,0,,笑看风云
+网络,第一财经,2,1,1,0,http://satellitepull.cnr.cn/live/wx32dycjgb/playlist.m3u8,第一财经
+网络,篮球资讯(576p),1,0,1,0,,篮球资讯
+网络,精品体育,4,3,1,0,https://epg.pw/stream/866a097a0907c9832440f8df38272dd555abf05200dfbafcc137e214c9b30ca7.m3u8,精品体育
+网络,精品大剧,1,0,1,0,,精品大剧
+网络,精品电影(1080p),1,0,1,0,,精品电影
+网络,精品萌宠,1,0,1,0,,精品萌宠
+网络,精品记录,1,0,1,0,,精品记录
+网络,精彩影视,1,0,1,0,,精彩影视
+网络,纪实人文,2,0,2,0,,纪实人文
+网络,纪实科教,1,1,0,0,http://120.76.248.139/live/bfgd/4200000113.m3u8,纪实科教
+网络,纯享4K(2160p),1,0,1,0,,纯享4k
+网络,经典剧集,1,0,1,0,,经典剧集
+网络,经典电影,2,0,2,0,,经典电影
+网络,继续教育(576p),1,0,1,0,,继续教育
+网络,罪犯电影,1,0,1,0,,罪犯电影
+网络,置业(576p),1,0,1,0,,置业
+网络,美剧「解说」,1,0,1,0,,美剧「解说」
+网络,耀才财经,1,0,1,0,,耀才财经
+网络,耀才财经(288p),1,0,1,0,,耀才财经
+网络,航海王「动漫」,1,0,1,0,,航海王「动漫」
+网络,芈月传,1,0,1,0,,芈月传
+网络,茶频道,1,0,1,0,,茶
+网络,茶啊二中「动画」,1,0,1,0,,茶啊二中「动画」
+网络,荒野求生「其他」,1,0,1,0,,荒野求生「其他」
+网络,莒縣圖文頻道(720p),1,0,1,0,,莒縣圖文頻道
+网络,莒縣電視一套(576p),1,0,1,0,,莒縣電視一套
+网络,莒縣電視二套(576p)[Not24/7],1,0,1,0,,莒縣電視二套
+网络,萌宠TV,1,0,1,0,,萌宠tv
+网络,萍鄉公共頻道(1080p)[Not24/7],1,0,1,0,,萍鄉公共頻道
+网络,萍鄉教育頻道(480p),1,0,1,0,,萍鄉教育頻道
+网络,萬州三峽移民(576p),1,0,1,0,,萬州三峽移民
+网络,萬州影視文藝(576p),1,0,1,0,,萬州影視文藝
+网络,萬州影視文藝(576p)[Not24/7],1,0,1,0,,萬州影視文藝
+网络,萬州科教頻道(576p),2,0,2,0,,萬州科教頻道
+网络,萬州綜合頻道(576p),2,0,2,0,,萬州綜合頻道
+网络,蕭山生活頻道(720p)[Not24/7],1,1,0,0,https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8,蕭山生活頻道
+网络,蜡笔小新,2,0,2,0,,蜡笔小新
+网络,西游记,4,0,4,0,,西游记
+网络,西游记2,1,0,1,0,,西游记2
+网络,西游记后传,1,0,1,0,,西游记后传
+网络,西游记续集,1,0,1,0,,西游记续集
+网络,让子弹飞,1,1,0,0,https://vip.ffzy-play7.com/20230116/11563_b9f44814/index.m3u8,让子弹飞
+网络,谈判专家,1,0,1,0,,谈判专家
+网络,谍战电影,1,0,1,0,,谍战电影
+网络,豆瓣电影,1,0,1,0,,豆瓣电影
+网络,贝爷求生,1,0,1,0,,贝爷求生
+网络,贺岁电影,1,0,1,0,,贺岁电影
+网络,赛事睛彩竞技,2,0,2,0,,赛事睛彩竞技
+网络,赛事睛彩篮球,2,0,2,0,,赛事睛彩篮球
+网络,超级体育,2,0,2,0,,超级体育
+网络,超级电影,1,0,1,0,,超级电影
+网络,超级综艺,1,0,1,0,,超级综艺
+网络,足球频道,2,1,1,0,https://epg.pw/stream/c7df950876e6a1ceb8be74ee86f9f702cebbbae29f1d15124ef8f86fd43161cf.m3u8,足球
+网络,跳舞「其他」,1,0,1,0,,跳舞「其他」
+网络,车迷频道,1,0,1,0,,车迷
+网络,邵氏影院,1,0,1,0,,邵氏影院
+网络,郏县综合,1,0,1,0,,郏县综合
+网络,野蛮亲家,1,0,1,0,,野蛮亲家
+网络,野行者「其他」,1,0,1,0,,野行者「其他」
+网络,金庸武侠,1,0,1,0,,金庸武侠
+网络,金枝欲孽,1,0,1,0,,金枝欲孽
+网络,金牌综艺,1,0,1,0,,金牌综艺
+网络,金鹰卡通,7,0,7,0,,金鹰卡通
+网络,金鹰卡通(576p)[Geo-blocked],1,0,1,0,,金鹰卡通
+网络,金鹰卡通[576][S],4,3,1,0,http://124.228.160.3:9901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0,金鹰卡通
+网络,金鹰纪实,6,0,6,0,,金鹰纪实
+网络,鉴证实录,1,0,1,0,,鉴证实录
+网络,铁齿铜牙纪晓岚,1,0,1,0,,铁齿铜牙纪晓岚
+网络,长影频道,1,1,0,0,http://tpc.x3322.net:9901/tsfile/live/1010_1.m3u8,长影
+网络,长白朝语,1,1,0,0,http://hplayer1.juyun.tv:80/camera/11344136.m3u8,长白朝语
+网络,闯关东,1,0,1,0,,闯关东
+网络,阅读•学习「音乐」,1,0,1,0,,阅读•学习「音乐」
+网络,陀枪师姐,1,0,1,0,,陀枪师姐
+网络,陈情令,1,0,1,0,,陈情令
+网络,隋唐英雄传,1,0,1,0,,隋唐英雄传
+网络,隨州綜合(720p)[Not24/7],1,0,1,0,,隨州綜合
+网络,隨州農村(720p)[Not24/7],1,0,1,0,,隨州農村
+网络,雪豹,1,0,1,0,,雪豹
+网络,韩国EBS少儿,1,1,0,0,http://ebsonairios.ebs.co.kr/ebsutablet500k/tablet500k/playlist.m3u8,韩国ebs少儿
+网络,韩国电影1,1,1,0,0,https://stream.ads.ottera.tv/playlist.m3u8?network_id=595,韩国电影1
+网络,音乐广播,5,0,5,0,,音乐广播
+网络,音乐欣赏,1,0,1,0,,音乐欣赏
+网络,音乐现场,1,1,0,0,https://satellitepull.cnr.cn/live/wx32nmgyygb/playlist.m3u8,音乐现场
+网络,音乐石榴「音乐」,1,0,1,0,,音乐石榴「音乐」
+网络,音乐速递「音乐」,1,0,1,0,,音乐速递「音乐」
+网络,餘姚姚江文化(576p)[Not24/7],1,1,0,0,https://l.cztvcloud.com/channels/lantian/SXyuyao2/720p.m3u8,餘姚姚江文化
+网络,鬼吹灯之龙岭迷窟,1,0,1,0,,鬼吹灯之龙岭迷窟
+网络,魅力潇湘,1,0,1,0,,魅力潇湘
+网络,鹿鼎记,2,0,2,0,,鹿鼎记
+网络,黄河卫视,1,0,1,1,,黄河卫视
+网络,黄渤电影,1,0,1,0,,黄渤电影
+网络,黑莓电影,1,1,0,0,https://epg.pw/stream/ffcb6572863f0745a7369fbd9d901f1dfd0ab8fab8bad8bebb4e01c90b303c47.m3u8,黑莓电影
+网络,黑龙卫视(1080p),3,0,3,0,,黑龙卫视
+网络,黑龙卫视(720p),1,0,1,0,,黑龙卫视
+网络,龙祥电影,2,0,2,0,,龙祥电影

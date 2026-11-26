@@ -5,59 +5,55 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>iptv-live 直播源管理台</title>
 <style>
-  :root{
-    --bg:#0e1117; --panel:#171b24; --panel2:#1e2430; --line:#2a3140;
-    --text:#e6e9ef; --muted:#9aa3b2; --accent:#4f8cff; --ok:#3fb950;
-    --bad:#f85149; --warn:#d29922; --chip:#26304a;
-  }
-  *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
-  header{padding:18px 24px;border-bottom:1px solid var(--line);background:var(--panel);position:sticky;top:0;z-index:20}
-  h1{margin:0 0 6px;font-size:20px}
-  .sub{color:var(--muted);font-size:12px}
-  .stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
-  .stat{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:8px 12px}
-  .stat b{font-size:18px;display:block}
-  .stat span{color:var(--muted);font-size:11px}
-  nav{display:flex;gap:6px;flex-wrap:wrap;padding:12px 24px;border-bottom:1px solid var(--line)}
-  button.tab{background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:6px;padding:7px 14px;cursor:pointer}
-  button.tab.active{background:var(--accent);border-color:var(--accent);color:#fff}
-  main{display:grid;grid-template-columns:220px 1fr;min-height:calc(100vh - 200px)}
-  aside{border-right:1px solid var(--line);padding:12px;background:var(--panel);overflow:auto;max-height:calc(100vh - 200px)}
-  aside h3{font-size:12px;color:var(--muted);margin:8px 4px}
-  .glist{list-style:none;margin:0;padding:0}
-  .glist li{padding:7px 10px;border-radius:6px;cursor:pointer;display:flex;justify-content:space-between}
-  .glist li:hover{background:var(--panel2)}
-  .glist li.active{background:var(--chip)}
-  .gcount{color:var(--muted);font-size:11px}
-  section{padding:16px 24px;overflow:auto}
-  .toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
-  input,select{background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:6px;padding:7px 10px}
-  input{flex:1;min-width:180px}
-  button{background:var(--accent);color:#fff;border:none;border-radius:6px;padding:8px 14px;cursor:pointer}
-  button.ghost{background:var(--panel2);color:var(--text);border:1px solid var(--line)}
-  table{border-collapse:collapse;width:100%;font-size:13px}
-  th,td{border-bottom:1px solid var(--line);padding:7px 9px;text-align:left;vertical-align:top}
-  th{position:sticky;top:0;background:var(--panel);color:var(--muted);font-size:11px;z-index:2}
-  tr[draggable=true]{cursor:grab}
-  tr.drag-over{outline:2px dashed var(--accent)}
-  .ch{font-weight:600}
-  .src{color:var(--muted);font-size:11px;word-break:break-all;max-width:280px}
-  .url{color:#8ab4f8;font-size:11px;word-break:break-all;max-width:360px}
-  .pill{display:inline-block;border-radius:10px;padding:1px 8px;font-size:11px}
-  .alive{background:rgba(63,185,80,.16);color:var(--ok)}
-  .dead{background:rgba(248,81,73,.16);color:var(--bad)}
-  .official{background:rgba(210,153,34,.2);color:#f0c674}
-  .view{display:none}
-  .view.active{display:block}
-  .card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px;margin-bottom:12px}
-  .bar{height:9px;background:var(--line);border-radius:5px;overflow:hidden;margin-top:5px}
-  .bar i{display:block;height:100%;background:var(--accent)}
-  .bar i.ok{background:var(--ok)}
-  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px}
-  .note{color:var(--warn);font-size:12px}
-  .toast{position:fixed;bottom:20px;right:20px;background:var(--accent);color:#fff;padding:10px 16px;border-radius:8px;display:none;z-index:50}
-  @media(max-width:800px){main{grid-template-columns:1fr}aside{max-height:200px}}
+:root{
+  --bg:#0d1117;--panel:#161b22;--panel2:#1c2330;--line:#30363d;
+  --text:#e6edf3;--muted:#8b949e;--accent:#2f81f7;--ok:#3fb950;
+  --bad:#f85149;--warn:#d29922;--chip:#1f6feb33;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:13px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+header{padding:16px 22px;border-bottom:1px solid var(--line);background:var(--panel);position:sticky;top:0;z-index:20}
+h1{margin:0;font-size:19px}
+.sub{color:var(--muted);font-size:12px;margin-top:4px}
+.stats{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.stat{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:7px 12px;min-width:76px}
+.stat b{font-size:17px;display:block}.stat span{color:var(--muted);font-size:11px}
+nav{display:flex;gap:6px;flex-wrap:wrap;padding:10px 22px;border-bottom:1px solid var(--line);background:var(--panel)}
+button.tab{background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:6px;padding:7px 13px;cursor:pointer;font-size:12px}
+button.tab.active{background:var(--accent);border-color:var(--accent);color:#fff}
+main{padding:16px 22px}
+.view{display:none}.view.active{display:block}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px;margin-bottom:12px}
+.card h3{margin:0 0 8px;font-size:14px}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
+input,select{background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:6px;padding:7px 10px}
+input{flex:1;min-width:180px}
+button{background:var(--accent);color:#fff;border:none;border-radius:6px;padding:8px 13px;cursor:pointer}
+button.ghost{background:var(--panel2);color:var(--text);border:1px solid var(--line)}
+table{border-collapse:collapse;width:100%;font-size:12px}
+th,td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+th{position:sticky;top:0;background:var(--panel);color:var(--muted);font-size:11px;z-index:2}
+tr[draggable=true]{cursor:grab}tr.drag-over{outline:2px dashed var(--accent)}
+.ch{font-weight:600}.src{color:var(--muted);font-size:11px;word-break:break-all;max-width:240px}
+.url{color:#79c0ff;font-size:11px;word-break:break-all;max-width:340px}
+.pill{display:inline-block;border-radius:10px;padding:1px 7px;font-size:10px;white-space:nowrap}
+.alive{background:#3fb95022;color:var(--ok)}.dead{background:#f8514922;color:var(--bad)}
+.official{background:#d2992233;color:#e3b341}.unknown{background:#8b949e22;color:var(--muted)}
+.bar{height:8px;background:var(--line);border-radius:4px;overflow:hidden;margin-top:5px}
+.bar i{display:block;height:100%;background:var(--accent)}.bar i.ok{background:var(--ok)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:10px}
+.addr{display:flex;gap:8px;align-items:center;flex-wrap:wrap;background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:11px;margin-bottom:8px}
+.addr code{background:#0d1117;border:1px solid var(--line);border-radius:5px;padding:5px 8px;word-break:break-all;flex:1;font-size:11px;color:#a5d6ff}
+.badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:10px;background:var(--chip);color:#79c0ff}
+.note{color:var(--warn);font-size:11px}
+.toast{position:fixed;bottom:20px;right:20px;background:var(--accent);color:#fff;padding:10px 16px;border-radius:8px;display:none;z-index:50}
+.layout{display:grid;grid-template-columns:210px 1fr;gap:16px}
+aside{border-right:1px solid var(--line);padding-right:12px;max-height:calc(100vh - 240px);overflow:auto;position:sticky;top:200px}
+aside h3{font-size:12px;color:var(--muted);margin:6px 0}
+.glist{list-style:none;margin:0;padding:0}.glist li{padding:6px 9px;border-radius:6px;cursor:pointer;display:flex;justify-content:space-between}
+.glist li:hover{background:var(--panel2)}.glist li.active{background:var(--chip)}.gcount{color:var(--muted);font-size:11px}
+@media(max-width:900px){.layout{grid-template-columns:1fr}aside{position:static;max-height:180px}}
 </style>
 </head>
 <body>
@@ -67,51 +63,92 @@
   <div class="stats" id="stats"></div>
 </header>
 <nav>
-  <button class="tab active" data-v="list">直播源清单</button>
-  <button class="tab" data-v="source">来源关系</button>
-  <button class="tab" data-v="group">归类关系</button>
+  <button class="tab active" data-v="addr">公网订阅地址</button>
+  <button class="tab" data-v="subs">订阅地址清单</button>
+  <button class="tab" data-v="list">直播源清单</button>
+  <button class="tab" data-v="rel">来源关系</button>
+  <button class="tab" data-v="group">归类与分组</button>
   <button class="tab" data-v="health">检活结果</button>
 </nav>
 <main>
-  <aside>
-    <h3>分组（点击查看）</h3>
-    <ul class="glist" id="groups"></ul>
-  </aside>
-  <section>
-    <div class="toolbar" id="toolbar">
-      <input id="q" placeholder="搜索频道名 / 来源 / URL">
-      <select id="statusFilter">
-        <option value="all">全部状态</option><option value="alive">仅存活</option><option value="dead">仅失效</option>
-      </select>
-      <button class="ghost" id="exportBtn">导出归类 JSON</button>
-      <span class="note" id="dragHint">提示：拖动频道行到左侧分组可调整归类</span>
+  <div class="view active" id="v-addr">
+    <div class="card">
+      <h3>公网 M3U 订阅地址（直接复制到播放器 / SparkTV 设置页）</h3>
+      <div class="addr"><span class="badge">主订阅·推荐</span><code id="a-primary"></code><button class="ghost" onclick="copy('a-primary')">复制</button></div>
+      <div class="addr"><span class="badge">主订阅·Pages</span><code id="a-pages"></code><button class="ghost" onclick="copy('a-pages')">复制</button></div>
+      <div class="addr"><span class="badge">全量备用</span><code id="a-all"></code><button class="ghost" onclick="copy('a-all')">复制</button></div>
+      <div class="addr"><span class="badge">EPG</span><code id="a-epg"></code><button class="ghost" onclick="copy('a-epg')">复制</button></div>
+      <div class="note">主订阅仅含严格检活存活线路（每频道≤5条）；全量版含失效线路供排查。国内网络若 raw 地址不可达，用 Pages 地址或加公共加速前缀。</div>
     </div>
+  </div>
 
-    <div class="view active" id="v-list"><table id="tbl"><thead><tr>
-      <th>频道</th><th>来源</th><th>状态</th><th>延迟</th><th>URL</th>
-    </tr></thead><tbody></tbody></table></div>
+  <div class="view" id="v-subs">
+    <div class="card">
+      <h3>订阅地址清单（config/sources.yaml 全部源）</h3>
+      <div class="sub">含原有 16 个源 + SparkTV 默认订阅地址清单 11 个地址 + channels.json 内置库，共 <span id="subCount"></span> 个。</div>
+      <table><thead><tr><th>源名称</th><th>地址</th><th>状态</th><th>条目数</th></tr></thead><tbody id="subBody"></tbody></table>
+    </div>
+  </div>
 
-    <div class="view" id="v-source"><div class="grid" id="sourceGrid"></div></div>
-    <div class="view" id="v-group"><div class="grid" id="groupGrid"></div></div>
-    <div class="view" id="v-health"><div id="healthBox"></div></div>
-  </section>
+  <div class="view" id="v-list">
+    <div class="layout">
+      <aside>
+        <h3>分组（点击筛选 / 拖入归类）</h3>
+        <ul class="glist" id="groups"></ul>
+      </aside>
+      <div>
+        <div class="toolbar">
+          <input id="q" placeholder="搜索频道 / 来源 / URL">
+          <select id="statusFilter"><option value="all">全部状态</option><option value="alive">仅存活</option><option value="dead">仅失效</option></select>
+          <button class="ghost" id="exportBtn">导出归类 JSON</button>
+          <span class="note">拖动频道行到左侧分组可调整归类</span>
+        </div>
+        <table id="tbl"><thead><tr><th>频道</th><th>来源</th><th>状态</th><th>延迟</th><th>URL</th></tr></thead><tbody></tbody></table>
+      </div>
+    </div>
+  </div>
+
+  <div class="view" id="v-rel">
+    <div class="card">
+      <h3>直播源与订阅地址来源关系</h3>
+      <div class="sub">每条线路可来自多个订阅源；下方按源统计其贡献的线路数。点击源可筛选直播源清单。</div>
+      <div class="grid" id="relGrid"></div>
+    </div>
+    <div class="card">
+      <h3>多源交叉验证线路（≥2 个源提供）</h3>
+      <table><thead><tr><th>频道</th><th>来源数</th><th>来源</th></tr></thead><tbody id="crossBody"></tbody></table>
+    </div>
+  </div>
+
+  <div class="view" id="v-group">
+    <div class="card">
+      <h3>各直播源归类频道及分组关系</h3>
+      <div class="sub">38 个分组：央视（CCTV1-17）、央视系列、卫视、34 省级行政区（港澳台单列）、网络。</div>
+      <div class="grid" id="groupGrid"></div>
+    </div>
+  </div>
+
+  <div class="view" id="v-health">
+    <div class="card"><h3>总体检活</h3><div id="healthTop"></div></div>
+    <div class="card"><h3>按分组存活率</h3><table><thead><tr><th>分组</th><th>存活率</th><th>频道</th></tr></thead><tbody id="healthBody"></tbody></table></div>
+    <div class="card"><h3>按来源存活率</h3><table><thead><tr><th>来源</th><th>存活率</th><th>线路</th></tr></thead><tbody id="healthSrc"></tbody></table></div>
+  </div>
 </main>
 <div class="toast" id="toast"></div>
 <script>
-let DATA={groups:[]}, CUR='', q='', sf='all';
+let DATA={groups:[],subscriptions:[],addresses:{},meta:{}},CUR='',q='',sf='all',SRCFILTER='';
 
 function toast(m){const t=document.getElementById('toast');t.textContent=m;t.style.display='block';setTimeout(()=>t.style.display='none',1800)}
-function flatten(){const out=[];DATA.groups.forEach(g=>g.channels.forEach(c=>({g:g.name,c})));return out}
+function copy(id){const v=document.getElementById(id).textContent;navigator.clipboard.writeText(v).then(()=>toast('已复制'))}
+function flatten(){const o=[];DATA.groups.forEach(g=>g.channels.forEach((c,i)=>o.push({g:g.name,c,i})));return o}
 
 function init(){
-  fetch('data.json?t='+Date.now()).then(r=>r.json()).then(d=>{DATA=d;renderMeta();renderGroups();renderAll()})
-    .catch(e=>{document.getElementById('meta').textContent='数据加载失败：'+e});
-
+  fetch('data.json?t='+Date.now()).then(r=>r.json()).then(d=>{DATA=d;renderAll()})
+    .catch(e=>document.getElementById('meta').textContent='数据加载失败：'+e);
   document.querySelectorAll('button.tab').forEach(b=>b.onclick=()=>{
     document.querySelectorAll('button.tab').forEach(x=>x.classList.remove('active'));
     document.querySelectorAll('.view').forEach(x=>x.classList.remove('active'));
     b.classList.add('active');document.getElementById('v-'+b.dataset.v).classList.add('active');
-    document.getElementById('toolbar').style.display = b.dataset.v==='list'?'flex':'none';
   });
   document.getElementById('q').oninput=e=>{q=e.target.value.toLowerCase();renderList()};
   document.getElementById('statusFilter').onchange=e=>{sf=e.target.value;renderList()};
@@ -120,25 +157,41 @@ function init(){
 
 function renderMeta(){
   const s=DATA.meta||{};
-  document.getElementById('meta').textContent=`数据更新 ${DATA.updated||''} ・ 频道 ${s.channels||0} ・ 线路 ${s.streams||0} ・ 存活 ${s.alive_streams||0}`;
-  const items=[['频道',s.channels||0],['线路',s.streams||0],['存活',s.alive_streams||0],
-    ['失效',(s.streams||0)-(s.alive_streams||0)],['分组',DATA.groups.length],['官方源',s.official_streams||0]];
+  document.getElementById('meta').textContent=`更新 ${DATA.updated||''} ・ 源 ${s.source_count||0} ・ 频道 ${s.channels||0} ・ 线路 ${s.streams||0} ・ 存活 ${s.alive_streams||0} ・ 官方 ${s.official_streams||0}`;
+  const items=[['订阅源',s.source_count||0],['频道',s.channels||0],['线路',s.streams||0],['存活',s.alive_streams||0],['失效',(s.streams||0)-(s.alive_streams||0)],['官方源',s.official_streams||0],['分组',DATA.groups.length]];
   document.getElementById('stats').innerHTML=items.map(x=>`<div class="stat"><b>${x[1]}</b><span>${x[0]}</span></div>`).join('');
+}
+
+function renderAddr(){
+  const a=DATA.addresses||{};
+  document.getElementById('a-primary').textContent=a.primary||'';
+  document.getElementById('a-pages').textContent=a.pages||'';
+  document.getElementById('a-all').textContent=a.all||'';
+  document.getElementById('a-epg').textContent=a.epg||'';
+}
+
+function renderSubs(){
+  const list=DATA.subscriptions||[];
+  document.getElementById('subCount').textContent=list.length;
+  document.getElementById('subBody').innerHTML=list.map(s=>{
+    const cls=(s.status||'').startsWith('ok')?'alive':'dead';
+    return `<tr><td>${s.name}</td><td class="url">${s.url||'内置/动态源'}</td><td><span class="pill ${cls}">${s.status||'-'}</span></td><td>${s.items||0}</td></tr>`;
+  }).join('');
 }
 
 function renderGroups(){
   const ul=document.getElementById('groups');
-  ul.innerHTML=DATA.groups.map(g=>`<li data-g="${g.name}" class="${g.name===CUR?'active':''}" ondrop="dropChannel(event,'${g.name}')" ondragover="event.preventDefault()">
-    <span>${g.name}</span><span class="gcount">${g.channels.length}</span></li>`).join('');
-  ul.querySelectorAll('li').forEach(li=>li.onclick=()=>{CUR=li.dataset.g;renderGroups();renderList()});
+  ul.innerHTML=DATA.groups.map(g=>`<li data-g="${g.name}" class="${g.name===CUR?'active':''}" ondrop="dropChannel(event,'${g.name}')" ondragover="event.preventDefault()"><span>${g.name}</span><span class="gcount">${g.channels.length}</span></li>`).join('');
+  ul.querySelectorAll('li').forEach(li=>li.onclick=()=>{CUR=CUR===li.dataset.g?'':li.dataset.g;renderGroups();renderList()});
 }
 
 function visibleStreams(g,c){
-  return c.streams.map((s,i)=>({...s,_g:g,_c:c,_i:i})).filter(s=>{
+  return c.streams.map((s,i)=>({...s,_i:i})).filter(s=>{
     if(sf==='alive'&&s.status!=='alive')return false;
     if(sf==='dead'&&s.status==='dead')return false;
-    const t=(q||'');if(!t)return true;
-    return (c.name+c.id+s.src+s.url).toLowerCase().includes(t);
+    if(SRCFILTER&&!(s.sources||[]).includes(SRCFILTER)&&s.src!==SRCFILTER)return false;
+    if(!q)return true;
+    return (c.name+c.id+(s.sources||[]).join('')+s.url).toLowerCase().includes(q);
   });
 }
 
@@ -148,79 +201,85 @@ function renderList(){
     if(CUR&&g.name!==CUR)return;
     g.channels.forEach((c,ci)=>{
       visibleStreams(g,c).forEach(s=>{
-        const badge=s.official?'<span class="pill official">官方</span>':
-          `<span class="pill ${s.status==='alive'?'alive':'dead'}">${s.status==='alive'?'存活':'失效'}</span>`;
-        rows.push(`<tr draggable="true" data-g="${g.name}" data-i="${ci}">
-          <td class="ch">${c.name}</td><td class="src">${s.src||'-'}</td><td>${badge}</td>
-          <td>${typeof s.ms==='number'?s.ms+'ms':'-'}</td><td class="url">${s.url}</td></tr>`);
+        const pill=s.official?'<span class="pill official">官方</span>':
+          `<span class="pill ${s.status}">${s.status==='alive'?'存活':s.status==='dead'?'失效':'未检'}</span>`;
+        const src=(s.sources||[]).join(' / ')||s.src||'-';
+        rows.push(`<tr draggable="true" data-g="${g.name}" data-i="${ci}"><td class="ch">${c.name}</td><td class="src">${src}</td><td>${pill}</td><td>${typeof s.ms==='number'&&s.ms<9000?s.ms+'ms':'-'}</td><td class="url">${s.url}</td></tr>`);
       });
     });
   });
   const tb=document.querySelector('#tbl tbody');tb.innerHTML=rows.join('');
-  tb.querySelectorAll('tr[draggable]').forEach(tr=>{
-    tr.ondragstart=e=>{e.dataTransfer.setData('text/plain',tr.dataset.g+'|'+tr.dataset.i)};
-  });
+  tb.querySelectorAll('tr[draggable]').forEach(tr=>tr.ondragstart=e=>e.dataTransfer.setData('text/plain',tr.dataset.g+'|'+tr.dataset.i));
 }
 
 function dropChannel(e,target){
   e.preventDefault();
   const raw=e.dataTransfer.getData('text/plain');if(!raw)return;
-  const [from,idxStr]=raw.split('|');const ci=parseInt(idxStr,10);
+  const [from,iStr]=raw.split('|');const ci=parseInt(iStr,10);
   if(from===target||Number.isNaN(ci))return;
   const src=DATA.groups.find(g=>g.name===from);
   if(!src||!src.channels[ci])return;
   const [ch]=src.channels.splice(ci,1);
   let dst=DATA.groups.find(g=>g.name===target);
   if(!dst){dst={name:target,channels:[]};DATA.groups.push(dst)}
-  dst.channels.push(ch);
-  CUR=target;renderGroups();renderAll();toast(`已将「${ch.name}」归类到 ${target}`);
+  dst.channels.push(ch);CUR=target;renderGroups();renderAll();toast(`已将「${ch.name}」归类到 ${target}`);
 }
 
-function renderSource(){
-  const map={};
-  flatten().forEach(({c})=>c.streams.forEach(s=>{const k=s.src||'未标注';map[k]=(map[k]||0)+1}));
-  const total=Object.values(map).reduce((a,b)=>a+b,0)||1;
-  const sorted=Object.entries(map).sort((a,b)=>b[1]-a[1]);
-  document.getElementById('sourceGrid').innerHTML=sorted.map(([k,v])=>
-    `<div class="card"><b>${k}</b><div class="sub">${v} 条线路（${(v/total*100).toFixed(1)}%）</div><div class="bar"><i style="width:${v/total*100}%"></i></div></div>`).join('');
+function renderRel(){
+  const cnt={},cross=[];
+  flatten().forEach(({c})=>c.streams.forEach(s=>{
+    const ss=s.sources||(s.src?[s.src]:[]);
+    ss.forEach(x=>cnt[x]=(cnt[x]||0)+1);
+    if(ss.length>=2)cross.push({name:c.name,n:ss.length,src:ss.join(' / ')});
+  }));
+  const total=Object.values(cnt).reduce((a,b)=>a+b,0)||1;
+  document.getElementById('relGrid').innerHTML=Object.entries(cnt).sort((a,b)=>b[1]-a[1]).slice(0,30).map(([k,v])=>
+    `<div class="card" style="cursor:pointer" onclick="filterSrc('${k}')"><b>${k}</b><div class="sub">${v} 条线路（${(v/total*100).toFixed(1)}%）</div><div class="bar"><i style="width:${v/total*100}%"></i></div></div>`).join('');
+  document.getElementById('crossBody').innerHTML=cross.slice(0,60).map(x=>
+    `<tr><td>${x.name}</td><td>${x.n}</td><td class="src">${x.src}</td></tr>`).join('')||'<tr><td colspan="3">无</td></tr>';
 }
+function filterSrc(s){SRCFILTER=SRCFILTER===s?'':s;CUR='';renderAll();
+  document.querySelector('[data-v="list"]').click();toast('已按来源筛选：'+(SRCFILTER||'全部'))}
 
 function renderGroup(){
   document.getElementById('groupGrid').innerHTML=DATA.groups.map(g=>{
-    const alive=g.channels.reduce((a,c)=>a+c.streams.filter(s=>s.status==='alive').length,0);
-    const total=g.channels.reduce((a,c)=>a+c.streams.length,0);
-    return `<div class="card"><b>${g.name}</b><div class="sub">${g.channels.length} 频道 / ${total} 线路 / 存活 ${alive}</div>
-      <div class="bar"><i class="ok" style="width:${total?alive/total*100:0}%"></i></div></div>`;
+    const a=g.channels.reduce((x,c)=>x+c.streams.filter(s=>s.status==='alive').length,0);
+    const t=g.channels.reduce((x,c)=>x+c.streams.length,0);
+    return `<div class="card"><b>${g.name}</b><div class="sub">${g.channels.length} 频道 / ${t} 线路 / 存活 ${a}</div><div class="bar"><i class="ok" style="width:${t?a/t*100:0}%"></i></div></div>`;
   }).join('');
 }
 
 function renderHealth(){
-  const all=flatten();let alive=0,dead=0,unknown=0,official=0;
-  all.forEach(({c})=>c.streams.forEach(s=>{
-    if(s.status==='alive')alive++;else if(s.status==='dead')dead++;else unknown++;
+  let alive=0,dead=0,other=0,official=0;
+  flatten().forEach(({c})=>c.streams.forEach(s=>{
+    if(s.status==='alive')alive++;else if(s.status==='dead')dead++;else other++;
     if(s.official)official++;
   }));
   const rate=alive+dead?alive/(alive+dead)*100:0;
-  document.getElementById('healthBox').innerHTML=`
-    <div class="card"><h3>总体检活</h3>
-      <div class="sub">存活 ${alive} / 失效 ${dead} / 未检 ${unknown}，存活率 ${rate.toFixed(1)}%</div>
-      <div class="bar"><i class="ok" style="width:${rate}%"></i></div></div>
-    <div class="card"><h3>按分组存活率</h3><table><thead><tr><th>分组</th><th>存活率</th><th>频道</th></tr></thead><tbody>
-      ${DATA.groups.map(g=>{const t=g.channels.reduce((a,c)=>a+c.streams.length,0);
-        const a=g.channels.reduce((x,c)=>x+c.streams.filter(s=>s.status==='alive').length,0);
-        const r=t?a/t*100:0;return `<tr><td>${g.name}</td><td>${r.toFixed(0)}%<div class="bar"><i class="ok" style="width:${r}%"></i></div></td><td>${g.channels.length}</td></tr>`}).join('')}
-    </tbody></table></div>`;
+  document.getElementById('healthTop').innerHTML=`<div class="sub">存活 ${alive} / 失效 ${dead} / 未检 ${other}，存活率 ${rate.toFixed(1)}%，官方源 ${official} 条</div><div class="bar"><i class="ok" style="width:${rate}%"></i></div>`;
+  document.getElementById('healthBody').innerHTML=DATA.groups.map(g=>{
+    const t=g.channels.reduce((x,c)=>x+c.streams.length,0);
+    const a=g.channels.reduce((x,c)=>x+c.streams.filter(s=>s.status==='alive').length,0);
+    const r=t?a/t*100:0;
+    return `<tr><td>${g.name}</td><td>${r.toFixed(0)}%<div class="bar"><i class="ok" style="width:${r}%"></i></div></td><td>${g.channels.length}</td></tr>`;
+  }).join('');
+  const bysrc={};
+  flatten().forEach(({c})=>c.streams.forEach(s=>(s.sources||(s.src?[s.src]:[])).forEach(x=>{
+    const b=bysrc[x]||(bysrc[x]={a:0,t:0});b.t++;if(s.status==='alive')b.a++;
+  })));
+  document.getElementById('healthSrc').innerHTML=Object.entries(bysrc).sort((x,y)=>y[1].t-x[1].t).slice(0,30).map(([k,v])=>{
+    const r=v.t?v.a/v.t*100:0;return `<tr><td>${k}</td><td>${r.toFixed(0)}%<div class="bar"><i class="ok" style="width:${r}%"></i></div></td><td>${v.t}</td></tr>`;
+  }).join('');
 }
 
-function renderAll(){renderList();renderSource();renderGroup();renderHealth()}
+function renderAll(){renderMeta();renderAddr();renderSubs();renderGroups();renderList();renderRel();renderGroup();renderHealth()}
 
 function exportJSON(){
   const out={schema:4,updated:new Date().toISOString(),grouping:DATA.groups.map(g=>g.name),groups:DATA.groups};
-  const blob=new Blob([JSON.stringify(out,null,1)],{type:'application/json'});
-  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='channels-edited.json';a.click();
-  URL.revokeObjectURL(a.href);toast('已导出 channels-edited.json，请上传到仓库 channels.json 以生效');
+  const b=new Blob([JSON.stringify(out,null,1)],{type:'application/json'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='channels-edited.json';a.click();
+  URL.revokeObjectURL(a.href);toast('已导出，请上传到仓库 channels.json 生效');
 }
-
 init();
 </script>
 </body>

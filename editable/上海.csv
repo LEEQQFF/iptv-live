@@ -1,89 +1,20 @@
-﻿频道,分组,省份,城市,序号,检活,HTTP,延迟ms,官方,来源,画质,标识,URL
-七彩戏剧,上海,上海,上海,1,失效,0,9999,,suxuang.m3u,未知,七彩戏剧,http://111.22.153.159:35455/itv/5000000011000031116.m3u8?cdn=bestzb
-七彩戏剧,上海,上海,上海,2,失效,0,9999,,suxuang.m3u,未知,七彩戏剧,http://t.061899.xyz/tl/tl.php?id=qcxj
-上海电视台,上海,上海,,3,失效,500,9999,,suxuang.m3u,未知,上海卫视,http://112.27.235.94:8000/hls/28/index.m3u8
-上海五星体育,上海,上海,上海,4,失效,0,9999,是,suxuang.m3u,未知,五星体育,http://bp-livetytv.bestv.cn/ch/bestvwxty.m3u8
-上海五星体育,上海,上海,上海,5,失效,404,9999,,kimentanm.m3u,未知,五星体育,http://101.35.240.114:88/live.php?id=五星体育
-上海五星体育,上海,上海,上海,6,失效,0,9999,,iptvorg_cn2.m3u,720P,五星体育 (720p),http://223.110.245.147/ott.js.chinamobile.com/PLTV/3/224/3221226799/index.m3u8
-上海五星体育,上海,上海,上海,7,失效,200,9999,,suxuang.m3u,未知,五星体育,http://8.138.7.223/tv/shtv.php?id=wxty
-上海五星体育,上海,上海,上海,8,失效,0,9999,,suxuang.m3u,未知,五星体育,https://zby.130519.xyz/PLTV/11/224/3221225732/index.m3u8
-上海外语,上海,上海,上海,9,失效,0,9999,,suxuang.m3u,未知,上海外语,http://111.22.153.159:35455/itv/2000000002000000001.m3u8?cdn=hnbblive
-上海外语,上海,上海,上海,10,失效,0,9999,,suxuang.m3u,未知,上海外语,http://t.061899.xyz/tl/tl.php?id=shics
-上海教育,上海,上海,上海,11,失效,0,9999,,suxuang.m3u,未知,上海教育,http://61.173.144.157:9901/tsfile/live/1007_1.m3u8
-上海新闻综合,上海,上海,上海,12,失效,0,9999,是,suxuang.m3u,未知,上海新闻,http://bp-livetytv.bestv.cn/ch/bestvxwzh.m3u8
-上海新闻综合,上海,上海,上海,13,失效,0,9999,,suxuang.m3u,未知,上海新闻综合,http://t.061899.xyz/tl/tl.php?id=shxwzh
-上海新闻综合,上海,上海,上海,14,失效,0,9999,,ibert_all.m3u,未知,[VGA]上海新闻综合,https://stream1.freetv.fun/ae1e5ba924f70d20ff760d1eb8f0ab71583a7fe6549edb506193b0c54387d9a0.ctv
-上海第一财经,上海,上海,上海,15,失效,0,9999,是,suxuang.m3u,未知,第一财经,http://bp-livetytv.bestv.cn/ch/bestvdycj.m3u8
-上海第一财经,上海,上海,上海,16,存活,200,541,,vbskycn.m3u,未知,第一财经,http://satellitepull.cnr.cn/live/wx32dycjgb/playlist.m3u8
-上海第一财经,上海,上海,上海,17,存活,200,895,,vbskycn.m3u,未知,上海第一财经,https://satellitepull.cnr.cn/live/wx32dycjgb/playlist.m3u8
-上海第一财经,上海,上海,上海,18,失效,403,9999,,suxuang.m3u,未知,第一财经,http://8.138.7.223/tv/shtv.php?id=dycj
-上海第一财经,上海,上海,上海,19,失效,0,9999,,suxuang.m3u,未知,上海第一财经,http://t.061899.xyz/tl/tl.php?id=dycj
-上海第一财经,上海,上海,上海,20,失效,0,9999,,ibert_all.m3u,未知,[VGA]上海第一财经,https://stream1.freetv.fun/2f27b601604d0daf4f134d21b1f06cd8853f0f6eecdfe11994621aff0564d791.ctv
-上海第一财经,上海,上海,上海,21,失效,0,9999,,suxuang.m3u,未知,第一财经,https://zby.130519.xyz/PLTV/11/224/3221225737/index.m3u8
-上海纪实,上海,上海,上海,22,存活,200,109,是,suxuang ipv4,未知,新纪实,http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
-上海纪实,上海,上海,上海,23,失效,0,9999,,suxuang.m3u,未知,上海纪实,http://iptv.huuc.edu.cn/hls/docuchina.m3u8
-上海纪实,上海,上海,上海,24,失效,200,9999,,suxuang ipv4,未知,纪实人文,http://8.138.7.223/tv/shtv.php?id=xjs
-上海纪实,上海,上海,上海,25,失效,0,9999,,Guovin iptv-api result(存活校验),未知,上海纪实,https://stream1.freetv.fun/ipv6-shang-hai-ji-shi-ren-wen-2.m3u8
-上海纪实,上海,上海,上海,26,失效,0,9999,,Guovin iptv-api result(存活校验),未知,上海纪实,https://stream1.freetv.fun/ipv6-shang-hai-ji-shi-ren-wen-3.m3u8
-上海纪实,上海,上海,上海,27,失效,0,9999,,Guovin iptv-api result(存活校验),未知,上海纪实,https://stream1.freetv.fun/ipv6-shang-hai-ji-shi-ren-wen-5.m3u8
-上海纪实,上海,上海,上海,28,失效,0,9999,,Guovin iptv-api result(存活校验),未知,上海纪实,https://stream1.freetv.fun/shang-hai-ji-shi-ren-wen-1.m3u8
-上海都市,上海,上海,上海,29,失效,0,9999,是,suxuang.m3u,未知,上海都市,http://bp-livetytv.bestv.cn/ch/bestvdspd.m3u8
-上海都市,上海,上海,上海,30,失效,0,9999,,suxuang.m3u,未知,上海都市,https://zby.130519.xyz/PLTV/11/224/3221225749/index.m3u8
-上海都市,上海,上海,上海,31,失效,0,9999,,Guovin iptv-api result(存活校验),未知,上海都市,https://migu.188766.xyz/?migutoken=6d8853cd2a35a94822edc25fb168517a&id=shds&type=sz
-上海都市,上海,上海,上海,32,失效,0,9999,,Guovin iptv-api result(存活校验),未知,上海都市,https://stream1.freetv.fun/ipv6-shang-hai-du-shi-3.m3u8
-上海都市,上海,上海,上海,33,失效,0,9999,,Guovin iptv-api result(存活校验),未知,上海都市,https://stream1.freetv.fun/ipv6-shang-hai-du-shi-8.m3u8
-上海都市,上海,上海,上海,34,失效,0,9999,,Guovin iptv-api result(存活校验),未知,上海都市,https://stream1.freetv.fun/ipv6-shang-hai-du-shi-4.m3u8
-上视纪实人文,上海,上海,,35,失效,0,9999,,suxuang ipv4,未知,上视纪实人文,http://t.061899.xyz/tl/tl.php?id=shjsrw
-东方影视,上海,上海,上海,36,失效,0,9999,,suxuang.m3u,未知,东方影视,http://111.22.153.159:35455/itv/5000000010000032212.m3u8?cdn=bestzb
-东方影视,上海,上海,上海,37,失效,0,9999,,suxuang.m3u,未知,东方影视,http://t.061899.xyz/tl/tl.php?id=dfys
-东方影视,上海,上海,上海,38,失效,0,9999,,ibert_all.m3u,未知,[VGA]上视东方影视,https://stream1.freetv.fun/f6c2f3eebb4455b4fa69faf427f8e2923673d05dd50381baa3524236d8c2d656.ctv
-东方影视,上海,上海,上海,39,失效,0,9999,,suxuang.m3u,未知,东方影视,https://zby.130519.xyz/PLTV/11/224/3221225744/index.m3u8
-东方影视,上海,上海,上海,40,失效,0,9999,,Guovin iptv-api result(存活校验),未知,东方影视,https://live.chinacert.cftest5.cn/cnmg/live/617290047
-五星体育,上海,上海,,41,失效,0,9999,是,suxuang ipv4,未知,五星体育,http://bp-livetytv.bestv.cn/ch/bestvwxty.m3u8
-五星体育,上海,上海,,42,失效,0,9999,,suxuang ipv4,未知,五星体育,https://zby.130519.xyz/PLTV/11/224/3221225732/index.m3u8
-五星体育,上海,上海,,43,失效,404,9999,,suxuang ipv4,未知,五星体育,http://101.35.240.114:88/live.php?id=五星体育
-五星体育,上海,上海,,44,失效,200,9999,,suxuang ipv4,未知,五星体育,http://8.138.7.223/tv/shtv.php?id=wxty
-五星体育,上海,上海,,45,失效,0,9999,,iptv-org cn,720P,五星体育 (720p),http://223.110.245.147/ott.js.chinamobile.com/PLTV/3/224/3221226799/index.m3u8
-五星体育,上海,上海,,46,失效,0,9999,,Guovin iptv-api result(存活校验),未知,五星体育,https://migu.188766.xyz/?migutoken=ed5a02a3b87f3dcc808d4b733daf5cf9&id=%E4%BA%94%E6%98%9F%E4%BD%93%E8%82%B2&pp=1
-五星体育,上海,上海,,47,失效,502,9999,,Guovin iptv-api result(存活校验),未知,五星体育,https://other.ottiptv.cc/wxty.m3u8
-五星体育,上海,上海,,48,失效,403,9999,,Guovin iptv-api result(存活校验),未知,五星体育,https://hls-gateway.vpstv.net/streams/636980.m3u8
-五星体育,上海,上海,,49,失效,0,9999,,Guovin iptv-api result(存活校验),未知,五星体育,https://stream1.freetv.fun/wu-xing-ti-yu-9.m3u8
-动漫秀场,上海,上海,上海,50,失效,0,9999,,suxuang.m3u,标清,动漫秀场,https://zby.130519.xyz/PLTV/11/224/3221225764/index.m3u8
-动漫秀场,上海,上海,上海,51,失效,0,9999,,suxuang.m3u,未知,动漫秀场,http://111.22.153.159:35455/itv/5000000011000031113.m3u8?cdn=bestzb
-动漫秀场,上海,上海,上海,52,失效,0,9999,,suxuang.m3u,未知,动漫秀场,http://36.129.204.117:9003//hls/67/index.m3u8
-动漫秀场,上海,上海,上海,53,失效,0,9999,,ibert_all.m3u,未知,[BD]动漫秀场,https://stream1.freetv.fun/73a696031fc8f1fdb15ef76f1739f184c8e5d828d6d98225ce1a8a3ed4371ce5.m3u8
-动漫秀场,上海,上海,上海,54,失效,0,9999,,Guovin iptv-api result(存活校验),未知,动漫秀场,http://php.jdshipin.com/itv6.php?cid=bestzb&id=5000000011000031113
-动漫秀场,上海,上海,上海,55,失效,0,9999,,Guovin iptv-api result(存活校验),未知,动漫秀场,https://stream1.freetv.fun/dong-man-xiu-chang-11.m3u8
-动漫秀场,上海,上海,上海,56,失效,0,9999,,Guovin iptv-api result(存活校验),未知,动漫秀场,https://stream1.freetv.fun/ipv6-dong-man-xiu-chang-11.m3u8
-动漫秀场,上海,上海,上海,57,失效,0,9999,,Guovin iptv-api result(存活校验),未知,动漫秀场,https://stream1.freetv.fun/dong-man-xiu-chang-9.ctv
-哈哈炫动卫视,上海,上海,,58,失效,0,9999,,ibert_all.m3u,标清,[SD]哈哈炫动,https://stream1.freetv.fun/85aec22da72dbb69d4271fbde70b929f467b7d1b7c3c21639939b3d7865a00ac.m3u8
-哈哈炫动卫视,上海,上海,,59,失效,0,9999,,suxuang.m3u,未知,哈哈炫动,http://111.22.153.159:35455/itv/5000000011000031123.m3u8?cdn=bestzb
-哈哈炫动卫视,上海,上海,,60,失效,0,9999,,suxuang.m3u,未知,哈哈炫动,https://zby.130519.xyz/PLTV/11/224/3221226161/index.m3u8
-崇明电视台,上海,上海,,61,失效,404,9999,,suxuang ipv4,未知,崇明电视台,https://pili-live-hls.wdit.com.cn/wditlive/c038f4fafbdf4f97ba74c74ad67259b931ee.m3u8
-普陀电视台,上海,上海,,62,存活,200,111,,Guovin iptv-api result(存活校验),未知,普陀电视台,http://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8
-普陀电视台,上海,上海,,63,存活,200,224,,vbskycn iptv4,未知,普陀电视台,https://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8
-普陀新闻综合,上海,上海,,64,存活,200,111,,Guovin iptv-api result(存活校验),未知,普陀新闻综合,http://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8
-欢笑剧场,上海,上海,上海,65,存活,200,2765,,Guovin iptv-api result(存活校验),未知,欢笑剧场,http://38.75.136.137:98/gslb/dsdqpub/hxjchd.m3u8?auth=testpub
-欢笑剧场,上海,上海,上海,66,失效,0,9999,,suxuang.m3u,未知,欢笑剧场,http://111.22.153.159:35455/itv/5000000002000009455.m3u8?cdn=bestzb
-欢笑剧场,上海,上海,上海,67,失效,0,9999,,suxuang.m3u,未知,欢笑剧场,http://t.061899.xyz/tl/tl.php?id=hxjc
-欢笑剧场,上海,上海,上海,68,失效,0,9999,,suxuang.m3u,未知,欢笑剧场,https://zby.130519.xyz/PLTV/11/224/3221225771/index.m3u8
-欢笑剧场,上海,上海,上海,69,失效,0,9999,,Guovin iptv-api result(存活校验),未知,欢笑剧场,http://goo.bkpcp.top/mg/hxjc
-欢笑剧场,上海,上海,上海,70,失效,0,9999,,Guovin iptv-api result(存活校验),未知,欢笑剧场,http://z.b.bkpcp.top/m.php?id=hxjc
-欢笑剧场,上海,上海,上海,71,失效,0,9999,,Guovin iptv-api result(存活校验),未知,欢笑剧场,http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000002000009455/1.m3u8
-法治天地,上海,上海,上海,72,失效,0,9999,,suxuang.m3u,未知,法治天地,http://111.22.153.159:35455/itv/2000000002000000014.m3u8?cdn=hnbblive
-法治天地,上海,上海,上海,73,失效,0,9999,,suxuang.m3u,未知,法治天地,http://t.061899.xyz/tl/tl.php?id=fztd
-法治天地,上海,上海,上海,74,失效,0,9999,,suxuang.m3u,未知,法治天地,https://zby.130519.xyz/PLTV/11/224/3221225994/index.m3u8
-法治天地,上海,上海,上海,75,失效,0,9999,,Guovin iptv-api result(存活校验),未知,法治天地,http://[2409:8087:5e01:24::16]:6610/000000001000/2000000002000000014/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000014&IASHttpSessionId=OTT19019320240419154124000281
-游戏风云,上海,上海,上海,76,失效,0,9999,,suxuang.m3u,未知,游戏风云,http://111.22.153.159:35455/itv/5000000011000031114.m3u8?cdn=bestzb
-游戏风云,上海,上海,上海,77,失效,0,9999,,suxuang.m3u,未知,游戏风云,http://t.061899.xyz/tl/tl.php?id=yxfy
-游戏风云,上海,上海,上海,78,失效,0,9999,,suxuang.m3u,未知,游戏风云,https://zby.130519.xyz/PLTV/11/224/3221226117/index.m3u8
-游戏风云,上海,上海,上海,79,失效,0,9999,,Guovin iptv-api result(存活校验),未知,游戏风云,https://zby.130519.xyz/PLTV/11/224/3221226140/index.m3u8
-都市剧场,上海,上海,上海,80,存活,200,861,,vbskycn.m3u,未知,都市剧场,https://satellitepull.cnr.cn/live/wxcqxwgb/playlist.m3u8
-都市剧场,上海,上海,上海,81,失效,0,9999,,suxuang.m3u,标清,都市剧场,https://zby.130519.xyz/PLTV/11/224/3221225762/index.m3u8
-都市剧场,上海,上海,上海,82,失效,404,9999,,suxuang.m3u,未知,都市剧场,http://112.46.105.20:8009/hls/72/index.m3u8
-都市剧场,上海,上海,上海,83,失效,0,9999,,Guovin iptv-api result(存活校验),未知,都市剧场,http://38.75.136.137:98/gslb/dsdqpub/dsjchd.m3u8?auth=testpub
-都市剧场,上海,上海,上海,84,失效,0,9999,,Guovin iptv-api result(存活校验),未知,都市剧场,https://zby.130519.xyz/PLTV/11/224/3221226155/index.m3u8
-都市剧场,上海,上海,上海,85,失效,403,9999,,Guovin iptv-api result(存活校验),未知,都市剧场,https://hls-gateway.vpstv.net/streams/708845.m3u8
-金色学堂,上海,上海,上海,86,失效,0,9999,,suxuang.m3u,未知,金色学堂,http://111.22.153.159:35455/itv/5000000010000026105.m3u8?cdn=bestzb
-金色学堂,上海,上海,上海,87,失效,0,9999,,suxuang.m3u,未知,金色学堂,https://zby.130519.xyz/PLTV/11/224/3221225748/index.m3u8
-长宁综合,上海,上海,,88,失效,403,9999,,suxuang ipv4,未知,长宁综合,http://cnpull.sccnfb.com:80/live/123456.m3u8
+﻿分组,频道,线路数,存活,失效,官方,最佳线路,ID
+上海,七彩戏剧,1,0,1,0,,七彩戏剧
+上海,上海外语,1,0,1,0,,上海外语
+上海,上海教育,1,0,1,0,,上海教育
+上海,上海新闻综合,2,0,2,1,,上海新闻综合
+上海,上海第一财经,3,1,2,1,https://satellitepull.cnr.cn/live/wx32dycjgb/playlist.m3u8,上海第一财经
+上海,上海纪实,5,0,5,0,,上海纪实
+上海,上海都市,5,0,5,1,,上海都市
+上海,东方影视,1,0,1,0,,东方影视
+上海,五星体育,5,0,5,1,,五星体育
+上海,五星体育(720p),1,0,1,0,,五星体育
+上海,动漫秀场,8,0,8,0,,动漫秀场
+上海,崇明电视台,1,0,1,0,,崇明
+上海,普陀电视台,2,2,0,0,http://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8,普陀
+上海,欢笑剧场,5,0,5,0,,欢笑剧场
+上海,法治天地,3,0,3,0,,法治天地
+上海,游戏风云,3,0,3,0,,游戏风云
+上海,都市剧场,6,1,5,0,https://satellitepull.cnr.cn/live/wxcqxwgb/playlist.m3u8,都市剧场
+上海,金色学堂,2,0,2,0,,金色学堂
+上海,长宁综合,1,0,1,0,,长宁综合

@@ -1,88 +1,32 @@
-﻿频道,分组,省份,城市,序号,检活,HTTP,延迟ms,官方,来源,画质,标识,URL
-天元围棋,湖南,湖南,,1,失效,0,9999,,suxuang ipv4,未知,天元围棋,http://wouu.net:9977/udp/239.93.42.55:5140
-天元围棋,湖南,湖南,,2,失效,0,9999,,Guovin iptv-api result(存活校验),未知,天元围棋,http://204.12.221.218:8181/3m1080p/gztywq.m3u8
-娄底综合,湖南,湖南,娄底,3,失效,0,9999,,iptvorg_cn2.m3u,720P,娄底综合 (720p),http://119.39.242.52:1935/live/zonghe/playlist.m3u8
-娄底综合,湖南,湖南,娄底,4,失效,0,9999,,Guovin iptv-api result(存活校验),未知,娄底综合,http://iptv.666230.xyz/iptv/hnyx.php/ldxw
-岳阳公共,湖南,湖南,岳阳,5,存活,200,322,,iptvorg_cn2.m3u,标清,岳阳公共 (576p),http://live.hnxttv.com:9601/live/dspd/800K/tzwj_video.m3u8?BVUUID=C236454D-5355-2F5F-FA96-1887C72E55CE&auth=654837809071524@615@2E9A5FD0B225B012E3178551CF3754A8
-张家界1 (240p) [Not 24/7],湖南,湖南,,6,失效,0,9999,,iptv-org cn,未知,张家界1 (240p) [Not 24/7],http://stream.zjjrtv.com/zjjtv1/hd/live.m3u8
-张家界1台,湖南,湖南,张家界,7,失效,0,9999,,iptvorg_cn2.m3u,720P,张家界1 (240p) [Not 24/7],http://stream.zjjrtv.com/zjjtv1/hd/live.m3u8
-张家界2台,湖南,湖南,张家界,8,失效,0,9999,,iptvorg_cn2.m3u,720P,张家界2台 (240p) [Not 24/7],http://stream.zjjrtv.com/zjjtv2/hd/live.m3u8
-湖南Hunan Economy Channel,湖南,湖南,,9,存活,200,712,,iptv-org cn,未知,Hunan Economy Channel,https://p8.vzan.com/slowlive/415983998730568937/live.m3u8
-湖南Hunan News Channel,湖南,湖南,,10,失效,403,9999,,iptv-org cn(github.io),未知,Hunan News Channel [Geo-blocked],http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_346.m3u8
-湖南Hunan Politics & Law Channel,湖南,湖南,,11,失效,403,9999,,iptv-org cn(github.io),未知,Hunan Politics & Law Channel [Geo-blocked],http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_348.m3u8
-湖南Hunan TV,湖南,湖南,,12,存活,200,83,,iptv-org cn,未知,Hunan TV (2160p),http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
-湖南Hunan Womens Channel,湖南,湖南,,13,失效,403,9999,,iptv-org cn(github.io),未知,Hunan Womens Channel [Geo-blocked],http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_349.m3u8
-湖南公共,湖南,湖南,,14,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖南公共,https://stream1.freetv.fun/hu-nan-gong-gong-7.m3u8
-湖南公共,湖南,湖南,,15,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖南公共,https://stream1.freetv.fun/hu-nan-gong-gong-5.ctv
-湖南公共,湖南,湖南,,16,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖南公共,https://stream1.freetv.fun/hu-nan-gong-gong-2.ctv
-湖南公共,湖南,湖南,,17,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖南公共,https://stream1.freetv.fun/hu-nan-gong-gong-7.ctv
-湖南国际,湖南,湖南,,18,失效,200,9999,,suxuang.m3u,未知,湖南国际,http://tvbox6.icu/tv/mgtv.php?id=229
-湖南国际,湖南,湖南,,19,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖南国际,https://stream1.freetv.fun/hu-nan-guo-ji-2.ctv
-湖南国际,湖南,湖南,,20,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖南国际,https://stream1.freetv.fun/hu-nan-guo-ji-4.ctv
-湖南国际,湖南,湖南,,21,失效,403,9999,,bestK iptv,未知,湖南国际频道,"http://phoneqq.qing.mgtv.com/nn_live/nn_x64/dWlwPTEwNi4xNC4zOC41NSZ0ZXJtPTUmcWlkPSZjZG5leF9pZD1xcV9waG9uZV9saXZlJmNocz0mZGVmPTEmcz0yYmI1NWZiYjk4ZDMxOGQ2ZGM4ODE0N2ZmZDhmZmMyNSZ1aWQ9JnV1aWQ9ZmUxMDNmNzEwYThjMzg1YTQwOWUzMTkyYWNmMjJhMzAtNmEwZTI2Mzcmdj0yJmFzPTAmZXM9MTc3MTM5NDQzNQ,,/HNGJMPP360.m3u8"
-湖南娱乐,湖南,湖南,,22,失效,0,9999,,ibert_all.m3u,720P,[HD]湖南娱乐,https://stream1.freetv.fun/d823f63f178d27fa744c94a23baa86fac9d249923cf03843d769b3bae2e70a8a.m3u8
-湖南娱乐,湖南,湖南,,23,失效,200,9999,,suxuang.m3u,未知,湖南娱乐,http://tvbox6.icu/tv/mgtv.php?id=344
-湖南娱乐,湖南,湖南,,24,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖南娱乐,https://stream1.freetv.fun/hu-nan-yu-le-9.ctv
-湖南娱乐,湖南,湖南,,25,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖南娱乐,https://stream1.freetv.fun/hu-nan-yu-le-3.m3u8
-湖南娱乐,湖南,湖南,,26,失效,403,9999,,bestK iptv,未知,湖南娱乐频道,http://phoneqq.qing.mgtv.com/nn_live/nn_x64/dWlwPTEwNi4xNC4zOC41NSZ0ZXJtPTUmcWlkPSZyYXV0aF9lbmFibGU9b2ZmJmNkbmV4X2lkPXFxX3Bob25lX2xpdmUmY2hzPSZkZWY9MSZzPTQyZDQ4Y2YzMDgwMDczYzcxM2Q0MTA1ZTUwZmU2NzBhJnVpZD0mdXVpZD05OGYxNDM3NzcwZjlhYjJmYmZmYzg1OGY5Y2U4NzBlZi02YTBlMjYzNyZ2PTImYXM9MCZlcz0xNzcxMzk2Njg3/HNYLMPP360.m3u8
-湖南教育,湖南,湖南,,27,失效,0,9999,,ibert_all.m3u,720P,[HD]湖南教育,https://stream1.freetv.fun/354283335738ca823e457e68ba3f4cd00437a1ea7d1ab361f38b38fdde7423b6.m3u8
-湖南教育,湖南,湖南,,28,失效,0,9999,,suxuang.m3u,未知,湖南教育,http://222.241.154.37:9901/tsfile/live/23027_1.m3u8
-湖南教育,湖南,湖南,,29,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖南教育,https://stream1.freetv.fun/hu-nan-jiao-yu-6.ctv
-湖南爱晚,湖南,湖南,,30,失效,404,9999,,suxuang.m3u,未知,湖南爱晚,http://p2.vzan.com/527645544/149039617847513156/live.m3u8
-湖南爱晚,湖南,湖南,,31,失效,200,9999,,suxuang.m3u,未知,湖南爱晚,http://tvbox6.icu/tv/mgtv.php?id=261
-湖南爱晚,湖南,湖南,,32,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖南爱晚,http://php.jdshipin.com:8880/iptv.php?id=hngg
-湖南电影,湖南,湖南,,33,失效,200,9999,,suxuang.m3u,未知,湖南电影,http://tvbox6.icu/tv/mgtv.php?id=221
-湖南电影,湖南,湖南,,34,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖南电影,http://php.jdshipin.com:8880/iptv.php
-湖南电影,湖南,湖南,,35,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖南电影,https://stream1.freetv.fun/hu-nan-dian-ying-2.ctv
-湖南电视剧频道,湖南,湖南,,36,失效,200,9999,,suxuang.m3u,未知,湖南视剧,http://tvbox6.icu/tv/mgtv.php?id=484
-湖南电视剧频道,湖南,湖南,,37,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖南电视剧,https://stream1.freetv.fun/hu-nan-dian-shi-ju-2.m3u8
-湖南电视剧频道,湖南,湖南,,38,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖南电视剧,https://stream1.freetv.fun/hu-nan-dian-shi-ju-12.m3u8
-湖南电视剧频道,湖南,湖南,,39,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖南电视剧,https://stream1.freetv.fun/hu-nan-dian-shi-ju-14.ctv
-湖南电视剧频道,湖南,湖南,,40,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖南电视剧,https://stream1.freetv.fun/hu-nan-dian-shi-ju-7.m3u8
-湖南电视剧频道,湖南,湖南,,41,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖南电视剧,https://stream1.freetv.fun/hu-nan-dian-shi-ju-3.m3u8
-湖南电视剧频道,湖南,湖南,,42,失效,403,9999,,bestK iptv,未知,湖南电视剧,"http://phoneqq.qing.mgtv.com/nn_live/nn_x64/dWlwPTEwNi4xNC4zOC41NSZ0ZXJtPTUmcWlkPSZjZG5leF9pZD1xcV9waG9uZV9saXZlJmNocz0mZGVmPTEmcz1iZTI4MjYzOTQ1MGYwZDZkZWZiN2FkZGFhMDdmZDhkOCZ1aWQ9JnV1aWQ9YjdlMTIzOTdkMDU5MjFjZGMxNTQ4NTJiZDc2MjZhMDgtNmEwZTI2Mzcmdj0yJmFzPTAmZXM9MTc3MTQwNzQyNQ,,/HNDSJMPP360.m3u8"
-湖南经视,湖南,湖南,,43,失效,200,9999,,suxuang.m3u,未知,湖南经视,http://tvbox6.icu/tv/mgtv.php?id=280
-湖南经视,湖南,湖南,,44,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖南经视,https://stream1.freetv.fun/hu-nan-jing-shi-6.m3u8
-湖南经视,湖南,湖南,,45,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖南经视,https://stream1.freetv.fun/hu-nan-jing-shi-1.m3u8
-湖南经视,湖南,湖南,,46,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖南经视,https://stream1.freetv.fun/hu-nan-jing-shi-15.ctv
-湖南经视,湖南,湖南,,47,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖南经视,https://stream1.freetv.fun/hu-nan-jing-shi-5.m3u8
-湖南经视,湖南,湖南,,48,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖南经视,https://stream1.freetv.fun/hu-nan-jing-shi-2.m3u8
-湖南都市,湖南,湖南,,49,失效,200,9999,,suxuang.m3u,未知,湖南都市,http://tvbox6.icu/tv/mgtv.php?id=346
-湖南都市,湖南,湖南,,50,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖南都市,https://stream1.freetv.fun/hu-nan-du-shi-13.m3u8
-湖南都市,湖南,湖南,,51,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖南都市,https://stream1.freetv.fun/hu-nan-du-shi-4.m3u8
-湖南都市,湖南,湖南,,52,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖南都市,https://stream1.freetv.fun/hu-nan-du-shi-8.m3u8
-湖南都市,湖南,湖南,,53,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖南都市,https://stream1.freetv.fun/hu-nan-du-shi-9.m3u8
-湖南都市,湖南,湖南,,54,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖南都市,https://stream1.freetv.fun/hu-nan-du-shi-6.ctv
-湖南都市,湖南,湖南,,55,失效,403,9999,,bestK iptv,未知,湖南都市,http://phoneqq.qing.mgtv.com/nn_live/nn_x64/dWlwPTEwNi4xNC4zOC41NSZ0ZXJtPTUmcWlkPSZyYXV0aF9lbmFibGU9b2ZmJmNkbmV4X2lkPXFxX3Bob25lX2xpdmUmY2hzPSZkZWY9MSZzPWRiZWNhNWQ4YTU2NjA3OGZmZjIyMWJjYmJjZDE5NDViJnVpZD0mdXVpZD00MTY3NDAzZjhkZWE3ZmU2OWRiZDI4NjVmZjU0ZTJlOS02YTBlMjYzNyZ2PTImYXM9MCZlcz0xNzcxMzk3NzA5/HNDSMPP360.m3u8
-湘潭公共,湖南,湖南,湘潭,56,存活,200,157,,iptvorg_cn2.m3u,标清,湘潭公共 (576p),http://live.hnxttv.com:9601/live/dspd/800K/tzwj_video.m3u8
-湘潭新闻综合,湖南,湖南,湘潭,57,存活,200,149,,iptvorg_cn2.m3u,720P,湘潭新闻综合 (720p),http://live.hnxttv.com:9601/live/xwzh/800K/tzwj_video.m3u8
-花垣综合,湖南,湖南,湘西,58,存活,200,239,,实测可播,,花垣综合,https://liveplay-srs.voc.com.cn/hls/tv/134_180adf.m3u8
-衡阳新闻综合,湖南,湖南,衡阳,59,存活,200,307,,vbskycn.m3u,未知,衡阳新闻综合,https://liveplay-srs.voc.com.cn/hls/tv/183_554704.m3u8
-衡阳新闻综合,湖南,湖南,衡阳,60,失效,0,9999,,ibert_all.m3u,未知,[VGA]衡阳新闻综合,https://stream1.freetv.fun/7736c570e160eec2b8924716990f4cbd7539a6f8bea13d7b83f2efe3d414962e.m3u8
-金鹰卡通卫视,湖南,湖南,,61,存活,200,103,,bf_all_status.m3u8,标清,金鹰卡通,http://120.198.95.220:9901/tsfile/live/1033_1.m3u8?key=txiptv&playlive=1&down=1
-金鹰卡通卫视,湖南,湖南,,62,失效,0,9999,,iptvorg_cn2.m3u,标清,金鹰卡通 (湖南) (540p) [Not 24/7],http://112.25.48.68/live/program/live/jykt/1300000/mnf.m3u8
-金鹰卡通卫视,湖南,湖南,,63,失效,0,9999,,iptvorg_cn2.m3u,标清,金鹰卡通 (576p) [Geo-blocked],http://223.110.241.149:6610/gitv/live1/G_JINYING/G_JINYING/1.m3u8
-金鹰卡通卫视,湖南,湖南,,64,失效,0,9999,,iptvorg_cn2.m3u,标清,金鹰卡通 (576p),http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221226303/index.m3u8
-金鹰卡通卫视,湖南,湖南,,65,失效,0,9999,,ibert_all.m3u,标清,[SD]金鹰卡通,https://stream1.freetv.fun/e1b5b19bd1797b4f2c20771f007cc7c1cfc8da4b2a74a980ec95b7bac2ee50cf.m3u8
-金鹰卡通卫视,湖南,湖南,,66,失效,0,9999,,suxuang.m3u,未知,金鹰卡通,http://itv.iptv1688.top:2016/itv.php?id=金鹰卡通
-金鹰卡通卫视,湖南,湖南,,67,失效,200,9999,,suxuang.m3u,未知,金鹰卡通,http://tvbox6.icu/tv/mgtv.php?id=287
-金鹰卡通卫视,湖南,湖南,,68,失效,0,9999,,suxuang.m3u,未知,金鹰卡通,https://zby.130519.xyz/PLTV/11/224/3221226094/index.m3u8
-金鹰纪实卫视,湖南,湖南,,69,失效,0,9999,,suxuang.m3u,未知,金鹰纪实,http://iptv.huuc.edu.cn/hls/gedocu.m3u8
-金鹰纪实卫视,湖南,湖南,,70,失效,0,9999,,suxuang.m3u,未知,金鹰纪实,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226667/1.m3u8
-金鹰纪实卫视,湖南,湖南,,71,失效,200,9999,,suxuang.m3u,未知,金鹰纪实,http://tvbox6.icu/tv/mgtv.php?id=316
-长沙地铁,湖南,湖南,长沙,72,失效,403,9999,,iptvorg_cn2.m3u,未知,长沙地铁移动 [Geo-blocked],http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_356.m3u8
-长沙女性,湖南,湖南,长沙,73,失效,403,9999,,iptvorg_cn2.m3u,标清,长沙女性 [Geo-blocked],http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_349.m3u8
-长沙女性,湖南,湖南,长沙,74,失效,200,9999,,suxuang.m3u,未知,长沙女性,http://tvbox6.icu/tv/mgtv.php?id=230
-长沙政法,湖南,湖南,长沙,75,存活,200,83,,iptvorg_cn.m3u,4K,Hunan TV (2160p),http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
-长沙政法,湖南,湖南,长沙,76,失效,403,9999,,iptvorg_cn2.m3u,标清,长沙政法 [Geo-blocked],http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_348.m3u8
-长沙政法,湖南,湖南,长沙,77,失效,200,9999,,suxuang.m3u,未知,长沙政法,http://tvbox6.icu/tv/mgtv.php?id=254
-长沙新闻,湖南,湖南,,78,存活,200,119,,Guovin iptv-api result(存活校验),未知,长沙新闻,http://ls.qingting.fm/live/4877.m3u8
-长沙新闻,湖南,湖南,,79,失效,200,9999,,suxuang ipv4,未知,长沙新闻,http://tvbox6.icu/tv/mgtv.php?id=269
-长沙新闻,湖南,湖南,,80,失效,403,9999,,iptv-org cn,未知,长沙新闻 [Geo-blocked],http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_346.m3u8
-长沙新闻,湖南,湖南,,81,失效,0,9999,,bestK iptv,未知,长沙新闻频道,"http://phonehwei.qing.mgtv.com/nn_live/nn_x64/dWlwPTEwNi4xNC4zOC41NSZ0ZXJtPTUmcWlkPSZyYXV0aF9lbmFibGU9b2ZmJmNkbmV4X2lkPWh3X3Bob25lJmNocz0mZGVmPTEmcz1kYzU3OWU3MzNmMTMwNTk0MjRkOWFjMmJhYzlmOWY2NSZ1aWQ9JnV1aWQ9NTQ2MmU5ZDUwYmVmNGZlMDMzN2MzZDgwMmZiMWY2MDAtNmEwZTI2Mzcmdj0yJmFzPTAmZXM9MTc3MTQwODc4Mw,,/CSXWMPP360.m3u8"
-长沙新闻综合,湖南,湖南,长沙,82,存活,200,119,,vbskycn.m3u,未知,长沙新闻综合,http://ls.qingting.fm/live/4877.m3u8
-长沙新闻综合,湖南,湖南,长沙,83,失效,403,9999,,iptvorg_cn2.m3u,标清,长沙新闻 [Geo-blocked],http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_346.m3u8
-长沙新闻综合,湖南,湖南,长沙,84,失效,200,9999,,suxuang.m3u,未知,长沙新闻,http://tvbox6.icu/tv/mgtv.php?id=269
-长沙经贸,湖南,湖南,长沙,85,失效,403,9999,,iptvorg_cn2.m3u,未知,长沙经贸 [Geo-blocked],http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_350.m3u8
-长沙购物,湖南,湖南,长沙,86,失效,403,9999,,iptvorg_cn2.m3u,未知,长沙购物 [Geo-blocked],http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_354.m3u8
-鬼吹灯之怒晴湘西,湖南,湖南,,87,存活,200,5642,,suxuang ipv4,未知,鬼吹灯之怒晴湘西,https://live.metshop.top/huya/11602075
+﻿分组,频道,线路数,存活,失效,官方,最佳线路,ID
+湖南,HunanEconomyChannel,1,1,0,0,https://p8.vzan.com/slowlive/415983998730568937/live.m3u8,hunaneconomychannel
+湖南,HunanNewsChannel[Geo-blocked,1,0,1,0,,hunannewschannel
+湖南,HunanPolitics&LawChannel[Geo,1,0,1,0,,hunanpolitics&lawchannel
+湖南,HunanTV(2160p),1,1,0,0,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8,hunantv
+湖南,HunanWomensChannel[Geo-block,1,0,1,0,,hunanwomenschannel
+湖南,天元围棋,2,0,2,0,,天元围棋
+湖南,娄底综合(720p),1,0,1,0,,娄底综合
+湖南,娄底综合,1,0,1,0,,娄底综合
+湖南,岳阳公共(576p),1,1,0,0,http://live.hnxttv.com:9601/live/dspd/800K/tzwj_video.m3u8?BVUUID=C236454D-5355-2F5F-FA96-1887C72E55CE&auth=654837809071524@615@2E9A5FD0B225B012E3178551CF3754A8,岳阳公共
+湖南,张家界1(240p)[Not24/7],1,0,1,0,,张家界1
+湖南,张家界2台(240p)[Not24/7],1,0,1,0,,张家界2台
+湖南,湖南公共,4,0,4,0,,湖南公共
+湖南,湖南国际,2,0,2,0,,湖南国际
+湖南,湖南国际频道,1,0,1,0,,湖南国际
+湖南,湖南娱乐,3,0,3,0,,湖南娱乐
+湖南,湖南娱乐频道,1,0,1,0,,湖南娱乐
+湖南,湖南教育,2,0,2,0,,湖南教育
+湖南,湖南教育台,1,0,1,0,,湖南教育台
+湖南,湖南爱晚,1,0,1,0,,湖南爱晚
+湖南,湖南电影,2,0,2,0,,湖南电影
+湖南,湖南电视剧,6,0,6,0,,湖南电视剧
+湖南,湖南经视,5,0,5,0,,湖南经视
+湖南,湖南都市,6,0,6,0,,湖南都市
+湖南,湘潭新闻综合(720p),1,1,0,0,http://live.hnxttv.com:9601/live/xwzh/800K/tzwj_video.m3u8,湘潭新闻综合
+湖南,衡阳新闻综合,2,1,1,0,https://liveplay-srs.voc.com.cn/hls/tv/183_554704.m3u8,衡阳新闻综合
+湖南,金鹰卡通(湖南)(540p)[Not24/7],1,0,1,0,,金鹰卡通
+湖南,长沙地铁移动[Geo-blocked],1,0,1,0,,长沙地铁移动
+湖南,长沙新闻频道,1,0,1,0,,长沙新闻
+湖南,长沙新闻综合,1,1,0,0,http://ls.qingting.fm/live/4877.m3u8,长沙新闻综合
+湖南,长沙经贸[Geo-blocked],1,0,1,0,,长沙经贸
+湖南,鬼吹灯之怒晴湘西,1,0,1,0,,鬼吹灯之怒晴湘西

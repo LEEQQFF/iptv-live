@@ -1,65 +1,25 @@
-﻿频道,分组,省份,城市,序号,检活,HTTP,延迟ms,官方,来源,画质,标识,URL
-七台河新闻综合,黑龙江,黑龙江,,1,存活,200,205,,suxuang ipv4,未知,七台河新闻综合,http://live.qthnews.org.cn:1935/live/live1/800k/tzwj_video.m3u8
-七台河民生社教,黑龙江,黑龙江,,2,失效,0,9999,,suxuang ipv4,未知,七台河民生社教,http://live.qthnews.org.cn:1935/live/live2/800k/tzwj_video.m3u8
-七台河民生社教,黑龙江,黑龙江,,3,失效,0,9999,,Guovin iptv-api result(存活校验),未知,七台河民生社教,http://yp.qqqtv.top/1/api.php?id=%E4%B8%83%E5%8F%B0%E6%B2%B3%E6%B0%91%E7%94%9F%E7%A4%BE%E6%95%99&auth=666858
-双鸭山综合,黑龙江,黑龙江,,4,失效,0,9999,,Guovin iptv-api result(存活校验),未知,双鸭山综合,http://live.qthnews.org.cn:1935/live/live2/800k/tzwj_video.m3u8
-哈尔滨Harbin Comprehensive News Channel,黑龙江,黑龙江,,5,存活,200,287,,iptv-org cn,未知,Harbin Comprehensive News Channel,https://stream.hrbtv.net/xwzh/playlist.m3u8?_upt=ef41dd531755913594
-哈尔滨Harbin Movie Channel,黑龙江,黑龙江,,6,存活,200,311,,iptv-org cn,未知,Harbin Movie Channel,https://stream.hrbtv.net/yspd/playlist.m3u8
-哈尔滨娱乐,黑龙江,黑龙江,哈尔滨,7,存活,200,96,,suxuang.m3u,标清,哈尔滨娱乐,http://stream.hrbtv.net/ylpd/sd/live.m3u8?zheild
-哈尔滨娱乐,黑龙江,黑龙江,哈尔滨,8,存活,200,342,,vbskycn.m3u,标清,哈尔滨娱乐,https://stream.hrbtv.net/ylpd/sd/live.m3u8
-哈尔滨娱乐,黑龙江,黑龙江,哈尔滨,9,失效,0,9999,,ibert_all.m3u,未知,[VGA]哈尔滨娱乐,https://stream1.freetv.fun/2bbb83987353f278de8023703a2c974ccdd5042777367191c1b91edaeab5eedd.m3u8
-哈尔滨影视,黑龙江,黑龙江,哈尔滨,10,存活,200,98,,suxuang.m3u,标清,哈尔滨影视,http://stream.hrbtv.net/yspd/sd/live.m3u8?zheild
-哈尔滨影视,黑龙江,黑龙江,哈尔滨,11,存活,200,311,,iptvorg_cn.m3u,标清,Harbin Movie Channel,https://stream.hrbtv.net/yspd/playlist.m3u8
-哈尔滨影视,黑龙江,黑龙江,哈尔滨,12,失效,0,9999,,ibert_all.m3u,未知,[VGA]哈尔滨影视,https://stream1.freetv.fun/b681acfb3d9cf5bc9d056d8513a6f1ef9ead223fe349f541e02a39edfabbd88a.m3u8
-哈尔滨新闻综合,黑龙江,黑龙江,哈尔滨,13,存活,200,101,,suxuang.m3u,标清,哈尔滨新闻综合,http://stream.hrbtv.net/xwzh/sd/live.m3u8?zheild
-哈尔滨新闻综合,黑龙江,黑龙江,哈尔滨,14,存活,200,287,,iptvorg_cn.m3u,标清,Harbin Comprehensive News Channel,https://stream.hrbtv.net/xwzh/playlist.m3u8?_upt=ef41dd531755913594
-哈尔滨新闻综合,黑龙江,黑龙江,哈尔滨,15,失效,0,9999,,ibert_all.m3u,未知,[VGA]哈尔滨新闻综合,https://stream1.freetv.fun/585b0e84823ffa37063309a0324233793a3def0cc6b723df90478b5facd1c92a.m3u8
-哈尔滨新闻综合,黑龙江,黑龙江,哈尔滨,16,失效,0,9999,,Guovin iptv-api result(存活校验),未知,哈尔滨新闻综合,https://stream1.freetv.fun/ha-er-bin-xin-wen-zong-he-4.m3u8
-哈尔滨生活,黑龙江,黑龙江,哈尔滨,17,存活,200,118,,suxuang.m3u,标清,哈尔滨生活,http://stream.hrbtv.net/shpd/sd/live.m3u8?zheild
-哈尔滨资讯,黑龙江,黑龙江,哈尔滨,18,存活,200,92,,vbskycn.m3u,标清,哈尔滨资讯,http://stream.hrbtv.net/zxpd/sd/live.m3u8
-哈尔滨都市咨询,黑龙江,黑龙江,哈尔滨,19,存活,200,99,,suxuang.m3u,标清,哈尔滨都市咨询,http://stream.hrbtv.net/zxpd/sd/live.m3u8?zheild
-大庆新闻综合,黑龙江,黑龙江,,20,失效,0,9999,,Guovin iptv-api result(存活校验),未知,大庆新闻综合,https://stream1.freetv.fun/da-qing-xin-wen-zong-he-1.m3u8
-甘南县综合,黑龙江,黑龙江,,21,存活,200,289,,vbskycn iptv4,未知,甘南县综合,https://stream.hrbtv.net/zxpd/sd/live.m3u8
-鹤岗新闻综合,黑龙江,黑龙江,,22,失效,0,9999,,Guovin iptv-api result(存活校验),未知,鹤岗新闻综合,http://[2409:8087:1a01:df::4059]:80/TVOD/88888888/224/3221226073/main.m3u8
-鹤岗新闻综合,黑龙江,黑龙江,,23,失效,0,9999,,Guovin iptv-api result(存活校验),未知,鹤岗新闻综合,http://[2409:8087:1a01:df::4060]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226534/index.m3u8
-鹤岗新闻综合,黑龙江,黑龙江,,24,失效,0,9999,,Guovin iptv-api result(存活校验),未知,鹤岗新闻综合,http://[2409:8087:1a01:df::4060]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226534/index.m3u8
-黑龙江 (1080p),黑龙江,黑龙江,,25,失效,0,9999,,iptv-org cn,1080P,黑龙江 (1080p),http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221227492/index.m3u8
-黑龙江 (1080p),黑龙江,黑龙江,,26,失效,0,9999,,iptv-org cn,未知,黑龙江 (576p),http://183.207.248.71/gitv/live1/G_HEILONGJIANG/G_HEILONGJIANG
-黑龙江Heilongjiang TV,黑龙江,黑龙江,,27,失效,0,9999,,iptv-org cn(github.io),1080P,Heilongjiang TV (1080p),http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221227492/index.m3u8
-黑龙江公共农村,黑龙江,黑龙江,,28,失效,0,9999,,suxuang.m3u,未知,黑龙江公共农村,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225994/index.m3u8
-黑龙江卫 (1080p),黑龙江,黑龙江,,29,失效,0,9999,,iptv-org cn,1080P,黑龙江卫 (1080p),http://183.207.248.71/cntv/live1/HD-2500k-1080P-heilongjiangstv/HD-2500k-1080P-heilongjiangstv
-黑龙江少儿,黑龙江,黑龙江,,30,存活,200,175,,vbskycn.m3u,4K,黑龙江少儿,https://ls.qingting.fm/live/4972/64k.m3u8
-黑龙江少儿,黑龙江,黑龙江,,31,失效,0,9999,,suxuang.m3u,未知,黑龙江少儿,http://39.134.182.166/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221226304/index.m3u8
-黑龙江少儿,黑龙江,黑龙江,,32,失效,0,9999,,suxuang.m3u,未知,黑龙江少儿,http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226304/index.m3u8
-黑龙江少儿,黑龙江,黑龙江,,33,失效,0,9999,,Guovin iptv-api result(存活校验),未知,黑龙江少儿,https://stream1.freetv.fun/hei-long-jiang-shao-er-8.m3u8
-黑龙江少儿,黑龙江,黑龙江,,34,失效,0,9999,,Guovin iptv-api result(存活校验),未知,黑龙江少儿,https://stream1.freetv.fun/hei-long-jiang-shao-er-2.m3u8
-黑龙江影视,黑龙江,黑龙江,,35,失效,0,9999,,suxuang.m3u,未知,黑龙江影视,http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226298/index.m3u8
-黑龙江影视,黑龙江,黑龙江,,36,失效,0,9999,,Guovin iptv-api result(存活校验),未知,黑龙江影视,https://stream1.freetv.fun/hei-long-jiang-ying-shi-1.m3u8
-黑龙江影视,黑龙江,黑龙江,,37,失效,0,9999,,Guovin iptv-api result(存活校验),未知,黑龙江影视,https://stream1.freetv.fun/hei-long-jiang-ying-shi-7.m3u8
-黑龙江影视,黑龙江,黑龙江,,38,失效,0,9999,,Guovin iptv-api result(存活校验),未知,黑龙江影视,https://stream1.freetv.fun/hei-long-jiang-ying-shi-8.m3u8
-黑龙江文体,黑龙江,黑龙江,,39,存活,200,2760,,vbskycn.m3u,未知,黑龙江文体,https://idclive.hljtv.com:4430/live/hljwy_hd.m3u8
-黑龙江文体,黑龙江,黑龙江,,40,失效,0,9999,,suxuang.m3u,未知,黑龙江文体,http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226239/index.m3u8
-黑龙江文体,黑龙江,黑龙江,,41,失效,0,9999,,Guovin iptv-api result(存活校验),未知,黑龙江文体,http://[2409:8087:1a01:df::4025]:80/TVOD/88888888/224/3221225965/main.m3u8
-黑龙江文体,黑龙江,黑龙江,,42,失效,0,9999,,Guovin iptv-api result(存活校验),未知,黑龙江文体,https://stream1.freetv.fun/hei-long-jiang-wen-ti-7.m3u8
-黑龙江文体,黑龙江,黑龙江,,43,失效,0,9999,,Guovin iptv-api result(存活校验),未知,黑龙江文体,https://stream1.freetv.fun/hei-long-jiang-wen-ti-1.m3u8
-黑龙江文体,黑龙江,黑龙江,,44,失效,0,9999,,Guovin iptv-api result(存活校验),未知,黑龙江文体,https://stream1.freetv.fun/hei-long-jiang-wen-ti-9.m3u8
-黑龙江新闻,黑龙江,黑龙江,,45,存活,200,73,,vbskycn.m3u,4K,黑龙江新闻,https://ls.qingting.fm/live/4974/64k.m3u8
-黑龙江新闻,黑龙江,黑龙江,,46,失效,0,9999,,suxuang ipv4,未知,黑龙江新闻法治,http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226330/index.m3u8
-黑龙江新闻,黑龙江,黑龙江,,47,失效,0,9999,,Guovin iptv-api result(存活校验),未知,黑龙江新闻,https://fenghuang.tv12.xyz/66.m3u8
-黑龙江新闻,黑龙江,黑龙江,,48,失效,0,9999,,Guovin iptv-api result(存活校验),未知,黑龙江新闻,https://stream1.freetv.fun/hei-long-jiang-xin-wen-9.m3u8
-黑龙江新闻法治,黑龙江,黑龙江,,49,失效,0,9999,,suxuang.m3u,未知,黑龙江新闻法治,http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226330/index.m3u8
-黑龙江新闻法治,黑龙江,黑龙江,,50,失效,0,9999,,Guovin iptv-api result(存活校验),未知,黑龙江新闻法治,https://stream1.freetv.fun/hei-long-jiang-xin-wen-fa-zhi-6.m3u8
-黑龙江新闻法治,黑龙江,黑龙江,,51,失效,0,9999,,Guovin iptv-api result(存活校验),未知,黑龙江新闻法治,https://stream1.freetv.fun/hei-long-jiang-xin-wen-fa-zhi-4.m3u8
-黑龙江新闻法治,黑龙江,黑龙江,,52,失效,0,9999,,Guovin iptv-api result(存活校验),未知,黑龙江新闻法治,https://stream1.freetv.fun/hei-long-jiang-xin-wen-fa-zhi-7.m3u8
-黑龙江新闻法治,黑龙江,黑龙江,,53,失效,0,9999,,Guovin iptv-api result(存活校验),未知,黑龙江新闻法治,https://stream1.freetv.fun/hei-long-jiang-xin-wen-fa-zhi-5.m3u8
-黑龙江综合,黑龙江,黑龙江,,54,失效,0,9999,,iptvorg_cn.m3u,1080P,Heilongjiang TV (1080p),http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221227492/index.m3u8
-黑龙江视,黑龙江,黑龙江,,55,失效,0,9999,,suxuang ipv4,未知,黑龙江视,https://zby.130519.xyz/PLTV/11/224/3221225722/index.m3u8
-黑龙江都市,黑龙江,黑龙江,,56,存活,200,2713,,vbskycn.m3u,未知,黑龙江都市,https://idclive.hljtv.com:4430/live/dushi_hd.m3u8
-黑龙江都市,黑龙江,黑龙江,,57,失效,0,9999,,suxuang.m3u,未知,黑龙江都市,http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226301/index.m3u8
-黑龙江都市,黑龙江,黑龙江,,58,失效,0,9999,,Guovin iptv-api result(存活校验),未知,黑龙江都市,http://[2409:8087:1a01:df::4025]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226301/1.m3u8
-黑龙江都市,黑龙江,黑龙江,,59,失效,0,9999,,Guovin iptv-api result(存活校验),未知,黑龙江都市,http://[2409:8087:1a01:df::4055]:80/TVOD/88888888/224/3221225969/main.m3u8
-黑龙江都市,黑龙江,黑龙江,,60,失效,0,9999,,Guovin iptv-api result(存活校验),未知,黑龙江都市,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226301/1.m3u8
-黑龙江都市,黑龙江,黑龙江,,61,失效,0,9999,,Guovin iptv-api result(存活校验),未知,黑龙江都市,https://stream1.freetv.fun/hei-long-jiang-du-shi-7.m3u8
-齐齐哈尔新闻综合,黑龙江,黑龙江,,62,失效,0,9999,,Guovin iptv-api result(存活校验),未知,齐齐哈尔新闻综合,http://php.jdshipin.com/TVOD/hljyd.php?id=3221226437
-齐齐哈尔新闻综合,黑龙江,黑龙江,,63,失效,0,9999,,Guovin iptv-api result(存活校验),未知,齐齐哈尔新闻综合,http://[2409:8087:1a15:10d1::31]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226437/index.m3u8
-齐齐哈尔新闻综合,黑龙江,黑龙江,,64,失效,0,9999,,Guovin iptv-api result(存活校验),未知,齐齐哈尔新闻综合,https://stream1.freetv.fun/ipv6-qi-qi-ha-er-xin-wen-zong-he-3.m3u8
+﻿分组,频道,线路数,存活,失效,官方,最佳线路,ID
+黑龙江,HarbinComprehensiveNewsChann,1,1,0,0,https://stream.hrbtv.net/xwzh/playlist.m3u8?_upt=ef41dd531755913594,harbincomprehensivenewschannel
+黑龙江,HarbinMovieChannel,1,1,0,0,https://stream.hrbtv.net/yspd/playlist.m3u8,harbinmoviechannel
+黑龙江,HeilongjiangTV(1080p),1,0,1,0,,heilongjiangtv
+黑龙江,七台河新闻综合,1,1,0,0,http://live.qthnews.org.cn:1935/live/live1/800k/tzwj_video.m3u8,七台河新闻综合
+黑龙江,七台河民生社教,2,0,2,0,,七台河民生社教
+黑龙江,哈尔滨娱乐,3,1,2,0,http://stream.hrbtv.net/ylpd/sd/live.m3u8?zheild,哈尔滨娱乐
+黑龙江,哈尔滨影视,2,1,1,0,http://stream.hrbtv.net/yspd/sd/live.m3u8?zheild,哈尔滨影视
+黑龙江,哈尔滨新闻综合,3,1,2,0,http://stream.hrbtv.net/xwzh/sd/live.m3u8?zheild,哈尔滨新闻综合
+黑龙江,哈尔滨生活,1,1,0,0,http://stream.hrbtv.net/shpd/sd/live.m3u8?zheild,哈尔滨生活
+黑龙江,哈尔滨资讯,1,1,0,0,http://stream.hrbtv.net/zxpd/sd/live.m3u8,哈尔滨资讯
+黑龙江,大庆新闻综合,1,0,1,0,,大庆新闻综合
+黑龙江,甘南县综合,1,1,0,0,https://stream.hrbtv.net/zxpd/sd/live.m3u8,甘南县综合
+黑龙江,鹤岗新闻综合,3,0,3,0,,鹤岗新闻综合
+黑龙江,黑龙江(576p),1,0,1,0,,黑龙江
+黑龙江,黑龙江农业科教,1,0,1,0,,黑龙江农业科教
+黑龙江,黑龙江卫(1080p),1,0,1,0,,黑龙江卫
+黑龙江,黑龙江少儿,5,1,4,0,https://ls.qingting.fm/live/4972/64k.m3u8,黑龙江少儿
+黑龙江,黑龙江影视,4,0,4,0,,黑龙江影视
+黑龙江,黑龙江文体,6,1,5,0,https://idclive.hljtv.com:4430/live/hljwy_hd.m3u8,黑龙江文体
+黑龙江,黑龙江新闻,4,1,3,0,https://ls.qingting.fm/live/4974/64k.m3u8,黑龙江新闻
+黑龙江,黑龙江新闻法治,4,0,4,0,,黑龙江新闻法治
+黑龙江,黑龙江视,1,0,1,0,,黑龙江视
+黑龙江,黑龙江都市,6,1,5,0,https://idclive.hljtv.com:4430/live/dushi_hd.m3u8,黑龙江都市
+黑龙江,齐齐哈尔新闻综合,3,0,3,0,,齐齐哈尔新闻综合

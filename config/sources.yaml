@@ -177,3 +177,35 @@ sources:
         url: "https://stream2.jlntv.cn/jlws/sd/live.m3u8"
       - name: "白城新闻综合"
         url: "https://stream2.jlntv.cn/baicheng1/sd/live.m3u8"
+
+  # ---- SparkTV 默认订阅地址清单（11 个唯一公开源，2026-11-25）----
+  # 来自 SparkTV/app/src/main/java/com/spark/tv/data/ChannelRepository.kt
+  # 由 SparkTV-默认订阅地址清单.md 汇总去重；与上方源互补，URL 级去重。
+  - name: sparktv-bestfan-all
+    urls: ["https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all_status.m3u8"]
+  - name: sparktv-bestfan-province
+    urls: ["https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_province_status.m3u8"]
+  - name: sparktv-bestfan-cctv
+    urls: ["https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_cctv_status.m3u8"]
+  - name: sparktv-yang1989-gather
+    urls: ["https://raw.githubusercontent.com/yanG-1989/m3u/main/Gather.m3u"]
+  - name: sparktv-suxuang-ipv4
+    urls: ["https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u"]
+  - name: sparktv-vbskycn-ipv4
+    urls: ["https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u"]
+  - name: sparktv-iptvorg-cn
+    urls: ["https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u"]
+  - name: sparktv-iptvorg-page
+    urls: ["https://iptv-org.github.io/iptv/countries/cn.m3u"]
+  - name: sparktv-ssili126
+    urls: ["https://raw.githubusercontent.com/ssili126/tv/main/itvlist.m3u"]
+  - name: sparktv-guovin-api
+    urls: ["https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"]
+  - name: sparktv-bestk
+    urls: ["https://raw.githubusercontent.com/bestK/iptv/main/iptv.m3u"]
+
+  # ---- 内置离线频道库（channels.json，SparkTV assets 2026-11-17）----
+  # 作为一路源参与聚合：其频道与线路进入统一去重/归类/检活/置顶流水线。
+  - name: builtin-channels-json
+    type: builtin
+    path: channels.json

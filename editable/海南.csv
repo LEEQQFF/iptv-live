@@ -1,40 +1,6 @@
-﻿频道,分组,省份,城市,序号,检活,HTTP,延迟ms,官方,来源,画质,标识,URL
-三沙卫视,海南,海南,,1,存活,200,1150,,bf_all_status.m3u8,标清,三沙卫视,http://38.75.136.137:98/gslb/dsdqpub/ssws.m3u8?auth=testpub
-三沙卫视,海南,海南,,2,失效,0,9999,,bf_all_status.m3u8,标清,三沙卫视,http://107.150.60.122/live/ssws.m3u8
-三沙卫视,海南,海南,,3,失效,404,9999,,suxuang.m3u,未知,三沙卫视,http://nn.7x9d.cn/地方台8563/海南.php?id=ssws
-三沙卫视,海南,海南,,4,失效,0,9999,,ibert_all.m3u,未知,[BD]三沙卫视,https://stream1.freetv.fun/fd1abacd02d10bf9e60b98fdc292704eefa30cff9e4eb0816eec3156e687c991.ctv
-三沙卫视,海南,海南,,5,失效,0,9999,,Guovin iptv-api result(存活校验),未知,三沙卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=ssws
-三沙卫视,海南,海南,,6,失效,0,9999,,Guovin iptv-api result(存活校验),未知,三沙卫视,http://198.204.228.26/live/ssws.m3u8
-三沙卫视,海南,海南,,7,失效,403,9999,,bestK iptv,未知,三沙卫视,https://srs.ssws.tv/video/sstv-10/index.m3u8
-东方财经,海南,海南,,8,失效,0,9999,,suxuang ipv4,未知,东方财经,https://zby.130519.xyz/PLTV/11/224/3221226134/index.m3u8
-东方财经,海南,海南,,9,失效,0,9999,,suxuang ipv4,未知,东方财经,http://111.22.153.159:35455/itv/5000000007000010003.m3u8?cdn=bestzb
-海南公共,海南,海南,,10,失效,404,9999,,suxuang.m3u,未知,海南公共,http://nn.7x9d.cn/地方台8563/海南.php?id=ggpd
-海南公共,海南,海南,,11,失效,0,9999,,Guovin iptv-api result(存活校验),未知,海南公共,https://migu.188766.xyz/?migutoken=9b74a05ac3e7b51beecb305c9c7c22b4&id=hn_ggpd&type=sz
-海南公共,海南,海南,,12,失效,0,9999,,Guovin iptv-api result(存活校验),未知,海南公共,https://stream1.freetv.fun/ipv6-hai-nan-gong-gong-8.m3u8
-海南公共,海南,海南,,13,失效,0,9999,,Guovin iptv-api result(存活校验),未知,海南公共,https://stream1.freetv.fun/ipv6-hai-nan-gong-gong-9.m3u8
-海南公共,海南,海南,,14,失效,0,9999,,Guovin iptv-api result(存活校验),未知,海南公共,https://migu.188766.xyz/?migutoken=a7038ebf14621b3c5b7d47281fa0ab4c&id=hn_ggpd&type=sz
-海南公共,海南,海南,,15,失效,0,9999,,Guovin iptv-api result(存活校验),未知,海南公共,https://migu.188766.xyz/?migutoken=3a138924186d190af58e01219616242b&id=hn_ggpd&type=sz
-海南少儿,海南,海南,,16,失效,404,9999,,suxuang.m3u,未知,海南少儿,http://nn.7x9d.cn/地方台8563/海南.php?id=sepd
-海南少儿,海南,海南,,17,失效,0,9999,,Guovin iptv-api result(存活校验),未知,海南少儿,https://migu.188766.xyz/?migutoken=6f0f1afceaa5258c040b50b1f89bfdc5&id=hn_sepd&type=sz
-海南少儿,海南,海南,,18,失效,0,9999,,Guovin iptv-api result(存活校验),未知,海南少儿,https://migu.188766.xyz/?migutoken=2d0b3796b93c0d0a9068434e65cbce37&id=hn_sepd&type=sz
-海南少儿,海南,海南,,19,失效,0,9999,,Guovin iptv-api result(存活校验),未知,海南少儿,https://migu.188766.xyz/?migutoken=9c9969bee01e9a37dca68dd16df63e65&id=hn_sepd&type=sz
-海南少儿,海南,海南,,20,失效,0,9999,,Guovin iptv-api result(存活校验),未知,海南少儿,https://migu.188766.xyz/?migutoken=0c9220e89aa5bb92fd25dbc47f73c650&id=hn_sepd&type=sz
-海南少儿,海南,海南,,21,失效,0,9999,,Guovin iptv-api result(存活校验),未知,海南少儿,https://migu.188766.xyz/?migutoken=7827d9fc7bedc235d7359a1ccc57a032&id=hn_sepd&type=sz
-海南文旅,海南,海南,,22,失效,404,9999,,suxuang.m3u,未知,海南文旅,http://nn.7x9d.cn/地方台8563/海南.php?id=wlpd
-海南文旅,海南,海南,,23,失效,0,9999,,Guovin iptv-api result(存活校验),未知,海南文旅,https://migu.188766.xyz/?migutoken=c9c9f8b653c1e1e8219e116f7e481879&id=hn_wlpd&type=sz
-海南文旅,海南,海南,,24,失效,0,9999,,Guovin iptv-api result(存活校验),未知,海南文旅,https://stream1.freetv.fun/ipv6-hai-nan-wen-lu-7.m3u8
-海南文旅,海南,海南,,25,失效,0,9999,,Guovin iptv-api result(存活校验),未知,海南文旅,https://stream1.freetv.fun/ipv6-hai-nan-wen-lu-9.m3u8
-海南文旅,海南,海南,,26,失效,0,9999,,Guovin iptv-api result(存活校验),未知,海南文旅,https://migu.188766.xyz/?migutoken=dac1d4aae188058344c7dd4b136f975d&id=hn_wlpd&type=sz
-海南文旅,海南,海南,,27,失效,0,9999,,Guovin iptv-api result(存活校验),未知,海南文旅,https://migu.188766.xyz/?migutoken=a5b4cdf3f9c93a7335e55a109404af67&id=hn_wlpd&type=sz
-海南新闻,海南,海南,,28,存活,200,99,,vbskycn.m3u,未知,海南新闻,http://ls.qingting.fm/live/1861.m3u8
-海南新闻,海南,海南,,29,失效,404,9999,,suxuang.m3u,未知,海南新闻,http://nn.7x9d.cn/地方台8563/海南.php?id=xwpd
-海南新闻,海南,海南,,30,失效,0,9999,,Guovin iptv-api result(存活校验),未知,海南新闻,https://migu.188766.xyz/?migutoken=410e218b52bfcc506bef1f814d8d3b5f&id=hn_xwpd&type=sz
-海南新闻,海南,海南,,31,失效,0,9999,,Guovin iptv-api result(存活校验),未知,海南新闻,https://stream1.freetv.fun/ipv6-hai-nan-xin-wen-6.m3u8
-海南新闻,海南,海南,,32,失效,0,9999,,Guovin iptv-api result(存活校验),未知,海南新闻,https://migu.188766.xyz/?migutoken=964b97d815e0f15de878a99d3908dd6e&id=hn_xwpd&type=sz
-海南新闻,海南,海南,,33,失效,0,9999,,Guovin iptv-api result(存活校验),未知,海南新闻,https://migu.188766.xyz/?migutoken=98fdcff69572bc92b5e7bcf3e90854a5&id=hn_xwpd&type=sz
-海南自贸,海南,海南,,34,失效,404,9999,,suxuang.m3u,未知,海南自贸,http://nn.7x9d.cn/地方台8563/海南.php?id=jjpd
-海南自贸,海南,海南,,35,失效,0,9999,,Guovin iptv-api result(存活校验),未知,海南自贸,https://migu.188766.xyz/?migutoken=2795391bf2380a7870585be391603d6a&id=hn_jjpd&type=sz
-海南自贸,海南,海南,,36,失效,0,9999,,Guovin iptv-api result(存活校验),未知,海南自贸,https://migu.188766.xyz/?migutoken=45ac9a110c797599551115731cf44df2&id=hn_jjpd&type=sz
-海南自贸,海南,海南,,37,失效,0,9999,,Guovin iptv-api result(存活校验),未知,海南自贸,https://migu.188766.xyz/?migutoken=660a5548e95409c119145c54d487e47e&id=hn_jjpd&type=sz
-海南自贸,海南,海南,,38,失效,0,9999,,Guovin iptv-api result(存活校验),未知,海南自贸,https://migu.188766.xyz/?migutoken=315ad4939096a91be5ce3462b2080323&id=hn_jjpd&type=sz
-海南自贸,海南,海南,,39,失效,0,9999,,Guovin iptv-api result(存活校验),未知,海南自贸,https://migu.188766.xyz/?migutoken=4d8834d7ea1adc0f097aa6a031305918&id=hn_jjpd&type=sz
+﻿分组,频道,线路数,存活,失效,官方,最佳线路,ID
+海南,东方影视,3,0,3,0,,东方影视
+海南,东方财经,2,0,2,0,,东方财经
+海南,海南公共,2,0,2,0,,海南公共
+海南,海南文旅,2,0,2,0,,海南文旅
+海南,海南新闻,2,1,1,0,http://ls.qingting.fm/live/1861.m3u8,海南新闻

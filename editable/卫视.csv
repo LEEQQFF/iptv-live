@@ -1,689 +1,166 @@
-﻿频道,分组,省份,城市,序号,检活,HTTP,延迟ms,官方,来源,画质,标识,URL
-Bingtuan Satellite TV (540p) [Not 24/7],卫视,,,1,失效,0,9999,,iptv-org cn(github.io),未知,Bingtuan Satellite TV (540p) [Not 24/7],http://112.25.48.68/live/program/live/btws/1300000/mnf.m3u8
-上海卫视,卫视,,,2,失效,500,9999,,suxuang ipv4,未知,上海卫视,http://112.27.235.94:8000/hls/28/index.m3u8
-东南卫视,卫视,,,3,存活,200,26,,best-fan 央视卫视地方(每日存活校验),1080P,东南卫视,http://123.160.235.204:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=1&authid=0
-东南卫视,卫视,,,4,存活,200,39,,bf_all_status.m3u8,标清,东南卫视,http://112.123.243.37:50085/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
-东南卫视,卫视,,,5,存活,200,40,,Guovin iptv-api result(存活校验),未知,东南卫视,http://120.76.248.139/live/bfgd/4200000483.m3u8
-东南卫视,卫视,,,6,存活,200,49,,best-fan 央视卫视地方(每日存活校验),未知,东南卫视,http://124.228.160.3:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=1&authid=0
-东南卫视,卫视,,,7,存活,200,227,,best-fan 央视卫视地方(每日存活校验),1080P,东南卫视,http://60.187.246.34:85/tsfile/live/0137_1.m3u8?key=txiptv&playlive=1&authid=0
-东南卫视,卫视,,,8,存活,200,242,,best-fan 央视卫视地方(每日存活校验),未知,东南卫视,http://36.136.38.87:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=1&authid=0
-东南卫视,卫视,,,9,存活,200,1032,,best-fan 央视卫视地方(每日存活校验),1080P,东南卫视,http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
-东南卫视,卫视,,,10,存活,200,1409,,best-fan 央视卫视地方(每日存活校验),1080P,东南卫视,http://101.66.199.74:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=0&authid=0
-东南卫视,卫视,,,11,失效,0,9999,,bf_all_status.m3u8,1080P,东南卫视,http://125.125.236.31:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=1&authid=0
-东南卫视,卫视,,,12,失效,404,9999,,kimentanm.m3u,未知,东南卫视,http://101.35.240.114:88/live.php?id=东南卫视
-东南卫视,卫视,,,13,失效,500,9999,,suxuang.m3u,未知,东南卫视,http://112.27.235.94:8000/hls/38/index.m3u8
-东南卫视,卫视,,,14,失效,0,9999,,suxuang.m3u,未知,东南卫视,http://148.135.93.213/live.php?id=东南卫视
-东南卫视,卫视,,,15,失效,502,9999,,suxuang.m3u,未知,东南卫视,http://8.138.7.223/tv/fjtv1.php?id=dnws
-东南卫视,卫视,,,16,失效,0,9999,,suxuang.m3u,未知,东南卫视,http://iptv.huuc.edu.cn/hls/dnhd.m3u8
-东南卫视,卫视,,,17,失效,0,9999,,suxuang.m3u,未知,东南卫视,http://t.061899.xyz/tl/tl.php?id=dnws
-东南卫视,卫视,,,18,失效,0,9999,,ibert_all.m3u,未知,[BD]东南卫视,https://stream1.freetv.fun/3ad6599415990b0f15bec3d681fb934f53a2f82aac7584375237a83573efe5c7.m3u8
-东南卫视,卫视,,,19,失效,0,9999,,suxuang.m3u,未知,东南卫视,https://zby.130519.xyz/PLTV/11/224/3221225745/index.m3u8
-东南卫视,卫视,,,20,失效,0,9999,,best-fan 央视卫视地方(每日存活校验),1080P,东南卫视,http://101.66.198.220:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=0&authid=0
-东南卫视,卫视,,,21,失效,0,9999,,Guovin iptv-api result(存活校验),未知,东南卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=dnwshd
-东南卫视,卫视,,,22,失效,0,9999,,Guovin iptv-api result(存活校验),未知,东南卫视,http://107.150.60.122/live/dnwshd.m3u8
-东南卫视,卫视,,,23,失效,0,9999,,Guovin iptv-api result(存活校验),未知,东南卫视,http://38.75.136.137:98/gslb/dsdqpub/dnwshd.m3u8?auth=testpub
-东南卫视,卫视,,,24,失效,0,9999,,bestK iptv,未知,东南卫视,https://live1-fuyun.fjtv.net/dnpd/hd/live.m3u8?_upt=2eac20b51771394846
-东方卫视,卫视,,,25,存活,200,73,是,suxuang.m3u,4K,东方卫视4K,http://bp-resource-dfl.bestv.cn/148/3/video.m3u8
-东方卫视,卫视,,,26,存活,200,109,是,bf_all_status.m3u8,1080P,东方卫视,http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
-东方卫视,卫视,,,27,存活,200,140,是,vbskycn.m3u,4K,东方卫视4K,https://bp-resource-dfl.bestv.cn/148/3/video.m3u8
-东方卫视,卫视,,,28,存活,200,22,,best-fan 央视卫视地方(每日存活校验),1080P,东方卫视,http://123.160.235.204:9901/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
-东方卫视,卫视,,,29,存活,200,28,,bf_all_status.m3u8,1080P,东方卫视,http://113.57.140.161:10081/newlive/live/hls/29/live.m3u8
-东方卫视,卫视,,,30,存活,200,35,,best-fan 央视卫视地方(每日存活校验),未知,东方卫视,http://124.228.160.3:9901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
-东方卫视,卫视,,,31,存活,200,49,,bf_all_status.m3u8,1080P,东方卫视,http://112.123.243.37:50085/tsfile/live/0124_1.m3u8?key=txiptv&playlive=0&authid=0
-东方卫视,卫视,,,32,存活,200,121,,best-fan 央视卫视地方(每日存活校验),1080P,东方卫视,http://221.7.175.154:8445/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
-东方卫视,卫视,,,33,存活,200,1127,,best-fan 央视卫视地方(每日存活校验),1080P,东方卫视,http://101.66.199.74:9901/tsfile/live/0018_1.m3u8?key=txiptv&playlive=0&authid=0
-东方卫视,卫视,,,34,存活,200,1646,,Guovin iptv-api result(存活校验),未知,东方卫视,http://38.75.136.137:98/gslb/dsdqpub/dfwshd.m3u8?auth=testpub
-东方卫视,卫视,,,35,失效,404,9999,,kimentanm.m3u,4K,东方卫视4K,http://101.35.240.114:88/live.php?id=东方卫视4K
-东方卫视,卫视,,,36,失效,0,9999,,suxuang.m3u,1080P,东方卫视,http://iptv.huuc.edu.cn/hls/dfhd.m3u8
-东方卫视,卫视,,,37,失效,404,9999,,kimentanm.m3u,未知,东方卫视,http://101.35.240.114:88/live.php?id=东方卫视
-东方卫视,卫视,,,38,失效,0,9999,,suxuang.m3u,未知,东方卫视,http://t.061899.xyz/tl/tl.php?id=dfws
-东方卫视,卫视,,,39,失效,0,9999,,ibert_all.m3u,未知,[BD]东方卫视,https://stream1.freetv.fun/936a731d0f0738a903c2968c7e4d48c09cc4bf042ad218afe2d91decd1032359.m3u8
-东方卫视,卫视,,,40,失效,0,9999,,suxuang.m3u,未知,东方卫视,https://zby.130519.xyz/PLTV/11/224/3221225725/index.m3u8
-东方卫视,卫视,,,41,失效,0,9999,,best-fan 央视卫视地方(每日存活校验),1080P,东方卫视,http://101.66.198.220:9901/tsfile/live/0018_1.m3u8?key=txiptv&playlive=0&authid=0
-东方卫视,卫视,,,42,失效,0,9999,,Guovin iptv-api result(存活校验),未知,东方卫视,http://38.75.136.137:98/gslb/dsdqbv/dfwshd.m3u8?auth=test20251009
-东方卫视,卫视,,,43,失效,0,9999,,Guovin iptv-api result(存活校验),未知,东方卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=dfwshd
-东方卫视,卫视,,,44,失效,0,9999,,Guovin iptv-api result(存活校验),未知,东方卫视,http://107.150.60.122/live/dfwshd.m3u8
-东方卫视,卫视,,,45,失效,404,9999,,Guovin iptv-api result(存活校验),未知,东方卫视,https://txmov2.a.kwimgs.com/bs3/video-hls/5219953535631090825_hlsb.m3u8
-云南卫视,卫视,,,46,存活,200,21,,best-fan 央视卫视地方(每日存活校验),1080P,云南卫视,http://123.160.235.204:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=1&authid=0
-云南卫视,卫视,,,47,存活,200,38,,bf_all_status.m3u8,标清,云南卫视,http://112.123.243.37:50085/tsfile/live/0117_1.m3u8?key=txiptv&playlive=0&authid=0
-云南卫视,卫视,,,48,存活,200,41,,Guovin iptv-api result(存活校验),未知,云南卫视,http://120.76.248.139/live/bfgd/4200000482.m3u8
-云南卫视,卫视,,,49,存活,200,47,,bf_all_status.m3u8,标清,云南卫视,http://222.169.85.8:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=1&authid=0
-云南卫视,卫视,,,50,存活,200,112,,best-fan 央视卫视地方(每日存活校验),未知,云南卫视,http://36.136.38.87:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=1&authid=0
-云南卫视,卫视,,,51,存活,200,197,,best-fan 央视卫视地方(每日存活校验),未知,云南卫视,http://101.66.195.24:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0
-云南卫视,卫视,,,52,存活,200,206,,best-fan 央视卫视地方(每日存活校验),未知,云南卫视,http://101.66.199.175:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0
-云南卫视,卫视,,,53,存活,200,221,,best-fan 央视卫视地方(每日存活校验),未知,云南卫视,http://119.39.9.8:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0
-云南卫视,卫视,,,54,存活,200,291,,best-fan 央视卫视地方(每日存活校验),未知,云南卫视,http://101.66.198.117:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0
-云南卫视,卫视,,,55,存活,200,1085,,best-fan 央视卫视地方(每日存活校验),未知,云南卫视,http://101.66.199.74:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0
-云南卫视,卫视,,,56,失效,0,9999,,iptvorg_cn.m3u,1080P,Yunnan Satellite TV (1080p),https://hwapi.yunshicloud.com/8xughf/e0bx15.m3u8
-云南卫视,卫视,,,57,失效,0,9999,,bf_all_status.m3u8,标清,云南卫视,http://125.125.236.31:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=1&authid=0
-云南卫视,卫视,,,58,失效,0,9999,,iptvorg_cn2.m3u,标清,云南卫视 (576p) [Not 24/7],http://183.207.248.71/cntv/live1/yunnanstv/yunnanstv
-云南卫视,卫视,,,59,失效,0,9999,,iptvorg_cn2.m3u,标清,云南卫视 (576p),http://183.207.248.71/gitv/live1/G_YUNNAN/G_YUNNAN
-云南卫视,卫视,,,60,失效,0,9999,,iptvorg_cn2.m3u,标清,云南卫视 (576p),http://223.110.245.157/ott.js.chinamobile.com/PLTV/3/224/3221225591/index.m3u8
-云南卫视,卫视,,,61,失效,0,9999,,iptvorg_cn2.m3u,标清,云南卫视 (576p),http://223.110.245.159/ott.js.chinamobile.com/PLTV/3/224/3221225838/index.m3u8
-云南卫视,卫视,,,62,失效,0,9999,,iptvorg_cn2.m3u,标清,云南卫视 (576p),http://223.110.245.173/PLTV/4/224/3221225838/index.m3u8
-云南卫视,卫视,,,63,失效,0,9999,,iptvorg_cn2.m3u,标清,云南卫视 (576p),http://39.134.115.163:8080/PLTV/88888910/224/3221225664/index.m3u8
-云南卫视,卫视,,,64,失效,0,9999,,ibert_all.m3u,标清,[SD]云南卫视,https://stream1.freetv.fun/368e59cc43274d4c5380dfd940d1f40ee03a4b9cb5b1648b01c42b47f2516d8b.m3u8
-云南卫视,卫视,,,65,失效,500,9999,,suxuang.m3u,未知,云南卫视,http://112.27.235.94:8000/hls/40/index.m3u8
-云南卫视,卫视,,,66,失效,404,9999,,suxuang.m3u,未知,"tvg-id=""云南卫视"" tvg-name=""云南卫视"" tvg-logo=""",http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovL3d3dy5kc2suY2MvcGhwL3N4Z2QucGhwP2lkPXlud3M=
-云南卫视,卫视,,,67,失效,0,9999,,suxuang.m3u,未知,云南卫视,http://t.061899.xyz/tl/tl.php?id=ynws
-云南卫视,卫视,,,68,失效,0,9999,,best-fan 央视卫视地方(每日存活校验),未知,云南卫视,http://101.66.198.220:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0
-云南卫视,卫视,,,69,失效,0,9999,,best-fan 央视卫视地方(每日存活校验),未知,云南卫视,http://101.66.195.84:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0
-云南卫视,卫视,,,70,失效,0,9999,,suxuang ipv4,未知,云南卫视,https://zby.130519.xyz/PLTV/11/224/3221226109/index.m3u8
-云南卫视,卫视,,,71,失效,0,9999,,Guovin iptv-api result(存活校验),未知,云南卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=ynwshd
-云南卫视,卫视,,,72,失效,0,9999,,Guovin iptv-api result(存活校验),未知,云南卫视,http://192.151.150.154/live/ynwshd.m3u8
-云南卫视,卫视,,,73,失效,0,9999,,Guovin iptv-api result(存活校验),未知,云南卫视,http://107.150.60.122/live/ynwshd.m3u8
-内蒙古卫视,卫视,,,74,存活,200,35,,suxuang.m3u,未知,内蒙古卫视,http://120.76.248.139/live/bfgd/4200000110.m3u8
-内蒙古卫视,卫视,,,75,存活,200,68,,best-fan 央视卫视地方(每日存活校验),1080P,内蒙古卫视,http://222.71.55.147:9901/tsfile/live/0109_1.m3u8?key=txiptv&playlive=0&authid=0
-内蒙古卫视,卫视,,,76,存活,200,69,,best-fan 央视卫视地方(每日存活校验),1080P,内蒙古卫视,http://222.71.55.147:85/tsfile/live/0109_1.m3u8?key=txiptv&playlive=0&authid=0
-内蒙古卫视,卫视,,,77,存活,200,77,,best-fan 央视卫视地方(每日存活校验),未知,内蒙古卫视,http://118.193.115.2:9901/tsfile/live/0109_1.m3u8?key=txiptv&playlive=1&authid=0
-内蒙古卫视,卫视,,,78,存活,200,144,,vbskycn.m3u,未知,内蒙古卫视,http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
-内蒙古卫视,卫视,,,79,存活,200,270,,best-fan 央视卫视地方(每日存活校验),未知,内蒙古卫视,http://218.13.170.98:9901/tsfile/live/0109_1.m3u8?key=txiptv&playlive=1&authid=0
-内蒙古卫视,卫视,,,80,失效,0,9999,,ibert_all.m3u,720P,[HD]内蒙古卫视,https://stream1.freetv.fun/1e5dc1f802d7775ea9cde7b7b874b914365797c6718c5e95448aa26648e136e6.m3u8
-内蒙古卫视,卫视,,,81,失效,0,9999,,iptvorg_cn2.m3u,标清,内蒙古卫视 (576p),http://117.169.120.140:8080/live/neimenggustv/.m3u8
-内蒙古卫视,卫视,,,82,失效,0,9999,,bf_all_status.m3u8,标清,内蒙古卫视,http://183.10.180.46:9901/tsfile/live/0109_1.m3u8?key=txiptv&playlive=1&authid=0
-内蒙古卫视,卫视,,,83,失效,0,9999,,iptvorg_cn2.m3u,标清,内蒙古卫视 (576p),http://183.207.248.71/gitv/live1/G_NEIMENGGU/G_NEIMENGGU
-内蒙古卫视,卫视,,,84,失效,0,9999,,iptvorg_cn2.m3u,标清,内蒙古 (576p),http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221225836/index.m3u8
-内蒙古卫视,卫视,,,85,失效,0,9999,,iptvorg_cn2.m3u,标清,内蒙古卫视 (576p),http://223.110.245.173/PLTV/4/224/3221225836/index.m3u8
-内蒙古卫视,卫视,,,86,失效,0,9999,,iptvorg_cn2.m3u,标清,内蒙古卫视 (576p),http://39.134.115.163:8080/PLTV/88888910/224/3221225667/index.m3u8
-内蒙古卫视,卫视,,,87,失效,404,9999,,kimentanm.m3u,未知,内蒙古卫视,http://101.35.240.114:88/live.php?id=内蒙古卫视
-内蒙古卫视,卫视,,,88,失效,500,9999,,suxuang.m3u,未知,内蒙古卫视,http://112.27.235.94:8000/hls/49/index.m3u8
-内蒙古卫视,卫视,,,89,失效,0,9999,,suxuang.m3u,未知,内蒙古卫视,http://t.061899.xyz/tl/tl.php?id=nmws
-内蒙古卫视,卫视,,,90,失效,403,9999,,suxuang.m3u,未知,蒙语卫视,https://livestream-bt.nmtv.cn/nmtv/2315general.m3u8?txSecret=4971666599ef9411629213c9a300bf66&txTime=771EF880
-内蒙古卫视,卫视,,,91,失效,0,9999,,Guovin iptv-api result(存活校验),未知,内蒙古卫视,https://live.264788.xyz/channel/neimengguweishi?streamid=81a015dbecf3031d7d847b7a9b059f67&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-内蒙古卫视,卫视,,,92,失效,0,9999,,Guovin iptv-api result(存活校验),未知,内蒙古卫视,https://live.264788.xyz/channel/neimengguweishi?streamid=3e7340acf8869ac1c7dad1bb836dcd35&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-内蒙古卫视,卫视,,,93,失效,0,9999,,Guovin iptv-api result(存活校验),未知,内蒙古卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=nmgws
-内蒙古卫视,卫视,,,94,失效,0,9999,,Guovin iptv-api result(存活校验),未知,内蒙古卫视,http://107.150.60.122/live/nmgws.m3u8
-内蒙古蒙语卫视,卫视,,,95,失效,403,9999,,suxuang ipv4,未知,蒙语卫视,https://livestream-bt.nmtv.cn/nmtv/2315general.m3u8?txSecret=4971666599ef9411629213c9a300bf66&txTime=771EF880
-凤凰卫视台,卫视,,,96,失效,0,9999,,bestK iptv,未知,凤凰卫视台,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
-北京BRTV纪实科教,卫视,,,97,存活,200,40,,bestK iptv,未知,BRTV纪实科教,http://120.76.248.139/live/bfgd/4200000113.m3u8
-北京卫视,卫视,,,98,存活,200,28,,best-fan 央视卫视地方(每日存活校验),1080P,北京卫视,http://123.160.235.204:9901/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0
-北京卫视,卫视,,,99,存活,200,50,,bf_all_status.m3u8,1080P,北京卫视,http://112.123.243.37:50085/tsfile/live/0127_1.m3u8?key=txiptv&playlive=0&authid=0
-北京卫视,卫视,,,100,存活,200,76,,Guovin iptv-api result(存活校验),未知,北京卫视,http://120.76.248.139/live/bfgd/4200000083.m3u8
-北京卫视,卫视,,,101,存活,200,90,,best-fan 央视卫视地方(每日存活校验),未知,北京卫视,http://36.136.38.87:9901/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0
-北京卫视,卫视,,,102,存活,200,955,,Guovin iptv-api result(存活校验),未知,北京卫视,http://38.75.136.137:98/gslb/dsdqbv/bjwshd.m3u8?auth=test20251009
-北京卫视,卫视,,,103,失效,0,9999,,suxuang.m3u,4K,北京卫视4K,http://106.53.99.30/tv/api.php?id=bjws4k
-北京卫视,卫视,,,104,失效,403,9999,,suxuang.m3u,4K,北京卫视4K,http://8.138.7.223/tv/btime.php?id=bjws4k
-北京卫视,卫视,,,105,失效,0,9999,,suxuang.m3u,4K,北京4K超清,http://[2409:8087:1:20:20::26]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226550/1.m3u8?GuardEncType=2&accountinfo=~~V2.0~e2qS8h6u-xp3gd50vNr1sw~_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNPPFD3HVWEytEVyliOxehfe%2CEND
-北京卫视,卫视,,,106,失效,0,9999,,iptvorg_cn2.m3u,1080P,北京衛視 (1080p) [Geo-blocked],http://14.152.88.77/liveplay-kk.rtxapp.com/live/program/live/bjwshd/4000000/mnf.m3u8
-北京卫视,卫视,,,107,失效,0,9999,,bf_all_status.m3u8,1080P,北京卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=bjwshd
-北京卫视,卫视,,,108,失效,404,9999,,iptvorg_cn.m3u,1080P,Beijing Satellite TV HD (1080p),http://go.bkpcp.top/mg/bjws
-北京卫视,卫视,,,109,失效,0,9999,,ibert_all.m3u,720P,[HD]北京卫视,https://stream1.freetv.fun/217f4f75f9a74bf1809629bcbb3fa197c1ba1b4ba529514de80cde5171e972a0.ctv
-北京卫视,卫视,,,110,失效,0,9999,,iptvorg_cn.m3u,标清,Beijing Satellite TV [Not 24/7],http://ivi.bupt.edu.cn/hls/btv1.m3u8
-北京卫视,卫视,,,111,失效,404,9999,,kimentanm.m3u,未知,北京卫视,http://101.35.240.114:88/live.php?id=北京卫视
-北京卫视,卫视,,,112,失效,500,9999,,suxuang.m3u,未知,北京卫视,http://112.27.235.94:8000/hls/27/index.m3u8
-北京卫视,卫视,,,113,失效,0,9999,,suxuang.m3u,未知,北京卫视,http://iptv.huuc.edu.cn/hls/btv1hd.m3u8
-北京卫视,卫视,,,114,失效,0,9999,,suxuang.m3u,未知,北京卫视,https://zby.130519.xyz/PLTV/11/224/3221225724/index.m3u8
-北京卫视,卫视,,,115,失效,0,9999,,Guovin iptv-api result(存活校验),未知,北京卫视,http://107.150.60.122/live/bjwshd.m3u8
-北京卫视,卫视,,,116,失效,200,9999,,Guovin iptv-api result(存活校验),未知,北京卫视,http://104.152.209.49:8181/720p/bjws.m3u8
-北京卫视,卫视,,,117,失效,403,9999,,bestK iptv,未知,北京卫视,https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s1/index.m3u8?time=1771380560&sign=42f09d7297acc4a59b4a67ee6cbe7f61
-吉林卫视,卫视,,,118,存活,200,44,,bf_all_status.m3u8,标清,吉林卫视,http://112.123.243.37:50085/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
-吉林卫视,卫视,,,119,存活,200,48,,best-fan 央视卫视地方(每日存活校验),1080P,吉林卫视,http://221.7.175.154:8445/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&authid=0
-吉林卫视,卫视,,,120,存活,200,149,,bf_all_status.m3u8,标清,吉林卫视,http://113.25.252.226:9901/tsfile/live/1037_1.m3u8?key=txiptv&playlive=1&authid=0
-吉林卫视,卫视,,,121,存活,200,219,,best-fan 央视卫视地方(每日存活校验),未知,吉林卫视,http://101.66.199.175:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
-吉林卫视,卫视,,,122,存活,200,295,,best-fan 央视卫视地方(每日存活校验),未知,吉林卫视,http://101.66.199.74:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
-吉林卫视,卫视,,,123,失效,0,9999,,bf_all_status.m3u8,1080P,吉林卫视,http://183.10.180.46:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=1&authid=0
-吉林卫视,卫视,,,124,失效,404,9999,,kimentanm.m3u,未知,吉林卫视,http://101.35.240.114:88/live.php?id=吉林卫视
-吉林卫视,卫视,,,125,失效,0,9999,,suxuang.m3u,未知,吉林卫视,http://148.135.93.213/live.php?id=吉林卫视
-吉林卫视,卫视,,,126,失效,0,9999,,suxuang.m3u,未知,吉林卫视,http://t.061899.xyz/tl/tl.php?id=jlws
-吉林卫视,卫视,,,127,失效,0,9999,,ibert_all.m3u,未知,[VGA]吉林卫视,https://stream1.freetv.fun/f845c6ed628a3f947bccdcffba4f8384f1d72236bebee05710123de7850c62b7.ctv
-吉林卫视,卫视,,,128,失效,0,9999,,suxuang.m3u,未知,吉林卫视,https://zby.130519.xyz/PLTV/11/224/3221226149/index.m3u8
-吉林卫视,卫视,,,129,失效,0,9999,,best-fan 央视卫视地方(每日存活校验),未知,吉林卫视,http://101.66.195.84:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
-吉林卫视,卫视,,,130,失效,0,9999,,best-fan 央视卫视地方(每日存活校验),未知,吉林卫视,http://101.66.198.220:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
-吉林卫视,卫视,,,131,失效,0,9999,,Guovin iptv-api result(存活校验),未知,吉林卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=jlwshd
-吉林卫视,卫视,,,132,失效,0,9999,,Guovin iptv-api result(存活校验),未知,吉林卫视,http://107.150.60.122/live/jlwshd.m3u8
-吉林卫视,卫视,,,133,失效,0,9999,,Guovin iptv-api result(存活校验),未知,吉林卫视,http://38.75.136.137:98/gslb/dsdqpub/jlwshd.m3u8?auth=testpub
-四川卫视,卫视,,,134,存活,200,48,,best-fan 央视卫视地方(每日存活校验),未知,四川卫视,http://119.125.131.84:9901/tsfile/live/1060_1.m3u8?key=txiptv&playlive=1&down=1
-四川卫视,卫视,,,135,存活,200,272,,best-fan 央视卫视地方(每日存活校验),1080P,四川卫视,http://101.66.199.74:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=0&authid=0
-四川卫视,卫视,,,136,失效,404,9999,,kimentanm.m3u,4K,四川卫视4K,http://101.35.240.114:88/live.php?id=四川卫视4K
-四川卫视,卫视,,,137,失效,0,9999,,iptvorg_cn2.m3u,标清,四川卫视 (540p),http://112.25.48.68/live/program/live/scws/1300000/mnf.m3u8
-四川卫视,卫视,,,138,失效,0,9999,,bf_all_status.m3u8,标清,四川卫视,http://125.125.236.31:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=0
-四川卫视,卫视,,,139,失效,0,9999,,iptvorg_cn2.m3u,标清,四川卫视 (360p),http://125.210.152.18:9090/live/SCWSHD_H265.m3u8
-四川卫视,卫视,,,140,失效,0,9999,,iptvorg_cn2.m3u,标清,四川卫视 (576p),http://183.207.248.71/gitv/live1/SCWS/SCWS
-四川卫视,卫视,,,141,失效,0,9999,,iptvorg_cn2.m3u,标清,四川卫视 (576p),http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221225814/index.m3u8
-四川卫视,卫视,,,142,失效,0,9999,,iptvorg_cn.m3u,标清,Sichuan Satellite TV (576p),http://39.134.115.163:8080/PLTV/88888910/224/3221225733/index.m3u8
-四川卫视,卫视,,,143,失效,0,9999,,ibert_all.m3u,标清,[SD]四川卫视,https://stream1.freetv.fun/3c264c25b1f8debffea48cd474ef8b830ced737528778624f006949a84930657.m3u8
-四川卫视,卫视,,,144,失效,404,9999,,kimentanm.m3u,未知,四川卫视,http://101.35.240.114:88/live.php?id=四川卫视
-四川卫视,卫视,,,145,失效,500,9999,,suxuang.m3u,未知,四川卫视,http://112.27.235.94:8000/hls/35/index.m3u8
-四川卫视,卫视,,,146,失效,0,9999,,suxuang.m3u,未知,四川卫视,http://148.135.93.213/live.php?id=四川卫视
-四川卫视,卫视,,,147,失效,0,9999,,suxuang.m3u,未知,四川卫视,http://iptv.huuc.edu.cn/hls/schd.m3u8
-四川卫视,卫视,,,148,失效,0,9999,,suxuang.m3u,未知,四川卫视,https://zby.130519.xyz/PLTV/11/224/3221226152/index.m3u8
-四川卫视,卫视,,,149,失效,0,9999,,best-fan 央视卫视地方(每日存活校验),1080P,四川卫视,http://101.66.198.220:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=0&authid=0
-四川卫视,卫视,,,150,失效,0,9999,,Guovin iptv-api result(存活校验),未知,四川卫视,https://live.264788.xyz/channel/sichuanweishi4k?streamid=21be5901ee81559c827dc84e46f26452&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-四川卫视,卫视,,,151,失效,0,9999,,Guovin iptv-api result(存活校验),未知,四川卫视,https://live.264788.xyz/channel/sichuanweishi4k?streamid=401bf692a1a8b91298f26077d53316d6&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-四川卫视,卫视,,,152,失效,0,9999,,Guovin iptv-api result(存活校验),未知,四川卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=scwshd
-四川卫视,卫视,,,153,失效,0,9999,,Guovin iptv-api result(存活校验),未知,四川卫视,http://38.75.136.137:98/gslb/dsdqpub/scwshd.m3u8?auth=testpub
-四川卫视,卫视,,,154,失效,0,9999,,Guovin iptv-api result(存活校验),未知,四川卫视,http://107.150.60.122/live/scwshd.m3u8
-天津卫视,卫视,,,155,存活,200,26,,best-fan 央视卫视地方(每日存活校验),1080P,天津卫视,http://123.160.235.204:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
-天津卫视,卫视,,,156,存活,200,40,,bf_all_status.m3u8,1080P,天津卫视,http://112.123.243.37:50085/tsfile/live/0128_1.m3u8?key=txiptv&playlive=0&authid=0
-天津卫视,卫视,,,157,存活,200,55,,bf_all_status.m3u8,1080P,天津卫视,http://222.169.85.8:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
-天津卫视,卫视,,,158,存活,200,65,,bf_all_status.m3u8,1080P,天津卫视,http://221.226.51.220:50081/newlive/live/hls/26/live.m3u8
-天津卫视,卫视,,,159,存活,200,121,,bf_all_status.m3u8,标清,天津卫视,http://36.136.38.87:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
-天津卫视,卫视,,,160,失效,0,9999,,iptvorg_cn2.m3u,1080P,天津卫视 (1080p),http://112.25.48.68/live/program/live/tjwshd/4000000/mnf.m3u8
-天津卫视,卫视,,,161,失效,0,9999,,iptvorg_cn2.m3u,1080P,天津卫视 (1080p),http://117.169.120.140:8080/live/hdtianjinstv/.m3u8
-天津卫视,卫视,,,162,失效,0,9999,,iptvorg_cn2.m3u,1080P,天津卫视 (1080p),http://183.207.248.71/cntv/live1/HD-2500k-1080P-tianjinstv/HD-2500k-1080P-tianjinstv
-天津卫视,卫视,,,163,失效,0,9999,,iptvorg_cn2.m3u,1080P,天津卫视 (1080p),http://223.110.243.170/PLTV/3/224/3221227212/index.m3u8
-天津卫视,卫视,,,164,失效,0,9999,,iptvorg_cn2.m3u,1080P,天津卫视 (1080p),http://223.110.245.155/ott.js.chinamobile.com/PLTV/3/224/3221227382/index.m3u8
-天津卫视,卫视,,,165,失效,0,9999,,iptvorg_cn2.m3u,1080P,天津卫视 (1080p),http://223.110.245.165/ott.js.chinamobile.com/PLTV/3/224/3221227407/index.m3u8
-天津卫视,卫视,,,166,失效,0,9999,,iptvorg_cn2.m3u,1080P,天津卫视 (1080p),http://223.110.245.170/PLTV/3/224/3221227212/index.m3u8
-天津卫视,卫视,,,167,失效,0,9999,,iptvorg_cn2.m3u,1080P,天津卫视 (1080p),http://39.134.115.163:8080/PLTV/88888910/224/3221225739/index.m3u8
-天津卫视,卫视,,,168,失效,404,9999,,bf_all_status.m3u8,标清,天津卫视,http://153.0.171.163:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
-天津卫视,卫视,,,169,失效,0,9999,,suxuang ipv4,未知,天津卫视,http://iptv.huuc.edu.cn/hls/tjhd.m3u8
-天津卫视,卫视,,,170,失效,0,9999,,suxuang ipv4,未知,天津卫视,http://148.135.93.213/live.php?id=天津卫视
-天津卫视,卫视,,,171,失效,500,9999,,suxuang ipv4,未知,天津卫视,http://112.27.235.94:8000/hls/42/index.m3u8
-天津卫视,卫视,,,172,失效,0,9999,,suxuang ipv4,未知,天津卫视,https://zby.130519.xyz/PLTV/11/224/3221225742/index.m3u8
-天津卫视,卫视,,,173,失效,0,9999,,iptv-org cn,1080P,天津卫视 (1080p),http://39.134.115.163:8080/PLTV/88888910/224/3221225698/index.m3u8
-天津卫视,卫视,,,174,失效,0,9999,,iptv-org cn,未知,天津卫视 (576p),http://183.207.249.12/PLTV/4/224/3221225808/index.m3u8
-天津卫视,卫视,,,175,失效,0,9999,,iptv-org cn,未知,天津卫视 (576p),http://223.110.245.151/ott.js.chinamobile.com/PLTV/3/224/3221225808/index.m3u8
-天津卫视,卫视,,,176,失效,0,9999,,Guovin iptv-api result(存活校验),未知,天津卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=tjwshd
-天津卫视,卫视,,,177,失效,0,9999,,Guovin iptv-api result(存活校验),未知,天津卫视,http://107.150.60.122/live/tjwshd.m3u8
-天津卫视,卫视,,,178,失效,0,9999,,Guovin iptv-api result(存活校验),未知,天津卫视,http://38.75.136.137:98/gslb/dsdqpub/tjwshd.m3u8?auth=testpub
-天津卫视,卫视,,,179,失效,0,9999,,Guovin iptv-api result(存活校验),未知,天津卫视,http://[2409:8087:1a01:df::4030]:80/TVOD/88888888/224/3221225972/main.m3u8
-天津卫视,卫视,,,180,失效,0,9999,,Guovin iptv-api result(存活校验),未知,天津卫视,http://[2409:8087:1a0a:df::404b]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226459/index.m3u8
-天津卫视,卫视,,,181,失效,0,9999,,Guovin iptv-api result(存活校验),未知,天津卫视,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226459/index.m3u8
-宁夏Ningxia Satellite Channel,卫视,,,182,失效,0,9999,,iptv-org cn(github.io),未知,Ningxia Satellite Channel (576p),http://39.134.115.163:8080/PLTV/88888910/224/3221225726/index.m3u8
-宁夏卫视,卫视,,,183,存活,200,40,,suxuang.m3u,未知,"tvg-id=""宁夏卫视"" tvg-name=""宁夏卫视"" tvg-logo=""",http://120.76.248.139/live/bfgd/4200000118.m3u8
-宁夏卫视,卫视,,,184,存活,200,44,,bf_all_status.m3u8,标清,宁夏卫视,http://112.123.243.37:50085/tsfile/live/0125_1.m3u8?key=txiptv&playlive=0&authid=0
-宁夏卫视,卫视,,,185,存活,200,65,,best-fan 央视卫视地方(每日存活校验),1080P,宁夏卫视,http://222.71.55.147:85/tsfile/live/0112_1.m3u8?key=txiptv&playlive=0&authid=0
-宁夏卫视,卫视,,,186,存活,200,69,,best-fan 央视卫视地方(每日存活校验),1080P,宁夏卫视,http://222.71.55.147:9901/tsfile/live/0112_1.m3u8?key=txiptv&playlive=0&authid=0
-宁夏卫视,卫视,,,187,存活,200,117,,bf_all_status.m3u8,标清,宁夏卫视,http://222.169.85.8:9901/tsfile/live/0112_1.m3u8?key=txiptv&playlive=1&authid=0
-宁夏卫视,卫视,,,188,存活,200,157,,bf_all_status.m3u8,标清,宁夏卫视,http://113.25.252.226:9901/tsfile/live/1046_1.m3u8?key=txiptv&playlive=1&authid=0
-宁夏卫视,卫视,,,189,失效,0,9999,,ibert_all.m3u,720P,[HD]宁夏卫视,https://stream1.freetv.fun/c3a22585493b5fbb62ab4b873bbf60ce767e779781bf178117fcf0918e2de201.m3u8
-宁夏卫视,卫视,,,190,失效,0,9999,,iptvorg_cn2.m3u,标清,宁夏卫视 (540p),http://112.25.48.68/live/program/live/nxws/1300000/mnf.m3u8
-宁夏卫视,卫视,,,191,失效,0,9999,,iptvorg_cn2.m3u,标清,宁夏卫视 (576p),http://117.169.120.140:8080/live/ningxiastv/.m3u8
-宁夏卫视,卫视,,,192,失效,0,9999,,bf_all_status.m3u8,标清,宁夏卫视,http://183.10.180.46:9901/tsfile/live/0112_1.m3u8?key=txiptv&playlive=1&authid=0
-宁夏卫视,卫视,,,193,失效,0,9999,,iptvorg_cn2.m3u,标清,宁夏卫视 (576p),http://183.207.248.11/PLTV/4/224/3221225842/index.m3u8
-宁夏卫视,卫视,,,194,失效,0,9999,,iptvorg_cn2.m3u,标清,宁夏卫视 (576p) [Not 24/7],http://183.207.248.71/gitv/live1/G_NINGXIA/G_NINGXIA
-宁夏卫视,卫视,,,195,失效,0,9999,,iptvorg_cn2.m3u,标清,宁夏卫视 (576p),http://223.110.245.151/ott.js.chinamobile.com/PLTV/3/224/3221225842/index.m3u8
-宁夏卫视,卫视,,,196,失效,0,9999,,suxuang.m3u,未知,宁夏卫视,http://t.061899.xyz/tl/tl.php?id=nxws
-宁夏卫视,卫视,,,197,失效,0,9999,,vbskycn iptv4,未知,宁夏卫视,https://live.264788.xyz/channel/ningxiaweishi?streamid=1b2952717a920173e66d4a348f9dcb5c&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-宁夏卫视,卫视,,,198,失效,0,9999,,iptv-org cn,未知,宁夏卫视 (576p),http://39.134.115.163:8080/PLTV/88888910/224/3221225726/index.m3u8
-宁夏卫视,卫视,,,199,失效,0,9999,,Guovin iptv-api result(存活校验),未知,宁夏卫视,https://live.264788.xyz/channel/ningxiaweishi?streamid=e1236348f815c36a0429357e5b5c5f10&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-宁夏卫视,卫视,,,200,失效,0,9999,,Guovin iptv-api result(存活校验),未知,宁夏卫视,https://live.264788.xyz/channel/ningxiaweishi?streamid=551474d02bee1c160e1692e22c45ddba&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-宁夏卫视,卫视,,,201,失效,0,9999,,Guovin iptv-api result(存活校验),未知,宁夏卫视,http://107.150.60.122/live/nxws.m3u8
-宁夏卫视,卫视,,,202,失效,0,9999,,Guovin iptv-api result(存活校验),未知,宁夏卫视,http://198.204.228.26/live/nxws.m3u8
-安徽卫视,卫视,,,203,存活,200,24,,best-fan 央视卫视地方(每日存活校验),1080P,安徽卫视,http://123.138.216.44:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
-安徽卫视,卫视,,,204,存活,200,37,,bf_all_status.m3u8,1080P,安徽卫视,http://112.123.243.37:50085/tsfile/live/0130_1.m3u8?key=txiptv&playlive=0&authid=0
-安徽卫视,卫视,,,205,存活,200,50,,best-fan 央视卫视地方(每日存活校验),未知,安徽卫视,http://118.122.144.115:8888/newlive/live/hls/40/live.m3u8
-安徽卫视,卫视,,,206,存活,200,216,,best-fan 央视卫视地方(每日存活校验),1080P,安徽卫视,http://101.66.199.74:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=0&authid=0
-安徽卫视,卫视,,,207,存活,200,1075,,vbskycn.m3u,未知,安徽卫视,http://gmxw.7766.org:808/hls/40/index.m3u8
-安徽卫视,卫视,,,208,失效,404,9999,,kimentanm.m3u,未知,安徽卫视,http://101.35.240.114:88/live.php?id=安徽卫视
-安徽卫视,卫视,,,209,失效,500,9999,,suxuang.m3u,未知,安徽卫视,http://112.27.235.94:8000/hls/26/index.m3u8
-安徽卫视,卫视,,,210,失效,0,9999,,suxuang.m3u,未知,安徽卫视,http://iptv.huuc.edu.cn/hls/ahhd.m3u8
-安徽卫视,卫视,,,211,失效,0,9999,,ibert_all.m3u,未知,[BD]安徽卫视,https://stream1.freetv.fun/5b4822a5ec2db203657ad69a37c8ee684490003ec64dfd80eb0c8074110f60e2.m3u8
-安徽卫视,卫视,,,212,失效,0,9999,,suxuang.m3u,未知,安徽卫视,https://zby.130519.xyz/PLTV/11/224/3221225739/index.m3u8
-安徽卫视,卫视,,,213,失效,0,9999,,Guovin iptv-api result(存活校验),未知,安徽卫视,http://107.150.60.122/live/ahwshd.m3u8
-安徽卫视,卫视,,,214,失效,0,9999,,Guovin iptv-api result(存活校验),未知,安徽卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=ahwshd
-安徽卫视,卫视,,,215,失效,200,9999,,Guovin iptv-api result(存活校验),未知,安徽卫视,http://104.152.209.49:8181/720p/ahws.m3u8
-安徽卫视,卫视,,,216,失效,0,9999,,Guovin iptv-api result(存活校验),未知,安徽卫视,http://204.12.221.218:8181/3m1080p/ahws.m3u8
-安徽卫视,卫视,,,217,失效,0,9999,,Guovin iptv-api result(存活校验),未知,安徽卫视,http://198.204.228.26/live/ahwshd.m3u8
-山东卫视,卫视,,,218,存活,200,23,,best-fan 央视卫视地方(每日存活校验),1080P,山东卫视,http://123.160.235.204:9901/tsfile/live/0131_1.m3u8?key=txiptv&playlive=1&authid=0
-山东卫视,卫视,,,219,存活,200,36,,best-fan 央视卫视地方(每日存活校验),1080P,山东卫视,http://112.123.243.37:50085/tsfile/live/0122_1.m3u8?key=txiptv&playlive=0&authid=0
-山东卫视,卫视,,,220,存活,200,59,,best-fan 央视卫视地方(每日存活校验),未知,山东卫视,http://119.125.131.84:9901/tsfile/live/1063_1.m3u8?key=txiptv&playlive=1&down=1
-山东卫视,卫视,,,221,存活,200,77,,Guovin iptv-api result(存活校验),未知,山东卫视,http://120.76.248.139/live/bfgd/4200000099.m3u8
-山东卫视,卫视,,,222,存活,200,91,,best-fan 央视卫视地方(每日存活校验),720P,山东卫视,http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8
-山东卫视,卫视,,,223,失效,404,9999,,kimentanm.m3u,4K,山东卫视4K,http://101.35.240.114:88/live.php?id=山东卫视4K
-山东卫视,卫视,,,224,失效,0,9999,,bf_all_status.m3u8,1080P,山东卫视,http://107.150.60.122/live/sdwshd.m3u8
-山东卫视,卫视,,,225,失效,0,9999,,iptvorg_cn2.m3u,1080P,山东卫视 (1080p),http://117.169.120.140:8080/live/hdshandongstv/.m3u8
-山东卫视,卫视,,,226,失效,0,9999,,iptvorg_cn2.m3u,1080P,山东卫视 (1080p),http://183.207.248.71/cntv/live1/HD-2500k-1080P-shandongstv/HD-2500k-1080P-shandongstv
-山东卫视,卫视,,,227,失效,0,9999,,iptvorg_cn2.m3u,1080P,山东卫视 (1080p),http://223.110.243.171/PLTV/3/224/3221227258/index.m3u8
-山东卫视,卫视,,,228,失效,0,9999,,iptvorg_cn2.m3u,1080P,山东卫视 (1080p),http://223.110.245.139/PLTV/4/224/3221227448/index.m3u8
-山东卫视,卫视,,,229,失效,0,9999,,iptvorg_cn2.m3u,1080P,山东卫视 (1080p),http://223.110.254.207:6610/cntv/live1/HD-2500k-1080P-shandongstv/HD-2500k-1080P-shandongstv/1.m3u8
-山东卫视,卫视,,,230,失效,0,9999,,iptvorg_cn2.m3u,1080P,山东卫视 (1080p),http://39.134.115.163:8080/PLTV/88888910/224/3221225697/index.m3u8
-山东卫视,卫视,,,231,失效,0,9999,,iptvorg_cn2.m3u,1080P,山东卫视 (1080p),http://39.134.115.163:8080/PLTV/88888910/224/3221225738/index.m3u8
-山东卫视,卫视,,,232,失效,0,9999,,iptvorg_cn.m3u,720P,Shandong Satellite TV (720p),http://125.210.152.18:9090/live/SDWSHD_H265.m3u8
-山东卫视,卫视,,,233,失效,0,9999,,iptvorg_cn2.m3u,标清,山东卫视 (576p),http://183.207.248.71/gitv/live1/SDWS/SDWS
-山东卫视,卫视,,,234,失效,0,9999,,iptvorg_cn2.m3u,标清,山东卫视 (576p),http://223.110.245.149/ott.js.chinamobile.com/PLTV/3/224/3221225804/index.m3u8
-山东卫视,卫视,,,235,失效,0,9999,,suxuang.m3u,标清,山东卫视,http://iptv.huuc.edu.cn/hls/sdhd.m3u8
-山东卫视,卫视,,,236,失效,0,9999,,suxuang.m3u,标清,山东卫视,http://t.061899.xyz/tl/tl.php?id=sdws
-山东卫视,卫视,,,237,失效,0,9999,,best-fan 央视卫视地方(每日存活校验),1080P,山东卫视,http://101.66.198.220:9901/tsfile/live/0131_1.m3u8?key=txiptv&playlive=0&authid=0
-山东卫视,卫视,,,238,失效,0,9999,,best-fan 央视卫视地方(每日存活校验),1080P,山东卫视,http://101.66.195.84:9901/tsfile/live/0131_1.m3u8?key=txiptv&playlive=0&authid=0
-山东卫视,卫视,,,239,失效,0,9999,,suxuang ipv4,未知,山东卫视,http://148.135.93.213/live.php?id=山东卫视
-山东卫视,卫视,,,240,失效,500,9999,,suxuang ipv4,未知,山东卫视,http://112.27.235.94:8000/hls/34/index.m3u8
-山东卫视,卫视,,,241,失效,0,9999,,suxuang ipv4,未知,山东卫视,https://zby.130519.xyz/PLTV/11/224/3221225733/index.m3u8
-山东卫视,卫视,,,242,失效,0,9999,,Guovin iptv-api result(存活校验),未知,山东卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=sdwshd
-山东卫视,卫视,,,243,失效,0,9999,,Guovin iptv-api result(存活校验),未知,山东卫视,http://198.204.228.26/live/sdwshd.m3u8
-山东卫视,卫视,,,244,失效,0,9999,,Guovin iptv-api result(存活校验),未知,山东卫视,http://38.75.136.137:98/gslb/dsdqpub/sdwshd.m3u8?auth=testpub
-山西卫视,卫视,,,245,存活,200,21,,best-fan 央视卫视地方(每日存活校验),1080P,山西卫视,http://123.160.235.204:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
-山西卫视,卫视,,,246,存活,200,40,,bf_all_status.m3u8,标清,山西卫视,http://112.123.243.37:50085/tsfile/live/0120_1.m3u8?key=txiptv&playlive=0&authid=0
-山西卫视,卫视,,,247,存活,200,57,,bf_all_status.m3u8,1080P,山西卫视,http://222.169.85.8:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
-山西卫视,卫视,,,248,存活,200,67,,bf_all_status.m3u8,1080P,山西卫视,http://119.39.9.8:9901/tsfile/live/0118_1.m3u8
-山西卫视,卫视,,,249,存活,200,103,,best-fan 央视卫视地方(每日存活校验),未知,山西卫视,http://58.56.162.102:4466/newlive/live/hls/32/live.m3u8
-山西卫视,卫视,,,250,存活,200,210,,best-fan 央视卫视地方(每日存活校验),未知,山西卫视,http://101.66.199.175:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
-山西卫视,卫视,,,251,存活,200,261,,best-fan 央视卫视地方(每日存活校验),未知,山西卫视,https://stream2.jlntv.cn/baicheng1/sd/live.m3u8
-山西卫视,卫视,,,252,存活,200,303,,best-fan 央视卫视地方(每日存活校验),未知,山西卫视,http://101.66.199.74:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
-山西卫视,卫视,,,253,存活,200,2766,,best-fan 央视卫视地方(每日存活校验),未知,山西卫视,http://218.13.170.98:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
-山西卫视,卫视,,,254,失效,0,9999,,bf_all_status.m3u8,1080P,山西卫视,http://107.150.60.122/live/sxwshd.m3u8
-山西卫视,卫视,,,255,失效,0,9999,,bf_all_status.m3u8,标清,山西卫视,http://101.66.198.174:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
-山西卫视,卫视,,,256,失效,404,9999,,bf_all_status.m3u8,标清,山西卫视,http://153.0.171.163:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
-山西卫视,卫视,,,257,失效,404,9999,,kimentanm.m3u,未知,山西卫视,http://101.35.240.114:88/live.php?id=山西卫视
-山西卫视,卫视,,,258,失效,500,9999,,suxuang.m3u,未知,山西卫视,http://112.27.235.94:8000/hls/45/index.m3u8
-山西卫视,卫视,,,259,失效,0,9999,,suxuang.m3u,未知,山西卫视,http://148.135.93.213/live.php?id=山西卫视
-山西卫视,卫视,,,260,失效,0,9999,,ssili126_itv.m3u,未知,山西卫视,http://59.32.97.20:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
-山西卫视,卫视,,,261,失效,0,9999,,ibert_all.m3u,未知,[BD]山西卫视,https://stream1.freetv.fun/2f538e8c3c3dc60b99799fb3331f5f05b5a9c3c574544b4178a57a7de78f6884.m3u8
-山西卫视,卫视,,,262,失效,0,9999,,suxuang.m3u,未知,山西卫视,https://zby.130519.xyz/PLTV/11/224/3221226113/index.m3u8
-山西卫视,卫视,,,263,失效,0,9999,,best-fan 央视卫视地方(每日存活校验),未知,山西卫视,http://101.66.195.84:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
-山西卫视,卫视,,,264,失效,0,9999,,best-fan 央视卫视地方(每日存活校验),未知,山西卫视,http://101.66.198.220:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
-山西卫视,卫视,,,265,失效,0,9999,,Guovin iptv-api result(存活校验),未知,山西卫视,https://live.264788.xyz/channel/shanxiweishi?streamid=eeb7d60ca6e0db131ea7a092a3cd28d2&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-山西卫视,卫视,,,266,失效,0,9999,,Guovin iptv-api result(存活校验),未知,山西卫视,https://live.264788.xyz/channel/shanxiweishi?streamid=69e002ac7467d661ff7ad0671ed43f16&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-山西卫视,卫视,,,267,失效,0,9999,,Guovin iptv-api result(存活校验),未知,山西卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=sxwshd
-山西卫视,卫视,,,268,失效,0,9999,,Guovin iptv-api result(存活校验),未知,山西卫视,http://204.12.221.218:8181/3m1080p/sxws.m3u8
-广东卫视,卫视,,,269,存活,200,30,,best-fan 央视卫视地方(每日存活校验),1080P,广东卫视,http://123.160.235.204:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
-广东卫视,卫视,,,270,存活,200,39,,bf_all_status.m3u8,1080P,广东卫视,http://112.123.243.37:50085/tsfile/live/0135_1.m3u8?key=txiptv&playlive=0&authid=0
-广东卫视,卫视,,,271,存活,200,43,,best-fan 央视卫视地方(每日存活校验),未知,广东卫视,http://124.228.160.3:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
-广东卫视,卫视,,,272,存活,200,48,,bf_all_status.m3u8,1080P,广东卫视,http://222.169.85.8:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
-广东卫视,卫视,,,273,存活,200,85,,best-fan 央视卫视地方(每日存活校验),1080P,广东卫视,http://221.7.175.154:8445/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
-广东卫视,卫视,,,274,存活,200,103,,best-fan 央视卫视地方(每日存活校验),1080P,广东卫视,http://120.40.39.246:352/newlive/live/hls/34/live.m3u8
-广东卫视,卫视,,,275,存活,200,171,,bf_all_status.m3u8,1080P,广东卫视,http://120.238.94.82:9901/tsfile/live/1009_1.m3u8
-广东卫视,卫视,,,276,存活,200,205,,Guovin iptv-api result(存活校验),未知,广东卫视,http://120.76.248.139/live/bfgd/4200000092.m3u8
-广东卫视,卫视,,,277,存活,200,240,,best-fan 央视卫视地方(每日存活校验),1080P,广东卫视,http://101.66.199.74:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=0&authid=0
-广东卫视,卫视,,,278,存活,200,946,,Guovin iptv-api result(存活校验),未知,广东卫视,http://38.75.136.137:98/gslb/dsdqpub/gdwshd.m3u8?auth=testpub
-广东卫视,卫视,,,279,存活,200,1374,,vbskycn iptv4,未知,广东卫视,https://txmov2.a.kwimgs.com/upic/2023/01/26/09/BMjAyMzAxMjYwOTE3NDVfNzM5MzQzNzIyXzk0NjI1OTUwNTA3XzBfMw==_b_B81ddda927d33445d544befd008e60109.mp4
-广东卫视,卫视,,,280,失效,404,9999,,kimentanm.m3u,4K,广东卫视4K,http://101.35.240.114:88/live.php?id=广东卫视4K
-广东卫视,卫视,,,281,失效,0,9999,,ibert_all.m3u,4K,[HD]广东4k超高清,https://stream1.freetv.fun/2c001125e9971ba7ea1c832a04dcb6339a08c0202b42f28aa231364e92345378.m3u8
-广东卫视,卫视,,,282,失效,0,9999,,ibert_all.m3u,720P,[HD]广东移动,https://stream1.freetv.fun/ef054656d7deb2e72d56609d1cb441d2680cde24e52ff750b1ef59e79a268f7c.m3u8
-广东卫视,卫视,,,283,失效,0,9999,,iptvorg_cn.m3u,标清,Guangdong Satellite TV,https://h5cul1yar48um3t.wcetv.com/hls/gdsatellite.m3u8
-广东卫视,卫视,,,284,失效,404,9999,,kimentanm.m3u,未知,广东卫视,http://101.35.240.114:88/live.php?id=广东卫视
-广东卫视,卫视,,,285,失效,500,9999,,suxuang.m3u,未知,广东卫视,http://112.27.235.94:8000/hls/30/index.m3u8
-广东卫视,卫视,,,286,失效,0,9999,,suxuang.m3u,未知,广东卫视,http://iptv.huuc.edu.cn/hls/gdhd.m3u8
-广东卫视,卫视,,,287,失效,0,9999,,suxuang.m3u,未知,广东卫视,http://t.061899.xyz/tl/tl.php?id=gdws
-广东卫视,卫视,,,288,失效,0,9999,,ibert_all.m3u,未知,[BD]广东卫视,https://stream1.freetv.fun/6787e35b48df7529fb25c86cd92936335e75d68881015ff99c3e969f57177987.m3u8
-广东卫视,卫视,,,289,失效,0,9999,,suxuang.m3u,未知,广东卫视,https://zby.130519.xyz/PLTV/11/224/3221225731/index.m3u8
-广东卫视,卫视,,,290,失效,0,9999,,best-fan 央视卫视地方(每日存活校验),1080P,广东卫视,http://101.66.198.220:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=0&authid=0
-广东卫视,卫视,,,291,失效,0,9999,,Guovin iptv-api result(存活校验),未知,广东卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gdwshd
-广东卫视,卫视,,,292,失效,0,9999,,Guovin iptv-api result(存活校验),未知,广东卫视,http://107.150.60.122/live/gdwshd.m3u8
-广东卫视,卫视,,,293,失效,403,9999,,Guovin iptv-api result(存活校验),未知,广东卫视,https://hls-gateway.vpstv.net/streams/476943.m3u8
-广西卫视,卫视,,,294,存活,200,19,,best-fan 央视卫视地方(每日存活校验),1080P,广西卫视,http://123.160.235.204:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=1&authid=0
-广西卫视,卫视,,,295,存活,200,35,,best-fan 央视卫视地方(每日存活校验),未知,广西卫视,http://119.39.9.8:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
-广西卫视,卫视,,,296,存活,200,55,,bf_all_status.m3u8,1080P,广西卫视,http://222.169.85.8:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=1&authid=0
-广西卫视,卫视,,,297,存活,200,75,,bf_all_status.m3u8,标清,广西卫视,http://112.123.243.37:50085/tsfile/live/0137_1.m3u8?key=txiptv&playlive=0&authid=0
-广西卫视,卫视,,,298,存活,200,122,,best-fan 央视卫视地方(每日存活校验),未知,广西卫视,http://36.136.38.87:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=1&authid=0
-广西卫视,卫视,,,299,存活,200,188,,Guovin iptv-api result(存活校验),未知,广西卫视,http://120.76.248.139/live/bfgd/4200000116.m3u8
-广西卫视,卫视,,,300,存活,200,206,,best-fan 央视卫视地方(每日存活校验),未知,广西卫视,http://101.66.199.175:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
-广西卫视,卫视,,,301,存活,200,288,,best-fan 央视卫视地方(每日存活校验),未知,广西卫视,http://101.66.198.117:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
-广西卫视,卫视,,,302,存活,200,352,,best-fan 央视卫视地方(每日存活校验),未知,广西卫视,http://101.66.199.74:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
-广西卫视,卫视,,,303,存活,200,2689,,Guovin iptv-api result(存活校验),未知,广西卫视,http://38.75.136.137:98/gslb/dsdqpub/gxwshd.m3u8?auth=testpub
-广西卫视,卫视,,,304,失效,0,9999,,suxuang.m3u,未知,广西卫视,http://148.135.93.213/live.php?id=广西卫视
-广西卫视,卫视,,,305,失效,0,9999,,suxuang.m3u,未知,广西卫视,http://t.061899.xyz/tl/tl.php?id=gxws
-广西卫视,卫视,,,306,失效,0,9999,,ibert_all.m3u,未知,[BD]广西卫视,https://stream1.freetv.fun/3899ee96bfc51a8e53baa9d48c86b9b9a52907112fffcb33e94df2c05cc02d3c.m3u8
-广西卫视,卫视,,,307,失效,0,9999,,suxuang.m3u,未知,广西卫视,https://zby.130519.xyz/PLTV/11/224/3221226084/index.m3u8
-广西卫视,卫视,,,308,失效,0,9999,,kimentanm.m3u,未知,广西卫视,rtmp://live.gxrb.com.cn/hls/a23
-广西卫视,卫视,,,309,失效,0,9999,,best-fan 央视卫视地方(每日存活校验),1080P,广西卫视,http://204.12.221.218:8181/3m1080p/gxws.m3u8
-广西卫视,卫视,,,310,失效,0,9999,,best-fan 央视卫视地方(每日存活校验),未知,广西卫视,http://101.66.198.220:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
-广西卫视,卫视,,,311,失效,0,9999,,best-fan 央视卫视地方(每日存活校验),未知,广西卫视,http://101.66.195.84:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
-广西卫视,卫视,,,312,失效,0,9999,,Guovin iptv-api result(存活校验),未知,广西卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gxwshd
-广西卫视,卫视,,,313,失效,0,9999,,Guovin iptv-api result(存活校验),未知,广西卫视,http://107.150.60.122/live/gxwshd.m3u8
-广西卫视,卫视,,,314,失效,0,9999,,Guovin iptv-api result(存活校验),未知,广西卫视,http://198.204.228.26/live/gxwshd.m3u8
-数码时代,卫视,,,315,存活,200,90,,bestK iptv,未知,数码时代,http://ali-m-l.cztv.com/channels/lantian/channel12/720p.m3u8?zzhed
-新疆卫视,卫视,,,316,存活,200,24,,best-fan 央视卫视地方(每日存活校验),1080P,新疆卫视,http://123.160.235.204:9901/tsfile/live/0110_1.m3u8?key=txiptv&playlive=1&authid=0
-新疆卫视,卫视,,,317,存活,200,38,,bf_all_status.m3u8,标清,新疆卫视,http://112.123.243.37:50085/tsfile/live/0143_1.m3u8?key=txiptv&playlive=0&authid=0
-新疆卫视,卫视,,,318,存活,200,67,,best-fan 央视卫视地方(每日存活校验),未知,新疆卫视,http://58.56.162.102:4466/newlive/live/hls/44/live.m3u8
-新疆卫视,卫视,,,319,存活,200,75,,best-fan 央视卫视地方(每日存活校验),1080P,新疆卫视,http://222.71.55.147:9901/tsfile/live/0110_1.m3u8?key=txiptv&playlive=0&authid=0
-新疆卫视,卫视,,,320,存活,200,79,,best-fan 央视卫视地方(每日存活校验),1080P,新疆卫视,http://222.71.55.147:85/tsfile/live/0110_1.m3u8?key=txiptv&playlive=0&authid=0
-新疆卫视,卫视,,,321,存活,200,94,,bf_all_status.m3u8,标清,新疆卫视,http://222.169.85.8:9901/tsfile/live/0110_1.m3u8
-新疆卫视,卫视,,,322,存活,200,137,,bf_all_status.m3u8,标清,新疆卫视,http://113.25.252.226:9901/tsfile/live/1044_1.m3u8?key=txiptv&playlive=1&authid=0
-新疆卫视,卫视,,,323,存活,200,163,,bf_all_status.m3u8,1080P,新疆卫视,http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd;http://218.84.12.186:8001/hls/main/playlist.m3u8zxinjd
-新疆卫视,卫视,,,324,存活,200,717,,best-fan 央视卫视地方(每日存活校验),未知,新疆卫视,http://218.13.170.98:9901/tsfile/live/0110_1.m3u8?key=txiptv&playlive=1&authid=0
-新疆卫视,卫视,,,325,存活,200,1089,,bf_all_status.m3u8,标清,新疆卫视,http://222.169.85.8:9901/tsfile/live/0110_1.m3u8?key=txiptv&playlive=1&authid=0
-新疆卫视,卫视,,,326,失效,0,9999,,iptvorg_cn2.m3u,标清,新疆卫视 (576p),http://183.207.248.71/cntv/live1/xinjiangstv/xinjiangstv
-新疆卫视,卫视,,,327,失效,0,9999,,iptvorg_cn2.m3u,标清,新疆卫视 (576p),http://183.207.248.71/gitv/live1/G_XINJIANG/G_XINJIANG
-新疆卫视,卫视,,,328,失效,0,9999,,iptvorg_cn2.m3u,标清,新疆卫视 (576p),http://183.207.249.15/PLTV/3/224/3221225523/index.m3u8
-新疆卫视,卫视,,,329,失效,0,9999,,iptvorg_cn2.m3u,标清,新疆卫视 (576p),http://223.110.243.136/PLTV/3/224/3221225523/index.m3u8
-新疆卫视,卫视,,,330,失效,0,9999,,iptvorg_cn2.m3u,标清,新疆卫视 (576p),http://39.134.115.163:8080/PLTV/88888910/224/3221225725/index.m3u8
-新疆卫视,卫视,,,331,失效,404,9999,,kimentanm.m3u,未知,新疆卫视,http://101.35.240.114:88/live.php?id=新疆卫视
-新疆卫视,卫视,,,332,失效,0,9999,,iptvorg_cn2.m3u,未知,新疆卫视 (540p),http://112.25.48.68/live/program/live/xjws/1300000/mnf.m3u8
-新疆卫视,卫视,,,333,失效,0,9999,,suxuang.m3u,未知,新疆卫视,http://t.061899.xyz/tl/tl.php?id=xjws
-新疆卫视,卫视,,,334,失效,0,9999,,ibert_all.m3u,未知,[BD]新疆卫视,https://stream1.freetv.fun/ff50600dd45b1b1656f2f7535c04f361a6e8c33606e19dbc9b0316bd173f9408.m3u8
-新疆卫视,卫视,,,335,失效,0,9999,,best-fan 央视卫视地方(每日存活校验),1080P,新疆卫视,http://38.75.136.137:98/gslb/dsdqpub/xjws.m3u8?auth=testpub
-新疆卫视,卫视,,,336,失效,0,9999,,Guovin iptv-api result(存活校验),未知,新疆卫视,https://live.264788.xyz/channel/xinjiangweishi?streamid=4f481f56ae39ce5d24203471de9df635&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-新疆卫视,卫视,,,337,失效,0,9999,,Guovin iptv-api result(存活校验),未知,新疆卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=xjws
-新疆卫视,卫视,,,338,失效,0,9999,,Guovin iptv-api result(存活校验),未知,新疆卫视,http://107.150.60.122/live/xjws.m3u8
-新疆卫视,卫视,,,339,失效,0,9999,,Guovin iptv-api result(存活校验),未知,新疆卫视,http://198.204.228.26/live/xjws.m3u8
-新疆卫视,卫视,,,340,失效,0,9999,,Guovin iptv-api result(存活校验),未知,新疆卫视,http://goo.bkpcp.top/mg/xjws
-新疆卫视,卫视,,,341,失效,0,9999,,Guovin iptv-api result(存活校验),未知,新疆卫视,http://[2409:8087:1a0a:df::404b]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225635/index.m3u8
-新疆卫视,卫视,,,342,失效,0,9999,,Guovin iptv-api result(存活校验),未知,新疆卫视,http://[2409:8087:2001:20:2800:0:df6e:eb0b]/wh7f454c46tw993550557_162751766/ott.mobaibox.com/PLTV/3/224/3221228290/index.m3u8?icpid=3&RTS=1668604377&from=40&popid=40&hms_devid=2038&prioritypopid=40&vqe=3
-新疆卫视,卫视,,,343,失效,0,9999,,Guovin iptv-api result(存活校验),未知,新疆卫视,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226460/index.m3u8
-新疆卫视,卫视,,,344,失效,400,9999,,Guovin iptv-api result(存活校验),未知,新疆卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226546/1.m3u8
-新疆卫视,卫视,,,345,失效,403,9999,,bestK iptv,未知,新疆卫视,https://slstplay.xjtvs.com.cn/xjtv1/xjtv1stream.m3u8?auth_key=1771391391-7-7-f562c6e4e25b75630d3eb20eb51557bd&aliyun_uuid=a122035d-fe8a-4bf2-ac85-c601fdadd0cd
-新闻咨询,卫视,,,346,存活,200,13,,bestK iptv,未知,新闻咨询,http://112.46.105.20:8009/hls/18/index.m3u8
-江苏卫视,卫视,,,347,存活,200,38,,bf_all_status.m3u8,1080P,江苏卫视,http://112.123.243.37:50085/tsfile/live/0017_1.m3u8?key=txiptv&playlive=0&authid=0
-江苏卫视,卫视,,,348,存活,200,40,,best-fan 央视卫视地方(每日存活校验),未知,江苏卫视,http://124.228.160.3:9901/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0
-江苏卫视,卫视,,,349,存活,200,44,,best-fan 央视卫视地方(每日存活校验),1080P,江苏卫视,http://113.57.140.161:10081/newlive/live/hls/31/live.m3u8
-江苏卫视,卫视,,,350,存活,200,85,,best-fan 央视卫视地方(每日存活校验),1080P,江苏卫视,http://221.7.175.154:8445/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0
-江苏卫视,卫视,,,351,存活,200,136,,best-fan 央视卫视地方(每日存活校验),720P,江苏卫视,https://stream2.jlntv.cn/sytv/sd/live.m3u8
-江苏卫视,卫视,,,352,存活,200,1509,,suxuang.m3u,4K,江苏卫视4K,http://8.138.7.223/tv/jsws4k.php
-江苏卫视,卫视,,,353,失效,404,9999,,kimentanm.m3u,4K,江苏卫视4K,http://101.35.240.114:88/live.php?id=江苏卫视4K
-江苏卫视,卫视,,,354,失效,0,9999,,iptvorg_cn2.m3u,1080P,江苏卫视 (1080p),http://112.25.48.68/live/program/live/jswshd/4000000/mnf.m3u8
-江苏卫视,卫视,,,355,失效,0,9999,,iptvorg_cn2.m3u,1080P,江苏卫视 (1080p),http://117.169.120.140:8080/live/hdjiangsustv/.m3u8
-江苏卫视,卫视,,,356,失效,0,9999,,iptvorg_cn2.m3u,1080P,江苏卫视 (1080p) [Not 24/7],http://183.207.248.71/cntv/live1/HD-2500k-1080P-jiangsustv/HD-2500k-1080P-jiangsustv
-江苏卫视,卫视,,,357,失效,0,9999,,iptvorg_cn2.m3u,1080P,江苏卫视 (1080p),http://183.207.248.71/cntv/live1/jiangsustv/jiangsustv
-江苏卫视,卫视,,,358,失效,0,9999,,iptvorg_cn2.m3u,1080P,江苏卫视 (1080p),http://183.207.249.34/PLTV/4/224/3221227402/index.m3u8
-江苏卫视,卫视,,,359,失效,0,9999,,iptvorg_cn2.m3u,1080P,江苏卫视 (1080p),http://223.110.245.157/ott.js.chinamobile.com/PLTV/3/224/3221227439/index.m3u8
-江苏卫视,卫视,,,360,失效,0,9999,,bf_all_status.m3u8,1080P,江苏卫视,http://38.75.136.137:98/gslb/dsdqbv/jswshd.m3u8?auth=test20251009
-江苏卫视,卫视,,,361,失效,0,9999,,bf_all_status.m3u8,1080P,江苏卫视,http://38.75.136.137:98/gslb/dsdqpub/jswshd.m3u8?auth=testpub
-江苏卫视,卫视,,,362,失效,0,9999,,iptvorg_cn2.m3u,1080P,江苏卫视 (1080p),http://39.134.115.163:8080/PLTV/88888910/224/3221225702/index.m3u8
-江苏卫视,卫视,,,363,失效,0,9999,,iptvorg_cn2.m3u,1080P,江苏卫视 (1080p),http://39.134.115.163:8080/PLTV/88888910/224/3221225743/index.m3u8
-江苏卫视,卫视,,,364,失效,404,9999,,iptvorg_cn.m3u,1080P,Jiangsu Satellite TV (1080p),http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226200/index.m3u8
-江苏卫视,卫视,,,365,失效,0,9999,,suxuang ipv4,未知,江苏卫视,http://iptv.huuc.edu.cn/hls/jshd.m3u8
-江苏卫视,卫视,,,366,失效,0,9999,,suxuang ipv4,未知,江苏卫视,http://t.061899.xyz/tl/tl.php?id=jsws
-江苏卫视,卫视,,,367,失效,404,9999,,suxuang ipv4,未知,江苏卫视,http://101.35.240.114:88/live.php?id=江苏卫视
-江苏卫视,卫视,,,368,失效,500,9999,,suxuang ipv4,未知,江苏卫视,http://112.27.235.94:8000/hls/32/index.m3u8
-江苏卫视,卫视,,,369,失效,0,9999,,suxuang ipv4,未知,江苏卫视,https://zby.130519.xyz/PLTV/11/224/3221225720/index.m3u8
-江苏卫视,卫视,,,370,失效,0,9999,,iptv-org cn,1080P,江苏卫视 (1080p),http://223.110.245.170/PLTV/3/224/3221227255/index.m3u8
-江苏卫视,卫视,,,371,失效,0,9999,,iptv-org cn,未知,江苏卫视 (576p),http://183.207.248.71/gitv/live1/JSWS-HD/JSWS-HD
-江苏卫视,卫视,,,372,失效,0,9999,,Guovin iptv-api result(存活校验),未知,江苏卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=jswshd
-江苏卫视,卫视,,,373,失效,0,9999,,Guovin iptv-api result(存活校验),未知,江苏卫视,http://107.150.60.122/live/jswshd.m3u8
-江苏卫视,卫视,,,374,失效,200,9999,,Guovin iptv-api result(存活校验),未知,江苏卫视,http://104.152.209.49:8181/720p/jsws.m3u8
-江西卫视,卫视,,,375,存活,200,24,,best-fan 央视卫视地方(每日存活校验),1080P,江西卫视,http://123.160.235.204:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
-江西卫视,卫视,,,376,存活,200,38,,best-fan 央视卫视地方(每日存活校验),未知,江西卫视,http://124.228.160.3:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
-江西卫视,卫视,,,377,存活,200,55,,bf_all_status.m3u8,1080P,江西卫视,http://222.169.85.8:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
-江西卫视,卫视,,,378,存活,200,67,,best-fan 央视卫视地方(每日存活校验),未知,江西卫视,http://119.39.9.8:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=0&authid=0
-江西卫视,卫视,,,379,存活,200,143,,bf_all_status.m3u8,标清,江西卫视,http://113.25.252.226:9901/tsfile/live/1035_1.m3u8?key=txiptv&playlive=1&authid=0
-江西卫视,卫视,,,380,存活,200,264,,best-fan 央视卫视地方(每日存活校验),1080P,江西卫视,http://101.66.199.175:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=0&authid=0
-江西卫视,卫视,,,381,存活,200,719,,Guovin iptv-api result(存活校验),未知,江西卫视,http://38.75.136.137:98/gslb/dsdqpub/jxwshd.m3u8?auth=testpub
-江西卫视,卫视,,,382,存活,200,849,,bf_all_status.m3u8,1080P,江西卫视,http://112.27.5.218:9901/tsfile/live/faacts/0138_1.m3u8?key=txiptv&playlive=1&authid=0
-江西卫视,卫视,,,383,失效,0,9999,,iptvorg_cn2.m3u,1080P,江西卫视 (1080p),http://112.25.48.68/live/program/live/jxwshd/4000000/mnf.m3u8
-江西卫视,卫视,,,384,失效,0,9999,,iptvorg_cn2.m3u,1080P,江西卫视 (1080p),http://183.207.248.71/cntv/live1/jiangxistv/jiangxistv
-江西卫视,卫视,,,385,失效,0,9999,,iptvorg_cn2.m3u,1080P,江西卫视 (1080p),http://183.207.249.11/PLTV/3/224/3221225536/index.m3u8
-江西卫视,卫视,,,386,失效,0,9999,,iptvorg_cn2.m3u,1080P,江西卫视 (1080p),http://223.110.245.170/PLTV/3/224/3221225536/index.m3u8
-江西卫视,卫视,,,387,失效,0,9999,,iptvorg_cn2.m3u,1080P,江西卫视 (1080p),http://223.110.254.199:6610/cntv/live1/jiangxistv/jiangxistv/1.m3u8
-江西卫视,卫视,,,388,失效,0,9999,,iptvorg_cn2.m3u,1080P,江西卫视 (1080p),http://39.134.115.163:8080/PLTV/88888910/224/3221225746/index.m3u8
-江西卫视,卫视,,,389,失效,0,9999,,iptvorg_cn2.m3u,720P,江西卫视 (720p),http://117.169.120.140:8080/live/jiangxistv/.m3u8
-江西卫视,卫视,,,390,失效,0,9999,,iptvorg_cn2.m3u,标清,江西卫视 (360p),http://125.210.152.18:9090/live/JXWSHD_H265.m3u8
-江西卫视,卫视,,,391,失效,0,9999,,iptvorg_cn2.m3u,标清,江西卫视 (576p),http://183.207.248.71/gitv/live1/JXWS/JXWS
-江西卫视,卫视,,,392,失效,0,9999,,iptvorg_cn2.m3u,标清,江西卫视 (576p),http://183.207.249.15/PLTV/4/224/3221225798/index.m3u8
-江西卫视,卫视,,,393,失效,0,9999,,best-fan 央视卫视地方(每日存活校验),1080P,江西卫视,http://101.66.198.220:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=0&authid=0
-江西卫视,卫视,,,394,失效,0,9999,,suxuang ipv4,未知,江西卫视,http://iptv.huuc.edu.cn/hls/jxhd.m3u8
-江西卫视,卫视,,,395,失效,0,9999,,suxuang ipv4,未知,江西卫视,http://t.061899.xyz/tl/tl.php?id=jxws
-江西卫视,卫视,,,396,失效,404,9999,,suxuang ipv4,未知,江西卫视,http://101.35.240.114:88/live.php?id=江西卫视
-江西卫视,卫视,,,397,失效,500,9999,,suxuang ipv4,未知,江西卫视,http://112.27.235.94:8000/hls/44/index.m3u8
-江西卫视,卫视,,,398,失效,0,9999,,suxuang ipv4,未知,江西卫视,https://zby.130519.xyz/PLTV/11/224/3221225740/index.m3u8
-江西卫视,卫视,,,399,失效,0,9999,,iptv-org cn,1080P,江西卫视 (1080p),http://39.134.115.163:8080/PLTV/88888910/224/3221225705/index.m3u8
-江西卫视,卫视,,,400,失效,0,9999,,Guovin iptv-api result(存活校验),未知,江西卫视,https://live.264788.xyz/channel/jiangxiweishi?streamid=555198f31caa33506ac6abb70d788959&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-江西卫视,卫视,,,401,失效,0,9999,,Guovin iptv-api result(存活校验),未知,江西卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=jxwshd
-江西卫视,卫视,,,402,失效,0,9999,,Guovin iptv-api result(存活校验),未知,江西卫视,http://107.150.60.122/live/jxwshd.m3u8
-河北4K,卫视,,,403,存活,200,303,,suxuang ipv4,4K,河北4K,https://event.pull.hebtv.com:443/live/live101.m3u8
-河北4K,卫视,,,404,失效,0,9999,,suxuang ipv4,4K,河北4K,http://106.53.99.30/tv/api.php?id=hebtv4k
-河北卫视,卫视,,,405,存活,200,37,,bf_all_status.m3u8,1080P,河北卫视,http://112.123.243.37:50085/tsfile/live/0018_1.m3u8?key=txiptv&playlive=0&authid=0
-河北卫视,卫视,,,406,存活,200,39,,suxuang.m3u,未知,"tvg-id=""河北卫视"" tvg-name=""河北卫视"" tvg-logo=""",http://120.76.248.139/live/bfgd/4200000108.m3u8
-河北卫视,卫视,,,407,存活,200,88,,bf_all_status.m3u8,未知,河北卫视,http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8
-河北卫视,卫视,,,408,存活,200,88,,best-fan 央视卫视地方(每日存活校验),1080P,河北卫视,http://221.7.175.154:8445/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0
-河北卫视,卫视,,,409,存活,200,123,,best-fan 央视卫视地方(每日存活校验),未知,河北卫视,http://36.136.38.87:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0
-河北卫视,卫视,,,410,存活,200,259,,Guovin iptv-api result(存活校验),未知,河北卫视,https://event.pull.hebtv.com/live/live101.m3u8
-河北卫视,卫视,,,411,存活,200,303,,kimentanm.m3u,4K,河北4K,https://event.pull.hebtv.com:443/live/live101.m3u8
-河北卫视,卫视,,,412,存活,200,421,,best-fan 央视卫视地方(每日存活校验),1080P,河北卫视,http://101.66.199.175:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=0&authid=0
-河北卫视,卫视,,,413,失效,0,9999,,suxuang.m3u,4K,河北4K,http://106.53.99.30/tv/api.php?id=hebtv4k
-河北卫视,卫视,,,414,失效,0,9999,,bf_all_status.m3u8,1080P,河北卫视,http://38.75.136.137:98/gslb/dsdqpub/hewshd.m3u8?auth=testpub
-河北卫视,卫视,,,415,失效,0,9999,,ibert_all.m3u,720P,[HD]河北卫视,https://stream1.freetv.fun/50a5410e1d04d5d14187b7b663c633977b51e860cf4e7046b19159d791a1a0a1.ctv
-河北卫视,卫视,,,416,失效,404,9999,,kimentanm.m3u,未知,河北卫视,http://101.35.240.114:88/live.php?id=河北卫视
-河北卫视,卫视,,,417,失效,500,9999,,suxuang.m3u,未知,河北卫视,http://112.27.235.94:8000/hls/39/index.m3u8
-河北卫视,卫视,,,418,失效,0,9999,,suxuang.m3u,未知,河北卫视,http://148.135.93.213/live.php?id=河北卫视
-河北卫视,卫视,,,419,失效,0,9999,,suxuang.m3u,未知,河北卫视,http://iptv.huuc.edu.cn/hls/hebhd.m3u8
-河北卫视,卫视,,,420,失效,403,9999,,suxuang.m3u,未知,河北卫视,http://tv.pull.hebtv.com/jishi/weishipindao.m3u8?t=2510710360&k=3d44740039027301acf8341d7361ab59
-河北卫视,卫视,,,421,失效,0,9999,,suxuang.m3u,未知,河北卫视,https://zby.130519.xyz/PLTV/11/224/3221226107/index.m3u8
-河北卫视,卫视,,,422,失效,0,9999,,best-fan 央视卫视地方(每日存活校验),1080P,河北卫视,http://101.66.195.84:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=0&authid=0
-河北卫视,卫视,,,423,失效,0,9999,,Guovin iptv-api result(存活校验),未知,河北卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hewshd
-河北卫视,卫视,,,424,失效,0,9999,,Guovin iptv-api result(存活校验),未知,河北卫视,http://204.12.221.218:8181/3m1080p/hews.m3u8
-河北卫视,卫视,,,425,失效,403,9999,,bestK iptv,未知,河北卫视,https://tv.pull.hebtv.com/jishi/weishipindao.m3u8?t=1771394218&k=dd57c621e6c97a53315d6ee009d7d1d9
-河南卫视,卫视,,,426,存活,200,23,,best-fan 央视卫视地方(每日存活校验),1080P,河南卫视,http://123.160.235.204:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
-河南卫视,卫视,,,427,存活,200,47,,bf_all_status.m3u8,1080P,河南卫视,http://222.169.85.8:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
-河南卫视,卫视,,,428,存活,200,51,,best-fan 央视卫视地方(每日存活校验),未知,河南卫视,http://36.136.38.87:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
-河南卫视,卫视,,,429,存活,200,57,,best-fan 央视卫视地方(每日存活校验),1080P,河南卫视,http://221.7.175.154:8445/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
-河南卫视,卫视,,,430,存活,200,74,,best-fan 央视卫视地方(每日存活校验),未知,河南卫视,http://119.39.9.8:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=0&authid=0
-河南卫视,卫视,,,431,存活,302,119,,suxuang.m3u,未知,河南卫视,http://1.94.31.214/php/hntv.php?id=hnws
-河南卫视,卫视,,,432,存活,200,262,,best-fan 央视卫视地方(每日存活校验),1080P,河南卫视,https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=985ebb910dd1e9ad9603ffd7670bd155&wsTime=1791183481
-河南卫视,卫视,,,433,存活,200,906,,Guovin iptv-api result(存活校验),未知,河南卫视,http://38.75.136.137:98/gslb/dsdqpub/hawshd.m3u8?auth=testpub
-河南卫视,卫视,,,434,失效,0,9999,,bf_all_status.m3u8,标清,河南卫视,http://111.59.139.82:11888/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
-河南卫视,卫视,,,435,失效,404,9999,,kimentanm.m3u,未知,河南卫视,http://101.35.240.114:88/live.php?id=河南卫视
-河南卫视,卫视,,,436,失效,500,9999,,suxuang.m3u,未知,河南卫视,http://112.27.235.94:8000/hls/37/index.m3u8
-河南卫视,卫视,,,437,失效,0,9999,,suxuang.m3u,未知,河南卫视,http://148.135.93.213/live.php?id=河南卫视
-河南卫视,卫视,,,438,失效,0,9999,,suxuang.m3u,未知,河南卫视,http://t.061899.xyz/tl/tl.php?id=hnws
-河南卫视,卫视,,,439,失效,0,9999,,ibert_all.m3u,未知,[BD]河南卫视,https://stream1.freetv.fun/7331faf4032e9de329e2c041cd9fa6f95fad0683ef1937a7bbbb76322856b9eb.m3u8
-河南卫视,卫视,,,440,失效,0,9999,,suxuang.m3u,未知,河南卫视,https://zby.130519.xyz/PLTV/11/224/3221226132/index.m3u8
-河南卫视,卫视,,,441,失效,403,9999,,best-fan 央视卫视地方(每日存活校验),1080P,河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=6c498915ad08966278d65488871efc64&wsTime=1795464201
-河南卫视,卫视,,,442,失效,0,9999,,Guovin iptv-api result(存活校验),未知,河南卫视,http://107.150.60.122/live/hawshd.m3u8
-河南卫视,卫视,,,443,失效,0,9999,,Guovin iptv-api result(存活校验),未知,河南卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hawshd
-河南卫视,卫视,,,444,失效,0,9999,,Guovin iptv-api result(存活校验),未知,河南卫视,http://173.208.212.130:8181/720p/haws.m3u8
-河南卫视,卫视,,,445,失效,0,9999,,bestK iptv,未知,河南卫视,http://121.12.173.50/tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=d5802e4ac0211bab22ec79a725fd1797&wsTime=1771400050&wsSession=038d4cc16cb7fae2dee186e5-177138771287254&wsIPSercert=f1ed5e80c31ab65580d88c6bbb451005&wsiphost=local&wsBindIP=1
-浙江卫视,卫视,,,446,存活,200,22,,vbskycn iptv4,未知,浙江卫视,https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8?
-浙江卫视,卫视,,,447,存活,200,26,,best-fan 央视卫视地方(每日存活校验),1080P,浙江卫视,http://123.160.235.204:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0
-浙江卫视,卫视,,,448,存活,200,29,,bf_all_status.m3u8,1080P,浙江卫视,http://113.57.140.161:10081/newlive/live/hls/32/live.m3u8
-浙江卫视,卫视,,,449,存活,200,34,,best-fan 央视卫视地方(每日存活校验),未知,浙江卫视,http://124.228.160.3:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0
-浙江卫视,卫视,,,450,存活,200,37,,bf_all_status.m3u8,1080P,浙江卫视,http://112.123.243.37:50085/tsfile/live/0019_1.m3u8?key=txiptv&playlive=0&authid=0
-浙江卫视,卫视,,,451,存活,200,49,,suxuang ipv4,未知,浙江卫视,http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
-浙江卫视,卫视,,,452,存活,200,105,,bf_all_status.m3u8,1080P,浙江卫视,http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8
-浙江卫视,卫视,,,453,存活,200,113,,Guovin iptv-api result(存活校验),未知,浙江卫视,https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
-浙江卫视,卫视,,,454,存活,200,127,,bf_all_status.m3u8,720P,浙江卫视,http://ali-xwl.cztv.com/live/channel01720Plxw.m3u8
-浙江卫视,卫视,,,455,存活,200,164,,Guovin iptv-api result(存活校验),未知,浙江卫视,http://ali-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8
-浙江卫视,卫视,,,456,存活,200,293,,best-fan 央视卫视地方(每日存活校验),1080P,浙江卫视,http://101.66.195.24:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=0&authid=0
-浙江卫视,卫视,,,457,存活,200,1613,,Guovin iptv-api result(存活校验),未知,浙江卫视,http://38.75.136.137:98/gslb/dsdqpub/zjwshd.m3u8?auth=testpub
-浙江卫视,卫视,,,458,失效,404,9999,,kimentanm.m3u,4K,浙江卫视4K,http://101.35.240.114:88/live.php?id=浙江卫视4K
-浙江卫视,卫视,,,459,失效,0,9999,,iptvorg_cn2.m3u,1080P,浙江卫视 (1080p),http://112.25.48.68/live/program/live/zjwshd/4000000/mnf.m3u8
-浙江卫视,卫视,,,460,失效,0,9999,,iptvorg_cn2.m3u,1080P,浙江卫视 (1080p),http://183.207.248.71/cntv/live1/HD-2500k-1080P-zhejiangstv/HD-2500k-1080P-zhejiangstv
-浙江卫视,卫视,,,461,失效,0,9999,,iptvorg_cn2.m3u,1080P,浙江卫视 (1080p),http://183.207.248.71/cntv/live1/zhejiangstv/zhejiangstv
-浙江卫视,卫视,,,462,失效,0,9999,,iptvorg_cn2.m3u,1080P,浙江卫视 (1080p),http://183.207.249.34/PLTV/4/224/3221227393/index.m3u8
-浙江卫视,卫视,,,463,失效,0,9999,,iptvorg_cn2.m3u,1080P,浙江卫视 (1080p),http://223.110.243.173/PLTV/3/224/3221227215/index.m3u8
-浙江卫视,卫视,,,464,失效,0,9999,,iptvorg_cn2.m3u,1080P,浙江卫视 (1080p),http://223.110.245.143/ott.js.chinamobile.com/PLTV/3/224/3221227483/index.m3u8
-浙江卫视,卫视,,,465,失效,0,9999,,iptvorg_cn2.m3u,1080P,浙江卫视 (1080p),http://223.110.245.159/ott.js.chinamobile.com/PLTV/3/224/3221227393/index.m3u8
-浙江卫视,卫视,,,466,失效,0,9999,,iptvorg_cn.m3u,1080P,Zhejiang Satellite TV (1080p),http://39.134.115.163:8080/PLTV/88888910/224/3221225703/index.m3u8
-浙江卫视,卫视,,,467,失效,0,9999,,iptvorg_cn2.m3u,1080P,浙江卫视 (1080p),http://39.134.115.163:8080/PLTV/88888910/224/3221225744/index.m3u8
-浙江卫视,卫视,,,468,失效,0,9999,,best-fan 央视卫视地方(每日存活校验),1080P,浙江卫视,http://101.66.198.220:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=0&authid=0
-浙江卫视,卫视,,,469,失效,404,9999,,suxuang ipv4,未知,浙江卫视,https://play-qukan.cztv.com/live/1746687519046362.m3u8
-浙江卫视,卫视,,,470,失效,0,9999,,suxuang ipv4,未知,浙江卫视,http://iptv.huuc.edu.cn/hls/zjhd.m3u8
-浙江卫视,卫视,,,471,失效,404,9999,,suxuang ipv4,未知,浙江卫视,http://101.35.240.114:88/live.php?id=浙江卫视
-浙江卫视,卫视,,,472,失效,500,9999,,suxuang ipv4,未知,浙江卫视,http://112.27.235.94:8000/hls/29/index.m3u8
-浙江卫视,卫视,,,473,失效,0,9999,,suxuang ipv4,未知,浙江卫视,https://zby.130519.xyz/PLTV/11/224/3221225727/index.m3u8
-浙江卫视,卫视,,,474,失效,0,9999,,iptv-org cn,1080P,浙江卫视 (1080p),http://223.110.254.210:6610/cntv/live1/zhejiangstv/zhejiangstv/1.m3u8
-浙江卫视,卫视,,,475,失效,0,9999,,iptv-org cn,未知,浙江卫视 (576p),http://183.207.248.71/gitv/live1/G_ZHEJIANG/G_ZHEJIANG
-浙江卫视,卫视,,,476,失效,0,9999,,Guovin iptv-api result(存活校验),未知,浙江卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=zjwshd
-浙江卫视,卫视,,,477,失效,0,9999,,Guovin iptv-api result(存活校验),未知,浙江卫视,http://107.150.60.122/live/zjwshd.m3u8
-浙江卫视,卫视,,,478,失效,403,9999,,bestK iptv,未知,浙江卫视,http://zwebl02.cztv.com/live/channel01720Pnew.m3u8?auth_key=1771387389-7864ae82da3f6f9b9a99094ac8057af9-0-5bd73708daa30dea5fba2e51470b1435
-浙江卫视,卫视,,,479,失效,404,9999,,bestK iptv,未知,Zhejiang Satellite TV,https://play-qukan.cztv.com/live/1758879019692345.m3u8
-海南卫视,卫视,,,480,存活,200,70,,suxuang.m3u,未知,海南卫视,http://120.76.248.139/live/bfgd/4200000473.m3u8
-海南卫视,卫视,,,481,失效,404,9999,,kimentanm.m3u,未知,海南卫视,http://101.35.240.114:88/live.php?id=海南卫视
-海南卫视,卫视,,,482,失效,0,9999,,suxuang.m3u,未知,海南卫视,http://148.135.93.213/live.php?id=海南卫视
-海南卫视,卫视,,,483,失效,404,9999,,suxuang.m3u,未知,海南卫视,http://nn.7x9d.cn/地方台8563/海南.php?id=hnws
-海南卫视,卫视,,,484,失效,0,9999,,suxuang.m3u,未知,海南卫视,http://t.061899.xyz/tl/tl.php?id=hinws
-海南卫视,卫视,,,485,失效,0,9999,,ibert_all.m3u,未知,[VGA]海南卫视,https://stream1.freetv.fun/468b29e1bee51764e3cf09ee70bf730e44aaeead942f39c43e9010e9da7b7a4a.ctv
-海南卫视,卫视,,,486,失效,0,9999,,suxuang.m3u,未知,海南卫视,https://zby.130519.xyz/PLTV/11/224/3221226154/index.m3u8
-海南卫视,卫视,,,487,失效,403,9999,,Guovin iptv-api result(存活校验),未知,海南卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227029/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EEuBMjt2kLMD8fAO7QYER7Q%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
-湖北卫视,卫视,,,488,存活,200,31,,best-fan 央视卫视地方(每日存活校验),1080P,湖北卫视,http://113.57.140.161:10081/newlive/live/hls/36/live.m3u8
-湖北卫视,卫视,,,489,存活,200,38,,Guovin iptv-api result(存活校验),未知,湖北卫视,http://120.76.248.139/live/bfgd/4200000102.m3u8
-湖北卫视,卫视,,,490,存活,200,48,,bf_all_status.m3u8,1080P,湖北卫视,http://112.123.243.37:50085/tsfile/live/1001_1.m3u8?key=txiptv&playlive=0&authid=0
-湖北卫视,卫视,,,491,存活,200,94,,best-fan 央视卫视地方(每日存活校验),1080P,湖北卫视,http://120.40.39.246:352/newlive/live/hls/36/live.m3u8
-湖北卫视,卫视,,,492,存活,200,220,,best-fan 央视卫视地方(每日存活校验),1080P,湖北卫视,http://101.66.195.24:9901/tsfile/live/0132_1.m3u8?key=txiptv&playlive=0&authid=0
-湖北卫视,卫视,,,493,失效,404,9999,,kimentanm.m3u,未知,湖北卫视,http://101.35.240.114:88/live.php?id=湖北卫视
-湖北卫视,卫视,,,494,失效,500,9999,,suxuang.m3u,未知,湖北卫视,http://112.27.235.94:8000/hls/41/index.m3u8
-湖北卫视,卫视,,,495,失效,0,9999,,suxuang.m3u,未知,湖北卫视,http://iptv.huuc.edu.cn/hls/hbhd.m3u8
-湖北卫视,卫视,,,496,失效,0,9999,,suxuang.m3u,未知,湖北卫视,http://t.061899.xyz/tl/tl.php?id=hubws
-湖北卫视,卫视,,,497,失效,0,9999,,ibert_all.m3u,未知,[BD]湖北卫视,https://stream1.freetv.fun/37aa38a997eb8e568186fad85670c3a3a6684361c2b038c5cd0d0835216f299b.m3u8
-湖北卫视,卫视,,,498,失效,0,9999,,suxuang.m3u,未知,湖北卫视,https://zby.130519.xyz/PLTV/11/224/3221225729/index.m3u8
-湖北卫视,卫视,,,499,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖北卫视,http://107.150.60.122/live/hbwshd.m3u8
-湖北卫视,卫视,,,500,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖北卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hbwshd
-湖南卫视,卫视,,,501,存活,200,27,,best-fan 央视卫视地方(每日存活校验),1080P,湖南卫视,http://123.160.235.204:9901/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
-湖南卫视,卫视,,,502,存活,200,43,,best-fan 央视卫视地方(每日存活校验),1080P,湖南卫视,http://113.57.140.161:10081/newlive/live/hls/30/live.m3u8
-湖南卫视,卫视,,,503,存活,200,47,,bf_all_status.m3u8,1080P,湖南卫视,http://112.123.243.37:50085/tsfile/live/1002_1.m3u8?key=txiptv&playlive=0&authid=0
-湖南卫视,卫视,,,504,存活,200,47,,best-fan 央视卫视地方(每日存活校验),1080P,湖南卫视,http://221.7.175.154:8445/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
-湖南卫视,卫视,,,505,存活,200,83,,vbskycn iptv4,未知,湖南卫视,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
-湖南卫视,卫视,,,506,存活,200,219,,best-fan 央视卫视地方(每日存活校验),1080P,湖南卫视,http://101.66.199.175:9901/tsfile/live/0019_1.m3u8?key=txiptv&playlive=0&authid=0
-湖南卫视,卫视,,,507,存活,200,451,,Guovin iptv-api result(存活校验),未知,湖南卫视,https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8
-湖南卫视,卫视,,,508,存活,200,647,,suxuang.m3u,4K,湖南卫视4K,http://8.138.7.223/tv/api.php?id=hnws4k
-湖南卫视,卫视,,,509,存活,200,822,,bf_all_status.m3u8,1080P,湖南卫视,http://74.91.26.218:82/live/hnwshd.m3u8
-湖南卫视,卫视,,,510,失效,404,9999,,kimentanm.m3u,4K,湖南卫视4K,http://101.35.240.114:88/live.php?id=湖南卫视4K
-湖南卫视,卫视,,,511,失效,0,9999,,ibert_all.m3u,720P,[HD]湖南卫视,https://stream1.freetv.fun/68232f771e5e64ddcaf9a038ebb1aa747c384d46ab1f33fa5be113e6d0c6d298.m3u8
-湖南卫视,卫视,,,512,失效,404,9999,,kimentanm.m3u,未知,湖南卫视,http://101.35.240.114:88/live.php?id=湖南卫视
-湖南卫视,卫视,,,513,失效,500,9999,,suxuang.m3u,未知,湖南卫视,http://112.27.235.94:8000/hls/31/index.m3u8
-湖南卫视,卫视,,,514,失效,0,9999,,suxuang.m3u,未知,湖南卫视,http://iptv.huuc.edu.cn/hls/hunanhd.m3u8
-湖南卫视,卫视,,,515,失效,0,9999,,suxuang.m3u,未知,湖南卫视,http://t.061899.xyz/tl/tl.php?id=hunws
-湖南卫视,卫视,,,516,失效,0,9999,,suxuang.m3u,未知,湖南卫视,https://zby.130519.xyz/PLTV/11/224/3221225726/index.m3u8
-湖南卫视,卫视,,,517,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖南卫视,http://107.150.60.122/live/hnwshd.m3u8
-湖南卫视,卫视,,,518,失效,0,9999,,Guovin iptv-api result(存活校验),未知,湖南卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hnwshd
-湖州公共,卫视,,,519,失效,0,9999,,bestK iptv,未知,湖州公共,https://stream1.freetv.fun/hu-zhou-gong-gong-9.m3u8
-甘肃卫视,卫视,,,520,存活,200,33,,best-fan 央视卫视地方(每日存活校验),未知,甘肃卫视,http://119.39.9.8:9901/tsfile/live/0141_1.m3u8?key=txiptv&playlive=0&authid=0
-甘肃卫视,卫视,,,521,存活,200,38,,bf_all_status.m3u8,标清,甘肃卫视,http://112.123.243.37:50085/tsfile/live/0123_1.m3u8?key=txiptv&playlive=0&authid=0
-甘肃卫视,卫视,,,522,存活,200,142,,bf_all_status.m3u8,标清,甘肃卫视,http://113.25.252.226:9901/tsfile/live/1047_1.m3u8?key=txiptv&playlive=1&authid=0
-甘肃卫视,卫视,,,523,存活,200,166,,Guovin iptv-api result(存活校验),未知,甘肃卫视,http://120.76.248.139/live/bfgd/4200000119.m3u8
-甘肃卫视,卫视,,,524,存活,200,4136,,vbskycn.m3u,未知,甘肃卫视,http://218.13.170.98:9901/tsfile/live/0141_1.m3u8
-甘肃卫视,卫视,,,525,失效,0,9999,,bf_all_status.m3u8,720P,甘肃卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gswshd
-甘肃卫视,卫视,,,526,失效,0,9999,,ibert_all.m3u,标清,[SD]甘肃卫视,https://stream1.freetv.fun/62fc00b17e85a0f05bc7442ba4c507d0d9ed83d0e4c628543a0c8cc0f3c0e79e.m3u8
-甘肃卫视,卫视,,,527,失效,404,9999,,kimentanm.m3u,未知,甘肃卫视,http://101.35.240.114:88/live.php?id=甘肃卫视
-甘肃卫视,卫视,,,528,失效,0,9999,,suxuang.m3u,未知,甘肃卫视,http://148.135.93.213/live.php?id=甘肃卫视
-甘肃卫视,卫视,,,529,失效,0,9999,,suxuang.m3u,未知,甘肃卫视,http://t.061899.xyz/tl/tl.php?id=gsws
-甘肃卫视,卫视,,,530,失效,403,9999,,iptvorg_cn2.m3u,未知,甘肃移动 (540p) [Not 24/7],https://hls.gstv.com.cn/49048r/y72q36.m3u8
-甘肃卫视,卫视,,,531,失效,0,9999,,suxuang.m3u,未知,甘肃卫视,https://zby.130519.xyz/PLTV/11/224/3221226090/index.m3u8
-甘肃卫视,卫视,,,532,失效,0,9999,,Guovin iptv-api result(存活校验),未知,甘肃卫视,http://38.75.136.137:98/gslb/dsdqpub/gswshd.m3u8?auth=testpub
-甘肃卫视,卫视,,,533,失效,403,9999,,Guovin iptv-api result(存活校验),未知,甘肃卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227020/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Err-CLugPnTcUinEM8JeySg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
-绍兴文化影院,卫视,,,534,失效,0,9999,,bestK iptv,未知,绍兴文化影院,https://stream1.freetv.fun/shao-xing-wen-hua-ying-yuan-1.m3u8
-苏州4K,卫视,,,535,存活,200,216,,suxuang ipv4,4K,苏州4K,https://tylive.kan0512.com/norecord/csztv4k_4k.m3u8
-苏州4K,卫视,,,536,存活,200,407,,bestK iptv,4K,苏州4K,https://live-auth.51kandianshi.com/szgd/csztv4k_hd.m3u8
-苏州4K,卫视,,,537,失效,0,9999,,suxuang ipv4,4K,苏州4K,http://106.53.99.30/tv/api.php?id=sztv4k
-西藏卫视,卫视,,,538,存活,200,36,,bf_all_status.m3u8,标清,西藏卫视,http://112.123.243.37:50085/tsfile/live/0141_1.m3u8?key=txiptv&playlive=0&authid=0
-西藏卫视,卫视,,,539,存活,200,38,,Guovin iptv-api result(存活校验),未知,西藏卫视,http://120.76.248.139/live/bfgd/4200000121.m3u8
-西藏卫视,卫视,,,540,存活,200,84,,best-fan 央视卫视地方(每日存活校验),1080P,西藏卫视,http://221.7.175.154:8445/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
-西藏卫视,卫视,,,541,存活,200,101,,best-fan 央视卫视地方(每日存活校验),1080P,西藏卫视,http://222.71.55.147:85/tsfile/live/0111_1.m3u8?key=txiptv&playlive=0&authid=0
-西藏卫视,卫视,,,542,存活,200,102,,best-fan 央视卫视地方(每日存活校验),1080P,西藏卫视,http://120.198.86.186:9901/tsfile/live/1089_1.m3u8?key=txiptv&playlive=1&authid=0
-西藏卫视,卫视,,,543,存活,200,117,,best-fan 央视卫视地方(每日存活校验),1080P,西藏卫视,http://222.71.55.147:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=0&authid=0
-西藏卫视,卫视,,,544,存活,200,855,,bf_all_status.m3u8,标清,西藏卫视,http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0
-西藏卫视,卫视,,,545,存活,200,1003,,best-fan 央视卫视地方(每日存活校验),未知,西藏卫视,http://218.13.170.98:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0
-西藏卫视,卫视,,,546,失效,404,9999,,kimentanm.m3u,未知,西藏卫视,http://101.35.240.114:88/live.php?id=西藏卫视
-西藏卫视,卫视,,,547,失效,0,9999,,iptvorg_cn2.m3u,标清,西藏卫视 (576p),http://117.169.120.140:8080/live/xizangstv/.m3u8
-西藏卫视,卫视,,,548,失效,0,9999,,bf_all_status.m3u8,标清,西藏卫视,http://183.10.180.46:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0
-西藏卫视,卫视,,,549,失效,0,9999,,iptvorg_cn2.m3u,标清,西藏卫视 (576p),http://183.207.249.16/PLTV/3/224/3221225523/index.m3u8
-西藏卫视,卫视,,,550,失效,0,9999,,iptvorg_cn2.m3u,标清,西藏卫视 (576p),http://39.134.115.163:8080/PLTV/88888910/224/3221225723/index.m3u8
-西藏卫视,卫视,,,551,失效,0,9999,,suxuang.m3u,未知,西藏卫视,http://t.061899.xyz/tl/tl.php?id=xzws
-西藏卫视,卫视,,,552,失效,0,9999,,ibert_all.m3u,未知,[BD]西藏卫视,https://stream1.freetv.fun/dd47ba03fe77064ea4e0978637231bce94e7554c9f8f6a020195311829752aed.m3u8
-西藏卫视,卫视,,,553,失效,0,9999,,vbskycn iptv4,未知,西藏卫视,https://live.264788.xyz/channel/xizangweishi?streamid=4b4e8ea919f1cfd5e43deed1d1675251&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-西藏卫视,卫视,,,554,失效,0,9999,,Guovin iptv-api result(存活校验),未知,西藏卫视,http://107.150.60.122/live/xzws.m3u8
-西藏卫视,卫视,,,555,失效,0,9999,,Guovin iptv-api result(存活校验),未知,西藏卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=xzws
-贵州卫视,卫视,,,556,存活,200,43,,bf_all_status.m3u8,1080P,贵州卫视,http://112.123.243.37:50085/tsfile/live/0130_2.m3u8?key=txiptv&playlive=0&authid=0
-贵州卫视,卫视,,,557,存活,200,55,,best-fan 央视卫视地方(每日存活校验),1080P,贵州卫视,http://119.125.131.84:9901/tsfile/live/1052_1.m3u8?key=txiptv&playlive=1&down=1
-贵州卫视,卫视,,,558,存活,200,110,,best-fan 央视卫视地方(每日存活校验),未知,贵州卫视,http://36.136.38.87:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=1&authid=0
-贵州卫视,卫视,,,559,失效,404,9999,,kimentanm.m3u,未知,贵州卫视,http://101.35.240.114:88/live.php?id=贵州卫视
-贵州卫视,卫视,,,560,失效,0,9999,,bf_all_status.m3u8,1080P,贵州卫视,http://183.10.180.46:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=1&authid=0
-贵州卫视,卫视,,,561,失效,0,9999,,iptvorg_cn2.m3u,标清,贵州卫视 (360p),http://125.210.152.18:9090/live/GZWSHD_H265.m3u8
-贵州卫视,卫视,,,562,失效,0,9999,,iptvorg_cn2.m3u,标清,贵州卫视 (576p),http://223.110.245.149/ott.js.chinamobile.com/PLTV/3/224/3221225787/index.m3u8
-贵州卫视,卫视,,,563,失效,0,9999,,iptvorg_cn2.m3u,标清,贵州卫视 (576p),http://39.134.115.163:8080/PLTV/88888910/224/3221225728/index.m3u8
-贵州卫视,卫视,,,564,失效,0,9999,,ibert_all.m3u,标清,[SD]贵州卫视,https://stream1.freetv.fun/cc54b485fc3912265c9dbb24fe2b6d1ba2b65412d0ff45b904bc4d53ea02bf67.m3u8
-贵州卫视,卫视,,,565,失效,500,9999,,suxuang.m3u,未知,贵州卫视,http://112.27.235.94:8000/hls/46/index.m3u8
-贵州卫视,卫视,,,566,失效,0,9999,,suxuang.m3u,未知,贵州卫视,http://148.135.93.213/live.php?id=贵州卫视
-贵州卫视,卫视,,,567,失效,0,9999,,suxuang.m3u,未知,贵州卫视,http://t.061899.xyz/tl/tl.php?id=gzws
-贵州卫视,卫视,,,568,失效,0,9999,,suxuang.m3u,未知,贵州卫视,https://zby.130519.xyz/PLTV/11/224/3221226173/index.m3u8
-贵州卫视,卫视,,,569,失效,0,9999,,best-fan 央视卫视地方(每日存活校验),1080P,贵州卫视,http://101.66.198.220:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=0&authid=0
-贵州卫视,卫视,,,570,失效,0,9999,,best-fan 央视卫视地方(每日存活校验),1080P,贵州卫视,http://101.66.195.84:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=0&authid=0
-贵州卫视,卫视,,,571,失效,0,9999,,iptv-org cn,未知,贵州卫视 (576p),http://183.207.248.71/gitv/live1/G_GUIZHOU/G_GUIZHOU
-贵州卫视,卫视,,,572,失效,0,9999,,Guovin iptv-api result(存活校验),未知,贵州卫视,https://live.264788.xyz/channel/guizhouweishi?streamid=091bd59ea031989839c23459bb8cc9d4&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-贵州卫视,卫视,,,573,失效,0,9999,,Guovin iptv-api result(存活校验),未知,贵州卫视,http://107.150.60.122/live/gzwshd.m3u8
-贵州卫视,卫视,,,574,失效,0,9999,,Guovin iptv-api result(存活校验),未知,贵州卫视,http://204.12.221.218:8181/3m1080p/gzws.m3u8
-贵州卫视,卫视,,,575,失效,0,9999,,Guovin iptv-api result(存活校验),未知,贵州卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gzwshd
-贵州卫视,卫视,,,576,失效,0,9999,,Guovin iptv-api result(存活校验),未知,贵州卫视,http://38.75.136.137:98/gslb/dsdqpub/gzwshd.m3u8?auth=testpub
-辽宁卫视,卫视,,,577,存活,200,38,,best-fan 央视卫视地方(每日存活校验),1080P,辽宁卫视,http://123.160.235.204:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
-辽宁卫视,卫视,,,578,存活,200,84,,best-fan 央视卫视地方(每日存活校验),1080P,辽宁卫视,http://221.7.175.154:8445/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
-辽宁卫视,卫视,,,579,存活,200,102,,best-fan 央视卫视地方(每日存活校验),未知,辽宁卫视,http://119.39.9.8:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=0&authid=0
-辽宁卫视,卫视,,,580,存活,200,108,,best-fan 央视卫视地方(每日存活校验),1080P,辽宁卫视,http://111.59.24.227:8181/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
-辽宁卫视,卫视,,,581,存活,200,161,,best-fan 央视卫视地方(每日存活校验),1080P,辽宁卫视,http://101.66.199.175:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=0&authid=0
-辽宁卫视,卫视,,,582,失效,0,9999,,bf_all_status.m3u8,1080P,辽宁卫视,http://107.150.60.122/live/lnwshd.m3u8
-辽宁卫视,卫视,,,583,失效,0,9999,,iptvorg_cn2.m3u,1080P,辽宁卫视 (1080p),http://112.25.48.68/live/program/live/lnwshd/4000000/mnf.m3u8
-辽宁卫视,卫视,,,584,失效,0,9999,,iptvorg_cn2.m3u,1080P,辽宁卫视 (1080p),http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221227410/index.m3u8
-辽宁卫视,卫视,,,585,失效,0,9999,,iptvorg_cn2.m3u,1080P,辽宁卫视 (1080p),http://39.134.115.163:8080/PLTV/88888910/224/3221225735/index.m3u8
-辽宁卫视,卫视,,,586,失效,0,9999,,iptvorg_cn2.m3u,1080P,辽宁卫视 (1080p),http://39.135.138.59:18890/PLTV/88888910/224/3221225696/index.m3u8
-辽宁卫视,卫视,,,587,失效,0,9999,,iptvorg_cn2.m3u,720P,辽宁卫视 (720p),http://125.210.152.18:9090/live/LNWSHD_H265.m3u8
-辽宁卫视,卫视,,,588,失效,0,9999,,ibert_all.m3u,720P,[HD]辽宁卫视,https://stream1.freetv.fun/b2bebbb6d53b62ec21c3dca43f81123f14218a573e3986c8d65755142700cba7.m3u8
-辽宁卫视,卫视,,,589,失效,0,9999,,iptvorg_cn2.m3u,标清,辽宁卫视 (576p),http://183.207.248.71/cntv/live1/liaoningstv/liaoningstv
-辽宁卫视,卫视,,,590,失效,0,9999,,iptvorg_cn2.m3u,标清,辽宁卫视 (576p),http://183.207.249.12/PLTV/4/224/3221225802/index.m3u8
-辽宁卫视,卫视,,,591,失效,0,9999,,iptvorg_cn2.m3u,标清,辽宁卫视 (576p),http://183.207.249.71/PLTV/3/224/3221225566/index.m3u8
-辽宁卫视,卫视,,,592,失效,404,9999,,kimentanm.m3u,未知,辽宁卫视,http://101.35.240.114:88/live.php?id=辽宁卫视
-辽宁卫视,卫视,,,593,失效,0,9999,,suxuang.m3u,未知,辽宁卫视,http://iptv.huuc.edu.cn/hls/lnhd.m3u8
-辽宁卫视,卫视,,,594,失效,0,9999,,suxuang.m3u,未知,辽宁卫视,http://t.061899.xyz/tl/tl.php?id=lnws
-辽宁卫视,卫视,,,595,失效,0,9999,,best-fan 央视卫视地方(每日存活校验),1080P,辽宁卫视,http://101.66.198.220:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=0&authid=0
-辽宁卫视,卫视,,,596,失效,0,9999,,suxuang ipv4,未知,辽宁卫视,http://148.135.93.213/live.php?id=辽宁卫视
-辽宁卫视,卫视,,,597,失效,500,9999,,suxuang ipv4,未知,辽宁卫视,http://112.27.235.94:8000/hls/47/index.m3u8
-辽宁卫视,卫视,,,598,失效,0,9999,,suxuang ipv4,未知,辽宁卫视,https://zby.130519.xyz/PLTV/11/224/3221225747/index.m3u8
-辽宁卫视,卫视,,,599,失效,0,9999,,iptv-org cn,1080P,辽宁卫视 (1080p),http://39.134.39.37/PLTV/88888888/224/3221226209/index.m3u8
-辽宁卫视,卫视,,,600,失效,0,9999,,Guovin iptv-api result(存活校验),未知,辽宁卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=lnwshd
-辽宁卫视,卫视,,,601,失效,0,9999,,Guovin iptv-api result(存活校验),未知,辽宁卫视,http://198.204.228.26/live/lnwshd.m3u8
-辽宁卫视,卫视,,,602,失效,0,9999,,Guovin iptv-api result(存活校验),未知,辽宁卫视,http://204.12.221.218:8181/3m1080p/lnws.m3u8
-辽宁卫视,卫视,,,603,失效,0,9999,,Guovin iptv-api result(存活校验),未知,辽宁卫视,http://38.75.136.137:98/gslb/dsdqpub/lnwshd.m3u8?auth=testpub
-辽宁影视,卫视,,,604,存活,200,173,,bestK iptv,未知,辽宁影视,http://dassby.qqff.top:99/live/辽宁影视剧/index.m3u8
-重庆卫视,卫视,,,605,存活,200,24,,best-fan 央视卫视地方(每日存活校验),1080P,重庆卫视,http://123.160.235.204:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
-重庆卫视,卫视,,,606,存活,200,45,,best-fan 央视卫视地方(每日存活校验),未知,重庆卫视,http://112.123.243.37:50085/tsfile/live/0131_1.m3u8?key=txiptv&playlive=0&authid=0
-重庆卫视,卫视,,,607,存活,200,49,,bf_all_status.m3u8,1080P,重庆卫视,http://222.169.85.8:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
-重庆卫视,卫视,,,608,存活,200,53,,best-fan 央视卫视地方(每日存活校验),1080P,重庆卫视,http://221.7.175.154:8445/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
-重庆卫视,卫视,,,609,存活,200,93,,best-fan 央视卫视地方(每日存活校验),未知,重庆卫视,http://119.125.131.84:9901/tsfile/live/1066_1.m3u8?key=txiptv&playlive=1&down=1
-重庆卫视,卫视,,,610,存活,200,214,,best-fan 央视卫视地方(每日存活校验),未知,重庆卫视,http://119.39.9.8:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=0&authid=0
-重庆卫视,卫视,,,611,存活,200,1345,,best-fan 央视卫视地方(每日存活校验),1080P,重庆卫视,http://101.66.199.74:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=0&authid=0
-重庆卫视,卫视,,,612,失效,404,9999,,kimentanm.m3u,未知,重庆卫视,http://101.35.240.114:88/live.php?id=重庆卫视
-重庆卫视,卫视,,,613,失效,500,9999,,suxuang.m3u,未知,重庆卫视,http://112.27.235.94:8000/hls/36/index.m3u8
-重庆卫视,卫视,,,614,失效,0,9999,,suxuang.m3u,未知,重庆卫视,http://148.135.93.213/live.php?id=重庆卫视
-重庆卫视,卫视,,,615,失效,0,9999,,suxuang.m3u,未知,重庆卫视,http://iptv.huuc.edu.cn/hls/cqhd.m3u8
-重庆卫视,卫视,,,616,失效,0,9999,,suxuang.m3u,未知,重庆卫视,http://t.061899.xyz/tl/tl.php?id=cqws
-重庆卫视,卫视,,,617,失效,0,9999,,ibert_all.m3u,未知,[BD]重庆卫视,https://stream1.freetv.fun/db87bc979d1c5004a4b6403aa42c8cc09da751ecd2f1cf27806cf13032ea15e4.m3u8
-重庆卫视,卫视,,,618,失效,0,9999,,suxuang.m3u,未知,重庆卫视,https://zby.130519.xyz/PLTV/11/224/3221226171/index.m3u8
-重庆卫视,卫视,,,619,失效,0,9999,,Guovin iptv-api result(存活校验),未知,重庆卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cqwshd
-重庆卫视,卫视,,,620,失效,0,9999,,Guovin iptv-api result(存活校验),未知,重庆卫视,http://107.150.60.122/live/cqwshd.m3u8
-重庆卫视,卫视,,,621,失效,403,9999,,Guovin iptv-api result(存活校验),未知,重庆卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226963/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EjTXsJprEx2nE38tdvu5lhA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
-陕西卫视,卫视,,,622,存活,200,54,,bf_all_status.m3u8,标清,陕西卫视,http://36.136.38.87:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
-陕西卫视,卫视,,,623,存活,200,81,,实测可播,1080P,实测可播,http://dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221225821/index.m3u8
-陕西卫视,卫视,,,624,存活,200,93,,best-fan 央视卫视地方(每日存活校验),未知,陕西卫视,http://119.125.131.84:9901/tsfile/live/1068_1.m3u8?key=txiptv&playlive=1&down=1
-陕西卫视,卫视,,,625,存活,200,102,,bf_all_status.m3u8,标清,陕西卫视,http://120.198.95.220:9901/tsfile/live/1068_1.m3u8?key=txiptv&playlive=1&down=1
-陕西卫视,卫视,,,626,存活,200,105,,实测可播,1080P,实测可播,http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225821/index.m3u8
-陕西卫视,卫视,,,627,存活,200,214,,best-fan 央视卫视地方(每日存活校验),未知,陕西卫视,http://101.66.199.175:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
-陕西卫视,卫视,,,628,存活,200,288,,best-fan 央视卫视地方(每日存活校验),1080P,陕西卫视,http://222.71.55.147:85/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
-陕西卫视,卫视,,,629,存活,200,294,,best-fan 央视卫视地方(每日存活校验),未知,陕西卫视,http://101.66.198.117:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
-陕西卫视,卫视,,,630,存活,200,527,,best-fan 央视卫视地方(每日存活校验),未知,陕西卫视,http://218.13.170.98:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
-陕西卫视,卫视,,,631,存活,200,1347,,best-fan 央视卫视地方(每日存活校验),未知,陕西卫视,http://101.66.199.74:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
-陕西卫视,卫视,,,632,失效,0,9999,,实测可播,1080P,实测可播,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=snwshd
-陕西卫视,卫视,,,633,失效,0,9999,,bf_all_status.m3u8,标清,陕西卫视,http://183.10.180.46:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
-陕西卫视,卫视,,,634,失效,0,9999,,iptvorg_cn2.m3u,标清,陕西卫视 (576p),http://223.110.245.139/PLTV/4/224/3221227022/index.m3u8
-陕西卫视,卫视,,,635,失效,0,9999,,iptvorg_cn2.m3u,标清,陕西卫视 (576p),http://39.134.115.163:8080/PLTV/88888910/224/3221225729/index.m3u8
-陕西卫视,卫视,,,636,失效,0,9999,,ibert_all.m3u,标清,[SD]陕西卫视,https://stream1.freetv.fun/eb1d7157459fe4c37bbfad23252b85ab628f4e3d14d81aea7b4a014d2658ae41.m3u8
-陕西卫视,卫视,,,637,失效,404,9999,,kimentanm.m3u,未知,陕西卫视,http://101.35.240.114:88/live.php?id=陕西卫视
-陕西卫视,卫视,,,638,失效,0,9999,,iptvorg_cn2.m3u,未知,陕西卫视 (540p),http://112.25.48.68/live/program/live/sxws/1300000/mnf.m3u8
-陕西卫视,卫视,,,639,失效,500,9999,,suxuang.m3u,未知,陕西卫视,http://112.27.235.94:8000/hls/43/index.m3u8
-陕西卫视,卫视,,,640,失效,0,9999,,suxuang.m3u,未知,陕西卫视,http://t.061899.xyz/tl/tl.php?id=sxws
-陕西卫视,卫视,,,641,失效,0,9999,,best-fan 央视卫视地方(每日存活校验),未知,陕西卫视,http://101.66.198.220:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
-陕西卫视,卫视,,,642,失效,0,9999,,best-fan 央视卫视地方(每日存活校验),未知,陕西卫视,http://101.66.195.84:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
-陕西卫视,卫视,,,643,失效,0,9999,,Guovin iptv-api result(存活校验),未知,陕西卫视,https://live.264788.xyz/channel/shaanxiweishi?streamid=9dc887dba8ecb4e4143baf4f2373800c&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-陕西卫视,卫视,,,644,失效,0,9999,,Guovin iptv-api result(存活校验),未知,陕西卫视,http://192.151.150.154/live/snwshd.m3u8
-陕西卫视,卫视,,,645,失效,0,9999,,Guovin iptv-api result(存活校验),未知,陕西卫视,http://107.150.60.122/live/snwshd.m3u8
-陕西卫视,卫视,,,646,失效,403,9999,,Guovin iptv-api result(存活校验),未知,陕西卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226999/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EsGLKaSqf0wDZMbAjeQtfyw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
-陕西卫视,卫视,,,647,失效,404,9999,,bestK iptv,未知,陕西卫视,http://stream.snrtv.com/sxbc-star-ijuEX9.m3u8
-青海卫视,卫视,,,648,存活,200,25,,best-fan 央视卫视地方(每日存活校验),1080P,青海卫视,http://123.160.235.204:9901/tsfile/live/0140_1.m3u8?key=txiptv&playlive=1&authid=0
-青海卫视,卫视,,,649,存活,200,37,,Guovin iptv-api result(存活校验),未知,青海卫视,http://120.76.248.139/live/bfgd/4200000111.m3u8
-青海卫视,卫视,,,650,存活,200,5626,,Guovin iptv-api result(存活校验),未知,青海卫视,http://107.150.60.122/live/qhws.m3u8
-青海卫视,卫视,,,651,失效,0,9999,,iptvorg_cn2.m3u,标清,青海卫视 (540p),http://112.25.48.68/live/program/live/qhws/1300000/mnf.m3u8
-青海卫视,卫视,,,652,失效,404,9999,,kimentanm.m3u,未知,青海卫视,http://101.35.240.114:88/live.php?id=青海卫视
-青海卫视,卫视,,,653,失效,0,9999,,suxuang.m3u,未知,青海卫视,http://148.135.93.213/live.php?id=青海卫视
-青海卫视,卫视,,,654,失效,0,9999,,suxuang.m3u,未知,青海卫视,http://t.061899.xyz/tl/tl.php?id=qhws
-青海卫视,卫视,,,655,失效,0,9999,,suxuang.m3u,未知,青海卫视,https://zby.130519.xyz/PLTV/11/224/3221226105/index.m3u8
-青海卫视,卫视,,,656,失效,0,9999,,iptv-org cn,未知,青海卫视 (576p),http://39.134.115.163:8080/PLTV/88888910/224/3221225727/index.m3u8
-青海卫视,卫视,,,657,失效,0,9999,,Guovin iptv-api result(存活校验),未知,青海卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=qhws
-青海卫视,卫视,,,658,失效,500,9999,,Guovin iptv-api result(存活校验),未知,青海卫视,https://hls-qhmh.lanzhousobey.cn/qhmh/mhds.m3u8
-黄河卫视,卫视,,,659,失效,403,9999,,suxuang ipv4,未知,黄河电视台,http://liveflash.sxrtv.com/live/huanghe.m3u8?sub_m3u8=true&edge_slice=true
-黑龙卫视 (1080p),卫视,,,660,失效,0,9999,,iptv-org cn,1080P,黑龙卫视 (1080p),http://223.110.243.169/PLTV/3/224/3221227252/index.m3u8
-黑龙卫视 (1080p),卫视,,,661,失效,0,9999,,iptv-org cn,1080P,黑龙卫视 (1080p),http://223.110.245.139/PLTV/4/224/3221227492/index.m3u8
-黑龙卫视 (1080p),卫视,,,662,失效,0,9999,,iptv-org cn,1080P,黑龙卫视 (1080p),http://223.110.245.170/PLTV/3/224/3221227252/index.m3u8
-黑龙卫视 (1080p),卫视,,,663,失效,0,9999,,iptv-org cn,720P,黑龙卫视 (720p),http://125.210.152.18:9090/live/HLJWSHD_H265.m3u8
-黑龙江卫视,卫视,,,664,存活,200,78,,best-fan 央视卫视地方(每日存活校验),1080P,黑龙江卫视,http://118.122.144.115:8888/newlive/live/hls/38/live.m3u8
-黑龙江卫视,卫视,,,665,存活,200,80,,best-fan 央视卫视地方(每日存活校验),未知,黑龙江卫视,http://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8
-黑龙江卫视,卫视,,,666,存活,200,86,,Guovin iptv-api result(存活校验),未知,黑龙江卫视,http://120.76.248.139/live/bfgd/4200000095.m3u8
-黑龙江卫视,卫视,,,667,存活,200,97,,bf_all_status.m3u8,1080P,黑龙江卫视,http://120.198.95.220:9901/tsfile/live/1049_1.m3u8?key=txiptv&playlive=1&down=1
-黑龙江卫视,卫视,,,668,存活,200,102,,best-fan 央视卫视地方(每日存活校验),1080P,黑龙江卫视,http://120.40.39.246:352/newlive/live/hls/38/live.m3u8
-黑龙江卫视,卫视,,,669,存活,200,274,,best-fan 央视卫视地方(每日存活校验),1080P,黑龙江卫视,http://101.66.198.117:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=0&authid=0
-黑龙江卫视,卫视,,,670,存活,200,616,,best-fan 央视卫视地方(每日存活校验),1080P,黑龙江卫视,http://101.66.199.175:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=0&authid=0
-黑龙江卫视,卫视,,,671,存活,200,2188,,bf_all_status.m3u8,1080P,黑龙江卫视,https://epg.pw/stream/c6c1262d0b35e59eac22bf513395f00f8b60cc5eab41f598412cdf8269312f32.m3u8
-黑龙江卫视,卫视,,,672,存活,200,2722,,suxuang.m3u,未知,黑龙江卫视,https://idclive.hljtv.com:4430/live/hljws_own.m3u8
-黑龙江卫视,卫视,,,673,失效,0,9999,,iptvorg_cn2.m3u,1080P,黑龙江卫 (1080p),http://183.207.248.71/cntv/live1/HD-2500k-1080P-heilongjiangstv/HD-2500k-1080P-heilongjiangstv
-黑龙江卫视,卫视,,,674,失效,0,9999,,iptvorg_cn2.m3u,1080P,黑龙卫视 (1080p),http://223.110.243.169/PLTV/3/224/3221227252/index.m3u8
-黑龙江卫视,卫视,,,675,失效,0,9999,,iptvorg_cn2.m3u,1080P,黑龙卫视 (1080p),http://223.110.245.139/PLTV/4/224/3221227492/index.m3u8
-黑龙江卫视,卫视,,,676,失效,0,9999,,iptvorg_cn2.m3u,1080P,黑龙卫视 (1080p),http://223.110.245.170/PLTV/3/224/3221227252/index.m3u8
-黑龙江卫视,卫视,,,677,失效,0,9999,,iptvorg_cn2.m3u,720P,黑龙卫视 (720p),http://125.210.152.18:9090/live/HLJWSHD_H265.m3u8
-黑龙江卫视,卫视,,,678,失效,0,9999,,iptvorg_cn2.m3u,标清,黑龙江 (576p),http://183.207.248.71/gitv/live1/G_HEILONGJIANG/G_HEILONGJIANG
-黑龙江卫视,卫视,,,679,失效,404,9999,,kimentanm.m3u,未知,黑龙江卫视,http://101.35.240.114:88/live.php?id=黑龙江卫视
-黑龙江卫视,卫视,,,680,失效,0,9999,,suxuang.m3u,未知,黑龙江卫视,http://148.135.93.213/live.php?id=黑龙江卫视
-黑龙江卫视,卫视,,,681,失效,0,9999,,suxuang.m3u,未知,黑龙江卫视,http://iptv.huuc.edu.cn/hls/hljhd.m3u8
-黑龙江卫视,卫视,,,682,失效,0,9999,,ibert_all.m3u,未知,[BD]黑龙江卫视,https://stream1.freetv.fun/9d7a745d71fa16ea6b1a0edce79f7b842e59487519e7a76bcef5b0c7a87a3f24.m3u8
-黑龙江卫视,卫视,,,683,失效,0,9999,,best-fan 央视卫视地方(每日存活校验),1080P,黑龙江卫视,http://101.66.195.84:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=0&authid=0
-黑龙江卫视,卫视,,,684,失效,500,9999,,suxuang ipv4,未知,黑龙江卫视,http://112.27.235.94:8000/hls/48/index.m3u8
-黑龙江卫视,卫视,,,685,失效,0,9999,,Guovin iptv-api result(存活校验),未知,黑龙江卫视,http://107.150.60.122/live/hljwshd.m3u8
-黑龙江卫视,卫视,,,686,失效,0,9999,,Guovin iptv-api result(存活校验),未知,黑龙江卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hljwshd
-黑龙江卫视,卫视,,,687,失效,0,9999,,Guovin iptv-api result(存活校验),未知,黑龙江卫视,http://198.204.228.26/live/hljwshd.m3u8
-黑龙江卫视,卫视,,,688,失效,0,9999,,Guovin iptv-api result(存活校验),未知,黑龙江卫视,http://38.75.136.137:98/gslb/dsdqpub/hljwshd.m3u8?auth=testpub
+﻿分组,频道,线路数,存活,失效,官方,最佳线路,ID
+卫视,三沙卫视,5,0,5,0,,三沙卫视
+卫视,上海卫视,1,0,1,0,,上海卫视
+卫视,东南卫视,12,3,9,2,https://live-dtocnc-cdn.ysp.cctv.cn/8E7409E7B02B52DE15D9F8D7B6CCD4D3DFBA0376ED478C563CB0ECA5BA6EFAEDF377964C60DDECB75DF30FF0ACCCDC1C8DBFA29BC0381E3228AE57D7D98AF20026D3BAD6A45B3B1D77D2D827CA453C4A637DAEF878E5138D951007BF1CE53D6D17B80712E6798C17DC924FB594255AA16D82E411EC6F3B03AC76F4B8F15E79F0C4FBA9CED3E8D7B28FADF29C38CD254099C85FE665D1D50669679CB1F564FC0C/2024061503.m3u8?from=player&svrtime=1795701110&pid=600002484&cdn=5505,东南卫视
+卫视,东方卫视[1080][S],4,3,1,0,http://123.160.235.204:9901/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0,东方卫视
+卫视,东方卫视[576][S],1,1,0,0,http://124.228.160.3:9901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0,东方卫视
+卫视,东方卫视,13,5,8,4,http://bp-resource-dfl.bestv.cn/148/3/video.m3u8,东方卫视
+卫视,东方卫视4K,1,1,0,1,https://bp-resource-dfl.bestv.cn/148/3/video.m3u8,东方卫视4k
+卫视,云南卫视[1080][S],1,1,0,0,http://123.160.235.204:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=1&authid=0,云南卫视
+卫视,云南卫视[576][S],9,7,2,0,http://119.39.9.8:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0,云南卫视
+卫视,云南卫视,11,1,10,2,http://120.76.248.139/live/bfgd/4200000482.m3u8,云南卫视
+卫视,云南卫视(576p),5,0,5,0,,云南卫视
+卫视,云南卫视(576p)[Not24/7],1,0,1,0,,云南卫视
+卫视,人间卫视,2,2,0,0,http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u,人间卫视
+卫视,兵团卫视[1080][S],2,2,0,0,http://221.7.175.154:8445/tsfile/live/0115_1.m3u8?key=txiptv&playlive=1&authid=0,兵团卫视
+卫视,兵团卫视[576][S],2,2,0,0,http://218.13.170.98:9901/tsfile/live/0115_1.m3u8,兵团卫视
+卫视,兵团卫视,3,0,3,0,,兵团卫视
+卫视,内蒙古卫视[1080][S],2,2,0,0,http://222.71.55.147:85/tsfile/live/0109_1.m3u8?key=txiptv&playlive=0&authid=0,内蒙古卫视
+卫视,内蒙古卫视[576][S],2,2,0,0,http://218.13.170.98:9901/tsfile/live/0109_1.m3u8?key=txiptv&playlive=1&authid=0,内蒙古卫视
+卫视,内蒙古卫视,9,4,5,3,https://hlsliveali-cdn.ysp.cctv.cn/E3A21D65800FF9249D64F5E959C5CCBB2F89040256067EF4207A87FE4A4B871F9DE45F475C09EF9724E032FD1D3AFB06AB4352DC277D3B6A8020147390A0DE9A75F878701CBF2BED81D7E79E159A47A0CE2EA86F816A4D6DA7C00EE51D90E7E60A2506316C81C5A59EEE60A51733CA77613B244445F243D13E004355B20949B6762F8F5319B14E257DF9D9BF14F72A55298741509567A4C786CBFD2CD9EF2659/2025561203.m3u8?from=player&svrtime=1795701111&pid=600190401&cdn=5506,内蒙古卫视
+卫视,内蒙古卫视(576p),4,0,4,0,,内蒙古卫视
+卫视,内蒙古蒙语卫视,1,0,1,1,,内蒙古蒙语卫视
+卫视,农林卫视,4,3,1,1,http://stream.snrtv.com/sxbc-nl-mnDGJV.m3u8,农林卫视
+卫视,凤凰卫视,2,0,2,0,,凤凰卫视
+卫视,凤凰卫视中文台,4,1,3,0,http://120.198.95.220:9901/tsfile/live/1036_1.m3u8?key=txiptv&playlive=1&down=1,凤凰卫视中文台
+卫视,凤凰卫视资讯台,1,1,0,0,http://120.198.95.220:9901/tsfile/live/1037_1.m3u8?key=txiptv&playlive=1&down=1,凤凰卫视资讯台
+卫视,凤凰卫视香港台,1,1,0,0,https://epg.pw/stream/8770e89223a086eb1b8a0c931e42296d772a8069ad3eb72540e0c434e7cb3e93.m3u8,凤凰卫视香港台
+卫视,北京卫视[1080][S],1,1,0,0,http://123.160.235.204:9901/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0,北京卫视
+卫视,北京卫视[576][S],1,1,0,0,http://36.136.38.87:9901/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0,北京卫视
+卫视,北京卫视,13,5,8,2,https://hlsliveali-cdn.ysp.cctv.cn/55D456029C3EFAFB3252CF727E8DC11C10884B245084E3E355D494073BA53858EC48BF82D9D9B645ABC308D19C75027B2A271E5740F85C764273B4D36D369A46486EDA26B3A8E71756B7A9BF904FFD4C20093249153BE99FDA6DE9533D929479E8058B4DDD2894D18E15C01FB7F95E3549C7BDDC7122E9B7B4A996D778D8A062358701BB00EC7DD8D40E4051055C690A230E85BF3647850A0E426A1451FA92CF/2024052703.m3u8?from=player&svrtime=1795701110&pid=600002309&cdn=5506,北京卫视
+卫视,北京衛視(1080p)[Geo-blocked],1,0,1,0,,北京衛視
+卫视,南方卫视,1,0,1,0,,南方卫视
+卫视,厦门卫视,5,0,5,0,,厦门卫视
+卫视,厦门卫视(576p),1,0,1,0,,厦门卫视
+卫视,厦门卫视(540p)[Not24/7],1,0,1,0,,厦门卫视
+卫视,吉林卫视,8,2,6,3,https://hlsliveali-cdn.ysp.cctv.cn/D373225C99AC73761D9F97B469BD879BC8617D5154A1A2913AB596D251A95A80038AD71EED03CF7C34C676CE3B539E1A6EE7785AECB1D72021CB8D89DDC773D817823A5765FF7A249918DD5A3BCCD678AE930BD319BAAD621CCD1293FFB895D8E7BC81E30D98FDADF61B6E92AB5F3680EBB5141395ACE82AA7D2B953AFD3B0F661952448099403079B403CECBD3BD39A320C7BB89035CB0D81C7677540DAF932/2025561503.m3u8?from=player&svrtime=1795701110&pid=600190405&cdn=5506,吉林卫视
+卫视,吉林卫视[1080][S],1,1,0,0,http://221.7.175.154:8445/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&authid=0,吉林卫视
+卫视,吉林卫视[576][S],6,4,2,0,http://113.25.252.226:9901/tsfile/live/1037_1.m3u8?key=txiptv&playlive=1&authid=0,吉林卫视
+卫视,哈哈炫动卫视,1,0,1,0,,哈哈炫动卫视
+卫视,嘉佳卡通卫视,1,0,1,0,,嘉佳卡通卫视
+卫视,四川卫视[1080][S],2,1,1,0,http://101.66.199.74:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=0&authid=0,四川卫视
+卫视,四川卫视[576][S],1,1,0,0,http://119.125.131.84:9901/tsfile/live/1060_1.m3u8?key=txiptv&playlive=1&down=1,四川卫视
+卫视,四川卫视,10,2,8,2,https://live-dtocnc-cdn.ysp.cctv.cn/E0D7601024BC50EC9702AE6FB9977E1B4FAB1F11F157EE6515214745272830F2202CA6951FD7B0DD6870B58F1E9F92F28EA7A3ADE45B625AFE5609EFAA3CD579363AFBB6DF507738B0DAE6BF3C7FB24FD15057E199278B4A9E3D0BFAC03F1F823CC41DF270168AE1E8935CC2219C575D2508782EB6F72AC0D1967A14F06F41ABB3316371AF3504E2C19249F89FC58DD34E2EAF28B420843D7C65D7C7FE6F9F9F/2024061403.m3u8?from=player&svrtime=1795701110&pid=600002516&cdn=5505,四川卫视
+卫视,四川卫视(576p),2,0,2,0,,四川卫视
+卫视,四川卫视(540p),1,0,1,0,,四川卫视
+卫视,四川卫视(360p),1,0,1,0,,四川卫视
+卫视,大湾区卫视,6,0,6,0,,大湾区卫视
+卫视,天津卫视[1080][S],1,1,0,0,http://123.160.235.204:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0,天津卫视
+卫视,天津卫视[576][S],1,1,0,0,http://36.136.38.87:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0,天津卫视
+卫视,天津卫视,14,4,10,2,https://bkhlsliveali-cdn.ysp.cctv.cn/984BAB1C62BCBA531CE2C2A59D38C137ABEED5B737D0B249BF30E2BE47932D9D420E68A98346B3C1BB9B60FA5E0A489ABDF15EB1D838F0CA847B857153886A028D0BE3A46E96350AE921831E0A3711C88DE139F2A96EFE7D41752B3FCBAE5725878DB98A8353DF7A6BCB6BA276D858B61D63A7B188C6E3A5CBC3992C098FC2B690C417B68FEABF9253F26447CF858B44856B1F71B02599BB0D6857A5AC37885B/2019927003.m3u8?from=player&svrtime=1795701110&pid=600152137&cdn=5506,天津卫视
+卫视,天津卫视(1080p),8,0,8,0,,天津卫视
+卫视,天津卫视(576p),2,0,2,0,,天津卫视
+卫视,宁夏卫视[1080][S],2,2,0,0,http://222.71.55.147:9901/tsfile/live/0112_1.m3u8?key=txiptv&playlive=0&authid=0,宁夏卫视
+卫视,宁夏卫视,11,3,8,2,http://120.76.248.139/live/bfgd/4200000118.m3u8,宁夏卫视
+卫视,宁夏卫视(576p),3,0,3,0,,宁夏卫视
+卫视,宁夏卫视(540p),1,0,1,0,,宁夏卫视
+卫视,宁夏卫视(576p)[Not24/7],1,0,1,0,,宁夏卫视
+卫视,安多卫视,4,1,3,0,https://liveout.xntv.tv/a65jur/96iln2.m3u8,安多卫视
+卫视,安徽卫视[1080][S],2,2,0,0,http://123.138.216.44:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0,安徽卫视
+卫视,安徽卫视[576][S],1,1,0,0,http://118.122.144.115:8888/newlive/live/hls/40/live.m3u8,安徽卫视
+卫视,安徽卫视,12,3,9,2,https://live-dtocnc-cdn.ysp.cctv.cn/AAB78868C9B02463C1CCA3AB652BF9A8D096599CB2922733FDE76B1DC5A6369DC53AB27C98D3BE43B4B0A2B2243F2A801B05809DFA49E5DC45CFD6133C6ED1395E9722CAFA1DC54CD623EB0ADC94A1B2D5007ED9FBD19DD6335477F47A6F0707B660913AA6246550584841265E12392359048F5413CD0178F63A2D79DD73469D6EA263686A9417170AB02533F8FA28533E09376FA9C228B31195C8B9106B182F/2024171403.m3u8?from=player&svrtime=1795701110&pid=600002532&cdn=5505,安徽卫视
+卫视,山东卫视[1080][S],4,2,2,0,http://112.123.243.37:50085/tsfile/live/0122_1.m3u8?key=txiptv&playlive=0&authid=0,山东卫视
+卫视,山东卫视[720][S],1,1,0,0,http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8,山东卫视
+卫视,山东卫视[576][S],1,1,0,0,http://119.125.131.84:9901/tsfile/live/1063_1.m3u8?key=txiptv&playlive=1&down=1,山东卫视
+卫视,山东卫视,9,3,6,2,https://live-dtocnc-cdn.ysp.cctv.cn/1C0CC0B5EFB745AFE129C2A99B6635EEA0D0D09236B080F3678EAD435DDBFCAB7806091B45CF0EC64C0F4FBE309FB5D66C04E08E2590883A5B5A7C2DBBAFE2DAB1C13FCD4306B52467AB904C630403769E5F8FCEF48DA17E9DF4CDA44C0A85A54FC43A137B08C4AA685B0691CBEF94125AD05044B7F8A9AB274EB0458193F19CDF3D7635EC3441FCFD5EF02BE036A6969CCFB4154660BE3F3686132C8FEFF264/2029787903.m3u8?from=player&svrtime=1795701110&pid=600002513&cdn=5505,山东卫视
+卫视,山东卫视(1080p),6,0,6,0,,山东卫视
+卫视,山东卫视(576p),2,0,2,0,,山东卫视
+卫视,山西卫视[1080][S],1,1,0,0,http://123.160.235.204:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0,山西卫视
+卫视,山西卫视[576][S],6,4,2,0,http://218.13.170.98:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0,山西卫视
+卫视,山西卫视,14,3,11,2,https://live-dtocnc-cdn.ysp.cctv.cn/EDE39CA065E409E6A8E8A50B1522764701CE7E57615EC1DC6EA0ADFFF87A4E1D0EE1B3B7FD158544DE1D1926506237995C568CB38A8931B6A53E10D7CB6C0BC745E3482797EC1E0EE7D75991EA62BD38865FC6D7DBB809792C68E78AC3657C2B0146CC3EF0B2C6FBDE6F9167C1775274792D3B8A417041E95AD66AE5CC25894E70B4994BA260C7070E5D6AD2ABF697A0BDD57F7615744A9D72D35F4DDBDC67AF/2025560803.m3u8?from=player&svrtime=1795701111&pid=600190407&cdn=5505,山西卫视
+卫视,广东卫视[1080][S],5,4,1,0,http://123.160.235.204:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0,广东卫视
+卫视,广东卫视[576][S],1,1,0,0,http://124.228.160.3:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0,广东卫视
+卫视,广东卫视,16,5,11,2,https://live-dtocnc-cdn.ysp.cctv.cn/A220E92BBF8CD7E7BCE88A67B1191D57FBCEE725174A1BC8858DBE16F33ABB1C42FC3FA758FBC2D7A261D6CB9A8336B2EFA5DE1B29F89FE76253ABA76F8C430DDAE9DAFFAEC3C01EAEA86C0353761CD279CA26FBD8A1205F357DF67D22EEDDD33ECEEA8C3B1B8126BB75487F28E44DC763E24B25F46E9EC745771E5533DF762B49CB91CA1A541ED1332B94302B1D42CD6E3CD6A1451B6B72C18D8CFBB557DBD8/2024060903.m3u8?from=player&svrtime=1795701110&pid=600002485&cdn=5505,广东卫视
+卫视,广西卫视[1080][S],2,1,1,0,http://123.160.235.204:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=1&authid=0,广西卫视
+卫视,广西卫视[576][S],8,6,2,0,http://119.39.9.8:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0,广西卫视
+卫视,广西卫视,9,3,6,2,https://hlsliveali-cdn.ysp.cctv.cn/0356BE77DAFBEA125CCF147C67D128E076436737D7E599474215938A150544036CBCA19D40856BD277423E2DDD8422D85156511E21B0362CD7B5AFC43999FEFD63810502FD44C0A25697A2F3C4EBE841A82D5023C5F7C8567BB015B0C95C9AC8D5EF59D693564B70CAF35EFFC4124A381B5D872EA0525187E433AE380AE361F373C3F2A9B33E1739EE71300508636345EF44B8ECE2503A47953B19AA17633593/2024060703.m3u8?from=player&svrtime=1795701110&pid=600002509&cdn=5506,广西卫视
+卫视,康巴卫视(720p)[Not24/7],1,0,1,0,,康巴卫视
+卫视,康巴卫视,1,0,1,0,,康巴卫视
+卫视,延边卫视[1080][S],2,2,0,0,https://srs.iyb983.cn:443/video/CYS/index.m3u8,延边卫视
+卫视,延边卫视[540][S],1,1,0,1,https://stream2.jlntv.cn/jlyb/sd/live.m3u8,延边卫视
+卫视,延边卫视,3,2,1,0,http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8#,延边卫视
+卫视,延边卫视(576p),2,0,2,0,,延边卫视
+卫视,新疆卫视[1080][S],5,4,1,0,http://123.160.235.204:9901/tsfile/live/0110_1.m3u8?key=txiptv&playlive=1&authid=0,新疆卫视
+卫视,新疆卫视[576][S],3,3,0,0,http://58.56.162.102:4466/newlive/live/hls/44/live.m3u8,新疆卫视
+卫视,新疆卫视(576p),5,0,5,0,,新疆卫视
+卫视,新疆卫视(540p),1,0,1,0,,新疆卫视
+卫视,新疆卫视,12,1,11,1,http://113.25.252.226:9901/tsfile/live/1044_1.m3u8?key=txiptv&playlive=1&authid=0,新疆卫视
+卫视,星空卫视,6,0,6,0,,星空卫视
+卫视,星空衛視(576p),1,0,1,0,,星空衛視
+卫视,江苏卫视[1080][S],2,1,1,0,http://221.7.175.154:8445/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0,江苏卫视
+卫视,江苏卫视[720][S],1,1,0,1,https://stream2.jlntv.cn/sytv/sd/live.m3u8,江苏卫视
+卫视,江苏卫视[576][S],1,1,0,0,http://124.228.160.3:9901/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0,江苏卫视
+卫视,江苏卫视,11,3,8,2,https://hlsliveali-cdn.ysp.cctv.cn/CA01C5C4C7EF968BE30203CE9EBE13E8D76647068DC37031B5FCF22677AF588E74B0A26A60C30BA30E48E69304504563C2388A4513D83C75F9C9D7BE1EE9448422CE3B3CF3630196A5E24946C6B9339DF4FE4367EAB715C35E7B1F049DC25DB4C4B94AE9C94F31E8E9F8FE1042F035D9E1DCC0C0B301323C0AA9BBEE79449E79E6C15F26CC7BDB91C78DC2007490AEFFCE402EF5614A1CD2A44B076401D46E31/2024171103.m3u8?from=player&svrtime=1795701110&pid=600002521&cdn=5506,江苏卫视
+卫视,江苏卫视(1080p),8,0,8,0,,江苏卫视
+卫视,江苏卫视(576p),1,0,1,0,,江苏卫视
+卫视,江苏卫视(1080p)[Not24/7],1,0,1,0,,江苏卫视
+卫视,江西卫视[1080][S],3,2,1,0,http://123.160.235.204:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0,江西卫视
+卫视,江西卫视[576][S],2,2,0,0,http://119.39.9.8:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=0&authid=0,江西卫视
+卫视,江西卫视,11,4,7,2,https://bkhlsliveali-cdn.ysp.cctv.cn/E46FA5E55953711195E16994B4DC16638E3EC4F50BDB91AB9CAB0377A6E8C5A615B08F49F28686870CC67D15DFB46DB52811FC9DF6FCD7CAAE2CD52C226B01CDEA1CB54E1C57BA6F621F256F15794EFA50070BD9A25DE520CB50B19C4B2E15C139DC60713287AFDEFBA4113C424423A4C04050AAEED5E78E3CB996BA976CEC56AE13D446199A8CA96B77730BB4B6810876EE09576B326C13D3605DD7310FE618/2024061703.m3u8?from=player&svrtime=1795701110&pid=600002503&cdn=5506,江西卫视
+卫视,江西卫视(1080p),6,0,6,0,,江西卫视
+卫视,江西卫视(720p),1,0,1,0,,江西卫视
+卫视,江西卫视(576p),2,0,2,0,,江西卫视
+卫视,江西卫视(360p),1,0,1,0,,江西卫视
+卫视,河北卫视[1080][S],3,2,1,0,http://221.7.175.154:8445/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0,河北卫视
+卫视,河北卫视[576][S],1,1,0,0,http://36.136.38.87:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0,河北卫视
+卫视,河北卫视[540][S],1,1,0,1,http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8,河北卫视
+卫视,河北卫视,12,4,8,4,https://bklive-dtocnc-cdn.ysp.cctv.cn/97AD2F611112FB22CFCF8EA02A2EFC5311F770F75A339BF1598AC3F629F040097EB6D097E14932B6AD52BBDDC1106A01D0FAA9DAA8797ABFB949B547A9148D19ED438C8532B06AEE2A3602930FE570C0846E970898204E2A3115D7DA098566777C7621F6BB11A984F76D20DABA46ACD3CEEA2D124E0F61FDE94BF92A3411C35B9268D0D2DA493EDD2FE1375306369ECF1876712E734CE97B763D5CD659BCA25E/2024171503.m3u8?from=player&svrtime=1795701110&pid=600002493&cdn=5505,河北卫视
+卫视,河南卫视[1080][S],4,3,1,0,http://123.160.235.204:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0,河南卫视
+卫视,河南卫视[576][S],2,2,0,0,http://119.39.9.8:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=0&authid=0,河南卫视
+卫视,河南卫视,12,2,10,2,https://hlsliveali-cdn.ysp.cctv.cn/D7E23F6320712DD778A46FFBA547F2895ADAAEC77D9A3A6D021AF8EC75DCB2B3BE9F33F11D5861F3CBDFD81F66D528934503B193CC999C5C29A1A104DA9D9B8FC57CE04C7B56BF7170FD6C530B48135B87B6BEADCA2129CF913FDB04FC8EB8DF1BDD0E7EFD23FAFA4B3C51636659C915C7E8442C49BFA14CA02D0F2AA8DCF67C05B27EF064DD32B155CB88518B207553465BBD7D71D09367E7B3C692820E60A8/2029797303.m3u8?from=player&svrtime=1795701110&pid=600002525&cdn=5506,河南卫视
+卫视,浙江卫视,16,7,9,8,http://ali-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8,浙江卫视
+卫视,浙江卫视[1080][S],4,3,1,1,http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8,浙江卫视
+卫视,浙江卫视[720][S],1,1,0,1,http://ali-xwl.cztv.com/live/channel01720Plxw.m3u8,浙江卫视
+卫视,浙江卫视[576][S],1,1,0,0,http://124.228.160.3:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0,浙江卫视
+卫视,浙江卫视(1080p),9,0,9,0,,浙江卫视
+卫视,浙江卫视(576p),1,0,1,0,,浙江卫视
+卫视,海南卫视,7,2,5,2,https://live-dtocnc-cdn.ysp.cctv.cn/D25C4AC0CD2EEE56618FF2857AC9B492CE1EDF410054E97119E8C29365DB94B85645ABE2C51C91369DB48C95B334A45B72500BBAB436108E710A8B3A03DA82F3D93F9CA0429BA347114236E1139224B0D79E73C470A5896BB3B2E798709179D666AF62068FCC9F2401828782F03473277F40DD1A5DC2FEE7C5D949E28213158F54BFCB3823929155D1B907CE8572C99BBDF2FE04AB073A735634A17714BC3CC3/2024055603.m3u8?from=player&svrtime=1795701110&pid=600002506&cdn=5505,海南卫视
+卫视,海峡卫视,3,2,1,0,http://8.138.7.223/tv/hxws.m3u8,海峡卫视
+卫视,深圳卫视[1080][S],4,3,1,0,http://123.160.235.204:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0,深圳卫视
+卫视,深圳卫视[576][S],2,2,0,0,http://36.136.38.87:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0,深圳卫视
+卫视,深圳卫视,15,5,10,2,https://live-dtocnc-cdn.ysp.cctv.cn/806E6BAD67426BB0BF435B2B285CAFA816D754D3440171C480DB59825F8A3D624CFBD4B828D3460C6083F3C109182805BA9AD27C90216AFBF444885484E2DCF83B553FDC1BA3454C11F20DEC5A16B922006A7371C30510F290D31F2A63FB751655687375146508EE302CA401C6649BE2D5E7BBF511CCD9813F79FA18D6F75000BC8F76A6EF8F01A68C3AE6B25B8B7413FA2C6C494A101EDA55BDC6E97C28E609/2024061303.m3u8?from=player&svrtime=1795701110&pid=600002481&cdn=5505,深圳卫视
+卫视,深圳卫视(1080p),10,0,10,0,,深圳卫视
+卫视,深圳卫视(1080p)[Not24/7],1,0,1,0,,深圳卫视
+卫视,湖北卫视[1080][S],3,2,1,0,http://120.40.39.246:352/newlive/live/hls/36/live.m3u8,湖北卫视
+卫视,湖北卫视,9,4,5,2,https://live-dtocnc-cdn.ysp.cctv.cn/FE6A85FAE13F9E9182AE42021CAFA84AB0126DD0877B7D93C9BD432C7F7759F9A324F91D68CF15CFDFD34E7CACE9F32F82A919063A53D1214542E6A107391122E552E2F653148FCB982F8296E3D3575E8599681C0F4096507FB52B81C2DEA957FEE7042A8A3E323BB7CD4EC092B5893CC2B8BB7703BD5BFEF78E642468685F1B66A21633B84C6588D341FBE5554C3EAFE45401D5CA6680FB5E088ED960B2C09F/2024171203.m3u8?from=player&svrtime=1795701110&pid=600002508&cdn=5505,湖北卫视
+卫视,湖南卫视[1080][S],4,3,1,0,http://123.160.235.204:9901/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0,湖南卫视
+卫视,湖南卫视,12,6,6,2,https://live-dtocnc-cdn.ysp.cctv.cn/9536F531B3B9491BC1DD9C7E2F8267C2D97F4EA7EC0E592C37D0AD944ABB0207A3A0A1AD63B5D0BC7F14DAD0D05C06DBA4EBB233C11C400875CD16F8260BF02D5F554D04BC55D8FD0A05758311775FB0E00399FCF03B968C5E3EA9EC6196B35E1D549DE2197D2EFC3DA4C726F0483C1FE0EE21ECF2397B97FC6949C38C2366D6E5677E5D5329B2CB4CB01E567BDA25B0967840452B9A8317E282F7896F4E3CAB/2024054803.m3u8?from=player&svrtime=1795701110&pid=600002475&cdn=5505,湖南卫视
+卫视,澳亚卫视,1,0,1,0,,澳亚卫视
+卫视,澳门卫视,1,0,1,0,,澳门卫视
+卫视,甘肃卫视[576][S],2,2,0,0,http://119.39.9.8:9901/tsfile/live/0141_1.m3u8?key=txiptv&playlive=0&authid=0,甘肃卫视
+卫视,甘肃卫视,9,3,6,2,http://120.76.248.139/live/bfgd/4200000119.m3u8,甘肃卫视
+卫视,福建海峡卫视,4,0,4,0,,福建海峡卫视
+卫视,莲花卫视,1,0,1,0,,莲花卫视
+卫视,西藏卫视[1080][S],4,4,0,0,http://120.198.86.186:9901/tsfile/live/1089_1.m3u8?key=txiptv&playlive=1&authid=0,西藏卫视
+卫视,西藏卫视[576][S],2,2,0,0,http://218.13.170.98:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0,西藏卫视
+卫视,西藏卫视,8,2,6,2,http://120.76.248.139/live/bfgd/4200000121.m3u8,西藏卫视
+卫视,西藏卫视(576p),3,0,3,0,,西藏卫视
+卫视,贵州卫视[1080][S],3,1,2,0,http://119.125.131.84:9901/tsfile/live/1052_1.m3u8?key=txiptv&playlive=1&down=1,贵州卫视
+卫视,贵州卫视[576][S],1,1,0,0,http://36.136.38.87:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=1&authid=0,贵州卫视
+卫视,贵州卫视,11,2,9,2,https://live-dtocnc-cdn.ysp.cctv.cn/6F1C464828295BEEDFBE9D0F825E85697718CCBB5E1C5DE4DA9C04D165B3BFC9F6AEDC8563C4DA2FE3D36FE0BC4C62210984192FC4D3D374D046B746A9C887D6A7FB097D7174E5E0C40368C7FCC235C5C0F5975AB0E62EEB052D53054AFC705E2BEA53B5D71B144B95ED707EAE6A0E2E5689EB9567D65C13A31A73529C9F0742F99F17D63873F871A560F0252C96F2CA080E68D7EE52C73D726377447EE0BEB2/2024061603.m3u8?from=player&svrtime=1795701110&pid=600002490&cdn=5505,贵州卫视
+卫视,贵州卫视(576p),2,0,2,0,,贵州卫视
+卫视,贵州卫视(360p),1,0,1,0,,贵州卫视
+卫视,辽宁卫视[1080][S],5,4,1,0,http://123.160.235.204:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0,辽宁卫视
+卫视,辽宁卫视[576][S],1,1,0,0,http://119.39.9.8:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=0&authid=0,辽宁卫视
+卫视,辽宁卫视,10,2,8,2,https://live-dtocnc-cdn.ysp.cctv.cn/424AF9FA09FB3C76D8DC2C8684EA07CCD440E34B94CA21BC52934847D24CAA0A274FF0A29860601083A95247C3FF7BC73B310AF63FD48E9A3BBCCEFF73A453AD5975F17FED698F2B4088EC23990521BA399640C7D8135FB503542D9291A345F1E81F359588541304488BD619E617E5B80A462BEB8FFDA5A27514C4F030DE82CC0B579C25C4ECDEBC5CA304DAEC7EE05FF41FBC9F19F1B3D5229DF5B442292C39/2024171303.m3u8?from=player&svrtime=1795701110&pid=600002505&cdn=5505,辽宁卫视
+卫视,辽宁卫视(1080p),4,0,4,0,,辽宁卫视
+卫视,辽宁卫视(720p),1,0,1,0,,辽宁卫视
+卫视,辽宁卫视(576p),3,0,3,0,,辽宁卫视
+卫视,重庆卫视[1080][S],3,3,0,0,http://221.7.175.154:8445/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0,重庆卫视
+卫视,重庆卫视[576][S],3,3,0,0,http://119.39.9.8:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=0&authid=0,重庆卫视
+卫视,重庆卫视,9,2,7,2,https://live-dtocnc-cdn.ysp.cctv.cn/872D4DE7926100EC14DE2947948C6C1C510E245B6EC83CBD72B495CCCBE11FBE3A408D2C6442976A273C0B4C01B1E7A7E6BBFA8995A158E2BC64B6073FE4D5045CEF542ADFDD142C517B9C6FBC253FB39C83AF30662C2C5DD5E2F1F58BFC51B6FF55539EC205EA5FA67E6D33870F4F2A8E75FAEA05AD46420219A24CBBCE5359B8B78ADE3ADB8E229D275BFC710229FCDA578065BDED443E001CD2E8E8CCBC59/2024061103.m3u8?from=player&svrtime=1795701110&pid=600002531&cdn=5505,重庆卫视
+卫视,金鹰卡通卫视,2,1,1,0,http://120.198.95.220:9901/tsfile/live/1033_1.m3u8?key=txiptv&playlive=1&down=1,金鹰卡通卫视
+卫视,陕西农林卫视,1,0,1,0,,陕西农林卫视
+卫视,陕西卫视,15,6,9,4,http://stream.snrtv.com/sxbc-star-gipIU9.m3u8,陕西卫视
+卫视,陕西卫视(备用线路),1,0,1,1,,陕西卫视
+卫视,陕西卫视[1080][S],1,1,0,0,http://222.71.55.147:85/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0,陕西卫视
+卫视,陕西卫视[576][S],7,5,2,0,http://218.13.170.98:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0,陕西卫视
+卫视,陕西卫视(576p),2,0,2,0,,陕西卫视
+卫视,陕西卫视(540p),1,0,1,0,,陕西卫视
+卫视,青海卫视[1080][S],1,1,0,0,http://123.160.235.204:9901/tsfile/live/0140_1.m3u8?key=txiptv&playlive=1&authid=0,青海卫视
+卫视,青海卫视,5,1,4,2,http://120.76.248.139/live/bfgd/4200000111.m3u8,青海卫视
+卫视,青海卫视(540p),1,0,1,0,,青海卫视
+卫视,香港卫视,8,0,8,0,,香港卫视
+卫视,黑龙江卫视[1080][S],5,4,1,0,http://118.122.144.115:8888/newlive/live/hls/38/live.m3u8,黑龙江卫视
+卫视,黑龙江卫视[576][S],1,1,0,0,http://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8,黑龙江卫视
+卫视,黑龙江卫视,12,5,7,2,https://live-dtocnc-cdn.ysp.cctv.cn/C7C77DCA179CD21EB0927665473CA876FBFD1F7F43A70CCA549ED57B253F92CE7B27B31D2C4A07727CF2325179824CBCCF6FDF63D184879632DF66C9F6DD142CCA7B7634BFF9572EAAB59D77AF20FEFC64671997EAF9F4621A7E38808460A497D8BEDE0CD75C99FCE1FC916DA5289674DB460CC98C8A516C81EEA7C180F1920B19507BC5BFB89B347961A122058DE6B3A8296723AEE49EBDB0986AF838055455/2029797003.m3u8?from=player&svrtime=1795701110&pid=600002498&cdn=5505,黑龙江卫视

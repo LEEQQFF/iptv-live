@@ -1,25 +1,11 @@
-﻿频道,分组,省份,城市,序号,检活,HTTP,延迟ms,官方,来源,画质,标识,URL
-朝阳新闻综合,辽宁,辽宁,,1,存活,200,36,,suxuang ipv4,未知,朝阳新闻综合,http://120.76.248.139/live/bfgd/4200000282.m3u8
-辽宁Liaoning TV,辽宁,辽宁,,2,失效,0,9999,,iptv-org cn(github.io),1080P,Liaoning TV (1080p),http://39.134.39.37/PLTV/88888888/224/3221226209/index.m3u8
-辽宁体育,辽宁,辽宁,,3,存活,200,317,,suxuang.m3u,未知,辽宁体育,http://dassby.qqff.top:99/live/辽宁体育/index.m3u8
-辽宁公共,辽宁,辽宁,,4,存活,200,40,,suxuang.m3u,未知,辽宁公共,http://120.76.248.139/live/bfgd/4200000481.m3u8
-辽宁公共,辽宁,辽宁,,5,存活,200,203,,suxuang.m3u,未知,辽宁公共,http://120.76.248.139/live/bfgd/4200000077.m3u8
-辽宁公共,辽宁,辽宁,,6,存活,200,284,,suxuang.m3u,未知,辽宁公共,http://dassby.qqff.top:99/live/辽宁公共/index.m3u8
-辽宁北方,辽宁,辽宁,,7,存活,200,228,,suxuang.m3u,未知,辽宁北方,http://dassby.qqff.top:99/live/辽宁北方/index.m3u8
-辽宁北方,辽宁,辽宁,,8,失效,200,9999,,suxuang.m3u,未知,辽宁北方,http://120.76.248.139/live/bfgd/4200000071.m3u8
-辽宁北方,辽宁,辽宁,,9,失效,0,9999,,Guovin iptv-api result(存活校验),未知,辽宁北方,https://stream1.freetv.fun/liao-zhu-bei-fang-3.m3u8
-辽宁影视剧,辽宁,辽宁,,10,存活,200,74,,suxuang.m3u,未知,辽宁影视剧,http://120.76.248.139/live/bfgd/4200000070.m3u8
-辽宁影视剧,辽宁,辽宁,,11,存活,200,173,,suxuang.m3u,未知,辽宁影视,http://dassby.qqff.top:99/live/辽宁影视剧/index.m3u8
-辽宁教育青少,辽宁,辽宁,,12,存活,200,80,,suxuang.m3u,未知,辽宁教育青少,http://120.76.248.139/live/bfgd/4200000075.m3u8
-辽宁教育青少,辽宁,辽宁,,13,存活,200,104,,suxuang ipv4,未知,辽宁青少,http://dassby.qqff.top:99/live/辽宁教育青少/index.m3u8
-辽宁生活,辽宁,辽宁,,14,存活,200,46,,suxuang.m3u,未知,辽宁生活,http://dassby.qqff.top:99/live/辽宁生活/index.m3u8
-辽宁生活,辽宁,辽宁,,15,存活,200,104,,suxuang.m3u,未知,辽宁生活,http://120.76.248.139/live/bfgd/4200000073.m3u8
-辽宁经济,辽宁,辽宁,,16,存活,200,40,,suxuang.m3u,标清,辽宁经济,http://120.76.248.139/live/bfgd/4200000480.m3u8
-辽宁经济,辽宁,辽宁,,17,存活,200,96,,suxuang.m3u,未知,辽宁经济,http://dassby.qqff.top:99/live/辽宁经济/index.m3u8
-辽宁经济,辽宁,辽宁,,18,存活,200,216,,suxuang.m3u,未知,辽宁经济,http://120.76.248.139/live/bfgd/4200000076.m3u8
-辽宁综合,辽宁,辽宁,,19,失效,0,9999,,iptvorg_cn.m3u,1080P,Liaoning TV (1080p),http://39.134.39.37/PLTV/88888888/224/3221226209/index.m3u8
-辽宁都市,辽宁,辽宁,,20,存活,200,42,,suxuang.m3u,未知,辽宁都市,http://dassby.qqff.top:99/live/辽宁都市/index.m3u8
-辽宁都市,辽宁,辽宁,,21,存活,200,72,,suxuang.m3u,未知,辽宁都市,http://120.76.248.139/live/bfgd/4200000610.m3u8
-辽宁都市,辽宁,辽宁,,22,存活,200,174,,vbskycn.m3u,4K,辽宁都市,https://ls.qingting.fm/live/1099/64k.m3u8
-辽宁都市,辽宁,辽宁,,23,存活,200,205,,suxuang.m3u,未知,辽宁都市,http://120.76.248.139/live/bfgd/4200000068.m3u8
-辽宁青少,辽宁,辽宁,,24,存活,200,104,,suxuang.m3u,未知,辽宁青少,http://dassby.qqff.top:99/live/辽宁教育青少/index.m3u8
+﻿分组,频道,线路数,存活,失效,官方,最佳线路,ID
+辽宁,LiaoningTV(1080p),1,0,1,0,,liaoningtv
+辽宁,朝阳新闻综合,1,1,0,0,http://120.76.248.139/live/bfgd/4200000282.m3u8,朝阳新闻综合
+辽宁,辽宁体育,1,1,0,0,http://dassby.qqff.top:99/live/辽宁体育/index.m3u8,辽宁体育
+辽宁,辽宁公共,3,3,0,0,http://120.76.248.139/live/bfgd/4200000481.m3u8,辽宁公共
+辽宁,辽宁北方,3,1,2,0,http://dassby.qqff.top:99/live/辽宁北方/index.m3u8,辽宁北方
+辽宁,辽宁影视剧,2,2,0,0,http://120.76.248.139/live/bfgd/4200000070.m3u8,辽宁影视剧
+辽宁,辽宁教育青少,2,2,0,0,http://dassby.qqff.top:99/live/辽宁教育青少/index.m3u8,辽宁教育青少
+辽宁,辽宁生活,2,2,0,0,http://120.76.248.139/live/bfgd/4200000073.m3u8,辽宁生活
+辽宁,辽宁经济,3,3,0,0,http://120.76.248.139/live/bfgd/4200000480.m3u8,辽宁经济
+辽宁,辽宁都市,4,4,0,0,http://120.76.248.139/live/bfgd/4200000610.m3u8,辽宁都市

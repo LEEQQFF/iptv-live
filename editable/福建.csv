@@ -1,77 +1,18 @@
-﻿频道,分组,省份,城市,序号,检活,HTTP,延迟ms,官方,来源,画质,标识,URL
-三明新闻综合,福建,福建,,1,存活,200,98,,Guovin iptv-api result(存活校验),未知,三明新闻综合,https://ls.qingting.fm/live/5022100/64k.m3u8
-三明新闻综合,福建,福建,,2,存活,200,125,,Guovin iptv-api result(存活校验),未知,三明新闻综合,http://ls.qingting.fm/live/4885.m3u8
-三明综合,福建,福建,,3,失效,502,9999,,suxuang ipv4,未知,三明综合,http://8.138.7.223/tv/fjtv1.php?id=sm1
-云霄综合,福建,福建,,4,存活,200,2698,,Guovin iptv-api result(存活校验),未知,云霄综合,"http://live.zzyxxw.com:85/live/xwzh.m3u8?fujian,"
-云霄综合,福建,福建,,5,存活,200,2752,,Guovin iptv-api result(存活校验),未知,云霄综合,http://live.zzyxxw.com:85/live/xwzh.m3u8?fujian
-云霄综合,福建,福建,,6,存活,200,2773,,Guovin iptv-api result(存活校验),未知,云霄综合,http://live.zzyxxw.com:85/live/xwzh.m3u8
-云霄综合,福建,福建,,7,存活,200,2832,,vbskycn iptv4,未知,云霄综合,https://live.zzyxxw.com:2443/live/xwzh.m3u8
-南平综合,福建,福建,,8,失效,502,9999,,suxuang ipv4,未知,南平综合,http://8.138.7.223/tv/fjtv1.php?id=np1
-厦门卫视,福建,福建,,9,存活,200,1907,,Guovin iptv-api result(存活校验),未知,厦门卫视,http://198.204.228.26/live/xmws.m3u8
-厦门卫视,福建,福建,,10,失效,0,9999,,iptvorg_cn2.m3u,标清,厦门卫视 (576p),http://223.110.245.159/ott.js.chinamobile.com/PLTV/3/224/3221226996/index.m3u8
-厦门卫视,福建,福建,,11,失效,0,9999,,ibert_all.m3u,标清,[SD]厦门卫视,https://stream1.freetv.fun/a927444efa3d55d3d42d4d80fc9dd565caeae93fe0328d6e078367c2120df3d4.m3u8
-厦门卫视,福建,福建,,12,失效,0,9999,,iptvorg_cn2.m3u,未知,厦门卫视 (540p) [Not 24/7],http://112.25.48.68/live/program/live/xmws/1300000/mnf.m3u8
-厦门卫视,福建,福建,,13,失效,502,9999,,suxuang.m3u,未知,厦门卫视,http://8.138.7.223/tv/fjtv1.php?id=xmws
-厦门卫视,福建,福建,,14,失效,0,9999,,suxuang.m3u,未知,厦门卫视,http://e2.woc.iiiya.cn:28888/rtp/239.61.2.11:8060
-厦门卫视,福建,福建,,15,失效,0,9999,,Guovin iptv-api result(存活校验),未知,厦门卫视,http://192.151.150.154/live/xmws.m3u8
-厦门卫视,福建,福建,,16,失效,0,9999,,Guovin iptv-api result(存活校验),未知,厦门卫视,http://107.150.60.122/live/xmws.m3u8
-厦门卫视,福建,福建,,17,失效,0,9999,,Guovin iptv-api result(存活校验),未知,厦门卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=xmws
-宁德新闻综合,福建,福建,,18,失效,502,9999,,suxuang ipv4,未知,宁德新闻综合,http://8.138.7.223/tv/fjtv1.php?id=nd1
-平潭综合,福建,福建,,19,失效,502,9999,,suxuang ipv4,未知,平潭综合,http://8.138.7.223/tv/fjtv1.php?id=pttv
-泉州新闻综合,福建,福建,,20,失效,502,9999,,suxuang ipv4,未知,泉州新闻综合,http://8.138.7.223/tv/fjtv1.php?id=qz1
-海峡卫视,福建,福建,,21,存活,200,152,,suxuang.m3u,未知,海峡卫视,http://8.138.7.223/tv/hxws.m3u8
-海峡卫视,福建,福建,,22,存活,200,2194,,suxuang.m3u,未知,海峡卫视,http://r.jdshipin.com/WtYt3
-海峡卫视,福建,福建,,23,失效,404,9999,,vbskycn.m3u,未知,福建海峡卫视,http://38.64.72.148/hls/modn/list/4009/playlist.m3u8
-海峡卫视,福建,福建,,24,失效,0,9999,,suxuang.m3u,未知,海峡卫视,http://t.061899.xyz/tl/tl.php?id=hxws
-海峡卫视,福建,福建,,25,失效,0,9999,,ibert_all.m3u,未知,[BD]海峡卫视,https://stream1.freetv.fun/ba0cb96ba000eebc5a91bd4ffcaed72334b786255d15f293d5f09f19c344cc0f.ctv
-海峡卫视,福建,福建,,26,失效,404,9999,,Guovin iptv-api result(存活校验),未知,福建海峡卫视,http://38.64.72.148:80/hls/modn/list/4009/playlist.m3u8
-海峡卫视,福建,福建,,27,失效,404,9999,,Guovin iptv-api result(存活校验),未知,福建海峡卫视,http://38.64.72.148:80/hls/modn/list/4009/chunklist0.m3u8
-海峡卫视,福建,福建,,28,失效,200,9999,,Guovin iptv-api result(存活校验),未知,福建海峡卫视,https://m.italkbbtv.com/live/6a30f74820a80832dc74e2c7
-漳州新闻综合,福建,福建,,29,失效,502,9999,,suxuang ipv4,未知,漳州新闻综合,http://8.138.7.223/tv/fjtv1.php?id=zz1
-漳州新闻综合,福建,福建,,30,失效,403,9999,,iptv-org cn,720P,漳州新闻综合 (720p) [Not 24/7],https://31182.hlsplay.aodianyun.com/lms_31182/tv_channel_175.m3u8
-漳州新闻综合,福建,福建,,31,失效,0,9999,,Guovin iptv-api result(存活校验),未知,漳州新闻综合,https://stream1.freetv.fun/zhang-zhou-xin-wen-zong-he-2.m3u8
-漳州新闻综合,福建,福建,,32,失效,0,9999,,Guovin iptv-api result(存活校验),未知,漳州新闻综合,https://stream1.freetv.fun/zhang-zhou-xin-wen-zong-he-1.m3u8
-漳州新闻综合,福建,福建,,33,失效,0,9999,,Guovin iptv-api result(存活校验),未知,漳州新闻综合,https://stream1.freetv.fun/zhang-zhou-xin-wen-zong-he-3.m3u8
-福州少儿频道,福建,福建,福州,34,存活,200,366,,vbskycn.m3u,未知,福州少儿,http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
-福州广播电视台新闻综合频道 (FZTV-1) (1080p),福建,福建,,35,存活,200,124,,iptv-org cn,1080P,福州广播电视台新闻综合频道 (FZTV-1) (1080p),http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
-福州广播电视台都市生活频道,福建,福建,福州,36,存活,200,1032,,iptvorg_cn2.m3u,1080P,福州广播电视台都市生活频道 (FZTV-3) (1080p),http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
-福州新闻综合,福建,福建,福州,37,存活,200,124,,iptvorg_cn2.m3u,1080P,福州广播电视台新闻综合频道 (FZTV-1) (1080p),http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
-福州新闻综合,福建,福建,福州,38,失效,502,9999,,suxuang.m3u,未知,福州新闻综合,http://8.138.7.223/tv/fjtv1.php?id=fz1
-福州生活,福建,福建,福州,39,存活,200,1303,,vbskycn.m3u,未知,福州生活,http://live.zohi.tv:80/video/s10001-fztv-3/index.m3u8
-福建Fujian Comprehensive Channel,福建,福建,,40,失效,0,9999,,iptv-org cn,未知,Fujian Comprehensive Channel,http://120.39.52.202:5140/福建综合
-福建乡村振兴公共,福建,福建,,41,失效,502,9999,,suxuang.m3u,未知,福建乡村振兴公共,http://8.138.7.223/tv/fjtv1.php?id=fjxc
-福建公共,福建,福建,,42,失效,0,9999,,Guovin iptv-api result(存活校验),未知,福建公共,https://live.264788.xyz/channel/fujianxiangcungonggong?streamid=1cf7fc3a8f6d160c33b43c2f9507a0cc&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-福建公共,福建,福建,,43,失效,0,9999,,bestK iptv,未知,福建公共,https://stream1.freetv.fun/fu-jian-gong-gong-4.ctv
-福建少儿,福建,福建,,44,失效,502,9999,,suxuang.m3u,未知,福建少儿,http://8.138.7.223/tv/fjtv1.php?id=fjse
-福建少儿,福建,福建,,45,失效,0,9999,,Guovin iptv-api result(存活校验),未知,福建少儿,https://stream1.freetv.fun/fu-jian-shao-er-1.m3u8
-福建少儿,福建,福建,,46,失效,0,9999,,Guovin iptv-api result(存活校验),未知,福建少儿,https://stream1.freetv.fun/fu-jian-shao-er-6.m3u8
-福建少儿,福建,福建,,47,失效,0,9999,,Guovin iptv-api result(存活校验),未知,福建少儿,https://stream1.freetv.fun/fu-jian-shao-er-4.m3u8
-福建少儿,福建,福建,,48,失效,0,9999,,Guovin iptv-api result(存活校验),未知,福建少儿,https://stream1.freetv.fun/fu-jian-shao-er-7.m3u8
-福建少儿,福建,福建,,49,失效,0,9999,,Guovin iptv-api result(存活校验),未知,福建少儿,https://stream1.freetv.fun/fu-jian-shao-er-2.m3u8
-福建文体,福建,福建,,50,失效,502,9999,,suxuang.m3u,未知,福建文体,http://8.138.7.223/tv/fjtv1.php?id=fjwt
-福建新闻,福建,福建,,51,存活,200,558,,vbskycn.m3u,未知,福建新闻,http://satellitepull.cnr.cn/live/wx32fjxwgb/playlist.m3u8
-福建新闻,福建,福建,,52,失效,502,9999,,suxuang.m3u,未知,福建新闻,http://8.138.7.223/tv/fjtv1.php?id=fjxw
-福建旅游,福建,福建,,53,失效,502,9999,,suxuang.m3u,未知,福建旅游,http://8.138.7.223/tv/fjtv1.php?id=fjly
-福建旅游,福建,福建,,54,失效,0,9999,,vbskycn iptv4,未知,福建旅游,https://live.264788.xyz/channel/fujianlvyou?streamid=fc58882de71ce4575b66002f2475226b&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-福建旅游,福建,福建,,55,失效,0,9999,,Guovin iptv-api result(存活校验),未知,福建旅游,https://live.264788.xyz/channel/fujianlvyou?streamid=599c11c8b284751261b165f4d5765b36&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-福建旅游,福建,福建,,56,失效,0,9999,,Guovin iptv-api result(存活校验),未知,福建旅游,https://live.264788.xyz/channel/fujianlvyou?streamid=221239fcf3c7edb274f2f0760fe47f96&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-福建旅游,福建,福建,,57,失效,0,9999,,Guovin iptv-api result(存活校验),未知,福建旅游,https://live.264788.xyz/channel/fujianlvyou?streamid=8f26765ebf367079cef58c6b7752da1e&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-福建电视剧,福建,福建,,58,失效,502,9999,,suxuang ipv4,未知,福建电视剧,http://8.138.7.223/tv/fjtv1.php?id=fjdsj
-福建电视剧,福建,福建,,59,失效,403,9999,,Guovin iptv-api result(存活校验),未知,福建电视剧,http://tvcdn.stream3.hndt.com/tv/65bd329b017e1000648cd2ed00000000_transios/playlist.m3u8?wsSecret=19bcd03fe3cd7324a376acb515ffc894&wsTime=1787821270
-福建经济,福建,福建,,60,存活,200,562,,vbskycn.m3u,未知,福建经济,http://satellitepull.cnr.cn/live/wx32fjdnjjgb/playlist.m3u8
-福建经济,福建,福建,,61,失效,502,9999,,suxuang.m3u,未知,福建经济,http://8.138.7.223/tv/fjtv1.php?id=fjjj
-福建经视,福建,福建,,62,失效,0,9999,,Guovin iptv-api result(存活校验),未知,福建经视,https://stream1.freetv.fun/fu-jian-jing-ji-4.m3u8
-福建经视,福建,福建,,63,失效,0,9999,,Guovin iptv-api result(存活校验),未知,福建经视,https://stream1.freetv.fun/fu-jian-jing-ji-1.m3u8
-福建经视,福建,福建,,64,失效,0,9999,,Guovin iptv-api result(存活校验),未知,福建经视,https://stream1.freetv.fun/fu-jian-jing-ji-2.m3u8
-福建经视,福建,福建,,65,失效,0,9999,,Guovin iptv-api result(存活校验),未知,福建经视,https://stream1.freetv.fun/fu-jian-jing-ji-5.m3u8
-福建经视,福建,福建,,66,失效,0,9999,,Guovin iptv-api result(存活校验),未知,福建经视,https://stream1.freetv.fun/fu-jian-jing-ji-6.m3u8
-福建综合,福建,福建,,67,存活,200,732,,suxuang.m3u,未知,福建综合,http://8.138.7.223/tv/fjtv1.php?id=fjzh
-福建综合,福建,福建,,68,失效,0,9999,,iptvorg_cn.m3u,标清,Fujian Comprehensive Channel,http://120.39.52.202:5140/%E7%A6%8F%E5%BB%BA%E7%BB%BC%E5%90%88
-福建综合,福建,福建,,69,失效,0,9999,,Guovin iptv-api result(存活校验),未知,福建综合,https://stream1.freetv.fun/fu-jian-zong-he-6.m3u8
-福建综合,福建,福建,,70,失效,0,9999,,Guovin iptv-api result(存活校验),未知,福建综合,https://stream1.freetv.fun/fu-jian-zong-he-5.m3u8
-福建综合,福建,福建,,71,失效,0,9999,,Guovin iptv-api result(存活校验),未知,福建综合,https://stream1.freetv.fun/fu-jian-zong-he-4.m3u8
-福建综合,福建,福建,,72,失效,0,9999,,Guovin iptv-api result(存活校验),未知,福建综合,https://stream1.freetv.fun/fu-jian-zong-he-1.m3u8
-福建综合,福建,福建,,73,失效,0,9999,,Guovin iptv-api result(存活校验),未知,福建综合,https://stream1.freetv.fun/fu-jian-zong-he-3.m3u8
-莆田综合,福建,福建,,74,失效,502,9999,,suxuang ipv4,未知,莆田综合,http://8.138.7.223/tv/fjtv1.php?id=pt1
-长乐综合 [Geo-blocked],福建,福建,,75,失效,403,9999,,iptv-org cn,未知,长乐综合 [Geo-blocked],http://35908.hlsplay.aodianyun.com/guangdianyun_35908/tv_channel_327.m3u8
-龙岩综合,福建,福建,,76,失效,502,9999,,suxuang ipv4,未知,龙岩综合,http://8.138.7.223/tv/fjtv1.php?id=ly1
+﻿分组,频道,线路数,存活,失效,官方,最佳线路,ID
+福建,FujianComprehensiveChannel,1,0,1,0,,fujiancomprehensivechannel
+福建,三明新闻综合,2,2,0,0,http://ls.qingting.fm/live/4885.m3u8,三明新闻综合
+福建,云霄综合,2,2,0,0,https://live.zzyxxw.com:2443/live/xwzh.m3u8,云霄综合
+福建,晋江电视台,1,1,0,0,http://stream.jinjiang.tv/1/sd/live.m3u8?zfud,晋江
+福建,漳州新闻综合(720p)[Not24/7],1,0,1,0,,漳州新闻综合
+福建,漳州新闻综合,3,0,3,0,,漳州新闻综合
+福建,福州少儿,1,1,0,0,http://live.zohi.tv/video/s10001-fztv-4/index.m3u8,福州少儿
+福建,福州生活,1,1,0,0,http://live.zohi.tv:80/video/s10001-fztv-3/index.m3u8,福州生活
+福建,福建公共,2,0,2,0,,福建公共
+福建,福建少儿,5,0,5,0,,福建少儿
+福建,福建新闻,1,1,0,0,http://satellitepull.cnr.cn/live/wx32fjxwgb/playlist.m3u8,福建新闻
+福建,福建旅游,1,0,1,0,,福建旅游
+福建,福建电视剧,1,0,1,0,,福建电视剧
+福建,福建经济,1,1,0,0,http://satellitepull.cnr.cn/live/wx32fjdnjjgb/playlist.m3u8,福建经济
+福建,福建经视,5,0,5,0,,福建经视
+福建,福建综合,6,0,6,0,,福建综合
+福建,长乐综合[Geo-blocked],1,0,1,0,,长乐综合

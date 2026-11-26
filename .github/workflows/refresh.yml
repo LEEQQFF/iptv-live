@@ -35,14 +35,19 @@ jobs:
       - name: 安装依赖
         run: pip install -r requirements.txt
 
-      - name: 滚动刷新（聚合→去重→归类→增量检活→置顶→导出）
-        run: python scripts/auto_refresh.py
+      - name: 滚动刷新（抓取→聚合→去重→归类→严格检活→官方置顶→导出）
+        run: python scripts/pipeline.py
 
-      - name: 提交人工维护产物
+      - name: 同步网页数据到 Pages 目录
+        run: |
+          mkdir -p output/web
+          cp web/index.html web/data.json output/web/
+
+      - name: 提交全链条产物
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add channels.json iptv-live.m3u iptv-live-all.m3u web tools/cache
+          git add channels.json iptv-live.m3u iptv-live-all.m3u web output/web output/status.json editable tools/cache
           if git diff --cached --quiet; then
             echo "本次无变化"
           else
@@ -54,8 +59,10 @@ jobs:
       - name: 组装 Pages 站点
         run: |
           rm -rf _site && mkdir -p _site
-          cp -r output/. _site/ 2>/dev/null || true
+          cp -r output/. _site/
           cp web/index.html web/data.json _site/
+          mkdir -p _site/web
+          cp web/index.html web/data.json _site/web/
           cp iptv-live.m3u _site/manual-live.m3u
           cp iptv-live-all.m3u _site/manual-live-all.m3u
 

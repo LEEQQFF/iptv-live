@@ -1,65 +1,39 @@
-﻿频道,分组,省份,城市,序号,检活,HTTP,延迟ms,官方,来源,画质,标识,URL
-Baicheng TV [Geo-blocked],吉林,吉林,,1,存活,200,261,,iptv-org cn(github.io),未知,Baicheng TV [Geo-blocked],https://stream2.jlntv.cn/baicheng1/sd/live.m3u8
-Siping TV,吉林,吉林,,2,存活,200,139,,iptv-org cn,未知,Siping TV,http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598
-Tonghua TV (1080p),吉林,吉林,,3,存活,200,165,,iptv-org cn,未知,Tonghua TV,http://139.211.217.79:9004/hls/75/index.m3u8
-Tonghua TV (1080p),吉林,吉林,,4,失效,567,9999,,iptv-org cn,1080P,Tonghua TV (1080p),http://lsfb.avap.jilintv.cn/zqvk7vpj/channel/43ea5771aa44421591f9dfd2b71f1b9b/index.m3u8
-Tonghua TV (1080p),吉林,吉林,,5,失效,567,9999,,iptv-org cn,1080P,Tonghua TV (1080p),https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/43ea5771aa44421591f9dfd2b71f1b9b/index.m3u8
-东丰,吉林,吉林,,6,存活,200,293,,vbskycn iptv4,未知,东丰,http://stream5.jlntv.cn/df/sd/live.m3u8?zjild
-九台,吉林,吉林,,7,存活,200,221,,vbskycn iptv4,未知,九台,http://stream10.jlntv.cn/jiutaitv/sd/live.m3u8?zjild
-九台综合,吉林,吉林,,8,存活,200,275,,vbskycn iptv4,未知,九台综合,http://stream10.jlntv.cn/jiutaitv/sd/live.m3u8
-前郭综合 [Geo-blocked],吉林,吉林,,9,存活,200,129,,iptv-org cn,未知,前郭综合 [Geo-blocked],https://stream2.jlntv.cn/qg/sd/live.m3u8
-双辽,吉林,吉林,,10,存活,200,101,,vbskycn iptv4,未知,双辽,http://stream5.jlntv.cn/sl/sd/live.m3u8?zjild
-吉林Jilin City Channel,吉林,吉林,,11,失效,567,9999,,iptv-org cn,未知,Jilin City Channel,https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/7e8474e6daea44ccaa5aa2300191439e/index.m3u8
-吉林Jilin Lifestyle Channel,吉林,吉林,,12,失效,567,9999,,iptv-org cn,未知,Jilin Lifestyle Channel,https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/0a76740c72b74fabae611845aa21e06a/index.m3u8
-吉林Jilin Movie Channel,吉林,吉林,,13,失效,567,9999,,iptv-org cn,未知,Jilin Movie Channel,https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/906341e6f19b4c4bacdc89941eb85d12/index.m3u8
-吉林Jilin Rural Channel,吉林,吉林,,14,失效,567,9999,,iptv-org cn,未知,Jilin Rural Channel,https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/3ffc4824dce54b92be185555923ce382/index.m3u8
-吉林乡村,吉林,吉林,吉林,15,存活,200,700,,vbskycn.m3u,未知,吉林乡村,https://satellitepull.cnr.cn/live/wxjlxcgb/playlist.m3u8
-吉林乡村,吉林,吉林,吉林,16,失效,567,9999,,iptvorg_cn.m3u,标清,Jilin Rural Channel,https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/3ffc4824dce54b92be185555923ce382/index.m3u8
-吉林城市,吉林,吉林,吉林,17,失效,567,9999,,iptvorg_cn.m3u,标清,Jilin City Channel,https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/7e8474e6daea44ccaa5aa2300191439e/index.m3u8
-吉林市新闻综合,吉林,吉林,吉林,18,存活,200,161,,iptvorg_cn2.m3u,标清,吉林市新闻综合 [Geo-blocked],https://stream2.jlntv.cn/jilin1/sd/live.m3u8
-吉林影视,吉林,吉林,吉林,19,失效,567,9999,,iptvorg_cn.m3u,标清,Jilin Movie Channel,https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/906341e6f19b4c4bacdc89941eb85d12/index.m3u8
-吉林生活,吉林,吉林,吉林,20,失效,567,9999,,iptvorg_cn.m3u,标清,Jilin Lifestyle Channel,https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/0a76740c72b74fabae611845aa21e06a/index.m3u8
-吉林都市,吉林,吉林,吉林,21,失效,0,9999,,ibert_all.m3u,720P,[HD]吉林都市,https://stream1.freetv.fun/233d672c3058b07eab24f2329d0c33ac7336e71c57ce4d37bfc2b4b05bd9b24b.m3u8
-四平电视台,吉林,吉林,四平,22,存活,200,139,,iptvorg_cn.m3u,标清,Siping TV,http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598
-四平新闻综合 [Geo-blocked],吉林,吉林,,23,存活,200,73,,iptv-org cn,未知,四平新闻综合 [Geo-blocked],https://stream2.jlntv.cn/sptv/sd/live.m3u8
-延边2,吉林,吉林,,24,存活,200,88,,vbskycn iptv4,未知,延边2,http://stream5.jlntv.cn/wq/playlist.m3u8
-延边卫视,吉林,吉林,,25,存活,200,87,,vbskycn.m3u,720P,延边卫视,http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8#
-延边卫视,吉林,吉林,,26,存活,200,88,,vbskycn.m3u,未知,延边2,http://stream5.jlntv.cn/wq/playlist.m3u8
-延边卫视,吉林,吉林,,27,存活,200,92,,best-fan 央视卫视地方(每日存活校验),未知,延边卫视,https://stream2.jlntv.cn/jlyb/sd/live.m3u8
-延边卫视,吉林,吉林,,28,存活,200,152,,suxuang.m3u,未知,延边卫视,http://120.76.248.139/live/bfgd/4200000117.m3u8
-延边卫视,吉林,吉林,,29,存活,200,208,,bf_all_status.m3u8,1080P,延边卫视,https://srs.iyb983.cn:443/video/CYS/index.m3u8
-延边卫视,吉林,吉林,,30,存活,200,250,,bf_all_status.m3u8,1080P,延边卫视,https://srs.iyb983.cn/video/CYS/index.m3u8
-延边卫视,吉林,吉林,,31,失效,0,9999,,iptvorg_cn2.m3u,标清,延边卫视 (576p),http://223.110.245.139/PLTV/4/224/3221227002/index.m3u8
-延边卫视,吉林,吉林,,32,失效,0,9999,,iptvorg_cn2.m3u,标清,延边卫视 (576p),http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221227002/index.m3u8
-延边卫视,吉林,吉林,,33,失效,0,9999,,ibert_all.m3u,未知,[BD]延边卫视,https://stream1.freetv.fun/d2ea3a364fa453b29060ebccb5a06a1941755859c0182ab0f071473c08738fc2.ctv
-延边卫视,吉林,吉林,,34,失效,0,9999,,iptv-org cn(github.io),未知,Yanbian Satellite TV (576p),http://223.110.245.139/PLTV/4/224/3221227008/index.m3u8
-延边新闻综合 [Geo-blocked],吉林,吉林,,35,存活,200,92,,iptv-org cn,未知,延边新闻综合 [Geo-blocked],https://stream2.jlntv.cn/jlyb/sd/live.m3u8
-德惠综合,吉林,吉林,,36,存活,200,243,,vbskycn iptv4,未知,德惠综合,http://stream11.jlntv.cn/dehuitv/sd/live.m3u8
-敦化一套,吉林,吉林,,37,存活,200,118,,vbskycn iptv4,未知,敦化一套,http://stream8.jlntv.cn/dhtv/playlist.m3u8?zjild
-敦化一套,吉林,吉林,,38,存活,200,160,,vbskycn iptv4,未知,敦化一套,http://stream8.jlntv.cn/dhtv/playlist.m3u8
-松原新闻综合 [Geo-blocked],吉林,吉林,,39,存活,200,136,,iptv-org cn,未知,松原新闻综合 [Geo-blocked],https://stream2.jlntv.cn/sytv/sd/live.m3u8
-柳河,吉林,吉林,,40,存活,200,133,,vbskycn iptv4,未知,柳河,http://stream5.jlntv.cn/lh/sd/live.m3u8?zjild
-桦甸,吉林,吉林,,41,存活,200,294,,vbskycn iptv4,未知,桦甸,http://stream10.jlntv.cn/huadian/sd/live.m3u8?zjild
-汪清,吉林,吉林,,42,存活,200,111,,vbskycn iptv4,未知,汪清,http://stream5.jlntv.cn/wq/sd/live.m3u8?zjild
-汪清综合,吉林,吉林,,43,存活,200,91,,vbskycn iptv4,未知,汪清综合,http://stream5.jlntv.cn/wq/sd/live.m3u8
-珲春新闻,吉林,吉林,,44,存活,200,137,,vbskycn iptv4,未知,珲春新闻,http://stream8.jlntv.cn/hctv/sd/live.m3u8?zjild
-珲春新闻综合,吉林,吉林,,45,失效,0,9999,,Guovin iptv-api result(存活校验),未知,珲春新闻综合,https://stream1.freetv.fun/hun-chun-xin-wen-zong-he-3.m3u8
-白城电视台,吉林,吉林,白城,46,存活,200,261,,iptvorg_cn.m3u,标清,Baicheng TV [Geo-blocked],https://stream2.jlntv.cn/baicheng1/sd/live.m3u8
-白城新闻综合 [Geo-blocked],吉林,吉林,,47,存活,200,261,,iptv-org cn,未知,白城新闻综合 [Geo-blocked],https://stream2.jlntv.cn/baicheng1/sd/live.m3u8
-白山公共,吉林,吉林,,48,存活,200,257,,vbskycn iptv4,未知,白山公共,http://stream8.jlntv.cn/baishan2/playlist.m3u8?zjild
-白山新闻综合 [Geo-blocked],吉林,吉林,,49,存活,200,291,,iptv-org cn,未知,白山新闻综合 [Geo-blocked],https://stream2.jlntv.cn/baishan1/sd/live.m3u8
-磐石,吉林,吉林,,50,存活,200,112,,vbskycn iptv4,未知,磐石,http://stream5.jlntv.cn/ps/sd/live.m3u8?zjild
-舒兰新闻,吉林,吉林,,51,存活,200,115,,vbskycn iptv4,未知,舒兰新闻,http://stream8.jlntv.cn/shulan/sd/live.m3u8?zjild
-舒兰新闻综合,吉林,吉林,,52,存活,200,101,,vbskycn iptv4,未知,舒兰新闻综合,http://stream8.jlntv.cn/shulan/sd/live.m3u8?_upt=332db6421699196585
-辉南新闻,吉林,吉林,,53,存活,200,119,,vbskycn iptv4,未知,辉南新闻,http://stream5.jlntv.cn/hn/sd/live.m3u8?zjild
-辉南新闻综合,吉林,吉林,,54,存活,200,121,,vbskycn iptv4,未知,辉南新闻综合,http://stream5.jlntv.cn/hn/sd/live.m3u8
-辽源新闻综合 [Geo-blocked],吉林,吉林,,55,存活,200,81,,iptv-org cn,未知,辽源新闻综合 [Geo-blocked],https://stream2.jlntv.cn/liaoyuan1/sd/live.m3u8
-通化电视台,吉林,吉林,通化,56,失效,567,9999,,iptvorg_cn.m3u,1080P,Tonghua TV (1080p),http://lsfb.avap.jilintv.cn/zqvk7vpj/channel/43ea5771aa44421591f9dfd2b71f1b9b/index.m3u8
-通化电视台,吉林,吉林,通化,57,失效,567,9999,,iptvorg_cn2.m3u,1080P,Tonghua TV (1080p),https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/43ea5771aa44421591f9dfd2b71f1b9b/index.m3u8
-通化县,吉林,吉林,,58,存活,200,251,,vbskycn iptv4,未知,通化县,http://stream5.jlntv.cn/thx/sd/live.m3u8?zjild
-通化新闻 [Geo-blocked],吉林,吉林,,59,存活,200,200,,iptv-org cn,未知,通化新闻 [Geo-blocked],https://stream2.jlntv.cn/tonghua1/sd/live.m3u8
-长春综合 [Geo-blocked],吉林,吉林,,60,存活,200,344,,iptv-org cn,未知,长春综合 [Geo-blocked],https://stream2.jlntv.cn/jlcc/sd/live.m3u8
-长白山电视台,吉林,吉林,,61,存活,200,198,,vbskycn iptv4,未知,长白山电视台,http://stream8.jlntv.cn/cbstv/sd/live.m3u8?zjild
-集安综合 [Geo-blocked],吉林,吉林,,62,存活,200,197,,iptv-org cn,未知,集安综合 [Geo-blocked],https://stream2.jlntv.cn/ja/sd/live.m3u8
-靖宇,吉林,吉林,,63,存活,200,197,,vbskycn iptv4,未知,靖宇,http://stream8.jlntv.cn/jytv/sd/live.m3u8?zjild
-龙井,吉林,吉林,,64,存活,200,99,,vbskycn iptv4,未知,龙井,http://stream8.jlntv.cn/ljtv/sd/live.m3u8?zjild
+﻿分组,频道,线路数,存活,失效,官方,最佳线路,ID
+吉林,BaichengTV[Geo-blocked],1,1,0,1,https://stream2.jlntv.cn/baicheng1/sd/live.m3u8,baichengtv
+吉林,JilinCityChannel,1,0,1,1,,jilincitychannel
+吉林,JilinLifestyleChannel,1,0,1,1,,jilinlifestylechannel
+吉林,JilinMovieChannel,1,0,1,1,,jilinmoviechannel
+吉林,JilinRuralChannel,1,0,1,1,,jilinruralchannel
+吉林,SipingTV,1,1,0,1,http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598,sipingtv
+吉林,TonghuaTV(1080p),2,0,2,2,,tonghuatv
+吉林,TonghuaTV,1,1,0,0,http://139.211.217.79:9004/hls/75/index.m3u8,tonghuatv
+吉林,YanbianSatelliteTV(576p),1,0,1,0,,yanbiansatellitetv
+吉林,东丰,1,1,0,1,http://stream5.jlntv.cn/df/sd/live.m3u8?zjild,东丰
+吉林,九台综合,1,1,0,1,http://stream10.jlntv.cn/jiutaitv/sd/live.m3u8,九台综合
+吉林,前郭综合[Geo-blocked],1,1,0,1,https://stream2.jlntv.cn/qg/sd/live.m3u8,前郭综合
+吉林,双辽,1,1,0,1,http://stream5.jlntv.cn/sl/sd/live.m3u8?zjild,双辽
+吉林,吉林乡村,1,1,0,0,https://satellitepull.cnr.cn/live/wxjlxcgb/playlist.m3u8,吉林乡村
+吉林,吉林市新闻综合[Geo-blocked],1,1,0,1,https://stream2.jlntv.cn/jilin1/sd/live.m3u8,吉林市新闻综合
+吉林,吉林都市,1,0,1,0,,吉林都市
+吉林,四平新闻综合[Geo-blocked],1,1,0,1,https://stream2.jlntv.cn/sptv/sd/live.m3u8,四平新闻综合
+吉林,延边2,1,1,0,1,http://stream5.jlntv.cn/wq/playlist.m3u8,延边2
+吉林,德惠综合,1,1,0,1,http://stream11.jlntv.cn/dehuitv/sd/live.m3u8,德惠综合
+吉林,敦化一套,1,1,0,1,http://stream8.jlntv.cn/dhtv/playlist.m3u8,敦化一套
+吉林,柳河,1,1,0,1,http://stream5.jlntv.cn/lh/sd/live.m3u8?zjild,柳河
+吉林,桦甸,1,1,0,1,http://stream10.jlntv.cn/huadian/sd/live.m3u8?zjild,桦甸
+吉林,汪清综合,1,1,0,1,http://stream5.jlntv.cn/wq/sd/live.m3u8,汪清综合
+吉林,珲春新闻,1,1,0,1,http://stream8.jlntv.cn/hctv/sd/live.m3u8?zjild,珲春新闻
+吉林,珲春新闻综合,1,0,1,0,,珲春新闻综合
+吉林,白山公共,1,1,0,1,http://stream8.jlntv.cn/baishan2/playlist.m3u8?zjild,白山公共
+吉林,白山新闻综合[Geo-blocked],1,1,0,1,https://stream2.jlntv.cn/baishan1/sd/live.m3u8,白山新闻综合
+吉林,磐石,1,1,0,1,http://stream5.jlntv.cn/ps/sd/live.m3u8?zjild,磐石
+吉林,舒兰新闻综合,1,1,0,1,http://stream8.jlntv.cn/shulan/sd/live.m3u8?_upt=332db6421699196585,舒兰新闻综合
+吉林,辉南新闻综合,1,1,0,1,http://stream5.jlntv.cn/hn/sd/live.m3u8,辉南新闻综合
+吉林,辽源新闻综合[Geo-blocked],1,1,0,1,https://stream2.jlntv.cn/liaoyuan1/sd/live.m3u8,辽源新闻综合
+吉林,通化县,1,1,0,1,http://stream5.jlntv.cn/thx/sd/live.m3u8?zjild,通化县
+吉林,通化新闻[Geo-blocked],1,1,0,1,https://stream2.jlntv.cn/tonghua1/sd/live.m3u8,通化新闻
+吉林,长春综合[Geo-blocked],1,1,0,1,https://stream2.jlntv.cn/jlcc/sd/live.m3u8,长春综合
+吉林,长白山电视台,1,1,0,1,http://stream8.jlntv.cn/cbstv/sd/live.m3u8?zjild,长白山
+吉林,集安综合[Geo-blocked],1,1,0,1,https://stream2.jlntv.cn/ja/sd/live.m3u8,集安综合
+吉林,靖宇,1,1,0,1,http://stream8.jlntv.cn/jytv/sd/live.m3u8?zjild,靖宇
+吉林,龙井,1,1,0,1,http://stream8.jlntv.cn/ljtv/sd/live.m3u8?zjild,龙井

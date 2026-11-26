@@ -1,26 +1,16 @@
-﻿频道,分组,省份,城市,序号,检活,HTTP,延迟ms,官方,来源,画质,标识,URL
-南昌Nanchang News & Generalist Channel,江西,江西,,1,失效,403,9999,,iptv-org cn,未知,Nanchang News & Generalist Channel,https://play-live-hls.jxtvcn.com.cn/live-city/tv_nanchang.m3u8
-南昌新闻综合,江西,江西,南昌,2,失效,403,9999,,iptvorg_cn.m3u,标清,Nanchang News & Generalist Channel,https://play-live-hls.jxtvcn.com.cn/live-city/tv_nanchang.m3u8
-吉州新聞綜合 (1080p),江西,江西,,3,失效,0,9999,,iptv-org cn,1080P,吉州新聞綜合 (1080p),http://218.204.153.158/10.m3u8
-抚州公共 (270p),江西,江西,,4,失效,0,9999,,iptv-org cn,未知,抚州公共 (270p),http://111.75.179.195:30767/video/live_vide2.m3u8
-撫州綜合頻道 (270p) [Not 24/7],江西,江西,,5,失效,0,9999,,iptv-org cn,未知,撫州綜合頻道 (270p) [Not 24/7],http://111.75.179.195:30767/video/live_vide.m3u8
-江西Jiangxi Children's Channel,江西,江西,,6,失效,403,9999,,iptv-org cn,未知,Jiangxi Children's Channel,https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv6.m3u8
-江西Jiangxi City Channel,江西,江西,,7,失效,403,9999,,iptv-org cn,未知,Jiangxi City Channel,https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv2.m3u8
-江西Jiangxi Economy & Life Channel,江西,江西,,8,失效,403,9999,,iptv-org cn,未知,Jiangxi Economy & Life Channel,https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv3.m3u8
-江西Jiangxi Movie Channel,江西,江西,,9,失效,403,9999,,iptv-org cn,未知,Jiangxi Movie Channel,https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv4.m3u8
-江西Jiangxi Public & Agriculture Channel,江西,江西,,10,失效,403,9999,,iptv-org cn,未知,Jiangxi Public & Agriculture Channel,https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv5.m3u8
-江西Jiangxi TV,江西,江西,,11,失效,0,9999,,iptv-org cn(github.io),1080P,Jiangxi TV (1080p),http://39.134.115.163:8080/PLTV/88888910/224/3221225705/index.m3u8
-江西公共农业,江西,江西,,12,失效,403,9999,,iptvorg_cn.m3u,标清,Jiangxi Public & Agriculture Channel,https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv5.m3u8
-江西城市,江西,江西,,13,失效,403,9999,,iptvorg_cn.m3u,标清,Jiangxi City Channel,https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv2.m3u8
-江西少儿家庭,江西,江西,,14,失效,0,9999,,ibert_all.m3u,720P,[HD]江西少儿家庭,https://stream1.freetv.fun/e96d8291fd582b22cd23c2fb27ef3544c0bea6408d44673f0e8f6afb21e068e9.m3u8
-江西少儿家庭,江西,江西,,15,失效,403,9999,,iptvorg_cn.m3u,标清,Jiangxi Children's Channel,https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv6.m3u8
-江西影视,江西,江西,,16,失效,403,9999,,iptvorg_cn.m3u,标清,Jiangxi Movie Channel,https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv4.m3u8
-江西新闻,江西,江西,,17,失效,0,9999,,ibert_all.m3u,720P,[HD]江西新闻,https://stream1.freetv.fun/4fc34b07d5b7aab2a593c62fa12c519b8ea2716559a840f7b1bd96aa58e28999.m3u8
-江西生活,江西,江西,,18,失效,403,9999,,iptvorg_cn.m3u,标清,Jiangxi Economy & Life Channel,https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv3.m3u8
-江西综合,江西,江西,,19,失效,0,9999,,iptvorg_cn.m3u,1080P,Jiangxi TV (1080p),http://39.134.115.163:8080/PLTV/88888910/224/3221225705/index.m3u8
-萍乡新闻,江西,江西,萍乡,20,失效,0,9999,,iptvorg_cn.m3u,标清,Pingxiang TV News Channel (576p) [Not 24,http://www.pxitv.com:8099/hls-live/livepkgr/_definst_/pxitvevent/pxtv1stream.m3u8
-赣州公共,江西,江西,赣州,21,失效,0,9999,,suxuang.m3u,未知,赣州公共,https://pili-live-hls-sjxgz2024.sobeylive.com/jxgz2024/396_q_live172526334096251.m3u8
-赣州教育,江西,江西,赣州,22,失效,0,9999,,suxuang.m3u,未知,赣州教育,https://pili-live-hls-sjxgz2024.sobeylive.com/jxgz2024/396_q_live172526335287668.m3u8
-赣州新闻,江西,江西,,23,失效,0,9999,,suxuang ipv4,未知,赣州新闻,https://pili-live-hls-sjxgz2024.sobeylive.com/jxgz2024/396_q_live172526329228525.m3u8
-赣州新闻综合,江西,江西,赣州,24,失效,403,9999,,suxuang.m3u,未知,赣州新闻综合,http://play-live-hls.jxtvcn.com.cn/live/tv_ganzhou.m3u8
-赣州新闻综合,江西,江西,赣州,25,失效,0,9999,,suxuang.m3u,未知,赣州新闻,https://pili-live-hls-sjxgz2024.sobeylive.com/jxgz2024/396_q_live172526329228525.m3u8
+﻿分组,频道,线路数,存活,失效,官方,最佳线路,ID
+江西,JiangxiChildren'sChannel,1,0,1,0,,jiangxichildren'schannel
+江西,JiangxiCityChannel,1,0,1,0,,jiangxicitychannel
+江西,JiangxiEconomy&LifeChannel,1,0,1,0,,jiangxieconomy&lifechannel
+江西,JiangxiMovieChannel,1,0,1,0,,jiangximoviechannel
+江西,JiangxiPublic&AgricultureCha,1,0,1,0,,jiangxipublic&agriculturechannel
+江西,JiangxiTV(1080p),1,0,1,0,,jiangxitv
+江西,NanchangNews&GeneralistChann,1,0,1,0,,nanchangnews&generalistchannel
+江西,吉州新聞綜合(1080p),1,0,1,0,,吉州新聞綜合
+江西,抚州公共(270p),1,0,1,0,,抚州公共
+江西,撫州綜合頻道(270p)[Not24/7],1,0,1,0,,撫州綜合頻道
+江西,江西少儿家庭,1,0,1,0,,江西少儿家庭
+江西,江西新闻,1,0,1,0,,江西新闻
+江西,赣州公共,1,0,1,0,,赣州公共
+江西,赣州教育,1,0,1,0,,赣州教育
+江西,赣州新闻,2,0,2,0,,赣州新闻

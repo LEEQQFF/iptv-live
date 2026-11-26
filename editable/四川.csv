@@ -1,101 +1,56 @@
-﻿频道,分组,省份,城市,序号,检活,HTTP,延迟ms,官方,来源,画质,标识,URL
-Liangshan TV [Not 24/7],四川,四川,,1,失效,0,9999,,iptv-org cn,未知,Liangshan TV [Not 24/7],http://118.122.2.29:9999/hls/47/index.m3u8
-万源新闻综合,四川,四川,,2,失效,304,9999,,suxuang ipv4,未知,万源新闻综合,http://live.wanyuannews.com/wytv/hd/live.m3u8?zsicd
-乐山新闻综合,四川,四川,,3,失效,0,9999,,suxuang ipv4,未知,乐山新闻综合,http://m3u8file.lstv.org.cn/nmip-media/channellive/channel1/playlist.m3u8
-乐山新闻综合,四川,四川,,4,失效,0,9999,,Guovin iptv-api result(存活校验),未知,乐山新闻综合,https://stream1.freetv.fun/le-shan-xin-wen-zong-he-1.m3u8
-乐山新闻综合,四川,四川,,5,失效,0,9999,,Guovin iptv-api result(存活校验),未知,乐山新闻综合,https://stream1.freetv.fun/le-shan-xin-wen-zong-he-2.m3u8
-乐至综合,四川,四川,,6,存活,200,39,,suxuang ipv4,未知,乐至综合,http://175.155.106.72:89/live1/live1.m3u8?zsicd
-井研综合,四川,四川,,7,存活,200,343,,vbskycn iptv4,未知,井研综合,http://tvfile.jyrmt.cn/nmip-media/channellive/channel104452/playlist.m3u8
-凉山电视台,四川,四川,凉山,8,失效,0,9999,,iptvorg_cn.m3u,标清,Liangshan TV [Not 24/7],http://118.122.2.29:9999/hls/47/index.m3u8
-利州综合,四川,四川,,9,失效,0,9999,,suxuang ipv4,未知,利州综合,http://tvfile.lzgbdst.com/nmip-media/channellive/channel106876/playlist.m3u8?zsicd
-剑阁综合,四川,四川,,10,存活,200,127,,suxuang ipv4,未知,剑阁综合,https://m3u8.channel.dzsm.com/nmip-media/channellive/channel105549/playlist.m3u8
-叙州新闻综合,四川,四川,,11,失效,502,9999,,suxuang ipv4,未知,叙州新闻综合,http://pili-live-hls.ybcxjd.com/jdh-live/2108111201035597.m3u8?zsicd
-叙州新闻综合,四川,四川,,12,失效,0,9999,,Guovin iptv-api result(存活校验),未知,叙州新闻综合,https://stream1.freetv.fun/xu-zhou-xin-wen-zong-he-6.m3u8
-叙州新闻综合,四川,四川,,13,失效,0,9999,,Guovin iptv-api result(存活校验),未知,叙州新闻综合,https://stream1.freetv.fun/xu-zhou-xin-wen-zong-he-2.m3u8
-叙州新闻综合,四川,四川,,14,失效,0,9999,,Guovin iptv-api result(存活校验),未知,叙州新闻综合,https://stream1.freetv.fun/xu-zhou-xin-wen-zong-he-7.m3u8
-叙州新闻综合,四川,四川,,15,失效,0,9999,,Guovin iptv-api result(存活校验),未知,叙州新闻综合,https://stream1.freetv.fun/xu-zhou-xin-wen-zong-he-3.m3u8
-叙州新闻综合,四川,四川,,16,失效,0,9999,,Guovin iptv-api result(存活校验),未知,叙州新闻综合,https://stream1.freetv.fun/xu-zhou-xin-wen-zong-he-1.m3u8
-名山综合,四川,四川,,17,存活,200,219,,vbskycn iptv4,未知,名山综合,https://m3u8channel-bx.yunxya.com/nmip-media/channellive/channel104666/playlist.m3u8
-四川 Ⅰ 四川影视台 (720p) [Not 24/7],四川,四川,,18,失效,0,9999,,iptv-org cn,720P,四川 Ⅰ 四川影视台 (720p) [Not 24/7],http://scgctvshow.sctv.com/hdlive/sctv5/index.m3u8
-四川Sichuan TV Women and Children Channel,四川,四川,,19,失效,0,9999,,iptv-org cn(github.io),720P,Sichuan TV Women and Children Channel (720p) [Not 24/7],http://scgctvshow.sctv.com/hdlive/sctv7/index.m3u8
-四川公共乡村,四川,四川,,20,失效,0,9999,,suxuang.m3u,未知,四川公共乡村,http://wouu.net:9977/udp/239.93.0.52:5140
-四川妇女儿童,四川,四川,,21,失效,0,9999,,iptvorg_cn2.m3u,720P,四川妇女儿童 (720p) [Not 24/7],http://scgctvshow.sctv.com/hdlive/sctv7/index.m3u8
-四川妇女儿童,四川,四川,,22,失效,0,9999,,suxuang.m3u,未知,四川妇女儿童,http://wouu.net:9977/udp/239.93.0.219:5140
-四川影视文艺,四川,四川,,23,失效,0,9999,,suxuang.m3u,未知,四川影视文艺,http://wouu.net:9977/udp/239.93.0.166:5140
-四川影视文艺,四川,四川,,24,失效,0,9999,,iptvorg_cn2.m3u,720P,四川 Ⅰ 四川影视台 (720p) [Not 24/7],http://scgctvshow.sctv.com/hdlive/sctv5/index.m3u8
-四川文化旅游,四川,四川,,25,失效,0,9999,,suxuang.m3u,未知,四川文化旅游,http://wouu.net:9977/udp/239.93.1.102:5140
-四川新闻,四川,四川,,26,失效,0,9999,,suxuang ipv4,未知,四川新闻,http://wouu.net:9977/udp/239.93.0.47:5140
-四川新闻台,四川,四川,,27,失效,0,9999,,iptvorg_cn2.m3u,720P,四川 Ⅰ 四川新闻台 (720p) [Not 24/7],http://scgctvshow.sctv.com/hdlive/sctv4/index.m3u8
-四川新闻台,四川,四川,,28,失效,0,9999,,suxuang.m3u,未知,四川新闻,http://wouu.net:9977/udp/239.93.0.47:5140
-四川科教,四川,四川,,29,存活,200,110,,suxuang.m3u,未知,四川科教,http://182.150.115.21:8030/pcgacg/pcgacg_0.m3u8
-四川科教,四川,四川,,30,失效,0,9999,,Guovin iptv-api result(存活校验),未知,四川科教,https://stream1.freetv.fun/si-chuan-ke-jiao-3.ctv
-四川科教,四川,四川,,31,失效,0,9999,,Guovin iptv-api result(存活校验),未知,四川科教,https://stream1.freetv.fun/si-chuan-ke-jiao-1.m3u8
-四川科教,四川,四川,,32,失效,0,9999,,Guovin iptv-api result(存活校验),未知,四川科教,https://stream1.freetv.fun/si-chuan-ke-jiao-4.ctv
-四川经济,四川,四川,,33,失效,0,9999,,suxuang.m3u,未知,四川经济,http://wouu.net:9977/udp/239.93.1.101:5140
-夹江新闻综合,四川,四川,,34,存活,200,209,,vbskycn iptv4,未知,夹江新闻综合,http://tvfile.jjrm.org.cn/nmip-media/channellive/channel106282/playlist.m3u8?zsicd
-巴中综合台,四川,四川,巴中,35,失效,0,9999,,iptvorg_cn2.m3u,1080P,四川 Ⅰ 巴中综合台 (1080p) [Not 24/7],http://30814.hlsplay.aodianyun.com/lms_30814/tv_channel_246.flv
-广元公共,四川,四川,,36,存活,200,192,,suxuang ipv4,未知,广元公共,https://m3u8.channel.dzsm.com/nmip-media/channellive/channel101257/playlist.m3u8
-广元综合,四川,四川,,37,存活,200,154,,suxuang ipv4,未知,广元综合,https://m3u8.channel.dzsm.com/nmip-media/channellive/channel100999/playlist.m3u8
-广元综合,四川,四川,,38,失效,0,9999,,Guovin iptv-api result(存活校验),未知,广元综合,https://stream1.freetv.fun/yan-yuan-zong-he-1.m3u8
-广元综合,四川,四川,,39,失效,0,9999,,Guovin iptv-api result(存活校验),未知,广元综合,https://stream1.freetv.fun/yan-yuan-zong-he-2.ctv
-广安公共,四川,四川,,40,存活,200,2308,,suxuang ipv4,未知,广安公共,http://live1.gatv.com.cn:85/live/GGPD_ggpdzm.m3u8?zsicd
-广安公共,四川,四川,,41,存活,200,2397,,vbskycn iptv4,未知,广安公共,http://live1.gatv.com.cn:85/live/GGPD.m3u8
-广安公共,四川,四川,,42,存活,200,2768,,Guovin iptv-api result(存活校验),未知,广安公共,http://live1.gatv.com.cn:85/live/GGPD_ggpdzm.m3u8
-康巴卫视,四川,四川,,43,失效,0,9999,,iptvorg_cn2.m3u,720P,康巴卫视 (720p) [Not 24/7],http://scgctvshow.sctv.com/hdlive/kangba/1.m3u8
-康巴卫视,四川,四川,,44,失效,0,9999,,iptvorg_cn2.m3u,标清,康巴卫视 (576p),http://223.110.245.139/PLTV/4/224/3221227008/index.m3u8
-康巴卫视,四川,四川,,45,失效,403,9999,,Guovin iptv-api result(存活校验),未知,康巴卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227027/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EkHMvBpWz4rccMxNvSRekpQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
-德阳公共,四川,四川,,46,失效,0,9999,,suxuang ipv4,未知,德阳公共,http://scdytv.cn:1935/live/m_ggpd_livevideo/playlist.m3u8?zsicd
-德阳新闻综合,四川,四川,,47,失效,0,9999,,suxuang ipv4,未知,德阳新闻综合,http://scdytv.cn:1935/live/m_xwpd_livevideo/playlist.m3u8?zsicd
-德阳新闻综合,四川,四川,,48,失效,0,9999,,Guovin iptv-api result(存活校验),未知,德阳新闻综合,https://stream1.freetv.fun/de-yang-xin-wen-zong-he-2.m3u8
-德阳新闻综合,四川,四川,,49,失效,0,9999,,Guovin iptv-api result(存活校验),未知,德阳新闻综合,https://stream1.freetv.fun/de-yang-xin-wen-zong-he-1.m3u8
-德阳新闻综合,四川,四川,,50,失效,0,9999,,Guovin iptv-api result(存活校验),未知,德阳新闻综合,https://stream1.freetv.fun/de-yang-xin-wen-zong-he-3.m3u8
-成都公共,四川,四川,成都,51,失效,403,9999,,电视台官网,未知,电视台官网直播源,https://cdn1.cditv.cn/cdtv5/CDTV5.flv
-成都公共,四川,四川,成都,52,失效,403,9999,,电视台官网,未知,电视台官网直播源,https://cdn1.cditv.cn/cdtv5/CDTV5.flv/playlist.m3u8
-成都少儿,四川,四川,成都,53,失效,403,9999,,电视台官网,未知,电视台官网直播源,https://cdn1.cditv.cn/cdtv6/CDTV6.flv
-成都少儿,四川,四川,成都,54,失效,403,9999,,电视台官网,未知,电视台官网直播源,https://cdn1.cditv.cn/cdtv6/CDTV6.flv/playlist.m3u8
-成都影视文艺,四川,四川,成都,55,失效,403,9999,,电视台官网,未知,电视台官网直播源,https://cdn1.cditv.cn/cdtv4/CDTV4.flv
-成都影视文艺,四川,四川,成都,56,失效,403,9999,,电视台官网,未知,电视台官网直播源,https://cdn1.cditv.cn/cdtv4/CDTV4.flv/playlist.m3u8
-成都新闻综合,四川,四川,成都,57,失效,403,9999,,电视台官网,未知,电视台官网直播源,https://cdn1.cditv.cn/cdtv1/CDTV1.flv
-成都新闻综合,四川,四川,成都,58,失效,403,9999,,电视台官网,未知,电视台官网直播源,https://cdn1.cditv.cn/cdtv1/CDTV1.flv/playlist.m3u8
-成都经济资讯,四川,四川,成都,59,失效,403,9999,,电视台官网,未知,电视台官网直播源,https://cdn1.cditv.cn/cdtv2/CDTV2.flv
-成都经济资讯,四川,四川,成都,60,失效,403,9999,,电视台官网,未知,电视台官网直播源,https://cdn1.cditv.cn/cdtv2/CDTV2.flv/playlist.m3u8
-成都都市生活,四川,四川,成都,61,失效,403,9999,,电视台官网,未知,电视台官网直播源,https://cdn1.cditv.cn/cdtv3/CDTV3.flv
-成都都市生活,四川,四川,成都,62,失效,403,9999,,电视台官网,未知,电视台官网直播源,https://cdn1.cditv.cn/cdtv3/CDTV3.flv/playlist.m3u8
-攀枝花新闻综合,四川,四川,,63,失效,0,9999,,suxuang ipv4,未知,攀枝花新闻综合,http://live.pzhkai.com/xwzhtl/sd/live.m3u8
-旺苍新闻综合,四川,四川,,64,存活,200,136,,Guovin iptv-api result(存活校验),未知,旺苍新闻综合,http://live.spccmc.com:90/live/spxwzh.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
-旺苍新闻综合,四川,四川,,65,存活,200,2562,,suxuang ipv4,未知,旺苍新闻综合,http://channel.wcrmt.cn:80/nmip-media/channellive/channel105268/playlist.m3u8
-星空购物台,四川,四川,,66,失效,0,9999,,iptvorg_cn2.m3u,720P,四川 Ⅰ 星空购物台 (720p) [Not 24/7],http://scgctvshow.sctv.com/hdlive/sctv6/index.m3u8
-昭化综合,四川,四川,,67,失效,0,9999,,suxuang ipv4,未知,昭化综合,http://live.zhgbtv.cn:3100/hls/kwqtkbbi/index.m3u8
-朝天综合,四川,四川,,68,存活,200,178,,suxuang ipv4,未知,朝天综合,https://m3u8.channel.dzsm.com/nmip-media/channellive/channel104601/playlist.m3u8
-松潘新闻综合,四川,四川,,69,存活,200,136,,Guovin iptv-api result(存活校验),未知,松潘新闻综合,http://live.spccmc.com:90/live/spxwzh.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
-松潘新闻综合,四川,四川,,70,存活,200,158,,Guovin iptv-api result(存活校验),未知,松潘新闻综合,http://live.spccmc.com:90/live/spxwzh.m3u8?zsicd
-松潘新闻综合,四川,四川,,71,存活,200,163,,vbskycn iptv4,未知,松潘新闻综合,http://live.spccmc.com:90/live/spxwzh.m3u8
-汉源综合,四川,四川,,72,失效,0,9999,,suxuang ipv4,未知,汉源综合,http://live.hyxrmt.com:85/live/xwpd.m3u8
-汉源综合,四川,四川,,73,失效,0,9999,,Guovin iptv-api result(存活校验),未知,汉源综合,http://live.hyxrmt.com:85/live/xwpd.m3u8?zsicd
-汶川新闻综合,四川,四川,,74,存活,200,192,,Guovin iptv-api result(存活校验),未知,汶川新闻综合,http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8?zsicd#rtmp://tv.mcrm.org.cn:1935/channellive/tv01
-汶川新闻综合,四川,四川,,75,存活,200,2274,,Guovin iptv-api result(存活校验),未知,汶川新闻综合,http://live.iwcmt.cn:90/live/zhxw.m3u8?zsicd
-汶川新闻综合,四川,四川,,76,存活,200,2280,,vbskycn iptv4,未知,汶川新闻综合,http://live.iwcmt.cn:90/live/zhxw.m3u8
-沐川综合,四川,四川,,77,存活,200,172,,Guovin iptv-api result(存活校验),未知,沐川综合,http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8?zsicd
-沙湾融媒,四川,四川,,78,失效,403,9999,,suxuang ipv4,未知,沙湾融媒,http://tvfile.swrmt.com:80/nmip-media/channellive/channel100064/playlist.m3u8
-泸县新闻综合,四川,四川,,79,存活,200,50,,Guovin iptv-api result(存活校验),未知,泸县新闻综合,http://lxfile.lxxcb.cn/nmip-media/channellive/channel103799/playlist.m3u8
-泸县新闻综合,四川,四川,,80,存活,200,51,,Guovin iptv-api result(存活校验),未知,泸县新闻综合,http://lxfile.lxxcb.cn/nmip-media/channellive/channel103799/playlist.m3u8?zsicd
-泸县新闻综合,四川,四川,,81,存活,200,162,,vbskycn iptv4,未知,泸县新闻综合,http://lxfile.lxxcb.cn:80/nmip-media/channellive/channel103799/playlist.m3u8
-泸县新闻综合,四川,四川,,82,存活,200,475,,Guovin iptv-api result(存活校验),未知,泸县新闻综合,https://m3u8channel.ganzitv.com/nmip-media/channellive/channel1/playlist.m3u8
-泸州新闻综合,四川,四川,泸州,83,失效,0,9999,,ibert_all.m3u,720P,[HD]泸州新闻综合,https://stream1.freetv.fun/78ff2a1906b458cac0f424556a4d75cad5a332397e9f103400ef6d2264c97b95.m3u8
-甘孜综合,四川,四川,,84,存活,200,215,,suxuang ipv4,未知,甘孜综合,http://tv.drs.ganzitv.com:8100/channellive/gztv.flv
-甘孜综合,四川,四川,,85,存活,200,475,,Guovin iptv-api result(存活校验),未知,甘孜综合,https://m3u8channel.ganzitv.com/nmip-media/channellive/channel1/playlist.m3u8
-石棉综合,四川,四川,,86,失效,0,9999,,Guovin iptv-api result(存活校验),未知,石棉综合,http://live.hyxrmt.com:85/live/xwpd.m3u8
-筠连综合,四川,四川,,87,失效,0,9999,,suxuang ipv4,未知,筠连综合,http://live.dameijunlian.cn:80/live1/live1.m3u8
-绵阳科技,四川,四川,绵阳,88,失效,0,9999,,suxuang.m3u,未知,绵阳科技,http://livepull.myntv.cn:80/rtmp/mykj.m3u8
-绵阳科技,四川,四川,绵阳,89,失效,0,9999,,Guovin iptv-api result(存活校验),未知,绵阳科技,https://stream1.freetv.fun/mian-yang-ke-ji-2.m3u8
-绵阳综合,四川,四川,绵阳,90,失效,0,9999,,suxuang.m3u,未知,绵阳综合,http://119.6.59.216:60033/tsfile/live/1007_1.m3u8?key=txiptv
-荥经综合,四川,四川,,91,存活,200,189,,suxuang ipv4,未知,荥经综合,https://m3u8channel-yj.yunxya.com/nmip-media/channellive/channel101140/playlist.m3u8
-营山电视台,四川,四川,,92,存活,200,142,,Guovin iptv-api result(存活校验),未知,营山电视台,http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8?zsicd#http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8
-达州公共台,四川,四川,达州,93,失效,0,9999,,iptvorg_cn2.m3u,720P,四川 Ⅰ 达州公共台 (720p) [Not 24/7],http://m3u8.channellive.dzxw.net/cms/videos/nmip-media/channellive/channel36/playlist.m3u8
-达州综合台,四川,四川,达州,94,失效,0,9999,,iptvorg_cn2.m3u,720P,四川 Ⅰ 达州综合台 (720p) [Not 24/7],http://m3u8.channellive.dzxw.net/cms/videos/nmip-media/channellive/channel35/playlist.m3u8
-金川乡村,四川,四川,,95,存活,200,134,,suxuang ipv4,未知,金川乡村,http://live.jinchuanrmt.com:90/live/jcxc.m3u8?zsicd
-金川新闻综合,四川,四川,,96,存活,200,146,,vbskycn iptv4,未知,金川新闻综合,http://139.203.180.9:90/live/zhxw.m3u8
-金川新闻综合,四川,四川,,97,存活,200,156,,suxuang ipv4,未知,金川新闻综合,http://live.jinchuanrmt.com:90/live/zhxw.m3u8?zsicd
-雅安新闻综合,四川,四川,,98,存活,200,369,,suxuang ipv4,未知,雅安新闻综合,https://play.yunxya.com/channellive/xinwen.m3u8
-青川综合,四川,四川,,99,存活,200,70,,suxuang ipv4,未知,青川综合,http://qcfile.qcrmt.com/nmip-media/channellive/channel100933/playlist.m3u8
-青神综合,四川,四川,,100,失效,0,9999,,suxuang ipv4,未知,青神综合,http://lmt.scqstv.com:80/live1/live1.m3u8
+﻿分组,频道,线路数,存活,失效,官方,最佳线路,ID
+四川,LiangshanTV[Not24/7],1,0,1,0,,liangshantv
+四川,SichuanSatelliteTV(576p),1,0,1,0,,sichuansatellitetv
+四川,SichuanTVWomenandChildrenCha,1,0,1,0,,sichuantvwomenandchildrenchannel
+四川,万源新闻综合,1,0,1,0,,万源新闻综合
+四川,乐山新闻综合,3,0,3,0,,乐山新闻综合
+四川,乐至综合,1,1,0,0,http://175.155.106.72:89/live1/live1.m3u8?zsicd,乐至综合
+四川,井研综合,1,1,0,0,http://tvfile.jyrmt.cn/nmip-media/channellive/channel104452/playlist.m3u8,井研综合
+四川,利州综合,1,0,1,0,,利州综合
+四川,剑阁综合,1,1,0,0,https://m3u8.channel.dzsm.com/nmip-media/channellive/channel105549/playlist.m3u8,剑阁综合
+四川,叙州新闻综合,6,0,6,0,,叙州新闻综合
+四川,名山综合,1,1,0,0,https://m3u8channel-bx.yunxya.com/nmip-media/channellive/channel104666/playlist.m3u8,名山综合
+四川,四川Ⅰ四川影视台(720p)[Not24/7],1,0,1,0,,四川i四川影视台
+四川,四川Ⅰ四川新闻台(720p)[Not24/7],1,0,1,0,,四川i四川新闻台
+四川,四川Ⅰ巴中综合台(1080p)[Not24/7],1,0,1,0,,四川i巴中综合台
+四川,四川Ⅰ达州公共台(720p)[Not24/7],1,0,1,0,,四川i达州公共台
+四川,四川Ⅰ达州综合台(720p)[Not24/7],1,0,1,0,,四川i达州综合台
+四川,四川乡村,1,0,1,0,,四川乡村
+四川,四川妇女儿童,1,0,1,0,,四川妇女儿童
+四川,四川影视文艺,1,0,1,0,,四川影视文艺
+四川,四川文化旅游,1,0,1,0,,四川文化旅游
+四川,四川新闻,1,0,1,0,,四川新闻
+四川,四川科教,4,1,3,0,http://182.150.115.21:8030/pcgacg/pcgacg_0.m3u8,四川科教
+四川,四川经济,1,0,1,0,,四川经济
+四川,夹江新闻综合,1,1,0,0,http://tvfile.jjrm.org.cn/nmip-media/channellive/channel106282/playlist.m3u8?zsicd,夹江新闻综合
+四川,广元公共,1,1,0,0,https://m3u8.channel.dzsm.com/nmip-media/channellive/channel101257/playlist.m3u8,广元公共
+四川,广元综合,3,1,2,0,https://m3u8.channel.dzsm.com/nmip-media/channellive/channel100999/playlist.m3u8,广元综合
+四川,广安公共,2,2,0,0,http://live1.gatv.com.cn:85/live/GGPD.m3u8,广安公共
+四川,德阳公共,1,0,1,0,,德阳公共
+四川,德阳新闻综合,4,0,4,0,,德阳新闻综合
+四川,成都公共,2,0,2,0,,成都公共
+四川,成都少儿,2,0,2,0,,成都少儿
+四川,成都影视文艺,2,0,2,0,,成都影视文艺
+四川,成都新闻综合,2,0,2,0,,成都新闻综合
+四川,成都经济资讯,2,0,2,0,,成都经济资讯
+四川,成都都市生活,2,0,2,0,,成都都市生活
+四川,攀枝花新闻综合,1,0,1,0,,攀枝花新闻综合
+四川,旺苍新闻综合,1,1,0,0,http://channel.wcrmt.cn:80/nmip-media/channellive/channel105268/playlist.m3u8,旺苍新闻综合
+四川,昭化综合,1,0,1,0,,昭化综合
+四川,朝天综合,1,1,0,0,https://m3u8.channel.dzsm.com/nmip-media/channellive/channel104601/playlist.m3u8,朝天综合
+四川,松潘新闻综合,1,1,0,0,http://live.spccmc.com:90/live/spxwzh.m3u8,松潘新闻综合
+四川,汉源综合,1,0,1,0,,汉源综合
+四川,汶川新闻综合,2,2,0,0,http://live.iwcmt.cn:90/live/zhxw.m3u8?zsicd,汶川新闻综合
+四川,沙湾融媒,1,0,1,0,,沙湾融媒
+四川,泸县新闻综合,3,3,0,0,http://lxfile.lxxcb.cn:80/nmip-media/channellive/channel103799/playlist.m3u8,泸县新闻综合
+四川,泸州新闻综合,1,0,1,0,,泸州新闻综合
+四川,甘孜综合,1,0,1,0,,甘孜综合
+四川,筠连综合,1,0,1,0,,筠连综合
+四川,绵阳科技,2,0,2,0,,绵阳科技
+四川,绵阳综合,1,0,1,0,,绵阳综合
+四川,荥经综合,1,1,0,0,https://m3u8channel-yj.yunxya.com/nmip-media/channellive/channel101140/playlist.m3u8,荥经综合
+四川,金川乡村,1,1,0,0,http://live.jinchuanrmt.com:90/live/jcxc.m3u8?zsicd,金川乡村
+四川,金川新闻综合,2,2,0,0,http://139.203.180.9:90/live/zhxw.m3u8,金川新闻综合
+四川,雅安新闻综合,1,1,0,0,https://play.yunxya.com/channellive/xinwen.m3u8,雅安新闻综合
+四川,青川综合,1,1,0,0,http://qcfile.qcrmt.com/nmip-media/channellive/channel100933/playlist.m3u8,青川综合
+四川,青神综合,1,0,1,0,,青神综合

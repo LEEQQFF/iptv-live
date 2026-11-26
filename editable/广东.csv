@@ -1,158 +1,43 @@
-﻿频道,分组,省份,城市,序号,检活,HTTP,延迟ms,官方,来源,画质,标识,URL
-Chaozhou Public Channel,广东,广东,,1,存活,200,169,,iptv-org cn,未知,Chaozhou Public Channel,http://113.64.146.48:1688/hls/4/index.m3u8
-东莞Dongguan Comprehensive News Channel,广东,广东,,2,存活,200,175,,iptv-org cn,未知,Dongguan Comprehensive News Channel,http://stream.sun0769.com/dgrtv1/mp4tv1_1500.flv
-东莞Dongguan Comprehensive News Channel,广东,广东,,3,存活,200,580,,iptv-org cn,未知,Dongguan Comprehensive News Channel,https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8
-东莞新闻综合,广东,广东,东莞,4,存活,200,175,,iptvorg_cn2.m3u,标清,Dongguan Comprehensive News Channel,http://stream.sun0769.com/dgrtv1/mp4tv1_1500.flv
-东莞新闻综合,广东,广东,东莞,5,存活,200,580,,iptvorg_cn.m3u,标清,Dongguan Comprehensive News Channel,https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8
-东莞新闻综合,广东,广东,东莞,6,失效,0,9999,,ibert_all.m3u,720P,[HD]东莞新闻综合,https://stream1.freetv.fun/0e4ec0d4d0c1ee3ba02ddb214dc5cc5a5f754b50fbf81ee700f1af9d67eeb9d0.m3u8
-东莞新闻综合,广东,广东,东莞,7,失效,0,9999,,ibert_all.m3u,720P,[HD]东莞新闻综合,https://stream1.freetv.fun/f1d20f3c5cef5eafd9c816bec781027fb28accf44dd0f3421ab35728914aecfa.m3u8
-东莞新闻综合,广东,广东,东莞,8,失效,0,9999,,ibert_all.m3u,未知,[VGA]东莞新闻综合,https://stream1.freetv.fun/9f43896bbea68d05a4ca43c45893f843057deab8532475242b0a525f089a33f6.m3u8
-东莞生活资讯,广东,广东,东莞,9,失效,404,9999,,suxuang.m3u,未知,东莞生活资讯,https://stream.sun0769.com/dgrtv1/mp4tv2_800/index.m3u8
-东莞综合,广东,广东,东莞,10,失效,0,9999,,ibert_all.m3u,720P,[HD]东莞综合,https://stream1.freetv.fun/d8e73ca102368276e14bb06176fea0d69be787f785677be0e005362b3467d3c4.m3u8
-佛山电视台,广东,广东,佛山,11,失效,0,9999,,iptvorg_cn2.m3u,标清,Foshan News TV,http://dslive.grtn.cn/fszh/sd/live.m3u8
-佛山Foshan News TV,广东,广东,,12,失效,0,9999,,iptv-org cn,未知,Foshan News TV,http://dslive.grtn.cn/fszh/sd/live.m3u8
-佛山综合,广东,广东,,13,失效,0,9999,,Guovin iptv-api result(存活校验),未知,佛山综合,https://stream1.freetv.fun/fo-shan-zong-he-7.ctv
-佛山综合,广东,广东,,14,失效,0,9999,,Guovin iptv-api result(存活校验),未知,佛山综合,https://stream1.freetv.fun/fo-shan-zong-he-9.ctv
-佛山综合,广东,广东,,15,失效,0,9999,,Guovin iptv-api result(存活校验),未知,佛山综合,https://stream1.freetv.fun/fo-shan-zong-he-17.ctv
-佛山综合,广东,广东,,16,失效,0,9999,,Guovin iptv-api result(存活校验),未知,佛山综合,https://stream1.freetv.fun/fo-shan-zong-he-22.ctv
-佛山综合,广东,广东,,17,失效,0,9999,,Guovin iptv-api result(存活校验),未知,佛山综合,https://stream1.freetv.fun/fo-shan-zong-he-15.ctv
-南方卫视,广东,广东,,18,失效,0,9999,,ibert_all.m3u,未知,[BD]南方卫视,https://stream1.freetv.fun/069c724c7c324d17825fcf8ee532b261de3aef322120d44ac80cdf96a891c8a9.m3u8
-嘉佳卡通卫视,广东,广东,,19,失效,0,9999,,iptvorg_cn2.m3u,标清,嘉佳卡通 (576p),http://223.110.245.139/PLTV/4/224/3221227009/index.m3u8
-嘉佳卡通卫视,广东,广东,,20,失效,0,9999,,iptvorg_cn2.m3u,未知,嘉佳卡通 (广东) (540p) [Not 24/7],http://112.25.48.68/live/program/live/jjkt/1300000/mnf.m3u8
-嘉佳卡通卫视,广东,广东,,21,失效,0,9999,,ibert_all.m3u,未知,[VGA]嘉佳卡通,https://stream1.freetv.fun/bee9044f047d4458c631c35b7af51298a624b14d6f9b74a4ea6985c8e4b36106.ctv
-大湾区卫视,广东,广东,,22,存活,200,5002,,Guovin iptv-api result(存活校验),未知,大湾区卫视,http://38.75.136.137:98/gslb/dsdqpub/nfws.m3u8?auth=testpub
-大湾区卫视,广东,广东,,23,存活,200,6821,,Guovin iptv-api result(存活校验),未知,大湾区卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=nfws
-大湾区卫视,广东,广东,,24,失效,403,9999,,suxuang.m3u,标清,大湾区卫视,http://ali.hlspull.yximgs.com/live/b027460e580a463cb7e44eebexcvhnddggdfsdg.flv
-大湾区卫视,广东,广东,,25,失效,404,9999,,kimentanm.m3u,未知,大湾区卫视,http://101.35.240.114:88/live.php?id=大湾区卫视
-大湾区卫视,广东,广东,,26,失效,0,9999,,suxuang.m3u,未知,大湾区卫视,http://148.135.93.213/live.php?id=大湾区卫视
-大湾区卫视,广东,广东,,27,失效,0,9999,,suxuang.m3u,未知,大湾区卫视,http://t.061899.xyz/tl/tl.php?id=dwqws
-大湾区卫视,广东,广东,,28,失效,0,9999,,ibert_all.m3u,未知,[VGA]大湾区卫视,https://stream1.freetv.fun/5541653e7ec9b88139ad499c274fd765cae9c0f1a2277deaa6a713cffa1cc7a3.ctv
-大湾区卫视,广东,广东,,29,失效,0,9999,,suxuang ipv4,未知,广东大湾区,http://222.128.55.152:9080/live/dwq.m3u8
-大湾区卫视,广东,广东,,30,失效,0,9999,,Guovin iptv-api result(存活校验),未知,大湾区卫视,http://198.204.228.26/live/nfws.m3u8
-大湾区卫视,广东,广东,,31,失效,0,9999,,Guovin iptv-api result(存活校验),未知,大湾区卫视,http://107.150.60.122/live/nfws.m3u8
-广东体育,广东,广东,,32,存活,200,1086,,Guovin iptv-api result(存活校验),未知,广东体育,https://epg.pw/stream/7b470f9fc5c305db0c8622117b7b25ca00eb35ba3e93e865cf0ff9df5c736681.m3u8
-广东体育,广东,广东,,33,失效,200,9999,,suxuang.m3u,未知,广东体育,http://cdn2.163189.xyz/live/gdty/stream.m3u8
-广东体育,广东,广东,,34,失效,0,9999,,suxuang.m3u,未知,广东体育,http://r.jdshipin.com/LiYdg
-广东体育,广东,广东,,35,失效,0,9999,,ibert_all.m3u,未知,[BD]广东体育,https://stream1.freetv.fun/1b51eaf416ee4be8045ce160c21c2b956788a652e03c78ea0db462d925c09459.m3u8
-广东体育,广东,广东,,36,失效,0,9999,,ibert_all.m3u,未知,[BD]广东体育,https://stream1.freetv.fun/26134455170e804d034a122dbed2dc6dcb18a02380b55dd574ed6d9995a353cc.m3u8
-广东体育,广东,广东,,37,失效,0,9999,,Guovin iptv-api result(存活校验),未知,广东体育,http://38.75.136.137:98/gslb/dsdqpub/gdty.m3u8?auth=testpub
-广东体育,广东,广东,,38,失效,0,9999,,Guovin iptv-api result(存活校验),未知,广东体育,http://php.jdshipin.com/PLTV/iptv.php?id=gdty
-广东体育,广东,广东,,39,失效,0,9999,,Guovin iptv-api result(存活校验),未知,广东体育,http://php.jdshipin.com/TVOD/iptv.php?id=gdty
-广东公共,广东,广东,,40,失效,0,9999,,suxuang.m3u,未知,广东公共,http://218.13.14.6:60050/tsfile/live/1020_1.m3u8
-广东南国都市,广东,广东,,41,存活,200,319,,suxuang.m3u,未知,南国都市,http://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=140110ae3d6c936a77f94c4f4d85b0d3&txTime=18d57929bd4
-广东南国都市,广东,广东,,42,存活,200,383,,suxuang.m3u,4K,南国都市4K,https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=550af55c0ea34ce492748481415b6dfa&txTime=1903e7b17de
-广东南国都市,广东,广东,,43,存活,200,1036,,suxuang.m3u,未知,南国都市,http://r.jdshipin.com/nWaZO
-广东南国都市,广东,广东,,44,失效,0,9999,,ibert_all.m3u,未知,[BD]广州南国都市,https://stream1.freetv.fun/6270de04948770700f5901f847ec357c046c90cfa35ab11f3f41d083c59f6527.m3u8
-广东大湾区,广东,广东,,45,失效,0,9999,,suxuang.m3u,未知,广东大湾区,http://222.128.55.152:9080/live/dwq.m3u8
-广东少儿,广东,广东,,46,失效,0,9999,,suxuang.m3u,未知,广东少儿,http://119.32.12.17:2901/udp/224.1.100.9:11111
-广东少儿,广东,广东,,47,失效,0,9999,,ibert_all.m3u,未知,[BD]广东少儿高清,https://stream1.freetv.fun/fc82149aecf5a2a59096e05be6561cf2c24b99bde2514a862d2ab72c66e00b62.ctv
-广东影视,广东,广东,,48,失效,0,9999,,suxuang.m3u,未知,广东影视,http://119.32.12.17:2901/udp/224.1.100.11:11111
-广东影视,广东,广东,,49,失效,0,9999,,ibert_all.m3u,未知,[BD]广东影视,https://stream1.freetv.fun/461dc5e5fc56107dbbd0d1a43dced2b7fd0740586d456f881483e5f81383ec1c.m3u8
-广东新闻,广东,广东,,50,失效,0,9999,,ibert_all.m3u,720P,[HD]广东新闻,https://stream1.freetv.fun/566b660ec1dca1eeb9240a2670ed7faa6f9989dbc20845436cc253de73b91704.m3u8
-广东新闻,广东,广东,,51,失效,0,9999,,suxuang.m3u,未知,广东新闻,http://119.32.12.17:2901/udp/224.1.100.5:11111
-广东新闻,广东,广东,,52,失效,0,9999,,Guovin iptv-api result(存活校验),未知,广东新闻,http://38.75.136.137:98/gslb/dsdqpub/gdxw.m3u8?auth=testpub
-广东新闻,广东,广东,,53,失效,403,9999,,Guovin iptv-api result(存活校验),未知,广东新闻,https://hls-gateway.vpstv.net/streams/708873.m3u8
-广东民生,广东,广东,,54,存活,200,933,,Guovin iptv-api result(存活校验),未知,广东民生,http://38.75.136.137:98/gslb/dsdqpub/gdgg.m3u8?auth=testpub
-广东民生,广东,广东,,55,存活,200,1087,,vbskycn.m3u,未知,广东民生,http://183.11.239.36:808/hls/18/index.m3u8
-广东民生,广东,广东,,56,失效,0,9999,,ibert_all.m3u,720P,[HD]广东民生,https://stream1.freetv.fun/d705bf2698d0b56ef2db9514c5bdf14406bd0c7fbdfd887eb3b649750bb83361.m3u8
-广东民生,广东,广东,,57,失效,0,9999,,suxuang.m3u,未知,广东民生,http://119.32.12.17:2901/udp/224.1.100.4:11111
-广东民生,广东,广东,,58,失效,200,9999,,Guovin iptv-api result(存活校验),未知,广东民生,http://38.75.136.137:98/gslb/dsdqpub/gdgga.m3u8?auth=testpub
-广东珠江,广东,广东,,59,存活,200,1244,,suxuang.m3u,未知,珠江卫视,http://iptv.4666888.xyz/iptv2A.php?id=19
-广东珠江,广东,广东,,60,存活,200,3196,,suxuang.m3u,未知,广东珠江,http://r.jdshipin.com/sE5vO
-广东珠江,广东,广东,,61,存活,200,4179,,Guovin iptv-api result(存活校验),未知,广东珠江,http://38.75.136.137:98/gslb/dsdqpub/gdzj.m3u8?auth=testpub
-广东珠江,广东,广东,,62,失效,0,9999,,ibert_all.m3u,720P,[HD]广东珠江,https://stream1.freetv.fun/697b3b96d04443fcd4ba17b16cf9f2ac36746a44175e2f7339f37f0398b6edfb.m3u8
-广东珠江,广东,广东,,63,失效,0,9999,,ibert_all.m3u,720P,[HD]广东珠江,https://stream1.freetv.fun/e7045f18df8fa6b98756f4bc5cbd94d0099dd73e9ff3cf359d15d326ee1a733b.m3u8
-广东珠江,广东,广东,,64,失效,200,9999,,suxuang.m3u,未知,广东珠江,http://cdn2.163189.xyz/live/gdzj/stream.m3u8
-广东珠江,广东,广东,,65,失效,0,9999,,suxuang.m3u,未知,珠江卫视,http://qjrhc.jydjd.top:2911/udp/224.1.100.24:11111
-广东珠江,广东,广东,,66,失效,200,9999,,Guovin iptv-api result(存活校验),未知,广东珠江,http://38.75.136.137:98/gslb/dsdqpub/gdzja.m3u8?auth=testpub
-广东珠江,广东,广东,,67,失效,0,9999,,Guovin iptv-api result(存活校验),未知,广东珠江,http://gxyd.484947.xyz/PLTV/77777777/224/3221225717/index.m3u8?servicetype=2
-广东经济科教,广东,广东,,68,失效,0,9999,,suxuang.m3u,未知,广东经济科教,http://119.32.12.17:2901/udp/224.1.100.6:11111
-广州Guangzhou TV,广东,广东,,69,存活,200,230,,iptv-org cn,未知,Guangzhou TV,https://tencentplaybusiness.gztv.com/live/zonghes.m3u8
-广州南国都市,广东,广东,,70,存活,200,1036,,suxuang ipv4,未知,南国都市,http://r.jdshipin.com/nWaZO
-广州影视,广东,广东,广州,71,失效,0,9999,,suxuang.m3u,未知,广州影视,http://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=1bd3a1082ab5b89f48c1bff9a3760da4&txTime=18d57929bd4
-广州影视,广东,广东,广州,72,失效,0,9999,,Guovin iptv-api result(存活校验),未知,广州影视,https://stream1.freetv.fun/yan-zhou-ying-shi-6.ctv
-广州影视,广东,广东,广州,73,失效,0,9999,,Guovin iptv-api result(存活校验),未知,广州影视,https://stream1.freetv.fun/yan-zhou-ying-shi-15.ctv
-广州影视,广东,广东,广州,74,失效,0,9999,,Guovin iptv-api result(存活校验),未知,广州影视,https://stream1.freetv.fun/yan-zhou-ying-shi-7.ctv
-广州影视,广东,广东,广州,75,失效,0,9999,,Guovin iptv-api result(存活校验),未知,广州影视,https://stream1.freetv.fun/yan-zhou-ying-shi-28.ctv
-广州影视,广东,广东,广州,76,失效,0,9999,,Guovin iptv-api result(存活校验),未知,广州影视,https://stream1.freetv.fun/yan-zhou-ying-shi-25.m3u8
-广州新闻,广东,广东,广州,77,存活,200,222,,suxuang.m3u,未知,广州新闻,http://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=d2c2db0b598c02ec1b5623728434d367&txTime=18d57929bd3
-广州新闻,广东,广东,广州,78,失效,0,9999,,ibert_all.m3u,720P,[HD]广州新闻,https://stream1.freetv.fun/ed61829ac0bb1a28d5b4b48fc44b922c449965f788f0366b085dbe80185d915b.m3u8
-广州法治,广东,广东,广州,79,失效,0,9999,,suxuang.m3u,未知,广州法治,http://tencentplay.gztv.com/live/fazhi.m3u8?txSecret=3e84cd8eba844b5dc2150612295c7a52&txTime=18d578f4493
-广州竞赛,广东,广东,广州,80,存活,200,129,,suxuang.m3u,未知,广州竞赛,http://8.138.7.223/tv/gzjs.m3u8
-广州竞赛,广东,广东,广州,81,失效,0,9999,,Guovin iptv-api result(存活校验),未知,广州竞赛,https://stream1.freetv.fun/yan-zhou-jing-sai-34.ctv
-广州竞赛,广东,广东,广州,82,失效,0,9999,,Guovin iptv-api result(存活校验),未知,广州竞赛,https://stream1.freetv.fun/yan-zhou-jing-sai-38.ctv
-广州竞赛,广东,广东,广州,83,失效,0,9999,,Guovin iptv-api result(存活校验),未知,广州竞赛,https://stream1.freetv.fun/yan-zhou-jing-sai-32.ctv
-广州竞赛,广东,广东,广州,84,失效,0,9999,,Guovin iptv-api result(存活校验),未知,广州竞赛,https://stream1.freetv.fun/yan-zhou-jing-sai-2.m3u8
-广州竞赛,广东,广东,广州,85,失效,0,9999,,Guovin iptv-api result(存活校验),未知,广州竞赛,https://stream1.freetv.fun/yan-zhou-jing-sai-33.ctv
-广州综合频道,广东,广东,广州,86,存活,200,230,,iptvorg_cn.m3u,标清,Guangzhou TV,https://tencentplaybusiness.gztv.com/live/zonghes.m3u8
-广州综合频道,广东,广东,广州,87,存活,200,256,,suxuang.m3u,未知,广州综合,http://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=c8dbe86d6f86eb1a21999ab479fd5667&txTime=18d3c4690e8
-广州综合频道,广东,广东,广州,88,存活,200,304,,Guovin iptv-api result(存活校验),未知,广州综合,https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=f0147ae6453a80f5989f382368b72aad&txTime=18d00acf487
-广州综合频道,广东,广东,广州,89,存活,200,357,,vbskycn.m3u,未知,广州综合,https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=439b0fd2cf766b363c93a59cbcbe1370&txTime=18d00acf488
-广州综合频道,广东,广东,广州,90,存活,200,1033,,suxuang.m3u,未知,广州综合,http://r.jdshipin.com/iR6Gq
-广州综合频道,广东,广东,广州,91,存活,200,1588,,suxuang.m3u,未知,广州综合,http://r.jdshipin.com/snhya
-广州综合频道,广东,广东,广州,92,失效,0,9999,,ibert_all.m3u,720P,[HD]广州综合,https://stream1.freetv.fun/91ae862b8b3ce7a58fb837900e84984ae323afa312699797c3eb21ac4ff060df.m3u8
-广州综合频道,广东,广东,广州,93,失效,0,9999,,ibert_all.m3u,720P,[HD]广州综合,https://stream1.freetv.fun/a4bc1a7a542265801d3d8b625c1713f91c9b5610a5ecdcebd9293ceb864cf9b6.m3u8
-汕头生活,广东,广东,汕头,94,失效,0,9999,,ibert_all.m3u,未知,[BD]汕头生活高清,https://stream1.freetv.fun/a4174d0d931366bf101a3e105129c2e30e102d88964eae4be5f6e5caf48133dd.ctv
-汕头经济,广东,广东,,95,失效,0,9999,,Guovin iptv-api result(存活校验),未知,汕头经济,https://stream1.freetv.fun/shan-tou-jing-ji-1.ctv
-汕头经济,广东,广东,,96,失效,0,9999,,Guovin iptv-api result(存活校验),未知,汕头经济,https://stream1.freetv.fun/shan-tou-jing-ji-6.ctv
-汕头经济,广东,广东,,97,失效,0,9999,,Guovin iptv-api result(存活校验),未知,汕头经济,https://stream1.freetv.fun/shan-tou-jing-ji-3.ctv
-汕头经济,广东,广东,,98,失效,0,9999,,Guovin iptv-api result(存活校验),未知,汕头经济,https://stream1.freetv.fun/shan-tou-jing-ji-4.ctv
-汕头经济,广东,广东,,99,失效,0,9999,,Guovin iptv-api result(存活校验),未知,汕头经济,https://stream1.freetv.fun/shan-tou-jing-ji-2.ctv
-汕头综合,广东,广东,汕头,100,失效,0,9999,,ibert_all.m3u,未知,[BD]汕头综合高清,https://stream1.freetv.fun/f57cd39762e54769f22117b6e44ecfef039f36b4bfa28fecb0c3f4461abfca7e.ctv
-汕头综合,广东,广东,汕头,101,失效,0,9999,,Guovin iptv-api result(存活校验),未知,汕头综合,https://stream1.freetv.fun/shan-tou-zong-he-5.ctv
-汕头综合,广东,广东,汕头,102,失效,0,9999,,Guovin iptv-api result(存活校验),未知,汕头综合,https://stream1.freetv.fun/shan-tou-zong-he-9.ctv
-汕头综合,广东,广东,汕头,103,失效,0,9999,,Guovin iptv-api result(存活校验),未知,汕头综合,https://stream1.freetv.fun/shan-tou-zong-he-3.ctv
-汕头综合,广东,广东,汕头,104,失效,0,9999,,Guovin iptv-api result(存活校验),未知,汕头综合,https://stream1.freetv.fun/shan-tou-zong-he-4.ctv
-汕头综合,广东,广东,汕头,105,失效,0,9999,,Guovin iptv-api result(存活校验),未知,汕头综合,https://stream1.freetv.fun/shan-tou-zong-he-6.ctv
-江门综合,广东,广东,,106,失效,0,9999,,Guovin iptv-api result(存活校验),未知,江门综合,https://stream1.freetv.fun/jiang-men-zong-he-2.ctv
-江门综合,广东,广东,,107,失效,0,9999,,Guovin iptv-api result(存活校验),未知,江门综合,https://stream1.freetv.fun/jiang-men-zong-he-7.ctv
-江门综合,广东,广东,,108,失效,0,9999,,Guovin iptv-api result(存活校验),未知,江门综合,https://stream1.freetv.fun/jiang-men-zong-he-1.ctv
-江门综合,广东,广东,,109,失效,0,9999,,Guovin iptv-api result(存活校验),未知,江门综合,https://stream1.freetv.fun/jiang-men-zong-he-6.ctv
-江门综合,广东,广东,,110,失效,0,9999,,Guovin iptv-api result(存活校验),未知,江门综合,https://stream1.freetv.fun/jiang-men-zong-he-4.ctv
-河源公共,广东,广东,,111,失效,404,9999,,suxuang ipv4,未知,河源公共,http://tmpstream.hyrtv.cn/hygg/sd/live.m3u8
-河源综合,广东,广东,,112,失效,404,9999,,suxuang ipv4,未知,河源综合,http://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8
-河源综合,广东,广东,,113,失效,0,9999,,iptv-org cn,未知,河源综合 (540p),https://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8
-深圳卫视,广东,广东,,114,存活,200,26,,best-fan 央视卫视地方(每日存活校验),1080P,深圳卫视,http://123.160.235.204:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
-深圳卫视,广东,广东,,115,存活,200,47,,best-fan 央视卫视地方(每日存活校验),未知,深圳卫视,http://124.228.160.3:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
-深圳卫视,广东,广东,,116,存活,200,51,,best-fan 央视卫视地方(每日存活校验),1080P,深圳卫视,http://119.125.131.84:9901/tsfile/live/1048_1.m3u8?key=txiptv&playlive=1&down=1
-深圳卫视,广东,广东,,117,存活,200,53,,bf_all_status.m3u8,标清,深圳卫视,http://36.136.38.87:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
-深圳卫视,广东,广东,,118,存活,200,71,,Guovin iptv-api result(存活校验),未知,深圳卫视,http://120.76.248.139/live/bfgd/4200000100.m3u8
-深圳卫视,广东,广东,,119,存活,200,79,,bf_all_status.m3u8,1080P,深圳卫视,http://112.123.243.37:50085/tsfile/live/1000_1.m3u8?key=txiptv&playlive=0&authid=0
-深圳卫视,广东,广东,,120,存活,200,105,,bf_all_status.m3u8,1080P,深圳卫视,http://120.198.95.220:9901/tsfile/live/1048_1.m3u8?key=txiptv&playlive=1&down=1
-深圳卫视,广东,广东,,121,存活,200,182,,bf_all_status.m3u8,1080P,深圳卫视,http://120.238.94.82:9901/tsfile/live/1065_1.m3u8
-深圳卫视,广东,广东,,122,存活,200,1451,,best-fan 央视卫视地方(每日存活校验),1080P,深圳卫视,http://38.75.136.137:98/gslb/dsdqpub/szwshd.m3u8?auth=testpub
-深圳卫视,广东,广东,,123,失效,404,9999,,kimentanm.m3u,4K,深圳卫视4K,http://101.35.240.114:88/live.php?id=深圳卫视4K
-深圳卫视,广东,广东,,124,失效,404,9999,,suxuang.m3u,4K,深圳卫视4K,http://nn.7x9d.cn/深圳最新.php?id=szws4k
-深圳卫视,广东,广东,,125,失效,403,9999,,iptvorg_cn.m3u,4K,Shenzhen Satellite TV (2160p),https://livepull-tcms.sztv.com.cn/live/sz4Kpgm.m3u8
-深圳卫视,广东,广东,,126,失效,0,9999,,bf_all_status.m3u8,1080P,深圳卫视,http://183.10.180.46:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
-深圳卫视,广东,广东,,127,失效,0,9999,,iptvorg_cn2.m3u,1080P,深圳卫视 (1080p) [Not 24/7],http://183.207.248.71/cntv/live1/HD-2500k-1080P-shenzhenstv/HD-2500k-1080P-shenzhenstv
-深圳卫视,广东,广东,,128,失效,0,9999,,iptvorg_cn2.m3u,1080P,深圳卫视 (1080p),http://39.134.115.163:8080/PLTV/88888910/224/3221225700/index.m3u8
-深圳卫视,广东,广东,,129,失效,404,9999,,iptvorg_cn2.m3u,1080P,深圳卫视 (1080p),http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226205/index.m3u8
-深圳卫视,广东,广东,,130,失效,0,9999,,iptvorg_cn2.m3u,1080P,深圳卫视 (1080p),http://39.134.39.39/PLTV/88888888/224/3221226199/index.m3u8
-深圳卫视,广东,广东,,131,失效,0,9999,,bf_all_status.m3u8,720P,深圳卫视,http://107.150.60.122/live/szwshd.m3u8
-深圳卫视,广东,广东,,132,失效,0,9999,,bf_all_status.m3u8,标清,深圳卫视,http://125.125.236.31:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
-深圳卫视,广东,广东,,133,失效,0,9999,,suxuang ipv4,未知,深圳卫视,http://iptv.huuc.edu.cn/hls/szhd.m3u8
-深圳卫视,广东,广东,,134,失效,404,9999,,suxuang ipv4,未知,深圳卫视,http://101.35.240.114:88/live.php?id=深圳卫视
-深圳卫视,广东,广东,,135,失效,500,9999,,suxuang ipv4,未知,深圳卫视,http://112.27.235.94:8000/hls/33/index.m3u8
-深圳卫视,广东,广东,,136,失效,0,9999,,suxuang ipv4,未知,深圳卫视,https://zby.130519.xyz/PLTV/11/224/3221225728/index.m3u8
-深圳卫视,广东,广东,,137,失效,0,9999,,iptv-org cn,1080P,深圳卫视 (1080p),http://39.134.115.163:8080/PLTV/88888910/224/3221225741/index.m3u8
-深圳卫视,广东,广东,,138,失效,0,9999,,iptv-org cn,1080P,深圳卫视 (1080p),http://39.135.138.59:18890/PLTV/88888910/224/3221225741/index.m3u8
-深圳卫视,广东,广东,,139,失效,0,9999,,iptv-org cn,1080P,深圳卫视 (1080p),http://112.25.48.68/live/program/live/szwshd/4000000/mnf.m3u8
-深圳卫视,广东,广东,,140,失效,0,9999,,iptv-org cn,1080P,深圳卫视 (1080p),http://117.169.120.140:8080/live/hdshenzhenstv/.m3u8
-深圳卫视,广东,广东,,141,失效,0,9999,,iptv-org cn,1080P,深圳卫视 (1080p),http://183.207.249.37/PLTV/4/224/3221227307/index.m3u8
-深圳卫视,广东,广东,,142,失效,0,9999,,iptv-org cn,1080P,深圳卫视 (1080p),http://223.110.243.171/PLTV/3/224/3221227217/index.m3u8
-深圳卫视,广东,广东,,143,失效,0,9999,,iptv-org cn,1080P,深圳卫视 (1080p),http://223.110.245.139/PLTV/4/224/3221227307/index.m3u8
-深圳卫视,广东,广东,,144,失效,404,9999,,Guovin iptv-api result(存活校验),未知,深圳卫视,http://38.64.72.148:80/hls/modn/list/4007/playlist.m3u8
-深圳卫视,广东,广东,,145,失效,0,9999,,Guovin iptv-api result(存活校验),未知,深圳卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=szwshd
-深圳卫视,广东,广东,,146,失效,0,9999,,Guovin iptv-api result(存活校验),未知,深圳卫视,http://php.jdshipin.com/TVOD/hnyd.php?id=200000001898/460000089800010068
-深圳卫视,广东,广东,,147,失效,0,9999,,Guovin iptv-api result(存活校验),未知,深圳卫视,https://smart.pendy.dpdns.org/Smart.php?id=shenzhen
-深圳卫视,广东,广东,,148,失效,0,9999,,Guovin iptv-api result(存活校验),未知,深圳卫视,http://z.b.bkpcp.top/m.php?id=szws
-潮州公共,广东,广东,潮州,149,存活,200,169,,iptvorg_cn.m3u,标清,Chaozhou Public Channel,http://113.64.146.48:1688/hls/4/index.m3u8
-电白综合 (576p) [Not 24/7],广东,广东,,150,失效,0,9999,,iptv-org cn,未知,电白综合 (576p) [Not 24/7],http://gddb.chinashadt.com:1935/live/video1.stream/playlist.m3u8
-电白综合 (576p) [Not 24/7],广东,广东,,151,失效,0,9999,,iptv-org cn,未知,电白综合 (360p) [Not 24/7],http://gddb.chinashadt.com:1935/live/video1.stream_360p/playlist.m3u8
-电白视窗 (576p) [Not 24/7],广东,广东,,152,失效,0,9999,,iptv-org cn,未知,电白视窗 (576p) [Not 24/7],http://gddb.chinashadt.com:1935/live/video2.stream/playlist.m3u8
-电白视窗 (576p) [Not 24/7],广东,广东,,153,失效,0,9999,,iptv-org cn,未知,电白视窗 (360p) [Not 24/7],http://gddb.chinashadt.com:1935/live/video2.stream_360p/playlist.m3u8
-番禺综合,广东,广东,,154,存活,200,168,,suxuang ipv4,未知,番禺综合,http://video.epaper.pybtv.cn:8080/live/rtmp_live_demo.flv
-韶关公共台,广东,广东,韶关,155,失效,0,9999,,iptvorg_cn2.m3u,720P,广东 Ⅰ 韶关公共台 (720p) [Not 24/7],https://www.sgmsw.cn/videos/tv/201805/1308/9P424TC5M000AFO13CXK6GN6BOA889D2/hls/live.m3u8
-韶关综合台,广东,广东,韶关,156,失效,0,9999,,iptvorg_cn2.m3u,720P,广东 Ⅰ 韶关综合台 (720p) [Not 24/7],https://www.sgmsw.cn/videos/tv/201805/1308/SB05RIYZOU8JR418AUQOF62CAJQ08D0E/hls/live.m3u8
-龙门飞甲,广东,广东,,157,存活,200,61,,suxuang ipv4,未知,龙门飞甲,http://jsmov2.a.yximgs.com/bs3/video-hls/5203346449046555193_hlsb.m3u8
+﻿分组,频道,线路数,存活,失效,官方,最佳线路,ID
+广东,ChaozhouPublicChannel,1,1,0,0,http://113.64.146.48:1688/hls/4/index.m3u8,chaozhoupublicchannel
+广东,DongguanComprehensiveNewsCha,1,0,1,0,,dongguancomprehensivenewschannel
+广东,FoshanNewsTV,1,0,1,0,,foshannewstv
+广东,GuangdongSatelliteTV,1,0,1,0,,guangdongsatellitetv
+广东,GuangzhouTV,1,1,0,0,https://tencentplaybusiness.gztv.com/live/zonghes.m3u8,guangzhoutv
+广东,ShenzhenSatelliteTV(2160p),1,0,1,0,,shenzhensatellitetv
+广东,东莞新闻综合,4,0,4,0,,东莞新闻综合
+广东,东莞生活资讯,1,0,1,0,,东莞生活资讯
+广东,东莞综合,1,0,1,0,,东莞综合
+广东,佛山综合,5,0,5,0,,佛山综合
+广东,嘉佳卡通(广东)(540p)[Not24/7],1,0,1,0,,嘉佳卡通
+广东,广东Ⅰ韶关公共台(720p)[Not24/7],1,0,1,0,,广东i韶关公共台
+广东,广东Ⅰ韶关综合台(720p)[Not24/7],1,0,1,0,,广东i韶关综合台
+广东,广东体育,7,1,6,0,https://epg.pw/stream/7b470f9fc5c305db0c8622117b7b25ca00eb35ba3e93e865cf0ff9df5c736681.m3u8,广东体育
+广东,广东公共,1,0,1,0,,广东公共
+广东,广东南国都市,1,0,1,0,,广东南国都市
+广东,广东少儿,2,0,2,0,,广东少儿
+广东,广东影视,2,0,2,0,,广东影视
+广东,广东新闻,4,0,4,0,,广东新闻
+广东,广东民生,5,2,3,0,http://183.11.239.36:808/hls/18/index.m3u8,广东民生
+广东,广东珠江,8,1,7,0,http://r.jdshipin.com/sE5vO,广东珠江
+广东,广东经济科教,1,0,1,0,,广东经济科教
+广东,广州南国都市,1,1,0,0,http://r.jdshipin.com/nWaZO,广州南国都市
+广东,广州影视,6,0,6,0,,广州影视
+广东,广州新闻,2,1,1,0,http://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=d2c2db0b598c02ec1b5623728434d367&txTime=18d57929bd3,广州新闻
+广东,广州法治,1,0,1,0,,广州法治
+广东,广州竞赛,6,1,5,0,http://8.138.7.223/tv/gzjs.m3u8,广州竞赛
+广东,广州综合,4,4,0,0,http://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=c8dbe86d6f86eb1a21999ab479fd5667&txTime=18d3c4690e8,广州综合
+广东,广州综合频道,2,0,2,0,,广州综合
+广东,汕头生活,1,0,1,0,,汕头生活
+广东,汕头经济,5,0,5,0,,汕头经济
+广东,汕头综合,6,0,6,0,,汕头综合
+广东,江门综合,5,0,5,0,,江门综合
+广东,河源公共,1,0,1,0,,河源公共
+广东,河源综合,1,0,1,0,,河源综合
+广东,河源综合(540p),1,0,1,0,,河源综合
+广东,电白综合(576p)[Not24/7],1,0,1,0,,电白综合
+广东,电白综合(360p)[Not24/7],1,0,1,0,,电白综合
+广东,电白视窗(576p)[Not24/7],1,0,1,0,,电白视窗
+广东,电白视窗(360p)[Not24/7],1,0,1,0,,电白视窗
+广东,番禺综合,1,0,1,0,,番禺综合
+广东,龙门飞甲,1,1,0,0,http://jsmov2.a.yximgs.com/bs3/video-hls/5203346449046555193_hlsb.m3u8,龙门飞甲

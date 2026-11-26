@@ -100,26 +100,37 @@ python scripts/main.py --no-probe
 | EPG 节目单 | `https://leeqqff.github.io/iptv-live/e.xml`（备用 `https://raw.githubusercontent.com/LEEQQFF/iptv-live/main/output/e.xml`） |
 | **图形化管理台** | `https://leeqqff.github.io/iptv-live/web/` |
 
+### 统一全链条（scripts/pipeline.py）
+
+所有源统一在 `config/sources.yaml` 登记，共 **28 个**：原有 16 个源 + `SparkTV-默认订阅地址清单.md` 的 11 个地址 + `channels.json` 内置频道库。`scripts/pipeline.py` 一次跑完全链条：
+
+1. **抓取**：并发拉取全部源，M3U/TXT/官方动态(ysp/snrtv)/固定流/内置库；失败源回退本地缓存，订阅不中断。
+2. **聚合**：统一条目格式，每条线路记录来源源名称。
+3. **去重**：按 URL（忽略动态 token）全局去重，同一线路多源贡献合并来源列表。
+4. **归类**：央视（CCTV1-17 序号）、央视系列（CHC/CGTN/CETV 等）、卫视、34 个省级行政区、网络（非行政区）。
+5. **严格检活**：真实 HTTP GET，仅 2xx/3xx 且返回 M3U/TS 媒体字节判存活；3 小时内存活线路不重复测，只补测新增/到期。
+6. **官方源置顶**：官方域名/白名单 → 存活 → 延迟升序。
+
 ### 自动维护（24 小时，每 10 分钟滚动）
 
-- `.github/workflows/refresh.yml`：每 10 分钟执行 `scripts/auto_refresh.py`，依次完成订阅抓取 → 聚合去重 → 央视/卫视/省级/网络归类 → 增量严格检活 → 官方源置顶，自动刷新 `channels.json`、M3U 订阅与管理台数据，并部署 Pages。
-- 增量策略：缓存线路 3 小时内不重复全量测活，只补测新增/到期 URL；订阅抓取失败时沿用上次缓存，保证订阅不中断。
-- `.github/workflows/update.yml`：每小时更新官方动态流与 EPG；与 refresh 共用并发组串行执行。
+- `.github/workflows/refresh.yml`：每 10 分钟执行 `scripts/pipeline.py`，刷新 `channels.json`、M3U 订阅、CSV 与管理台 `web/data.json`，并部署 Pages。
+- `.github/workflows/update.yml`：每小时更新官方动态流与 EPG；与 refresh 共用并发组串行执行，避免冲突。
 - 可在 Actions 页手动触发 `10分钟滚动维护直播源与管理台` 立即刷新。
 
 ### 图形化管理台
 
-打开 `https://leeqqff.github.io/iptv-live/web/`，四个视图：
-1. **直播源清单**：按频道/来源/状态/延迟查看每条线路，支持搜索与状态筛选。
-2. **来源关系**：按上游订阅源统计线路占比。
-3. **归类关系**：38 个分组的频道与线路分布。
-4. **检活结果**：总体存活率与分组存活率。
+打开 `https://leeqqff.github.io/iptv-live/web/`，六个视图：
+1. **公网订阅地址**：4 个可一键复制的订阅/EPG 地址。
+2. **订阅地址清单**：28 个源的地址、状态、条目数。
+3. **直播源清单**：按频道/来源/状态/延迟查看每条线路，支持搜索、状态筛选。
+4. **来源关系**：各订阅源贡献的线路占比与多源交叉验证线路。
+5. **归类与分组**：38 个分组的频道与线路分布。
+6. **检活结果**：总体、按分组、按来源的存活率。
 
-拖拽频道行到左侧分组即可调整归类；点击「导出归类 JSON」下载 `channels-edited.json`，上传到仓库覆盖 `channels.json` 后，下一次自动刷新即按新归类生成订阅（人工归类会保留）。
+拖拽频道行到左侧分组即可调整归类；点击「导出归类 JSON」下载后上传覆盖 `channels.json`，下一次刷新即按新归类生成订阅。
 
-**为什么此前的地址订阅不到本次更新**：
-1. `SparkTV-默认订阅地址清单.md` 里的 11 个地址是**上游来源**（best-fan、iptv-org、Guovin 等），不是本仓库产出的订阅结果；
-2. `output/live.m3u` 由 GitHub Actions 每小时自动生成，走 `config/sources.yaml` 的另一套流水线，与本轮人工分组的 `channels.json` 无关；
-3. `raw.githubusercontent.com` 在部分国内网络下 TLS 握手失败，会表现为「订阅地址打不开」，此时改用 Pages 地址或自行添加公共加速前缀。
+### 为什么此前的地址订阅不到本次更新
 
-主订阅由 `tools/iptv_pipeline/export_m3u.py` 从 `channels.json` 派生；改完 `channels.json` 后重新运行该脚本即可刷新订阅内容。
+1. `SparkTV-默认订阅地址清单.md` 里的 11 个地址是**上游来源**，不是本仓库产出的订阅结果；现已作为源并入 `config/sources.yaml`。
+2. `output/live.m3u` 由旧流水线每小时生成，与本轮人工分组的 `channels.json` 无关；现已统一到 `scripts/pipeline.py`。
+3. `raw.githubusercontent.com` 在部分国内网络下 TLS 握手失败，改用 Pages 地址或公共加速前缀。
