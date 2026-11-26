@@ -11,11 +11,24 @@
 ## 文件
 | 文件 | 用途 |
 |---|---|
+| `iptv-live.m3u` | **本轮更新后的主订阅地址文件**：726 频道 / 1146 条存活线路，每频道最多 5 条 |
+| `iptv-live-all.m3u` | 全量备用：1690 频道 / 4371 条线路（含失效），供人工排查 |
 | `channels.json` | 权威数据源（含每条线路的检活状态与排序） |
 | `iptv-live-汇总-新版.xlsx` | 按分组建 sheet（央视/央视系列/卫视/34省/网络）+ 汇总/频道总表/官方源置顶/失效源/订阅地址 |
 | `editable/*.csv` | 每个分组一个纯文本表格，可直接改字或拖拽排序 |
 | `iptv-live-频道清单.md` | Markdown 文字清单，可直接编辑 |
-| `tools/` | 复现脚本：parse_merge.py / regroup.py / check_liveness.py / finalize_export.py |
+| `tools/` | 复现脚本：parse_merge.py / regroup.py / check_liveness.py / finalize_export.py / export_m3u.py |
+
+## 更新后的订阅地址
+
+| 用途 | 地址 |
+|---|---|
+| 主订阅（推荐） | `https://raw.githubusercontent.com/LEEQQFF/iptv-live/main/iptv-live.m3u` |
+| 主订阅（Pages 备用） | `https://leeqqff.github.io/iptv-live/manual-live.m3u` |
+| 全量备用（含失效） | `https://raw.githubusercontent.com/LEEQQFF/iptv-live/main/iptv-live-all.m3u` |
+| EPG | `https://leeqqff.github.io/iptv-live/e.xml` |
+
+> `SparkTV-默认订阅地址清单.md` 中的 11 个地址是上游来源，不是本仓库产出的订阅结果；`output/live.m3u` 由 Actions 每小时自动生成，与本轮人工维护版本无关。国内网络若 raw 地址 TLS 失败，改用 Pages 地址或加加速前缀。
 
 ## 口径
 1. 聚合：SparkTV `assets/channels.json`（2026-11-17，473 频道 / 1402 线路）+ 11 个公开 M3U/M3U8 订阅地址（5058 行，跳过 108 行非直播/VOD）。

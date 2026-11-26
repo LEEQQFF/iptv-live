@@ -87,3 +87,21 @@ python scripts/main.py --no-probe
 | `tools/iptv_pipeline/` | 复现脚本：parse_merge.py / regroup.py / check_liveness.py / finalize_export.py（行政区映射数据见 `tools/cache/`） |
 
 严格检活口径：逐条真实 HTTP GET，仅 2xx/3xx 且返回 M3U/TS 媒体字节判定存活；本轮线路存活 1333 / 失效 3038，官方源 12 条置顶。排序为官方源 → 存活 → 延迟升序。上述文件由人工维护，不会被 `output/` 下的自动更新流程覆盖；若手工修改后需生效，请同步修改 `channels.json`。
+
+### 更新后的订阅地址（2026-11-26）
+
+本轮人工维护频道库对应的订阅地址如下，复制到 TiviMate / TVBox / VLC / mytv 的「订阅地址」即可：
+
+| 用途 | 订阅地址 |
+| --- | --- |
+| **主订阅（推荐）**：仅存活线路，726 频道 / 1146 条线路，每频道最多 5 条 | `https://raw.githubusercontent.com/LEEQQFF/iptv-live/main/iptv-live.m3u` |
+| 主订阅（Pages 备用，下次 Actions 部署后生效） | `https://leeqqff.github.io/iptv-live/manual-live.m3u` |
+| 全量备用：含失效线路，1690 频道 / 4371 条线路，供排查 | `https://raw.githubusercontent.com/LEEQQFF/iptv-live/main/iptv-live-all.m3u` |
+| EPG 节目单 | `https://leeqqff.github.io/iptv-live/e.xml`（备用 `https://raw.githubusercontent.com/LEEQQFF/iptv-live/main/output/e.xml`） |
+
+**为什么此前的地址订阅不到本次更新**：
+1. `SparkTV-默认订阅地址清单.md` 里的 11 个地址是**上游来源**（best-fan、iptv-org、Guovin 等），不是本仓库产出的订阅结果；
+2. `output/live.m3u` 由 GitHub Actions 每小时自动生成，走 `config/sources.yaml` 的另一套流水线，与本轮人工分组的 `channels.json` 无关；
+3. `raw.githubusercontent.com` 在部分国内网络下 TLS 握手失败，会表现为「订阅地址打不开」，此时改用 Pages 地址或自行添加公共加速前缀。
+
+主订阅由 `tools/iptv_pipeline/export_m3u.py` 从 `channels.json` 派生；改完 `channels.json` 后重新运行该脚本即可刷新订阅内容。
