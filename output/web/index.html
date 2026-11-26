@@ -317,7 +317,8 @@ function renderDiscovery(){
   const d=DATA.discovery||{};
   const el=document.getElementById('discoveryText');
   if(!d.updated){el.textContent='尚无巡检记录，下一次滚动维护自动执行';return}
-  el.innerHTML=`上次巡检 ${escapeHtml(d.updated)} ・模式 ${escapeHtml(d.mode||'light')} ・候选 ${d.candidates||0} ・有效 ${d.valid||0} ・启用 ${d.active_sources||0} ・修正 ${(d.repaired||[]).length}`;
+  el.innerHTML=`上次巡检 ${escapeHtml(d.updated)} ・模式 ${escapeHtml(d.mode||'light')} ・候选 ${d.candidates||0} ・已验 ${d.validated||0} ・有效 ${d.valid||0} ・启用 ${d.active_sources||0} ・修正 ${(d.repaired||[]).length}`+
+    ((d.fail_samples||[]).length?` ・失败样例 ${(d.fail_samples||[]).length}`:'');
 }
 function renderSubs(){
   const list=DATA.subscriptions||[];
