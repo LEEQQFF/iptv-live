@@ -46,9 +46,8 @@
 网络,2026-11-27 16:14:49,2026-11-27 16:14:49,1,0,1,0,,2026112716:14:49,a3819d7c68
 网络,28AI智慧赛马,28 AI 智慧賽馬,1,0,1,0,,28ai智慧赛马,3d480d858e
 网络,4K花园,4K花园,2,0,2,0,,4k花园,107548755d
-网络,ABC,ABC Australia HD,1,0,1,0,,abc,c42ab24c3a
+网络,ABC,ABC,2,0,2,0,,abc,c42ab24c3a
 网络,ABC新闻直播,ABC News Live,1,1,0,0,https://d4ybyqrhce41r.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-xumo-linear-nbcu-hlsv3/master.m3u8?ads.channelId=99991626,abc新闻,255f908c8f
-网络,ABC新闻,ABC News US HD,1,0,1,0,,abc新闻,9ee1e15b71
 网络,ABN China,ABN China (720p),1,0,1,0,,abnchina,bf57edcbde
 网络,AMC,AMC电影,3,1,2,0,http://61.221.215.25:8800/hls/43/index.m3u8,amc,cc2ab58fc7
 网络,Animax,Animax(HK),1,0,1,0,,animax,87f71ca4c0
@@ -69,7 +68,7 @@
 网络,Channel 5,Channel 5 HD,1,0,1,0,,channel5,2c55c282bf
 网络,Channel 8,Channel 8 HD,1,0,1,0,,channel8,2c243bdd0e
 网络,Channel U,Channel U HD,1,0,1,0,,channelu,60b262d035
-网络,Cheddar Big News,Cheddar Big News HD,1,0,1,0,,cheddarbignews,7e5faaf10d
+网络,Cheddar Big News,Cheddar Big News,1,0,1,0,,cheddarbignews,7e5faaf10d
 网络,CHU,CHU,1,0,1,0,,chu,7cd7cfb0ec
 网络,CIBN古装剧场,CIBN古装剧场,1,0,1,0,,cibn古装剧场,7c11af52f3
 网络,CIBN时尚生活,CIBN时尚生活,1,0,1,0,,cibn时尚生活,23b061e78a
@@ -90,11 +89,11 @@
 网络,ELEVEN体育3,ELEVEN体育3,1,0,1,0,,eleven体育3,b3ef907ccb
 网络,ELTV生活英语台,ELTV生活英語台,1,0,1,0,,eltv生活英语台,69e2f7bce1
 网络,ET Mall 60,ET Mall 60,1,0,1,0,,etmall60,e7f26f5175
-网络,Euronews,Euronews HD,1,0,1,0,,euronews,6b2be7a938
+网络,Euronews,Euronews,1,0,1,0,,euronews,6b2be7a938
 网络,FIFA+,FIFA+,2,0,2,0,,fifa,96f0c967e6
 网络,FOX,Fox LiveNow,5,1,4,0,http://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8,fox,d9362375fd
 网络,France 24,France 24,1,0,1,0,,france24,ae527085cb
-网络,france24,france24 FHD,3,2,1,0,http://static.france24.com:80/live/F24_FR_HI_HLS/live_tv.m3u8,france24,8dc0b9bf55
+网络,france24,france24,3,2,1,0,http://static.france24.com:80/live/F24_FR_HI_HLS/live_tv.m3u8,france24,8dc0b9bf55
 网络,GB News,GB News,1,0,1,0,,gbnews,b73aa5d1fa
 网络,GOOD TV,GOOD TV,2,0,2,0,,goodtv,fc7c118601
 网络,HBO SIG,HBO SIG,1,0,1,0,,hbosig,e9cf3d800f
@@ -127,7 +126,7 @@
 网络,IHOT爱都市,IHOT爱都市,2,0,2,0,,ihot爱都市,c9f7c9c3ab
 网络,IHOT爱青春,IHOT爱青春,2,0,2,0,,ihot爱青春,550ffb3a14
 网络,iNews新闻台,iNews新闻台,1,0,1,0,,inews新闻台,90c856208f
-网络,ION,Chuxiong News Channel [Not 24/7],6,1,5,0,http://hwapi.yntv.net/ew265l/848y54.m3u8,ion,d630d5cc06
+网络,ION,Dubai One,5,1,4,0,http://hwapi.yntv.net/ew265l/848y54.m3u8,ion,1742568b4e
 网络,ION Plus,ION Plus,1,0,1,0,,ionplus,6a2c5b836f
 网络,IPTV4K,IPTV4K,1,0,1,0,,iptv4k,5e523393f5
 网络,J2,J2,3,0,3,0,,j2,cf67f54430
@@ -156,7 +155,7 @@
 网络,MIGU葛优作品集,MIGU葛优作品集,1,0,1,0,,migu葛优作品集,0ab8662d49
 网络,MIGU试胆大会,MIGU试胆大会,1,0,1,0,,migu试胆大会,ae45505205
 网络,MIGU郭富城影院,MIGU郭富城影院,1,0,1,0,,migu郭富城影院,b88523e88c
-网络,MIGU金庸,MIGU金庸频道,1,0,1,0,,migu金庸,ceba840d74
+网络,MIGU金庸,MIGU金庸,1,0,1,0,,migu金庸,ceba840d74
 网络,MIGU高分影院,MIGU高分影院,1,0,1,0,,migu高分影院,3faad6fc1b
 网络,MIGU高能烧脑时刻,MIGU高能烧脑时刻,1,0,1,0,,migu高能烧脑时刻,e212b44eef
 网络,Momo 1,Momo 1,1,0,1,0,,momo1,765fecfd25
@@ -164,8 +163,7 @@
 网络,momo综合台,momo综合台,1,0,1,0,,momo综合台,2094b85bdf
 网络,myTVSUPER18台,myTV SUPER 18台,1,0,1,0,,mytvsuper18台,fe35ef9f23
 网络,NBA TV,NBA TV,1,0,1,0,,nbatv,d9cfbadd2d
-网络,NBC,NBC,2,0,2,0,,nbc,d594d6f578
-网络,NBC新闻,NBC NEWS FHD,2,0,2,0,,nbc新闻,ef97811e05
+网络,NBC,NBC,4,0,4,0,,nbc,d594d6f578
 网络,Newsmax,Newsmax,1,1,0,0,http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8,newsmax,061e3ae6c9
 网络,NewTV中国功夫,NewTV中国功夫,2,0,2,0,,newtv中国功夫,4b6ffff689
 网络,NewTV军事评论,NewTV军事评论,2,0,2,0,,newtv军事评论,0c2cdddd4b
@@ -187,16 +185,16 @@
 网络,NewTV金牌综艺,NewTV金牌综艺,2,0,2,0,,newtv金牌综艺,6ff2e56e66
 网络,Nickelodeon,Nickelodeon,1,0,1,0,,nickelodeon,fc2cfbac09
 网络,Nick Jr,Nick Jr,1,0,1,0,,nickjr,d2b454af33
-网络,Now台,Now直播台 HD,1,0,1,0,,now台,0860884bb0
+网络,Now台,Now台,1,0,1,0,,now台,0860884bb0
 网络,NTV NEWS 24,NTV NEWS 24,1,0,1,0,,ntvnews24,e48bb7c127
 网络,NU,NU,1,0,1,0,,nu,fee26f759c
 网络,NU2,NU2,1,0,1,0,,nu2,d5d732b883
 网络,One Golf,One Golf,1,0,1,0,,onegolf,254b4b509d
 网络,Pop音乐,Pop,3,0,3,0,,pop音乐,13ed9e0d61
-网络,PTV4K超清,北京IPTV4K超清,2,0,2,0,,ptv4k,25148fb47c
-网络,PTV4K,北京IPTV4K,2,0,2,0,,ptv4k,a1c80120d9
-网络,PTV淘剧场,北京IPTV淘剧场,1,0,1,0,,ptv淘剧场,91764a95ab
-网络,PTV淘娱乐,北京IPTV淘娱乐,1,0,1,0,,ptv淘娱乐,a63b918ea2
+网络,PTV4K超清,PTV4K超清,2,0,2,0,,ptv4k,25148fb47c
+网络,PTV4K,PTV4K,2,0,2,0,,ptv4k,a1c80120d9
+网络,PTV淘剧场,PTV淘剧场,1,0,1,0,,ptv淘剧场,91764a95ab
+网络,PTV淘娱乐,PTV淘娱乐,1,0,1,0,,ptv淘娱乐,a63b918ea2
 网络,Racing.com,Racing.com,1,0,1,0,,racingcom,b310bbd364
 网络,SKY,SKY,4,0,4,0,,sky,f7f5988c80
 网络,Sukan,Sukan,1,0,1,0,,sukan,2496de0bd8
@@ -275,7 +273,7 @@
 网络,中国,直播中国,1,0,1,0,,中国,185e1a6bb9
 网络,中国交通,中国交通,1,0,1,0,,中国交通,dd1f847137
 网络,中国功夫,中国功夫,2,0,2,0,,中国功夫,9d6e59d6fd
-网络,中国天气,中国天气,1,0,1,0,,中国天气,ee1517e6a1
+网络,中国天气,中国天气,2,0,2,0,,中国天气,d96365fa68
 网络,中国旅游,中国旅游,1,1,0,1,https://fastlive.cctvplus.com/out/v1/ca6f9297b7314a63959435028af287fc/index.m3u8,中国旅游,8f38e39c39
 网络,中国蓝新闻,中国蓝新闻,1,1,0,1,http://ali-m-l.cztv.com/channels/lantian/channel009/1080p.m3u8,中国蓝新闻,ace5cbd690
 网络,乌龙闯情关,乌龙闯情关,2,0,2,0,,乌龙闯情关,4101661c4d
@@ -290,7 +288,7 @@
 网络,人在囧途之泰囧,人在囧途之泰囧,1,1,0,0,https://vip.ffzy-play.com/20221018/1951_47e1adc8/index.m3u8,人在囧途之泰囧,23307d1f85
 网络,人在囧途之港囧,人在囧途之港囧,1,1,0,0,https://vip.ffzy-play7.com/20230112/11082_fde1a94d/index.m3u8,人在囧途之港囧,0c56779865
 网络,人文纪录,Documentary Humanities Channel (1080p),1,0,1,0,,人文纪录,4b2fc9466c
-网络,今日俄罗斯,BRTV Kaku Childrens Channel,13,2,11,0,https://rt-srb.rttv.com/dvr/rtbalkan/playlist_4500Kb.m3u8,今日俄罗斯,37db48d59f
+网络,今日俄罗斯,RT DE,13,2,11,0,https://rt-srb.rttv.com/dvr/rtbalkan/playlist_4500Kb.m3u8,今日俄罗斯,57e4df29f3
 网络,今日俄罗斯新闻,RT News,1,0,1,0,,今日俄罗斯新闻,063a514f2b
 网络,今日俄罗斯法语,RT Français,1,1,0,0,https://rt-fra.rttv.com/dvr/rtfrance/playlist_4500Kb.m3u8,今日俄罗斯法语,031f570dbc
 网络,今日俄罗斯纪录,RT Documentary,2,2,0,0,https://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8,今日俄罗斯纪录,c833cc7ba7
@@ -313,13 +311,13 @@
 网络,军事评论,军事评论,1,0,1,0,,军事评论,70412635a3
 网络,军旅剧场,军旅剧场,2,0,2,0,,军旅剧场,756f30dc71
 网络,农业致富,农业致富,1,0,1,0,,农业致富,d514bcd8f7
-网络,冬奥纪实,冬奥纪实 FHD,1,0,1,0,,冬奥纪实,95443a9f3a
-网络,冬奥纪实50FPS,冬奥纪实 50FPS,1,0,1,0,,冬奥纪实50fps,18b46db2c8
+网络,冬奥纪实,冬奥纪实,1,0,1,0,,冬奥纪实,95443a9f3a
+网络,冬奥纪实50FPS,冬奥纪实50FPS,1,0,1,0,,冬奥纪实50fps,18b46db2c8
 网络,冰冰影剧,冰冰影剧,1,0,1,0,,冰冰影剧,35a1bdb4b3
 网络,刀刀影院,刀刀影院,1,0,1,0,,刀刀影院,89fbebd501
 网络,刑事侦缉档案,刑事侦缉档案,2,0,2,0,,刑事侦缉档案,dc665d9439
 网络,创世纪,创世纪,2,0,2,0,,创世纪,9c61048601
-网络,創世电视,創世電視,1,0,1,0,,創世电视,538f535de1
+网络,創世电视,創世电视,1,0,1,0,,創世电视,538f535de1
 网络,动漫1「解说」,动漫•1「解说」,1,0,1,0,,动漫1「解说」,56f85f0b63
 网络,动画王国,动画王国,1,0,1,0,,动画王国,63ee140703
 网络,千禧经典,千禧经典,1,0,1,0,,千禧经典,47b631739b
@@ -335,7 +333,7 @@
 网络,变形金刚合集,变形金刚合集,1,0,1,0,,变形金刚合集,746b5d59e4
 网络,古装剧场,古装剧场,2,0,2,0,,古装剧场,d59a5b7a6a
 网络,古装武侠,古装武侠,1,0,1,0,,古装武侠,9fdab258a5
-网络,台球,CCTV-Billiards (1080p),6,1,5,0,http://dassby.qqff.top:99/live/央视台球/index.m3u8,台球,17e72db421
+网络,台球,央视台球,8,1,7,0,http://dassby.qqff.top:99/live/央视台球/index.m3u8,台球,5461bd0dd1
 网络,名侦探柯南,名侦探柯南,2,0,2,0,,名侦探柯南,5dfa4e2d03
 网络,咪咕,咪咕直播,38,0,8,0,,咪咕,0da4ed2ff0
 网络,咪咕1,咪咕1,1,0,1,0,,咪咕1,ea1b0fca31
@@ -554,12 +552,12 @@
 网络,大立电视台,大立电视台,1,1,0,0,http://www.dalitv.com.tw:4568/live/dali/index.m3u8,大立,ed2d3821e0
 网络,天使之声中文,Angel TV Chinese (720p),1,1,0,0,https://janya-digimix.akamaized.net/vglive-sk-999451/chinese/ngrp:angelchinese_all/playlist.m3u8,天使之声中文,345208e5c9
 网络,天才GO,天才GO,1,0,1,0,,天才go,de70ccbedc
-网络,天映,天映频道(粵),1,0,1,0,,天映,e5a74bf5eb
+网络,天映,天映,1,0,1,0,,天映,e5a74bf5eb
 网络,天映经典,天映经典,3,0,3,0,,天映经典,261be3d071
 网络,天空新闻,Sky News,6,3,3,0,https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8,天空新闻,c96eae4d20
 网络,天龙八部,天龙八部,7,0,7,0,,天龙八部,1e8e3ee465
-网络,女式时尚,CCTV女式时尚,1,0,1,0,,女式时尚,81a6cdd1bc
-网络,女时尚,CCTV女时尚,1,0,1,0,,女时尚,8fb8c83fc0
+网络,女式时尚,女式时尚,1,0,1,0,,女式时尚,81a6cdd1bc
+网络,女时尚,女时尚,1,0,1,0,,女时尚,8fb8c83fc0
 网络,如懿传,如懿传,1,0,1,0,,如懿传,df353dd7d1
 网络,妙手仁心,妙手仁心,2,0,2,0,,妙手仁心,a62d830c21
 网络,娱乐新闻,娱乐新闻,1,0,1,0,,娱乐新闻,8ab111b90a
@@ -603,11 +601,11 @@
 网络,探索频道,CND Film Discovery Channel (576p),1,0,1,0,,探索,0d984df5b2
 网络,搜狐剧场,搜狐剧场,1,0,1,0,,搜狐剧场,9850e9cb47
 网络,收藏天下,收藏天下,1,0,1,0,,收藏天下,7a545522f7
-网络,教育1台,教育1台HD,3,0,3,0,,教育1台,15ad2f6307
+网络,教育1台,教育1台,3,0,3,0,,教育1台,15ad2f6307
 网络,教育2台,教育2台,1,0,1,0,,教育2台,b9fba3dd00
 网络,教育3台,教育3台,2,0,2,0,,教育3台,e6ce8476f2
 网络,教育4台,教育4台,3,0,3,0,,教育4台,74873aa6a7
-网络,文化精品,CCTV-Culture of Quality SD (1080p),6,1,5,0,http://38.75.136.137:98/gslb/dsdqpub/ysjp.m3u8?auth=testpub,文化精品,f09fa176b9
+网络,文化精品,文化精品,6,1,5,0,http://38.75.136.137:98/gslb/dsdqpub/ysjp.m3u8?auth=testpub,文化精品,9b6c4bf361
 网络,文物宝库,文物宝库,1,0,1,0,,文物宝库,7fd04be8b7
 网络,斗鱼港剧,斗鱼港剧,1,0,1,0,,斗鱼港剧,e18cb3540f
 网络,新三国,新三国,3,0,3,0,,新三国,68f83d78ad
@@ -620,7 +618,7 @@
 网络,新闻综合,新闻综合,2,1,1,0,https://m3u8channel.yunxya.com/nmip-media/channellive/channel100028/playlist.m3u8,新闻综合,bb0c1401d5
 网络,无上师电视台,无上师电视台,1,0,1,0,,无上师,06b7b2a470
 网络,无心法师,无心法师,1,0,1,0,,无心法师,1b33df3ee2
-网络,无线财经资讯台,无线财经资讯台 FHD,1,0,1,0,,无线财经资讯台,986c1a4edc
+网络,无线财经资讯台,无线财经资讯台,1,0,1,0,,无线财经资讯台,986c1a4edc
 网络,日本新闻,日本新闻,1,0,1,0,,日本新闻,a0a51b3427
 网络,早期教育,早期教育,1,0,1,0,,早期教育,03a7b5f4fa
 网络,时尚电视台,Fashion TV,1,0,1,0,,时尚,da35a2d2c6
@@ -668,10 +666,10 @@
 网络,潮妈辣妹,潮妈辣妹,1,0,1,0,,潮妈辣妹,b338585d05
 网络,潮妈辣婆,潮妈辣婆,1,0,1,0,,潮妈辣婆,d08367f68e
 网络,澜沧电视台,澜沧电视台,1,0,1,0,,澜沧,870d43a8b7
-网络,澳門有线CH1,澳門有線 CH1,2,0,2,0,,澳門有线ch1,57eb4d8457
-网络,澳門有线CH2,澳門有線 CH2,1,0,1,0,,澳門有线ch2,34009d4990
-网络,澳門有线CH3,澳門有線 CH3,2,0,2,0,,澳門有线ch3,50f6605d2a
-网络,澳門有线互動新闻,澳門有線互動新聞,1,0,1,0,,澳門有线互動新闻,a95445978f
+网络,澳門有线CH1,澳門有线CH1,2,0,2,0,,澳門有线ch1,57eb4d8457
+网络,澳門有线CH2,澳門有线CH2,1,0,1,0,,澳門有线ch2,34009d4990
+网络,澳門有线CH3,澳門有线CH3,2,0,2,0,,澳門有线ch3,50f6605d2a
+网络,澳門有线互動新闻,澳門有线互動新闻,1,0,1,0,,澳門有线互動新闻,a95445978f
 网络,灌篮高手,灌篮高手,2,0,2,0,,灌篮高手,1cf7c7c198
 网络,炫动卡通,炫动卡通,1,0,1,0,,炫动卡通,12e5e66dd8
 网络,炫舞未来,炫舞未来,1,0,1,0,,炫舞未来,1ef18c71ec
@@ -749,7 +747,7 @@
 网络,笑看风云,笑看风云,2,0,2,0,,笑看风云,4ef20f764a
 网络,第一财经,第一财经,3,1,2,0,http://satellitepull.cnr.cn/live/wx32dycjgb/playlist.m3u8,第一财经,84cc5df721
 网络,篮球资讯,篮球资讯,1,0,1,0,,篮球资讯,0d37a609e7
-网络,精品,央视精品,1,0,1,0,,精品,d27e635d79
+网络,精品,央视精品,2,0,2,0,,精品,445a3f8a6a
 网络,精品体育,精品体育,4,3,1,0,https://epg.pw/stream/866a097a0907c9832440f8df38272dd555abf05200dfbafcc137e214c9b30ca7.m3u8,精品体育,20f017ecfe
 网络,精品大剧,精品大剧,1,0,1,0,,精品大剧,5af79fea48
 网络,精品萌宠,精品萌宠,1,0,1,0,,精品萌宠,334dc69da4
