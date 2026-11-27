@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T23:39:09+08:00",
+ "updated": "2026-11-28T00:48:24+08:00",
  "mode": "light",
  "repos": [
   "vbskycn/iptv",
@@ -7,7 +7,7 @@
   "iptv-org/iptv",
   "yuanzl77/IPTV"
  ],
- "candidates": 677,
+ "candidates": 647,
  "validated": 24,
  "valid": 0,
  "repaired": [],
@@ -68,11 +68,6 @@
    "from_repo": "iptv-org/iptv"
   },
   {
-   "url": "http://channel.wcrmt.cn:80/nmip-media/channellive/channel105268/playlist.m3u8",
-   "reason": "ConnectionError",
-   "from_repo": "vbskycn/iptv"
-  },
-  {
    "url": "http://gslbserv.itv.cmvideo.cn/1000000001000000515/1.m3u8?channel-id=ystenlive&Contentid=1000000001000000515&livemode=1&stbId=3",
    "reason": "http 403",
    "from_repo": "fanmingming/live"
@@ -129,6 +124,11 @@
   },
   {
    "url": "http://gslbserv.itv.cmvideo.cn/1000000001000014260/1.m3u8?channel-id=ystenlive&Contentid=1000000001000014260&livemode=1&stbId=3",
+   "reason": "http 403",
+   "from_repo": "fanmingming/live"
+  },
+  {
+   "url": "http://gslbserv.itv.cmvideo.cn/1000000001000014583/1.m3u8?channel-id=ystenlive&Contentid=1000000001000014583&livemode=1&stbId=3",
    "reason": "http 403",
    "from_repo": "fanmingming/live"
   }
