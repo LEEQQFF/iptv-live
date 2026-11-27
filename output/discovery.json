@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T20:03:12+08:00",
+ "updated": "2026-11-27T21:22:42+08:00",
  "mode": "light",
  "repos": [
   "vbskycn/iptv",
@@ -7,7 +7,7 @@
   "iptv-org/iptv",
   "yuanzl77/IPTV"
  ],
- "candidates": 675,
+ "candidates": 677,
  "validated": 24,
  "valid": 0,
  "repaired": [],
