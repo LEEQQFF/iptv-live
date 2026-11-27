@@ -43,20 +43,20 @@
 网络,2023年春晚,2023年春晚,1,0,1,0,,2023年春晚,0734dc40f2
 网络,2024年春晚,2024年春晚,1,1,0,0,https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_6488563992_8982723413/merged_1707497046297_88536_25144_41936.m3u8,2024年春晚,53931924f3
 网络,2025年春晚,2025年春晚,2,0,2,0,,2025年春晚,f58b54aba0
-网络,2026-11-27 04:12:11,2026-11-27 04:12:11,1,0,1,0,,2026112704:12:11,a81f5228b0
-网络,28AI智慧赛马,28 AI 智慧賽馬,1,0,1,0,,28ai智慧赛马,3d480d858e
+网络,2026-11-27 08:10:49,2026-11-27 08:10:49,1,0,1,0,,2026112708:10:49,dce2dfc119
+网络,28AI智慧赛马,28AI智慧赛马,1,0,1,0,,28ai智慧赛马,3d480d858e
 网络,4K花园,4K花园,2,0,2,0,,4k花园,107548755d
 网络,ABC,ABC Australia HD,1,0,1,0,,abc,c42ab24c3a
 网络,ABC新闻直播,ABC News Live,1,1,0,0,https://d4ybyqrhce41r.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-xumo-linear-nbcu-hlsv3/master.m3u8?ads.channelId=99991626,abc新闻,255f908c8f
 网络,ABC新闻,ABC News US HD,1,0,1,0,,abc新闻,9ee1e15b71
 网络,ABN China,ABN China (720p),1,0,1,0,,abnchina,bf57edcbde
-网络,AMC,AMC电影,2,1,1,0,http://61.221.215.25:8800/hls/43/index.m3u8,amc,cc2ab58fc7
-网络,Animax,Animax(HK),1,0,1,0,,animax,87f71ca4c0
+网络,AMC,AMC电影,3,1,2,0,http://61.221.215.25:8800/hls/43/index.m3u8,amc,cc2ab58fc7
+网络,Animax,Animax,1,0,1,0,,animax,87f71ca4c0
 网络,Astro AEC,Astro AEC,1,0,1,0,,astroaec,c6ea1e65f2
 网络,Astro Football,Astro Football,1,0,1,0,,astrofootball,3db816afaa
 网络,Astro IQIYI,Astro IQIYI,1,0,1,0,,astroiqiyi,72d8d3f197
 网络,Astro QJ,Astro QJ,1,0,1,0,,astroqj,13a92438be
-网络,Astro欢喜台,Astro 欢喜台,1,0,1,0,,astro欢喜台,785c50f1db
+网络,Astro欢喜台,Astro欢喜台,1,0,1,0,,astro欢喜台,785c50f1db
 网络,AXN,AXN,1,0,1,0,,axn,c2c48a4b73
 网络,AXS TV,AXS TV Now,1,0,1,0,,axstv,3244948a1d
 网络,BBC,BBC,3,0,3,0,,bbc,752de9fcdc
@@ -66,9 +66,9 @@
 网络,Celestial Movies,Celestial Movies,1,0,1,0,,celestialmovies,a0f4548c83
 网络,CH5,CH5,1,0,1,0,,ch5,9352f3c54c
 网络,CH8,CH8,1,0,1,0,,ch8,75a880addb
-网络,Channel 5,Channel 5 HD,1,0,1,0,,channel5,2c55c282bf
-网络,Channel 8,Channel 8 HD,1,0,1,0,,channel8,2c243bdd0e
-网络,Channel U,Channel U HD,1,0,1,0,,channelu,60b262d035
+网络,Channel 5,Channel 5,1,0,1,0,,channel5,2c55c282bf
+网络,Channel 8,Channel 8,1,0,1,0,,channel8,2c243bdd0e
+网络,Channel U,Channel U,1,0,1,0,,channelu,60b262d035
 网络,Cheddar Big News,Cheddar Big News HD,1,0,1,0,,cheddarbignews,7e5faaf10d
 网络,CHU,CHU,1,0,1,0,,chu,7cd7cfb0ec
 网络,CIBN古装剧场,CIBN古装剧场,1,0,1,0,,cibn古装剧场,7c11af52f3
@@ -88,13 +88,13 @@
 网络,ELEVEN体育1,ELEVEN体育1,1,0,1,0,,eleven体育1,a178248f1a
 网络,ELEVEN体育2,ELEVEN体育2,1,0,1,0,,eleven体育2,d21ca91e19
 网络,ELEVEN体育3,ELEVEN体育3,1,0,1,0,,eleven体育3,b3ef907ccb
-网络,ELTV生活英语台,ELTV生活英語台,1,0,1,0,,eltv生活英语台,69e2f7bce1
+网络,ELTV生活英语台,ELTV生活英语台,1,0,1,0,,eltv生活英语台,69e2f7bce1
 网络,ET Mall 60,ET Mall 60,1,0,1,0,,etmall60,e7f26f5175
 网络,Euronews,Euronews HD,1,0,1,0,,euronews,6b2be7a938
 网络,FIFA+,FIFA+,2,0,2,0,,fifa,96f0c967e6
 网络,FOX,Fox LiveNow,5,1,4,0,http://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8,fox,d9362375fd
-网络,France 24,France 24,1,0,1,0,,france24,ae527085cb
 网络,france24,france24 FHD,3,2,1,0,http://static.france24.com:80/live/F24_FR_HI_HLS/live_tv.m3u8,france24,8dc0b9bf55
+网络,France 24,France 24,1,0,1,0,,france24,ae527085cb
 网络,GB News,GB News,1,0,1,0,,gbnews,b73aa5d1fa
 网络,GOOD TV,GOOD TV,2,0,2,0,,goodtv,fc7c118601
 网络,HBO SIG,HBO SIG,1,0,1,0,,hbosig,e9cf3d800f
@@ -102,8 +102,8 @@
 网络,IHOT爱世界,IHOT爱世界,2,0,2,0,,ihot爱世界,05650df264
 网络,IHOT爱体育,IHOT爱体育,3,0,3,0,,ihot爱体育,55f207f899
 网络,IHOT爱军武,IHOT爱军武,2,0,2,0,,ihot爱军武,0450a5673b
-网络,iHOT爱动漫,iHOT爱动漫,1,0,1,0,,ihot爱动漫,6d0eff31c1
 网络,IHOT爱动漫,IHOT爱动漫,2,0,2,0,,ihot爱动漫,1356ed27d0
+网络,iHOT爱动漫,iHOT爱动漫,1,0,1,0,,ihot爱动漫,6d0eff31c1
 网络,IHOT爱历史,IHOT爱历史,2,0,2,0,,ihot爱历史,776542e2bc
 网络,IHOT爱奇谈,IHOT爱奇谈,2,0,2,0,,ihot爱奇谈,ecaf26453a
 网络,IHOT爱娱乐,IHOT爱娱乐,1,0,1,0,,ihot爱娱乐,804e6c66f9
@@ -162,7 +162,7 @@
 网络,Momo 1,Momo 1,1,0,1,0,,momo1,765fecfd25
 网络,Momo 2,Momo 2,1,0,1,0,,momo2,4a5eed9c3a
 网络,momo综合台,momo综合台,1,0,1,0,,momo综合台,2094b85bdf
-网络,myTVSUPER18台,myTV SUPER 18台,1,0,1,0,,mytvsuper18台,fe35ef9f23
+网络,myTVSUPER18台,myTVSUPER18台,1,0,1,0,,mytvsuper18台,fe35ef9f23
 网络,NBA TV,NBA TV,1,0,1,0,,nbatv,d9cfbadd2d
 网络,NBC,NBC,2,0,2,0,,nbc,d594d6f578
 网络,NBC新闻,NBC NEWS FHD,2,0,2,0,,nbc新闻,ef97811e05
@@ -209,7 +209,7 @@
 网络,WION新闻,WionNews,1,1,0,0,https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8,wion新闻,a63e537a8a
 网络,Xite Hits,Xite Hits,1,0,1,0,,xitehits,4e2cdd6692
 网络,Xite Rock,Xite Rock,1,0,1,0,,xiterock,2e65376c68
-网络,YanG-1989,YanG-1989,24,0,8,0,,yang1989,4bc6d52e0b
+网络,YanG-1989,YanG-1989,24,0,8,0,,yang1989,53379e3534
 网络,ZooMoo,ZooMoo,1,0,1,0,,zoomoo,08029d8c9b
 网络,「B站」CS2,「B站」CS 2,1,0,1,0,,「b站」cs2,51a9901271
 网络,「B站」JJ斗地主,「B站」JJ斗地主,1,0,1,0,,「b站」jj斗地主,b1758337c2
@@ -283,7 +283,7 @@
 网络,乐高频道,The Lego Channel,1,0,1,0,,乐高,d7ca1a8043
 网络,云县电视台,云县电视台,1,0,1,0,,云县,f2e85610ee
 网络,互扇巴掌大赛「其他」,互扇巴掌大赛「其他」,1,0,1,0,,互扇巴掌大赛「其他」,67fc6ba51d
-网络,亚洲新闻台,亞洲新聞台,2,1,1,0,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8,亚洲新闻台,299e8f1592
+网络,亚洲新闻台,ChannelNewsAsia FHD,2,1,1,0,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8,亚洲新闻台,0eda4d48fd
 网络,亚美卫视,亚美卫视,1,0,1,0,,亚美卫视,9b89017515
 网络,亮剑,亮剑,2,0,2,0,,亮剑,d21b16f749
 网络,人在囧途,人在囧途,1,1,0,0,https://vip.ffzy-play.com/20221018/1953_2d6ba500/index.m3u8,人在囧途,14b502c908
@@ -306,7 +306,7 @@
 网络,倩女幽魂人间道,倩女幽魂人间道,1,1,0,0,http://jsmov2.a.yximgs.com/bs3/video-hls/5250634317044855747_hlsb.m3u8,倩女幽魂人间道,37c3a879b1
 网络,倩女幽魂妖魔道,倩女幽魂妖魔道,1,1,0,0,http://jsmov2.a.yximgs.com/bs3/video-hls/5232901391302199073_hlsb.m3u8,倩女幽魂妖魔道,c605b37e70
 网络,倩女幽魂道道道,倩女幽魂道道道,1,1,0,0,http://jsmov2.a.yximgs.com/bs3/video-hls/5216294367991385255_hlsb.m3u8,倩女幽魂道道道,590e8ae28b
-网络,倪珍英语新闻,倪珍英語新聞,1,0,1,0,,倪珍英语新闻,420b3b42f4
+网络,倪珍英语新闻,倪珍英语新闻,1,0,1,0,,倪珍英语新闻,420b3b42f4
 网络,元江电视台,元江电视台,1,0,1,0,,元江,b0d4eab79a
 网络,八度空间,八度空间,1,0,1,0,,八度空间,512ffaaded
 网络,兰坪电视台,兰坪电视台,1,0,1,0,,兰坪,fd9802b3a8
@@ -323,7 +323,7 @@
 网络,动漫1「解说」,动漫•1「解说」,1,0,1,0,,动漫1「解说」,56f85f0b63
 网络,动画王国,动画王国 (1080p),1,0,1,0,,动画王国,63ee140703
 网络,千禧经典,千禧经典,1,0,1,0,,千禧经典,47b631739b
-网络,千禧经典台,千禧經典台(HK),1,0,1,0,,千禧经典台,e83c4e53fb
+网络,千禧经典台,千禧经典台,1,0,1,0,,千禧经典台,e83c4e53fb
 网络,半岛电视台,AlJazeera,1,0,1,0,,半岛,c15e3cda32
 网络,华语影视,华语影视,1,0,1,0,,华语影视,f1d0332e97
 网络,南国都市,南国都市,2,1,1,0,http://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=140110ae3d6c936a77f94c4f4d85b0d3&txTime=18d57929bd4,南国都市,51dfa7bfbd
@@ -337,7 +337,7 @@
 网络,古装武侠,古装武侠,1,0,1,0,,古装武侠,9fdab258a5
 网络,台球,央视台球,6,1,5,0,http://dassby.qqff.top:99/live/央视台球/index.m3u8,台球,5461bd0dd1
 网络,名侦探柯南,名侦探柯南,2,0,2,0,,名侦探柯南,5dfa4e2d03
-网络,咪咕,咪咕直播,38,0,8,0,,咪咕,0da4ed2ff0
+网络,咪咕,咪咕,38,0,8,0,,咪咕,ca7d077a0c
 网络,咪咕1,咪咕1,1,0,1,0,,咪咕1,ea1b0fca31
 网络,咪咕10,咪咕10,1,0,1,0,,咪咕10,e371506b65
 网络,咪咕11,咪咕11,1,0,1,0,,咪咕11,b43f2b44f2
@@ -481,8 +481,8 @@
 网络,唯心电视,唯心电视,1,1,0,0,https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8,唯心电视,8b1b96d2a4
 网络,喜剧现场,NextUp Live Comedy,1,0,1,0,,喜剧现场,83b5fab475
 网络,喜羊羊与灰太狼,喜羊羊与灰太狼,2,0,2,0,,喜羊羊与灰太狼,12b92df20e
-网络,嘉佳卡通,嘉佳卡通,5,0,5,0,,嘉佳卡通,b9e0720c8f
-网络,国家地理,National Geographic,1,0,1,0,,国家地理,513aa596f8
+网络,嘉佳卡通,嘉佳卡通 SD,5,0,5,0,,嘉佳卡通,e5fe71809a
+网络,国家地理,国家地理,1,0,1,0,,国家地理,513aa596f8
 网络,土耳其广播电视公司世界频道,TRT World,1,0,1,0,,土耳其广播电视公司世界,0b541b1bb5
 网络,埋堆堆01,埋堆堆01,1,0,1,0,,埋堆堆01,2ea0eb8e46
 网络,埋堆堆02,埋堆堆02,1,0,1,0,,埋堆堆02,440475d44b
@@ -563,7 +563,7 @@
 网络,如懿传,如懿传,1,0,1,0,,如懿传,df353dd7d1
 网络,妙手仁心,妙手仁心,2,0,2,0,,妙手仁心,a62d830c21
 网络,娱乐新闻,娱乐新闻,1,0,1,0,,娱乐新闻,8ab111b90a
-网络,娱乐新闻台,娛樂新聞台(HK),1,0,1,0,,娱乐新闻台,1cb685daf7
+网络,娱乐新闻台,娱乐新闻台,1,0,1,0,,娱乐新闻台,1cb685daf7
 网络,孟连电视台,孟连电视台,1,0,1,0,,孟连,8cddc76f92
 网络,宇宙科幻合集,宇宙科幻合集,1,0,1,0,,宇宙科幻合集,65210c3733
 网络,完美游戏,完美游戏 (1080p) [Not 24/7],1,0,1,0,,完美游戏,8fd51b8f7e
@@ -589,7 +589,7 @@
 网络,弈坛春秋,弈坛春秋 (576p),1,0,1,0,,弈坛春秋,2aa7763cf2
 网络,彭博,Bloomberg Originals,3,2,1,0,https://liveprodeuwest.akamaized.net/eu1/Channel-EUTVqvs-AWS-ireland-1/Source-EUTVqvs-700-1_live.m3u8,彭博,4593ca3da3
 网络,彭博亚洲,Bloomberg Asia,1,1,0,0,https://epg.pw/stream/d2edf469b9079064a283f4b0811cbf6f2597ebbb3d08dcf77036a4b5a791b7cf.m3u8,彭博亚洲,831a019d68
-网络,德国之声,DW,3,1,2,0,https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8,德国之声,9b65dc5b70
+网络,德国之声,DW FHD,3,1,2,0,https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8,德国之声,9a1314ca13
 网络,快乐垂钓,快乐垂钓,5,0,5,0,,快乐垂钓,b81d37fd08
 网络,怡伴健康,怡伴健康,1,0,1,0,,怡伴健康,8657e4a5f9
 网络,惊悚悬疑,惊悚悬疑,2,0,2,0,,惊悚悬疑,993608c137
@@ -630,7 +630,7 @@
 网络,景谷电视台,景谷电视台,1,0,1,0,,景谷,98e24a24ac
 网络,智慧教育,智慧教育 (576p),1,0,1,0,,智慧教育,057f31a2f7
 网络,智林体育台,智林体育台,1,0,1,0,,智林体育台,602893c167
-网络,曼联电视,曼聯電視頻道,1,0,1,0,,曼联电视,15a187b606
+网络,曼联电视,曼联电视,1,0,1,0,,曼联电视,15a187b606
 网络,朝鮮恩情台,朝鮮恩情台,1,0,1,0,,朝鮮恩情台,d79914aeac
 网络,极速汽车,极速汽车,1,0,1,0,,极速汽车,e488d0adc0
 网络,柳舟计,柳舟计,2,0,2,0,,柳舟计,7c87e53bde
@@ -676,8 +676,8 @@
 网络,炫动卡通,炫动卡通 (576p),1,0,1,0,,炫动卡通,12e5e66dd8
 网络,炫舞未来,炫舞未来,1,0,1,0,,炫舞未来,1ef18c71ec
 网络,热门港剧,热门港剧,1,0,1,0,,热门港剧,c92e84f7ff
-网络,無线卫星新闻台,無線衛星新聞台,1,0,1,0,,無线卫星新闻台,39fcb68f68
-网络,無线新闻台,無線新聞台,1,0,1,0,,無线新闻台,197822a7c9
+网络,無线卫星新闻台,無线卫星新闻台,1,0,1,0,,無线卫星新闻台,39fcb68f68
+网络,無线新闻台,無线新闻台,1,0,1,0,,無线新闻台,197822a7c9
 网络,熊猫,熊猫直播,1,1,0,0,https://gcwbndali.v.myalicdn.com/gcwbnd/ipanda1000_2/index.m3u8,熊猫,0d47818388
 网络,爱上4K,爱上4K,2,0,2,0,,爱上4k,ed64bfd9bb
 网络,爱体育,爱体育,7,0,7,0,,爱体育,a22a6eb266
@@ -758,7 +758,7 @@
 网络,纪实人文,纪实人文,2,0,2,0,,纪实人文,647fedecd7
 网络,纪实科教,纪实科教,2,1,1,0,http://120.76.248.139/live/bfgd/4200000113.m3u8,纪实科教,59bf00d03d
 网络,纪实科教8K,纪实科教8K,1,0,1,0,,纪实科教8k,22d4688326
-网络,纯享4K,纯享4K,3,0,3,0,,纯享4k,f871cea9a1
+网络,纯享4K,纯享4K,3,0,3,0,,纯享4k,ef90f44593
 网络,经典剧集,经典剧集,1,0,1,0,,经典剧集,7101248ad3
 网络,继续教育,继续教育 (576p),1,0,1,0,,继续教育,bf12e06798
 网络,维护内容:维护Gather「删除IPV6,维护内容:维护Gather「删除IPV6,1,0,1,0,,维护内容:维护gather「删除ipv6,b126f1b259
@@ -768,7 +768,8 @@
 网络,美剧「解说」,美剧「解说」,1,0,1,0,,美剧「解说」,6f0457e6b5
 网络,美国之音,VoA TV China (1080p),2,1,1,0,https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8,美国之音,4ef374a160
 网络,美好生活,美好生活,1,1,0,0,https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8,美好生活,2f7777e437
-网络,耀才财经,耀才财经,3,0,3,0,,耀才财经,35c95770a0
+网络,耀才财经,耀才财经,2,0,2,0,,耀才财经,35c95770a0
+网络,耀才财经台,耀才財經台,1,0,1,0,,耀才财经台,21fb670768
 网络,耿马电视台,耿马电视台,1,0,1,0,,耿马,cea1cc072c
 网络,航海王,航海王,1,0,1,0,,航海王,e04d6d5e27
 网络,航海王「动漫」,航海王「动漫」,1,0,1,0,,航海王「动漫」,6ea55b171f
@@ -843,5 +844,5 @@
 网络,魅力潇湘,魅力潇湘,1,0,1,0,,魅力潇湘,f4c3e2810d
 网络,鹿鼎记,鹿鼎记,3,0,3,0,,鹿鼎记,13e7705f6d
 网络,黄河卫视,黄河卫视,1,0,1,1,,黄河卫视,a38fbed543
-网络,黑莓动画,黑莓动画,3,0,3,0,,黑莓动画,b51ce71490
+网络,黑莓动画,黑莓动画,3,0,3,0,,黑莓动画,c113bbf47c
 网络,黑龙卫视,黑龙卫视 (1080p),4,0,4,0,,黑龙卫视,5336919540

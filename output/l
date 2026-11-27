@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://leeqqff.github.io/iptv-live/e.xml" url-tvg="https://leeqqff.github.io/iptv-live/e.xml"
 # 订阅名称：iptv-live 24小时滚动维护频道库
-# 生成时间：2026-11-27T07:59:52+08:00
+# 生成时间：2026-11-27T08:34:11+08:00
 # 链条：多源聚合 -> 去重 -> 央视/卫视/省级/网络归类 -> 严格检活 -> 官方源置顶
 # 源数量：58；过滤：仅存活线路
 
@@ -66,6 +66,8 @@ https://bklive-dtocnc-cdn.ysp.cctv.cn/CED558031C45A5D509E50DF83143BB67C9AC251DB8
 #EXTINF:-1 tvg-id="cctv5+" tvg-name="CCTV-5+" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV5+.png" group-title="央视",CCTV-5+
 https://hlsliveali-cdn.ysp.cctv.cn/4B28A31170BBFBCDCDEC5613922BA889B4CBE2AB67CEB7F9F39EF9EA288B725B5780E06BE656FA381CE84B4DCBA1C7DCEE4711E0A792DF4F2788318B4B2F748F71EE0F5293F19D37D6F8DE1285CDD26B02E182A8A4CD3F9523A9504B7EE62637ADC5D3564E82EC93F4FDF0F7D79C4C9F824E33913664D58DC7CF64D481BC99E71E3A4891CF4FB012D94A0CF770684AB6B5E2688B11C60F11375237875AE80DF8/2024078003.m3u8?from=player&svrtime=1795707933&pid=600001817&cdn=5506
 #EXTINF:-1 tvg-id="cctv6" tvg-name="CCTV-6" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV6.png" group-title="央视",CCTV-6
+https://mobilelive-cnc-cdn.ysp.cctv.cn/ysp/FADDD31120D501109A90A16AD087349D9A81069A42B1DB5D3B92A20A2BC0695AF7D6EB9E0A5D99D92B5BC3B42CAC5280FE5F6E3F2FDE660924CAE72CDC9B2B8E6E3F0E75559E4AFFC0400C3680F84023A750C46961B0E3D3B3D3A9B8AA28743B2D730A595C603AB8ECD025B3B27218F3A9332DAE4D445802B7DABBE4F84275E781AC3E35075777041282564964A9FB0665071C9F651A2CF82860F46B54F9B98E/2013693901_fhd.m3u8?svrtime=1795739445&pid=600108442&m3u8_with_time_tag=2&cdn=5203
+#EXTINF:-1 tvg-id="cctv6" tvg-name="CCTV-6" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV6.png" group-title="央视",CCTV-6
 https://mobilelive-cnc-cdn.ysp.cctv.cn/ysp/DF7928186689DDC111192924E5AB41EE5609EB815DA76507D0BD682C06615260729DC5F423F480DD99930CF7AAE18360AF6A6DDDB4C9790A0FCEE6268E2923501C6B3B9F22B6B4B0F8D83EFF40E169827D823F0276CF50CC40AE82119F367A5588E3A4B1E669C95F2B02D8F68C470E9A3A02242014704F1F8F509B3A43D0AD38E66C633F1963C6D47A16C209CB12BDCBBC38F6A0ED70B8F29A8C4852B6D88563/2013693901_fhd.m3u8?svrtime=1795728398&pid=600108442&m3u8_with_time_tag=2&cdn=5203
 #EXTINF:-1 tvg-id="cctv6" tvg-name="CCTV-6" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV6.png" group-title="央视",CCTV-6
 https://mobilelive-cnc-cdn.ysp.cctv.cn/ysp/BC6C0BB824D5C98447B93E84EF9427B2C8BE55B0CEE9582E0C0E799090AB6F1AB0B54DF99B77353A4F3B5B4EE6B2E583A2FEFFB3D07478995A585A339DBF3C7093050BE4B3B9B5533502C895C9D127A78EA818DD845C6FBBAAB9A6AA6ED1ACB8D0B166423409A0EB188480B00F85F53B4ACDD80375A776EBF95ECB464B20C57AA64B21C0E37428FC87C3D4C05E6C5B005CABA3B644C31EFAD7E6B0F18CB5FD3C/2013693901_fhd.m3u8?svrtime=1795709522&pid=600108442&m3u8_with_time_tag=2&cdn=5203
@@ -73,8 +75,6 @@ https://mobilelive-cnc-cdn.ysp.cctv.cn/ysp/BC6C0BB824D5C98447B93E84EF9427B2C8BE5
 https://mobileliveali-cdn.ysp.cctv.cn/ysp/EA3555797AD1EACCDEB98CFFDC6B871E34DB997F91691F2E51732A6B979163EE56F411F78C4F7529AD1A18A5903F6BC63A5C8AF448E73DE63EE7CA75437F01B74E1CB64A1143B51EB960078D40E7BF227C2832B98604A0E56C60D526934B29869875596234B07CE61C05EDE8C53A9CF592BBE714F118B7855A43F059C8049ACEFE2FAE2EB79DA409A95666D7CB4D395B6B1CCA8FE274255F51AC379248401631/2013693901_shd.m3u8?svrtime=1795701124&pid=600108442&m3u8_with_time_tag=2&cdn=5205
 #EXTINF:-1 tvg-id="cctv6" tvg-name="CCTV-6" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV6.png" group-title="央视",CCTV-6
 https://mobilelive-cnc-cdn.ysp.cctv.cn/ysp/A12F25BCCF21B4760D8D209F4E222674B5FBD5E1674CD975B41E73AEB32FF6E8A0AFD3C675AAC90266E985FE2A460A23F0F0CE8A56C1DF6BA5B1901813C1F7AA40D7B2E5885F4E8B3C3A28AE7284EC971F45BF97A158C21102F5BC4DE25976033B167328735D9BBDCB36B6F5E07F53A163536D9773E1429EA574EE26461EDB81F499EC4AE353417E22D008F0A87D9942E40B82F17ED71CFB81FF1216C30A1BAF/2013693901_fhd.m3u8?svrtime=1795737381&pid=600108442&m3u8_with_time_tag=2&cdn=5203
-#EXTINF:-1 tvg-id="cctv6" tvg-name="CCTV-6" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV6.png" group-title="央视",CCTV-6
-https://mobilelive-cnc-cdn.ysp.cctv.cn/ysp/664908BA3F8D523FC3C888025156F6DB534092F90EAD7E0919DBED12F291A58D788EE180CB2BAC629BFCC0F173C74E0F1D6A9D6856C7D6345DBEFE8B0C0113BF15B467D28AE950414F23622E5A85B7730F40E92FF5902D6CC1DC41DD52B9DBEDEB8401B32483FD51A840311DC329A0D25E84226DFDE861C0D168ECC96AF62C1EBAAF9BADFF74C2E351B5DEE1E74E5C6B74042B1ECAFA7978978C609196266025/2013693901_fhd.m3u8?svrtime=1795703569&pid=600108442&m3u8_with_time_tag=2&cdn=5203
 #EXTINF:-1 tvg-id="cctv7" tvg-name="CCTV-7" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV7.png" group-title="央视",CCTV-7
 https://outlivecloud-cdn.ysp.cctv.cn/DAAF1EC1E7C0279BD1C146BD353874E3A3EE5AF2C65C32D3F2AD65D5819AC87B324C6B802E976EC3E2F04EEFDFCC58D5186CCA6484317624E24F42C838D9B52C2A744685A1039E1E643F4278CED137681EFD9376060E126DCBBBA33D4B58FC5C3940BB456DABFCA1B094DA7891D3917954ADC9E830EFCA53D1D8BCDD45C9561F4761C74C255990F964DED4496FF133A6D12737F8B757A9E29AC4E08290F10DEF/2024072003.m3u8?from=player&svrtime=1795721206&pid=600004092&cdn=5401
 #EXTINF:-1 tvg-id="cctv7" tvg-name="CCTV-7" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV7.png" group-title="央视",CCTV-7
@@ -258,6 +258,8 @@ http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=0&authid=
 #EXTINF:-1 tvg-id="世界地理" tvg-name="世界地理" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/世界地理.png" group-title="央视系列",世界地理
 http://dassby.qqff.top:99/live/世界地理/index.m3u8
 #EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://live.fanmingming.cn/tv/CETV1.png" group-title="央视系列",中国教育1台
+https://mobilelive-cnc-cdn.ysp.cctv.cn/ysp/8BC68960DDD442882714C0CCF93CEAC118A1E7E13A78A5E875A44995BD55CDA18CC7E7D9CA7072610659D77065809560492CD3A650BD881B03A35514E9C4BAD6832320E6C2C4A2B859129B2C7EEFF382E559E5FC646108406DE3685DFD3673A50BABB24DE6BD1AAB84B53F47AF0491CD9AC1A285F6F9E8C0FCCA0D67669A69E9C29C4282A9787800994F731874848A65B55F4A3B0F1C97637CDBAD312964232B/2022823801_fhd.m3u8?svrtime=1795739446&pid=600171827&m3u8_with_time_tag=2&cdn=5203
+#EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://live.fanmingming.cn/tv/CETV1.png" group-title="央视系列",中国教育1台
 https://mobilelive-cnc-cdn.ysp.cctv.cn/ysp/C4B931FF7322DF741594C6DB5C7581D4AC91F16AA2C01E4031632BD2AC2ECD2824C1BCE781255B443DBC2D74FEB5B8F6870F19E6EC74B26A00B375E666C89A8697BDFF034F47F1811F0FC7E736091CACB70543BB0F05BB6D62A645BD58EF5CA0E2EFE724D0A09029ED39AD2C52D5A2559AD3270E77CE7FAC8226AAC158D5E6827D308F82217BEE8E348D48D04CB67240883D30684FEBD97C60846C70AB6D3AB8/2022823801_fhd.m3u8?svrtime=1795728400&pid=600171827&m3u8_with_time_tag=2&cdn=5203
 #EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://live.fanmingming.cn/tv/CETV1.png" group-title="央视系列",中国教育1台
 https://mobilelive-cnc-cdn.ysp.cctv.cn/ysp/F9D318E9FCA8721C5D5C2325CC6ED629DBF7BACA3F33ED59122F3DAD25748FE711A36D1F32FE66907A0361BFF5C6BC66CEB11AE61B2BE3BAB5E42FBDF45AD37DC536995801EE47382F85EEF396FCC6677D62DC99EAD14E7A42081BB46769123C579BF9F3350549A2962176C430711CDE3ED4E0BEFF7CBACFD1E6D2B4480D405E48EEDA2A3D7799A39A206D1BA3FE8BD3334617B4601DDDA7FFE1525D7ECF019E/2022823801_fhd.m3u8?svrtime=1795709523&pid=600171827&m3u8_with_time_tag=2&cdn=5203
@@ -265,8 +267,6 @@ https://mobilelive-cnc-cdn.ysp.cctv.cn/ysp/F9D318E9FCA8721C5D5C2325CC6ED629DBF7B
 https://bkmobilelive-cnc-cdn.ysp.cctv.cn/ysp/F9D318E9FCA8721C5D5C2325CC6ED629DBF7BACA3F33ED59122F3DAD25748FE711A36D1F32FE66907A0361BFF5C6BC66CEB11AE61B2BE3BAB5E42FBDF45AD37DC536995801EE47382F85EEF396FCC6677D62DC99EAD14E7A42081BB46769123C579BF9F3350549A2962176C430711CDE3ED4E0BEFF7CBACFD1E6D2B4480D405E48EEDA2A3D7799A39A206D1BA3FE8BD3334617B4601DDDA7FFE1525D7ECF019E/2022823801_fhd.m3u8?svrtime=1795709523&pid=600171827&m3u8_with_time_tag=2&cdn=5203
 #EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://live.fanmingming.cn/tv/CETV1.png" group-title="央视系列",中国教育1台
 https://mobileliveali-cdn.ysp.cctv.cn/ysp/6255F1E74B0DAFFDBBE3DDA1D2641B777B5F0B94DE82487270E19AAC09876309F4DC6777F9FF44D633BA65070BDA3310C84BD849D44F2CEA6C0A2CA885639ECA04D8D5D27A26A32D913FB8B9E70351D5D1CBAA1998EF390D3E102A17DBEB5E4DB7CD4D2D4E3A242B5FA372F05D27A7CED0C08AE5013F879BC378EAA54F0EFF1BBD4322078432841020870D88DEACFD37D12380D40DAF9FD271A8449F680C7B5D/2022823801_fhd.m3u8?svrtime=1795703570&pid=600171827&m3u8_with_time_tag=2&cdn=5205
-#EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://live.fanmingming.cn/tv/CETV1.png" group-title="央视系列",中国教育1台
-https://bkmobilelive-cnc-cdn.ysp.cctv.cn/ysp/869DFE05A5466F7311EF4A472F08DDF61038AB21873C9B4C13D9B9D75F3A0E5A540F289685F926CEF3678B8DF318F06AC41EF4864343B38254610EE81FDF6F062C9715B74FD6DBB0F40534B96FC807956CDAEEA4A74FF3E3A935EF2FC82B1B2DD2050CFBCBBB4F68AFF61AB52A59EC602E0B5C247C7CBBD0C61D12A7EE5FB5D2D1BDB7D8DC06E300BEAB8CC1D5A13038B38922EF77A608B93BE456583131920D/2022823801_fhd.m3u8?svrtime=1795724906&pid=600171827&m3u8_with_time_tag=2&cdn=5203
 #EXTINF:-1 tvg-id="卫生健康" tvg-name="卫生健康" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/卫生健康.png" group-title="央视系列",卫生健康
 http://38.75.136.137:98/gslb/dsdqpub/wsjk.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="四海钓鱼" tvg-name="四海钓鱼" group-title="央视系列",四海钓鱼
@@ -546,7 +546,7 @@ https://outlivecloud-cdn.ysp.cctv.cn/D79B221F09C6686F4E8FC0AA8D43D16FD45FA490DC7
 #EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/海南卫视.png" group-title="卫视",海南卫视
 https://outlivecloud-cdn.ysp.cctv.cn/970FF852A3C95A3ECE335745820B9D6A3FF0A3D68093F251C467871D69BF189EA7E502B7592E70C29C64941D195B9EFCE4891D979B0E4C43FFA43147BCFB09A37C729E0C236DF2F5FED52A1B48D859459A14E94E28D741FAB17FDDE423B110D1D13F8806BE48FF91D61D6F41AA60F07426146E95777C6BFE0C1DE6C237C32EF06ADE8EF35F4B79BB557460D1DFDD9997F49B847E1555B75D813A5061FEFB6454/2024055603.m3u8?from=player&svrtime=1795737382&pid=600002506&cdn=5401
 #EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/海南卫视.png" group-title="卫视",海南卫视
-https://outlivecloud-cdn.ysp.cctv.cn/B9CCBB11F7E27D37846BD1B2B918E3F9C709047D770C713497DF7DFDCB8993DA4301A19BB422B2604CBF380806BE6DAAB17E480A5FC97F2ABD521A77A3C130DBF5F153683781FCFB6DCFF9D6C6092DE06DA6CAE587D6E911B9368AE1D63AC1E57FD446877AF777CA795E77D2A847B26F33FEAD447750B6D67EE8E697B0137A5EFB41EF3AB343D986BBB736557BC74EDC740567EB4D0FF29B02AC6C92BD160400/2024055603.m3u8?from=player&svrtime=1795713428&pid=600002506&cdn=5401
+https://outlivecloud-cdn.ysp.cctv.cn/8E0ABF4930ACF43E12307CD41C73FFD01ADFF0D086FCDE659E46D9D7AE43B8CEBF9D90CA2C5DC70EBB2044B88525E329228A1A3A911233206FDB1D3C3280ACD951540B12E27B357B64628A7D36003FB0EF2BE1B2B301986410F9FA6B6D11FDA16472E0BDD40AC51E7C2552D0056C22A1AA2C9B314DC7A642C48FBE43B9BEE8193F888669725D11256373EABDBA8365C56436B053D23858FB1F110420F71760A0/2024055603.m3u8?from=player&svrtime=1795739447&pid=600002506&cdn=5401
 #EXTINF:-1 tvg-id="海峡卫视" tvg-name="海峡卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/海峡卫视.png" group-title="卫视",海峡卫视
 http://8.138.7.223/tv/hxws.m3u8
 #EXTINF:-1 tvg-id="海峡卫视" tvg-name="海峡卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/海峡卫视.png" group-title="卫视",海峡卫视
@@ -895,7 +895,7 @@ http://3gvod.zjgonline.com.cn:1935/live/_definst_/shehuishenghuo_app/chunklist.m
 http://live.xysrmt.cn/xwzh/sd/live.m3u8?zjiangsd"
 #EXTINF:-1 tvg-id="新沂生活" tvg-name="新沂生活" tvg-logo="https://www.xn--rgv465a.top/tvlogo/新沂生活.png" group-title="江苏",新沂生活
 http://live.xysrmt.cn/shpd/sd/live.m3u8?zjiangsd
-#EXTINF:-1 tvg-id="武进新闻" tvg-name="武进新闻" group-title="江苏",武进新闻
+#EXTINF:-1 tvg-id="武进新闻" tvg-name="武进新闻" tvg-logo="https://livecdn.zbds.org/logo/武进新闻.png" group-title="江苏",武进新闻
 https://live.wjyanghu.com/live/CH1.m3u8
 #EXTINF:-1 tvg-id="武进生活" tvg-name="武进生活" tvg-logo="https://www.xn--rgv465a.top/tvlogo/武进生活.png" group-title="江苏",武进生活
 https://live.wjyanghu.com/live/CH2.m3u8
@@ -1235,7 +1235,7 @@ https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=439b0fd2cf766b363c93a59c
 http://r.jdshipin.com/iR6Gq
 #EXTINF:-1 tvg-id="广州综合" tvg-name="广州综合" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/广州综合.png" group-title="广东",广州综合
 http://r.jdshipin.com/snhya
-#EXTINF:-1 tvg-id="潮州公共" tvg-name="潮州公共" tvg-logo="https://www.helloimg.com/i/2024/10/10/6707defb7b984.png" group-title="广东",潮州公共
+#EXTINF:-1 tvg-id="潮州公共" tvg-name="潮州公共" tvg-logo="https://i.imgur.com/8YIrgB7.png" group-title="广东",潮州公共
 http://113.64.146.48:1688/hls/4/index.m3u8
 #EXTINF:-1 tvg-id="龙门飞甲" tvg-name="龙门飞甲" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/电影.png" group-title="广东",龙门飞甲
 http://jsmov2.a.yximgs.com/bs3/video-hls/5203346449046555193_hlsb.m3u8
@@ -1501,7 +1501,7 @@ https://stream2.jlntv.cn/baicheng1/sd/live.m3u8
 https://pili-live-hls-zdzz-tv.zzxwcm.cn/zdzz-tv/nqzh.m3u8
 #EXTINF:-1 tvg-id="台视新闻" tvg-name="台视新闻" tvg-logo="https://live.fanmingming.cn/tv/台视新闻.png" group-title="台湾",台视新闻
 http://38.64.72.148/hls/modn/list/4013/chunklist1.m3u8
-#EXTINF:-1 tvg-id="民视新闻台" tvg-name="民视新闻台" tvg-logo="https://live.fanmingming.cn/tv/民视新闻台.png" group-title="台湾",民视新闻台
+#EXTINF:-1 tvg-id="民视新闻台" tvg-name="民视新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/FTVNews.png" group-title="台湾",民视新闻台
 http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
 #EXTINF:-1 tvg-id="纬来体育" tvg-name="纬来体育" tvg-logo="https://www.xn--rgv465a.top/tvlogo/纬来体育.png" group-title="台湾",纬来体育
 https://epg.pw/stream/ab6df63b64d0cc44a1f4f029ed847a26fa54a7aebd455578fb05a63f02c22f4b.m3u8
@@ -1545,7 +1545,7 @@ http://120.76.248.139/live/bfgd/4200000158.m3u8
 https://fastlive.cctvplus.com/out/v1/ca6f9297b7314a63959435028af287fc/index.m3u8
 #EXTINF:-1 tvg-id="中国蓝新闻" tvg-name="中国蓝新闻" tvg-logo="https://www.xn--rgv465a.top/tvlogo/中国蓝新闻.png" group-title="网络",中国蓝新闻
 http://ali-m-l.cztv.com/channels/lantian/channel009/1080p.m3u8
-#EXTINF:-1 tvg-id="亚洲新闻台" tvg-name="亚洲新闻台" tvg-logo="https://live.fanmingming.com/tv/亞洲新聞台.png" group-title="网络",亚洲新闻台
+#EXTINF:-1 tvg-id="亚洲新闻台" tvg-name="亚洲新闻台" tvg-logo="https://www.hualigs.cn/image/61554efc526e7.jpg" group-title="网络",亚洲新闻台
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
 #EXTINF:-1 tvg-id="人在囧途" tvg-name="人在囧途" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/电影.png" group-title="网络",人在囧途
 https://vip.ffzy-play.com/20221018/1953_2d6ba500/index.m3u8
@@ -1607,7 +1607,7 @@ https://liveprodeuwest.akamaized.net/eu1/Channel-EUTVqvs-AWS-ireland-1/Source-EU
 https://liveprodeuwest.akamaized.net/eu1/Channel-EUTVqvs-AWS-ireland-1/Source-EUTVqvs-1000-1_live.m3u8
 #EXTINF:-1 tvg-id="彭博亚洲" tvg-name="彭博亚洲" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/BloombergTV.png" group-title="网络",彭博亚洲
 https://epg.pw/stream/d2edf469b9079064a283f4b0811cbf6f2597ebbb3d08dcf77036a4b5a791b7cf.m3u8
-#EXTINF:-1 tvg-id="德国之声" tvg-name="德国之声" tvg-logo="https://live.fanmingming.com/tv/DW.png" group-title="网络",德国之声
+#EXTINF:-1 tvg-id="德国之声" tvg-name="德国之声" tvg-logo="https://www.hualigs.cn/image/6155941083b2a.jpg" group-title="网络",德国之声
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 tvg-id="我不是药神" tvg-name="我不是药神" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/电影.png" group-title="网络",我不是药神
 https://vip.ffzy-play1.com/20221018/478_c3afed66/index.m3u8
