@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated": "2026-11-27T08:30:44+08:00",
+ "updated": "2026-11-27T09:58:01+08:00",
  "repos": [
   "vbskycn/iptv",
   "fanmingming/live",
@@ -223,6 +223,28 @@
    "fail_count": 0
   },
   {
+   "url": "http://222.169.85.8:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "enabled": true,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T09:58:01+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://222.169.85.8:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "enabled": true,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-27T09:58:01+08:00",
+   "fail_count": 0
+  },
+  {
    "url": "http://222.169.85.8:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0",
    "enabled": true,
    "items": 1,
@@ -290,7 +312,7 @@
   },
   {
    "url": "http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u",
-   "enabled": true,
+   "enabled": false,
    "items": 1,
    "from_repo": "vbskycn/iptv",
    "from_file": "tv/iptv4.txt",
@@ -301,7 +323,7 @@
   },
   {
    "url": "http://61.221.215.25:8800/hls/49/index.m3u8",
-   "enabled": true,
+   "enabled": false,
    "items": 1,
    "from_repo": "vbskycn/iptv",
    "from_file": "tv/iptv4.m3u",
