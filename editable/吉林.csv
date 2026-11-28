@@ -1,6 +1,6 @@
 ﻿分组,频道名称-维护,频道名称-源名,线路数,存活,失效,官方,最佳线路,ID,UID
 吉林,东丰,东丰,1,1,0,1,http://stream5.jlntv.cn/df/sd/live.m3u8?zjild,东丰,3ad40e6005
-吉林,九台,九台,1,1,0,1,http://stream10.jlntv.cn/jiutaitv/sd/live.m3u8?zjild,九台,50e4dbc49d
+吉林,九台综合,九台综合,1,1,0,1,http://stream10.jlntv.cn/jiutaitv/sd/live.m3u8,九台综合,8f8e8056c4
 吉林,前郭综合,前郭综合,1,1,0,1,https://stream2.jlntv.cn/qg/sd/live.m3u8,前郭综合,383ef46b67
 吉林,双辽,双辽,1,1,0,1,http://stream5.jlntv.cn/sl/sd/live.m3u8?zjild,双辽,4658100ea4
 吉林,吉林乡村,吉林乡村,1,1,0,0,https://satellitepull.cnr.cn/live/wxjlxcgb/playlist.m3u8,吉林乡村,265c9e1642
