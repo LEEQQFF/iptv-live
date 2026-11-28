@@ -1,32 +1,32 @@
 ﻿分组,频道名称-维护,频道名称-源名,线路数,存活,失效,官方,最佳线路,ID,UID
 吉林,东丰,东丰,1,1,0,1,http://stream5.jlntv.cn/df/sd/live.m3u8?zjild,东丰,3ad40e6005
 吉林,九台,九台,1,1,0,1,http://stream10.jlntv.cn/jiutaitv/sd/live.m3u8?zjild,九台,50e4dbc49d
-吉林,前郭综合,前郭综合,1,1,0,1,https://stream2.jlntv.cn/qg/sd/live.m3u8,前郭综合,383ef46b67
+吉林,前郭综合,前郭综合 [Geo-blocked],1,1,0,1,https://stream2.jlntv.cn/qg/sd/live.m3u8,前郭综合,383ef46b67
 吉林,双辽,双辽,1,1,0,1,http://stream5.jlntv.cn/sl/sd/live.m3u8?zjild,双辽,4658100ea4
 吉林,吉林乡村,吉林乡村,1,1,0,0,https://satellitepull.cnr.cn/live/wxjlxcgb/playlist.m3u8,吉林乡村,265c9e1642
-吉林,吉林市新闻综合,吉林市新闻综合,1,1,0,1,https://stream2.jlntv.cn/jilin1/sd/live.m3u8,吉林市新闻综合,7493305dc1
+吉林,吉林市新闻综合,吉林市新闻综合 [Geo-blocked],1,1,0,1,https://stream2.jlntv.cn/jilin1/sd/live.m3u8,吉林市新闻综合,7493305dc1
 吉林,吉林都市,吉林都市,1,0,1,0,,吉林都市,161ac2502f
-吉林,四平新闻综合,四平新闻综合,1,1,0,1,https://stream2.jlntv.cn/sptv/sd/live.m3u8,四平新闻综合,2e68c784b5
+吉林,四平新闻综合,四平新闻综合 [Geo-blocked],1,1,0,1,https://stream2.jlntv.cn/sptv/sd/live.m3u8,四平新闻综合,2e68c784b5
 吉林,延边2,延边2,1,1,0,1,http://stream5.jlntv.cn/wq/playlist.m3u8,延边2,aa51a5fd5c
 吉林,德惠综合,德惠综合,1,1,0,1,http://stream11.jlntv.cn/dehuitv/sd/live.m3u8,德惠综合,825f5adfcb
 吉林,敦化一套,敦化一套,1,1,0,1,http://stream8.jlntv.cn/dhtv/playlist.m3u8,敦化一套,bcf2237abf
-吉林,松原新闻综合,松原新闻综合,1,1,0,1,https://stream2.jlntv.cn/sytv/sd/live.m3u8,松原新闻综合,613f6c2299
+吉林,松原新闻综合,松原新闻综合 [Geo-blocked],1,1,0,1,https://stream2.jlntv.cn/sytv/sd/live.m3u8,松原新闻综合,613f6c2299
 吉林,柳河,柳河,1,1,0,1,http://stream5.jlntv.cn/lh/sd/live.m3u8?zjild,柳河,8022834285
 吉林,桦甸,桦甸,1,1,0,1,http://stream10.jlntv.cn/huadian/sd/live.m3u8?zjild,桦甸,1645c7f81a
 吉林,汪清综合,汪清综合,1,1,0,1,http://stream5.jlntv.cn/wq/sd/live.m3u8,汪清综合,5916bc88b1
 吉林,珲春新闻,珲春新闻,1,1,0,1,http://stream8.jlntv.cn/hctv/sd/live.m3u8?zjild,珲春新闻,c8b1a13424
 吉林,珲春新闻综合,珲春新闻综合,1,0,1,0,,珲春新闻综合,c7b6bc1eb9
 吉林,白山公共,白山公共,1,1,0,1,http://stream8.jlntv.cn/baishan2/playlist.m3u8?zjild,白山公共,cdd1f3d6f3
-吉林,白山新闻综合,白山新闻综合,1,1,0,1,https://stream2.jlntv.cn/baishan1/sd/live.m3u8,白山新闻综合,b72c2f9327
+吉林,白山新闻综合,白山新闻综合 [Geo-blocked],1,1,0,1,https://stream2.jlntv.cn/baishan1/sd/live.m3u8,白山新闻综合,b72c2f9327
 吉林,磐石,磐石,1,1,0,1,http://stream5.jlntv.cn/ps/sd/live.m3u8?zjild,磐石,38d2225ca7
 吉林,舒兰新闻综合,舒兰新闻综合,1,1,0,1,http://stream8.jlntv.cn/shulan/sd/live.m3u8?_upt=332db6421699196585,舒兰新闻综合,60ed50ac15
 吉林,辉南新闻综合,辉南新闻综合,1,1,0,1,http://stream5.jlntv.cn/hn/sd/live.m3u8,辉南新闻综合,045454fd21
-吉林,辽源新闻综合,辽源新闻综合,1,1,0,1,https://stream2.jlntv.cn/liaoyuan1/sd/live.m3u8,辽源新闻综合,c2a8c4eeff
+吉林,辽源新闻综合,辽源新闻综合 [Geo-blocked],1,1,0,1,https://stream2.jlntv.cn/liaoyuan1/sd/live.m3u8,辽源新闻综合,c2a8c4eeff
 吉林,通化,Tonghua TV (1080p),3,1,2,2,http://139.211.217.79:9004/hls/75/index.m3u8,通化,d69d5801cb
 吉林,通化县,通化县,1,1,0,1,http://stream5.jlntv.cn/thx/sd/live.m3u8?zjild,通化县,d749f9f2a5
-吉林,通化新闻,通化新闻,1,1,0,1,https://stream2.jlntv.cn/tonghua1/sd/live.m3u8,通化新闻,b832b7077a
-吉林,长春综合,长春综合,1,1,0,1,https://stream2.jlntv.cn/jlcc/sd/live.m3u8,长春综合,993e8bffe3
+吉林,通化新闻,通化新闻 [Geo-blocked],1,1,0,1,https://stream2.jlntv.cn/tonghua1/sd/live.m3u8,通化新闻,b832b7077a
+吉林,长春综合,长春综合 [Geo-blocked],1,1,0,1,https://stream2.jlntv.cn/jlcc/sd/live.m3u8,长春综合,993e8bffe3
 吉林,长白山电视台,长白山电视台,1,1,0,1,http://stream8.jlntv.cn/cbstv/sd/live.m3u8?zjild,长白山,4ef87165ff
-吉林,集安综合,集安综合,1,1,0,1,https://stream2.jlntv.cn/ja/sd/live.m3u8,集安综合,c272cffdbe
+吉林,集安综合,集安综合 [Geo-blocked],1,1,0,1,https://stream2.jlntv.cn/ja/sd/live.m3u8,集安综合,c272cffdbe
 吉林,靖宇,靖宇,1,1,0,1,http://stream8.jlntv.cn/jytv/sd/live.m3u8?zjild,靖宇,085ea17859
 吉林,龙井,龙井,1,1,0,1,http://stream8.jlntv.cn/ljtv/sd/live.m3u8?zjild,龙井,5a7ad6c2f3
