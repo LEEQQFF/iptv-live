@@ -2,14 +2,14 @@
 ##EXT-X-VERSION:3
 #EXT-X-ALLOW-CACHE:YES
 #EXT-X-TARGETDURATION:6
-#EXT-X-MEDIA-SEQUENCE:30231008
+#EXT-X-MEDIA-SEQUENCE:30231709
 #EXTINF:5, no desc
-live_1008_1_30231004.ts?key=txiptv&key2=30231004
+live_1008_1_30231705.ts?key=txiptv&key2=30231705
 #EXTINF:5, no desc
-live_1008_1_30231005.ts?key=txiptv&key2=30231005
+live_1008_1_30231706.ts?key=txiptv&key2=30231706
 #EXTINF:5, no desc
-live_1008_1_30231006.ts?key=txiptv&key2=30231006
+live_1008_1_30231707.ts?key=txiptv&key2=30231707
 #EXTINF:5, no desc
-live_1008_1_30231007.ts?key=txiptv&key2=30231007
+live_1008_1_30231708.ts?key=txiptv&key2=30231708
 #EXTINF:5, no desc
-live_1008_1_30231008.ts?key=txiptv&key2=30231008
+live_1008_1_30231709.ts?key=txiptv&key2=30231709
