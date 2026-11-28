@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T21:27:25+08:00",
+ "updated": "2026-11-28T22:25:05+08:00",
  "mode": "light",
  "repos": [
   "vbskycn/iptv",
@@ -14,7 +14,7 @@
  "fail_samples": [
   {
    "url": "http://116.90.120.151:8000/play/a0ax/index.m3u8",
-   "reason": "ConnectTimeout",
+   "reason": "ConnectionError",
    "from_repo": "iptv-org/iptv"
   },
   {
