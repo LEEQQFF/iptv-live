@@ -127,7 +127,7 @@
 网络,IHOT爱都市,IHOT爱都市,2,0,2,0,,ihot爱都市,c9f7c9c3ab
 网络,IHOT爱青春,IHOT爱青春,2,0,2,0,,ihot爱青春,550ffb3a14
 网络,iNews新闻台,iNews新闻台,1,0,1,0,,inews新闻台,90c856208f
-网络,ION,Dubai One,5,1,4,0,http://hwapi.yntv.net/ew265l/848y54.m3u8,ion,1742568b4e
+网络,ION,Chuxiong News Channel [Not 24/7],5,1,4,0,http://hwapi.yntv.net/ew265l/848y54.m3u8,ion,d630d5cc06
 网络,ION Plus,ION Plus,1,0,1,0,,ionplus,6a2c5b836f
 网络,IPTV4K,IPTV4K,1,0,1,0,,iptv4k,5e523393f5
 网络,J2,J2,3,0,3,0,,j2,4bd9fcd659
@@ -275,7 +275,7 @@
 网络,中国,直播中国,1,0,1,0,,中国,185e1a6bb9
 网络,中国交通,中国交通,1,0,1,0,,中国交通,dd1f847137
 网络,中国功夫,中国功夫,2,0,2,0,,中国功夫,9d6e59d6fd
-网络,中国天气,中国天气,2,0,2,0,,中国天气,d96365fa68
+网络,中国天气,中国天气,1,0,1,0,,中国天气,ee1517e6a1
 网络,中国旅游,中国旅游,1,1,0,1,https://fastlive.cctvplus.com/out/v1/ca6f9297b7314a63959435028af287fc/index.m3u8,中国旅游,8f38e39c39
 网络,中国蓝新闻,中国蓝新闻,1,1,0,1,http://ali-m-l.cztv.com/channels/lantian/channel009/1080p.m3u8,中国蓝新闻,ace5cbd690
 网络,乌龙闯情关,乌龙闯情关,2,0,2,0,,乌龙闯情关,4101661c4d
@@ -290,7 +290,7 @@
 网络,人在囧途之泰囧,人在囧途之泰囧,1,1,0,0,https://vip.ffzy-play.com/20221018/1951_47e1adc8/index.m3u8,人在囧途之泰囧,23307d1f85
 网络,人在囧途之港囧,人在囧途之港囧,1,1,0,0,https://vip.ffzy-play7.com/20230112/11082_fde1a94d/index.m3u8,人在囧途之港囧,0c56779865
 网络,人文纪录,Documentary Humanities Channel (1080p),1,0,1,0,,人文纪录,4b2fc9466c
-网络,今日俄罗斯,RT DE,13,2,11,0,https://rt-srb.rttv.com/dvr/rtbalkan/playlist_4500Kb.m3u8,今日俄罗斯,57e4df29f3
+网络,今日俄罗斯,BRTV Kaku Childrens Channel,13,2,11,0,https://rt-srb.rttv.com/dvr/rtbalkan/playlist_4500Kb.m3u8,今日俄罗斯,37db48d59f
 网络,今日俄罗斯新闻,RT News,1,0,1,0,,今日俄罗斯新闻,063a514f2b
 网络,今日俄罗斯法语,RT Français,1,1,0,0,https://rt-fra.rttv.com/dvr/rtfrance/playlist_4500Kb.m3u8,今日俄罗斯法语,031f570dbc
 网络,今日俄罗斯纪录,RT Documentary,2,2,0,0,https://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8,今日俄罗斯纪录,c833cc7ba7

@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://leeqqff.github.io/iptv-live/e.xml" url-tvg="https://leeqqff.github.io/iptv-live/e.xml"
 # 订阅名称：iptv-live 24小时滚动维护频道库
-# 生成时间：2026-11-28T08:37:49+08:00
+# 生成时间：2026-11-28T10:03:01+08:00
 # 链条：多源聚合 -> 去重 -> 央视/卫视/省级/网络归类 -> 严格检活 -> 官方源置顶
 # 源数量：58；过滤：仅存活线路
 
@@ -267,7 +267,7 @@ https://mobilelive-cnc-cdn.ysp.cctv.cn/ysp/C4B931FF7322DF741594C6DB5C7581D4AC91F
 https://mobilelive-cnc-cdn.ysp.cctv.cn/ysp/F9D318E9FCA8721C5D5C2325CC6ED629DBF7BACA3F33ED59122F3DAD25748FE711A36D1F32FE66907A0361BFF5C6BC66CEB11AE61B2BE3BAB5E42FBDF45AD37DC536995801EE47382F85EEF396FCC6677D62DC99EAD14E7A42081BB46769123C579BF9F3350549A2962176C430711CDE3ED4E0BEFF7CBACFD1E6D2B4480D405E48EEDA2A3D7799A39A206D1BA3FE8BD3334617B4601DDDA7FFE1525D7ECF019E/2022823801_fhd.m3u8?svrtime=1795709523&pid=600171827&m3u8_with_time_tag=2&cdn=5203
 #EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CETV-1.png" group-title="央视系列",中国教育1台
 https://mobilelive-cnc-cdn.ysp.cctv.cn/ysp/08EF9322B1C67CFFA15BE628F06861E5549548B43C4189B2C8F24303AB42DA39AECF94218720F3B3626680FE29EFB610914A4E78B1212187AC5152328F424E550C4F17757B0A5981A54BE3C1ABBAD0F8BD93F7074F9FD7579B08DAB2C2BAA675B622BEC32637FDED81754B22A1800CE2CAEEC1544DFB9D4926CB05E822F4BA27D1F17D94810947926AE6858DEDFAFC79BEC92171E34E0A32E435A0E71776ADDF/2022823801_fhd.m3u8?svrtime=1795808682&pid=600171827&m3u8_with_time_tag=2&cdn=5203
-#EXTINF:-1 tvg-id="卫生健康" tvg-name="卫生健康" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/卫生健康.png" group-title="央视系列",卫生健康
+#EXTINF:-1 tvg-id="卫生健康" tvg-name="卫生健康" tvg-logo="https://i.imgur.com/AzpRtCz.png" group-title="央视系列",卫生健康
 http://38.75.136.137:98/gslb/dsdqpub/wsjk.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="四海钓鱼" tvg-name="四海钓鱼" group-title="央视系列",四海钓鱼
 http://120.76.248.139/live/bfgd/4200000229.m3u8
@@ -331,15 +331,15 @@ https://outlivecloud-cdn.ysp.cctv.cn/BD4D5B30C4DA320AEA1F9A5DED4A642BDED558DA40F
 http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
 #EXTINF:-1 tvg-id="人间卫视" tvg-name="人间卫视" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/BLTV.png" group-title="卫视",人间卫视
 https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/chunklist_w511254805.m3u8
-#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/兵团卫视.png" group-title="卫视",兵团卫视
+#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://i.imgur.com/Y4qxDqz.png" group-title="卫视",兵团卫视
 http://221.7.175.154:8445/tsfile/live/0115_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/兵团卫视.png" group-title="卫视",兵团卫视
+#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://i.imgur.com/Y4qxDqz.png" group-title="卫视",兵团卫视
 http://222.71.55.147:9901/tsfile/live/0115_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/兵团卫视.png" group-title="卫视",兵团卫视
+#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://i.imgur.com/Y4qxDqz.png" group-title="卫视",兵团卫视
 http://107.150.60.122/live/btws.m3u8
-#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/兵团卫视.png" group-title="卫视",兵团卫视
+#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://i.imgur.com/Y4qxDqz.png" group-title="卫视",兵团卫视
 http://218.13.170.98:9901/tsfile/live/0115_1.m3u8
-#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/兵团卫视.png" group-title="卫视",兵团卫视
+#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://i.imgur.com/Y4qxDqz.png" group-title="卫视",兵团卫视
 http://61.138.99.166:10080/hls/89/index.m3u8
 #EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/内蒙古卫视.png" group-title="卫视",内蒙古卫视
 https://outlivecloud-cdn.ysp.cctv.cn/A9D36E4B2D230F7C205B72F5916FD2302D0C159F5A75BE6AD0A6A4FE87F8A08C52403D843E199E4D72E5059071F7EA37532A8063EB0A897606F2C6AE7CF0C9DF4F63C918340FD6D1D2D9D9D52AE929EA43DABF7D9E4EEFB1E912C244AE344242E7439BC6CFC3F00E046093E5B2BEA14E817600A8D8AE8DBD1B67635B08537ACB6281A7E38EBD3967CE621E8DE3461C010F469D11394D1E8E3FE7D8EC971F9F69/2025561203.m3u8?from=player&svrtime=1795822807&pid=600190401&cdn=5401
@@ -1485,9 +1485,9 @@ http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 http://38.64.72.148/hls/modn/list/4005/chunklist0.m3u8
 #EXTINF:-1 tvg-id="tvbs" tvg-name="TVBS" tvg-logo="https://www.xn--rgv465a.top/tvlogo/TVBS亚洲.png" group-title="香港",TVBS
 http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8
-#EXTINF:-1 tvg-id="tvb翡翠" tvg-name="TVB翡翠" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/TVB Plus.png" group-title="香港",TVB翡翠
+#EXTINF:-1 tvg-id="tvb翡翠" tvg-name="TVB翡翠" tvg-logo="https://i.imgur.com/896132Z.png" group-title="香港",TVB翡翠
 https://chibrics.mediacdn.ru/cdn/brics/chinese/playlist.m3u8
-#EXTINF:-1 tvg-id="tvb翡翠" tvg-name="TVB翡翠" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/TVB Plus.png" group-title="香港",TVB翡翠
+#EXTINF:-1 tvg-id="tvb翡翠" tvg-name="TVB翡翠" tvg-logo="https://i.imgur.com/896132Z.png" group-title="香港",TVB翡翠
 http://r.jdshipin.com/ndGgS
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://www.xn--rgv465a.top/tvlogo/凤凰中文.png" group-title="香港",凤凰中文
 http://119.125.131.84:9901/tsfile/live/1036_1.m3u8?key=txiptv&playlive=1&down=1
@@ -1575,9 +1575,9 @@ https://vip.ffzy-play.com/20221018/1953_2d6ba500/index.m3u8
 https://vip.ffzy-play.com/20221018/1951_47e1adc8/index.m3u8
 #EXTINF:-1 tvg-id="人在囧途之港囧" tvg-name="人在囧途之港囧" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/电影.png" group-title="网络",人在囧途之港囧
 https://vip.ffzy-play7.com/20230112/11082_fde1a94d/index.m3u8
-#EXTINF:-1 tvg-id="今日俄罗斯" tvg-name="今日俄罗斯" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/tvlog/RT德国.png" group-title="网络",今日俄罗斯
+#EXTINF:-1 tvg-id="今日俄罗斯" tvg-name="今日俄罗斯" tvg-logo="https://i.imgur.com/t8X4wPZ.png" group-title="网络",今日俄罗斯
 https://rt-srb.rttv.com/dvr/rtbalkan/playlist_4500Kb.m3u8
-#EXTINF:-1 tvg-id="今日俄罗斯" tvg-name="今日俄罗斯" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/tvlog/RT德国.png" group-title="网络",今日俄罗斯
+#EXTINF:-1 tvg-id="今日俄罗斯" tvg-name="今日俄罗斯" tvg-logo="https://i.imgur.com/t8X4wPZ.png" group-title="网络",今日俄罗斯
 https://rt-ger.rttv.com/dvr/rtdeutsch/playlist_4500Kb.m3u8
 #EXTINF:-1 tvg-id="今日俄罗斯法语" tvg-name="今日俄罗斯法语" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/tvlog/RT.png" group-title="网络",今日俄罗斯法语
 https://rt-fra.rttv.com/dvr/rtfrance/playlist_4500Kb.m3u8
