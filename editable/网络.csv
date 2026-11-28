@@ -127,7 +127,7 @@
 网络,IHOT爱都市,IHOT爱都市,2,0,2,0,,ihot爱都市,c9f7c9c3ab
 网络,IHOT爱青春,IHOT爱青春,2,0,2,0,,ihot爱青春,550ffb3a14
 网络,iNews新闻台,iNews新闻台,1,0,1,0,,inews新闻台,90c856208f
-网络,ION,Chuxiong News Channel [Not 24/7],5,1,4,0,http://hwapi.yntv.net/ew265l/848y54.m3u8,ion,d630d5cc06
+网络,ION,Chuxiong News Channel [Not 24/7],6,1,5,0,http://hwapi.yntv.net/ew265l/848y54.m3u8,ion,d630d5cc06
 网络,ION Plus,ION Plus,1,0,1,0,,ionplus,6a2c5b836f
 网络,IPTV4K,IPTV4K,1,0,1,0,,iptv4k,5e523393f5
 网络,J2,J2,3,0,3,0,,j2,4bd9fcd659
@@ -335,7 +335,7 @@
 网络,变形金刚合集,变形金刚合集,1,0,1,0,,变形金刚合集,746b5d59e4
 网络,古装剧场,古装剧场,2,0,2,0,,古装剧场,d59a5b7a6a
 网络,古装武侠,古装武侠,1,0,1,0,,古装武侠,9fdab258a5
-网络,台球,央视台球,6,1,5,0,http://dassby.qqff.top:99/live/央视台球/index.m3u8,台球,e36d379fe7
+网络,台球,CCTV-Billiards (1080p),6,1,5,0,http://dassby.qqff.top:99/live/央视台球/index.m3u8,台球,17e72db421
 网络,名侦探柯南,名侦探柯南,2,0,2,0,,名侦探柯南,5dfa4e2d03
 网络,咪咕,咪咕直播,38,0,8,0,,咪咕,0da4ed2ff0
 网络,咪咕1,咪咕1,1,0,1,0,,咪咕1,ea1b0fca31
@@ -607,7 +607,7 @@
 网络,教育2台,教育2台,1,0,1,0,,教育2台,b9fba3dd00
 网络,教育3台,教育3台,2,0,2,0,,教育3台,e6ce8476f2
 网络,教育4台,教育4台,3,0,3,0,,教育4台,74873aa6a7
-网络,文化精品,文化精品,6,1,5,0,http://38.75.136.137:98/gslb/dsdqpub/ysjp.m3u8?auth=testpub,文化精品,bada76107f
+网络,文化精品,CCTV-Culture of Quality SD (1080p),6,1,5,0,http://38.75.136.137:98/gslb/dsdqpub/ysjp.m3u8?auth=testpub,文化精品,f09fa176b9
 网络,文物宝库,文物宝库,1,0,1,0,,文物宝库,7fd04be8b7
 网络,斗鱼港剧,斗鱼港剧,1,0,1,0,,斗鱼港剧,e18cb3540f
 网络,新三国,新三国,3,0,3,0,,新三国,68f83d78ad
