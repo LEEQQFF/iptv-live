@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-29T00:12:44+08:00",
+ "updated": "2026-11-29T01:10:59+08:00",
  "mode": "light",
  "repos": [
   "vbskycn/iptv",
@@ -7,9 +7,9 @@
   "iptv-org/iptv",
   "yuanzl77/IPTV"
  ],
- "candidates": 672,
+ "candidates": 674,
  "validated": 24,
- "valid": 0,
+ "valid": 1,
  "repaired": [],
  "fail_samples": [
   {
@@ -74,62 +74,57 @@
   },
   {
    "url": "http://gslbserv.itv.cmvideo.cn/1000000001000000515/1.m3u8?channel-id=ystenlive&Contentid=1000000001000000515&livemode=1&stbId=3",
-   "reason": "http 403",
+   "reason": "ConnectTimeout",
    "from_repo": "fanmingming/live"
   },
   {
    "url": "http://gslbserv.itv.cmvideo.cn/1000000001000001096/1.m3u8?channel-id=ystenlive&Contentid=1000000001000001096&livemode=1&stbId=3",
-   "reason": "http 403",
+   "reason": "ConnectTimeout",
    "from_repo": "fanmingming/live"
   },
   {
    "url": "http://gslbserv.itv.cmvideo.cn/1000000001000001737/1.m3u8?channel-id=ystenlive&Contentid=1000000001000001737&livemode=1&stbId=3",
-   "reason": "http 403",
+   "reason": "ConnectTimeout",
    "from_repo": "fanmingming/live"
   },
   {
    "url": "http://gslbserv.itv.cmvideo.cn/1000000001000001828/1.m3u8?channel-id=ystenlive&Contentid=1000000001000001828&livemode=1&stbId=3",
-   "reason": "http 403",
+   "reason": "ConnectTimeout",
    "from_repo": "fanmingming/live"
   },
   {
    "url": "http://gslbserv.itv.cmvideo.cn/1000000001000001910/1.m3u8?channel-id=ystenlive&Contentid=1000000001000001910&livemode=1&stbId=3",
-   "reason": "http 403",
+   "reason": "ConnectTimeout",
    "from_repo": "fanmingming/live"
   },
   {
    "url": "http://gslbserv.itv.cmvideo.cn/1000000001000001925/1.m3u8?channel-id=ystenlive&Contentid=1000000001000001925&livemode=1&stbId=3",
-   "reason": "http 403",
+   "reason": "ConnectTimeout",
    "from_repo": "fanmingming/live"
   },
   {
    "url": "http://gslbserv.itv.cmvideo.cn/1000000001000003775/1.m3u8?channel-id=ystenlive&Contentid=1000000001000003775&livemode=1&stbId=3",
-   "reason": "http 403",
+   "reason": "ConnectTimeout",
    "from_repo": "fanmingming/live"
   },
   {
    "url": "http://gslbserv.itv.cmvideo.cn/1000000001000006197/1.m3u8?channel-id=ystenlive&Contentid=1000000001000006197&livemode=1&stbId=3",
-   "reason": "http 403",
+   "reason": "ConnectTimeout",
    "from_repo": "fanmingming/live"
   },
   {
    "url": "http://gslbserv.itv.cmvideo.cn/1000000001000008170/1.m3u8?channel-id=ystenlive&Contentid=1000000001000008170&livemode=1&stbId=3",
-   "reason": "http 403",
+   "reason": "ConnectTimeout",
    "from_repo": "fanmingming/live"
   },
   {
    "url": "http://gslbserv.itv.cmvideo.cn/1000000001000009601/1.m3u8?channel-id=ystenlive&Contentid=1000000001000009601&livemode=1&stbId=3",
-   "reason": "http 403",
+   "reason": "ConnectTimeout",
    "from_repo": "fanmingming/live"
   },
   {
    "url": "http://gslbserv.itv.cmvideo.cn/1000000001000014176/1.m3u8?channel-id=ystenlive&Contentid=1000000001000014176&livemode=1&stbId=3",
-   "reason": "http 403",
-   "from_repo": "fanmingming/live"
-  },
-  {
-   "url": "http://gslbserv.itv.cmvideo.cn/1000000001000014260/1.m3u8?channel-id=ystenlive&Contentid=1000000001000014260&livemode=1&stbId=3",
-   "reason": "http 403",
+   "reason": "ConnectTimeout",
    "from_repo": "fanmingming/live"
   }
  ],
@@ -226,6 +221,17 @@
    "direct": false,
    "name": "",
    "last_ok": "2026-11-27T01:17:04+08:00",
+   "fail_count": 0
+  },
+  {
+   "url": "http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "enabled": true,
+   "items": 1,
+   "from_repo": "vbskycn/iptv",
+   "from_file": "tv/iptv4.m3u",
+   "direct": false,
+   "name": "",
+   "last_ok": "2026-11-29T01:10:59+08:00",
    "fail_count": 0
   },
   {
@@ -428,7 +434,7 @@
   },
   {
    "url": "http://60.222.246.220:19433/hls1.m3u8",
-   "enabled": true,
+   "enabled": false,
    "items": 1,
    "from_repo": "vbskycn/iptv",
    "from_file": "tv/iptv4.m3u",
@@ -747,17 +753,6 @@
   },
   {
    "url": "http://ali-m-l.cztv.com/channels/lantian/channel12/720p.m3u8?zzhed",
-   "enabled": false,
-   "items": 1,
-   "from_repo": "vbskycn/iptv",
-   "from_file": "tv/iptv4.m3u",
-   "direct": false,
-   "name": "",
-   "last_ok": "2026-11-27T02:11:04+08:00",
-   "fail_count": 0
-  },
-  {
-   "url": "http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8",
    "enabled": false,
    "items": 1,
    "from_repo": "vbskycn/iptv",
